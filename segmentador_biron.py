@@ -9,7 +9,7 @@ import textgrids#remover overlaps de textgrids
 import nltk
 import mytextgrid
 from praatio import textgrid
-
+from pympi.Praat import TextGrid as pympiTextGrid
 
 clean_vocab ='ABCDEFGHIJKLMNOPQRSTUVWXYZÇÃÀÁÂÊÉÍÓÔÕÚÛabcdefghijklmnopqrstuvwxyzçãàáâêéíóôõúû\-\'\n\ '
 
@@ -154,6 +154,51 @@ class AutomaticSegmentation:
                         nlf2.write(lp+" ") # escreve o arquivo de palavras por locutor
         self.text_align = locs_file.replace(".txt", "_palavras_align.txt")
 
+    def concatenate_textgrids(self, alignment_tg_list):
+
+        #textgrids_quantity = len(alignment_tg_list)
+        tg_list = []
+        initial_time = 0
+        test = pympiTextGrid("Mestrado/SP_DID_242_segmentado/SP_DID_242_1/SP_DID_242_clipped_4.TextGrid")
+        for textgrid in alignment_tg_list:
+            print(textgrid)
+            tg = pympiTextGrid(textgrid)
+            initial_time += tg.start_time
+            tiers_list = []
+            for tier in textgrid:
+                for interval in tier:
+                    interval += initial_time
+                tiers_list.append(tier)
+            tg_list.append(tiers_list)
+
+        # inicializando textgrid final
+        final_tg = tg_list[0]
+        for tier in final_tg:
+            for interval in tier:
+                print(interval)
+        #for i in len(tg_list[0]):
+        #    final_tg.add_tier("")
+
+        tg_list.pop(0) #remove primeiro elemento
+        for textgrid in tg_list:
+            index = 0
+            for tier in textgrid:
+                final_tier[index].intervals.extend(tier)
+                index += 1
+
+        final_tg.save("concatenated_textgrid.TextGrid")
+                #tier = input_tg.get_tier_by_name("fonemeas")
+        #tier_correct_time = tgt.core.IntervalTier(start_time=input_tg.start_time + initial_time, end_time=input_tg.end_time + initial_time, name="fonemeas", objects=None)
+        #for interval in tier.intervals:
+        #    interval += initial_time
+            #interval = tgt.core.Interval(start_time=interval.start_time + initial_time, end_time=interval.end_time + initial_time, text=interval.text)
+            #tier_correct_time.add_interval(interval)
+
+        #tier = tier_correct_time
+        #for interval in tier.intervals:
+        #    print(interval)
+
+
     def predict_encoding(self, tg_path):
         '''Predict a file's encoding using chardet'''
         # Open the file as binary data
@@ -290,12 +335,12 @@ class AutomaticSegmentation:
 
         #print("Boundaries tier",boundaries_tier)
 
-    def find_boundaries(self, locs_file, tg_file, annot_tg, output_tg_file, window_size, delta1, delta2, silence_threshold, interval_size, min_words_h2, initial_time):        
+    def find_boundaries(self, locs_file, tg_file, annot_tg, output_tg_file, window_size, delta1, delta2, silence_threshold, interval_size, min_words_h2):        
         input_tg = tgt.io.read_textgrid(tg_file, self.predict_encoding(tg_file), include_empty_intervals=False)
         output_tg = tgt.core.TextGrid(output_tg_file)
         annot_tg = tgt.core.TextGrid(annot_tg)
 
-        boundaries_tier = tgt.core.IntervalTier(start_time=input_tg.start_time, end_time=input_tg.end_time, name="fronteiras_metodo", objects=None)
+        boundaries_tier = tgt.core.IntervalTier(start_time=input_tg.start_time + initial_time, end_time=input_tg.end_time + initial_time, name="fronteiras_metodo", objects=None)
 
         # lemos as palavras no arquivo com locutores e geramos essas duas listas:
             # sentences: guarda todas as palavras do texto
@@ -336,15 +381,13 @@ class AutomaticSegmentation:
         #print("sentences", sentences)
         #print("palavras convertidas para fonemas", g2p_words)
 
-        tier = input_tg.get_tier_by_name("fonemeas")
+        #tier = input_tg.get_tier_by_name("fonemeas")
         #tier_correct_time = tgt.core.IntervalTier(start_time=input_tg.start_time + initial_time, end_time=input_tg.end_time + initial_time, name="fonemeas", objects=None)
         #for interval in tier.intervals:
-            #print(interval)
+        #    interval += initial_time
             #interval = tgt.core.Interval(start_time=interval.start_time + initial_time, end_time=interval.end_time + initial_time, text=interval.text)
             #tier_correct_time.add_interval(interval)
-            #print(interval)
-            #print("")
-        #a = abuble
+
         #tier = tier_correct_time
         #for interval in tier.intervals:
         #    print(interval)
@@ -468,8 +511,8 @@ class AutomaticSegmentation:
 
                         if curr_loc not in tier_names:
 
-                            loc_tb_tier = tgt.core.IntervalTier(start_time=input_tg.start_time, end_time=input_tg.end_time, name="TB-"+curr_loc, objects=None)
-                            loc_ntb_tier = tgt.core.IntervalTier(start_time=input_tg.start_time, end_time=input_tg.end_time, name="NTB-"+curr_loc, objects=None)
+                            loc_tb_tier = tgt.core.IntervalTier(start_time=input_tg.start_time + initial_time, end_time=input_tg.end_time + initial_time, name="TB-"+curr_loc, objects=None)
+                            loc_ntb_tier = tgt.core.IntervalTier(start_time=input_tg.start_time + initial_time, end_time=input_tg.end_time + initial_time, name="NTB-"+curr_loc, objects=None)
 
                             # Adds the new tiers to the textgrid file
                             output_tg.add_tier(loc_tb_tier) 
@@ -505,8 +548,8 @@ class AutomaticSegmentation:
                         else:
                             # Creates TB and NTB tiers for the speaker
                             #print("new tiers: TB-"+curr_loc, "and", "NTB-"+curr_loc)
-                            loc_tb_tier = tgt.core.IntervalTier(start_time=input_tg.start_time, end_time=input_tg.end_time, name="TB-"+curr_loc, objects=None)
-                            loc_ntb_tier = tgt.core.IntervalTier(start_time=input_tg.start_time, end_time=input_tg.end_time, name="NTB-"+curr_loc, objects=None)
+                            loc_tb_tier = tgt.core.IntervalTier(start_time=input_tg.start_time + initial_time, end_time=input_tg.end_time + initial_time, name="TB-"+curr_loc, objects=None)
+                            loc_ntb_tier = tgt.core.IntervalTier(start_time=input_tg.start_time + initial_time, end_time=input_tg.end_time + initial_time, name="NTB-"+curr_loc, objects=None)
 
                             # Adds the new tiers to the textgrid file
                             output_tg.add_tier(loc_tb_tier) 
@@ -596,11 +639,13 @@ class AutomaticSegmentation:
             except:
                 print("overlap")
 
+
+
         # adiciona tier para comentários dos anotadores
-        comments1_tier = tgt.core.IntervalTier(start_time=input_tg.start_time, end_time=input_tg.end_time, name="comentarios-anotacao", objects=None)
+        comments1_tier = tgt.core.IntervalTier(start_time=input_tg.start_time + initial_time, end_time=input_tg.end_time + initial_time, name="comentarios-anotacao", objects=None)
         output_tg.add_tier(comments1_tier) 
 
-        comments2_tier = tgt.core.IntervalTier(start_time=input_tg.start_time, end_time=input_tg.end_time, name="comentarios", objects=None)
+        comments2_tier = tgt.core.IntervalTier(start_time=input_tg.start_time + initial_time, end_time=input_tg.end_time + initial_time, name="comentarios", objects=None)
         output_tg.add_tier(comments2_tier) 
 
         #for name in output_tg.get_tier_names():
@@ -766,6 +811,7 @@ inq = "SP_DID_242"
 i = 1
 segments_quantity = 4
 initial_time = 0
+alignment_tg_list = []
 while i <= segments_quantity:
 
     segment_number = str(i)
@@ -798,30 +844,35 @@ while i <= segments_quantity:
     #try: 
         # Pré-processando text grid de entrada
     Segmentation.remove_overlaps(alignment_tg)
+    alignment_tg_list.append(alignment_tg)
 
-    # Aplicando o método
-    silences, dsrs_1, dsrs_2 = Segmentation.find_boundaries(locs_words_file, alignment_tg, annot_tg, output_tg_file, window_size, delta1, delta2, silence_threshold, interval_size, min_words_h2, initial_time)
-    alignment_tg = tgt.io.read_textgrid(alignment_tg, AutomaticSegmentation.predict_encoding(AutomaticSegmentation, alignment_tg), include_empty_intervals=False)
-    initial_time += alignment_tg.end_time
-    print("initial time", initial_time)
+# Juntando todos os textgrids de entrada
+print(alignment_tg_list)
+alignment_tg = Segmentation.concatenate_textgrids(alignment_tg_list)
 
-    # Imprimindo alguns dados
-    print("silences", silences)
-    print("Quantity of boundaries obtained with the silences heuristic:",len(silences))
-    print("dsrs1", dsrs_1)
-    print("Quantity of boundaries obtained with the first heuristic:",len(dsrs_1))
-    print("dsrs2", dsrs_2)
-    print("Quantity of boundaries obtained with the second heuristic:",len(dsrs_2))
-    print("Total:", len(silences)+len(dsrs_1)+len(dsrs_2))
-    print(output_tg_file, "SUCCESS" )
+# Aplicando o método
+silences, dsrs_1, dsrs_2 = Segmentation.find_boundaries(locs_words_file, alignment_tg, annot_tg, output_tg_file, window_size, delta1, delta2, silence_threshold, interval_size, min_words_h2, initial_time)
+alignment_tg = tgt.io.read_textgrid(alignment_tg, AutomaticSegmentation.predict_encoding(AutomaticSegmentation, alignment_tg), include_empty_intervals=False)
+initial_time += alignment_tg.end_time
+print("initial time", initial_time)
 
-    #except:
-    #    print(output_tg_file, "FAILED" )
-    #    continue
+# Imprimindo alguns dados
+print("silences", silences)
+print("Quantity of boundaries obtained with the silences heuristic:",len(silences))
+print("dsrs1", dsrs_1)
+print("Quantity of boundaries obtained with the first heuristic:",len(dsrs_1))
+print("dsrs2", dsrs_2)
+print("Quantity of boundaries obtained with the second heuristic:",len(dsrs_2))
+print("Total:", len(silences)+len(dsrs_1)+len(dsrs_2))
+print(output_tg_file, "SUCCESS" )
 
-    # Métricas
-    #Segmentation.ser(annot_tg, output_tg_file, "NTB", silences, dsrs_1, dsrs_2, hits_threshold)
-    Segmentation.metrics(annot_tg, output_tg_file, silences, dsrs_1, dsrs_2, hits_threshold)
+#except:
+#    print(output_tg_file, "FAILED" )
+#    continue
+
+# Métricas
+#Segmentation.ser(annot_tg, output_tg_file, "NTB", silences, dsrs_1, dsrs_2, hits_threshold)
+Segmentation.metrics(annot_tg, output_tg_file, silences, dsrs_1, dsrs_2, hits_threshold)
 
 # 6 parâmetros: tamanho da janela: 0.3                      (em s, deve ser positivo e não deve ser grande, talvez no max 1s)
 #               threshold da 1a heurística (porcentagem
