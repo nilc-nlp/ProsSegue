@@ -337,13 +337,17 @@ class AutomaticSegmentation:
         #print("palavras convertidas para fonemas", g2p_words)
 
         tier = input_tg.get_tier_by_name("fonemeas")
-        for interval in tier.intervals:
-            print(interval)
-            interval = tgt.core.Interval(start_time=interval.start_time + initial_time, end_time=interval.end_time + initial_time, text=interval.text)
-            print(interval)
-            print("")
+        #tier_correct_time = tgt.core.IntervalTier(start_time=input_tg.start_time + initial_time, end_time=input_tg.end_time + initial_time, name="fonemeas", objects=None)
+        #for interval in tier.intervals:
+            #print(interval)
+            #interval = tgt.core.Interval(start_time=interval.start_time + initial_time, end_time=interval.end_time + initial_time, text=interval.text)
+            #tier_correct_time.add_interval(interval)
+            #print(interval)
+            #print("")
         #a = abuble
-        
+        #tier = tier_correct_time
+        #for interval in tier.intervals:
+        #    print(interval)
         # índice para iterar pelas palavras convertidas via g2p
         i = 0
         curr_turn = ""
@@ -409,7 +413,7 @@ class AutomaticSegmentation:
                     aux_word = ""
                     # verificando e adicionando os próximos fonemas que ainda cabem na janela atual
                     while index < len(tier.intervals) and tier.intervals[index].end_time < curr_window[1]:
-                        print(curr_word, i, j, locs_and_words[i+j])
+                        #print(curr_word, i, j, locs_and_words[i+j])
                         if tier.intervals[index].text == 'sil': 
                             index += 1
                             continue
@@ -500,7 +504,7 @@ class AutomaticSegmentation:
                             loc_ntb_tier = output_tg.get_tier_by_name("NTB-"+curr_loc) 
                         else:
                             # Creates TB and NTB tiers for the speaker
-                            print("new tiers: TB-"+curr_loc, "and", "NTB-"+curr_loc)
+                            #print("new tiers: TB-"+curr_loc, "and", "NTB-"+curr_loc)
                             loc_tb_tier = tgt.core.IntervalTier(start_time=input_tg.start_time, end_time=input_tg.end_time, name="TB-"+curr_loc, objects=None)
                             loc_ntb_tier = tgt.core.IntervalTier(start_time=input_tg.start_time, end_time=input_tg.end_time, name="NTB-"+curr_loc, objects=None)
 
@@ -599,10 +603,10 @@ class AutomaticSegmentation:
         comments2_tier = tgt.core.IntervalTier(start_time=input_tg.start_time, end_time=input_tg.end_time, name="comentarios", objects=None)
         output_tg.add_tier(comments2_tier) 
 
-        for name in output_tg.get_tier_names():
-            print(name)
+        #for name in output_tg.get_tier_names():
+        #    print(name)
 
-        print("Vou escrever o textgrid no arquivo agr e fim da função")
+        #print("Vou escrever o textgrid no arquivo agr e fim da função")
         tgt.io.write_to_file(output_tg, output_tg_file, format='long', encoding='utf-8') 
         return silences, timestamps_dsrs_1, timestamps_dsrs_2
 
@@ -797,8 +801,8 @@ while i <= segments_quantity:
 
     # Aplicando o método
     silences, dsrs_1, dsrs_2 = Segmentation.find_boundaries(locs_words_file, alignment_tg, annot_tg, output_tg_file, window_size, delta1, delta2, silence_threshold, interval_size, min_words_h2, initial_time)
-    input_tg = tgt.io.read_textgrid(tg_file, self.predict_encoding(tg_file), include_empty_intervals=False)
-    initial_time += input_tg.end_time
+    alignment_tg = tgt.io.read_textgrid(alignment_tg, AutomaticSegmentation.predict_encoding(AutomaticSegmentation, alignment_tg), include_empty_intervals=False)
+    initial_time += alignment_tg.end_time
     print("initial time", initial_time)
 
     # Imprimindo alguns dados
