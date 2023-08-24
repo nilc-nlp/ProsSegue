@@ -156,37 +156,21 @@ class AutomaticSegmentation:
 
     def concatenate_textgrids(self, alignment_tg_list):
 
-        #textgrids_quantity = len(alignment_tg_list)
-        tg_list = []
         initial_time = 0
-        test = pympiTextGrid("Mestrado/SP_DID_242_segmentado/SP_DID_242_1/SP_DID_242_clipped_4.TextGrid")
+        final_textgrid = tgt.TextGrid()
+        tiers_list = []
         for textgrid in alignment_tg_list:
-            print(textgrid)
-            tg = pympiTextGrid(textgrid)
+            tg = tgt.read_textgrid(textgrid)
             initial_time += tg.start_time
-            tiers_list = []
             for tier in textgrid:
+                print(tier.name)
+                aux_tier = tgt.Tier(name=tier.name)
                 for interval in tier:
-                    interval += initial_time
-                tiers_list.append(tier)
-            tg_list.append(tiers_list)
+                    new_interval = tgt.Interval(interval.start_time + initial_time,interval.end_time + initial_time, text=interval.text)
+                    aux_tier.add_interval(new_interval)
+                tiers_list.add(tier)
 
-        # inicializando textgrid final
-        final_tg = tg_list[0]
-        for tier in final_tg:
-            for interval in tier:
-                print(interval)
-        #for i in len(tg_list[0]):
-        #    final_tg.add_tier("")
 
-        tg_list.pop(0) #remove primeiro elemento
-        for textgrid in tg_list:
-            index = 0
-            for tier in textgrid:
-                final_tier[index].intervals.extend(tier)
-                index += 1
-
-        final_tg.save("concatenated_textgrid.TextGrid")
                 #tier = input_tg.get_tier_by_name("fonemeas")
         #tier_correct_time = tgt.core.IntervalTier(start_time=input_tg.start_time + initial_time, end_time=input_tg.end_time + initial_time, name="fonemeas", objects=None)
         #for interval in tier.intervals:
