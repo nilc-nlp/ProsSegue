@@ -157,20 +157,28 @@ class AutomaticSegmentation:
     def concatenate_textgrids(self, alignment_tg_list):
 
         initial_time = 0
-        final_textgrid = tgt.TextGrid()
+        first_tg = tgt.io.read_textgrid(alignment_tg_list[0], self.predict_encoding(alignment_tg_list[0]), include_empty_intervals=False)
+        last_tg = tgt.io.read_textgrid(alignment_tg_list[-1], self.predict_encoding(alignment_tg_list[-1]), include_empty_intervals=False)
+        final_textgrid = tgt.core.TextGrid()#start_time=first_tg.start_time, end_time=last_tg.end_time + initial_time)
         tiers_list = []
-        for textgrid in alignment_tg_list:
-            tg = tgt.read_textgrid(textgrid)
-            initial_time += tg.start_time
-            for tier in textgrid:
-                print(tier.name)
-                aux_tier = tgt.Tier(name=tier.name)
-                for interval in tier:
-                    new_interval = tgt.Interval(interval.start_time + initial_time,interval.end_time + initial_time, text=interval.text)
-                    aux_tier.add_interval(new_interval)
-                tiers_list.add(tier)
 
+        #tier_names = {tier.name for tg in alignment_tg_list for tier in tgt.io.read_textgrid(tg).tiers} 
+        #print(tier_names)
+        
+        for tier in first_tg.tiers:
+            new_tier = tgt.core.IntervalTier(start_time=tier.start_time + initial_time, end_time=tier.end_time + initial_time, name=tier.name, objects=None)
+            for textgrid in alignment_tg_list:
+                tg = tgt.io.read_textgrid(textgrid)
+                original_tier = tg.get_tier_by_name(tier.name)
+                print(tier.name, initial_time)
+                for interval in original_tier.intervals:
+                    new_interval = tgt.core.Interval(start_time=interval.start_time + initial_time,end_time=interval.end_time + initial_time, text=interval.text)
+                    new_tier.add_interval(new_interval)
+                initial_time += tg.end_time
+            final_textgrid.add_tier(new_tier)
+            initial_time = 0
 
+        tgt.io.write_to_file(final_textgrid, "textgridTESTE.TextGrid", format='long', encoding='utf-8') 
                 #tier = input_tg.get_tier_by_name("fonemeas")
         #tier_correct_time = tgt.core.IntervalTier(start_time=input_tg.start_time + initial_time, end_time=input_tg.end_time + initial_time, name="fonemeas", objects=None)
         #for interval in tier.intervals:
