@@ -154,42 +154,32 @@ class AutomaticSegmentation:
                         nlf2.write(lp+" ") # escreve o arquivo de palavras por locutor
         self.text_align = locs_file.replace(".txt", "_palavras_align.txt")
 
-    def concatenate_textgrids(self, alignment_tg_list):
-
-        initial_time = 0
-        first_tg = tgt.io.read_textgrid(alignment_tg_list[0], self.predict_encoding(alignment_tg_list[0]), include_empty_intervals=False)
-        last_tg = tgt.io.read_textgrid(alignment_tg_list[-1], self.predict_encoding(alignment_tg_list[-1]), include_empty_intervals=False)
-        final_textgrid = tgt.core.TextGrid()#start_time=first_tg.start_time, end_time=last_tg.end_time + initial_time)
-        tiers_list = []
-
-        #tier_names = {tier.name for tg in alignment_tg_list for tier in tgt.io.read_textgrid(tg).tiers} 
-        #print(tier_names)
+    # função para concatenar todos os textgrids da entrada gerados pelo ufpalign e escrever um textgrid único correspondente a todos os segmentos do inquérito
+    def concatenate_textgrids(self, alignment_tg_list, final_tg_name):
         
+        first_tg = tgt.io.read_textgrid(alignment_tg_list[0])
+        final_textgrid = tgt.core.TextGrid()
+        initial_time = 0
+
+        # passaremos por cada camada do textgrid final só uma vez, adicionando todos os intervalos de cada textgrid correspondente àquela camada com os tempos ajustados
         for tier in first_tg.tiers:
             new_tier = tgt.core.IntervalTier(start_time=tier.start_time + initial_time, end_time=tier.end_time + initial_time, name=tier.name, objects=None)
+            # para o textgrid correspondente a cada segmento:
             for textgrid in alignment_tg_list:
                 tg = tgt.io.read_textgrid(textgrid)
                 original_tier = tg.get_tier_by_name(tier.name)
-                print(tier.name, initial_time)
+                # para cada intervalo da camada atual no textgrid atual, criamos um novo intervalo com os tempos ajustados e o adicionamos à camada que criamos no textgrid final
                 for interval in original_tier.intervals:
                     new_interval = tgt.core.Interval(start_time=interval.start_time + initial_time,end_time=interval.end_time + initial_time, text=interval.text)
                     new_tier.add_interval(new_interval)
+                # terminamos de percorrer o textgrid de um segmento, então adicionamos o tempo final do textgrid percorrido à variável que será somada com os tempos do próximo textgrid
                 initial_time += tg.end_time
+            # quando terminamos de percorrer todos os textgrids naquela camada, adicionamos a camada ao textgrid final
             final_textgrid.add_tier(new_tier)
             initial_time = 0
 
-        tgt.io.write_to_file(final_textgrid, "textgridTESTE.TextGrid", format='long', encoding='utf-8') 
-                #tier = input_tg.get_tier_by_name("fonemeas")
-        #tier_correct_time = tgt.core.IntervalTier(start_time=input_tg.start_time + initial_time, end_time=input_tg.end_time + initial_time, name="fonemeas", objects=None)
-        #for interval in tier.intervals:
-        #    interval += initial_time
-            #interval = tgt.core.Interval(start_time=interval.start_time + initial_time, end_time=interval.end_time + initial_time, text=interval.text)
-            #tier_correct_time.add_interval(interval)
-
-        #tier = tier_correct_time
-        #for interval in tier.intervals:
-        #    print(interval)
-
+        # escrevendo o textgrid concatenado em um novo arquivo
+        tgt.io.write_to_file(final_textgrid, final_tg_name, format='long', encoding='utf-8') 
 
     def predict_encoding(self, tg_path):
         '''Predict a file's encoding using chardet'''
@@ -369,20 +359,11 @@ class AutomaticSegmentation:
                 # substituimos fonemas 'w' por 'v' (e 'y' por 'i') pois o alinhador joga fora (é uma solução tosca, mas o que dá pra fazer sem alterar o alinhador)
                 g2p_words[pwi] = g2p_words[pwi].replace("w", "v")
                 g2p_words[pwi] = g2p_words[pwi].replace("y", "i")
-        print(g2p_words, len(g2p_words))
+        #print(g2p_words, len(g2p_words))
         #print("sentences", sentences)
         #print("palavras convertidas para fonemas", g2p_words)
 
-        #tier = input_tg.get_tier_by_name("fonemeas")
-        #tier_correct_time = tgt.core.IntervalTier(start_time=input_tg.start_time + initial_time, end_time=input_tg.end_time + initial_time, name="fonemeas", objects=None)
-        #for interval in tier.intervals:
-        #    interval += initial_time
-            #interval = tgt.core.Interval(start_time=interval.start_time + initial_time, end_time=interval.end_time + initial_time, text=interval.text)
-            #tier_correct_time.add_interval(interval)
-
-        #tier = tier_correct_time
-        #for interval in tier.intervals:
-        #    print(interval)
+        tier = input_tg.get_tier_by_name("fonemeas")
         # índice para iterar pelas palavras convertidas via g2p
         i = 0
         curr_turn = ""
@@ -422,7 +403,6 @@ class AutomaticSegmentation:
 
         # Começamos a percorrer a camada de fonemas do textgrid de input
         for enum, interval in enumerate(tier.intervals):
-            #print(interval,turn_until_word[i],"\n")
             # adicionamos à lista de trechos de silencio caso o fonema seja "sil"
             if interval.text == 'sil':
                 sil_timestamps.append([interval.start_time, interval.end_time]) 
@@ -804,14 +784,12 @@ i = 1
 segments_quantity = 4
 initial_time = 0
 alignment_tg_list = []
-while i <= segments_quantity:
-
+rel_path_inq = "Mestrado/" + inq + "_segmentado/"
+concatenated_tg_file = rel_path_inq + inq + "_concatenated.TextGrid"
+for i in range (1,segments_quantity+1):
     segment_number = str(i)
-    i += 1
-    rel_path_inq = "Mestrado/" + inq + "_segmentado/"
     path = rel_path_inq + inq + "_" + segment_number + "/" + inq 
     clipped_path = path + "_clipped_" + segment_number
-
     locs_file =  clipped_path + "_locutores.txt"
     locs_words_file = clipped_path + "_locutores_palavras.txt"
     alignment_tg = clipped_path + ".TextGrid"
@@ -824,29 +802,25 @@ while i <= segments_quantity:
     # Gera arquivo de palavras por locutor
     Segmentation.generate_words_file(locs_file, locs_words_file)
 
-    # Parâmetros
-    window_size = 0.3
-    delta1 = 0.88
-    delta2 = 0.70
-    interval_size = 3
-    silence_threshold = 0.3
-    min_words_h2 = 10
-    hits_threshold = 0.25
-
-    #try: 
-        # Pré-processando text grid de entrada
+    # Pré-processando text grid de entrada
     Segmentation.remove_overlaps(alignment_tg)
     alignment_tg_list.append(alignment_tg)
 
 # Juntando todos os textgrids de entrada
-print(alignment_tg_list)
-alignment_tg = Segmentation.concatenate_textgrids(alignment_tg_list)
+Segmentation.concatenate_textgrids(alignment_tg_list, concatenated_tg_file)
+
+# Parâmetros
+window_size = 0.3
+delta1 = 0.88
+delta2 = 0.70
+interval_size = 3
+silence_threshold = 0.3
+min_words_h2 = 10
+hits_threshold = 0.25
 
 # Aplicando o método
-silences, dsrs_1, dsrs_2 = Segmentation.find_boundaries(locs_words_file, alignment_tg, annot_tg, output_tg_file, window_size, delta1, delta2, silence_threshold, interval_size, min_words_h2, initial_time)
+silences, dsrs_1, dsrs_2 = Segmentation.find_boundaries(locs_words_file, concatenated_tg_file, annot_tg, output_tg_file, window_size, delta1, delta2, silence_threshold, interval_size, min_words_h2)
 alignment_tg = tgt.io.read_textgrid(alignment_tg, AutomaticSegmentation.predict_encoding(AutomaticSegmentation, alignment_tg), include_empty_intervals=False)
-initial_time += alignment_tg.end_time
-print("initial time", initial_time)
 
 # Imprimindo alguns dados
 print("silences", silences)
@@ -857,10 +831,6 @@ print("dsrs2", dsrs_2)
 print("Quantity of boundaries obtained with the second heuristic:",len(dsrs_2))
 print("Total:", len(silences)+len(dsrs_1)+len(dsrs_2))
 print(output_tg_file, "SUCCESS" )
-
-#except:
-#    print(output_tg_file, "FAILED" )
-#    continue
 
 # Métricas
 #Segmentation.ser(annot_tg, output_tg_file, "NTB", silences, dsrs_1, dsrs_2, hits_threshold)
