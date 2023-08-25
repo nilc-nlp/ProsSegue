@@ -181,6 +181,18 @@ class AutomaticSegmentation:
         # escrevendo o textgrid concatenado em um novo arquivo
         tgt.io.write_to_file(final_textgrid, final_tg_name, format='long', encoding='utf-8') 
 
+    # função para concatenar os arquivos de locutores
+    def concatenate_locs_file(self, locs_files_list, final_locs_file_path):
+
+        concatenated_locs_text = ""
+        for locs_file in locs_files_list:
+            with open(locs_file, "r") as f:
+                concatenated_locs_text += f.read() + "\n"
+
+        # escrever conteúdo concatenado no arquivo final        
+        with open(final_locs_file_path, "w") as final_locs_file:
+            final_locs_file.write(concatenated_locs_text)
+
     def predict_encoding(self, tg_path):
         '''Predict a file's encoding using chardet'''
         # Open the file as binary data
@@ -784,30 +796,39 @@ i = 1
 segments_quantity = 4
 initial_time = 0
 alignment_tg_list = []
+locs_files_list = []
 rel_path_inq = "Mestrado/" + inq + "_segmentado/"
 concatenated_tg_file = rel_path_inq + inq + "_concatenated.TextGrid"
+concatenated_locs_file = rel_path_inq + inq + "_locutores.txt"
+concatenated_locs_words_file = rel_path_inq + inq + "_locutores_palavras.txt"
+output_tg_file = rel_path_inq + inq + "_OUTPUT.TextGrid"
 for i in range (1,segments_quantity+1):
     segment_number = str(i)
     path = rel_path_inq + inq + "_" + segment_number + "/" + inq 
     clipped_path = path + "_clipped_" + segment_number
     locs_file =  clipped_path + "_locutores.txt"
-    locs_words_file = clipped_path + "_locutores_palavras.txt"
+    #locs_words_file = clipped_path + "_locutores_palavras.txt"
     alignment_tg = clipped_path + ".TextGrid"
-    output_tg_file = clipped_path + "_OUTPUT.TextGrid"
+    #output_tg_file = clipped_path + "_OUTPUT.TextGrid"
     annot_tg = path + ".TextGrid"
 
     #Criando a classe com todas as funções que serão utilizadas
     Segmentation = AutomaticSegmentation(path, locs_file)
 
-    # Gera arquivo de palavras por locutor
-    Segmentation.generate_words_file(locs_file, locs_words_file)
-
     # Pré-processando text grid de entrada
     Segmentation.remove_overlaps(alignment_tg)
     alignment_tg_list.append(alignment_tg)
+    locs_files_list.append(locs_file)
 
 # Juntando todos os textgrids de entrada
 Segmentation.concatenate_textgrids(alignment_tg_list, concatenated_tg_file)
+
+
+# Juntando todos os arquivos de locutores
+Segmentation.concatenate_locs_file(locs_files_list, concatenated_locs_file)
+
+# Gera arquivo de palavras por locutor
+Segmentation.generate_words_file(concatenated_locs_file, concatenated_locs_words_file)
 
 # Parâmetros
 window_size = 0.3
@@ -819,8 +840,8 @@ min_words_h2 = 10
 hits_threshold = 0.25
 
 # Aplicando o método
-silences, dsrs_1, dsrs_2 = Segmentation.find_boundaries(locs_words_file, concatenated_tg_file, annot_tg, output_tg_file, window_size, delta1, delta2, silence_threshold, interval_size, min_words_h2)
-alignment_tg = tgt.io.read_textgrid(alignment_tg, AutomaticSegmentation.predict_encoding(AutomaticSegmentation, alignment_tg), include_empty_intervals=False)
+silences, dsrs_1, dsrs_2 = Segmentation.find_boundaries(concatenated_locs_words_file, concatenated_tg_file, annot_tg, output_tg_file, window_size, delta1, delta2, silence_threshold, interval_size, min_words_h2)
+#alignment_tg = tgt.io.read_textgrid(alignment_tg, AutomaticSegmentation.predict_encoding(AutomaticSegmentation, alignment_tg), include_empty_intervals=False)
 
 # Imprimindo alguns dados
 print("silences", silences)
