@@ -334,7 +334,7 @@ class AutomaticSegmentation:
         output_tg = tgt.core.TextGrid(output_tg_file)
         annot_tg = tgt.core.TextGrid(annot_tg)
 
-        boundaries_tier = tgt.core.IntervalTier(start_time=input_tg.start_time + initial_time, end_time=input_tg.end_time + initial_time, name="fronteiras_metodo", objects=None)
+        boundaries_tier = tgt.core.IntervalTier(start_time=input_tg.start_time, end_time=input_tg.end_time, name="fronteiras_metodo", objects=None)
 
         # lemos as palavras no arquivo com locutores e geramos essas duas listas:
             # sentences: guarda todas as palavras do texto
@@ -355,26 +355,30 @@ class AutomaticSegmentation:
             auxGrapheme = ""
             index = 0
             phone = phonemesTier[index]
-
+            still_mounting_grapheme = True
+            
             for grapheme in wordGraphemesTier:
-              while phone.end_time <= grapheme.end_time and index < len(phonemesTier):
+              still_mounting_grapheme = True
+              while still_mounting_grapheme:
                 if phone.text != "sil":
                   auxGrapheme += phone.text
-                  if phone.end_time == grapheme.end_time: # fim da palavra, pula para a próxima
+                  # obs.: achei um erro em que o tempo final do grafema não correspondia ao tempo final do último fonema da palavra, então acrescentei essa condição de o tempo do fonema ser maior ou igual
+                  if phone.end_time >= grapheme.end_time: # fim da palavra, pula para a próxima
                     g2p_words.append(auxGrapheme)
                     auxGrapheme = ""
+                    still_mounting_grapheme = False
                 index += 1
+                
                 if index < len(phonemesTier):
                   phone = phonemesTier[index]
-
+                
             for pwi, pw in enumerate(g2p_words):
                 # substituimos fonemas 'w' por 'v' (e 'y' por 'i') pois o alinhador joga fora (é uma solução tosca, mas o que dá pra fazer sem alterar o alinhador)
                 g2p_words[pwi] = g2p_words[pwi].replace("w", "v")
                 g2p_words[pwi] = g2p_words[pwi].replace("y", "i")
-        #print(g2p_words, len(g2p_words))
         #print("sentences", sentences)
-        #print("palavras convertidas para fonemas", g2p_words)
-
+        #print("palavras convertidas para fonemas", g2p_words, len(g2p_words))
+        
         tier = input_tg.get_tier_by_name("fonemeas")
         # índice para iterar pelas palavras convertidas via g2p
         i = 0
@@ -495,8 +499,8 @@ class AutomaticSegmentation:
 
                         if curr_loc not in tier_names:
 
-                            loc_tb_tier = tgt.core.IntervalTier(start_time=input_tg.start_time + initial_time, end_time=input_tg.end_time + initial_time, name="TB-"+curr_loc, objects=None)
-                            loc_ntb_tier = tgt.core.IntervalTier(start_time=input_tg.start_time + initial_time, end_time=input_tg.end_time + initial_time, name="NTB-"+curr_loc, objects=None)
+                            loc_tb_tier = tgt.core.IntervalTier(start_time=input_tg.start_time, end_time=input_tg.end_time, name="TB-"+curr_loc, objects=None)
+                            loc_ntb_tier = tgt.core.IntervalTier(start_time=input_tg.start_time, end_time=input_tg.end_time, name="NTB-"+curr_loc, objects=None)
 
                             # Adds the new tiers to the textgrid file
                             output_tg.add_tier(loc_tb_tier) 
@@ -532,8 +536,8 @@ class AutomaticSegmentation:
                         else:
                             # Creates TB and NTB tiers for the speaker
                             #print("new tiers: TB-"+curr_loc, "and", "NTB-"+curr_loc)
-                            loc_tb_tier = tgt.core.IntervalTier(start_time=input_tg.start_time + initial_time, end_time=input_tg.end_time + initial_time, name="TB-"+curr_loc, objects=None)
-                            loc_ntb_tier = tgt.core.IntervalTier(start_time=input_tg.start_time + initial_time, end_time=input_tg.end_time + initial_time, name="NTB-"+curr_loc, objects=None)
+                            loc_tb_tier = tgt.core.IntervalTier(start_time=input_tg.start_time, end_time=input_tg.end_time, name="TB-"+curr_loc, objects=None)
+                            loc_ntb_tier = tgt.core.IntervalTier(start_time=input_tg.start_time, end_time=input_tg.end_time, name="NTB-"+curr_loc, objects=None)
 
                             # Adds the new tiers to the textgrid file
                             output_tg.add_tier(loc_tb_tier) 
@@ -626,10 +630,10 @@ class AutomaticSegmentation:
 
 
         # adiciona tier para comentários dos anotadores
-        comments1_tier = tgt.core.IntervalTier(start_time=input_tg.start_time + initial_time, end_time=input_tg.end_time + initial_time, name="comentarios-anotacao", objects=None)
+        comments1_tier = tgt.core.IntervalTier(start_time=input_tg.start_time, end_time=input_tg.end_time, name="comentarios-anotacao", objects=None)
         output_tg.add_tier(comments1_tier) 
 
-        comments2_tier = tgt.core.IntervalTier(start_time=input_tg.start_time + initial_time, end_time=input_tg.end_time + initial_time, name="comentarios", objects=None)
+        comments2_tier = tgt.core.IntervalTier(start_time=input_tg.start_time, end_time=input_tg.end_time, name="comentarios", objects=None)
         output_tg.add_tier(comments2_tier) 
 
         #for name in output_tg.get_tier_names():
@@ -794,7 +798,6 @@ inq = "SP_DID_242"
 #inq = "SP_D2_012"
 i = 1
 segments_quantity = 4
-initial_time = 0
 alignment_tg_list = []
 locs_files_list = []
 rel_path_inq = "Mestrado/" + inq + "_segmentado/"
@@ -841,7 +844,6 @@ hits_threshold = 0.25
 
 # Aplicando o método
 silences, dsrs_1, dsrs_2 = Segmentation.find_boundaries(concatenated_locs_words_file, concatenated_tg_file, annot_tg, output_tg_file, window_size, delta1, delta2, silence_threshold, interval_size, min_words_h2)
-#alignment_tg = tgt.io.read_textgrid(alignment_tg, AutomaticSegmentation.predict_encoding(AutomaticSegmentation, alignment_tg), include_empty_intervals=False)
 
 # Imprimindo alguns dados
 print("silences", silences)
