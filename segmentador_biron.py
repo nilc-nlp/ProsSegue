@@ -448,7 +448,8 @@ class AutomaticSegmentation:
                     aux_word = ""
                     # verificando e adicionando os próximos fonemas que ainda cabem na janela atual
                     while index < len(tier.intervals) and tier.intervals[index].end_time < curr_window[1]:
-                        #print(curr_word, i, j, locs_and_words[i+j])
+                        print(curr_word, i, j, i+j+1),
+                        print(locs_and_words[i+j])
                         if tier.intervals[index].text == 'sil': 
                             index += 1
                             continue
@@ -745,6 +746,12 @@ class AutomaticSegmentation:
         aux_hits = 0
         TB_hits = 0
         NTB_hits = 0
+        aux_I = 0 # erros de inserção, o método colocou fronteiras onde não deveriam existir
+        aux_R = 0
+        TB_I = 0
+        NTB_I = 0
+        TB_R = 0
+        NTB_R = 0
 
         for name in names_annot:
             print(name)
@@ -758,7 +765,7 @@ class AutomaticSegmentation:
                 while index_method < len(tier_method): #and tier_annot.intervals[index_annot].start_time < tier_method.intervals[-1].end_time:
                     #print(tier_annot.intervals[index_annot].start_time, tier_method.intervals[index_method].start_time)
                     # Se for um hit, ambos os índices avançam
-                    if abs (tier_annot.intervals[index_annot].start_time - tier_method.intervals[index_method].start_time) < hits_threshold:
+                    if abs (tier_annot.intervals[index_annot].start_time - tier_method.intervals[index_method].start_time) <= hits_threshold:
                         aux_hits += 1
                         #print("HIT", tier_annot.intervals[index_annot].start_time, tier_method.intervals[index_method].start_time)
                         #print(" ")
@@ -767,12 +774,14 @@ class AutomaticSegmentation:
                     # Se não for hit, o índice que apontar para o intervalo que começa primeiro avança
                     elif tier_annot.intervals[index_annot].start_time < tier_method.intervals[index_method].start_time:
                         index_annot += 1
+                        aux_R += 1
                     else:
                         index_method += 1
+                        aux_I += 1
                 # Verifica se o tempo final da camada do método também é um hit
-                print("Final timestamps compared:",tier_annot.intervals[index_annot].start_time, tier_method.intervals[-1].end_time)
-                print("")
-                if abs (tier_annot.intervals[index_annot].start_time - tier_method.intervals[-1].end_time) < hits_threshold: # Verifica se o tempo final é um hit
+                #print("Final timestamps compared:",tier_annot.intervals[index_annot].start_time, tier_method.intervals[-1].end_time)
+                #print("")
+                if index_annot < len(tier_annot.intervals) and abs (tier_annot.intervals[index_annot].start_time - tier_method.intervals[-1].end_time) < hits_threshold: # Verifica se o tempo final é um hit
                     aux_hits += 1
                     print("HIT", tier_annot.intervals[-1].end_time, tier_method.intervals[-1].end_time)
                     print(" ")
@@ -781,16 +790,39 @@ class AutomaticSegmentation:
                 print("(annot)Quantity of intervals compared(index):layer "+name+":", index_annot)
                 if "NTB" in name:
                     NTB_hits += aux_hits
+                    NTB_I += aux_I
+                    NTB_R += aux_R
                 elif "TB" in name:
                     TB_hits += aux_hits
+                    TB_I += aux_I
+                    TB_R += aux_R
                 #total_hits += aux_hits
                 aux_hits = 0
+                aux_I = 0
+                aux_R = 0
             except:
+                print("error in layer", name, "skipping to next layer")
                 continue
-        
+
+        # hits == C 
+        precision_TB = TB_hits/(TB_I+TB_hits)
+        precision_NTB = NTB_hits/(NTB_I+NTB_hits)
+        recall_TB = TB_hits/(TB_R+TB_hits)
+        recall_NTB = NTB_hits/(NTB_R+NTB_hits)
         print("TB Hits:", TB_hits)
-        print("NTB Hits:", NTB_hits)
-        #print("Total hits:",total_hits)
+        print("NTB Hits:", NTB_hits, "\n")
+        print("Precision TB", round(precision_TB,2))
+        print("Precision NTB", round(precision_NTB,2), "\n")
+        print("Cobertura TB", round (recall_TB,2))
+        print("Cobertura NTB", round(recall_NTB,2), "\n")
+
+        # F1 É UM VALOR ENTRE 0 E 1
+        print("F1 TB", round(2*precision_TB*recall_TB/(precision_TB+recall_TB),2))
+        print("F1 NTB", round(2*precision_NTB*recall_NTB/(precision_NTB+recall_NTB),2), "\n")
+
+        # SER = NUMERO DE ERROS/ NUMERO DE REFERENCIA -> PODE SER MAIOR QUE 100%
+        print("SER TB", round((TB_I+TB_R)/(TB_hits + TB_R),2))
+        print("SER NTB", round((NTB_I+NTB_R)/(NTB_hits + NTB_R),2), "\n")
 
 
 # Organizando caminhos
@@ -861,7 +893,7 @@ print(output_tg_file, "SUCCESS" )
 
 # Métricas
 #Segmentation.ser(annot_tg, output_tg_file, "NTB", silences, dsrs_1, dsrs_2, hits_threshold)
-Segmentation.metrics(annot_tg, output_tg_file, silences, dsrs_1, dsrs_2, hits_threshold)
+Segmentation.metrics(annot_tg, output_tg_file, silences, dsrs_1, dsrs_2, hits_threshold) 
 
 # 6 parâmetros: tamanho da janela: 0.3                      (em s, deve ser positivo e não deve ser grande, talvez no max 1s)
 #               threshold da 1a heurística (porcentagem
