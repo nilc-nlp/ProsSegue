@@ -113,7 +113,6 @@ class AutomaticSegmentation:
     def generate_words_file(self, locs_file, locs_words_file):
         with open(locs_file, 'r') as lf:
             linhas = lf.readlines()
-
         locs_list = []
         for i, l in enumerate(linhas):
             if(l.find(';') != -1):
@@ -123,8 +122,8 @@ class AutomaticSegmentation:
                     #print("loc appended", loc)
                     locs_list.append(loc)
 
-        with open(locs_file.replace("_locutores.txt", ".txt"), 'w') as nlf2:
-            with open(locs_words_file, 'w') as nlf:
+        with open(locs_file.replace("_locutores.txt", ".txt"), 'w', encoding='utf-8') as nlf2:
+            with open(locs_words_file, 'w', encoding='utf-8') as nlf:
                 for l in linhas:
                     if(l.find(';') != -1):
                         loc = l.split(";")[0]
@@ -157,7 +156,7 @@ class AutomaticSegmentation:
     # função para concatenar todos os textgrids da entrada gerados pelo ufpalign e escrever um textgrid único correspondente a todos os segmentos do inquérito
     def concatenate_textgrids(self, alignment_tg_list, final_tg_name):
         
-        first_tg = tgt.io.read_textgrid(alignment_tg_list[0])
+        first_tg = tgt.io.read_textgrid(alignment_tg_list[0], self.predict_encoding(alignment_tg_list[0]))
         final_textgrid = tgt.core.TextGrid()
         initial_time = 0
 
@@ -166,7 +165,7 @@ class AutomaticSegmentation:
             new_tier = tgt.core.IntervalTier(start_time=tier.start_time + initial_time, end_time=tier.end_time + initial_time, name=tier.name, objects=None)
             # para o textgrid correspondente a cada segmento:
             for textgrid in alignment_tg_list:
-                tg = tgt.io.read_textgrid(textgrid)
+                tg = tgt.io.read_textgrid(textgrid, self.predict_encoding(textgrid))
                 original_tier = tg.get_tier_by_name(tier.name)
                 # para cada intervalo da camada atual no textgrid atual, criamos um novo intervalo com os tempos ajustados e o adicionamos à camada que criamos no textgrid final
                 for interval in original_tier.intervals:
@@ -186,7 +185,7 @@ class AutomaticSegmentation:
 
         concatenated_locs_text = ""
         for locs_file in locs_files_list:
-            with open(locs_file, "r") as f:
+            with open(locs_file, "r", encoding='utf-8-sig') as f:
                 concatenated_locs_text += f.read() + "\n"
 
         # escrever conteúdo concatenado no arquivo final        
@@ -379,6 +378,8 @@ class AutomaticSegmentation:
         #print("sentences", sentences)
         #print("palavras convertidas para fonemas", g2p_words, len(g2p_words))
         
+        # SO FAR SO GOOD
+
         tier = input_tg.get_tier_by_name("fonemeas")
         # índice para iterar pelas palavras convertidas via g2p
         i = 0
