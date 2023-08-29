@@ -138,6 +138,9 @@ class AutomaticSegmentation:
                         # padronizando locutores para doc1, doc2... e l1,l2,...
                         loc = re.sub(r'inf(\d+)', r'l\1', loc)
                         loc = re.sub(r'doc(\d+)', r'doc\1', loc)
+                        loc = re.sub(r'inff', r'l1', loc)
+                        loc = re.sub(r'infm', r'l2', loc)
+                        loc = re.sub(r'docf', r'doc2', loc)
                         loc = re.sub('inf$', 'l1', loc)
                         loc = re.sub('doc$', 'doc1', loc)
                         for loc_from_list in locs_list:
@@ -795,10 +798,10 @@ class AutomaticSegmentation:
 # Inquérito selecionado
 #inq = "SP_EF_156"
 #inq = "SP_D2_255"
-inq = "SP_DID_242"
-#inq = "SP_D2_012"
+#inq = "SP_DID_242"
+inq = "SP_D2_012"
 i = 1
-segments_quantity = 4
+segments_quantity = 8
 alignment_tg_list = []
 locs_files_list = []
 rel_path_inq = "Mestrado/" + inq + "_segmentado/"
