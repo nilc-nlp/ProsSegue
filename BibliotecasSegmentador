@@ -1,0 +1,9 @@
+Bibliotecas utilizadas pelo código do segmentador
+
+import re
+import os
+import chardet
+import tgt
+import textgrids
+import nltk
+
