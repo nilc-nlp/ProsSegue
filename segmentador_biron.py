@@ -138,11 +138,13 @@ class AutomaticSegmentation:
                         # padronizando locutores para doc1, doc2... e l1,l2,...
                         loc = re.sub(r'inf(\d+)', r'l\1', loc)
                         loc = re.sub(r'doc(\d+)', r'doc\1', loc)
+                        # necessário entender quem são inf., doc. inf.m, inf.f, doc.m, doc.f
                         loc = re.sub(r'inff', r'l1', loc)
                         loc = re.sub(r'infm', r'l2', loc)
-                        loc = re.sub(r'docf', r'doc2', loc)
-                        loc = re.sub('inf$', 'l1', loc)
-                        loc = re.sub('doc$', 'doc1', loc)
+                        loc = re.sub(r'docf', r'doc1', loc)
+                        loc = re.sub(r'docm', r'doc2', loc)
+                        loc = re.sub('inf$', 'l0', loc)
+                        loc = re.sub('doc$', 'doc0', loc)
                         for loc_from_list in locs_list:
                             if re.search(loc_from_list+"[\s.;,-].*", l,re.IGNORECASE):  #remove locutor duplicado no inicio do texto    
                                 l = l[len(loc_from_list)+1:]
@@ -379,8 +381,12 @@ class AutomaticSegmentation:
                 g2p_words[pwi] = g2p_words[pwi].replace("w", "v")
                 g2p_words[pwi] = g2p_words[pwi].replace("y", "i")
         #print("sentences", sentences)
-        #print("palavras convertidas para fonemas", g2p_words, len(g2p_words))
-        
+        print("palavras convertidas para fonemas", g2p_words, len(g2p_words))
+        f = open("g2pwordsD2012.txt", "a")
+        for word in g2p_words:
+            f.write(word+"\n")
+        f.close()
+
         # SO FAR SO GOOD
 
         tier = input_tg.get_tier_by_name("fonemeas")
@@ -448,12 +454,15 @@ class AutomaticSegmentation:
                     aux_word = ""
                     # verificando e adicionando os próximos fonemas que ainda cabem na janela atual
                     while index < len(tier.intervals) and tier.intervals[index].end_time < curr_window[1]:
-                        print(curr_word, i, j, i+j+1),
-                        print(locs_and_words[i+j])
+                        print(constr, curr_word, g2p_words[i], i, j, i+j+1)
+                        print(locs_and_words[i])
+                        print(len(locs_and_words), len(g2p_words), tier.intervals[index].text)
+                        #print(g2p_words)
                         if tier.intervals[index].text == 'sil': 
                             index += 1
                             continue
-                        elif locs_and_words[i+j+1].split(';')[0] != curr_loc:
+                        elif i+j+1 > len(locs_and_words) or locs_and_words[i+j+1].split(';')[0] != curr_loc:
+                            print("Mudou de locutor ou acabaram as palavras da lista(tentei acessar a palavra seguinte a):", locs_and_words[i+j], i+j+1 )
                             break
                         else:
                             window_phones.append([tier.intervals[index].text, tier.intervals[index].end_time - tier.intervals[index].start_time, tier.intervals[index].start_time, tier.intervals[index].end_time, curr_loc])
@@ -893,7 +902,7 @@ print(output_tg_file, "SUCCESS" )
 
 # Métricas
 #Segmentation.ser(annot_tg, output_tg_file, "NTB", silences, dsrs_1, dsrs_2, hits_threshold)
-Segmentation.metrics(annot_tg, output_tg_file, silences, dsrs_1, dsrs_2, hits_threshold) 
+#Segmentation.metrics(annot_tg, output_tg_file, silences, dsrs_1, dsrs_2, hits_threshold) 
 
 # 6 parâmetros: tamanho da janela: 0.3                      (em s, deve ser positivo e não deve ser grande, talvez no max 1s)
 #               threshold da 1a heurística (porcentagem
