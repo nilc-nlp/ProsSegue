@@ -9,7 +9,7 @@ import textgrids#remover overlaps de textgrids
 import nltk
 import mytextgrid
 from praatio import textgrid
-
+from pympi.Praat import TextGrid as pympiTextGrid
 
 clean_vocab ='ABCDEFGHIJKLMNOPQRSTUVWXYZÇÃÀÁÂÊÉÍÓÔÕÚÛabcdefghijklmnopqrstuvwxyzçãàáâêéíóôõúû\-\'\n\ '
 
@@ -113,7 +113,6 @@ class AutomaticSegmentation:
     def generate_words_file(self, locs_file, locs_words_file):
         with open(locs_file, 'r') as lf:
             linhas = lf.readlines()
-
         locs_list = []
         for i, l in enumerate(linhas):
             if(l.find(';') != -1):
@@ -123,8 +122,8 @@ class AutomaticSegmentation:
                     #print("loc appended", loc)
                     locs_list.append(loc)
 
-        with open(locs_file.replace("_locutores.txt", ".txt"), 'w') as nlf2:
-            with open(locs_words_file, 'w') as nlf:
+        with open(locs_file.replace("_locutores.txt", ".txt"), 'w', encoding='utf-8') as nlf2:
+            with open(locs_words_file, 'w', encoding='utf-8') as nlf:
                 for l in linhas:
                     if(l.find(';') != -1):
                         loc = l.split(";")[0]
@@ -139,8 +138,13 @@ class AutomaticSegmentation:
                         # padronizando locutores para doc1, doc2... e l1,l2,...
                         loc = re.sub(r'inf(\d+)', r'l\1', loc)
                         loc = re.sub(r'doc(\d+)', r'doc\1', loc)
-                        loc = re.sub('inf$', 'l1', loc)
-                        loc = re.sub('doc$', 'doc1', loc)
+                        # necessário entender quem são inf., doc. inf.m, inf.f, doc.m, doc.f
+                        loc = re.sub(r'inff', r'l1', loc)
+                        loc = re.sub(r'infm', r'l2', loc)
+                        loc = re.sub(r'docf', r'doc1', loc)
+                        loc = re.sub(r'docm', r'doc2', loc)
+                        loc = re.sub('inf$', 'l0', loc)
+                        loc = re.sub('doc$', 'doc0', loc)
                         for loc_from_list in locs_list:
                             if re.search(loc_from_list+"[\s.;,-].*", l,re.IGNORECASE):  #remove locutor duplicado no inicio do texto    
                                 l = l[len(loc_from_list)+1:]
@@ -153,6 +157,45 @@ class AutomaticSegmentation:
                         nlf.write(loc+';'+lp+"\n") # reescreve o .txt do texto
                         nlf2.write(lp+" ") # escreve o arquivo de palavras por locutor
         self.text_align = locs_file.replace(".txt", "_palavras_align.txt")
+
+    # função para concatenar todos os textgrids da entrada gerados pelo ufpalign e escrever um textgrid único correspondente a todos os segmentos do inquérito
+    def concatenate_textgrids(self, alignment_tg_list, final_tg_name):
+        
+        first_tg = tgt.io.read_textgrid(alignment_tg_list[0], self.predict_encoding(alignment_tg_list[0]))
+        final_textgrid = tgt.core.TextGrid()
+        initial_time = 0
+
+        # passaremos por cada camada do textgrid final só uma vez, adicionando todos os intervalos de cada textgrid correspondente àquela camada com os tempos ajustados
+        for tier in first_tg.tiers:
+            new_tier = tgt.core.IntervalTier(start_time=tier.start_time + initial_time, end_time=tier.end_time + initial_time, name=tier.name, objects=None)
+            # para o textgrid correspondente a cada segmento:
+            for textgrid in alignment_tg_list:
+                tg = tgt.io.read_textgrid(textgrid, self.predict_encoding(textgrid))
+                original_tier = tg.get_tier_by_name(tier.name)
+                # para cada intervalo da camada atual no textgrid atual, criamos um novo intervalo com os tempos ajustados e o adicionamos à camada que criamos no textgrid final
+                for interval in original_tier.intervals:
+                    new_interval = tgt.core.Interval(start_time=interval.start_time + initial_time,end_time=interval.end_time + initial_time, text=interval.text)
+                    new_tier.add_interval(new_interval)
+                # terminamos de percorrer o textgrid de um segmento, então adicionamos o tempo final do textgrid percorrido à variável que será somada com os tempos do próximo textgrid
+                initial_time += tg.end_time
+            # quando terminamos de percorrer todos os textgrids naquela camada, adicionamos a camada ao textgrid final
+            final_textgrid.add_tier(new_tier)
+            initial_time = 0
+
+        # escrevendo o textgrid concatenado em um novo arquivo
+        tgt.io.write_to_file(final_textgrid, final_tg_name, format='long', encoding='utf-8') 
+
+    # função para concatenar os arquivos de locutores
+    def concatenate_locs_file(self, locs_files_list, final_locs_file_path):
+
+        concatenated_locs_text = ""
+        for locs_file in locs_files_list:
+            with open(locs_file, "r", encoding='utf-8-sig') as f:
+                concatenated_locs_text += f.read() + "\n"
+
+        # escrever conteúdo concatenado no arquivo final        
+        with open(final_locs_file_path, "w") as final_locs_file:
+            final_locs_file.write(concatenated_locs_text)
 
     def predict_encoding(self, tg_path):
         '''Predict a file's encoding using chardet'''
@@ -290,7 +333,7 @@ class AutomaticSegmentation:
 
         #print("Boundaries tier",boundaries_tier)
 
-    def find_boundaries(self, locs_file, tg_file, annot_tg, output_tg_file, window_size, delta1, delta2, silence_threshold, interval_size, min_words_h2, initial_time):        
+    def find_boundaries(self, locs_file, tg_file, annot_tg, output_tg_file, window_size, delta1, delta2, silence_threshold, interval_size, min_words_h2):        
         input_tg = tgt.io.read_textgrid(tg_file, self.predict_encoding(tg_file), include_empty_intervals=False)
         output_tg = tgt.core.TextGrid(output_tg_file)
         annot_tg = tgt.core.TextGrid(annot_tg)
@@ -316,38 +359,37 @@ class AutomaticSegmentation:
             auxGrapheme = ""
             index = 0
             phone = phonemesTier[index]
-
+            still_mounting_grapheme = True
+            
             for grapheme in wordGraphemesTier:
-              while phone.end_time <= grapheme.end_time and index < len(phonemesTier):
+              still_mounting_grapheme = True
+              while still_mounting_grapheme:
                 if phone.text != "sil":
                   auxGrapheme += phone.text
-                  if phone.end_time == grapheme.end_time: # fim da palavra, pula para a próxima
+                  # obs.: achei um erro em que o tempo final do grafema não correspondia ao tempo final do último fonema da palavra, então acrescentei essa condição de o tempo do fonema ser maior ou igual
+                  if phone.end_time >= grapheme.end_time: # fim da palavra, pula para a próxima
                     g2p_words.append(auxGrapheme)
                     auxGrapheme = ""
+                    still_mounting_grapheme = False
                 index += 1
+                
                 if index < len(phonemesTier):
                   phone = phonemesTier[index]
-
+                
             for pwi, pw in enumerate(g2p_words):
                 # substituimos fonemas 'w' por 'v' (e 'y' por 'i') pois o alinhador joga fora (é uma solução tosca, mas o que dá pra fazer sem alterar o alinhador)
                 g2p_words[pwi] = g2p_words[pwi].replace("w", "v")
                 g2p_words[pwi] = g2p_words[pwi].replace("y", "i")
-        print(g2p_words, len(g2p_words))
         #print("sentences", sentences)
-        #print("palavras convertidas para fonemas", g2p_words)
+        print("palavras convertidas para fonemas", g2p_words, len(g2p_words))
+        f = open("g2pwordsD2012.txt", "a")
+        for word in g2p_words:
+            f.write(word+"\n")
+        f.close()
+
+        # SO FAR SO GOOD
 
         tier = input_tg.get_tier_by_name("fonemeas")
-        #tier_correct_time = tgt.core.IntervalTier(start_time=input_tg.start_time + initial_time, end_time=input_tg.end_time + initial_time, name="fonemeas", objects=None)
-        #for interval in tier.intervals:
-            #print(interval)
-            #interval = tgt.core.Interval(start_time=interval.start_time + initial_time, end_time=interval.end_time + initial_time, text=interval.text)
-            #tier_correct_time.add_interval(interval)
-            #print(interval)
-            #print("")
-        #a = abuble
-        #tier = tier_correct_time
-        #for interval in tier.intervals:
-        #    print(interval)
         # índice para iterar pelas palavras convertidas via g2p
         i = 0
         curr_turn = ""
@@ -387,7 +429,6 @@ class AutomaticSegmentation:
 
         # Começamos a percorrer a camada de fonemas do textgrid de input
         for enum, interval in enumerate(tier.intervals):
-            #print(interval,turn_until_word[i],"\n")
             # adicionamos à lista de trechos de silencio caso o fonema seja "sil"
             if interval.text == 'sil':
                 sil_timestamps.append([interval.start_time, interval.end_time]) 
@@ -413,11 +454,15 @@ class AutomaticSegmentation:
                     aux_word = ""
                     # verificando e adicionando os próximos fonemas que ainda cabem na janela atual
                     while index < len(tier.intervals) and tier.intervals[index].end_time < curr_window[1]:
-                        #print(curr_word, i, j, locs_and_words[i+j])
+                        print(constr, curr_word, g2p_words[i], i, j, i+j+1)
+                        print(locs_and_words[i])
+                        print(len(locs_and_words), len(g2p_words), tier.intervals[index].text)
+                        #print(g2p_words)
                         if tier.intervals[index].text == 'sil': 
                             index += 1
                             continue
-                        elif locs_and_words[i+j+1].split(';')[0] != curr_loc:
+                        elif i+j+1 > len(locs_and_words) or locs_and_words[i+j+1].split(';')[0] != curr_loc:
+                            print("Mudou de locutor ou acabaram as palavras da lista(tentei acessar a palavra seguinte a):", locs_and_words[i+j], i+j+1 )
                             break
                         else:
                             window_phones.append([tier.intervals[index].text, tier.intervals[index].end_time - tier.intervals[index].start_time, tier.intervals[index].start_time, tier.intervals[index].end_time, curr_loc])
@@ -596,6 +641,8 @@ class AutomaticSegmentation:
             except:
                 print("overlap")
 
+
+
         # adiciona tier para comentários dos anotadores
         comments1_tier = tgt.core.IntervalTier(start_time=input_tg.start_time, end_time=input_tg.end_time, name="comentarios-anotacao", objects=None)
         output_tg.add_tier(comments1_tier) 
@@ -708,6 +755,12 @@ class AutomaticSegmentation:
         aux_hits = 0
         TB_hits = 0
         NTB_hits = 0
+        aux_I = 0 # erros de inserção, o método colocou fronteiras onde não deveriam existir
+        aux_R = 0
+        TB_I = 0
+        NTB_I = 0
+        TB_R = 0
+        NTB_R = 0
 
         for name in names_annot:
             print(name)
@@ -721,7 +774,7 @@ class AutomaticSegmentation:
                 while index_method < len(tier_method): #and tier_annot.intervals[index_annot].start_time < tier_method.intervals[-1].end_time:
                     #print(tier_annot.intervals[index_annot].start_time, tier_method.intervals[index_method].start_time)
                     # Se for um hit, ambos os índices avançam
-                    if abs (tier_annot.intervals[index_annot].start_time - tier_method.intervals[index_method].start_time) < hits_threshold:
+                    if abs (tier_annot.intervals[index_annot].start_time - tier_method.intervals[index_method].start_time) <= hits_threshold:
                         aux_hits += 1
                         #print("HIT", tier_annot.intervals[index_annot].start_time, tier_method.intervals[index_method].start_time)
                         #print(" ")
@@ -730,12 +783,14 @@ class AutomaticSegmentation:
                     # Se não for hit, o índice que apontar para o intervalo que começa primeiro avança
                     elif tier_annot.intervals[index_annot].start_time < tier_method.intervals[index_method].start_time:
                         index_annot += 1
+                        aux_R += 1
                     else:
                         index_method += 1
+                        aux_I += 1
                 # Verifica se o tempo final da camada do método também é um hit
-                print("Final timestamps compared:",tier_annot.intervals[index_annot].start_time, tier_method.intervals[-1].end_time)
-                print("")
-                if abs (tier_annot.intervals[index_annot].start_time - tier_method.intervals[-1].end_time) < hits_threshold: # Verifica se o tempo final é um hit
+                #print("Final timestamps compared:",tier_annot.intervals[index_annot].start_time, tier_method.intervals[-1].end_time)
+                #print("")
+                if index_annot < len(tier_annot.intervals) and abs (tier_annot.intervals[index_annot].start_time - tier_method.intervals[-1].end_time) < hits_threshold: # Verifica se o tempo final é um hit
                     aux_hits += 1
                     print("HIT", tier_annot.intervals[-1].end_time, tier_method.intervals[-1].end_time)
                     print(" ")
@@ -744,16 +799,39 @@ class AutomaticSegmentation:
                 print("(annot)Quantity of intervals compared(index):layer "+name+":", index_annot)
                 if "NTB" in name:
                     NTB_hits += aux_hits
+                    NTB_I += aux_I
+                    NTB_R += aux_R
                 elif "TB" in name:
                     TB_hits += aux_hits
+                    TB_I += aux_I
+                    TB_R += aux_R
                 #total_hits += aux_hits
                 aux_hits = 0
+                aux_I = 0
+                aux_R = 0
             except:
+                print("error in layer", name, "skipping to next layer")
                 continue
-        
+
+        # hits == C 
+        precision_TB = TB_hits/(TB_I+TB_hits)
+        precision_NTB = NTB_hits/(NTB_I+NTB_hits)
+        recall_TB = TB_hits/(TB_R+TB_hits)
+        recall_NTB = NTB_hits/(NTB_R+NTB_hits)
         print("TB Hits:", TB_hits)
-        print("NTB Hits:", NTB_hits)
-        #print("Total hits:",total_hits)
+        print("NTB Hits:", NTB_hits, "\n")
+        print("Precision TB", round(precision_TB,2))
+        print("Precision NTB", round(precision_NTB,2), "\n")
+        print("Cobertura TB", round (recall_TB,2))
+        print("Cobertura NTB", round(recall_NTB,2), "\n")
+
+        # F1 É UM VALOR ENTRE 0 E 1
+        print("F1 TB", round(2*precision_TB*recall_TB/(precision_TB+recall_TB),2))
+        print("F1 NTB", round(2*precision_NTB*recall_NTB/(precision_NTB+recall_NTB),2), "\n")
+
+        # SER = NUMERO DE ERROS/ NUMERO DE REFERENCIA -> PODE SER MAIOR QUE 100%
+        print("SER TB", round((TB_I+TB_R)/(TB_hits + TB_R),2))
+        print("SER NTB", round((NTB_I+NTB_R)/(NTB_hits + NTB_R),2), "\n")
 
 
 # Organizando caminhos
@@ -761,67 +839,70 @@ class AutomaticSegmentation:
 # Inquérito selecionado
 #inq = "SP_EF_156"
 #inq = "SP_D2_255"
-inq = "SP_DID_242"
-#inq = "SP_D2_012"
+#inq = "SP_DID_242"
+inq = "SP_D2_012"
 i = 1
-segments_quantity = 4
-initial_time = 0
-while i <= segments_quantity:
-
+segments_quantity = 8
+alignment_tg_list = []
+locs_files_list = []
+rel_path_inq = "Mestrado/" + inq + "_segmentado/"
+concatenated_tg_file = rel_path_inq + inq + "_concatenated.TextGrid"
+concatenated_locs_file = rel_path_inq + inq + "_locutores.txt"
+concatenated_locs_words_file = rel_path_inq + inq + "_locutores_palavras.txt"
+output_tg_file = rel_path_inq + inq + "_OUTPUT.TextGrid"
+for i in range (1,segments_quantity+1):
     segment_number = str(i)
-    i += 1
-    rel_path_inq = "Mestrado/" + inq + "_segmentado/"
     path = rel_path_inq + inq + "_" + segment_number + "/" + inq 
     clipped_path = path + "_clipped_" + segment_number
-
     locs_file =  clipped_path + "_locutores.txt"
-    locs_words_file = clipped_path + "_locutores_palavras.txt"
+    #locs_words_file = clipped_path + "_locutores_palavras.txt"
     alignment_tg = clipped_path + ".TextGrid"
-    output_tg_file = clipped_path + "_OUTPUT.TextGrid"
+    #output_tg_file = clipped_path + "_OUTPUT.TextGrid"
     annot_tg = path + ".TextGrid"
 
     #Criando a classe com todas as funções que serão utilizadas
     Segmentation = AutomaticSegmentation(path, locs_file)
 
-    # Gera arquivo de palavras por locutor
-    Segmentation.generate_words_file(locs_file, locs_words_file)
-
-    # Parâmetros
-    window_size = 0.3
-    delta1 = 0.88
-    delta2 = 0.70
-    interval_size = 3
-    silence_threshold = 0.3
-    min_words_h2 = 10
-    hits_threshold = 0.25
-
-    #try: 
-        # Pré-processando text grid de entrada
+    # Pré-processando text grid de entrada
     Segmentation.remove_overlaps(alignment_tg)
+    alignment_tg_list.append(alignment_tg)
+    locs_files_list.append(locs_file)
 
-    # Aplicando o método
-    silences, dsrs_1, dsrs_2 = Segmentation.find_boundaries(locs_words_file, alignment_tg, annot_tg, output_tg_file, window_size, delta1, delta2, silence_threshold, interval_size, min_words_h2, initial_time)
-    alignment_tg = tgt.io.read_textgrid(alignment_tg, AutomaticSegmentation.predict_encoding(AutomaticSegmentation, alignment_tg), include_empty_intervals=False)
-    initial_time += alignment_tg.end_time
-    print("initial time", initial_time)
+# Juntando todos os textgrids de entrada
+Segmentation.concatenate_textgrids(alignment_tg_list, concatenated_tg_file)
 
-    # Imprimindo alguns dados
-    print("silences", silences)
-    print("Quantity of boundaries obtained with the silences heuristic:",len(silences))
-    print("dsrs1", dsrs_1)
-    print("Quantity of boundaries obtained with the first heuristic:",len(dsrs_1))
-    print("dsrs2", dsrs_2)
-    print("Quantity of boundaries obtained with the second heuristic:",len(dsrs_2))
-    print("Total:", len(silences)+len(dsrs_1)+len(dsrs_2))
-    print(output_tg_file, "SUCCESS" )
 
-    #except:
-    #    print(output_tg_file, "FAILED" )
-    #    continue
+# Juntando todos os arquivos de locutores
+Segmentation.concatenate_locs_file(locs_files_list, concatenated_locs_file)
 
-    # Métricas
-    #Segmentation.ser(annot_tg, output_tg_file, "NTB", silences, dsrs_1, dsrs_2, hits_threshold)
-    Segmentation.metrics(annot_tg, output_tg_file, silences, dsrs_1, dsrs_2, hits_threshold)
+# Gera arquivo de palavras por locutor
+Segmentation.generate_words_file(concatenated_locs_file, concatenated_locs_words_file)
+
+# Parâmetros
+window_size = 0.3
+delta1 = 0.88
+delta2 = 0.70
+interval_size = 3
+silence_threshold = 0.3
+min_words_h2 = 10
+hits_threshold = 0.25
+
+# Aplicando o método
+silences, dsrs_1, dsrs_2 = Segmentation.find_boundaries(concatenated_locs_words_file, concatenated_tg_file, annot_tg, output_tg_file, window_size, delta1, delta2, silence_threshold, interval_size, min_words_h2)
+
+# Imprimindo alguns dados
+print("silences", silences)
+print("Quantity of boundaries obtained with the silences heuristic:",len(silences))
+print("dsrs1", dsrs_1)
+print("Quantity of boundaries obtained with the first heuristic:",len(dsrs_1))
+print("dsrs2", dsrs_2)
+print("Quantity of boundaries obtained with the second heuristic:",len(dsrs_2))
+print("Total:", len(silences)+len(dsrs_1)+len(dsrs_2))
+print(output_tg_file, "SUCCESS" )
+
+# Métricas
+#Segmentation.ser(annot_tg, output_tg_file, "NTB", silences, dsrs_1, dsrs_2, hits_threshold)
+#Segmentation.metrics(annot_tg, output_tg_file, silences, dsrs_1, dsrs_2, hits_threshold) 
 
 # 6 parâmetros: tamanho da janela: 0.3                      (em s, deve ser positivo e não deve ser grande, talvez no max 1s)
 #               threshold da 1a heurística (porcentagem

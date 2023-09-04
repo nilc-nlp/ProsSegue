@@ -1,0 +1,13 @@
+Para rodar o ufpalign, é necessário seguir alguns passos.
+
+Toda vez que iniciar uma nova janela do terminal, necessário rodar o comando que configura o local do kaldi_root para que o ufpalign o encontre:
+
+source path.sh
+
+Então, pode rodar o comando que faz o alinhamento forçado, exemplo:
+
+bash ufpalign.sh Teste156/SP_EF_156_clipped_4.wav Teste156/SP_EF_156_clipped_4.txt mono
+
+Caso não funcione, tente:
+- acrescentar os parâmetros --beam 40 --retry-beam 100
+- mudar o modelo acústico de mono para tri2b ou tri3b

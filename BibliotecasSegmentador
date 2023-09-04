@@ -1,0 +1,44 @@
+Bibliotecas utilizadas pelo código do segmentador
+
+"Pacotes necessários para usar o segmentador"
+
+!pip install sly
+!pip install py-espeak-ng
+!pip install phonemizer
+!pip install pydub
+!pip install numpy
+!pip install chardet
+!pip install pyspellchecker
+!pip install num2words
+!pip install librosa
+!pip install tgt
+
+#vad
+#!pip install torchvision
+!sudo apt-get install python-espeak
+!sudo apt-get update && sudo apt-get install espeak
+
+from spellchecker import SpellChecker
+from phonemizer.backend import EspeakBackend
+#from Conversor import *
+#from TextConverter import *
+import re
+from num2words import num2words
+from os import path, listdir
+import pydub
+import glob
+from os.path import isfile, join
+from collections import OrderedDict
+import librosa
+import numpy as np
+import os
+import sys
+from scipy.io.wavfile import write
+import chardet
+import tgt
+
+#vad
+import soundfile as sf
+import torch
+import torchaudio
+
