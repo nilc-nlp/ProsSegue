@@ -5,11 +5,7 @@ import re
 import os
 import chardet
 import tgt
-import textgrids#remover overlaps de textgrids
-import nltk
-import mytextgrid
-from praatio import textgrid
-from pympi.Praat import TextGrid as pympiTextGrid
+#import textgrids#remover overlaps de textgrids
 
 clean_vocab ='ABCDEFGHIJKLMNOPQRSTUVWXYZÇÃÀÁÂÊÉÍÓÔÕÚÛabcdefghijklmnopqrstuvwxyzçãàáâêéíóôõúû\-\'\n\ '
 
