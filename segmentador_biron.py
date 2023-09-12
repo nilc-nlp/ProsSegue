@@ -5,6 +5,7 @@ import re
 import os
 import chardet
 import tgt
+import csv
 #import textgrids#remover overlaps de textgrids
 
 clean_vocab ='ABCDEFGHIJKLMNOPQRSTUVWXYZÇÃÀÁÂÊÉÍÓÔÕÚÛabcdefghijklmnopqrstuvwxyzçãàáâêéíóôõúû\-\'\n\ '
@@ -139,8 +140,8 @@ class AutomaticSegmentation:
                         loc = re.sub(r'infm', r'l2', loc)
                         loc = re.sub(r'docf', r'doc1', loc)
                         loc = re.sub(r'docm', r'doc2', loc)
-                        loc = re.sub('inf$', 'l0', loc)
-                        loc = re.sub('doc$', 'doc0', loc)
+                        loc = re.sub('inf$', 'l1', loc)
+                        loc = re.sub('doc$', 'doc1', loc)
                         for loc_from_list in locs_list:
                             if re.search(loc_from_list+"[\s.;,-].*", l,re.IGNORECASE):  #remove locutor duplicado no inicio do texto    
                                 l = l[len(loc_from_list)+1:]
@@ -737,7 +738,7 @@ class AutomaticSegmentation:
         return C # acurácia
         #return SER
 
-    def metrics(self, annot_rg, method_tg, timestamps_silences, timestamps_dsrs_1, timestamps_dsrs_2, hits_threshold):
+    def metrics(self, annot_rg, method_tg, timestamps_silences, timestamps_dsrs_1, timestamps_dsrs_2, hits_threshold, metrics_path):
         boundary_types = ["TB", "NTB"]
         Annot_tg = tgt.io.read_textgrid(annot_tg, self.predict_encoding(annot_tg), include_empty_intervals=True)
         Method_tg = tgt.io.read_textgrid(method_tg, self.predict_encoding(method_tg), include_empty_intervals=True)
@@ -829,16 +830,33 @@ class AutomaticSegmentation:
         print("SER TB", round((TB_I+TB_R)/(TB_hits + TB_R),2))
         print("SER NTB", round((NTB_I+NTB_R)/(NTB_hits + NTB_R),2), "\n")
 
+        # open the file in the write mode
+        with open(metrics_path, 'w') as f:
+            # create the csv writer
+            writer = csv.writer(f)
+
+            # write a row to the csv file
+            writer.writerow(["TB Hits", TB_hits])
+            writer.writerow(["NTB Hits", NTB_hits])
+            writer.writerow(["Precision TB", round(precision_TB,2)])
+            writer.writerow(["Precision NTB", round(precision_NTB,2)])
+            writer.writerow(["Recall TB", round (recall_TB,2)])
+            writer.writerow(["Recall NTB", round(recall_NTB,2)])
+            writer.writerow(["F1 TB", round(2*precision_TB*recall_TB/(precision_TB+recall_TB),2)])
+            writer.writerow(["F1 NTB", round(2*precision_NTB*recall_NTB/(precision_NTB+recall_NTB),2)])
+            writer.writerow(["SER TB", round((TB_I+TB_R)/(TB_hits + TB_R),2)])
+            writer.writerow(["SER NTB", round((NTB_I+NTB_R)/(NTB_hits + NTB_R),2)])
+
 
 # Organizando caminhos
 
 # Inquérito selecionado
 #inq = "SP_EF_156"
 #inq = "SP_D2_255"
-#inq = "SP_DID_242"
-inq = "SP_D2_012"
+inq = "SP_DID_242"
+#inq = "SP_D2_012"
 i = 1
-segments_quantity = 8
+segments_quantity = 4
 alignment_tg_list = []
 locs_files_list = []
 rel_path_inq = "Mestrado/" + inq + "_segmentado/"
@@ -846,6 +864,7 @@ concatenated_tg_file = rel_path_inq + inq + "_concatenated.TextGrid"
 concatenated_locs_file = rel_path_inq + inq + "_locutores.txt"
 concatenated_locs_words_file = rel_path_inq + inq + "_locutores_palavras.txt"
 output_tg_file = rel_path_inq + inq + "_OUTPUT.TextGrid"
+metrics_path = rel_path_inq + inq + "_metrics.csv"
 for i in range (1,segments_quantity+1):
     segment_number = str(i)
     path = rel_path_inq + inq + "_" + segment_number + "/" + inq 
@@ -898,7 +917,7 @@ print(output_tg_file, "SUCCESS" )
 
 # Métricas
 #Segmentation.ser(annot_tg, output_tg_file, "NTB", silences, dsrs_1, dsrs_2, hits_threshold)
-#Segmentation.metrics(annot_tg, output_tg_file, silences, dsrs_1, dsrs_2, hits_threshold) 
+Segmentation.metrics(annot_tg, output_tg_file, silences, dsrs_1, dsrs_2, hits_threshold, metrics_path) 
 
 # 6 parâmetros: tamanho da janela: 0.3                      (em s, deve ser positivo e não deve ser grande, talvez no max 1s)
 #               threshold da 1a heurística (porcentagem
