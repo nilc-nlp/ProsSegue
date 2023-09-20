@@ -140,8 +140,8 @@ class AutomaticSegmentation:
                         loc = re.sub(r'infm', r'l2', loc)
                         loc = re.sub(r'docf', r'doc1', loc)
                         loc = re.sub(r'docm', r'doc2', loc)
-                        loc = re.sub('inf$', 'l1', loc)
-                        loc = re.sub('doc$', 'doc1', loc)
+                        loc = re.sub('inf$', 'l0', loc)
+                        loc = re.sub('doc$', 'doc0', loc)
                         for loc_from_list in locs_list:
                             if re.search(loc_from_list+"[\s.;,-].*", l,re.IGNORECASE):  #remove locutor duplicado no inicio do texto    
                                 l = l[len(loc_from_list)+1:]
@@ -213,16 +213,18 @@ class AutomaticSegmentation:
         # primeiro encontramos o maior e menor speech rates no turno (speech rate = média dos fonemas da janela referente à palavra)
         max_speech_rate_diff = 0
         last_sr = 0
-        max_speech_rate = windows[0][1] #primeiro speech rate do turno
-        min_speech_rate = windows[0][1]
-        for word in windows: # word é uma lista com os fonemas de cada palavra, word[1] é o speech rate (a média dos fonemas da janela)
-            if word[1] > max_speech_rate:
-              max_speech_rate = word[1]
-            if word[1] < min_speech_rate:
-              min_speech_rate = word[1]
-            last_sr = word[1]
+        print("windows:", windows)
+        if len(windows) > 0:
+            max_speech_rate = windows[0][1] #primeiro speech rate do turno
+            min_speech_rate = windows[0][1]
+            for word in windows: # word é uma lista com os fonemas de cada palavra, word[1] é o speech rate (a média dos fonemas da janela)
+                if word[1] > max_speech_rate:
+                    max_speech_rate = word[1]
+                if word[1] < min_speech_rate:
+                    min_speech_rate = word[1]
+                last_sr = word[1]
 
-        max_speech_rate_diff = max_speech_rate - min_speech_rate
+            max_speech_rate_diff = max_speech_rate - min_speech_rate
         last_sr = 0
         dsrs_1 = []
         dsr_windows_1 = []
@@ -259,12 +261,13 @@ class AutomaticSegmentation:
 
 
         # caso de borda do último dsr, que não é englobado pelo loop anterior
-        dsr = windows[-1][0][-1][3]
-        aux_windows = [word for word in windows if word[0][0][2] < dsr and word[0][0][2] > previous_dsr]
-        if len(aux_windows) > 0:
-          stretch_duration = aux_windows[-1][0][-1][3] - aux_windows[0][0][0][2]
-          if len(aux_windows) > min_words_h2 and stretch_duration > interval_size:
-            filtered_windows.append(aux_windows)
+        if len(windows) > 0:
+            dsr = windows[-1][0][-1][3]
+            aux_windows = [word for word in windows if word[0][0][2] < dsr and word[0][0][2] > previous_dsr]
+            if len(aux_windows) > 0:
+                stretch_duration = aux_windows[-1][0][-1][3] - aux_windows[0][0][0][2]
+                if len(aux_windows) > min_words_h2 and stretch_duration > interval_size:
+                    filtered_windows.append(aux_windows)
 
         dsrs_2 = []
         last_sr = 0
@@ -301,7 +304,7 @@ class AutomaticSegmentation:
             if s[1] - s[0] > silence_threshold:
                 boundary = tgt.core.Interval(start_time=s[0], end_time=s[1], text="...")
                 sil_boundaries.append(boundary)
-                print("DSR SIL!", boundary)
+                #print("DSR SIL!", boundary)
                 sil_avg += abs(s[1]- s[0])
                 silences = silences + [s[0],s[1]]
 
@@ -379,7 +382,7 @@ class AutomaticSegmentation:
                 g2p_words[pwi] = g2p_words[pwi].replace("y", "i")
         #print("sentences", sentences)
         print("palavras convertidas para fonemas", g2p_words, len(g2p_words))
-        f = open("g2pwordsD2012.txt", "a")
+        f = open("Mestrado/SP_D2_360_segmentado/g2pwordsD360.txt", "w")
         for word in g2p_words:
             f.write(word+"\n")
         f.close()
@@ -584,7 +587,7 @@ class AutomaticSegmentation:
         # junta todas as fronteiras identificadas das primeiras heuristicas com a terceira
         all_timestamps = list(set(all_timestamps + silences))
         all_timestamps.sort()
-        print(all_timestamps)
+        #print(all_timestamps)
         print("Tamanho do all_timestamps:",len(all_timestamps), "\n")
 
         # preenche tier de boundaries juntando as 3 heurísticas
@@ -815,12 +818,17 @@ class AutomaticSegmentation:
         precision_NTB = NTB_hits/(NTB_I+NTB_hits)
         recall_TB = TB_hits/(TB_R+TB_hits)
         recall_NTB = NTB_hits/(NTB_R+NTB_hits)
+        # accuracy formula = TP + TN/ TP + TN + FP + FN
+        accuracy_TB = TB_hits / (TB_hits + TB_R + TB_I)
+        accuracy_NTB = NTB_hits / (NTB_hits + NTB_R + NTB_I)
         print("TB Hits:", TB_hits)
         print("NTB Hits:", NTB_hits, "\n")
         print("Precision TB", round(precision_TB,2))
         print("Precision NTB", round(precision_NTB,2), "\n")
-        print("Cobertura TB", round (recall_TB,2))
-        print("Cobertura NTB", round(recall_NTB,2), "\n")
+        print("Recall TB", round (recall_TB,2))
+        print("Recall NTB", round(recall_NTB,2), "\n")
+        print("Accuracy TB", round (accuracy_TB,2))
+        print("Accuracy NTB", round(accuracy_NTB,2), "\n")
 
         # F1 É UM VALOR ENTRE 0 E 1
         print("F1 TB", round(2*precision_TB*recall_TB/(precision_TB+recall_TB),2))
@@ -842,6 +850,8 @@ class AutomaticSegmentation:
             writer.writerow(["Precision NTB", round(precision_NTB,2)])
             writer.writerow(["Recall TB", round (recall_TB,2)])
             writer.writerow(["Recall NTB", round(recall_NTB,2)])
+            writer.writerow(["Accuracy TB", round (accuracy_TB,2)])
+            writer.writerow(["Accuracy NTB", round(accuracy_NTB,2)])
             writer.writerow(["F1 TB", round(2*precision_TB*recall_TB/(precision_TB+recall_TB),2)])
             writer.writerow(["F1 NTB", round(2*precision_NTB*recall_NTB/(precision_NTB+recall_NTB),2)])
             writer.writerow(["SER TB", round((TB_I+TB_R)/(TB_hits + TB_R),2)])
@@ -853,10 +863,11 @@ class AutomaticSegmentation:
 # Inquérito selecionado
 #inq = "SP_EF_156"
 #inq = "SP_D2_255"
-inq = "SP_DID_242"
+#inq = "SP_DID_242"
 #inq = "SP_D2_012"
+inq = "SP_D2_360"
 i = 1
-segments_quantity = 4
+segments_quantity = 6
 alignment_tg_list = []
 locs_files_list = []
 rel_path_inq = "Mestrado/" + inq + "_segmentado/"
