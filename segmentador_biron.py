@@ -874,13 +874,13 @@ class AutomaticSegmentation:
 # Organizando caminhos
 
 # Inquérito selecionado
-inq = "SP_EF_156"
-#inq = "SP_D2_255"
+#inq = "SP_EF_156"
+inq = "SP_D2_255"
 #inq = "SP_DID_242"
 #inq = "SP_D2_012"
 #inq = "SP_D2_360"
 i = 1
-segments_quantity = 5
+segments_quantity = 8
 alignment_tg_list = []
 locs_files_list = []
 rel_path_inq = "Mestrado/" + inq + "_segmentado/"
