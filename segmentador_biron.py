@@ -140,8 +140,8 @@ class AutomaticSegmentation:
                         loc = re.sub(r'infm', r'l2', loc)
                         loc = re.sub(r'docf', r'doc1', loc)
                         loc = re.sub(r'docm', r'doc2', loc)
-                        loc = re.sub('inf$', 'l0', loc)
-                        loc = re.sub('doc$', 'doc0', loc)
+                        loc = re.sub('inf$', 'l1', loc)
+                        loc = re.sub('doc$', 'doc1', loc)
                         for loc_from_list in locs_list:
                             if re.search(loc_from_list+"[\s.;,-].*", l,re.IGNORECASE):  #remove locutor duplicado no inicio do texto    
                                 l = l[len(loc_from_list)+1:]
@@ -495,7 +495,7 @@ class AutomaticSegmentation:
 
                     except:
                         print("lista de g2p acabou")
-
+                        print("windows", windows)
                         # primeira heurística
                         dsrs_1, dsr_windows_1 = self.dsr_threshold_1(windows, delta1)
                         #print("dsrs1",dsrs_1)
@@ -528,6 +528,7 @@ class AutomaticSegmentation:
                     if locs_and_words[i].split(';')[0] != curr_loc:
                         # primeira heurística
                         dsrs_1, dsr_windows_1 = self.dsr_threshold_1(windows, delta1)
+                        
                         print("dsrs1",dsrs_1)
                         # segunda heurística
                         dsrs_2 = self.dsr_threshold_2(dsr_windows_1, delta2, interval_size, windows, min_words_h2)
@@ -767,51 +768,63 @@ class AutomaticSegmentation:
             try:
                 tier_annot = Annot_tg.get_tier_by_name(name)
                 tier_method = Method_tg.get_tier_by_name(name)
-                index_method = 0
-                index_annot = 0
-                # Basta que um textgrid acabe para que possa ser feito um último hit entre o tempo final do textgrid acabado e algum próximo intervalo do textgrid que não acabou:
-                # ARRUMAR ESSA CONDIÇÃO
-                while index_method < len(tier_method): #and tier_annot.intervals[index_annot].start_time < tier_method.intervals[-1].end_time:
-                    #print(tier_annot.intervals[index_annot].start_time, tier_method.intervals[index_method].start_time)
-                    # Se for um hit, ambos os índices avançam
-                    if abs (tier_annot.intervals[index_annot].start_time - tier_method.intervals[index_method].start_time) <= hits_threshold:
-                        aux_hits += 1
-                        #print("HIT", tier_annot.intervals[index_annot].start_time, tier_method.intervals[index_method].start_time)
-                        #print(" ")
-                        index_annot += 1
-                        index_method += 1
-                    # Se não for hit, o índice que apontar para o intervalo que começa primeiro avança
-                    elif tier_annot.intervals[index_annot].start_time < tier_method.intervals[index_method].start_time:
-                        index_annot += 1
-                        aux_R += 1
-                    else:
-                        index_method += 1
-                        aux_I += 1
-                # Verifica se o tempo final da camada do método também é um hit
-                #print("Final timestamps compared:",tier_annot.intervals[index_annot].start_time, tier_method.intervals[-1].end_time)
-                #print("")
-                if index_annot < len(tier_annot.intervals) and abs (tier_annot.intervals[index_annot].start_time - tier_method.intervals[-1].end_time) < hits_threshold: # Verifica se o tempo final é um hit
-                    aux_hits += 1
-                    print("HIT", tier_annot.intervals[-1].end_time, tier_method.intervals[-1].end_time)
-                    print(" ")
-                print("Hits layer "+name+":", aux_hits)
-                print("(method)Quantity of intervals layer "+name+":", len(tier_method.intervals))
-                print("(annot)Quantity of intervals compared(index):layer "+name+":", index_annot)
-                if "NTB" in name:
-                    NTB_hits += aux_hits
-                    NTB_I += aux_I
-                    NTB_R += aux_R
-                elif "TB" in name:
-                    TB_hits += aux_hits
-                    TB_I += aux_I
-                    TB_R += aux_R
-                #total_hits += aux_hits
-                aux_hits = 0
-                aux_I = 0
-                aux_R = 0
             except:
-                print("error in layer", name, "skipping to next layer")
-                continue
+                print("layer", name, "does not exist in both textgrids, skipping to next layer")
+            #    continue
+            # inicia do 1 pois o tempo inicial do primeiro intervalo das camadas é sempre 0 e não é considerado uma fronteira
+            index_method = 1
+            index_annot = 1
+
+            # Enquanto um dos textgrids ainda não tiver chegado ao fim, é preciso continuar comparando seus intervalos, mas caso o que finalizou tenha seu índice aumentado, então os tempos que restam do outro nunca serão hits
+            while (index_method < len(tier_method) or index_annot < len(tier_annot)) and (index_method <= len(tier_method) and index_annot <= len(tier_annot)): 
+                
+                print(index_method, "< len tier method: ", len(tier_method))
+                print(index_annot, "< len annot method: ", len(tier_annot))
+
+                # definindo variáveis intermediárias para os tempos de início e fim para o caso de um textgrid acabar antes do outro, pois aí o tempo final do textgrid que acabou será comparado com os iniciais dos próximos intervalos do outro
+                if index_method >= len(tier_method): # o textgrid de método acabou e o de anotação ainda não
+                    timestamp_method = tier_method.intervals[-1].end_time
+                    timestamp_annot = tier_annot.intervals[index_annot].start_time
+                elif index_annot >= len(tier_annot): # o textgrid de referência acabou e o de método ainda não
+                    timestamp_method = tier_method.intervals[index_method].start_time
+                    timestamp_annot = tier_annot.intervals[-1].end_time
+                else:
+                    timestamp_method = tier_method.intervals[index_method].start_time
+                    timestamp_annot = tier_annot.intervals[index_annot].start_time
+
+                print("timestamp annot", timestamp_annot)
+                print("timestamp method", timestamp_method)
+
+                #  Se for um hit, ambos os índices avançam
+                if abs (timestamp_annot - timestamp_method) <= hits_threshold:
+                    aux_hits += 1
+                    index_annot += 1
+                    index_method += 1
+                    print("HIT", timestamp_annot, timestamp_method)
+                    #print(" ")
+                # Se não for hit, o índice que apontar para o intervalo que começa primeiro avança
+                elif timestamp_annot < timestamp_method:
+                    index_annot += 1
+                    aux_R += 1
+                else:
+                    index_method += 1
+                    aux_I += 1
+
+            print("Hits layer "+name+":", aux_hits)
+            print("(method)Quantity of intervals layer "+name+":", len(tier_method.intervals))
+            print("(annot)Quantity of intervals compared(index):layer "+name+":", index_annot)
+            if "NTB" in name:
+                NTB_hits += aux_hits
+                NTB_I += aux_I
+                NTB_R += aux_R
+            elif "TB" in name:
+                TB_hits += aux_hits
+                TB_I += aux_I
+                TB_R += aux_R
+            #total_hits += aux_hits
+            aux_hits = 0
+            aux_I = 0
+            aux_R = 0
 
         # hits == C 
         precision_TB = TB_hits/(TB_I+TB_hits)
@@ -861,13 +874,13 @@ class AutomaticSegmentation:
 # Organizando caminhos
 
 # Inquérito selecionado
-#inq = "SP_EF_156"
+inq = "SP_EF_156"
 #inq = "SP_D2_255"
 #inq = "SP_DID_242"
 #inq = "SP_D2_012"
-inq = "SP_D2_360"
+#inq = "SP_D2_360"
 i = 1
-segments_quantity = 6
+segments_quantity = 5
 alignment_tg_list = []
 locs_files_list = []
 rel_path_inq = "Mestrado/" + inq + "_segmentado/"
@@ -925,7 +938,7 @@ print("dsrs2", dsrs_2)
 print("Quantity of boundaries obtained with the second heuristic:",len(dsrs_2))
 print("Total:", len(silences)+len(dsrs_1)+len(dsrs_2))
 print(output_tg_file, "SUCCESS" )
-
+print(annot_tg)
 # Métricas
 #Segmentation.ser(annot_tg, output_tg_file, "NTB", silences, dsrs_1, dsrs_2, hits_threshold)
 Segmentation.metrics(annot_tg, output_tg_file, silences, dsrs_1, dsrs_2, hits_threshold, metrics_path) 
