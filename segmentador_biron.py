@@ -496,12 +496,22 @@ class AutomaticSegmentation:
                     except:
                         print("lista de g2p acabou")
                         print("windows", windows)
-                        # primeira heurística
+
+                        # Para desativar a primeira heurística: 
+                        #dsrs_1 = []
+                        # Para ativar a primeira heurística descomente a próxima linha:
                         dsrs_1, dsr_windows_1 = self.dsr_threshold_1(windows, delta1)
+                        
+
                         #print("dsrs1",dsrs_1)
-                        # segunda heurística
+
+                        # Para desativar a segundaa heurística: 
+                        #dsrs_2 = []
+                        # Para ativar a segunda heurística:
                         dsrs_2 = self.dsr_threshold_2(dsr_windows_1, delta2, interval_size, windows, min_words_h2)
                         #print("dsrs2", dsrs_2)
+                        
+
                         # junta todas as fronteiras identificadas pelas duas primeiras heuristicas aplicadas no turno em uma lista
                         timestamps = list(set(dsrs_1 + dsrs_2))
                         print("tamanho dsrs1:", len(dsrs_1))
@@ -526,13 +536,18 @@ class AutomaticSegmentation:
 
                     # se há troca de turno chamamos as heurísticas para as janelas do turno
                     if locs_and_words[i].split(';')[0] != curr_loc:
+                        # Para desativar a primeira heurística: 
+                        #dsrs_1 = []
                         # primeira heurística
                         dsrs_1, dsr_windows_1 = self.dsr_threshold_1(windows, delta1)
                         
-                        print("dsrs1",dsrs_1)
+                        #print("dsrs1",dsrs_1)
+
+                        # Para desativar a segundaa heurística: 
+                        #dsrs_2 = []
                         # segunda heurística
                         dsrs_2 = self.dsr_threshold_2(dsr_windows_1, delta2, interval_size, windows, min_words_h2)
-                        print("dsrs2",dsrs_2)
+                        #print("dsrs2",dsrs_2)
 
                         # junta todas as fronteiras identificadas pelas duas primeiras heuristicas aplicadas no turno em uma lista
                         timestamps = list(set(dsrs_1 + dsrs_2))
@@ -583,7 +598,9 @@ class AutomaticSegmentation:
 
         # terceira heurística
         sil_boundaries = []
-        silences = self.print_silences(sil_timestamps, silence_threshold, sil_boundaries)
+        # Para ativar a heurística de silêncios, deixe a próxima linha descomentada
+        #silences = self.print_silences(sil_timestamps, silence_threshold, sil_boundaries)
+        silences = []
 
         # junta todas as fronteiras identificadas das primeiras heuristicas com a terceira
         all_timestamps = list(set(all_timestamps + silences))
@@ -778,8 +795,8 @@ class AutomaticSegmentation:
             # Enquanto um dos textgrids ainda não tiver chegado ao fim, é preciso continuar comparando seus intervalos, mas caso o que finalizou tenha seu índice aumentado, então os tempos que restam do outro nunca serão hits
             while (index_method < len(tier_method) or index_annot < len(tier_annot)) and (index_method <= len(tier_method) and index_annot <= len(tier_annot)): 
                 
-                print(index_method, "< len tier method: ", len(tier_method))
-                print(index_annot, "< len annot method: ", len(tier_annot))
+                #print(index_method, "< len tier method: ", len(tier_method))
+                #print(index_annot, "< len annot method: ", len(tier_annot))
 
                 # definindo variáveis intermediárias para os tempos de início e fim para o caso de um textgrid acabar antes do outro, pois aí o tempo final do textgrid que acabou será comparado com os iniciais dos próximos intervalos do outro
                 if index_method >= len(tier_method): # o textgrid de método acabou e o de anotação ainda não
@@ -792,15 +809,15 @@ class AutomaticSegmentation:
                     timestamp_method = tier_method.intervals[index_method].start_time
                     timestamp_annot = tier_annot.intervals[index_annot].start_time
 
-                print("timestamp annot", timestamp_annot)
-                print("timestamp method", timestamp_method)
+                #print("timestamp annot", timestamp_annot)
+                #print("timestamp method", timestamp_method)
 
                 #  Se for um hit, ambos os índices avançam
                 if abs (timestamp_annot - timestamp_method) <= hits_threshold:
                     aux_hits += 1
                     index_annot += 1
                     index_method += 1
-                    print("HIT", timestamp_annot, timestamp_method)
+                    #print("HIT", timestamp_annot, timestamp_method)
                     #print(" ")
                 # Se não for hit, o índice que apontar para o intervalo que começa primeiro avança
                 elif timestamp_annot < timestamp_method:
@@ -875,20 +892,20 @@ class AutomaticSegmentation:
 
 # Inquérito selecionado
 #inq = "SP_EF_156"
-inq = "SP_D2_255"
+#inq = "SP_D2_255"
 #inq = "SP_DID_242"
 #inq = "SP_D2_012"
-#inq = "SP_D2_360"
+inq = "SP_D2_360"
 i = 1
-segments_quantity = 8
+segments_quantity = 6
 alignment_tg_list = []
 locs_files_list = []
 rel_path_inq = "Mestrado/" + inq + "_segmentado/"
 concatenated_tg_file = rel_path_inq + inq + "_concatenated.TextGrid"
 concatenated_locs_file = rel_path_inq + inq + "_locutores.txt"
 concatenated_locs_words_file = rel_path_inq + inq + "_locutores_palavras.txt"
-output_tg_file = rel_path_inq + inq + "_OUTPUT.TextGrid"
-metrics_path = rel_path_inq + inq + "_metrics.csv"
+output_tg_file = rel_path_inq + inq + "_OUTPUT_ONLY_H1_H2.TextGrid"
+metrics_path = rel_path_inq + inq + "_metrics_ONLY_H1_H2.csv"
 for i in range (1,segments_quantity+1):
     segment_number = str(i)
     path = rel_path_inq + inq + "_" + segment_number + "/" + inq 
