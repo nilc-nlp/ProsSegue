@@ -1,0 +1,2328 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 602.75
+tiers? <exists>
+size = 4
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "TB-l1"
+		xmin = 0.0
+		xmax = 602.75
+		intervals: size = 286
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.7
+			text = "..."
+		intervals [2]:
+			xmin = 0.7
+			xmax = 5.39
+			text = "ahn o tema que éh me foi dado é da estética"
+		intervals [3]:
+			xmin = 5.39
+			xmax = 5.71
+			text = "..."
+		intervals [4]:
+			xmin = 5.71
+			xmax = 7.51
+			text = "na década de trinta"
+		intervals [5]:
+			xmin = 7.51
+			xmax = 8.59
+			text = "..."
+		intervals [6]:
+			xmin = 8.59
+			xmax = 10.43
+			text = "eu vonu desde o início"
+		intervals [7]:
+			xmin = 10.43
+			xmax = 11.13
+			text = "..."
+		intervals [8]:
+			xmin = 11.13
+			xmax = 14.77
+			text = "declarar que eu vou fugir um pouco ao meu tema"
+		intervals [9]:
+			xmin = 14.77
+			xmax = 15.48
+			text = "..."
+		intervals [10]:
+			xmin = 15.48
+			xmax = 19.9
+			text = "e talvez no decorrer da palestra fique esclarecido"
+		intervals [11]:
+			xmin = 19.9
+			xmax = 20.4
+			text = "..."
+		intervals [12]:
+			xmin = 20.4
+			xmax = 22.81
+			text = "fique esclarecido a minha opção"
+		intervals [13]:
+			xmin = 22.81
+			xmax = 23.95
+			text = "..."
+		intervals [14]:
+			xmin = 23.95
+			xmax = 28.04
+			text = "éh em todo caso aviso já desde o início porque éh"
+		intervals [15]:
+			xmin = 28.04
+			xmax = 28.43
+			text = "..."
+		intervals [16]:
+			xmin = 28.43
+			xmax = 30.69
+			text = "escolhi essa orientação"
+		intervals [17]:
+			xmin = 30.69
+			xmax = 31.32
+			text = "..."
+		intervals [18]:
+			xmin = 31.32
+			xmax = 43.36
+			text = "a década de trinta é uma década muito rica de manifestações estéticas mas muitas das manifestações que poderiam me interessar aqui já foram eu creio tratados por out tratadas por outras pessoas não irão ser tratadas"
+		intervals [19]:
+			xmin = 43.36
+			xmax = 44.0
+			text = "..."
+		intervals [20]:
+			xmin = 44.0
+			xmax = 51.33
+			text = "porque a estética abrange enfim a arquitetura as artes plásticas em geral a arquitetura e pintura"
+		intervals [21]:
+			xmin = 51.33
+			xmax = 52.16
+			text = "..."
+		intervals [22]:
+			xmin = 52.16
+			xmax = 56.12
+			text = "e e pode eventualmente entrar pelo campo da literatura"
+		intervals [23]:
+			xmin = 56.12
+			xmax = 56.78
+			text = "..."
+		intervals [24]:
+			xmin = 56.78
+			xmax = 57.95
+			text = "éh"
+		intervals [25]:
+			xmin = 57.95
+			xmax = 59.41
+			text = "..."
+		intervals [26]:
+			xmin = 59.41
+			xmax = 59.79
+			text = "e"
+		intervals [27]:
+			xmin = 59.79
+			xmax = 60.21
+			text = "..."
+		intervals [28]:
+			xmin = 60.21
+			xmax = 63.88
+			text = "por outro lado porque neste momento ah está ah"
+		intervals [29]:
+			xmin = 63.88
+			xmax = 65.38
+			text = "..."
+		intervals [30]:
+			xmin = 65.38
+			xmax = 65.42
+			text = "ah"
+		intervals [31]:
+			xmin = 65.42
+			xmax = 65.99
+			text = "..."
+		intervals [32]:
+			xmin = 65.99
+			xmax = 67.0
+			text = "trabalhando"
+		intervals [33]:
+			xmin = 67.0
+			xmax = 67.25
+			text = "um"
+		intervals [34]:
+			xmin = 67.25
+			xmax = 71.45
+			text = "esteta que talvez seja o maior esteta que o brasil já teve que é mário de andrade"
+		intervals [35]:
+			xmin = 71.45
+			xmax = 71.92
+			text = "..."
+		intervals [36]:
+			xmin = 71.92
+			xmax = 77.83
+			text = "e eu acredito que é mais importante para nós pararmos um pouco na meditação do sistema de"
+		intervals [37]:
+			xmin = 77.83
+			xmax = 78.4
+			text = "arte"
+		intervals [38]:
+			xmin = 78.4
+			xmax = 78.5
+			text = "que"
+		intervals [39]:
+			xmin = 78.5
+			xmax = 79.36
+			text = "ele estabeleceu"
+		intervals [40]:
+			xmin = 79.36
+			xmax = 79.81
+			text = "..."
+		intervals [41]:
+			xmin = 79.81
+			xmax = 82.88
+			text = "do que em pequenas manifestações esporádicas"
+		intervals [42]:
+			xmin = 82.88
+			xmax = 83.3
+			text = "..."
+		intervals [43]:
+			xmin = 83.3
+			xmax = 86.13
+			text = "que não terão tanta importância posterior"
+		intervals [44]:
+			xmin = 86.13
+			xmax = 86.7
+			text = "..."
+		intervals [45]:
+			xmin = 86.7
+			xmax = 91.45
+			text = "de modo que eu vou tentar na primeira parte da minha palestra me referir"
+		intervals [46]:
+			xmin = 91.45
+			xmax = 91.92
+			text = "..."
+		intervals [47]:
+			xmin = 91.92
+			xmax = 94.31
+			text = "a algumas manifestações"
+		intervals [48]:
+			xmin = 94.31
+			xmax = 94.84
+			text = "..."
+		intervals [49]:
+			xmin = 94.84
+			xmax = 96.69
+			text = "e depois me fixar"
+		intervals [50]:
+			xmin = 96.69
+			xmax = 97.02
+			text = "..."
+		intervals [51]:
+			xmin = 97.02
+			xmax = 97.28
+			text = "na"
+		intervals [52]:
+			xmin = 97.28
+			xmax = 97.79
+			text = "..."
+		intervals [53]:
+			xmin = 97.79
+			xmax = 100.2
+			text = "na no pensamento estético de mário"
+		intervals [54]:
+			xmin = 100.2
+			xmax = 102.18
+			text = "..."
+		intervals [55]:
+			xmin = 102.18
+			xmax = 115.57
+			text = "mesmo aqui eu fiz uma pê uma uma ah o meu enfoque é muito pessoal porque éh tendo que escolher alguns pensadores eu preferi escolher aqueles que estão ligados à faculdade de filosofia"
+		intervals [56]:
+			xmin = 115.57
+			xmax = 116.16
+			text = "..."
+		intervals [57]:
+			xmin = 116.16
+			xmax = 119.62
+			text = "e que tiveram uma atuação aqui nos cursos"
+		intervals [58]:
+			xmin = 119.62
+			xmax = 120.98
+			text = "..."
+		intervals [59]:
+			xmin = 120.98
+			xmax = 122.34
+			text = "de modo que não estranhem"
+		intervals [60]:
+			xmin = 122.34
+			xmax = 122.71
+			text = "..."
+		intervals [61]:
+			xmin = 122.71
+			xmax = 127.24
+			text = "a a a a orientação pouco peculiar que eu vou dar a essa palestra"
+		intervals [62]:
+			xmin = 127.24
+			xmax = 128.95
+			text = "..."
+		intervals [63]:
+			xmin = 128.95
+			xmax = 131.59
+			text = "na década no no de no decênio de trinta"
+		intervals [64]:
+			xmin = 131.59
+			xmax = 133.03
+			text = "..."
+		intervals [65]:
+			xmin = 133.03
+			xmax = 139.58
+			text = "ah é republicado o livro de vicente licínio cardoso a filosofia da arte"
+		intervals [66]:
+			xmin = 139.58
+			xmax = 140.45
+			text = "..."
+		intervals [67]:
+			xmin = 140.45
+			xmax = 144.47
+			text = "que havia se originado num curso de arte feito aos arquitetos"
+		intervals [68]:
+			xmin = 144.47
+			xmax = 146.01
+			text = "..."
+		intervals [69]:
+			xmin = 146.01
+			xmax = 146.44
+			text = "e"
+		intervals [70]:
+			xmin = 146.44
+			xmax = 147.12
+			text = "..."
+		intervals [71]:
+			xmin = 147.12
+			xmax = 148.77
+			text = "ao qual apenas eu vou me referir"
+		intervals [72]:
+			xmin = 148.77
+			xmax = 149.19
+			text = "..."
+		intervals [73]:
+			xmin = 149.19
+			xmax = 154.42
+			text = "porque se bem que ele tenha no panorama no panorama geral brasileiro muita importância"
+		intervals [74]:
+			xmin = 154.42
+			xmax = 155.0
+			text = "..."
+		intervals [75]:
+			xmin = 155.0
+			xmax = 158.74
+			text = "ah é um livro que não pá apari ah apresenta nenhuma originalidade"
+		intervals [76]:
+			xmin = 158.74
+			xmax = 159.19
+			text = "..."
+		intervals [77]:
+			xmin = 159.19
+			xmax = 163.02
+			text = "limitando se a uma divulgação das idéias de taine"
+		intervals [78]:
+			xmin = 163.02
+			xmax = 163.49
+			text = "..."
+		intervals [79]:
+			xmin = 163.49
+			xmax = 168.65
+			text = "onde a explicação dos fenômenos artísticos era sujeita"
+		intervals [80]:
+			xmin = 168.65
+			xmax = 169.09
+			text = "..."
+		intervals [81]:
+			xmin = 169.09
+			xmax = 172.43
+			text = "às três fluências da raça do meio e do momento"
+		intervals [82]:
+			xmin = 172.43
+			xmax = 173.68
+			text = "..."
+		intervals [83]:
+			xmin = 173.68
+			xmax = 175.39
+			text = "mas ah"
+		intervals [84]:
+			xmin = 175.39
+			xmax = 182.27
+			text = "uma das poucas idéias curiosas de licínio cardoso era ter dado à arquitetura uma preeminência"
+		intervals [85]:
+			xmin = 182.27
+			xmax = 182.65
+			text = "..."
+		intervals [86]:
+			xmin = 182.65
+			xmax = 186.4
+			text = "mostrado que ela é de certa maneira a"
+		intervals [87]:
+			xmin = 186.4
+			xmax = 187.1
+			text = "..."
+		intervals [88]:
+			xmin = 187.1
+			xmax = 188.27
+			text = "a arte mestra"
+		intervals [89]:
+			xmin = 188.27
+			xmax = 188.61
+			text = "..."
+		intervals [90]:
+			xmin = 188.61
+			xmax = 188.88
+			text = "à"
+		intervals [91]:
+			xmin = 188.88
+			xmax = 193.53
+			text = "qual as demais deveriam se sujeitar esta a idéia principal de licí"
+		intervals [92]:
+			xmin = 193.53
+			xmax = 193.86
+			text = "..."
+		intervals [93]:
+			xmin = 193.86
+			xmax = 195.3
+			text = "de vicente licínio cardoso"
+		intervals [94]:
+			xmin = 195.3
+			xmax = 195.62
+			text = "..."
+		intervals [95]:
+			xmin = 195.62
+			xmax = 200.07
+			text = "que vai se transformar numa idéia banal para nós hoje em dia"
+		intervals [96]:
+			xmin = 200.07
+			xmax = 200.77
+			text = "..."
+		intervals [97]:
+			xmin = 200.77
+			xmax = 204.13
+			text = "o livro teve pouca fluência passou quase despercebido"
+		intervals [98]:
+			xmin = 204.13
+			xmax = 205.38
+			text = "..."
+		intervals [99]:
+			xmin = 205.38
+			xmax = 208.46
+			text = "nesse decênio nós temos a a"
+		intervals [100]:
+			xmin = 208.46
+			xmax = 209.39
+			text = "..."
+		intervals [101]:
+			xmin = 209.39
+			xmax = 215.8
+			text = "atividade jornalística de alguns pensadores como é o caso de sérgio milliet e de luís martins"
+		intervals [102]:
+			xmin = 215.8
+			xmax = 216.31
+			text = "..."
+		intervals [103]:
+			xmin = 216.31
+			xmax = 218.7
+			text = "que atuam através de crônicas"
+		intervals [104]:
+			xmin = 218.7
+			xmax = 220.28
+			text = "..."
+		intervals [105]:
+			xmin = 220.28
+			xmax = 227.45
+			text = "e há no rio de janeiro um pouco atividade de manuel bandeira que é um excelente crítico de artes plásticas"
+		intervals [106]:
+			xmin = 227.45
+			xmax = 228.6
+			text = "..."
+		intervals [107]:
+			xmin = 228.6
+			xmax = 234.55
+			text = "nós temos alguns autores fazendo obras de muita sensibilidade mas esporádicas"
+		intervals [108]:
+			xmin = 234.55
+			xmax = 235.21
+			text = "..."
+		intervals [109]:
+			xmin = 235.21
+			xmax = 240.32
+			text = "mas eu creio que isso foi ou deve ser abordado por quem falar da pintura"
+		intervals [110]:
+			xmin = 240.32
+			xmax = 241.47
+			text = "..."
+		intervals [111]:
+			xmin = 241.47
+			xmax = 244.18
+			text = "para o decênio das experiências de flávio de carvalho"
+		intervals [112]:
+			xmin = 244.18
+			xmax = 244.82
+			text = "..."
+		intervals [113]:
+			xmin = 244.82
+			xmax = 244.92
+			text = "as"
+		intervals [114]:
+			xmin = 244.92
+			xmax = 245.33
+			text = "..."
+		intervals [115]:
+			xmin = 245.33
+			xmax = 247.91
+			text = "experiências numeradas de flávio de carvalho"
+		intervals [116]:
+			xmin = 247.91
+			xmax = 248.22
+			text = "..."
+		intervals [117]:
+			xmin = 248.22
+			xmax = 256.43
+			text = "mas como houve ou haverá um testemunho do próprio arquiteto já houve não há necessidade já houve que eu me detenha também"
+		intervals [118]:
+			xmin = 256.43
+			xmax = 256.83
+			text = "..."
+		intervals [119]:
+			xmin = 256.83
+			xmax = 258.54
+			text = "nessa manifestação por"
+		intervals [120]:
+			xmin = 258.54
+			xmax = 259.62
+			text = "..."
+		intervals [121]:
+			xmin = 259.62
+			xmax = 262.15
+			text = "outro lado como já houve também"
+		intervals [122]:
+			xmin = 262.15
+			xmax = 263.03
+			text = "..."
+		intervals [123]:
+			xmin = 263.03
+			xmax = 265.25
+			text = "a conferência sobre arquitetura"
+		intervals [124]:
+			xmin = 265.25
+			xmax = 265.7
+			text = "..."
+		intervals [125]:
+			xmin = 265.7
+			xmax = 270.27
+			text = "já deve ter sido mostrado que o decênio é extremamente importante para a arquitetura"
+		intervals [126]:
+			xmin = 270.27
+			xmax = 272.58
+			text = "..."
+		intervals [127]:
+			xmin = 272.58
+			xmax = 281.86
+			text = "mas ela é mais importante como realização da arquitetura do que como teorização sobre arquite arquitetura"
+		intervals [128]:
+			xmin = 281.86
+			xmax = 282.21
+			text = "..."
+		intervals [129]:
+			xmin = 282.21
+			xmax = 289.35
+			text = "enfim nesse decênio nós já encontramos os frutos da chegada de warchavchik ao brasil em mil novecentos e vinte e três"
+		intervals [130]:
+			xmin = 289.35
+			xmax = 289.67
+			text = "..."
+		intervals [131]:
+			xmin = 289.67
+			xmax = 291.6
+			text = "da atuação de rino levi"
+		intervals [132]:
+			xmin = 291.6
+			xmax = 291.97
+			text = "..."
+		intervals [133]:
+			xmin = 291.97
+			xmax = 301.84
+			text = "da divulgação das idéias de le corbusier e também já vemos a repercussão no meio ainda muito provinciano de sao paulo"
+		intervals [134]:
+			xmin = 301.84
+			xmax = 302.14
+			text = "..."
+		intervals [135]:
+			xmin = 302.14
+			xmax = 308.93
+			text = "de algumas realizações éh modernistas como as duas casas sobretudo de warchavchik"
+		intervals [136]:
+			xmin = 308.93
+			xmax = 309.47
+			text = "..."
+		intervals [137]:
+			xmin = 309.47
+			xmax = 311.44
+			text = "que foram extremamente discutidas"
+		intervals [138]:
+			xmin = 311.44
+			xmax = 311.76
+			text = "..."
+		intervals [139]:
+			xmin = 311.76
+			xmax = 316.59
+			text = "que receberam pelos jornais muitos ataques que provocaram polêmicas"
+		intervals [140]:
+			xmin = 316.59
+			xmax = 316.93
+			text = "..."
+		intervals [141]:
+			xmin = 316.93
+			xmax = 318.45
+			text = "polêmicas em que como"
+		intervals [142]:
+			xmin = 318.45
+			xmax = 318.79
+			text = "..."
+		intervals [143]:
+			xmin = 318.79
+			xmax = 322.98
+			text = "a maioria das polêmicas dessa au dessa época uma das figuras principais"
+		intervals [144]:
+			xmin = 322.98
+			xmax = 323.35
+			text = "..."
+		intervals [145]:
+			xmin = 323.35
+			xmax = 324.15
+			text = "foi mário"
+		intervals [146]:
+			xmin = 324.15
+			xmax = 324.79
+			text = "de andrade"
+		intervals [147]:
+			xmin = 324.79
+			xmax = 325.1
+			text = "..."
+		intervals [148]:
+			xmin = 325.1
+			xmax = 331.49
+			text = "que veio a público para defender os ataques que as casas tinham recebido de cristiano das neves"
+		intervals [149]:
+			xmin = 331.49
+			xmax = 332.07
+			text = "..."
+		intervals [150]:
+			xmin = 332.07
+			xmax = 334.01
+			text = "e creio que décio de morais"
+		intervals [151]:
+			xmin = 334.01
+			xmax = 334.69
+			text = "..."
+		intervals [152]:
+			xmin = 334.69
+			xmax = 336.71
+			text = "tão há uma polêmica pelo jornal"
+		intervals [153]:
+			xmin = 336.71
+			xmax = 337.39
+			text = "..."
+		intervals [154]:
+			xmin = 337.39
+			xmax = 340.42
+			text = "de dos arquitetos tradicionalistas"
+		intervals [155]:
+			xmin = 340.42
+			xmax = 340.7
+			text = "e"
+		intervals [156]:
+			xmin = 340.7
+			xmax = 341.49
+			text = "..."
+		intervals [157]:
+			xmin = 341.49
+			xmax = 350.69
+			text = "mário de andrade querendo defender as idéias que eram idéias um pouco de le corbusier e muito de gropius difundidas no brasil por warchavchik"
+		intervals [158]:
+			xmin = 350.69
+			xmax = 351.78
+			text = "..."
+		intervals [159]:
+			xmin = 351.78
+			xmax = 351.82
+			text = "o"
+		intervals [160]:
+			xmin = 351.82
+			xmax = 354.38
+			text = "..."
+		intervals [161]:
+			xmin = 354.38
+			xmax = 356.27
+			text = "que nos interessa hoje"
+		intervals [162]:
+			xmin = 356.27
+			xmax = 357.32
+			text = "..."
+		intervals [163]:
+			xmin = 357.32
+			xmax = 357.35
+			text = "é"
+		intervals [164]:
+			xmin = 357.35
+			xmax = 357.95
+			text = "..."
+		intervals [165]:
+			xmin = 357.95
+			xmax = 359.68
+			text = "a estética que fazia"
+		intervals [166]:
+			xmin = 359.68
+			xmax = 360.28
+			text = "..."
+		intervals [167]:
+			xmin = 360.28
+			xmax = 364.83
+			text = "de uma maneira talvez mais aprofundada nos cursos da faculdade de filosofia"
+		intervals [168]:
+			xmin = 364.83
+			xmax = 365.99
+			text = "..."
+		intervals [169]:
+			xmin = 365.99
+			xmax = 371.35
+			text = "nessa ocasião os cursos eram dados por professores estrangeiros por professores franceses"
+		intervals [170]:
+			xmin = 371.35
+			xmax = 372.01
+			text = "..."
+		intervals [171]:
+			xmin = 372.01
+			xmax = 372.62
+			text = "e"
+		intervals [172]:
+			xmin = 372.62
+			xmax = 373.76
+			text = "..."
+		intervals [173]:
+			xmin = 373.76
+			xmax = 373.83
+			text = "a"
+		intervals [174]:
+			xmin = 373.83
+			xmax = 374.92
+			text = "..."
+		intervals [175]:
+			xmin = 374.92
+			xmax = 378.59
+			text = "atuação desses professores foi para muitos de nós"
+		intervals [176]:
+			xmin = 378.59
+			xmax = 378.9
+			text = "..."
+		intervals [177]:
+			xmin = 378.9
+			xmax = 380.2
+			text = "muito importante"
+		intervals [178]:
+			xmin = 380.2
+			xmax = 380.86
+			text = "..."
+		intervals [179]:
+			xmin = 380.86
+			xmax = 382.16
+			text = "nós vamos ver então a"
+		intervals [180]:
+			xmin = 382.16
+			xmax = 382.62
+			text = "..."
+		intervals [181]:
+			xmin = 382.62
+			xmax = 395.47
+			text = "atuação de dois professores jean moguet e claude lévi strauss que tinham nessa ocasião vinte e sete anos e começava no brasil a sua portentosa carreira uni universitária"
+		intervals [182]:
+			xmin = 395.47
+			xmax = 396.11
+			text = "..."
+		intervals [183]:
+			xmin = 396.11
+			xmax = 397.32
+			text = "em segundo lugar"
+		intervals [184]:
+			xmin = 397.32
+			xmax = 397.7
+			text = "..."
+		intervals [185]:
+			xmin = 397.7
+			xmax = 403.55
+			text = "queria me referir aos salões de pintura como o salão de mário onde se davam exposições de quadros e conferências"
+		intervals [186]:
+			xmin = 403.55
+			xmax = 403.88
+			text = "..."
+		intervals [187]:
+			xmin = 403.88
+			xmax = 406.94
+			text = "e sobretudo à grande exposição de pintura francesa"
+		intervals [188]:
+			xmin = 406.94
+			xmax = 407.27
+			text = "..."
+		intervals [189]:
+			xmin = 407.27
+			xmax = 412.34
+			text = "que em mil novecentos e quarenta fecha o decênio de maneira espetacular"
+		intervals [190]:
+			xmin = 412.34
+			xmax = 412.65
+			text = "..."
+		intervals [191]:
+			xmin = 412.65
+			xmax = 413.96
+			text = "para muitos de nós"
+		intervals [192]:
+			xmin = 413.96
+			xmax = 414.3
+			text = "..."
+		intervals [193]:
+			xmin = 414.3
+			xmax = 419.42
+			text = "foi o primeiro contato com a arte francesa"
+		intervals [194]:
+			xmin = 419.42
+			xmax = 420.21
+			text = "..."
+		intervals [195]:
+			xmin = 420.21
+			xmax = 424.06
+			text = "é importante essa essa essa co essa chegada dos quatro franceses"
+		intervals [196]:
+			xmin = 424.06
+			xmax = 424.46
+			text = "..."
+		intervals [197]:
+			xmin = 424.46
+			xmax = 429.64
+			text = "porque nós que éramos alunos da faculdade nessa ocasião íamos à à à à"
+		intervals [198]:
+			xmin = 429.64
+			xmax = 429.98
+			text = "..."
+		intervals [199]:
+			xmin = 429.98
+			xmax = 440.14
+			text = "con à à exposição de quadros muitas vezes com o professor moguet para que ele nos explicasse os quadros para muitos de nós foi o primeiro contato em profundidade com a pintura"
+		intervals [200]:
+			xmin = 440.14
+			xmax = 441.72
+			text = "..."
+		intervals [201]:
+			xmin = 441.72
+			xmax = 444.7
+			text = "e em último ca lugar a elaboração"
+		intervals [202]:
+			xmin = 444.7
+			xmax = 445.09
+			text = "..."
+		intervals [203]:
+			xmin = 445.09
+			xmax = 447.38
+			text = "da única meditação estética"
+		intervals [204]:
+			xmin = 447.38
+			xmax = 448.09
+			text = "..."
+		intervals [205]:
+			xmin = 448.09
+			xmax = 450.02
+			text = "digna realmente desse nome"
+		intervals [206]:
+			xmin = 450.02
+			xmax = 450.58
+			text = "..."
+		intervals [207]:
+			xmin = 450.58
+			xmax = 454.24
+			text = "que é a meditação de mário de andrade que"
+		intervals [208]:
+			xmin = 454.24
+			xmax = 455.1
+			text = "..."
+		intervals [209]:
+			xmin = 455.1
+			xmax = 457.98
+			text = "abrange todo período e extravaza"
+		intervals [210]:
+			xmin = 457.98
+			xmax = 458.32
+			text = "..."
+		intervals [211]:
+			xmin = 458.32
+			xmax = 462.38
+			text = "até o período de quarenta fechado brutalmente por sua morte"
+		intervals [212]:
+			xmin = 462.38
+			xmax = 463.88
+			text = "..."
+		intervals [213]:
+			xmin = 463.88
+			xmax = 469.28
+			text = "vamos começar pelos professores franceses lévi strauss primeiro jean moguet"
+		intervals [214]:
+			xmin = 469.28
+			xmax = 469.93
+			text = "..."
+		intervals [215]:
+			xmin = 469.93
+			xmax = 470.23
+			text = "e"
+		intervals [216]:
+			xmin = 470.23
+			xmax = 470.64
+			text = "..."
+		intervals [217]:
+			xmin = 470.64
+			xmax = 475.03
+			text = "por fim roger bastide a que tinha me e me esquecido de de referir"
+		intervals [218]:
+			xmin = 475.03
+			xmax = 475.34
+			text = "..."
+		intervals [219]:
+			xmin = 475.34
+			xmax = 478.61
+			text = "os três professores que acho que tiveram muita importância"
+		intervals [220]:
+			xmin = 478.61
+			xmax = 478.94
+			text = "..."
+		intervals [221]:
+			xmin = 478.94
+			xmax = 480.19
+			text = "na"
+		intervals [222]:
+			xmin = 480.19
+			xmax = 480.75
+			text = "..."
+		intervals [223]:
+			xmin = 480.75
+			xmax = 482.24
+			text = "na formação estética"
+		intervals [224]:
+			xmin = 482.24
+			xmax = 482.61
+			text = "..."
+		intervals [225]:
+			xmin = 482.61
+			xmax = 483.23
+			text = "em são paulo"
+		intervals [226]:
+			xmin = 483.23
+			xmax = 484.01
+			text = "..."
+		intervals [227]:
+			xmin = 484.01
+			xmax = 486.53
+			text = "os dois primeiros representam uma posição"
+		intervals [228]:
+			xmin = 486.53
+			xmax = 486.84
+			text = "..."
+		intervals [229]:
+			xmin = 486.84
+			xmax = 489.96
+			text = "que nós vamos ver que é nostálgica em face da arte"
+		intervals [230]:
+			xmin = 489.96
+			xmax = 493.11
+			text = "..."
+		intervals [231]:
+			xmin = 493.11
+			xmax = 493.49
+			text = "e"
+		intervals [232]:
+			xmin = 493.49
+			xmax = 493.96
+			text = "..."
+		intervals [233]:
+			xmin = 493.96
+			xmax = 495.94
+			text = "os terceiro roger basti de"
+		intervals [234]:
+			xmin = 495.94
+			xmax = 496.37
+			text = "..."
+		intervals [235]:
+			xmin = 496.37
+			xmax = 499.05
+			text = "é o que vai servir de elemento de ligação"
+		intervals [236]:
+			xmin = 499.05
+			xmax = 499.43
+			text = "..."
+		intervals [237]:
+			xmin = 499.43
+			xmax = 502.13
+			text = "entre essa posição extremamente européia"
+		intervals [238]:
+			xmin = 502.13
+			xmax = 502.45
+			text = "..."
+		intervals [239]:
+			xmin = 502.45
+			xmax = 506.21
+			text = "e uma posição voltada para os problemas do brasil que é roger bastide"
+		intervals [240]:
+			xmin = 506.21
+			xmax = 506.66
+			text = "..."
+		intervals [241]:
+			xmin = 506.66
+			xmax = 508.36
+			text = "uma posição em muitos pontos"
+		intervals [242]:
+			xmin = 508.36
+			xmax = 509.04
+			text = "..."
+		intervals [243]:
+			xmin = 509.04
+			xmax = 510.6
+			text = "que é semelhante à de mário"
+		intervals [244]:
+			xmin = 510.6
+			xmax = 511.11
+			text = "..."
+		intervals [245]:
+			xmin = 511.11
+			xmax = 511.59
+			text = "então ele"
+		intervals [246]:
+			xmin = 511.59
+			xmax = 512.11
+			text = "..."
+		intervals [247]:
+			xmin = 512.11
+			xmax = 519.89
+			text = "estabeleceu um ponto de ligação entre essa estética européia e uma estética que nós podemos dizer brasileira está se fazendo na sombra"
+		intervals [248]:
+			xmin = 519.89
+			xmax = 521.78
+			text = "..."
+		intervals [249]:
+			xmin = 521.78
+			xmax = 526.46
+			text = "lévi strauss chegou ao brasil com vinte e sete anos era professor de etnografia"
+		intervals [250]:
+			xmin = 526.46
+			xmax = 526.99
+			text = "..."
+		intervals [251]:
+			xmin = 526.99
+			xmax = 527.45
+			text = "mas"
+		intervals [252]:
+			xmin = 527.45
+			xmax = 527.83
+			text = "..."
+		intervals [253]:
+			xmin = 527.83
+			xmax = 529.1
+			text = "ele era filho de pintor"
+		intervals [254]:
+			xmin = 529.1
+			xmax = 530.07
+			text = "..."
+		intervals [255]:
+			xmin = 530.07
+			xmax = 531.19
+			text = "filho de pintor"
+		intervals [256]:
+			xmin = 531.19
+			xmax = 531.53
+			text = "..."
+		intervals [257]:
+			xmin = 531.53
+			xmax = 532.97
+			text = "e amando a pintura"
+		intervals [258]:
+			xmin = 532.97
+			xmax = 533.54
+			text = "..."
+		intervals [259]:
+			xmin = 533.54
+			xmax = 539.83
+			text = "como em geral todo pro todo francês de de de formação intelectual"
+		intervals [260]:
+			xmin = 539.83
+			xmax = 541.78
+			text = "..."
+		intervals [261]:
+			xmin = 541.78
+			xmax = 549.06
+			text = "e amando a música como nós vemos pelos livros que ele continua escrevendo e que muitos deles têm uma"
+		intervals [262]:
+			xmin = 549.06
+			xmax = 549.48
+			text = "..."
+		intervals [263]:
+			xmin = 549.48
+			xmax = 550.49
+			text = "uma"
+		intervals [264]:
+			xmin = 550.49
+			xmax = 551.16
+			text = "..."
+		intervals [265]:
+			xmin = 551.16
+			xmax = 558.6
+			text = "tem títulos ou em subtítulos tirados da da da nomenclatura musical como acontece com cru e cozido"
+		intervals [266]:
+			xmin = 558.6
+			xmax = 561.2
+			text = "..."
+		intervals [267]:
+			xmin = 561.2
+			xmax = 561.23
+			text = "a"
+		intervals [268]:
+			xmin = 561.23
+			xmax = 562.73
+			text = "..."
+		intervals [269]:
+			xmin = 562.73
+			xmax = 566.28
+			text = "preocupação de lévi strauss pela pintura é uma pro preocupação"
+		intervals [270]:
+			xmin = 566.28
+			xmax = 566.76
+			text = "..."
+		intervals [271]:
+			xmin = 566.76
+			xmax = 572.07
+			text = "que percorre a sua vida ela se manifesta sobretudo num livrinho precioso que é"
+		intervals [272]:
+			xmin = 572.07
+			xmax = 572.42
+			text = "..."
+		intervals [273]:
+			xmin = 572.42
+			xmax = 575.61
+			text = "entrevistas com claude charbonnier"
+		intervals [274]:
+			xmin = 575.61
+			xmax = 576.12
+			text = "..."
+		intervals [275]:
+			xmin = 576.12
+			xmax = 580.79
+			text = "é uma série de entrevistas que ele fez à televisão francesa não me lembro exatamente o a época"
+		intervals [276]:
+			xmin = 580.79
+			xmax = 581.17
+			text = "..."
+		intervals [277]:
+			xmin = 581.17
+			xmax = 583.72
+			text = "onde ele dá o seu testemunho"
+		intervals [278]:
+			xmin = 583.72
+			xmax = 584.08
+			text = "..."
+		intervals [279]:
+			xmin = 584.08
+			xmax = 586.52
+			text = "a sua de de antropólogo"
+		intervals [280]:
+			xmin = 586.52
+			xmax = 588.22
+			text = "sobre a"
+		intervals [281]:
+			xmin = 588.22
+			xmax = 588.53
+			text = "..."
+		intervals [282]:
+			xmin = 588.53
+			xmax = 589.37
+			text = "a"
+		intervals [283]:
+			xmin = 589.37
+			xmax = 590.31
+			text = "..."
+		intervals [284]:
+			xmin = 590.31
+			xmax = 598.9
+			text = "a evolução da pintura e sobre alguns problemas da pintura contemporânea sobretudo sobra a a dissolução da pintura como ele via"
+		intervals [285]:
+			xmin = 598.9
+			xmax = 599.23
+			text = "..."
+		intervals [286]:
+			xmin = 599.23
+			xmax = 602.75
+			text = ""
+	item [2]:
+		class = "IntervalTier"
+		name = "NTB-l1"
+		xmin = 0.0
+		xmax = 602.75
+		intervals: size = 286
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.7
+			text = "..."
+		intervals [2]:
+			xmin = 0.7
+			xmax = 5.39
+			text = "ahn o tema que éh me foi dado é da estética"
+		intervals [3]:
+			xmin = 5.39
+			xmax = 5.71
+			text = "..."
+		intervals [4]:
+			xmin = 5.71
+			xmax = 7.51
+			text = "na década de trinta"
+		intervals [5]:
+			xmin = 7.51
+			xmax = 8.59
+			text = "..."
+		intervals [6]:
+			xmin = 8.59
+			xmax = 10.43
+			text = "eu vonu desde o início"
+		intervals [7]:
+			xmin = 10.43
+			xmax = 11.13
+			text = "..."
+		intervals [8]:
+			xmin = 11.13
+			xmax = 14.77
+			text = "declarar que eu vou fugir um pouco ao meu tema"
+		intervals [9]:
+			xmin = 14.77
+			xmax = 15.48
+			text = "..."
+		intervals [10]:
+			xmin = 15.48
+			xmax = 19.9
+			text = "e talvez no decorrer da palestra fique esclarecido"
+		intervals [11]:
+			xmin = 19.9
+			xmax = 20.4
+			text = "..."
+		intervals [12]:
+			xmin = 20.4
+			xmax = 22.81
+			text = "fique esclarecido a minha opção"
+		intervals [13]:
+			xmin = 22.81
+			xmax = 23.95
+			text = "..."
+		intervals [14]:
+			xmin = 23.95
+			xmax = 28.04
+			text = "éh em todo caso aviso já desde o início porque éh"
+		intervals [15]:
+			xmin = 28.04
+			xmax = 28.43
+			text = "..."
+		intervals [16]:
+			xmin = 28.43
+			xmax = 30.69
+			text = "escolhi essa orientação"
+		intervals [17]:
+			xmin = 30.69
+			xmax = 31.32
+			text = "..."
+		intervals [18]:
+			xmin = 31.32
+			xmax = 43.36
+			text = "a década de trinta é uma década muito rica de manifestações estéticas mas muitas das manifestações que poderiam me interessar aqui já foram eu creio tratados por out tratadas por outras pessoas não irão ser tratadas"
+		intervals [19]:
+			xmin = 43.36
+			xmax = 44.0
+			text = "..."
+		intervals [20]:
+			xmin = 44.0
+			xmax = 51.33
+			text = "porque a estética abrange enfim a arquitetura as artes plásticas em geral a arquitetura e pintura"
+		intervals [21]:
+			xmin = 51.33
+			xmax = 52.16
+			text = "..."
+		intervals [22]:
+			xmin = 52.16
+			xmax = 56.12
+			text = "e e pode eventualmente entrar pelo campo da literatura"
+		intervals [23]:
+			xmin = 56.12
+			xmax = 56.78
+			text = "..."
+		intervals [24]:
+			xmin = 56.78
+			xmax = 57.95
+			text = "éh"
+		intervals [25]:
+			xmin = 57.95
+			xmax = 59.41
+			text = "..."
+		intervals [26]:
+			xmin = 59.41
+			xmax = 59.79
+			text = "e"
+		intervals [27]:
+			xmin = 59.79
+			xmax = 60.21
+			text = "..."
+		intervals [28]:
+			xmin = 60.21
+			xmax = 63.88
+			text = "por outro lado porque neste momento ah está ah"
+		intervals [29]:
+			xmin = 63.88
+			xmax = 65.38
+			text = "..."
+		intervals [30]:
+			xmin = 65.38
+			xmax = 65.42
+			text = "ah"
+		intervals [31]:
+			xmin = 65.42
+			xmax = 65.99
+			text = "..."
+		intervals [32]:
+			xmin = 65.99
+			xmax = 67.0
+			text = "trabalhando"
+		intervals [33]:
+			xmin = 67.0
+			xmax = 67.25
+			text = "um"
+		intervals [34]:
+			xmin = 67.25
+			xmax = 71.45
+			text = "esteta que talvez seja o maior esteta que o brasil já teve que é mário de andrade"
+		intervals [35]:
+			xmin = 71.45
+			xmax = 71.92
+			text = "..."
+		intervals [36]:
+			xmin = 71.92
+			xmax = 77.83
+			text = "e eu acredito que é mais importante para nós pararmos um pouco na meditação do sistema de"
+		intervals [37]:
+			xmin = 77.83
+			xmax = 78.4
+			text = "arte"
+		intervals [38]:
+			xmin = 78.4
+			xmax = 78.5
+			text = "que"
+		intervals [39]:
+			xmin = 78.5
+			xmax = 79.36
+			text = "ele estabeleceu"
+		intervals [40]:
+			xmin = 79.36
+			xmax = 79.81
+			text = "..."
+		intervals [41]:
+			xmin = 79.81
+			xmax = 82.88
+			text = "do que em pequenas manifestações esporádicas"
+		intervals [42]:
+			xmin = 82.88
+			xmax = 83.3
+			text = "..."
+		intervals [43]:
+			xmin = 83.3
+			xmax = 86.13
+			text = "que não terão tanta importância posterior"
+		intervals [44]:
+			xmin = 86.13
+			xmax = 86.7
+			text = "..."
+		intervals [45]:
+			xmin = 86.7
+			xmax = 91.45
+			text = "de modo que eu vou tentar na primeira parte da minha palestra me referir"
+		intervals [46]:
+			xmin = 91.45
+			xmax = 91.92
+			text = "..."
+		intervals [47]:
+			xmin = 91.92
+			xmax = 94.31
+			text = "a algumas manifestações"
+		intervals [48]:
+			xmin = 94.31
+			xmax = 94.84
+			text = "..."
+		intervals [49]:
+			xmin = 94.84
+			xmax = 96.69
+			text = "e depois me fixar"
+		intervals [50]:
+			xmin = 96.69
+			xmax = 97.02
+			text = "..."
+		intervals [51]:
+			xmin = 97.02
+			xmax = 97.28
+			text = "na"
+		intervals [52]:
+			xmin = 97.28
+			xmax = 97.79
+			text = "..."
+		intervals [53]:
+			xmin = 97.79
+			xmax = 100.2
+			text = "na no pensamento estético de mário"
+		intervals [54]:
+			xmin = 100.2
+			xmax = 102.18
+			text = "..."
+		intervals [55]:
+			xmin = 102.18
+			xmax = 115.57
+			text = "mesmo aqui eu fiz uma pê uma uma ah o meu enfoque é muito pessoal porque éh tendo que escolher alguns pensadores eu preferi escolher aqueles que estão ligados à faculdade de filosofia"
+		intervals [56]:
+			xmin = 115.57
+			xmax = 116.16
+			text = "..."
+		intervals [57]:
+			xmin = 116.16
+			xmax = 119.62
+			text = "e que tiveram uma atuação aqui nos cursos"
+		intervals [58]:
+			xmin = 119.62
+			xmax = 120.98
+			text = "..."
+		intervals [59]:
+			xmin = 120.98
+			xmax = 122.34
+			text = "de modo que não estranhem"
+		intervals [60]:
+			xmin = 122.34
+			xmax = 122.71
+			text = "..."
+		intervals [61]:
+			xmin = 122.71
+			xmax = 127.24
+			text = "a a a a orientação pouco peculiar que eu vou dar a essa palestra"
+		intervals [62]:
+			xmin = 127.24
+			xmax = 128.95
+			text = "..."
+		intervals [63]:
+			xmin = 128.95
+			xmax = 131.59
+			text = "na década no no de no decênio de trinta"
+		intervals [64]:
+			xmin = 131.59
+			xmax = 133.03
+			text = "..."
+		intervals [65]:
+			xmin = 133.03
+			xmax = 139.58
+			text = "ah é republicado o livro de vicente licínio cardoso a filosofia da arte"
+		intervals [66]:
+			xmin = 139.58
+			xmax = 140.45
+			text = "..."
+		intervals [67]:
+			xmin = 140.45
+			xmax = 144.47
+			text = "que havia se originado num curso de arte feito aos arquitetos"
+		intervals [68]:
+			xmin = 144.47
+			xmax = 146.01
+			text = "..."
+		intervals [69]:
+			xmin = 146.01
+			xmax = 146.44
+			text = "e"
+		intervals [70]:
+			xmin = 146.44
+			xmax = 147.12
+			text = "..."
+		intervals [71]:
+			xmin = 147.12
+			xmax = 148.77
+			text = "ao qual apenas eu vou me referir"
+		intervals [72]:
+			xmin = 148.77
+			xmax = 149.19
+			text = "..."
+		intervals [73]:
+			xmin = 149.19
+			xmax = 154.42
+			text = "porque se bem que ele tenha no panorama no panorama geral brasileiro muita importância"
+		intervals [74]:
+			xmin = 154.42
+			xmax = 155.0
+			text = "..."
+		intervals [75]:
+			xmin = 155.0
+			xmax = 158.74
+			text = "ah é um livro que não pá apari ah apresenta nenhuma originalidade"
+		intervals [76]:
+			xmin = 158.74
+			xmax = 159.19
+			text = "..."
+		intervals [77]:
+			xmin = 159.19
+			xmax = 163.02
+			text = "limitando se a uma divulgação das idéias de taine"
+		intervals [78]:
+			xmin = 163.02
+			xmax = 163.49
+			text = "..."
+		intervals [79]:
+			xmin = 163.49
+			xmax = 168.65
+			text = "onde a explicação dos fenômenos artísticos era sujeita"
+		intervals [80]:
+			xmin = 168.65
+			xmax = 169.09
+			text = "..."
+		intervals [81]:
+			xmin = 169.09
+			xmax = 172.43
+			text = "às três fluências da raça do meio e do momento"
+		intervals [82]:
+			xmin = 172.43
+			xmax = 173.68
+			text = "..."
+		intervals [83]:
+			xmin = 173.68
+			xmax = 175.39
+			text = "mas ah"
+		intervals [84]:
+			xmin = 175.39
+			xmax = 182.27
+			text = "uma das poucas idéias curiosas de licínio cardoso era ter dado à arquitetura uma preeminência"
+		intervals [85]:
+			xmin = 182.27
+			xmax = 182.65
+			text = "..."
+		intervals [86]:
+			xmin = 182.65
+			xmax = 186.4
+			text = "mostrado que ela é de certa maneira a"
+		intervals [87]:
+			xmin = 186.4
+			xmax = 187.1
+			text = "..."
+		intervals [88]:
+			xmin = 187.1
+			xmax = 188.27
+			text = "a arte mestra"
+		intervals [89]:
+			xmin = 188.27
+			xmax = 188.61
+			text = "..."
+		intervals [90]:
+			xmin = 188.61
+			xmax = 188.88
+			text = "à"
+		intervals [91]:
+			xmin = 188.88
+			xmax = 193.53
+			text = "qual as demais deveriam se sujeitar esta a idéia principal de licí"
+		intervals [92]:
+			xmin = 193.53
+			xmax = 193.86
+			text = "..."
+		intervals [93]:
+			xmin = 193.86
+			xmax = 195.3
+			text = "de vicente licínio cardoso"
+		intervals [94]:
+			xmin = 195.3
+			xmax = 195.62
+			text = "..."
+		intervals [95]:
+			xmin = 195.62
+			xmax = 200.07
+			text = "que vai se transformar numa idéia banal para nós hoje em dia"
+		intervals [96]:
+			xmin = 200.07
+			xmax = 200.77
+			text = "..."
+		intervals [97]:
+			xmin = 200.77
+			xmax = 204.13
+			text = "o livro teve pouca fluência passou quase despercebido"
+		intervals [98]:
+			xmin = 204.13
+			xmax = 205.38
+			text = "..."
+		intervals [99]:
+			xmin = 205.38
+			xmax = 208.46
+			text = "nesse decênio nós temos a a"
+		intervals [100]:
+			xmin = 208.46
+			xmax = 209.39
+			text = "..."
+		intervals [101]:
+			xmin = 209.39
+			xmax = 215.8
+			text = "atividade jornalística de alguns pensadores como é o caso de sérgio milliet e de luís martins"
+		intervals [102]:
+			xmin = 215.8
+			xmax = 216.31
+			text = "..."
+		intervals [103]:
+			xmin = 216.31
+			xmax = 218.7
+			text = "que atuam através de crônicas"
+		intervals [104]:
+			xmin = 218.7
+			xmax = 220.28
+			text = "..."
+		intervals [105]:
+			xmin = 220.28
+			xmax = 227.45
+			text = "e há no rio de janeiro um pouco atividade de manuel bandeira que é um excelente crítico de artes plásticas"
+		intervals [106]:
+			xmin = 227.45
+			xmax = 228.6
+			text = "..."
+		intervals [107]:
+			xmin = 228.6
+			xmax = 234.55
+			text = "nós temos alguns autores fazendo obras de muita sensibilidade mas esporádicas"
+		intervals [108]:
+			xmin = 234.55
+			xmax = 235.21
+			text = "..."
+		intervals [109]:
+			xmin = 235.21
+			xmax = 240.32
+			text = "mas eu creio que isso foi ou deve ser abordado por quem falar da pintura"
+		intervals [110]:
+			xmin = 240.32
+			xmax = 241.47
+			text = "..."
+		intervals [111]:
+			xmin = 241.47
+			xmax = 244.18
+			text = "para o decênio das experiências de flávio de carvalho"
+		intervals [112]:
+			xmin = 244.18
+			xmax = 244.82
+			text = "..."
+		intervals [113]:
+			xmin = 244.82
+			xmax = 244.92
+			text = "as"
+		intervals [114]:
+			xmin = 244.92
+			xmax = 245.33
+			text = "..."
+		intervals [115]:
+			xmin = 245.33
+			xmax = 247.91
+			text = "experiências numeradas de flávio de carvalho"
+		intervals [116]:
+			xmin = 247.91
+			xmax = 248.22
+			text = "..."
+		intervals [117]:
+			xmin = 248.22
+			xmax = 256.43
+			text = "mas como houve ou haverá um testemunho do próprio arquiteto já houve não há necessidade já houve que eu me detenha também"
+		intervals [118]:
+			xmin = 256.43
+			xmax = 256.83
+			text = "..."
+		intervals [119]:
+			xmin = 256.83
+			xmax = 258.54
+			text = "nessa manifestação por"
+		intervals [120]:
+			xmin = 258.54
+			xmax = 259.62
+			text = "..."
+		intervals [121]:
+			xmin = 259.62
+			xmax = 262.15
+			text = "outro lado como já houve também"
+		intervals [122]:
+			xmin = 262.15
+			xmax = 263.03
+			text = "..."
+		intervals [123]:
+			xmin = 263.03
+			xmax = 265.25
+			text = "a conferência sobre arquitetura"
+		intervals [124]:
+			xmin = 265.25
+			xmax = 265.7
+			text = "..."
+		intervals [125]:
+			xmin = 265.7
+			xmax = 270.27
+			text = "já deve ter sido mostrado que o decênio é extremamente importante para a arquitetura"
+		intervals [126]:
+			xmin = 270.27
+			xmax = 272.58
+			text = "..."
+		intervals [127]:
+			xmin = 272.58
+			xmax = 281.86
+			text = "mas ela é mais importante como realização da arquitetura do que como teorização sobre arquite arquitetura"
+		intervals [128]:
+			xmin = 281.86
+			xmax = 282.21
+			text = "..."
+		intervals [129]:
+			xmin = 282.21
+			xmax = 289.35
+			text = "enfim nesse decênio nós já encontramos os frutos da chegada de warchavchik ao brasil em mil novecentos e vinte e três"
+		intervals [130]:
+			xmin = 289.35
+			xmax = 289.67
+			text = "..."
+		intervals [131]:
+			xmin = 289.67
+			xmax = 291.6
+			text = "da atuação de rino levi"
+		intervals [132]:
+			xmin = 291.6
+			xmax = 291.97
+			text = "..."
+		intervals [133]:
+			xmin = 291.97
+			xmax = 301.84
+			text = "da divulgação das idéias de le corbusier e também já vemos a repercussão no meio ainda muito provinciano de sao paulo"
+		intervals [134]:
+			xmin = 301.84
+			xmax = 302.14
+			text = "..."
+		intervals [135]:
+			xmin = 302.14
+			xmax = 308.93
+			text = "de algumas realizações éh modernistas como as duas casas sobretudo de warchavchik"
+		intervals [136]:
+			xmin = 308.93
+			xmax = 309.47
+			text = "..."
+		intervals [137]:
+			xmin = 309.47
+			xmax = 311.44
+			text = "que foram extremamente discutidas"
+		intervals [138]:
+			xmin = 311.44
+			xmax = 311.76
+			text = "..."
+		intervals [139]:
+			xmin = 311.76
+			xmax = 316.59
+			text = "que receberam pelos jornais muitos ataques que provocaram polêmicas"
+		intervals [140]:
+			xmin = 316.59
+			xmax = 316.93
+			text = "..."
+		intervals [141]:
+			xmin = 316.93
+			xmax = 318.45
+			text = "polêmicas em que como"
+		intervals [142]:
+			xmin = 318.45
+			xmax = 318.79
+			text = "..."
+		intervals [143]:
+			xmin = 318.79
+			xmax = 322.98
+			text = "a maioria das polêmicas dessa au dessa época uma das figuras principais"
+		intervals [144]:
+			xmin = 322.98
+			xmax = 323.35
+			text = "..."
+		intervals [145]:
+			xmin = 323.35
+			xmax = 324.15
+			text = "foi mário"
+		intervals [146]:
+			xmin = 324.15
+			xmax = 324.79
+			text = "de andrade"
+		intervals [147]:
+			xmin = 324.79
+			xmax = 325.1
+			text = "..."
+		intervals [148]:
+			xmin = 325.1
+			xmax = 331.49
+			text = "que veio a público para defender os ataques que as casas tinham recebido de cristiano das neves"
+		intervals [149]:
+			xmin = 331.49
+			xmax = 332.07
+			text = "..."
+		intervals [150]:
+			xmin = 332.07
+			xmax = 334.01
+			text = "e creio que décio de morais"
+		intervals [151]:
+			xmin = 334.01
+			xmax = 334.69
+			text = "..."
+		intervals [152]:
+			xmin = 334.69
+			xmax = 336.71
+			text = "tão há uma polêmica pelo jornal"
+		intervals [153]:
+			xmin = 336.71
+			xmax = 337.39
+			text = "..."
+		intervals [154]:
+			xmin = 337.39
+			xmax = 340.42
+			text = "de dos arquitetos tradicionalistas"
+		intervals [155]:
+			xmin = 340.42
+			xmax = 340.7
+			text = "e"
+		intervals [156]:
+			xmin = 340.7
+			xmax = 341.49
+			text = "..."
+		intervals [157]:
+			xmin = 341.49
+			xmax = 350.69
+			text = "mário de andrade querendo defender as idéias que eram idéias um pouco de le corbusier e muito de gropius difundidas no brasil por warchavchik"
+		intervals [158]:
+			xmin = 350.69
+			xmax = 351.78
+			text = "..."
+		intervals [159]:
+			xmin = 351.78
+			xmax = 351.82
+			text = "o"
+		intervals [160]:
+			xmin = 351.82
+			xmax = 354.38
+			text = "..."
+		intervals [161]:
+			xmin = 354.38
+			xmax = 356.27
+			text = "que nos interessa hoje"
+		intervals [162]:
+			xmin = 356.27
+			xmax = 357.32
+			text = "..."
+		intervals [163]:
+			xmin = 357.32
+			xmax = 357.35
+			text = "é"
+		intervals [164]:
+			xmin = 357.35
+			xmax = 357.95
+			text = "..."
+		intervals [165]:
+			xmin = 357.95
+			xmax = 359.68
+			text = "a estética que fazia"
+		intervals [166]:
+			xmin = 359.68
+			xmax = 360.28
+			text = "..."
+		intervals [167]:
+			xmin = 360.28
+			xmax = 364.83
+			text = "de uma maneira talvez mais aprofundada nos cursos da faculdade de filosofia"
+		intervals [168]:
+			xmin = 364.83
+			xmax = 365.99
+			text = "..."
+		intervals [169]:
+			xmin = 365.99
+			xmax = 371.35
+			text = "nessa ocasião os cursos eram dados por professores estrangeiros por professores franceses"
+		intervals [170]:
+			xmin = 371.35
+			xmax = 372.01
+			text = "..."
+		intervals [171]:
+			xmin = 372.01
+			xmax = 372.62
+			text = "e"
+		intervals [172]:
+			xmin = 372.62
+			xmax = 373.76
+			text = "..."
+		intervals [173]:
+			xmin = 373.76
+			xmax = 373.83
+			text = "a"
+		intervals [174]:
+			xmin = 373.83
+			xmax = 374.92
+			text = "..."
+		intervals [175]:
+			xmin = 374.92
+			xmax = 378.59
+			text = "atuação desses professores foi para muitos de nós"
+		intervals [176]:
+			xmin = 378.59
+			xmax = 378.9
+			text = "..."
+		intervals [177]:
+			xmin = 378.9
+			xmax = 380.2
+			text = "muito importante"
+		intervals [178]:
+			xmin = 380.2
+			xmax = 380.86
+			text = "..."
+		intervals [179]:
+			xmin = 380.86
+			xmax = 382.16
+			text = "nós vamos ver então a"
+		intervals [180]:
+			xmin = 382.16
+			xmax = 382.62
+			text = "..."
+		intervals [181]:
+			xmin = 382.62
+			xmax = 395.47
+			text = "atuação de dois professores jean moguet e claude lévi strauss que tinham nessa ocasião vinte e sete anos e começava no brasil a sua portentosa carreira uni universitária"
+		intervals [182]:
+			xmin = 395.47
+			xmax = 396.11
+			text = "..."
+		intervals [183]:
+			xmin = 396.11
+			xmax = 397.32
+			text = "em segundo lugar"
+		intervals [184]:
+			xmin = 397.32
+			xmax = 397.7
+			text = "..."
+		intervals [185]:
+			xmin = 397.7
+			xmax = 403.55
+			text = "queria me referir aos salões de pintura como o salão de mário onde se davam exposições de quadros e conferências"
+		intervals [186]:
+			xmin = 403.55
+			xmax = 403.88
+			text = "..."
+		intervals [187]:
+			xmin = 403.88
+			xmax = 406.94
+			text = "e sobretudo à grande exposição de pintura francesa"
+		intervals [188]:
+			xmin = 406.94
+			xmax = 407.27
+			text = "..."
+		intervals [189]:
+			xmin = 407.27
+			xmax = 412.34
+			text = "que em mil novecentos e quarenta fecha o decênio de maneira espetacular"
+		intervals [190]:
+			xmin = 412.34
+			xmax = 412.65
+			text = "..."
+		intervals [191]:
+			xmin = 412.65
+			xmax = 413.96
+			text = "para muitos de nós"
+		intervals [192]:
+			xmin = 413.96
+			xmax = 414.3
+			text = "..."
+		intervals [193]:
+			xmin = 414.3
+			xmax = 419.42
+			text = "foi o primeiro contato com a arte francesa"
+		intervals [194]:
+			xmin = 419.42
+			xmax = 420.21
+			text = "..."
+		intervals [195]:
+			xmin = 420.21
+			xmax = 424.06
+			text = "é importante essa essa essa co essa chegada dos quatro franceses"
+		intervals [196]:
+			xmin = 424.06
+			xmax = 424.46
+			text = "..."
+		intervals [197]:
+			xmin = 424.46
+			xmax = 429.64
+			text = "porque nós que éramos alunos da faculdade nessa ocasião íamos à à à à"
+		intervals [198]:
+			xmin = 429.64
+			xmax = 429.98
+			text = "..."
+		intervals [199]:
+			xmin = 429.98
+			xmax = 440.14
+			text = "con à à exposição de quadros muitas vezes com o professor moguet para que ele nos explicasse os quadros para muitos de nós foi o primeiro contato em profundidade com a pintura"
+		intervals [200]:
+			xmin = 440.14
+			xmax = 441.72
+			text = "..."
+		intervals [201]:
+			xmin = 441.72
+			xmax = 444.7
+			text = "e em último ca lugar a elaboração"
+		intervals [202]:
+			xmin = 444.7
+			xmax = 445.09
+			text = "..."
+		intervals [203]:
+			xmin = 445.09
+			xmax = 447.38
+			text = "da única meditação estética"
+		intervals [204]:
+			xmin = 447.38
+			xmax = 448.09
+			text = "..."
+		intervals [205]:
+			xmin = 448.09
+			xmax = 450.02
+			text = "digna realmente desse nome"
+		intervals [206]:
+			xmin = 450.02
+			xmax = 450.58
+			text = "..."
+		intervals [207]:
+			xmin = 450.58
+			xmax = 454.24
+			text = "que é a meditação de mário de andrade que"
+		intervals [208]:
+			xmin = 454.24
+			xmax = 455.1
+			text = "..."
+		intervals [209]:
+			xmin = 455.1
+			xmax = 457.98
+			text = "abrange todo período e extravaza"
+		intervals [210]:
+			xmin = 457.98
+			xmax = 458.32
+			text = "..."
+		intervals [211]:
+			xmin = 458.32
+			xmax = 462.38
+			text = "até o período de quarenta fechado brutalmente por sua morte"
+		intervals [212]:
+			xmin = 462.38
+			xmax = 463.88
+			text = "..."
+		intervals [213]:
+			xmin = 463.88
+			xmax = 469.28
+			text = "vamos começar pelos professores franceses lévi strauss primeiro jean moguet"
+		intervals [214]:
+			xmin = 469.28
+			xmax = 469.93
+			text = "..."
+		intervals [215]:
+			xmin = 469.93
+			xmax = 470.23
+			text = "e"
+		intervals [216]:
+			xmin = 470.23
+			xmax = 470.64
+			text = "..."
+		intervals [217]:
+			xmin = 470.64
+			xmax = 475.03
+			text = "por fim roger bastide a que tinha me e me esquecido de de referir"
+		intervals [218]:
+			xmin = 475.03
+			xmax = 475.34
+			text = "..."
+		intervals [219]:
+			xmin = 475.34
+			xmax = 478.61
+			text = "os três professores que acho que tiveram muita importância"
+		intervals [220]:
+			xmin = 478.61
+			xmax = 478.94
+			text = "..."
+		intervals [221]:
+			xmin = 478.94
+			xmax = 480.19
+			text = "na"
+		intervals [222]:
+			xmin = 480.19
+			xmax = 480.75
+			text = "..."
+		intervals [223]:
+			xmin = 480.75
+			xmax = 482.24
+			text = "na formação estética"
+		intervals [224]:
+			xmin = 482.24
+			xmax = 482.61
+			text = "..."
+		intervals [225]:
+			xmin = 482.61
+			xmax = 483.23
+			text = "em são paulo"
+		intervals [226]:
+			xmin = 483.23
+			xmax = 484.01
+			text = "..."
+		intervals [227]:
+			xmin = 484.01
+			xmax = 486.53
+			text = "os dois primeiros representam uma posição"
+		intervals [228]:
+			xmin = 486.53
+			xmax = 486.84
+			text = "..."
+		intervals [229]:
+			xmin = 486.84
+			xmax = 489.96
+			text = "que nós vamos ver que é nostálgica em face da arte"
+		intervals [230]:
+			xmin = 489.96
+			xmax = 493.11
+			text = "..."
+		intervals [231]:
+			xmin = 493.11
+			xmax = 493.49
+			text = "e"
+		intervals [232]:
+			xmin = 493.49
+			xmax = 493.96
+			text = "..."
+		intervals [233]:
+			xmin = 493.96
+			xmax = 495.94
+			text = "os terceiro roger basti de"
+		intervals [234]:
+			xmin = 495.94
+			xmax = 496.37
+			text = "..."
+		intervals [235]:
+			xmin = 496.37
+			xmax = 499.05
+			text = "é o que vai servir de elemento de ligação"
+		intervals [236]:
+			xmin = 499.05
+			xmax = 499.43
+			text = "..."
+		intervals [237]:
+			xmin = 499.43
+			xmax = 502.13
+			text = "entre essa posição extremamente européia"
+		intervals [238]:
+			xmin = 502.13
+			xmax = 502.45
+			text = "..."
+		intervals [239]:
+			xmin = 502.45
+			xmax = 506.21
+			text = "e uma posição voltada para os problemas do brasil que é roger bastide"
+		intervals [240]:
+			xmin = 506.21
+			xmax = 506.66
+			text = "..."
+		intervals [241]:
+			xmin = 506.66
+			xmax = 508.36
+			text = "uma posição em muitos pontos"
+		intervals [242]:
+			xmin = 508.36
+			xmax = 509.04
+			text = "..."
+		intervals [243]:
+			xmin = 509.04
+			xmax = 510.6
+			text = "que é semelhante à de mário"
+		intervals [244]:
+			xmin = 510.6
+			xmax = 511.11
+			text = "..."
+		intervals [245]:
+			xmin = 511.11
+			xmax = 511.59
+			text = "então ele"
+		intervals [246]:
+			xmin = 511.59
+			xmax = 512.11
+			text = "..."
+		intervals [247]:
+			xmin = 512.11
+			xmax = 519.89
+			text = "estabeleceu um ponto de ligação entre essa estética européia e uma estética que nós podemos dizer brasileira está se fazendo na sombra"
+		intervals [248]:
+			xmin = 519.89
+			xmax = 521.78
+			text = "..."
+		intervals [249]:
+			xmin = 521.78
+			xmax = 526.46
+			text = "lévi strauss chegou ao brasil com vinte e sete anos era professor de etnografia"
+		intervals [250]:
+			xmin = 526.46
+			xmax = 526.99
+			text = "..."
+		intervals [251]:
+			xmin = 526.99
+			xmax = 527.45
+			text = "mas"
+		intervals [252]:
+			xmin = 527.45
+			xmax = 527.83
+			text = "..."
+		intervals [253]:
+			xmin = 527.83
+			xmax = 529.1
+			text = "ele era filho de pintor"
+		intervals [254]:
+			xmin = 529.1
+			xmax = 530.07
+			text = "..."
+		intervals [255]:
+			xmin = 530.07
+			xmax = 531.19
+			text = "filho de pintor"
+		intervals [256]:
+			xmin = 531.19
+			xmax = 531.53
+			text = "..."
+		intervals [257]:
+			xmin = 531.53
+			xmax = 532.97
+			text = "e amando a pintura"
+		intervals [258]:
+			xmin = 532.97
+			xmax = 533.54
+			text = "..."
+		intervals [259]:
+			xmin = 533.54
+			xmax = 539.83
+			text = "como em geral todo pro todo francês de de de formação intelectual"
+		intervals [260]:
+			xmin = 539.83
+			xmax = 541.78
+			text = "..."
+		intervals [261]:
+			xmin = 541.78
+			xmax = 549.06
+			text = "e amando a música como nós vemos pelos livros que ele continua escrevendo e que muitos deles têm uma"
+		intervals [262]:
+			xmin = 549.06
+			xmax = 549.48
+			text = "..."
+		intervals [263]:
+			xmin = 549.48
+			xmax = 550.49
+			text = "uma"
+		intervals [264]:
+			xmin = 550.49
+			xmax = 551.16
+			text = "..."
+		intervals [265]:
+			xmin = 551.16
+			xmax = 558.6
+			text = "tem títulos ou em subtítulos tirados da da da nomenclatura musical como acontece com cru e cozido"
+		intervals [266]:
+			xmin = 558.6
+			xmax = 561.2
+			text = "..."
+		intervals [267]:
+			xmin = 561.2
+			xmax = 561.23
+			text = "a"
+		intervals [268]:
+			xmin = 561.23
+			xmax = 562.73
+			text = "..."
+		intervals [269]:
+			xmin = 562.73
+			xmax = 566.28
+			text = "preocupação de lévi strauss pela pintura é uma pro preocupação"
+		intervals [270]:
+			xmin = 566.28
+			xmax = 566.76
+			text = "..."
+		intervals [271]:
+			xmin = 566.76
+			xmax = 572.07
+			text = "que percorre a sua vida ela se manifesta sobretudo num livrinho precioso que é"
+		intervals [272]:
+			xmin = 572.07
+			xmax = 572.42
+			text = "..."
+		intervals [273]:
+			xmin = 572.42
+			xmax = 575.61
+			text = "entrevistas com claude charbonnier"
+		intervals [274]:
+			xmin = 575.61
+			xmax = 576.12
+			text = "..."
+		intervals [275]:
+			xmin = 576.12
+			xmax = 580.79
+			text = "é uma série de entrevistas que ele fez à televisão francesa não me lembro exatamente o a época"
+		intervals [276]:
+			xmin = 580.79
+			xmax = 581.17
+			text = "..."
+		intervals [277]:
+			xmin = 581.17
+			xmax = 583.72
+			text = "onde ele dá o seu testemunho"
+		intervals [278]:
+			xmin = 583.72
+			xmax = 584.08
+			text = "..."
+		intervals [279]:
+			xmin = 584.08
+			xmax = 586.52
+			text = "a sua de de antropólogo"
+		intervals [280]:
+			xmin = 586.52
+			xmax = 588.22
+			text = "sobre a"
+		intervals [281]:
+			xmin = 588.22
+			xmax = 588.53
+			text = "..."
+		intervals [282]:
+			xmin = 588.53
+			xmax = 589.37
+			text = "a"
+		intervals [283]:
+			xmin = 589.37
+			xmax = 590.31
+			text = "..."
+		intervals [284]:
+			xmin = 590.31
+			xmax = 598.9
+			text = "a evolução da pintura e sobre alguns problemas da pintura contemporânea sobretudo sobra a a dissolução da pintura como ele via"
+		intervals [285]:
+			xmin = 598.9
+			xmax = 599.23
+			text = "..."
+		intervals [286]:
+			xmin = 599.23
+			xmax = 602.75
+			text = ""
+	item [3]:
+		class = "IntervalTier"
+		name = "comentarios-anotacao"
+		xmin = 0.0
+		xmax = 602.75
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0
+			xmax = 602.75
+			text = ""
+	item [4]:
+		class = "IntervalTier"
+		name = "comentarios"
+		xmin = 0.0
+		xmax = 602.75
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0
+			xmax = 602.75
+			text = ""

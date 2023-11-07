@@ -382,7 +382,7 @@ class AutomaticSegmentation:
                 g2p_words[pwi] = g2p_words[pwi].replace("y", "i")
         #print("sentences", sentences)
         print("palavras convertidas para fonemas", g2p_words, len(g2p_words))
-        f = open("Mestrado/SP_D2_360_segmentado/g2pwordsD360.txt", "w")
+        f = open("Data/SP_D2_360_segmentado/g2pwordsD360.txt", "w")
         for word in g2p_words:
             f.write(word+"\n")
         f.close()
@@ -501,8 +501,6 @@ class AutomaticSegmentation:
                         #dsrs_1 = []
                         # Para ativar a primeira heurística descomente a próxima linha:
                         dsrs_1, dsr_windows_1 = self.dsr_threshold_1(windows, delta1)
-                        
-
                         #print("dsrs1",dsrs_1)
 
                         # Para desativar a segundaa heurística: 
@@ -599,8 +597,8 @@ class AutomaticSegmentation:
         # terceira heurística
         sil_boundaries = []
         # Para ativar a heurística de silêncios, deixe a próxima linha descomentada
-        #silences = self.print_silences(sil_timestamps, silence_threshold, sil_boundaries)
-        silences = []
+        silences = self.print_silences(sil_timestamps, silence_threshold, sil_boundaries)
+        #silences = []
 
         # junta todas as fronteiras identificadas das primeiras heuristicas com a terceira
         all_timestamps = list(set(all_timestamps + silences))
@@ -787,7 +785,7 @@ class AutomaticSegmentation:
                 tier_method = Method_tg.get_tier_by_name(name)
             except:
                 print("layer", name, "does not exist in both textgrids, skipping to next layer")
-            #    continue
+                continue
             # inicia do 1 pois o tempo inicial do primeiro intervalo das camadas é sempre 0 e não é considerado uma fronteira
             index_method = 1
             index_annot = 1
@@ -893,28 +891,29 @@ class AutomaticSegmentation:
 # Inquérito selecionado
 #inq = "SP_EF_156"
 #inq = "SP_D2_255"
-#inq = "SP_DID_242"
+inq = "SP_DID_242"
 #inq = "SP_D2_012"
-inq = "SP_D2_360"
+#inq = "SP_D2_360"
 i = 1
-segments_quantity = 6
+segments_quantity = 4
 alignment_tg_list = []
 locs_files_list = []
-rel_path_inq = "Mestrado/" + inq + "_segmentado/"
-concatenated_tg_file = rel_path_inq + inq + "_concatenated.TextGrid"
-concatenated_locs_file = rel_path_inq + inq + "_locutores.txt"
-concatenated_locs_words_file = rel_path_inq + inq + "_locutores_palavras.txt"
-output_tg_file = rel_path_inq + inq + "_OUTPUT_ONLY_H1_H2.TextGrid"
-metrics_path = rel_path_inq + inq + "_metrics_ONLY_H1_H2.csv"
+rel_path_inq = "Data/" + inq + "_segmentado/"
+concatenated_tg_file = rel_path_inq + inq + "_concatenated_v2.TextGrid"
+concatenated_locs_file = rel_path_inq + inq + "_locutores_v2.txt"
+concatenated_locs_words_file = rel_path_inq + inq + "_locutores_palavras_v2.txt"
+output_tg_file = rel_path_inq + inq + "_OUTPUT_v2.TextGrid"
+metrics_path = rel_path_inq + inq + "_metrics_v2.csv"
 for i in range (1,segments_quantity+1):
     segment_number = str(i)
-    path = rel_path_inq + inq + "_" + segment_number + "/" + inq 
+    #path = rel_path_inq + inq + "_" + segment_number + "/" + inq 
+    path = rel_path_inq + "v2/" + inq
     clipped_path = path + "_clipped_" + segment_number
-    locs_file =  clipped_path + "_locutores.txt"
+    locs_file =  clipped_path + "_locutores_v2.txt"
     #locs_words_file = clipped_path + "_locutores_palavras.txt"
-    alignment_tg = clipped_path + ".TextGrid"
+    alignment_tg = clipped_path + "_v2.TextGrid"
     #output_tg_file = clipped_path + "_OUTPUT.TextGrid"
-    annot_tg = path + ".TextGrid"
+    annot_tg = path + "_v2.TextGrid"
 
     #Criando a classe com todas as funções que serão utilizadas
     Segmentation = AutomaticSegmentation(path, locs_file)
