@@ -74,11 +74,14 @@ In case UFPAlign fails to process your files, there are a few things you can try
 
 ## Segmentador prosódico (Prosodic Segmentation)
 
-To run the prosodic segmentator, all you need is to
+To run the prosodic segmentator at your local machine with your personal data, you need to
 
-1- Move your .TextGrid file, and your .txt transcription file to a folder called ...COMPLETE
+0- Download file "segmentador_biron.py" 
 
-2- Download file "segmentador_biron.py" 
+1- In the same folder that you place it, create a folder called "Data", inside it create a folder for each inquiry. Name the folders with the name of the inquiries + "_segmentado".
+Each inquiry folder must contain a folder for each part, which contains the .TextGrid with timestamps and .txt diarized transcription file for that part.
+
+2- Inside the code you must personalize line `inq = "SP_DID_242"`, with the name of your inquiry, then personalize line `segments_quantity = 4` with the number of parts that you have and you should be relatively good to go. There might be additional path errors once you run for different inquiries, but the filenames or paths that must be corrected will be indicated for you at the terminal.
 
 3- Then run:
 `python3 segmentador_byron.py`
@@ -133,6 +136,10 @@ Outside of the segment folders, there are also files that reference all of the s
 - (if applicable) a .csv file containing metrics obtained using only the first and the second heuristic *(e.g. SP_D2_255_metrics_ONLY_H1_H2.csv)*
 - (if applicable) a .csv file containing metrics obtained using only the silences' heuristic *(e.g. SP_D2_255_metrics_ONLY_SIL.csv)*
 
+Note: The files indicated with "v2" in the inquiry SP_DID_242 indicated the files that were generated and obtained after a manual revision of the transcription of its audio.
 
 Note: Some fields are marked with "(possibly)" because in some cases the segments were processed individually, and then concatenated before processed, and in some cases they were only processed after concatenation.
-Some fields are marked with "(if applicable)" because the files only exist for the inquiries that contain a reference TextGrid
+
+Note: Some fields are marked with "(if applicable)" because the files only exist for the inquiries that contain a reference TextGrid
+
+Note: In SP_D2_012, the indication of speakers was confusing (doc., doc.f, doc.m, inf., inf.f, inf.m) and when standardizing names of speakers we were not sure how many speakers there actually were, so we experimented uniting the utterances of some speakers that seemed to be the same person (files indicated by "3loc","4loc","6loc"). The expert who manually segmented the inquiry chose the version with 3 speakers ("3loc") to use at the article.
