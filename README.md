@@ -113,7 +113,6 @@ Each segment folder contains:
 - the .txt file that contains each utterance divided by speaker. Its name ends with *locutores*. *(e.g. SP_D2_012_clipped_1_locutores.txt)*
 - (possibly) a .txt file in which there is a line for every word and its respective speaker. This one is an auxiliary file that the prosodic segmentation code generates to help its process and is identified by its ending *locutores_palavras*. *(e.g. SP_D2_012_clipped_1_locutores_palavras.txt)*
 - (possibly) the output .TextGrid file in which the utterances are prosodically segmented. Its name ends with *OUTPUT*. *(e.g. SP_D2_012_clipped_1_OUTPUT.TextGrid)*
-- (possibly) the manually segmented .TextGrid file used as reference *(e.g. SP_D2_255.TextGrid)*
   
 
 Outside of the segment folders, there are also files that reference all of the segments. There are:
