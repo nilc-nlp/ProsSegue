@@ -382,10 +382,10 @@ class AutomaticSegmentation:
                 g2p_words[pwi] = g2p_words[pwi].replace("y", "i")
         #print("sentences", sentences)
         print("palavras convertidas para fonemas", g2p_words, len(g2p_words))
-        f = open("Data/SP_D2_360_segmentado/g2pwordsD360.txt", "w")
-        for word in g2p_words:
-            f.write(word+"\n")
-        f.close()
+        #f = open("Data/SP_D2_360_segmentado/g2pwordsD360.txt", "w")
+        #for word in g2p_words:
+        #    f.write(word+"\n")
+        #f.close()
 
         # SO FAR SO GOOD
 
@@ -890,31 +890,51 @@ class AutomaticSegmentation:
 
 # Inquérito selecionado
 #inq = "SP_EF_156"
-#inq = "SP_D2_255"
-inq = "SP_DID_242"
+inq = "SP_D2_255"
+#inq = "SP_DID_242"
 #inq = "SP_D2_012"
 #inq = "SP_D2_360"
 i = 1
-segments_quantity = 4
+segments_quantity = 8
 alignment_tg_list = []
 locs_files_list = []
 rel_path_inq = "Data/" + inq + "_segmentado/"
-concatenated_tg_file = rel_path_inq + inq + "_concatenated_v2.TextGrid"
-concatenated_locs_file = rel_path_inq + inq + "_locutores_v2.txt"
-concatenated_locs_words_file = rel_path_inq + inq + "_locutores_palavras_v2.txt"
-output_tg_file = rel_path_inq + inq + "_OUTPUT_v2.TextGrid"
-metrics_path = rel_path_inq + inq + "_metrics_v2.csv"
+
+# v2
+#concatenated_tg_file = rel_path_inq + inq + "_concatenated_v2.TextGrid"
+#concatenated_locs_file = rel_path_inq + inq + "_locutores_v2.txt"
+#concatenated_locs_words_file = rel_path_inq + inq + "_locutores_palavras_v2.txt"
+#output_tg_file = rel_path_inq + inq + "_OUTPUT_v2.TextGrid"
+#metrics_path = rel_path_inq + inq + "_metrics_v2.csv"
+
+# v1
+concatenated_tg_file = rel_path_inq + inq + "_concatenated.TextGrid"
+concatenated_locs_file = rel_path_inq + inq + "_locutores.txt"
+concatenated_locs_words_file = rel_path_inq + inq + "_locutores_palavras.txt"
+output_tg_file = rel_path_inq + inq + "_OUTPUT.TextGrid"
+metrics_path = rel_path_inq + inq + "_metrics.csv"
+annot_tg = rel_path_inq + inq + ".TextGrid"
+print(annot_tg)
+
 for i in range (1,segments_quantity+1):
     segment_number = str(i)
-    #path = rel_path_inq + inq + "_" + segment_number + "/" + inq 
-    path = rel_path_inq + "v2/" + inq
+    path = rel_path_inq + inq + "_" + segment_number + "/" + inq 
     clipped_path = path + "_clipped_" + segment_number
-    locs_file =  clipped_path + "_locutores_v2.txt"
-    #locs_words_file = clipped_path + "_locutores_palavras.txt"
-    alignment_tg = clipped_path + "_v2.TextGrid"
-    #output_tg_file = clipped_path + "_OUTPUT.TextGrid"
-    annot_tg = path + "_v2.TextGrid"
 
+    # v1
+
+    locs_words_file = clipped_path + "_locutores_palavras.txt"
+    locs_file =  clipped_path + "_locutores.txt"
+    #output_tg_file = clipped_path + "_OUTPUT.TextGrid"
+    alignment_tg = clipped_path + ".TextGrid"
+    
+    # To use v2 - uncomment the following:
+
+    #path = rel_path_inq + "v2/" + inq
+    #locs_file =  clipped_path + "_locutores_v2.txt"
+    #alignment_tg = clipped_path + "_v2.TextGrid"
+    #annot_tg = path + "_v2.TextGrid"
+    
     #Criando a classe com todas as funções que serão utilizadas
     Segmentation = AutomaticSegmentation(path, locs_file)
 
@@ -955,8 +975,8 @@ print("Quantity of boundaries obtained with the second heuristic:",len(dsrs_2))
 print("Total:", len(silences)+len(dsrs_1)+len(dsrs_2))
 print(output_tg_file, "SUCCESS" )
 print(annot_tg)
+
 # Métricas
-#Segmentation.ser(annot_tg, output_tg_file, "NTB", silences, dsrs_1, dsrs_2, hits_threshold)
 Segmentation.metrics(annot_tg, output_tg_file, silences, dsrs_1, dsrs_2, hits_threshold, metrics_path) 
 
 # 6 parâmetros: tamanho da janela: 0.3                      (em s, deve ser positivo e não deve ser grande, talvez no max 1s)
