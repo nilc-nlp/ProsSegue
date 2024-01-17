@@ -296,8 +296,9 @@ class AutomaticSegmentation:
               last_sr = word[1]
         return dsrs_2
 
-    def print_silences(self, sil_timestamps, silence_threshold, sil_boundaries):
+    def print_silences(self, sil_timestamps, silence_threshold):
         silences = []
+        sil_boundaries = []
         sil_avg = 0
 
         for s in sil_timestamps:
@@ -309,9 +310,10 @@ class AutomaticSegmentation:
                 silences = silences + [s[0],s[1]]
 
         sil_avg = sil_avg/len(sil_timestamps)
-        print("Quantidade de fronteiras de silêncio:",len(sil_timestamps))
+        print("Fronteiras de silêncio:",sil_boundaries)
+        print("Quantidade de fronteiras de silêncio:",len(sil_boundaries))
         print("Média da duração das fronteiras de silêncios", sil_avg, "\n")
-        return silences
+        return silences, sil_boundaries
 
     def fill_boundaries_tier(self, timestamps, boundaries_tier, sil_boundaries):
         timestamps.sort()
@@ -330,15 +332,16 @@ class AutomaticSegmentation:
               print("overlap")
             last_ts = ts
             #print("boundary:", boundary)
-
+        return boundaries_tier
         #print("Boundaries tier",boundaries_tier)
 
-    def find_boundaries(self, locs_file, tg_file, annot_tg, output_tg_file, window_size, delta1, delta2, silence_threshold, interval_size, min_words_h2):        
+    def find_boundaries(self, locs_file, tg_file, annot_tg, output_tg_file, window_size, delta1, delta2, silence_threshold_TB, silence_threshold_NTB, interval_size, min_words_h2):        
         input_tg = tgt.io.read_textgrid(tg_file, self.predict_encoding(tg_file), include_empty_intervals=False)
         output_tg = tgt.core.TextGrid(output_tg_file)
         annot_tg = tgt.core.TextGrid(annot_tg)
 
-        boundaries_tier = tgt.core.IntervalTier(start_time=input_tg.start_time, end_time=input_tg.end_time, name="fronteiras_metodo", objects=None)
+        boundaries_tier_TB = tgt.core.IntervalTier(start_time=input_tg.start_time, end_time=input_tg.end_time, name="fronteiras_metodo_TB", objects=None)
+        boundaries_tier_NTB = tgt.core.IntervalTier(start_time=input_tg.start_time, end_time=input_tg.end_time, name="fronteiras_metodo_NTB", objects=None)
 
         # lemos as palavras no arquivo com locutores e geramos essas duas listas:
             # sentences: guarda todas as palavras do texto
@@ -393,11 +396,13 @@ class AutomaticSegmentation:
         # índice para iterar pelas palavras convertidas via g2p
         i = 0
         curr_turn = ""
-        # Formato dos items da lista window_phones (texto[0], duração[1], tempo de início[2], tempo de fim[3], locutor[4])
+        # Formato dos itens da lista window_phones (texto[0], duração[1], tempo de início[2], tempo de fim[3], locutor[4])
         window_phones = []
         tier_names = []
         windows = []
-        all_timestamps = [input_tg.start_time, input_tg.end_time]
+        #all_timestamps = [input_tg.start_time, input_tg.end_time]
+        all_timestamps_TB = [input_tg.start_time, input_tg.end_time]
+        all_timestamps_NTB = [input_tg.start_time, input_tg.end_time]
         timestamps_dsrs_1 = []
         timestamps_dsrs_2 = []
         constr = ""
@@ -515,7 +520,8 @@ class AutomaticSegmentation:
                         print("tamanho dsrs1:", len(dsrs_1))
                         print("tamanho dsrs2:", len(dsrs_2))
                         print("tamanho timestamps:", len(timestamps), "\n")
-                        all_timestamps += timestamps
+                        all_timestamps_TB += timestamps
+                        all_timestamps_NTB += timestamps
                         timestamps_dsrs_1 += dsrs_1
                         timestamps_dsrs_2 += dsrs_2
 
@@ -551,7 +557,8 @@ class AutomaticSegmentation:
                         timestamps = list(set(dsrs_1 + dsrs_2))
                         timestamps_dsrs_1 += dsrs_1
                         timestamps_dsrs_2 += dsrs_2
-                        all_timestamps += timestamps
+                        all_timestamps_TB += timestamps
+                        all_timestamps_NTB += timestamps
                         print("curr_loc", curr_loc)
                         print("tamanho dsrs1:", len(dsrs_1))
                         print("tamanho dsrs2:", len(dsrs_2))
@@ -595,19 +602,24 @@ class AutomaticSegmentation:
                     window_phones = []
 
         # terceira heurística
-        sil_boundaries = []
+        
         # Para ativar a heurística de silêncios, deixe a próxima linha descomentada
-        silences = self.print_silences(sil_timestamps, silence_threshold, sil_boundaries)
+        silences_TB, sil_boundaries_TB = self.print_silences(sil_timestamps, silence_threshold_TB)
+        silences_NTB, sil_boundaries_NTB = self.print_silences(sil_timestamps, silence_threshold_NTB)
         #silences = []
 
         # junta todas as fronteiras identificadas das primeiras heuristicas com a terceira
-        all_timestamps = list(set(all_timestamps + silences))
-        all_timestamps.sort()
+        all_timestamps_TB = list(set(all_timestamps_TB + silences_TB))
+        all_timestamps_NTB = list(set(all_timestamps_NTB + silences_NTB))
+        all_timestamps_TB.sort()
+        all_timestamps_NTB.sort()
         #print(all_timestamps)
-        print("Tamanho do all_timestamps:",len(all_timestamps), "\n")
+        print("Tamanho do all_timestamps TB:",len(all_timestamps_TB), "\n")
+        print("Tamanho do all_timestamps NTB:",len(all_timestamps_NTB), "\n")
 
         # preenche tier de boundaries juntando as 3 heurísticas
-        self.fill_boundaries_tier(all_timestamps, boundaries_tier, sil_boundaries)
+        boundaries_tier_TB = self.fill_boundaries_tier(all_timestamps_TB, boundaries_tier_TB, sil_boundaries_TB)
+        boundaries_tier_NTB = self.fill_boundaries_tier(all_timestamps_NTB, boundaries_tier_NTB, sil_boundaries_NTB)
 
         last_c = 0
         last_text = ""
@@ -621,7 +633,7 @@ class AutomaticSegmentation:
         current_stretch = "" # trecho atual
 
         # aqui vamos inserir as informações das fronteiras identificadas pelo método nas tiers correspondentes de cada turno no textgrid
-        for boundary in boundaries_tier.intervals:
+        for boundary in boundaries_tier_TB.intervals:
             if boundary.text == "...":
                 new_intervals.append([boundary, last_loc])
                 current_stretch = ""
@@ -647,12 +659,54 @@ class AutomaticSegmentation:
                         break
                     current_stretch += turn_until_word[index_infos_palavra][0] + " "
 
-        # adiciona intervalos nas duas camadas do turno adequado
+        # adiciona intervalos na camada tb do turno adequado
         for ni in new_intervals:
             tb_turn_tier = output_tg.get_tier_by_name("TB-"+ni[1])
-            ntb_turn_tier =  output_tg.get_tier_by_name("NTB-"+ni[1])
             try:
                 tb_turn_tier.add_interval(ni[0])
+            except:
+                print("overlap")
+
+        # reset de variáveis para NTB
+
+        new_intervals = []
+        index_atual_lista_palavras = 0
+        current_stretch = "" # trecho atual
+        last_loc = turn_until_word[0][2]
+        missing_text = ""
+
+
+        # aqui vamos inserir as informações das fronteiras identificadas pelo método nas tiers correspondentes de cada turno no textgrid
+        for boundary in boundaries_tier_NTB.intervals:
+            if boundary.text == "...":
+                new_intervals.append([boundary, last_loc])
+                current_stretch = ""
+            # itera pelas palavras
+            else:
+                for index_infos_palavra in range(index_atual_lista_palavras,tamanho_lista_palavras):
+                    # se o fim da fronteira é menor ou igual ao fim da palavra
+                    if boundary.end_time <= turn_until_word[index_infos_palavra][5]:
+                        # se trocou de turno, troca o locutor
+                        if turn_until_word[index_infos_palavra][2] != last_loc:
+                            last_loc = turn_until_word[index_infos_palavra][2]
+                        if boundary.end_time < turn_until_word[index_infos_palavra][5]: #fim da fronteira é menor que fim da palavra, logo deve ser igual ao tempo de início da palavra atual
+                            missing_text = turn_until_word[index_infos_palavra][0] + " "
+                        else:
+                            current_stretch += turn_until_word[index_infos_palavra][0]
+                            missing_text = ""
+                        i_text = current_stretch
+                        i = [tgt.core.Interval(start_time=boundary.start_time, end_time=boundary.end_time, text=i_text), turn_until_word[index_infos_palavra][2]] 
+                        new_intervals.append(i)
+                        current_stretch = missing_text
+                        # para de iterar pelas palavras para essa fronteira pois já foi encontrada
+                        index_atual_lista_palavras = index_infos_palavra + 1
+                        break
+                    current_stretch += turn_until_word[index_infos_palavra][0] + " "
+
+        # adiciona intervalos na camada ntb do turno adequado
+        for ni in new_intervals:
+            ntb_turn_tier =  output_tg.get_tier_by_name("NTB-"+ni[1])
+            try:
                 ntb_turn_tier.add_interval(ni[0])
             except:
                 print("overlap")
@@ -671,7 +725,7 @@ class AutomaticSegmentation:
 
         #print("Vou escrever o textgrid no arquivo agr e fim da função")
         tgt.io.write_to_file(output_tg, output_tg_file, format='long', encoding='utf-8') 
-        return silences, timestamps_dsrs_1, timestamps_dsrs_2
+        return silences_TB, silences_NTB, timestamps_dsrs_1, timestamps_dsrs_2
 
     def ser(self, annot_tg, method_tg, boundary_type, timestamps_silences, timestamps_dsrs_1, timestamps_dsrs_2, hits_threshold):
         if boundary_type not in ["TB", "NTB"]:
@@ -757,12 +811,12 @@ class AutomaticSegmentation:
         return C # acurácia
         #return SER
 
-    def metrics(self, annot_rg, method_tg, timestamps_silences, timestamps_dsrs_1, timestamps_dsrs_2, hits_threshold, metrics_path):
+    def metrics(self, annot_tg, method_tg, hits_threshold, metrics_path):
         boundary_types = ["TB", "NTB"]
         Annot_tg = tgt.io.read_textgrid(annot_tg, self.predict_encoding(annot_tg), include_empty_intervals=True)
         Method_tg = tgt.io.read_textgrid(method_tg, self.predict_encoding(method_tg), include_empty_intervals=True)
 
-        all_timestamps = timestamps_dsrs_1 + timestamps_dsrs_2 + timestamps_silences
+        #all_timestamps = timestamps_dsrs_1 + timestamps_dsrs_2 + timestamps_silences
         names_annot = Annot_tg.get_tier_names()
         names_method = Method_tg.get_tier_names()
         print(names_annot, names_method)
@@ -911,7 +965,7 @@ rel_path_inq = "Data/" + inq + "_segmentado/"
 concatenated_tg_file = rel_path_inq + inq + "_concatenated.TextGrid"
 concatenated_locs_file = rel_path_inq + inq + "_locutores.txt"
 concatenated_locs_words_file = rel_path_inq + inq + "_locutores_palavras.txt"
-output_tg_file = rel_path_inq + inq + "_OUTPUT.TextGrid"
+output_tg_file = rel_path_inq + inq + "_OUTPUT_NEW.TextGrid"
 metrics_path = rel_path_inq + inq + "_metrics.csv"
 annot_tg = rel_path_inq + inq + ".TextGrid"
 print(annot_tg)
@@ -958,26 +1012,32 @@ window_size = 0.3
 delta1 = 0.88
 delta2 = 0.70
 interval_size = 3
-silence_threshold = 0.3
+silence_threshold_TB = 0.3
+silence_threshold_NTB = 0.1
 min_words_h2 = 10
 hits_threshold = 0.25
 
 # Aplicando o método
-silences, dsrs_1, dsrs_2 = Segmentation.find_boundaries(concatenated_locs_words_file, concatenated_tg_file, annot_tg, output_tg_file, window_size, delta1, delta2, silence_threshold, interval_size, min_words_h2)
+silences_TB, silences_NTB, dsrs_1, dsrs_2 = Segmentation.find_boundaries(concatenated_locs_words_file, concatenated_tg_file, annot_tg, output_tg_file, window_size, delta1, delta2, silence_threshold_TB, silence_threshold_NTB, interval_size, min_words_h2)
 
 # Imprimindo alguns dados
-print("silences", silences)
-print("Quantity of boundaries obtained with the silences heuristic:",len(silences))
+print("silences TB", silences_TB)
+print("silences NTB", silences_NTB)
+print("Quantity of boundaries obtained with the silences heuristic TB:",len(silences_TB))
+print("Quantity of boundaries obtained with the silences heuristic NTB:",len(silences_NTB))
 print("dsrs1", dsrs_1)
 print("Quantity of boundaries obtained with the first heuristic:",len(dsrs_1))
 print("dsrs2", dsrs_2)
 print("Quantity of boundaries obtained with the second heuristic:",len(dsrs_2))
-print("Total:", len(silences)+len(dsrs_1)+len(dsrs_2))
+print("Total TB:", len(silences_TB)+len(dsrs_1)+len(dsrs_2))
+print("Total NTB:", len(silences_NTB)+len(dsrs_1)+len(dsrs_2))
 print(output_tg_file, "SUCCESS" )
 print(annot_tg)
 
 # Métricas
-Segmentation.metrics(annot_tg, output_tg_file, silences, dsrs_1, dsrs_2, hits_threshold, metrics_path) 
+print("Metrics TB")
+Segmentation.metrics(annot_tg, output_tg_file, hits_threshold, metrics_path) 
+
 
 # 6 parâmetros: tamanho da janela: 0.3                      (em s, deve ser positivo e não deve ser grande, talvez no max 1s)
 #               threshold da 1a heurística (porcentagem
