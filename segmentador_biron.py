@@ -332,8 +332,10 @@ class AutomaticSegmentation:
               print("overlap")
             last_ts = ts
             #print("boundary:", boundary)
-        return boundaries_tier
+
         #print("Boundaries tier",boundaries_tier)
+        return boundaries_tier
+        
 
     def find_boundaries(self, locs_file, tg_file, annot_tg, output_tg_file, window_size, delta1, delta2, silence_threshold_TB, silence_threshold_NTB, interval_size, min_words_h2):        
         input_tg = tgt.io.read_textgrid(tg_file, self.predict_encoding(tg_file), include_empty_intervals=False)
@@ -658,7 +660,6 @@ class AutomaticSegmentation:
                         index_atual_lista_palavras = index_infos_palavra + 1
                         break
                     current_stretch += turn_until_word[index_infos_palavra][0] + " "
-
         # adiciona intervalos na camada tb do turno adequado
         for ni in new_intervals:
             tb_turn_tier = output_tg.get_tier_by_name("TB-"+ni[1])
@@ -695,6 +696,11 @@ class AutomaticSegmentation:
                             current_stretch += turn_until_word[index_infos_palavra][0]
                             missing_text = ""
                         i_text = current_stretch
+                        #if(i_text == ""):
+                        #    print("ADDING EMPTY INTERVAL", boundary.start_time, boundary.end_time)
+                        #    i = new_intervals.pop()
+                        #    i[0].end_time = boundary.end_time 
+                        #else:
                         i = [tgt.core.Interval(start_time=boundary.start_time, end_time=boundary.end_time, text=i_text), turn_until_word[index_infos_palavra][2]] 
                         new_intervals.append(i)
                         current_stretch = missing_text
@@ -702,7 +708,7 @@ class AutomaticSegmentation:
                         index_atual_lista_palavras = index_infos_palavra + 1
                         break
                     current_stretch += turn_until_word[index_infos_palavra][0] + " "
-
+        
         # adiciona intervalos na camada ntb do turno adequado
         for ni in new_intervals:
             ntb_turn_tier =  output_tg.get_tier_by_name("NTB-"+ni[1])
