@@ -70,8 +70,8 @@ def textgridToTxt(reference_tg, output_txt_path):
     tier_names = reference_tg.get_tier_names()
     print(tier_names)
     #tier_names_punct = [tier_name for tier_name in tier_names if "ponto" in tier_name]
-    #tier_names_punct = [tier_name for tier_name in tier_names if "ponto" in tier_name] # VERSAO 3, JUNTANDO COM PONTUAÇÃO
-    tier_names = [tier_name for tier_name in tier_names if tier_name.startswith("TB") and "ponto" not in tier_name] # VERSAO 3 E TB, JUNTANDO COM PONTUAÇÃO 
+    tier_names_punct = [tier_name for tier_name in tier_names if "ponto" in tier_name] # VERSAO 3, JUNTANDO COM PONTUAÇÃO
+    tier_names = [tier_name for tier_name in tier_names if tier_name.startswith("TB") and "ponto" not in tier_name and "normal" not in tier_name] # VERSAO 3 E TB, JUNTANDO COM PONTUAÇÃO 
     #tier_names = [tier_name for tier_name in tier_names if "NTB" in tier_name] #or "ponto" in tier_name] # VERSAO 1 (original), VERSAO 2 (corrigida, mas sem pontuação)
     #print(tier_names_punct)
     #tier_names = tier_names + tier_names_punct
@@ -87,12 +87,12 @@ def textgridToTxt(reference_tg, output_txt_path):
     curr_loc = ""
 
     # VERSAO 3, COM PONTUACAO (só esse bloco de 6 linhas)
-    #aux_intervals_end_time = {}
-    #reference_tiers_punct = {}
-    #index_intervals_punct = {} # vetor de índices para percorrer cada camada
-    #aux_intervals_start_time_punct = {}
-    #aux_intervals_end_time_punct = {}
-    #aux_intervals_text_punct = {}
+    aux_intervals_end_time = {}
+    reference_tiers_punct = {}
+    index_intervals_punct = {} # vetor de índices para percorrer cada camada
+    aux_intervals_start_time_punct = {}
+    aux_intervals_end_time_punct = {}
+    aux_intervals_text_punct = {}
     
     for tier_name in tier_names:
         print(tier_name)
@@ -100,16 +100,16 @@ def textgridToTxt(reference_tg, output_txt_path):
         index_intervals[tier_name] = 0 # vetor de índices para percorrer cada camada
         aux_intervals_start_time[tier_name] = reference_tiers[tier_name].intervals[0].start_time # cria vetor com o start time do intervalo
         aux_intervals_text[tier_name] = reference_tiers[tier_name].intervals[0].text
-    #    aux_intervals_end_time[tier_name] = reference_tiers[tier_name].intervals[0].end_time # VERSAO 3
+        aux_intervals_end_time[tier_name] = reference_tiers[tier_name].intervals[0].end_time # VERSAO 3
         
     # VERSAO 3, COM PONTUAÇÃO (só esse bloco)
-    #for tier_name in tier_names_punct:
-    #    print(tier_name)
-    #    reference_tiers_punct[tier_name] = reference_tg.get_tier_by_name(tier_name)
-    #    index_intervals_punct[tier_name] = 0 # vetor de índices para percorrer cada camada
-    #    aux_intervals_start_time_punct[tier_name] = reference_tiers_punct[tier_name].intervals[0].start_time # cria vetor com o start time do intervalo
-    #    aux_intervals_end_time_punct[tier_name] = reference_tiers_punct[tier_name].intervals[0].end_time
-    #    aux_intervals_text_punct[tier_name] = reference_tiers_punct[tier_name].intervals[0].text
+    for tier_name in tier_names_punct:
+        print(tier_name)
+        reference_tiers_punct[tier_name] = reference_tg.get_tier_by_name(tier_name)
+        index_intervals_punct[tier_name] = 0 # vetor de índices para percorrer cada camada
+        aux_intervals_start_time_punct[tier_name] = reference_tiers_punct[tier_name].intervals[0].start_time # cria vetor com o start time do intervalo
+        aux_intervals_end_time_punct[tier_name] = reference_tiers_punct[tier_name].intervals[0].end_time
+        aux_intervals_text_punct[tier_name] = reference_tiers_punct[tier_name].intervals[0].text
     
     with open(output_txt_path, 'w+') as f: 
         # PARA REMOVER CABEÇALHO BASTA COMENTAR AS DUAS LINHAS A SEGUIR
@@ -134,12 +134,12 @@ def textgridToTxt(reference_tg, output_txt_path):
                 f.write(next_text) 
             
                 # VERSAO 3
-            #    curr_loc_punct_tier = curr_tier_name + "-ponto"
-            #    while (reference_tiers_punct[curr_loc_punct_tier].intervals[index_intervals_punct[curr_loc_punct_tier]].start_time < aux_intervals_start_time[curr_tier_name]):
-            #        index_intervals_punct[curr_loc_punct_tier] += 1
-            #        print(reference_tiers_punct[curr_loc_punct_tier].intervals[index_intervals_punct[curr_loc_punct_tier]], reference_tiers_punct[curr_loc_punct_tier].intervals[index_intervals_punct[curr_loc_punct_tier]].end_time)
-            #    if( aux_intervals_end_time[curr_tier_name] == reference_tiers_punct[curr_loc_punct_tier].intervals[index_intervals_punct[curr_loc_punct_tier]].end_time and reference_tiers_punct[curr_loc_punct_tier].intervals[index_intervals_punct[curr_loc_punct_tier]].text != ""):
-            #        f.write(reference_tiers_punct[curr_loc_punct_tier].intervals[index_intervals_punct[curr_loc_punct_tier]].text)
+                curr_loc_punct_tier = curr_tier_name + "-ponto"
+                while (reference_tiers_punct[curr_loc_punct_tier].intervals[index_intervals_punct[curr_loc_punct_tier]].start_time < aux_intervals_start_time[curr_tier_name]):
+                    index_intervals_punct[curr_loc_punct_tier] += 1
+                    print(reference_tiers_punct[curr_loc_punct_tier].intervals[index_intervals_punct[curr_loc_punct_tier]], reference_tiers_punct[curr_loc_punct_tier].intervals[index_intervals_punct[curr_loc_punct_tier]].end_time)
+                if( aux_intervals_end_time[curr_tier_name] == reference_tiers_punct[curr_loc_punct_tier].intervals[index_intervals_punct[curr_loc_punct_tier]].end_time and reference_tiers_punct[curr_loc_punct_tier].intervals[index_intervals_punct[curr_loc_punct_tier]].text != ""):
+                    f.write(reference_tiers_punct[curr_loc_punct_tier].intervals[index_intervals_punct[curr_loc_punct_tier]].text)
             
                 f.write("\n")
             
@@ -148,7 +148,7 @@ def textgridToTxt(reference_tg, output_txt_path):
             if (reference_tiers[curr_tier_name].intervals[index_intervals[curr_tier_name]] != reference_tiers[curr_tier_name].intervals[-1]):
                 index_intervals[curr_tier_name] += 1
                 aux_intervals_start_time[curr_tier_name] = reference_tiers[curr_tier_name].intervals[index_intervals[curr_tier_name]].start_time 
-            #    aux_intervals_end_time[curr_tier_name] = reference_tiers[curr_tier_name].intervals[index_intervals[curr_tier_name]].end_time # VERSAO 3 
+                aux_intervals_end_time[curr_tier_name] = reference_tiers[curr_tier_name].intervals[index_intervals[curr_tier_name]].end_time # VERSAO 3 
                 aux_intervals_text[curr_tier_name] = reference_tiers[curr_tier_name].intervals[index_intervals[curr_tier_name]].text
                 #print("atualizados:", aux_intervals_start_time)
                 #print(aux_intervals_text) 
@@ -156,69 +156,70 @@ def textgridToTxt(reference_tg, output_txt_path):
                 del index_intervals[curr_tier_name]
                 del aux_intervals_start_time[curr_tier_name]  #removing the index of the tier that ended
                 del aux_intervals_text[curr_tier_name] 
-            #    del aux_intervals_end_time[curr_tier_name] # VERSAO 3
+                del aux_intervals_end_time[curr_tier_name] # VERSAO 3
                 print("camada", curr_tier_name, "acabou")
 
 # Organizando caminhos
 
 # Inquérito selecionado
-#inq = "SP_D2_012"
 
-#inq = "SP_D2_062"
-#inq = "SP_D2_255"
-#inq = "SP_D2_333"
-#inq = "SP_D2_343"
-#inq = "SP_D2_360"
-#inq = "SP_D2_396"
-#inq = "SP_DID_018"
-#inq = "SP_DID_137"
-#inq = "SP_DID_161"
-#inq = "SP_DID_208"
-#inq = "SP_DID_234"
-#inq = "SP_DID_235"
-#inq = "SP_DID_242"
-#inq = "SP_DID_250"
-#inq = "SP_DID_251"
-#inq = "SP_EF_124"
-#inq = "SP_EF_153"
-#inq = "SP_EF_156"
-#inq = "SP_EF_377"
-#inq = "SP_EF_388"
-#inq = "SP_EF_405"
+#inq = "SP_D2_062" check
+#inq = "SP_D2_255" check
+#inq = "SP_D2_333" check
+#inq = "SP_D2_343" check
+#inq = "SP_D2_360" check
+#inq = "SP_D2_396" check
+#inq = "SP_DID_018" check
+#inq = "SP_DID_137" check
+#inq = "SP_DID_161" check
+#inq = "SP_DID_208" check
+#inq = "SP_DID_234" check
+#inq = "SP_DID_235" check
+#inq = "SP_DID_242" check só sem pontuação
+#inq = "SP_DID_250" check
+#inq = "SP_DID_251" check
+#inq = "SP_EF_124" check
+#inq = "SP_EF_153" check
+#inq = "SP_EF_156" check só sem pontuação
+#inq = "SP_EF_377" check
+#inq = "SP_EF_388" check
+#inq = "SP_EF_405" check
 
 
 ## CATNA
 
-#inq = "SP_DID_001_parte_2"
-#inq = "SP_D2_008_parte_2"                
-#inq = "SP_DID_009_completo"
-#inq = "SP_D2_010_parte_1"
-#inq = "SP_D2_010_parte_3"
-#inq = "SP_D2_023_parte_1"
-#inq = "SP_DID_011_completo"
-inq = "SP_D2_012"
-#inq = "SP_DID_043_completo"
-#inq = "SP_DID_044_parte"
-#inq = "SP_DID_068_completo"
-#inq = "SP_DID_089_completo"
-#inq = "SP_DID_090_completo"
-#inq = "SP_D2_055"
-#inq = "SP_D2_095"
-#inq = "SP_D2_109"
-#inq = "SP_DID_002"
-#inq = "SP_DID_013"
-#inq = "SP_DID_017"
-#inq = "SP_DID_030"
-#inq = "SP_DID_053"
-#inq = "SP_DID_114"
-#inq = "SP_DID_121"
-#inq = "SP_DID_070"
-#inq = "SP_DID_016"
+#inq = "SP_DID_001_parte_2" check
+inq = "SP_D2_008_parte_2"                
+#inq = "SP_DID_009" check
+#inq = "SP_D2_010_parte_1" check
+#inq = "SP_D2_010_parte_3" check
+#inq = "SP_D2_023_parte_1" check
+#inq = "SP_DID_011" check
+#inq = "SP_DID_043" check
+#inq = "SP_DID_044_parte" check
+#inq = "SP_DID_068" check
+#inq = "SP_DID_089" check
+#inq = "SP_DID_090" check
+                
+#inq = "SP_D2_012" CHECK
+#inq = "SP_D2_055" CHECK
+#inq = "SP_D2_095" CHECK
+#inq = "SP_D2_109" CHECK
+#inq = "SP_DID_002" CHECK
+#inq = "SP_DID_013" CHECK
+#inq = "SP_DID_017" check
+#inq = "SP_DID_030" CHECK
+#inq = "SP_DID_053" check
+#inq = "SP_DID_114" check
+#inq = "SP_DID_121" CHECK
+#inq = "SP_DID_070" check
+#inq = "SP_DID_016" # CHECK
+#inq = "SP_DID_111" check
 #inq = "teste"
 
 
-reference_tg = "ReferenceTextgrids/" + inq + ".TextGrid" # verificar qual dessas opções consta no nome do arquivo e comentar a outra
-#reference_tg = "ReferenceTextgrids/" + inq + ".textgrid"
+#reference_tg = "ReferenceTextgrids/" + inq + ".TextGrid" # verificar qual dessas opções consta no nome do arquivo e comentar a outra
+reference_tg = "ReferenceTextgrids/" + inq + ".textgrid"
 #output_txt_path = "RevisedTxts/" + inq + "_revised.txt" # VERSAO 1, SEM CORREÇÃO
 #output_txt_path = "RevisedTxts/" + inq + "_revised2.txt" # VERSAO 2, CORRIGIDA SEM PONTUAÇÃO
 output_txt_path = "RevisedTxts/" + inq + "_revised_TB.txt" # VERSAO 2, CORRIGIDA SEM PONTUAÇÃO USANDO CAMADA TB
