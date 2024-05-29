@@ -1,0 +1,3496 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 601.99
+tiers? <exists>
+size = 8
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "TB-inff"
+		xmin = 0.0
+		xmax = 601.99
+		intervals: size = 342
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.12
+			text = ""
+		intervals [2]:
+			xmin = 0.12
+			xmax = 2.61
+			text = "agora então eles dão umas duas ou três balançadas"
+		intervals [3]:
+			xmin = 2.61
+			xmax = 2.92
+			text = "..."
+		intervals [4]:
+			xmin = 2.92
+			xmax = 4.44
+			text = "e o terceiro vem"
+		intervals [5]:
+			xmin = 4.44
+			xmax = 4.98
+			text = "..."
+		intervals [6]:
+			xmin = 4.98
+			xmax = 6.99
+			text = "quando ele vem esse que está abaixo"
+		intervals [7]:
+			xmin = 6.99
+			xmax = 7.64
+			text = "soltase"
+		intervals [8]:
+			xmin = 7.64
+			xmax = 9.18
+			text = "das mãos daquele que o prende"
+		intervals [9]:
+			xmin = 9.18
+			xmax = 9.51
+			text = "..."
+		intervals [10]:
+			xmin = 9.51
+			xmax = 12.11
+			text = "e o outro é que agarra é uma fração de segundo"
+		intervals [11]:
+			xmin = 12.11
+			xmax = 12.44
+			text = "..."
+		intervals [12]:
+			xmin = 12.44
+			xmax = 16.62
+			text = "e o outro então tem que agarrar o trapézio agora então o close é este eles brecam"
+		intervals [13]:
+			xmin = 16.62
+			xmax = 17.04
+			text = "..."
+		intervals [14]:
+			xmin = 17.04
+			xmax = 18.21
+			text = "o filme exatamente nesse"
+		intervals [15]:
+			xmin = 18.21
+			xmax = 18.56
+			text = "ponto"
+		intervals [16]:
+			xmin = 18.56
+			xmax = 19.03
+			text = "..."
+		intervals [17]:
+			xmin = 19.03
+			xmax = 19.54
+			text = "então você"
+		intervals [18]:
+			xmin = 19.54
+			xmax = 19.83
+			text = "vê"
+		intervals [19]:
+			xmin = 19.83
+			xmax = 20.15
+			text = "..."
+		intervals [20]:
+			xmin = 20.15
+			xmax = 25.17
+			text = "as mão se agarrando e a outra se soltando para segurar o outro trapézio"
+		intervals [21]:
+			xmin = 25.17
+			xmax = 25.54
+			text = "..."
+		intervals [22]:
+			xmin = 25.54
+			xmax = 27.37
+			text = "então eles colocam lá nos pés"
+		intervals [23]:
+			xmin = 27.37
+			xmax = 35.63
+			text = ""
+		intervals [24]:
+			xmin = 35.63
+			xmax = 35.66
+			text = "é"
+		intervals [25]:
+			xmin = 35.66
+			xmax = 36.14
+			text = "lindo"
+		intervals [26]:
+			xmin = 36.14
+			xmax = 38.13
+			text = "boa mas o a cena toda porque"
+		intervals [27]:
+			xmin = 38.13
+			xmax = 38.78
+			text = "o os"
+		intervals [28]:
+			xmin = 38.78
+			xmax = 40.02
+			text = "artistas são muito bons bom"
+		intervals [29]:
+			xmin = 40.02
+			xmax = 40.48
+			text = "..."
+		intervals [30]:
+			xmin = 40.48
+			xmax = 46.55
+			text = "o número é dificílimo há de convir que faz saltos faz saltos tríplices aquela coisa toda e"
+		intervals [31]:
+			xmin = 46.55
+			xmax = 47.13
+			text = "..."
+		intervals [32]:
+			xmin = 47.13
+			xmax = 47.31
+			text = "é lindo"
+		intervals [33]:
+			xmin = 47.31
+			xmax = 81.13
+			text = ""
+		intervals [34]:
+			xmin = 81.13
+			xmax = 81.32
+			text = "é"
+		intervals [35]:
+			xmin = 81.32
+			xmax = 81.5
+			text = "a"
+		intervals [36]:
+			xmin = 81.5
+			xmax = 82.82
+			text = "..."
+		intervals [37]:
+			xmin = 82.82
+			xmax = 87.76
+			text = ""
+		intervals [38]:
+			xmin = 87.76
+			xmax = 88.89
+			text = "boa mas olha"
+		intervals [39]:
+			xmin = 88.89
+			xmax = 89.55
+			text = "..."
+		intervals [40]:
+			xmin = 89.55
+			xmax = 90.78
+			text = "engraçado hein a mensagem"
+		intervals [41]:
+			xmin = 90.78
+			xmax = 91.13
+			text = "..."
+		intervals [42]:
+			xmin = 91.13
+			xmax = 94.2
+			text = "nós não estamos lembrando mas as cenas foram muito"
+		intervals [43]:
+			xmin = 94.2
+			xmax = 94.72
+			text = "bem escolhidas"
+		intervals [44]:
+			xmin = 94.72
+			xmax = 100.22
+			text = ""
+		intervals [45]:
+			xmin = 100.22
+			xmax = 101.69
+			text = "você sabe que é uma mensagem sabe"
+		intervals [46]:
+			xmin = 101.69
+			xmax = 104.38
+			text = "que a mensagem é do governo e que ela"
+		intervals [47]:
+			xmin = 104.38
+			xmax = 104.9
+			text = "diz respeito à"
+		intervals [48]:
+			xmin = 104.9
+			xmax = 106.17
+			text = "solidariedade humana com"
+		intervals [49]:
+			xmin = 106.17
+			xmax = 106.59
+			text = "a"
+		intervals [50]:
+			xmin = 106.59
+			xmax = 107.79
+			text = "formação da sociedade é isso fica"
+		intervals [51]:
+			xmin = 107.79
+			xmax = 111.52
+			text = "é isso ficou ao fundo da memória agora a gente não gravou exato o"
+		intervals [52]:
+			xmin = 111.52
+			xmax = 112.08
+			text = "texto"
+		intervals [53]:
+			xmin = 112.08
+			xmax = 112.7
+			text = "mas eu acho isso positivíssimo"
+		intervals [54]:
+			xmin = 112.7
+			xmax = 115.26
+			text = "é né o texto não ficou"
+		intervals [55]:
+			xmin = 115.26
+			xmax = 118.25
+			text = "assim com uma mensagem gravada decorada mas a"
+		intervals [56]:
+			xmin = 118.25
+			xmax = 118.77
+			text = "..."
+		intervals [57]:
+			xmin = 118.77
+			xmax = 121.12
+			text = "mensagem ficou você há de convir que ficou o teor da frase"
+		intervals [58]:
+			xmin = 121.12
+			xmax = 122.93
+			text = ""
+		intervals [59]:
+			xmin = 122.93
+			xmax = 127.31
+			text = "atende tão positiva a mensagem a propaganda"
+		intervals [60]:
+			xmin = 127.31
+			xmax = 128.04
+			text = "..."
+		intervals [61]:
+			xmin = 128.04
+			xmax = 128.57
+			text = "muito"
+		intervals [62]:
+			xmin = 128.57
+			xmax = 129.05
+			text = "..."
+		intervals [63]:
+			xmin = 129.05
+			xmax = 141.71
+			text = ""
+		intervals [64]:
+			xmin = 141.71
+			xmax = 142.32
+			text = "sambão"
+		intervals [65]:
+			xmin = 142.32
+			xmax = 142.62
+			text = "..."
+		intervals [66]:
+			xmin = 142.62
+			xmax = 146.5
+			text = ""
+		intervals [67]:
+			xmin = 146.5
+			xmax = 146.65
+			text = "eu"
+		intervals [68]:
+			xmin = 146.65
+			xmax = 151.32
+			text = ""
+		intervals [69]:
+			xmin = 151.32
+			xmax = 152.32
+			text = "ah faz favor"
+		intervals [70]:
+			xmin = 152.32
+			xmax = 152.55
+			text = "tá aqui"
+		intervals [71]:
+			xmin = 152.55
+			xmax = 154.09
+			text = ""
+		intervals [72]:
+			xmin = 154.09
+			xmax = 156.22
+			text = "não mais eu vim preparada para um longo batepapo"
+		intervals [73]:
+			xmin = 156.22
+			xmax = 158.5
+			text = "..."
+		intervals [74]:
+			xmin = 158.5
+			xmax = 159.42
+			text = "interessante"
+		intervals [75]:
+			xmin = 159.42
+			xmax = 160.7
+			text = "..."
+		intervals [76]:
+			xmin = 160.7
+			xmax = 160.97
+			text = "é"
+		intervals [77]:
+			xmin = 160.97
+			xmax = 161.7
+			text = "nós tivemos"
+		intervals [78]:
+			xmin = 161.7
+			xmax = 162.17
+			text = "..."
+		intervals [79]:
+			xmin = 162.17
+			xmax = 165.79
+			text = "nesse ano a oportunidade de uma série de montagens de cursos"
+		intervals [80]:
+			xmin = 165.79
+			xmax = 166.58
+			text = "..."
+		intervals [81]:
+			xmin = 166.58
+			xmax = 166.96
+			text = "e"
+		intervals [82]:
+			xmin = 166.96
+			xmax = 170.9
+			text = "..."
+		intervals [83]:
+			xmin = 170.9
+			xmax = 172.79
+			text = "e para essas montagens nós precisamos convidar"
+		intervals [84]:
+			xmin = 172.79
+			xmax = 173.16
+			text = "..."
+		intervals [85]:
+			xmin = 173.16
+			xmax = 176.0
+			text = "várias pessoas de fora de fora do brasil inclusive"
+		intervals [86]:
+			xmin = 176.0
+			xmax = 176.92
+			text = "..."
+		intervals [87]:
+			xmin = 176.92
+			xmax = 178.29
+			text = "então ficamos à procura"
+		intervals [88]:
+			xmin = 178.29
+			xmax = 178.7
+			text = "..."
+		intervals [89]:
+			xmin = 178.7
+			xmax = 182.15
+			text = "do que mostrar a essas pessoas de realmente brasileiro"
+		intervals [90]:
+			xmin = 182.15
+			xmax = 183.28
+			text = "..."
+		intervals [91]:
+			xmin = 183.28
+			xmax = 184.64
+			text = "bom eu fiquei encantada"
+		intervals [92]:
+			xmin = 184.64
+			xmax = 185.12
+			text = "..."
+		intervals [93]:
+			xmin = 185.12
+			xmax = 186.36
+			text = "porque é aquela história"
+		intervals [94]:
+			xmin = 186.36
+			xmax = 187.42
+			text = "..."
+		intervals [95]:
+			xmin = 187.42
+			xmax = 192.02
+			text = "você normalmente vai trabalha o dia inteiro à noite você está cansado mal você consegue"
+		intervals [96]:
+			xmin = 192.02
+			xmax = 192.66
+			text = "..."
+		intervals [97]:
+			xmin = 192.66
+			xmax = 193.44
+			text = "um programa"
+		intervals [98]:
+			xmin = 193.44
+			xmax = 193.79
+			text = "..."
+		intervals [99]:
+			xmin = 193.79
+			xmax = 195.53
+			text = "de um teatro ou um cinema e olhe lá"
+		intervals [100]:
+			xmin = 195.53
+			xmax = 196.06
+			text = "..."
+		intervals [101]:
+			xmin = 196.06
+			xmax = 198.7
+			text = "é você normalmente não faz muitas coisas né"
+		intervals [102]:
+			xmin = 198.7
+			xmax = 199.82
+			text = "..."
+		intervals [103]:
+			xmin = 199.82
+			xmax = 201.99
+			text = "ainda reservo um tempinho assim para esporte mas"
+		intervals [104]:
+			xmin = 201.99
+			xmax = 202.47
+			text = "..."
+		intervals [105]:
+			xmin = 202.47
+			xmax = 207.39
+			text = "à noite dificilmente se tem oportunidades assim então a gente aproveita"
+		intervals [106]:
+			xmin = 207.39
+			xmax = 208.57
+			text = "..."
+		intervals [107]:
+			xmin = 208.57
+			xmax = 212.94
+			text = "né tendo que mostrar são paulo então eu conheci são paulo como"
+		intervals [108]:
+			xmin = 212.94
+			xmax = 213.86
+			text = "..."
+		intervals [109]:
+			xmin = 213.86
+			xmax = 216.59
+			text = "nunca primeiro a gente fazia uma série de visitas à cidade"
+		intervals [110]:
+			xmin = 216.59
+			xmax = 217.35
+			text = "..."
+		intervals [111]:
+			xmin = 217.35
+			xmax = 218.39
+			text = "tão levava"
+		intervals [112]:
+			xmin = 218.39
+			xmax = 219.0
+			text = "..."
+		intervals [113]:
+			xmin = 219.0
+			xmax = 223.51
+			text = "conhecia vários pontos da cidade inclusive saindo assim mais distante da cidade"
+		intervals [114]:
+			xmin = 223.51
+			xmax = 224.8
+			text = "..."
+		intervals [115]:
+			xmin = 224.8
+			xmax = 225.99
+			text = "para se ter uma noção da"
+		intervals [116]:
+			xmin = 225.99
+			xmax = 226.91
+			text = "..."
+		intervals [117]:
+			xmin = 226.91
+			xmax = 229.78
+			text = "do tamanho da cidade para se ter uma grandeza de são paulo e tal"
+		intervals [118]:
+			xmin = 229.78
+			xmax = 230.27
+			text = "..."
+		intervals [119]:
+			xmin = 230.27
+			xmax = 231.51
+			text = "tão a gente insistia nisso"
+		intervals [120]:
+			xmin = 231.51
+			xmax = 231.88
+			text = "..."
+		intervals [121]:
+			xmin = 231.88
+			xmax = 232.33
+			text = "andava"
+		intervals [122]:
+			xmin = 232.33
+			xmax = 233.34
+			text = "..."
+		intervals [123]:
+			xmin = 233.34
+			xmax = 235.04
+			text = "com as pessoas por aí ia mostrar"
+		intervals [124]:
+			xmin = 235.04
+			xmax = 236.0
+			text = "..."
+		intervals [125]:
+			xmin = 236.0
+			xmax = 239.03
+			text = "e arrumava uma série de programações assim à noite também"
+		intervals [126]:
+			xmin = 239.03
+			xmax = 241.21
+			text = "..."
+		intervals [127]:
+			xmin = 241.21
+			xmax = 241.44
+			text = "e"
+		intervals [128]:
+			xmin = 241.44
+			xmax = 245.53
+			text = "em especial que nos chamou atenção foi um professor norteamericano que queria ver samba e"
+		intervals [129]:
+			xmin = 245.53
+			xmax = 246.2
+			text = "..."
+		intervals [130]:
+			xmin = 246.2
+			xmax = 251.58
+			text = "eu estava preocupadíssimo samba nós temos que voar ir até o rio né escola de samba tá no rio tal num sei quê e"
+		intervals [131]:
+			xmin = 251.58
+			xmax = 252.3
+			text = "..."
+		intervals [132]:
+			xmin = 252.3
+			xmax = 256.12
+			text = "entrei em contato com uma amiga que justamente ela trabalha numa companhia de turismo tão fiquei"
+		intervals [133]:
+			xmin = 256.12
+			xmax = 257.27
+			text = "..."
+		intervals [134]:
+			xmin = 257.27
+			xmax = 262.86
+			text = "conhecendo em são paulo existe escola de samba em são paulo existe macumba existe terreiro de macumba são paulo"
+		intervals [135]:
+			xmin = 262.86
+			xmax = 263.29
+			text = "..."
+		intervals [136]:
+			xmin = 263.29
+			xmax = 264.23
+			text = "existe uma porção de coisas"
+		intervals [137]:
+			xmin = 264.23
+			xmax = 265.32
+			text = ""
+		intervals [138]:
+			xmin = 265.32
+			xmax = 274.58
+			text = "sabe né exatamente então eu tive contato quer dizer fomos ao terreiro de macumba e fomos ao sambão da barra funda e há de convir que depois voltei várias vezes porque é uma beleza"
+		intervals [139]:
+			xmin = 274.58
+			xmax = 275.92
+			text = "preciso ir lá é"
+		intervals [140]:
+			xmin = 275.92
+			xmax = 279.73
+			text = "uma dessas coisas conta fala como é endereço tudo é é"
+		intervals [141]:
+			xmin = 279.73
+			xmax = 282.93
+			text = "fica lá na brigadeiro galvão pertinho do colégio oswaldo cruz"
+		intervals [142]:
+			xmin = 282.93
+			xmax = 283.24
+			text = ""
+		intervals [143]:
+			xmin = 283.24
+			xmax = 287.97
+			text = "verde é o camisa verde e branca famoso acontece que eu cheguei a vêlo já isto"
+		intervals [144]:
+			xmin = 287.97
+			xmax = 289.21
+			text = "..."
+		intervals [145]:
+			xmin = 289.21
+			xmax = 289.65
+			text = "ocorreu"
+		intervals [146]:
+			xmin = 289.65
+			xmax = 290.4
+			text = "..."
+		intervals [147]:
+			xmin = 290.4
+			xmax = 300.4
+			text = "pela primeira vez janeiro passado então não era tanto assim centro de estudantes como hoje é quer dizer hoje é centro de estudantes você vai lá só dá universitário e ponto final quando eu"
+		intervals [148]:
+			xmin = 300.4
+			xmax = 301.01
+			text = "..."
+		intervals [149]:
+			xmin = 301.01
+			xmax = 303.12
+			text = "vi pela primeira vez ainda era o sambão"
+		intervals [150]:
+			xmin = 303.12
+			xmax = 303.47
+			text = "..."
+		intervals [151]:
+			xmin = 303.47
+			xmax = 309.37
+			text = "mesmo do pessoal do samba em são paulo de mulato de preto e de branco sambista é só"
+		intervals [152]:
+			xmin = 309.37
+			xmax = 309.83
+			text = "..."
+		intervals [153]:
+			xmin = 309.83
+			xmax = 311.19
+			text = "ia sambista para lá e é"
+		intervals [154]:
+			xmin = 311.19
+			xmax = 312.66
+			text = "..."
+		intervals [155]:
+			xmin = 312.66
+			xmax = 314.62
+			text = "um um local"
+		intervals [156]:
+			xmin = 314.62
+			xmax = 315.7
+			text = "..."
+		intervals [157]:
+			xmin = 315.7
+			xmax = 315.98
+			text = "assim"
+		intervals [158]:
+			xmin = 315.98
+			xmax = 316.94
+			text = "é pitoresco"
+		intervals [159]:
+			xmin = 316.94
+			xmax = 318.36
+			text = "..."
+		intervals [160]:
+			xmin = 318.36
+			xmax = 320.3
+			text = "por isso é um salão é você"
+		intervals [161]:
+			xmin = 320.3
+			xmax = 320.96
+			text = "..."
+		intervals [162]:
+			xmin = 320.96
+			xmax = 323.55
+			text = "entra você paga ingresso na entrada já pagou"
+		intervals [163]:
+			xmin = 323.55
+			xmax = 324.14
+			text = "..."
+		intervals [164]:
+			xmin = 324.14
+			xmax = 326.04
+			text = "já garantiu a sua entrada tem um"
+		intervals [165]:
+			xmin = 326.04
+			xmax = 326.9
+			text = "..."
+		intervals [166]:
+			xmin = 326.9
+			xmax = 328.5
+			text = "salão muito grande e tem um palco nesse salão"
+		intervals [167]:
+			xmin = 328.5
+			xmax = 329.05
+			text = "..."
+		intervals [168]:
+			xmin = 329.05
+			xmax = 332.05
+			text = "uma série de mesas assim dispostas ao longo deixando uma"
+		intervals [169]:
+			xmin = 332.05
+			xmax = 332.36
+			text = "..."
+		intervals [170]:
+			xmin = 332.36
+			xmax = 336.49
+			text = "grande pista de dança não é como boate tem uma pista pequena cê tem"
+		intervals [171]:
+			xmin = 336.49
+			xmax = 337.0
+			text = "..."
+		intervals [172]:
+			xmin = 337.0
+			xmax = 339.99
+			text = "um grande salão assim bastante espaço havia poucas"
+		intervals [173]:
+			xmin = 339.99
+			xmax = 341.02
+			text = "..."
+		intervals [174]:
+			xmin = 341.02
+			xmax = 341.61
+			text = "mesas"
+		intervals [175]:
+			xmin = 341.61
+			xmax = 342.19
+			text = "..."
+		intervals [176]:
+			xmin = 342.19
+			xmax = 344.0
+			text = "pelos pelo menos"
+		intervals [177]:
+			xmin = 344.0
+			xmax = 344.78
+			text = "..."
+		intervals [178]:
+			xmin = 344.78
+			xmax = 346.33
+			text = "nos cantos nos cantos"
+		intervals [179]:
+			xmin = 346.33
+			xmax = 346.67
+			text = "..."
+		intervals [180]:
+			xmin = 346.67
+			xmax = 348.88
+			text = "não ao redor assim não é de toda de todo"
+		intervals [181]:
+			xmin = 348.88
+			xmax = 349.78
+			text = "..."
+		intervals [182]:
+			xmin = 349.78
+			xmax = 350.48
+			text = "o salão e no"
+		intervals [183]:
+			xmin = 350.48
+			xmax = 351.25
+			text = "..."
+		intervals [184]:
+			xmin = 351.25
+			xmax = 360.84
+			text = "palco então vinha aquela bateria de escola de samba eles começavam a tocar antes cê já começava a dançar na cadeira né daí entrada com aquela batucada e começava"
+		intervals [185]:
+			xmin = 360.84
+			xmax = 361.89
+			text = "..."
+		intervals [186]:
+			xmin = 361.89
+			xmax = 363.07
+			text = "então o samba toda a"
+		intervals [187]:
+			xmin = 363.07
+			xmax = 363.86
+			text = "..."
+		intervals [188]:
+			xmin = 363.86
+			xmax = 365.43
+			text = "gente sambava sambava sambava e eles"
+		intervals [189]:
+			xmin = 365.43
+			xmax = 366.21
+			text = "..."
+		intervals [190]:
+			xmin = 366.21
+			xmax = 366.5
+			text = "faziam"
+		intervals [191]:
+			xmin = 366.5
+			xmax = 368.36
+			text = "uma apresentação da escola então apresentavam"
+		intervals [192]:
+			xmin = 368.36
+			xmax = 368.79
+			text = "..."
+		intervals [193]:
+			xmin = 368.79
+			xmax = 373.04
+			text = "a porta porta bandeira o mestre sala então vinham"
+		intervals [194]:
+			xmin = 373.04
+			xmax = 373.67
+			text = "..."
+		intervals [195]:
+			xmin = 373.67
+			xmax = 377.41
+			text = "com os passos característicos de samba faziam essas apresentação em seguida"
+		intervals [196]:
+			xmin = 377.41
+			xmax = 378.25
+			text = "..."
+		intervals [197]:
+			xmin = 378.25
+			xmax = 381.49
+			text = "era a porta bandeira e o mestre sala que vem então no primeiro plano vinham as"
+		intervals [198]:
+			xmin = 381.49
+			xmax = 382.28
+			text = "..."
+		intervals [199]:
+			xmin = 382.28
+			xmax = 383.29
+			text = "pastoras os"
+		intervals [200]:
+			xmin = 383.29
+			xmax = 384.06
+			text = "..."
+		intervals [201]:
+			xmin = 384.06
+			xmax = 384.75
+			text = "passistas"
+		intervals [202]:
+			xmin = 384.75
+			xmax = 385.58
+			text = "..."
+		intervals [203]:
+			xmin = 385.58
+			xmax = 386.6
+			text = "e a"
+		intervals [204]:
+			xmin = 386.6
+			xmax = 387.18
+			text = "..."
+		intervals [205]:
+			xmin = 387.18
+			xmax = 388.65
+			text = "bateria depois descia do palco"
+		intervals [206]:
+			xmin = 388.65
+			xmax = 389.2
+			text = "..."
+		intervals [207]:
+			xmin = 389.2
+			xmax = 394.19
+			text = "então eles vinham no salão e faziam aquela demonstração da escola de samba depois eles mudaram"
+		intervals [208]:
+			xmin = 394.19
+			xmax = 394.94
+			text = "..."
+		intervals [209]:
+			xmin = 394.94
+			xmax = 395.72
+			text = "o programa mudaram"
+		intervals [210]:
+			xmin = 395.72
+			xmax = 396.48
+			text = "..."
+		intervals [211]:
+			xmin = 396.48
+			xmax = 396.92
+			text = "o programa"
+		intervals [212]:
+			xmin = 396.92
+			xmax = 397.8
+			text = "..."
+		intervals [213]:
+			xmin = 397.8
+			xmax = 400.67
+			text = "e essa apresentação era feita no palco e no meio"
+		intervals [214]:
+			xmin = 400.67
+			xmax = 401.41
+			text = "..."
+		intervals [215]:
+			xmin = 401.41
+			xmax = 403.11
+			text = "da apresentação então todos se"
+		intervals [216]:
+			xmin = 403.11
+			xmax = 403.51
+			text = "..."
+		intervals [217]:
+			xmin = 403.51
+			xmax = 405.08
+			text = "postavam ao longo assim"
+		intervals [218]:
+			xmin = 405.08
+			xmax = 405.42
+			text = "..."
+		intervals [219]:
+			xmin = 405.42
+			xmax = 409.43
+			text = "do palco e no centro se apresentavam os passistas na na sua"
+		intervals [220]:
+			xmin = 409.43
+			xmax = 409.91
+			text = "..."
+		intervals [221]:
+			xmin = 409.91
+			xmax = 413.28
+			text = "performance né apresentavam o que tinham de melhor tocando os instrumentos"
+		intervals [222]:
+			xmin = 413.28
+			xmax = 414.19
+			text = "..."
+		intervals [223]:
+			xmin = 414.19
+			xmax = 416.51
+			text = "e apresentando os passos e as pastoras"
+		intervals [224]:
+			xmin = 416.51
+			xmax = 416.83
+			text = "..."
+		intervals [225]:
+			xmin = 416.83
+			xmax = 418.97
+			text = "se apresentavam de uma em uma e depois uma"
+		intervals [226]:
+			xmin = 418.97
+			xmax = 419.5
+			text = "..."
+		intervals [227]:
+			xmin = 419.5
+			xmax = 422.16
+			text = "amostra de gafieira então o indivíduo"
+		intervals [228]:
+			xmin = 422.16
+			xmax = 422.84
+			text = "..."
+		intervals [229]:
+			xmin = 422.84
+			xmax = 424.95
+			text = "que dançava bem a gafieira e eles escolheram"
+		intervals [230]:
+			xmin = 424.95
+			xmax = 425.39
+			text = "..."
+		intervals [231]:
+			xmin = 425.39
+			xmax = 431.79
+			text = "assim um tipo bem característico era um mulato meio gordo bem tipo de sambista mais sem ter essa essa magreza"
+		intervals [232]:
+			xmin = 431.79
+			xmax = 432.28
+			text = "..."
+		intervals [233]:
+			xmin = 432.28
+			xmax = 433.25
+			text = "assim por"
+		intervals [234]:
+			xmin = 433.25
+			xmax = 434.56
+			text = "..."
+		intervals [235]:
+			xmin = 434.56
+			xmax = 438.09
+			text = "exemplo do sambista carioca o sambista de gafieira"
+		intervals [236]:
+			xmin = 438.09
+			xmax = 438.39
+			text = "..."
+		intervals [237]:
+			xmin = 438.39
+			xmax = 438.67
+			text = "aquele"
+		intervals [238]:
+			xmin = 438.67
+			xmax = 439.9
+			text = "sambista gordo assim"
+		intervals [239]:
+			xmin = 439.9
+			xmax = 440.29
+			text = "..."
+		intervals [240]:
+			xmin = 440.29
+			xmax = 445.69
+			text = "com uma lora loríssima que dançava até na gafieira né então era uma"
+		intervals [241]:
+			xmin = 445.69
+			xmax = 446.38
+			text = "..."
+		intervals [242]:
+			xmin = 446.38
+			xmax = 448.68
+			text = "apresentação assim bem interessante esse ano lá voltei"
+		intervals [243]:
+			xmin = 448.68
+			xmax = 449.51
+			text = "..."
+		intervals [244]:
+			xmin = 449.51
+			xmax = 457.01
+			text = "veja que não fui só uma vez já vi uma primeira vez já vi uma segunda bom quando mudou o show agora eles dão show aos sábados sexta feira é o samba só"
+		intervals [245]:
+			xmin = 457.01
+			xmax = 457.54
+			text = "..."
+		intervals [246]:
+			xmin = 457.54
+			xmax = 459.98
+			text = "tem samba e o show então aos"
+		intervals [247]:
+			xmin = 459.98
+			xmax = 460.69
+			text = "..."
+		intervals [248]:
+			xmin = 460.69
+			xmax = 465.92
+			text = "sábados então este ano eu levei gente para lá outra vez que esse ano eu vô sempre para lá toda gente que vem de"
+		intervals [249]:
+			xmin = 465.92
+			xmax = 466.59
+			text = "..."
+		intervals [250]:
+			xmin = 466.59
+			xmax = 470.91
+			text = "fora do brasil ele fala ah tem samba em são paulo lá fomos para lá esse ano e a coisa tava bem"
+		intervals [251]:
+			xmin = 470.91
+			xmax = 471.8
+			text = "..."
+		intervals [252]:
+			xmin = 471.8
+			xmax = 473.19
+			text = "mudada aliás foi todo aquele"
+		intervals [253]:
+			xmin = 473.19
+			xmax = 474.19
+			text = "..."
+		intervals [254]:
+			xmin = 474.19
+			xmax = 476.96
+			text = "daquele iesp toda a gente caiu naquele"
+		intervals [255]:
+			xmin = 476.96
+			xmax = 478.16
+			text = "..."
+		intervals [256]:
+			xmin = 478.16
+			xmax = 482.07
+			text = "e"
+		intervals [257]:
+			xmin = 482.07
+			xmax = 482.37
+			text = "..."
+		intervals [258]:
+			xmin = 482.37
+			xmax = 484.94
+			text = "fizeram o"
+		intervals [259]:
+			xmin = 484.94
+			xmax = 485.89
+			text = "..."
+		intervals [260]:
+			xmin = 485.89
+			xmax = 489.1
+			text = "seguinte agora o número de"
+		intervals [261]:
+			xmin = 489.1
+			xmax = 489.75
+			text = "..."
+		intervals [262]:
+			xmin = 489.75
+			xmax = 491.8
+			text = "mesas é o"
+		intervals [263]:
+			xmin = 491.8
+			xmax = 492.11
+			text = "..."
+		intervals [264]:
+			xmin = 492.11
+			xmax = 494.99
+			text = "triplo né então o espaço diminuiu"
+		intervals [265]:
+			xmin = 494.99
+			xmax = 495.82
+			text = "..."
+		intervals [266]:
+			xmin = 495.82
+			xmax = 499.14
+			text = "bastante e a apresentação consistia"
+		intervals [267]:
+			xmin = 499.14
+			xmax = 499.84
+			text = "..."
+		intervals [268]:
+			xmin = 499.84
+			xmax = 500.62
+			text = ""
+		intervals [269]:
+			xmin = 500.62
+			xmax = 501.07
+			text = "..."
+		intervals [270]:
+			xmin = 501.07
+			xmax = 503.02
+			text = ""
+		intervals [271]:
+			xmin = 503.02
+			xmax = 503.44
+			text = "..."
+		intervals [272]:
+			xmin = 503.44
+			xmax = 504.95
+			text = ""
+		intervals [273]:
+			xmin = 504.95
+			xmax = 505.63
+			text = "..."
+		intervals [274]:
+			xmin = 505.63
+			xmax = 508.7
+			text = "é mesmo apresentação"
+		intervals [275]:
+			xmin = 508.7
+			xmax = 509.21
+			text = "..."
+		intervals [276]:
+			xmin = 509.21
+			xmax = 509.68
+			text = ""
+		intervals [277]:
+			xmin = 509.68
+			xmax = 510.21
+			text = "..."
+		intervals [278]:
+			xmin = 510.21
+			xmax = 514.72
+			text = ""
+		intervals [279]:
+			xmin = 514.72
+			xmax = 515.95
+			text = "..."
+		intervals [280]:
+			xmin = 515.95
+			xmax = 519.36
+			text = "eles já"
+		intervals [281]:
+			xmin = 519.36
+			xmax = 519.95
+			text = "..."
+		intervals [282]:
+			xmin = 519.95
+			xmax = 525.12
+			text = "saem do palco e vem fazer o show ali naquela arena no na pista de dança mesmo entre as mesas"
+		intervals [283]:
+			xmin = 525.12
+			xmax = 525.5
+			text = "..."
+		intervals [284]:
+			xmin = 525.5
+			xmax = 526.14
+			text = "e apresentam"
+		intervals [285]:
+			xmin = 526.14
+			xmax = 528.16
+			text = "..."
+		intervals [286]:
+			xmin = 528.16
+			xmax = 530.24
+			text = "uns passistas já assim com quadros montados"
+		intervals [287]:
+			xmin = 530.24
+			xmax = 531.58
+			text = "..."
+		intervals [288]:
+			xmin = 531.58
+			xmax = 533.3
+			text = "e é bom o show"
+		intervals [289]:
+			xmin = 533.3
+			xmax = 534.51
+			text = "..."
+		intervals [290]:
+			xmin = 534.51
+			xmax = 535.95
+			text = "dura mais ou"
+		intervals [291]:
+			xmin = 535.95
+			xmax = 538.18
+			text = "..."
+		intervals [292]:
+			xmin = 538.18
+			xmax = 539.12
+			text = "menos uma hora uma hora"
+		intervals [293]:
+			xmin = 539.12
+			xmax = 539.43
+			text = "..."
+		intervals [294]:
+			xmin = 539.43
+			xmax = 540.62
+			text = "e meia e vale a pena"
+		intervals [295]:
+			xmin = 540.62
+			xmax = 541.26
+			text = "..."
+		intervals [296]:
+			xmin = 541.26
+			xmax = 546.17
+			text = "só você ir ter paciência de esperar o show mesmo quem não gosta de sambar vale a pena que é"
+		intervals [297]:
+			xmin = 546.17
+			xmax = 547.56
+			text = "..."
+		intervals [298]:
+			xmin = 547.56
+			xmax = 548.11
+			text = "uma beleza"
+		intervals [299]:
+			xmin = 548.11
+			xmax = 548.53
+			text = "..."
+		intervals [300]:
+			xmin = 548.53
+			xmax = 548.99
+			text = "um espetáculo deslumbrante"
+		intervals [301]:
+			xmin = 548.99
+			xmax = 560.81
+			text = ""
+		intervals [302]:
+			xmin = 560.81
+			xmax = 563.85
+			text = "o surdão tan tan que ele dá só a"
+		intervals [303]:
+			xmin = 563.85
+			xmax = 565.16
+			text = "..."
+		intervals [304]:
+			xmin = 565.16
+			xmax = 565.25
+			text = "batida"
+		intervals [305]:
+			xmin = 565.25
+			xmax = 565.98
+			text = "começa"
+		intervals [306]:
+			xmin = 565.98
+			xmax = 566.39
+			text = "..."
+		intervals [307]:
+			xmin = 566.39
+			xmax = 567.54
+			text = "né tam ah um"
+		intervals [308]:
+			xmin = 567.54
+			xmax = 568.09
+			text = "outro"
+		intervals [309]:
+			xmin = 568.09
+			xmax = 568.76
+			text = "instrumento que"
+		intervals [310]:
+			xmin = 568.76
+			xmax = 570.01
+			text = "..."
+		intervals [311]:
+			xmin = 570.01
+			xmax = 571.87
+			text = "é o meio surdo é um"
+		intervals [312]:
+			xmin = 571.87
+			xmax = 573.65
+			text = "instrumento um pouco menor e"
+		intervals [313]:
+			xmin = 573.65
+			xmax = 574.1
+			text = "..."
+		intervals [314]:
+			xmin = 574.1
+			xmax = 574.73
+			text = "que"
+		intervals [315]:
+			xmin = 574.73
+			xmax = 575.54
+			text = "..."
+		intervals [316]:
+			xmin = 575.54
+			xmax = 575.98
+			text = "dá uma"
+		intervals [317]:
+			xmin = 575.98
+			xmax = 576.41
+			text = "..."
+		intervals [318]:
+			xmin = 576.41
+			xmax = 577.43
+			text = "batida um pouco mais compassada quer dizer"
+		intervals [319]:
+			xmin = 577.43
+			xmax = 578.08
+			text = "..."
+		intervals [320]:
+			xmin = 578.08
+			xmax = 581.18
+			text = "num compasso um pouquinho mais rápido que esse surdão"
+		intervals [321]:
+			xmin = 581.18
+			xmax = 581.58
+			text = "..."
+		intervals [322]:
+			xmin = 581.58
+			xmax = 582.62
+			text = "a caixa que"
+		intervals [323]:
+			xmin = 582.62
+			xmax = 583.2
+			text = "..."
+		intervals [324]:
+			xmin = 583.2
+			xmax = 585.11
+			text = "faz então todo aquele repicado né eu num num"
+		intervals [325]:
+			xmin = 585.11
+			xmax = 585.83
+			text = "..."
+		intervals [326]:
+			xmin = 585.83
+			xmax = 587.9
+			text = "sei imitar fazer a caixa a cuíca"
+		intervals [327]:
+			xmin = 587.9
+			xmax = 588.92
+			text = "..."
+		intervals [328]:
+			xmin = 588.92
+			xmax = 589.75
+			text = "som característico da"
+		intervals [329]:
+			xmin = 589.75
+			xmax = 590.41
+			text = "..."
+		intervals [330]:
+			xmin = 590.41
+			xmax = 591.01
+			text = "cuíca eles usam"
+		intervals [331]:
+			xmin = 591.01
+			xmax = 592.51
+			text = "..."
+		intervals [332]:
+			xmin = 592.51
+			xmax = 592.55
+			text = "também"
+		intervals [333]:
+			xmin = 592.55
+			xmax = 593.36
+			text = "..."
+		intervals [334]:
+			xmin = 593.36
+			xmax = 594.11
+			text = "além"
+		intervals [335]:
+			xmin = 594.11
+			xmax = 594.85
+			text = "..."
+		intervals [336]:
+			xmin = 594.85
+			xmax = 596.26
+			text = "deixa eu ver quantos instrumentos de"
+		intervals [337]:
+			xmin = 596.26
+			xmax = 596.67
+			text = "..."
+		intervals [338]:
+			xmin = 596.67
+			xmax = 598.89
+			text = "percussão são o surdo esse surdão o meio"
+		intervals [339]:
+			xmin = 598.89
+			xmax = 599.39
+			text = "..."
+		intervals [340]:
+			xmin = 599.39
+			xmax = 600.72
+			text = "surdo a caixa eu num"
+		intervals [341]:
+			xmin = 600.72
+			xmax = 601.37
+			text = "..."
+		intervals [342]:
+			xmin = 601.37
+			xmax = 601.99
+			text = ""
+	item [2]:
+		class = "IntervalTier"
+		name = "NTB-inff"
+		xmin = 0.0
+		xmax = 601.99
+		intervals: size = 342
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.12
+			text = ""
+		intervals [2]:
+			xmin = 0.12
+			xmax = 2.61
+			text = "agora então eles dão umas duas ou três balançadas"
+		intervals [3]:
+			xmin = 2.61
+			xmax = 2.92
+			text = "..."
+		intervals [4]:
+			xmin = 2.92
+			xmax = 4.44
+			text = "e o terceiro vem"
+		intervals [5]:
+			xmin = 4.44
+			xmax = 4.98
+			text = "..."
+		intervals [6]:
+			xmin = 4.98
+			xmax = 6.99
+			text = "quando ele vem esse que está abaixo"
+		intervals [7]:
+			xmin = 6.99
+			xmax = 7.64
+			text = "soltase"
+		intervals [8]:
+			xmin = 7.64
+			xmax = 9.18
+			text = "das mãos daquele que o prende"
+		intervals [9]:
+			xmin = 9.18
+			xmax = 9.51
+			text = "..."
+		intervals [10]:
+			xmin = 9.51
+			xmax = 12.11
+			text = "e o outro é que agarra é uma fração de segundo"
+		intervals [11]:
+			xmin = 12.11
+			xmax = 12.44
+			text = "..."
+		intervals [12]:
+			xmin = 12.44
+			xmax = 16.62
+			text = "e o outro então tem que agarrar o trapézio agora então o close é este eles brecam"
+		intervals [13]:
+			xmin = 16.62
+			xmax = 17.04
+			text = "..."
+		intervals [14]:
+			xmin = 17.04
+			xmax = 18.21
+			text = "o filme exatamente nesse"
+		intervals [15]:
+			xmin = 18.21
+			xmax = 18.56
+			text = "ponto"
+		intervals [16]:
+			xmin = 18.56
+			xmax = 19.03
+			text = "..."
+		intervals [17]:
+			xmin = 19.03
+			xmax = 19.54
+			text = "então você"
+		intervals [18]:
+			xmin = 19.54
+			xmax = 19.83
+			text = "vê"
+		intervals [19]:
+			xmin = 19.83
+			xmax = 20.15
+			text = "..."
+		intervals [20]:
+			xmin = 20.15
+			xmax = 25.17
+			text = "as mão se agarrando e a outra se soltando para segurar o outro trapézio"
+		intervals [21]:
+			xmin = 25.17
+			xmax = 25.54
+			text = "..."
+		intervals [22]:
+			xmin = 25.54
+			xmax = 27.37
+			text = "então eles colocam lá nos pés"
+		intervals [23]:
+			xmin = 27.37
+			xmax = 35.63
+			text = ""
+		intervals [24]:
+			xmin = 35.63
+			xmax = 35.66
+			text = "é"
+		intervals [25]:
+			xmin = 35.66
+			xmax = 36.14
+			text = "lindo"
+		intervals [26]:
+			xmin = 36.14
+			xmax = 38.13
+			text = "boa mas o a cena toda porque"
+		intervals [27]:
+			xmin = 38.13
+			xmax = 38.78
+			text = "o os"
+		intervals [28]:
+			xmin = 38.78
+			xmax = 40.02
+			text = "artistas são muito bons bom"
+		intervals [29]:
+			xmin = 40.02
+			xmax = 40.48
+			text = "..."
+		intervals [30]:
+			xmin = 40.48
+			xmax = 46.55
+			text = "o número é dificílimo há de convir que faz saltos faz saltos tríplices aquela coisa toda e"
+		intervals [31]:
+			xmin = 46.55
+			xmax = 47.13
+			text = "..."
+		intervals [32]:
+			xmin = 47.13
+			xmax = 47.31
+			text = "é lindo"
+		intervals [33]:
+			xmin = 47.31
+			xmax = 81.13
+			text = ""
+		intervals [34]:
+			xmin = 81.13
+			xmax = 81.32
+			text = "é"
+		intervals [35]:
+			xmin = 81.32
+			xmax = 81.5
+			text = "a"
+		intervals [36]:
+			xmin = 81.5
+			xmax = 82.82
+			text = "..."
+		intervals [37]:
+			xmin = 82.82
+			xmax = 87.76
+			text = ""
+		intervals [38]:
+			xmin = 87.76
+			xmax = 88.89
+			text = "boa mas olha"
+		intervals [39]:
+			xmin = 88.89
+			xmax = 89.55
+			text = "..."
+		intervals [40]:
+			xmin = 89.55
+			xmax = 90.78
+			text = "engraçado hein a mensagem"
+		intervals [41]:
+			xmin = 90.78
+			xmax = 91.13
+			text = "..."
+		intervals [42]:
+			xmin = 91.13
+			xmax = 94.2
+			text = "nós não estamos lembrando mas as cenas foram muito"
+		intervals [43]:
+			xmin = 94.2
+			xmax = 94.72
+			text = "bem escolhidas"
+		intervals [44]:
+			xmin = 94.72
+			xmax = 100.22
+			text = ""
+		intervals [45]:
+			xmin = 100.22
+			xmax = 101.69
+			text = "você sabe que é uma mensagem sabe"
+		intervals [46]:
+			xmin = 101.69
+			xmax = 104.38
+			text = "que a mensagem é do governo e que ela"
+		intervals [47]:
+			xmin = 104.38
+			xmax = 104.9
+			text = "diz respeito à"
+		intervals [48]:
+			xmin = 104.9
+			xmax = 106.17
+			text = "solidariedade humana com"
+		intervals [49]:
+			xmin = 106.17
+			xmax = 106.59
+			text = "a"
+		intervals [50]:
+			xmin = 106.59
+			xmax = 107.79
+			text = "formação da sociedade é isso fica"
+		intervals [51]:
+			xmin = 107.79
+			xmax = 111.52
+			text = "é isso ficou ao fundo da memória agora a gente não gravou exato o"
+		intervals [52]:
+			xmin = 111.52
+			xmax = 112.08
+			text = "texto"
+		intervals [53]:
+			xmin = 112.08
+			xmax = 112.7
+			text = "mas eu acho isso positivíssimo"
+		intervals [54]:
+			xmin = 112.7
+			xmax = 115.26
+			text = "é né o texto não ficou"
+		intervals [55]:
+			xmin = 115.26
+			xmax = 118.25
+			text = "assim com uma mensagem gravada decorada mas a"
+		intervals [56]:
+			xmin = 118.25
+			xmax = 118.77
+			text = "..."
+		intervals [57]:
+			xmin = 118.77
+			xmax = 121.12
+			text = "mensagem ficou você há de convir que ficou o teor da frase"
+		intervals [58]:
+			xmin = 121.12
+			xmax = 122.93
+			text = ""
+		intervals [59]:
+			xmin = 122.93
+			xmax = 127.31
+			text = "atende tão positiva a mensagem a propaganda"
+		intervals [60]:
+			xmin = 127.31
+			xmax = 128.04
+			text = "..."
+		intervals [61]:
+			xmin = 128.04
+			xmax = 128.57
+			text = "muito"
+		intervals [62]:
+			xmin = 128.57
+			xmax = 129.05
+			text = "..."
+		intervals [63]:
+			xmin = 129.05
+			xmax = 141.71
+			text = ""
+		intervals [64]:
+			xmin = 141.71
+			xmax = 142.32
+			text = "sambão"
+		intervals [65]:
+			xmin = 142.32
+			xmax = 142.62
+			text = "..."
+		intervals [66]:
+			xmin = 142.62
+			xmax = 146.5
+			text = ""
+		intervals [67]:
+			xmin = 146.5
+			xmax = 146.65
+			text = "eu"
+		intervals [68]:
+			xmin = 146.65
+			xmax = 151.32
+			text = ""
+		intervals [69]:
+			xmin = 151.32
+			xmax = 152.32
+			text = "ah faz favor"
+		intervals [70]:
+			xmin = 152.32
+			xmax = 152.55
+			text = "tá aqui"
+		intervals [71]:
+			xmin = 152.55
+			xmax = 154.09
+			text = ""
+		intervals [72]:
+			xmin = 154.09
+			xmax = 156.22
+			text = "não mais eu vim preparada para um longo batepapo"
+		intervals [73]:
+			xmin = 156.22
+			xmax = 158.5
+			text = "..."
+		intervals [74]:
+			xmin = 158.5
+			xmax = 159.42
+			text = "interessante"
+		intervals [75]:
+			xmin = 159.42
+			xmax = 160.7
+			text = "..."
+		intervals [76]:
+			xmin = 160.7
+			xmax = 160.97
+			text = "é"
+		intervals [77]:
+			xmin = 160.97
+			xmax = 161.7
+			text = "nós tivemos"
+		intervals [78]:
+			xmin = 161.7
+			xmax = 162.17
+			text = "..."
+		intervals [79]:
+			xmin = 162.17
+			xmax = 165.79
+			text = "nesse ano a oportunidade de uma série de montagens de cursos"
+		intervals [80]:
+			xmin = 165.79
+			xmax = 166.58
+			text = "..."
+		intervals [81]:
+			xmin = 166.58
+			xmax = 166.96
+			text = "e"
+		intervals [82]:
+			xmin = 166.96
+			xmax = 170.9
+			text = "..."
+		intervals [83]:
+			xmin = 170.9
+			xmax = 172.79
+			text = "e para essas montagens nós precisamos convidar"
+		intervals [84]:
+			xmin = 172.79
+			xmax = 173.16
+			text = "..."
+		intervals [85]:
+			xmin = 173.16
+			xmax = 176.0
+			text = "várias pessoas de fora de fora do brasil inclusive"
+		intervals [86]:
+			xmin = 176.0
+			xmax = 176.92
+			text = "..."
+		intervals [87]:
+			xmin = 176.92
+			xmax = 178.29
+			text = "então ficamos à procura"
+		intervals [88]:
+			xmin = 178.29
+			xmax = 178.7
+			text = "..."
+		intervals [89]:
+			xmin = 178.7
+			xmax = 182.15
+			text = "do que mostrar a essas pessoas de realmente brasileiro"
+		intervals [90]:
+			xmin = 182.15
+			xmax = 183.28
+			text = "..."
+		intervals [91]:
+			xmin = 183.28
+			xmax = 184.64
+			text = "bom eu fiquei encantada"
+		intervals [92]:
+			xmin = 184.64
+			xmax = 185.12
+			text = "..."
+		intervals [93]:
+			xmin = 185.12
+			xmax = 186.36
+			text = "porque é aquela história"
+		intervals [94]:
+			xmin = 186.36
+			xmax = 187.42
+			text = "..."
+		intervals [95]:
+			xmin = 187.42
+			xmax = 192.02
+			text = "você normalmente vai trabalha o dia inteiro à noite você está cansado mal você consegue"
+		intervals [96]:
+			xmin = 192.02
+			xmax = 192.66
+			text = "..."
+		intervals [97]:
+			xmin = 192.66
+			xmax = 193.44
+			text = "um programa"
+		intervals [98]:
+			xmin = 193.44
+			xmax = 193.79
+			text = "..."
+		intervals [99]:
+			xmin = 193.79
+			xmax = 195.53
+			text = "de um teatro ou um cinema e olhe lá"
+		intervals [100]:
+			xmin = 195.53
+			xmax = 196.06
+			text = "..."
+		intervals [101]:
+			xmin = 196.06
+			xmax = 198.7
+			text = "é você normalmente não faz muitas coisas né"
+		intervals [102]:
+			xmin = 198.7
+			xmax = 199.82
+			text = "..."
+		intervals [103]:
+			xmin = 199.82
+			xmax = 201.99
+			text = "ainda reservo um tempinho assim para esporte mas"
+		intervals [104]:
+			xmin = 201.99
+			xmax = 202.47
+			text = "..."
+		intervals [105]:
+			xmin = 202.47
+			xmax = 207.39
+			text = "à noite dificilmente se tem oportunidades assim então a gente aproveita"
+		intervals [106]:
+			xmin = 207.39
+			xmax = 208.57
+			text = "..."
+		intervals [107]:
+			xmin = 208.57
+			xmax = 212.94
+			text = "né tendo que mostrar são paulo então eu conheci são paulo como"
+		intervals [108]:
+			xmin = 212.94
+			xmax = 213.86
+			text = "..."
+		intervals [109]:
+			xmin = 213.86
+			xmax = 216.59
+			text = "nunca primeiro a gente fazia uma série de visitas à cidade"
+		intervals [110]:
+			xmin = 216.59
+			xmax = 217.35
+			text = "..."
+		intervals [111]:
+			xmin = 217.35
+			xmax = 218.39
+			text = "tão levava"
+		intervals [112]:
+			xmin = 218.39
+			xmax = 219.0
+			text = "..."
+		intervals [113]:
+			xmin = 219.0
+			xmax = 223.51
+			text = "conhecia vários pontos da cidade inclusive saindo assim mais distante da cidade"
+		intervals [114]:
+			xmin = 223.51
+			xmax = 224.8
+			text = "..."
+		intervals [115]:
+			xmin = 224.8
+			xmax = 225.99
+			text = "para se ter uma noção da"
+		intervals [116]:
+			xmin = 225.99
+			xmax = 226.91
+			text = "..."
+		intervals [117]:
+			xmin = 226.91
+			xmax = 229.78
+			text = "do tamanho da cidade para se ter uma grandeza de são paulo e tal"
+		intervals [118]:
+			xmin = 229.78
+			xmax = 230.27
+			text = "..."
+		intervals [119]:
+			xmin = 230.27
+			xmax = 231.51
+			text = "tão a gente insistia nisso"
+		intervals [120]:
+			xmin = 231.51
+			xmax = 231.88
+			text = "..."
+		intervals [121]:
+			xmin = 231.88
+			xmax = 232.33
+			text = "andava"
+		intervals [122]:
+			xmin = 232.33
+			xmax = 233.34
+			text = "..."
+		intervals [123]:
+			xmin = 233.34
+			xmax = 235.04
+			text = "com as pessoas por aí ia mostrar"
+		intervals [124]:
+			xmin = 235.04
+			xmax = 236.0
+			text = "..."
+		intervals [125]:
+			xmin = 236.0
+			xmax = 239.03
+			text = "e arrumava uma série de programações assim à noite também"
+		intervals [126]:
+			xmin = 239.03
+			xmax = 241.21
+			text = "..."
+		intervals [127]:
+			xmin = 241.21
+			xmax = 241.44
+			text = "e"
+		intervals [128]:
+			xmin = 241.44
+			xmax = 245.53
+			text = "em especial que nos chamou atenção foi um professor norteamericano que queria ver samba e"
+		intervals [129]:
+			xmin = 245.53
+			xmax = 246.2
+			text = "..."
+		intervals [130]:
+			xmin = 246.2
+			xmax = 251.58
+			text = "eu estava preocupadíssimo samba nós temos que voar ir até o rio né escola de samba tá no rio tal num sei quê e"
+		intervals [131]:
+			xmin = 251.58
+			xmax = 252.3
+			text = "..."
+		intervals [132]:
+			xmin = 252.3
+			xmax = 256.12
+			text = "entrei em contato com uma amiga que justamente ela trabalha numa companhia de turismo tão fiquei"
+		intervals [133]:
+			xmin = 256.12
+			xmax = 257.27
+			text = "..."
+		intervals [134]:
+			xmin = 257.27
+			xmax = 262.86
+			text = "conhecendo em são paulo existe escola de samba em são paulo existe macumba existe terreiro de macumba são paulo"
+		intervals [135]:
+			xmin = 262.86
+			xmax = 263.29
+			text = "..."
+		intervals [136]:
+			xmin = 263.29
+			xmax = 264.23
+			text = "existe uma porção de coisas"
+		intervals [137]:
+			xmin = 264.23
+			xmax = 265.32
+			text = ""
+		intervals [138]:
+			xmin = 265.32
+			xmax = 274.58
+			text = "sabe né exatamente então eu tive contato quer dizer fomos ao terreiro de macumba e fomos ao sambão da barra funda e há de convir que depois voltei várias vezes porque é uma beleza"
+		intervals [139]:
+			xmin = 274.58
+			xmax = 275.92
+			text = "preciso ir lá é"
+		intervals [140]:
+			xmin = 275.92
+			xmax = 279.73
+			text = "uma dessas coisas conta fala como é endereço tudo é é"
+		intervals [141]:
+			xmin = 279.73
+			xmax = 282.93
+			text = "fica lá na brigadeiro galvão pertinho do colégio oswaldo cruz"
+		intervals [142]:
+			xmin = 282.93
+			xmax = 283.24
+			text = ""
+		intervals [143]:
+			xmin = 283.24
+			xmax = 287.97
+			text = "verde é o camisa verde e branca famoso acontece que eu cheguei a vêlo já isto"
+		intervals [144]:
+			xmin = 287.97
+			xmax = 289.21
+			text = "..."
+		intervals [145]:
+			xmin = 289.21
+			xmax = 289.65
+			text = "ocorreu"
+		intervals [146]:
+			xmin = 289.65
+			xmax = 290.4
+			text = "..."
+		intervals [147]:
+			xmin = 290.4
+			xmax = 300.4
+			text = "pela primeira vez janeiro passado então não era tanto assim centro de estudantes como hoje é quer dizer hoje é centro de estudantes você vai lá só dá universitário e ponto final quando eu"
+		intervals [148]:
+			xmin = 300.4
+			xmax = 301.01
+			text = "..."
+		intervals [149]:
+			xmin = 301.01
+			xmax = 303.12
+			text = "vi pela primeira vez ainda era o sambão"
+		intervals [150]:
+			xmin = 303.12
+			xmax = 303.47
+			text = "..."
+		intervals [151]:
+			xmin = 303.47
+			xmax = 309.37
+			text = "mesmo do pessoal do samba em são paulo de mulato de preto e de branco sambista é só"
+		intervals [152]:
+			xmin = 309.37
+			xmax = 309.83
+			text = "..."
+		intervals [153]:
+			xmin = 309.83
+			xmax = 311.19
+			text = "ia sambista para lá e é"
+		intervals [154]:
+			xmin = 311.19
+			xmax = 312.66
+			text = "..."
+		intervals [155]:
+			xmin = 312.66
+			xmax = 314.62
+			text = "um um local"
+		intervals [156]:
+			xmin = 314.62
+			xmax = 315.7
+			text = "..."
+		intervals [157]:
+			xmin = 315.7
+			xmax = 315.98
+			text = "assim"
+		intervals [158]:
+			xmin = 315.98
+			xmax = 316.94
+			text = "é pitoresco"
+		intervals [159]:
+			xmin = 316.94
+			xmax = 318.36
+			text = "..."
+		intervals [160]:
+			xmin = 318.36
+			xmax = 320.3
+			text = "por isso é um salão é você"
+		intervals [161]:
+			xmin = 320.3
+			xmax = 320.96
+			text = "..."
+		intervals [162]:
+			xmin = 320.96
+			xmax = 323.55
+			text = "entra você paga ingresso na entrada já pagou"
+		intervals [163]:
+			xmin = 323.55
+			xmax = 324.14
+			text = "..."
+		intervals [164]:
+			xmin = 324.14
+			xmax = 326.04
+			text = "já garantiu a sua entrada tem um"
+		intervals [165]:
+			xmin = 326.04
+			xmax = 326.9
+			text = "..."
+		intervals [166]:
+			xmin = 326.9
+			xmax = 328.5
+			text = "salão muito grande e tem um palco nesse salão"
+		intervals [167]:
+			xmin = 328.5
+			xmax = 329.05
+			text = "..."
+		intervals [168]:
+			xmin = 329.05
+			xmax = 332.05
+			text = "uma série de mesas assim dispostas ao longo deixando uma"
+		intervals [169]:
+			xmin = 332.05
+			xmax = 332.36
+			text = "..."
+		intervals [170]:
+			xmin = 332.36
+			xmax = 336.49
+			text = "grande pista de dança não é como boate tem uma pista pequena cê tem"
+		intervals [171]:
+			xmin = 336.49
+			xmax = 337.0
+			text = "..."
+		intervals [172]:
+			xmin = 337.0
+			xmax = 339.99
+			text = "um grande salão assim bastante espaço havia poucas"
+		intervals [173]:
+			xmin = 339.99
+			xmax = 341.02
+			text = "..."
+		intervals [174]:
+			xmin = 341.02
+			xmax = 341.61
+			text = "mesas"
+		intervals [175]:
+			xmin = 341.61
+			xmax = 342.19
+			text = "..."
+		intervals [176]:
+			xmin = 342.19
+			xmax = 344.0
+			text = "pelos pelo menos"
+		intervals [177]:
+			xmin = 344.0
+			xmax = 344.78
+			text = "..."
+		intervals [178]:
+			xmin = 344.78
+			xmax = 346.33
+			text = "nos cantos nos cantos"
+		intervals [179]:
+			xmin = 346.33
+			xmax = 346.67
+			text = "..."
+		intervals [180]:
+			xmin = 346.67
+			xmax = 348.88
+			text = "não ao redor assim não é de toda de todo"
+		intervals [181]:
+			xmin = 348.88
+			xmax = 349.78
+			text = "..."
+		intervals [182]:
+			xmin = 349.78
+			xmax = 350.48
+			text = "o salão e no"
+		intervals [183]:
+			xmin = 350.48
+			xmax = 351.25
+			text = "..."
+		intervals [184]:
+			xmin = 351.25
+			xmax = 360.84
+			text = "palco então vinha aquela bateria de escola de samba eles começavam a tocar antes cê já começava a dançar na cadeira né daí entrada com aquela batucada e começava"
+		intervals [185]:
+			xmin = 360.84
+			xmax = 361.89
+			text = "..."
+		intervals [186]:
+			xmin = 361.89
+			xmax = 363.07
+			text = "então o samba toda a"
+		intervals [187]:
+			xmin = 363.07
+			xmax = 363.86
+			text = "..."
+		intervals [188]:
+			xmin = 363.86
+			xmax = 365.43
+			text = "gente sambava sambava sambava e eles"
+		intervals [189]:
+			xmin = 365.43
+			xmax = 366.21
+			text = "..."
+		intervals [190]:
+			xmin = 366.21
+			xmax = 366.5
+			text = "faziam"
+		intervals [191]:
+			xmin = 366.5
+			xmax = 368.36
+			text = "uma apresentação da escola então apresentavam"
+		intervals [192]:
+			xmin = 368.36
+			xmax = 368.79
+			text = "..."
+		intervals [193]:
+			xmin = 368.79
+			xmax = 373.04
+			text = "a porta porta bandeira o mestre sala então vinham"
+		intervals [194]:
+			xmin = 373.04
+			xmax = 373.67
+			text = "..."
+		intervals [195]:
+			xmin = 373.67
+			xmax = 377.41
+			text = "com os passos característicos de samba faziam essas apresentação em seguida"
+		intervals [196]:
+			xmin = 377.41
+			xmax = 378.25
+			text = "..."
+		intervals [197]:
+			xmin = 378.25
+			xmax = 381.49
+			text = "era a porta bandeira e o mestre sala que vem então no primeiro plano vinham as"
+		intervals [198]:
+			xmin = 381.49
+			xmax = 382.28
+			text = "..."
+		intervals [199]:
+			xmin = 382.28
+			xmax = 383.29
+			text = "pastoras os"
+		intervals [200]:
+			xmin = 383.29
+			xmax = 384.06
+			text = "..."
+		intervals [201]:
+			xmin = 384.06
+			xmax = 384.75
+			text = "passistas"
+		intervals [202]:
+			xmin = 384.75
+			xmax = 385.58
+			text = "..."
+		intervals [203]:
+			xmin = 385.58
+			xmax = 386.6
+			text = "e a"
+		intervals [204]:
+			xmin = 386.6
+			xmax = 387.18
+			text = "..."
+		intervals [205]:
+			xmin = 387.18
+			xmax = 388.65
+			text = "bateria depois descia do palco"
+		intervals [206]:
+			xmin = 388.65
+			xmax = 389.2
+			text = "..."
+		intervals [207]:
+			xmin = 389.2
+			xmax = 394.19
+			text = "então eles vinham no salão e faziam aquela demonstração da escola de samba depois eles mudaram"
+		intervals [208]:
+			xmin = 394.19
+			xmax = 394.94
+			text = "..."
+		intervals [209]:
+			xmin = 394.94
+			xmax = 395.72
+			text = "o programa mudaram"
+		intervals [210]:
+			xmin = 395.72
+			xmax = 396.48
+			text = "..."
+		intervals [211]:
+			xmin = 396.48
+			xmax = 396.92
+			text = "o programa"
+		intervals [212]:
+			xmin = 396.92
+			xmax = 397.8
+			text = "..."
+		intervals [213]:
+			xmin = 397.8
+			xmax = 400.67
+			text = "e essa apresentação era feita no palco e no meio"
+		intervals [214]:
+			xmin = 400.67
+			xmax = 401.41
+			text = "..."
+		intervals [215]:
+			xmin = 401.41
+			xmax = 403.11
+			text = "da apresentação então todos se"
+		intervals [216]:
+			xmin = 403.11
+			xmax = 403.51
+			text = "..."
+		intervals [217]:
+			xmin = 403.51
+			xmax = 405.08
+			text = "postavam ao longo assim"
+		intervals [218]:
+			xmin = 405.08
+			xmax = 405.42
+			text = "..."
+		intervals [219]:
+			xmin = 405.42
+			xmax = 409.43
+			text = "do palco e no centro se apresentavam os passistas na na sua"
+		intervals [220]:
+			xmin = 409.43
+			xmax = 409.91
+			text = "..."
+		intervals [221]:
+			xmin = 409.91
+			xmax = 413.28
+			text = "performance né apresentavam o que tinham de melhor tocando os instrumentos"
+		intervals [222]:
+			xmin = 413.28
+			xmax = 414.19
+			text = "..."
+		intervals [223]:
+			xmin = 414.19
+			xmax = 416.51
+			text = "e apresentando os passos e as pastoras"
+		intervals [224]:
+			xmin = 416.51
+			xmax = 416.83
+			text = "..."
+		intervals [225]:
+			xmin = 416.83
+			xmax = 418.97
+			text = "se apresentavam de uma em uma e depois uma"
+		intervals [226]:
+			xmin = 418.97
+			xmax = 419.5
+			text = "..."
+		intervals [227]:
+			xmin = 419.5
+			xmax = 422.16
+			text = "amostra de gafieira então o indivíduo"
+		intervals [228]:
+			xmin = 422.16
+			xmax = 422.84
+			text = "..."
+		intervals [229]:
+			xmin = 422.84
+			xmax = 424.95
+			text = "que dançava bem a gafieira e eles escolheram"
+		intervals [230]:
+			xmin = 424.95
+			xmax = 425.39
+			text = "..."
+		intervals [231]:
+			xmin = 425.39
+			xmax = 431.79
+			text = "assim um tipo bem característico era um mulato meio gordo bem tipo de sambista mais sem ter essa essa magreza"
+		intervals [232]:
+			xmin = 431.79
+			xmax = 432.28
+			text = "..."
+		intervals [233]:
+			xmin = 432.28
+			xmax = 433.25
+			text = "assim por"
+		intervals [234]:
+			xmin = 433.25
+			xmax = 434.56
+			text = "..."
+		intervals [235]:
+			xmin = 434.56
+			xmax = 438.09
+			text = "exemplo do sambista carioca o sambista de gafieira"
+		intervals [236]:
+			xmin = 438.09
+			xmax = 438.39
+			text = "..."
+		intervals [237]:
+			xmin = 438.39
+			xmax = 438.67
+			text = "aquele"
+		intervals [238]:
+			xmin = 438.67
+			xmax = 439.9
+			text = "sambista gordo assim"
+		intervals [239]:
+			xmin = 439.9
+			xmax = 440.29
+			text = "..."
+		intervals [240]:
+			xmin = 440.29
+			xmax = 445.69
+			text = "com uma lora loríssima que dançava até na gafieira né então era uma"
+		intervals [241]:
+			xmin = 445.69
+			xmax = 446.38
+			text = "..."
+		intervals [242]:
+			xmin = 446.38
+			xmax = 448.68
+			text = "apresentação assim bem interessante esse ano lá voltei"
+		intervals [243]:
+			xmin = 448.68
+			xmax = 449.51
+			text = "..."
+		intervals [244]:
+			xmin = 449.51
+			xmax = 457.01
+			text = "veja que não fui só uma vez já vi uma primeira vez já vi uma segunda bom quando mudou o show agora eles dão show aos sábados sexta feira é o samba só"
+		intervals [245]:
+			xmin = 457.01
+			xmax = 457.54
+			text = "..."
+		intervals [246]:
+			xmin = 457.54
+			xmax = 459.98
+			text = "tem samba e o show então aos"
+		intervals [247]:
+			xmin = 459.98
+			xmax = 460.69
+			text = "..."
+		intervals [248]:
+			xmin = 460.69
+			xmax = 465.92
+			text = "sábados então este ano eu levei gente para lá outra vez que esse ano eu vô sempre para lá toda gente que vem de"
+		intervals [249]:
+			xmin = 465.92
+			xmax = 466.59
+			text = "..."
+		intervals [250]:
+			xmin = 466.59
+			xmax = 470.91
+			text = "fora do brasil ele fala ah tem samba em são paulo lá fomos para lá esse ano e a coisa tava bem"
+		intervals [251]:
+			xmin = 470.91
+			xmax = 471.8
+			text = "..."
+		intervals [252]:
+			xmin = 471.8
+			xmax = 473.19
+			text = "mudada aliás foi todo aquele"
+		intervals [253]:
+			xmin = 473.19
+			xmax = 474.19
+			text = "..."
+		intervals [254]:
+			xmin = 474.19
+			xmax = 476.96
+			text = "daquele iesp toda a gente caiu naquele"
+		intervals [255]:
+			xmin = 476.96
+			xmax = 478.16
+			text = "..."
+		intervals [256]:
+			xmin = 478.16
+			xmax = 482.07
+			text = "e"
+		intervals [257]:
+			xmin = 482.07
+			xmax = 482.37
+			text = "..."
+		intervals [258]:
+			xmin = 482.37
+			xmax = 484.94
+			text = "fizeram o"
+		intervals [259]:
+			xmin = 484.94
+			xmax = 485.89
+			text = "..."
+		intervals [260]:
+			xmin = 485.89
+			xmax = 489.1
+			text = "seguinte agora o número de"
+		intervals [261]:
+			xmin = 489.1
+			xmax = 489.75
+			text = "..."
+		intervals [262]:
+			xmin = 489.75
+			xmax = 491.8
+			text = "mesas é o"
+		intervals [263]:
+			xmin = 491.8
+			xmax = 492.11
+			text = "..."
+		intervals [264]:
+			xmin = 492.11
+			xmax = 494.99
+			text = "triplo né então o espaço diminuiu"
+		intervals [265]:
+			xmin = 494.99
+			xmax = 495.82
+			text = "..."
+		intervals [266]:
+			xmin = 495.82
+			xmax = 499.14
+			text = "bastante e a apresentação consistia"
+		intervals [267]:
+			xmin = 499.14
+			xmax = 499.84
+			text = "..."
+		intervals [268]:
+			xmin = 499.84
+			xmax = 500.62
+			text = ""
+		intervals [269]:
+			xmin = 500.62
+			xmax = 501.07
+			text = "..."
+		intervals [270]:
+			xmin = 501.07
+			xmax = 503.02
+			text = ""
+		intervals [271]:
+			xmin = 503.02
+			xmax = 503.44
+			text = "..."
+		intervals [272]:
+			xmin = 503.44
+			xmax = 504.95
+			text = ""
+		intervals [273]:
+			xmin = 504.95
+			xmax = 505.63
+			text = "..."
+		intervals [274]:
+			xmin = 505.63
+			xmax = 508.7
+			text = "é mesmo apresentação"
+		intervals [275]:
+			xmin = 508.7
+			xmax = 509.21
+			text = "..."
+		intervals [276]:
+			xmin = 509.21
+			xmax = 509.68
+			text = ""
+		intervals [277]:
+			xmin = 509.68
+			xmax = 510.21
+			text = "..."
+		intervals [278]:
+			xmin = 510.21
+			xmax = 514.72
+			text = ""
+		intervals [279]:
+			xmin = 514.72
+			xmax = 515.95
+			text = "..."
+		intervals [280]:
+			xmin = 515.95
+			xmax = 519.36
+			text = "eles já"
+		intervals [281]:
+			xmin = 519.36
+			xmax = 519.95
+			text = "..."
+		intervals [282]:
+			xmin = 519.95
+			xmax = 525.12
+			text = "saem do palco e vem fazer o show ali naquela arena no na pista de dança mesmo entre as mesas"
+		intervals [283]:
+			xmin = 525.12
+			xmax = 525.5
+			text = "..."
+		intervals [284]:
+			xmin = 525.5
+			xmax = 526.14
+			text = "e apresentam"
+		intervals [285]:
+			xmin = 526.14
+			xmax = 528.16
+			text = "..."
+		intervals [286]:
+			xmin = 528.16
+			xmax = 530.24
+			text = "uns passistas já assim com quadros montados"
+		intervals [287]:
+			xmin = 530.24
+			xmax = 531.58
+			text = "..."
+		intervals [288]:
+			xmin = 531.58
+			xmax = 533.3
+			text = "e é bom o show"
+		intervals [289]:
+			xmin = 533.3
+			xmax = 534.51
+			text = "..."
+		intervals [290]:
+			xmin = 534.51
+			xmax = 535.95
+			text = "dura mais ou"
+		intervals [291]:
+			xmin = 535.95
+			xmax = 538.18
+			text = "..."
+		intervals [292]:
+			xmin = 538.18
+			xmax = 539.12
+			text = "menos uma hora uma hora"
+		intervals [293]:
+			xmin = 539.12
+			xmax = 539.43
+			text = "..."
+		intervals [294]:
+			xmin = 539.43
+			xmax = 540.62
+			text = "e meia e vale a pena"
+		intervals [295]:
+			xmin = 540.62
+			xmax = 541.26
+			text = "..."
+		intervals [296]:
+			xmin = 541.26
+			xmax = 546.17
+			text = "só você ir ter paciência de esperar o show mesmo quem não gosta de sambar vale a pena que é"
+		intervals [297]:
+			xmin = 546.17
+			xmax = 547.56
+			text = "..."
+		intervals [298]:
+			xmin = 547.56
+			xmax = 548.11
+			text = "uma beleza"
+		intervals [299]:
+			xmin = 548.11
+			xmax = 548.53
+			text = "..."
+		intervals [300]:
+			xmin = 548.53
+			xmax = 548.99
+			text = "um espetáculo deslumbrante"
+		intervals [301]:
+			xmin = 548.99
+			xmax = 560.81
+			text = ""
+		intervals [302]:
+			xmin = 560.81
+			xmax = 563.85
+			text = "o surdão tan tan que ele dá só a"
+		intervals [303]:
+			xmin = 563.85
+			xmax = 565.16
+			text = "..."
+		intervals [304]:
+			xmin = 565.16
+			xmax = 565.25
+			text = "batida"
+		intervals [305]:
+			xmin = 565.25
+			xmax = 565.98
+			text = "começa"
+		intervals [306]:
+			xmin = 565.98
+			xmax = 566.39
+			text = "..."
+		intervals [307]:
+			xmin = 566.39
+			xmax = 567.54
+			text = "né tam ah um"
+		intervals [308]:
+			xmin = 567.54
+			xmax = 568.09
+			text = "outro"
+		intervals [309]:
+			xmin = 568.09
+			xmax = 568.76
+			text = "instrumento que"
+		intervals [310]:
+			xmin = 568.76
+			xmax = 570.01
+			text = "..."
+		intervals [311]:
+			xmin = 570.01
+			xmax = 571.87
+			text = "é o meio surdo é um"
+		intervals [312]:
+			xmin = 571.87
+			xmax = 573.65
+			text = "instrumento um pouco menor e"
+		intervals [313]:
+			xmin = 573.65
+			xmax = 574.1
+			text = "..."
+		intervals [314]:
+			xmin = 574.1
+			xmax = 574.73
+			text = "que"
+		intervals [315]:
+			xmin = 574.73
+			xmax = 575.54
+			text = "..."
+		intervals [316]:
+			xmin = 575.54
+			xmax = 575.98
+			text = "dá uma"
+		intervals [317]:
+			xmin = 575.98
+			xmax = 576.41
+			text = "..."
+		intervals [318]:
+			xmin = 576.41
+			xmax = 577.43
+			text = "batida um pouco mais compassada quer dizer"
+		intervals [319]:
+			xmin = 577.43
+			xmax = 578.08
+			text = "..."
+		intervals [320]:
+			xmin = 578.08
+			xmax = 581.18
+			text = "num compasso um pouquinho mais rápido que esse surdão"
+		intervals [321]:
+			xmin = 581.18
+			xmax = 581.58
+			text = "..."
+		intervals [322]:
+			xmin = 581.58
+			xmax = 582.62
+			text = "a caixa que"
+		intervals [323]:
+			xmin = 582.62
+			xmax = 583.2
+			text = "..."
+		intervals [324]:
+			xmin = 583.2
+			xmax = 585.11
+			text = "faz então todo aquele repicado né eu num num"
+		intervals [325]:
+			xmin = 585.11
+			xmax = 585.83
+			text = "..."
+		intervals [326]:
+			xmin = 585.83
+			xmax = 587.9
+			text = "sei imitar fazer a caixa a cuíca"
+		intervals [327]:
+			xmin = 587.9
+			xmax = 588.92
+			text = "..."
+		intervals [328]:
+			xmin = 588.92
+			xmax = 589.75
+			text = "som característico da"
+		intervals [329]:
+			xmin = 589.75
+			xmax = 590.41
+			text = "..."
+		intervals [330]:
+			xmin = 590.41
+			xmax = 591.01
+			text = "cuíca eles usam"
+		intervals [331]:
+			xmin = 591.01
+			xmax = 592.51
+			text = "..."
+		intervals [332]:
+			xmin = 592.51
+			xmax = 592.55
+			text = "também"
+		intervals [333]:
+			xmin = 592.55
+			xmax = 593.36
+			text = "..."
+		intervals [334]:
+			xmin = 593.36
+			xmax = 594.11
+			text = "além"
+		intervals [335]:
+			xmin = 594.11
+			xmax = 594.85
+			text = "..."
+		intervals [336]:
+			xmin = 594.85
+			xmax = 596.26
+			text = "deixa eu ver quantos instrumentos de"
+		intervals [337]:
+			xmin = 596.26
+			xmax = 596.67
+			text = "..."
+		intervals [338]:
+			xmin = 596.67
+			xmax = 598.89
+			text = "percussão são o surdo esse surdão o meio"
+		intervals [339]:
+			xmin = 598.89
+			xmax = 599.39
+			text = "..."
+		intervals [340]:
+			xmin = 599.39
+			xmax = 600.72
+			text = "surdo a caixa eu num"
+		intervals [341]:
+			xmin = 600.72
+			xmax = 601.37
+			text = "..."
+		intervals [342]:
+			xmin = 601.37
+			xmax = 601.99
+			text = ""
+	item [3]:
+		class = "IntervalTier"
+		name = "TB-infm"
+		xmin = 0.0
+		xmax = 601.99
+		intervals: size = 60
+		intervals [1]:
+			xmin = 0.0
+			xmax = 27.37
+			text = ""
+		intervals [2]:
+			xmin = 27.37
+			xmax = 27.6
+			text = "é uma"
+		intervals [3]:
+			xmin = 27.6
+			xmax = 28.37
+			text = "solidariedade"
+		intervals [4]:
+			xmin = 28.37
+			xmax = 33.09
+			text = "é a solidariedade humana a sua segurança depende da segurança de todos é uma mensagem muito bonita e aliás essa é a propaganda"
+		intervals [5]:
+			xmin = 33.09
+			xmax = 35.63
+			text = "e toda a propaganda do governo na televisão eu acho que tá sendo muito"
+		intervals [6]:
+			xmin = 35.63
+			xmax = 47.31
+			text = ""
+		intervals [7]:
+			xmin = 47.31
+			xmax = 54.53
+			text = "realmente aliás tem uma outra outra propaganda do governo na televisão que me deixou muito impressionado porque é muito bonita a imagem muito bem feita aparece um"
+		intervals [8]:
+			xmin = 54.53
+			xmax = 55.2
+			text = "..."
+		intervals [9]:
+			xmin = 55.2
+			xmax = 60.01
+			text = "garotinho numa com uma xícara preparando a cola de farinha de trigo para fazer um papagaio e a"
+		intervals [10]:
+			xmin = 60.01
+			xmax = 60.43
+			text = "..."
+		intervals [11]:
+			xmin = 60.43
+			xmax = 63.67
+			text = "enquanto ele faz isso muda a imagem e aparece uma grande caldeira de repente"
+		intervals [12]:
+			xmin = 63.67
+			xmax = 64.48
+			text = "..."
+		intervals [13]:
+			xmin = 64.48
+			xmax = 69.28
+			text = "aparece ele cortando o papel de seda para fazer o papagaio então novamente vem uma prensa cortando vários blocos de"
+		intervals [14]:
+			xmin = 69.28
+			xmax = 71.1
+			text = "..."
+		intervals [15]:
+			xmin = 71.1
+			xmax = 73.01
+			text = "papel em grande escala aí ele"
+		intervals [16]:
+			xmin = 73.01
+			xmax = 73.74
+			text = "..."
+		intervals [17]:
+			xmin = 73.74
+			xmax = 77.7
+			text = "começa a mexer com as varetinhas nisso aparece um postes de alta tensão é uma imagem"
+		intervals [18]:
+			xmin = 77.7
+			xmax = 78.11
+			text = "muito"
+		intervals [19]:
+			xmin = 78.11
+			xmax = 78.97
+			text = "bonita no fim"
+		intervals [20]:
+			xmin = 78.97
+			xmax = 79.46
+			text = "..."
+		intervals [21]:
+			xmin = 79.46
+			xmax = 81.13
+			text = "uma dessas mensagens quaisquer de de"
+		intervals [22]:
+			xmin = 81.13
+			xmax = 82.82
+			text = ""
+		intervals [23]:
+			xmin = 82.82
+			xmax = 83.23
+			text = "não me lembro"
+		intervals [24]:
+			xmin = 83.23
+			xmax = 83.84
+			text = "..."
+		intervals [25]:
+			xmin = 83.84
+			xmax = 86.5
+			text = "exatamente a mensagem talvez não vamo dizer que por isso"
+		intervals [26]:
+			xmin = 86.5
+			xmax = 87.06
+			text = "a"
+		intervals [27]:
+			xmin = 87.06
+			xmax = 87.76
+			text = "propaganda não é"
+		intervals [28]:
+			xmin = 87.76
+			xmax = 94.72
+			text = ""
+		intervals [29]:
+			xmin = 94.72
+			xmax = 97.24
+			text = "mas é muito bonita aquela transformação no fim aquela"
+		intervals [30]:
+			xmin = 97.24
+			xmax = 100.22
+			text = "última cena é um garotinho empinando o papagaio sabe é um negócio"
+		intervals [31]:
+			xmin = 100.22
+			xmax = 121.12
+			text = ""
+		intervals [32]:
+			xmin = 121.12
+			xmax = 121.95
+			text = "ficou nossa é muito bonita mesmo"
+		intervals [33]:
+			xmin = 121.95
+			xmax = 130.88
+			text = ""
+		intervals [34]:
+			xmin = 130.88
+			xmax = 131.41
+			text = "essa"
+		intervals [35]:
+			xmin = 131.41
+			xmax = 131.75
+			text = "..."
+		intervals [36]:
+			xmin = 131.75
+			xmax = 132.0
+			text = "do"
+		intervals [37]:
+			xmin = 132.0
+			xmax = 132.86
+			text = "do menino caixinha"
+		intervals [38]:
+			xmin = 132.86
+			xmax = 133.6
+			text = "achei genial bonita"
+		intervals [39]:
+			xmin = 133.6
+			xmax = 133.93
+			text = "..."
+		intervals [40]:
+			xmin = 133.93
+			xmax = 134.32
+			text = "mesmo"
+		intervals [41]:
+			xmin = 134.32
+			xmax = 142.62
+			text = ""
+		intervals [42]:
+			xmin = 142.62
+			xmax = 145.17
+			text = "na barra funda o que é isso olha só eu nunca fui ao"
+		intervals [43]:
+			xmin = 145.17
+			xmax = 145.55
+			text = "sambão"
+		intervals [44]:
+			xmin = 145.55
+			xmax = 146.65
+			text = ""
+		intervals [45]:
+			xmin = 146.65
+			xmax = 150.3
+			text = "também aqui cabe uma historinha cê me deixa pegar um cigarro"
+		intervals [46]:
+			xmin = 150.3
+			xmax = 150.67
+			text = "..."
+		intervals [47]:
+			xmin = 150.67
+			xmax = 151.32
+			text = "seu o meu acabou"
+		intervals [48]:
+			xmin = 151.32
+			xmax = 152.55
+			text = ""
+		intervals [49]:
+			xmin = 152.55
+			xmax = 153.74
+			text = "não vim preparado para"
+		intervals [50]:
+			xmin = 153.74
+			xmax = 154.09
+			text = "..."
+		intervals [51]:
+			xmin = 154.09
+			xmax = 264.23
+			text = ""
+		intervals [52]:
+			xmin = 264.23
+			xmax = 264.94
+			text = "a gente"
+		intervals [53]:
+			xmin = 264.94
+			xmax = 264.97
+			text = "não"
+		intervals [54]:
+			xmin = 264.97
+			xmax = 265.32
+			text = "..."
+		intervals [55]:
+			xmin = 265.32
+			xmax = 548.99
+			text = ""
+		intervals [56]:
+			xmin = 548.99
+			xmax = 550.25
+			text = "eu não tive a"
+		intervals [57]:
+			xmin = 550.25
+			xmax = 551.26
+			text = "..."
+		intervals [58]:
+			xmin = 551.26
+			xmax = 551.68
+			text = "oportunidade de ver"
+		intervals [59]:
+			xmin = 551.68
+			xmax = 552.67
+			text = "..."
+		intervals [60]:
+			xmin = 552.67
+			xmax = 601.99
+			text = ""
+	item [4]:
+		class = "IntervalTier"
+		name = "NTB-infm"
+		xmin = 0.0
+		xmax = 601.99
+		intervals: size = 60
+		intervals [1]:
+			xmin = 0.0
+			xmax = 27.37
+			text = ""
+		intervals [2]:
+			xmin = 27.37
+			xmax = 27.6
+			text = "é uma"
+		intervals [3]:
+			xmin = 27.6
+			xmax = 28.37
+			text = "solidariedade"
+		intervals [4]:
+			xmin = 28.37
+			xmax = 33.09
+			text = "é a solidariedade humana a sua segurança depende da segurança de todos é uma mensagem muito bonita e aliás essa é a propaganda"
+		intervals [5]:
+			xmin = 33.09
+			xmax = 35.63
+			text = "e toda a propaganda do governo na televisão eu acho que tá sendo muito"
+		intervals [6]:
+			xmin = 35.63
+			xmax = 47.31
+			text = ""
+		intervals [7]:
+			xmin = 47.31
+			xmax = 54.53
+			text = "realmente aliás tem uma outra outra propaganda do governo na televisão que me deixou muito impressionado porque é muito bonita a imagem muito bem feita aparece um"
+		intervals [8]:
+			xmin = 54.53
+			xmax = 55.2
+			text = "..."
+		intervals [9]:
+			xmin = 55.2
+			xmax = 60.01
+			text = "garotinho numa com uma xícara preparando a cola de farinha de trigo para fazer um papagaio e a"
+		intervals [10]:
+			xmin = 60.01
+			xmax = 60.43
+			text = "..."
+		intervals [11]:
+			xmin = 60.43
+			xmax = 63.67
+			text = "enquanto ele faz isso muda a imagem e aparece uma grande caldeira de repente"
+		intervals [12]:
+			xmin = 63.67
+			xmax = 64.48
+			text = "..."
+		intervals [13]:
+			xmin = 64.48
+			xmax = 69.28
+			text = "aparece ele cortando o papel de seda para fazer o papagaio então novamente vem uma prensa cortando vários blocos de"
+		intervals [14]:
+			xmin = 69.28
+			xmax = 71.1
+			text = "..."
+		intervals [15]:
+			xmin = 71.1
+			xmax = 73.01
+			text = "papel em grande escala aí ele"
+		intervals [16]:
+			xmin = 73.01
+			xmax = 73.74
+			text = "..."
+		intervals [17]:
+			xmin = 73.74
+			xmax = 77.7
+			text = "começa a mexer com as varetinhas nisso aparece um postes de alta tensão é uma imagem"
+		intervals [18]:
+			xmin = 77.7
+			xmax = 78.11
+			text = "muito"
+		intervals [19]:
+			xmin = 78.11
+			xmax = 78.97
+			text = "bonita no fim"
+		intervals [20]:
+			xmin = 78.97
+			xmax = 79.46
+			text = "..."
+		intervals [21]:
+			xmin = 79.46
+			xmax = 81.13
+			text = "uma dessas mensagens quaisquer de de"
+		intervals [22]:
+			xmin = 81.13
+			xmax = 82.82
+			text = ""
+		intervals [23]:
+			xmin = 82.82
+			xmax = 83.23
+			text = "não me lembro"
+		intervals [24]:
+			xmin = 83.23
+			xmax = 83.84
+			text = "..."
+		intervals [25]:
+			xmin = 83.84
+			xmax = 86.5
+			text = "exatamente a mensagem talvez não vamo dizer que por isso"
+		intervals [26]:
+			xmin = 86.5
+			xmax = 87.06
+			text = "a"
+		intervals [27]:
+			xmin = 87.06
+			xmax = 87.76
+			text = "propaganda não é"
+		intervals [28]:
+			xmin = 87.76
+			xmax = 94.72
+			text = ""
+		intervals [29]:
+			xmin = 94.72
+			xmax = 97.24
+			text = "mas é muito bonita aquela transformação no fim aquela"
+		intervals [30]:
+			xmin = 97.24
+			xmax = 100.22
+			text = "última cena é um garotinho empinando o papagaio sabe é um negócio"
+		intervals [31]:
+			xmin = 100.22
+			xmax = 121.12
+			text = ""
+		intervals [32]:
+			xmin = 121.12
+			xmax = 121.95
+			text = "ficou nossa é muito bonita mesmo"
+		intervals [33]:
+			xmin = 121.95
+			xmax = 130.88
+			text = ""
+		intervals [34]:
+			xmin = 130.88
+			xmax = 131.41
+			text = "essa"
+		intervals [35]:
+			xmin = 131.41
+			xmax = 131.75
+			text = "..."
+		intervals [36]:
+			xmin = 131.75
+			xmax = 132.0
+			text = "do"
+		intervals [37]:
+			xmin = 132.0
+			xmax = 132.86
+			text = "do menino caixinha"
+		intervals [38]:
+			xmin = 132.86
+			xmax = 133.6
+			text = "achei genial bonita"
+		intervals [39]:
+			xmin = 133.6
+			xmax = 133.93
+			text = "..."
+		intervals [40]:
+			xmin = 133.93
+			xmax = 134.32
+			text = "mesmo"
+		intervals [41]:
+			xmin = 134.32
+			xmax = 142.62
+			text = ""
+		intervals [42]:
+			xmin = 142.62
+			xmax = 145.17
+			text = "na barra funda o que é isso olha só eu nunca fui ao"
+		intervals [43]:
+			xmin = 145.17
+			xmax = 145.55
+			text = "sambão"
+		intervals [44]:
+			xmin = 145.55
+			xmax = 146.65
+			text = ""
+		intervals [45]:
+			xmin = 146.65
+			xmax = 150.3
+			text = "também aqui cabe uma historinha cê me deixa pegar um cigarro"
+		intervals [46]:
+			xmin = 150.3
+			xmax = 150.67
+			text = "..."
+		intervals [47]:
+			xmin = 150.67
+			xmax = 151.32
+			text = "seu o meu acabou"
+		intervals [48]:
+			xmin = 151.32
+			xmax = 152.55
+			text = ""
+		intervals [49]:
+			xmin = 152.55
+			xmax = 153.74
+			text = "não vim preparado para"
+		intervals [50]:
+			xmin = 153.74
+			xmax = 154.09
+			text = "..."
+		intervals [51]:
+			xmin = 154.09
+			xmax = 264.23
+			text = ""
+		intervals [52]:
+			xmin = 264.23
+			xmax = 264.94
+			text = "a gente"
+		intervals [53]:
+			xmin = 264.94
+			xmax = 264.97
+			text = "não"
+		intervals [54]:
+			xmin = 264.97
+			xmax = 265.32
+			text = "..."
+		intervals [55]:
+			xmin = 265.32
+			xmax = 548.99
+			text = ""
+		intervals [56]:
+			xmin = 548.99
+			xmax = 550.25
+			text = "eu não tive a"
+		intervals [57]:
+			xmin = 550.25
+			xmax = 551.26
+			text = "..."
+		intervals [58]:
+			xmin = 551.26
+			xmax = 551.68
+			text = "oportunidade de ver"
+		intervals [59]:
+			xmin = 551.68
+			xmax = 552.67
+			text = "..."
+		intervals [60]:
+			xmin = 552.67
+			xmax = 601.99
+			text = ""
+	item [5]:
+		class = "IntervalTier"
+		name = "TB-docf"
+		xmin = 0.0
+		xmax = 601.99
+		intervals: size = 27
+		intervals [1]:
+			xmin = 0.0
+			xmax = 121.95
+			text = ""
+		intervals [2]:
+			xmin = 121.95
+			xmax = 122.5
+			text = "atende ao"
+		intervals [3]:
+			xmin = 122.5
+			xmax = 122.93
+			text = "objetivo"
+		intervals [4]:
+			xmin = 122.93
+			xmax = 129.05
+			text = ""
+		intervals [5]:
+			xmin = 129.05
+			xmax = 129.57
+			text = "bem feita"
+		intervals [6]:
+			xmin = 129.57
+			xmax = 130.88
+			text = "essa que você falou eu vi no cinema"
+		intervals [7]:
+			xmin = 130.88
+			xmax = 134.32
+			text = ""
+		intervals [8]:
+			xmin = 134.32
+			xmax = 134.72
+			text = "mas"
+		intervals [9]:
+			xmin = 134.72
+			xmax = 135.72
+			text = "..."
+		intervals [10]:
+			xmin = 135.72
+			xmax = 137.18
+			text = "e se vocês quiserem assim tipo"
+		intervals [11]:
+			xmin = 137.18
+			xmax = 137.53
+			text = "..."
+		intervals [12]:
+			xmin = 137.53
+			xmax = 140.71
+			text = "alongar a noite que que vocês fazem para se divertir em são paulo"
+		intervals [13]:
+			xmin = 140.71
+			xmax = 141.71
+			text = "..."
+		intervals [14]:
+			xmin = 141.71
+			xmax = 145.55
+			text = ""
+		intervals [15]:
+			xmin = 145.55
+			xmax = 146.5
+			text = "conta para nós como é que é"
+		intervals [16]:
+			xmin = 146.5
+			xmax = 282.93
+			text = ""
+		intervals [17]:
+			xmin = 282.93
+			xmax = 283.24
+			text = "camisa"
+		intervals [18]:
+			xmin = 283.24
+			xmax = 552.67
+			text = ""
+		intervals [19]:
+			xmin = 552.67
+			xmax = 554.02
+			text = "ainda não e que instrumentos"
+		intervals [20]:
+			xmin = 554.02
+			xmax = 554.37
+			text = "..."
+		intervals [21]:
+			xmin = 554.37
+			xmax = 554.89
+			text = "é você"
+		intervals [22]:
+			xmin = 554.89
+			xmax = 555.34
+			text = "..."
+		intervals [23]:
+			xmin = 555.34
+			xmax = 556.75
+			text = "lembra dos instrumentos musicais"
+		intervals [24]:
+			xmin = 556.75
+			xmax = 558.89
+			text = "..."
+		intervals [25]:
+			xmin = 558.89
+			xmax = 560.15
+			text = "que eles usam"
+		intervals [26]:
+			xmin = 560.15
+			xmax = 560.81
+			text = "..."
+		intervals [27]:
+			xmin = 560.81
+			xmax = 601.99
+			text = ""
+	item [6]:
+		class = "IntervalTier"
+		name = "NTB-docf"
+		xmin = 0.0
+		xmax = 601.99
+		intervals: size = 27
+		intervals [1]:
+			xmin = 0.0
+			xmax = 121.95
+			text = ""
+		intervals [2]:
+			xmin = 121.95
+			xmax = 122.5
+			text = "atende ao"
+		intervals [3]:
+			xmin = 122.5
+			xmax = 122.93
+			text = "objetivo"
+		intervals [4]:
+			xmin = 122.93
+			xmax = 129.05
+			text = ""
+		intervals [5]:
+			xmin = 129.05
+			xmax = 129.57
+			text = "bem feita"
+		intervals [6]:
+			xmin = 129.57
+			xmax = 130.88
+			text = "essa que você falou eu vi no cinema"
+		intervals [7]:
+			xmin = 130.88
+			xmax = 134.32
+			text = ""
+		intervals [8]:
+			xmin = 134.32
+			xmax = 134.72
+			text = "mas"
+		intervals [9]:
+			xmin = 134.72
+			xmax = 135.72
+			text = "..."
+		intervals [10]:
+			xmin = 135.72
+			xmax = 137.18
+			text = "e se vocês quiserem assim tipo"
+		intervals [11]:
+			xmin = 137.18
+			xmax = 137.53
+			text = "..."
+		intervals [12]:
+			xmin = 137.53
+			xmax = 140.71
+			text = "alongar a noite que que vocês fazem para se divertir em são paulo"
+		intervals [13]:
+			xmin = 140.71
+			xmax = 141.71
+			text = "..."
+		intervals [14]:
+			xmin = 141.71
+			xmax = 145.55
+			text = ""
+		intervals [15]:
+			xmin = 145.55
+			xmax = 146.5
+			text = "conta para nós como é que é"
+		intervals [16]:
+			xmin = 146.5
+			xmax = 282.93
+			text = ""
+		intervals [17]:
+			xmin = 282.93
+			xmax = 283.24
+			text = "camisa"
+		intervals [18]:
+			xmin = 283.24
+			xmax = 552.67
+			text = ""
+		intervals [19]:
+			xmin = 552.67
+			xmax = 554.02
+			text = "ainda não e que instrumentos"
+		intervals [20]:
+			xmin = 554.02
+			xmax = 554.37
+			text = "..."
+		intervals [21]:
+			xmin = 554.37
+			xmax = 554.89
+			text = "é você"
+		intervals [22]:
+			xmin = 554.89
+			xmax = 555.34
+			text = "..."
+		intervals [23]:
+			xmin = 555.34
+			xmax = 556.75
+			text = "lembra dos instrumentos musicais"
+		intervals [24]:
+			xmin = 556.75
+			xmax = 558.89
+			text = "..."
+		intervals [25]:
+			xmin = 558.89
+			xmax = 560.15
+			text = "que eles usam"
+		intervals [26]:
+			xmin = 560.15
+			xmax = 560.81
+			text = "..."
+		intervals [27]:
+			xmin = 560.81
+			xmax = 601.99
+			text = ""
+	item [7]:
+		class = "IntervalTier"
+		name = "comentarios-anotacao"
+		xmin = 0.0
+		xmax = 601.99
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0
+			xmax = 601.99
+			text = ""
+	item [8]:
+		class = "IntervalTier"
+		name = "comentarios"
+		xmin = 0.0
+		xmax = 601.99
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0
+			xmax = 601.99
+			text = ""

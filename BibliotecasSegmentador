@@ -1,0 +1,6 @@
+Bibliotecas utilizadas pelo código do segmentador
+
+re
+os
+chardet 5.2.0
+tgt 1.4.4

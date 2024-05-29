@@ -1,0 +1,2936 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 1800.7400000000002
+tiers? <exists>
+size = 8
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "TB-﻿l1"
+		xmin = 0.0
+		xmax = 1800.7400000000002
+		intervals: size = 5
+		intervals [1]:
+			xmin = 0.0
+			xmax = 600.32
+			text = ""
+		intervals [2]:
+			xmin = 600.32
+			xmax = 1200.65
+			text = "numa"
+		intervals [3]:
+			xmin = 1200.65
+			xmax = 1205.5800000000002
+			text = "escola protestante não tinha importância nenhuma porque eu não sofri influência nenhuma de desse protestantismo"
+		intervals [4]:
+			xmin = 1205.5800000000002
+			xmax = 1206.16
+			text = "..."
+		intervals [5]:
+			xmin = 1206.16
+			xmax = 1800.7400000000002
+			text = ""
+	item [2]:
+		class = "IntervalTier"
+		name = "NTB-﻿l1"
+		xmin = 0.0
+		xmax = 1800.7400000000002
+		intervals: size = 5
+		intervals [1]:
+			xmin = 0.0
+			xmax = 600.32
+			text = ""
+		intervals [2]:
+			xmin = 600.32
+			xmax = 1200.65
+			text = "numa"
+		intervals [3]:
+			xmin = 1200.65
+			xmax = 1205.5800000000002
+			text = "escola protestante não tinha importância nenhuma porque eu não sofri influência nenhuma de desse protestantismo"
+		intervals [4]:
+			xmin = 1205.5800000000002
+			xmax = 1206.16
+			text = "..."
+		intervals [5]:
+			xmin = 1206.16
+			xmax = 1800.7400000000002
+			text = ""
+	item [3]:
+		class = "IntervalTier"
+		name = "TB-l1"
+		xmin = 0.0
+		xmax = 1800.7400000000002
+		intervals: size = 304
+		intervals [1]:
+			xmin = 0.0
+			xmax = 1206.16
+			text = ""
+		intervals [2]:
+			xmin = 1206.16
+			xmax = 1212.98
+			text = "e hoje quando eu vejo o ecumenismo aqui entre as igrejas eu vejo que nós fomos precursores disso num é porque"
+		intervals [3]:
+			xmin = 1212.98
+			xmax = 1213.3400000000001
+			text = "..."
+		intervals [4]:
+			xmin = 1213.3400000000001
+			xmax = 1214.91
+			text = "lá cada um continuou com a sua"
+		intervals [5]:
+			xmin = 1214.91
+			xmax = 1215.49
+			text = "religião"
+		intervals [6]:
+			xmin = 1215.49
+			xmax = 1215.88
+			text = "..."
+		intervals [7]:
+			xmin = 1215.88
+			xmax = 1221.74
+			text = "e ouvia aquele trecho da bíblia que não iria converter ninguém nem conseguiria converter com aquela leiturazinha"
+		intervals [8]:
+			xmin = 1221.74
+			xmax = 1222.1100000000001
+			text = "..."
+		intervals [9]:
+			xmin = 1222.1100000000001
+			xmax = 1222.8500000000001
+			text = "diária né"
+		intervals [10]:
+			xmin = 1222.8500000000001
+			xmax = 1223.6000000000001
+			text = "..."
+		intervals [11]:
+			xmin = 1223.6000000000001
+			xmax = 1226.65
+			text = "e e a leitura era da bíblia de modo que não havia"
+		intervals [12]:
+			xmin = 1226.65
+			xmax = 1227.0500000000002
+			text = "..."
+		intervals [13]:
+			xmin = 1227.0500000000002
+			xmax = 1231.3600000000001
+			text = "pregação nenhuma nem contra essa igreja nem a favor daquela quer dizer a apenas"
+		intervals [14]:
+			xmin = 1231.3600000000001
+			xmax = 1231.71
+			text = "..."
+		intervals [15]:
+			xmin = 1231.71
+			xmax = 1234.42
+			text = "lia um um pequeno trecho da bíblia pequeno"
+		intervals [16]:
+			xmin = 1234.42
+			xmax = 1234.75
+			text = "..."
+		intervals [17]:
+			xmin = 1234.75
+			xmax = 1235.88
+			text = "e havia uma explicação"
+		intervals [18]:
+			xmin = 1235.88
+			xmax = 1238.3700000000001
+			text = "o o culto não durava mais do que sete"
+		intervals [19]:
+			xmin = 1238.3700000000001
+			xmax = 1239.13
+			text = "ou oito minutos"
+		intervals [20]:
+			xmin = 1239.13
+			xmax = 1240.67
+			text = "..."
+		intervals [21]:
+			xmin = 1240.67
+			xmax = 1251.88
+			text = ""
+		intervals [22]:
+			xmin = 1251.88
+			xmax = 1259.3100000000002
+			text = "bom eu disse que eu sou católica porque eu nasci de uma família católica e quando me perguntam qual é a minha religião"
+		intervals [23]:
+			xmin = 1259.3100000000002
+			xmax = 1259.78
+			text = "..."
+		intervals [24]:
+			xmin = 1259.78
+			xmax = 1261.68
+			text = "eu digo que é a católica porque é"
+		intervals [25]:
+			xmin = 1261.68
+			xmax = 1262.3100000000002
+			text = "..."
+		intervals [26]:
+			xmin = 1262.3100000000002
+			xmax = 1263.21
+			text = "ah"
+		intervals [27]:
+			xmin = 1263.21
+			xmax = 1263.8200000000002
+			text = "..."
+		intervals [28]:
+			xmin = 1263.8200000000002
+			xmax = 1264.41
+			text = "eu estou"
+		intervals [29]:
+			xmin = 1264.41
+			xmax = 1265.0700000000002
+			text = "..."
+		intervals [30]:
+			xmin = 1265.0700000000002
+			xmax = 1271.92
+			text = "vivendo dentro de uma organização católica fui batizada e e me considero católica mas"
+		intervals [31]:
+			xmin = 1271.92
+			xmax = 1272.5600000000002
+			text = "..."
+		intervals [32]:
+			xmin = 1272.5600000000002
+			xmax = 1275.26
+			text = "eu não não faço comentário"
+		intervals [33]:
+			xmin = 1275.26
+			xmax = 1275.72
+			text = "..."
+		intervals [34]:
+			xmin = 1275.72
+			xmax = 1281.01
+			text = "porque como católica propriamente dito eu sou uma má católica porque eu não"
+		intervals [35]:
+			xmin = 1281.01
+			xmax = 1281.4
+			text = "..."
+		intervals [36]:
+			xmin = 1281.4
+			xmax = 1284.93
+			text = "frequento assim a igreja com regularidade"
+		intervals [37]:
+			xmin = 1284.93
+			xmax = 1285.3600000000001
+			text = "..."
+		intervals [38]:
+			xmin = 1285.3600000000001
+			xmax = 1291.99
+			text = "não estou muito presa aos princípios todos da igreja católica não é sou bastante independente"
+		intervals [39]:
+			xmin = 1291.99
+			xmax = 1292.44
+			text = "..."
+		intervals [40]:
+			xmin = 1292.44
+			xmax = 1293.52
+			text = "em matéria de religião"
+		intervals [41]:
+			xmin = 1293.52
+			xmax = 1294.0600000000002
+			text = "..."
+		intervals [42]:
+			xmin = 1294.0600000000002
+			xmax = 1297.76
+			text = "embora eu seja uma pessoa de muita crença eu tenho fé"
+		intervals [43]:
+			xmin = 1297.76
+			xmax = 1298.6100000000001
+			text = "..."
+		intervals [44]:
+			xmin = 1298.6100000000001
+			xmax = 1300.23
+			text = "acredito em deus"
+		intervals [45]:
+			xmin = 1300.23
+			xmax = 1300.6000000000001
+			text = "..."
+		intervals [46]:
+			xmin = 1300.6000000000001
+			xmax = 1305.8500000000001
+			text = "e acho até impossível uma pessoa de uma inteligência"
+		intervals [47]:
+			xmin = 1305.8500000000001
+			xmax = 1306.7
+			text = "..."
+		intervals [48]:
+			xmin = 1306.7
+			xmax = 1308.43
+			text = "normal duvidar"
+		intervals [49]:
+			xmin = 1308.43
+			xmax = 1308.77
+			text = "..."
+		intervals [50]:
+			xmin = 1308.77
+			xmax = 1309.93
+			text = "de uma força superior"
+		intervals [51]:
+			xmin = 1309.93
+			xmax = 1310.6200000000001
+			text = "..."
+		intervals [52]:
+			xmin = 1310.6200000000001
+			xmax = 1316.42
+			text = "de maneira que e justamente acho isto observando observando as coisas na vida eu acho impossível"
+		intervals [53]:
+			xmin = 1316.42
+			xmax = 1317.01
+			text = "..."
+		intervals [54]:
+			xmin = 1317.01
+			xmax = 1317.8300000000002
+			text = "apesar"
+		intervals [55]:
+			xmin = 1317.8300000000002
+			xmax = 1318.18
+			text = "..."
+		intervals [56]:
+			xmin = 1318.18
+			xmax = 1322.0800000000002
+			text = "de que hoje eu tenho lido muita coisa interessante sobre isso"
+		intervals [57]:
+			xmin = 1322.0800000000002
+			xmax = 1322.8000000000002
+			text = "..."
+		intervals [58]:
+			xmin = 1322.8000000000002
+			xmax = 1325.67
+			text = "outro dia um inquérito que fizeram em londres"
+		intervals [59]:
+			xmin = 1325.67
+			xmax = 1326.26
+			text = "..."
+		intervals [60]:
+			xmin = 1326.26
+			xmax = 1332.1100000000001
+			text = "chegaram à conclusão de que só vinte e nove por cento das pessoas que foram"
+		intervals [61]:
+			xmin = 1332.1100000000001
+			xmax = 1332.63
+			text = "..."
+		intervals [62]:
+			xmin = 1332.63
+			xmax = 1333.29
+			text = "ahn"
+		intervals [63]:
+			xmin = 1333.29
+			xmax = 1333.7800000000002
+			text = "..."
+		intervals [64]:
+			xmin = 1333.7800000000002
+			xmax = 1336.8600000000001
+			text = "entrevistadas vamos dizer acreditavam em deus"
+		intervals [65]:
+			xmin = 1336.8600000000001
+			xmax = 1337.71
+			text = "..."
+		intervals [66]:
+			xmin = 1337.71
+			xmax = 1342.75
+			text = "isto foi um último questionário que foi respondi do em londres e publicado num jornal"
+		intervals [67]:
+			xmin = 1342.75
+			xmax = 1343.5800000000002
+			text = "..."
+		intervals [68]:
+			xmin = 1343.5800000000002
+			xmax = 1348.96
+			text = "e e eu achei uma coisa triste uma situação destas não é porque dizer que"
+		intervals [69]:
+			xmin = 1348.96
+			xmax = 1349.3400000000001
+			text = "..."
+		intervals [70]:
+			xmin = 1349.3400000000001
+			xmax = 1352.81
+			text = "a religiosidade porque não importa a igreja não importa"
+		intervals [71]:
+			xmin = 1352.81
+			xmax = 1353.23
+			text = "..."
+		intervals [72]:
+			xmin = 1353.23
+			xmax = 1353.8500000000001
+			text = "a"
+		intervals [73]:
+			xmin = 1353.8500000000001
+			xmax = 1354.68
+			text = "..."
+		intervals [74]:
+			xmin = 1354.68
+			xmax = 1358.4
+			text = "a religião que a pessoa esteja seguindo mas quer dizer que"
+		intervals [75]:
+			xmin = 1358.4
+			xmax = 1358.94
+			text = "..."
+		intervals [76]:
+			xmin = 1358.94
+			xmax = 1361.13
+			text = "vinte e nove por cento só"
+		intervals [77]:
+			xmin = 1361.13
+			xmax = 1362.65
+			text = "acreditarem que há deus"
+		intervals [78]:
+			xmin = 1362.65
+			xmax = 1363.0800000000002
+			text = "..."
+		intervals [79]:
+			xmin = 1363.0800000000002
+			xmax = 1364.52
+			text = "eu tenho impressão que é uma coisa"
+		intervals [80]:
+			xmin = 1364.52
+			xmax = 1365.0
+			text = "..."
+		intervals [81]:
+			xmin = 1365.0
+			xmax = 1368.88
+			text = "bem ruim que está acontecendo para a humanidade quer dizer isso não é"
+		intervals [82]:
+			xmin = 1368.88
+			xmax = 1369.31
+			text = "..."
+		intervals [83]:
+			xmin = 1369.31
+			xmax = 1371.81
+			text = "não é é um inquérito apenas em londres mas"
+		intervals [84]:
+			xmin = 1371.81
+			xmax = 1372.3600000000001
+			text = "..."
+		intervals [85]:
+			xmin = 1372.3600000000001
+			xmax = 1374.04
+			text = "já revela alguma coisa não é"
+		intervals [86]:
+			xmin = 1374.04
+			xmax = 1374.39
+			text = "..."
+		intervals [87]:
+			xmin = 1374.39
+			xmax = 1379.04
+			text = "de modo que eu posso dizer que com a graça de deus eu creio em deus né mas"
+		intervals [88]:
+			xmin = 1379.04
+			xmax = 1379.54
+			text = "..."
+		intervals [89]:
+			xmin = 1379.54
+			xmax = 1386.52
+			text = "não não quero falar do catolicismo porque eu acho que não tenho autoridade para isso porque pra isso eu precisaria"
+		intervals [90]:
+			xmin = 1386.52
+			xmax = 1386.89
+			text = "..."
+		intervals [91]:
+			xmin = 1386.89
+			xmax = 1388.79
+			text = "seguir mesmo bem não é"
+		intervals [92]:
+			xmin = 1388.79
+			xmax = 1389.24
+			text = "..."
+		intervals [93]:
+			xmin = 1389.24
+			xmax = 1390.45
+			text = "e eu não sou"
+		intervals [94]:
+			xmin = 1390.45
+			xmax = 1391.3300000000002
+			text = "..."
+		intervals [95]:
+			xmin = 1391.3300000000002
+			xmax = 1401.02
+			text = ""
+		intervals [96]:
+			xmin = 1401.02
+			xmax = 1401.3600000000001
+			text = "bom"
+		intervals [97]:
+			xmin = 1401.3600000000001
+			xmax = 1402.77
+			text = "..."
+		intervals [98]:
+			xmin = 1402.77
+			xmax = 1411.8000000000002
+			text = "segundo a religião católica é uma coisa que está estabelecido né nós temos toda uma organização o papa e todos os"
+		intervals [99]:
+			xmin = 1411.8000000000002
+			xmax = 1412.21
+			text = "..."
+		intervals [100]:
+			xmin = 1412.21
+			xmax = 1418.0300000000002
+			text = "ahn ahn missionários nas suas diferentes categorias e diferentes hierarquias não é ele seria"
+		intervals [101]:
+			xmin = 1418.0300000000002
+			xmax = 1418.45
+			text = "..."
+		intervals [102]:
+			xmin = 1418.45
+			xmax = 1419.3600000000001
+			text = "o representante"
+		intervals [103]:
+			xmin = 1419.3600000000001
+			xmax = 1419.8400000000001
+			text = "..."
+		intervals [104]:
+			xmin = 1419.8400000000001
+			xmax = 1420.0700000000002
+			text = "e"
+		intervals [105]:
+			xmin = 1420.0700000000002
+			xmax = 1420.42
+			text = "eu"
+		intervals [106]:
+			xmin = 1420.42
+			xmax = 1421.2
+			text = "..."
+		intervals [107]:
+			xmin = 1421.2
+			xmax = 1421.95
+			text = "aceito"
+		intervals [108]:
+			xmin = 1421.95
+			xmax = 1422.45
+			text = "..."
+		intervals [109]:
+			xmin = 1422.45
+			xmax = 1427.49
+			text = "que possa haver uma representação mas é justamente por isso que eu prefiro não falar"
+		intervals [110]:
+			xmin = 1427.49
+			xmax = 1427.9
+			text = "..."
+		intervals [111]:
+			xmin = 1427.9
+			xmax = 1429.1200000000001
+			text = "porque eu na o não"
+		intervals [112]:
+			xmin = 1429.1200000000001
+			xmax = 1429.6100000000001
+			text = "..."
+		intervals [113]:
+			xmin = 1429.6100000000001
+			xmax = 1430.71
+			text = "estou assim"
+		intervals [114]:
+			xmin = 1430.71
+			xmax = 1431.2800000000002
+			text = "..."
+		intervals [115]:
+			xmin = 1431.2800000000002
+			xmax = 1431.8700000000001
+			text = "tão"
+		intervals [116]:
+			xmin = 1431.8700000000001
+			xmax = 1432.5500000000002
+			text = "..."
+		intervals [117]:
+			xmin = 1432.5500000000002
+			xmax = 1434.23
+			text = "ahn integrada"
+		intervals [118]:
+			xmin = 1434.23
+			xmax = 1434.74
+			text = "..."
+		intervals [119]:
+			xmin = 1434.74
+			xmax = 1437.0800000000002
+			text = "entende nesta representação não é"
+		intervals [120]:
+			xmin = 1437.0800000000002
+			xmax = 1437.5700000000002
+			text = "..."
+		intervals [121]:
+			xmin = 1437.5700000000002
+			xmax = 1439.92
+			text = "especialmente atualmente que eu acho que"
+		intervals [122]:
+			xmin = 1439.92
+			xmax = 1440.25
+			text = "..."
+		intervals [123]:
+			xmin = 1440.25
+			xmax = 1441.63
+			text = "os representantes"
+		intervals [124]:
+			xmin = 1441.63
+			xmax = 1441.95
+			text = "..."
+		intervals [125]:
+			xmin = 1441.95
+			xmax = 1443.5800000000002
+			text = "têm falhado muito"
+		intervals [126]:
+			xmin = 1443.5800000000002
+			xmax = 1444.23
+			text = "..."
+		intervals [127]:
+			xmin = 1444.23
+			xmax = 1450.39
+			text = "de acordo com meu desejo quer dizer eles não estão sendo como eu desejaria que eles fossem agora quem sabe se a errada sou eu né não"
+		intervals [128]:
+			xmin = 1450.39
+			xmax = 1450.76
+			text = "..."
+		intervals [129]:
+			xmin = 1450.76
+			xmax = 1454.02
+			text = "imagino que não quero por isso que eu não quero di"
+		intervals [130]:
+			xmin = 1454.02
+			xmax = 1454.3300000000002
+			text = "..."
+		intervals [131]:
+			xmin = 1454.3300000000002
+			xmax = 1455.7800000000002
+			text = "atacar quer dizer eu"
+		intervals [132]:
+			xmin = 1455.7800000000002
+			xmax = 1456.1000000000001
+			text = "..."
+		intervals [133]:
+			xmin = 1456.1000000000001
+			xmax = 1459.14
+			text = "tenho me decepcionado com certas condutas"
+		intervals [134]:
+			xmin = 1459.14
+			xmax = 1459.77
+			text = "..."
+		intervals [135]:
+			xmin = 1459.77
+			xmax = 1465.66
+			text = "e mas naturalmente é o modo de sentir meu agora eu me sinto plenamente satisfeita"
+		intervals [136]:
+			xmin = 1465.66
+			xmax = 1466.22
+			text = "..."
+		intervals [137]:
+			xmin = 1466.22
+			xmax = 1467.89
+			text = "com a minha crença"
+		intervals [138]:
+			xmin = 1467.89
+			xmax = 1468.25
+			text = "..."
+		intervals [139]:
+			xmin = 1468.25
+			xmax = 1473.17
+			text = "eu não estou precisando me apoiar em outras autoridades religiosas"
+		intervals [140]:
+			xmin = 1473.17
+			xmax = 1473.6100000000001
+			text = "..."
+		intervals [141]:
+			xmin = 1473.6100000000001
+			xmax = 1475.3500000000001
+			text = "pra me sentir consolada"
+		intervals [142]:
+			xmin = 1475.3500000000001
+			xmax = 1475.7800000000002
+			text = "..."
+		intervals [143]:
+			xmin = 1475.7800000000002
+			xmax = 1476.3600000000001
+			text = "tenho"
+		intervals [144]:
+			xmin = 1476.3600000000001
+			xmax = 1477.04
+			text = "..."
+		intervals [145]:
+			xmin = 1477.04
+			xmax = 1483.77
+			text = "ahn atravessado naturalmente dificuldades como todos na vida atravessam né ora uma coisa ora outra"
+		intervals [146]:
+			xmin = 1483.77
+			xmax = 1484.21
+			text = "..."
+		intervals [147]:
+			xmin = 1484.21
+			xmax = 1487.39
+			text = "e tenho conseguido enfrentar muito bem quer diz er graças ao"
+		intervals [148]:
+			xmin = 1487.39
+			xmax = 1490.5300000000002
+			text = "meu modo de pensar então eu prefiro continuar com ele"
+		intervals [149]:
+			xmin = 1490.5300000000002
+			xmax = 1490.88
+			text = "..."
+		intervals [150]:
+			xmin = 1490.88
+			xmax = 1492.39
+			text = "e não preciso me ligar"
+		intervals [151]:
+			xmin = 1492.39
+			xmax = 1492.74
+			text = "..."
+		intervals [152]:
+			xmin = 1492.74
+			xmax = 1501.26
+			text = ""
+		intervals [153]:
+			xmin = 1501.26
+			xmax = 1504.3700000000001
+			text = "conheço até bastante por exemplo o protestantismo"
+		intervals [154]:
+			xmin = 1504.3700000000001
+			xmax = 1504.93
+			text = "..."
+		intervals [155]:
+			xmin = 1504.93
+			xmax = 1507.3500000000001
+			text = "ahn eu conheço bastante não só"
+		intervals [156]:
+			xmin = 1507.3500000000001
+			xmax = 1507.93
+			text = "..."
+		intervals [157]:
+			xmin = 1507.93
+			xmax = 1509.8200000000002
+			text = "a respeito do presbiterianismo"
+		intervals [158]:
+			xmin = 1509.8200000000002
+			xmax = 1510.25
+			text = "..."
+		intervals [159]:
+			xmin = 1510.25
+			xmax = 1510.7800000000002
+			text = "como"
+		intervals [160]:
+			xmin = 1510.7800000000002
+			xmax = 1511.5700000000002
+			text = "..."
+		intervals [161]:
+			xmin = 1511.5700000000002
+			xmax = 1513.0300000000002
+			text = "dos metodistas"
+		intervals [162]:
+			xmin = 1513.0300000000002
+			xmax = 1513.38
+			text = "..."
+		intervals [163]:
+			xmin = 1513.38
+			xmax = 1514.5700000000002
+			text = "dos batistas"
+		intervals [164]:
+			xmin = 1514.5700000000002
+			xmax = 1514.89
+			text = "..."
+		intervals [165]:
+			xmin = 1514.89
+			xmax = 1517.5700000000002
+			text = "porque eu tenho grandes amigos nessas"
+		intervals [166]:
+			xmin = 1517.5700000000002
+			xmax = 1518.04
+			text = "..."
+		intervals [167]:
+			xmin = 1518.04
+			xmax = 1520.2800000000002
+			text = "religiões e tenho observado"
+		intervals [168]:
+			xmin = 1520.2800000000002
+			xmax = 1521.0
+			text = "..."
+		intervals [169]:
+			xmin = 1521.0
+			xmax = 1521.1000000000001
+			text = "ahn"
+		intervals [170]:
+			xmin = 1521.1000000000001
+			xmax = 1523.96
+			text = "muito não só maneira de pensar"
+		intervals [171]:
+			xmin = 1523.96
+			xmax = 1524.3500000000001
+			text = "..."
+		intervals [172]:
+			xmin = 1524.3500000000001
+			xmax = 1526.51
+			text = "como a interpretação que eles dão não é"
+		intervals [173]:
+			xmin = 1526.51
+			xmax = 1527.98
+			text = "..."
+		intervals [174]:
+			xmin = 1527.98
+			xmax = 1529.13
+			text = "e"
+		intervals [175]:
+			xmin = 1529.13
+			xmax = 1530.04
+			text = "..."
+		intervals [176]:
+			xmin = 1530.04
+			xmax = 1535.69
+			text = "se eu fosse me ligar a uma igreja integralmente eu continuaria na igreja católica"
+		intervals [177]:
+			xmin = 1535.69
+			xmax = 1537.01
+			text = "..."
+		intervals [178]:
+			xmin = 1537.01
+			xmax = 1537.49
+			text = "não"
+		intervals [179]:
+			xmin = 1537.49
+			xmax = 1540.0700000000002
+			text = "porque eu ache que seja melhor do que essas outras"
+		intervals [180]:
+			xmin = 1540.0700000000002
+			xmax = 1540.5700000000002
+			text = "..."
+		intervals [181]:
+			xmin = 1540.5700000000002
+			xmax = 1541.15
+			text = "mas porque eu"
+		intervals [182]:
+			xmin = 1541.15
+			xmax = 1553.75
+			text = "não vi que nenhuma fosse melhor do que a outra então eu ficaria na que eu nasci não é mas eu conheço bem o protestantismo dessas dessas grupos presbiteriano metodista e"
+		intervals [183]:
+			xmin = 1553.75
+			xmax = 1554.41
+			text = "..."
+		intervals [184]:
+			xmin = 1554.41
+			xmax = 1554.96
+			text = "batista"
+		intervals [185]:
+			xmin = 1554.96
+			xmax = 1555.9
+			text = "..."
+		intervals [186]:
+			xmin = 1555.9
+			xmax = 1557.02
+			text = "ah conheço"
+		intervals [187]:
+			xmin = 1557.02
+			xmax = 1557.3400000000001
+			text = "..."
+		intervals [188]:
+			xmin = 1557.3400000000001
+			xmax = 1564.0900000000001
+			text = "mais ou menos bem a igreja ortodoxa porque ela é muito parecida com a nossa não é a ortodoxa russa por exemplo que eu"
+		intervals [189]:
+			xmin = 1564.0900000000001
+			xmax = 1564.44
+			text = "..."
+		intervals [190]:
+			xmin = 1564.44
+			xmax = 1567.7
+			text = "tenho bastante convivência tenho até afilhados na ortodoxa russa"
+		intervals [191]:
+			xmin = 1567.7
+			xmax = 1568.06
+			text = "..."
+		intervals [192]:
+			xmin = 1568.06
+			xmax = 1569.8300000000002
+			text = ""
+		intervals [193]:
+			xmin = 1569.8300000000002
+			xmax = 1571.01
+			text = "na nas suas"
+		intervals [194]:
+			xmin = 1571.01
+			xmax = 1571.56
+			text = "..."
+		intervals [195]:
+			xmin = 1571.56
+			xmax = 1571.8500000000001
+			text = "ahn não"
+		intervals [196]:
+			xmin = 1571.8500000000001
+			xmax = 1572.19
+			text = "só"
+		intervals [197]:
+			xmin = 1572.19
+			xmax = 1574.0300000000002
+			text = "nas interpretações"
+		intervals [198]:
+			xmin = 1574.0300000000002
+			xmax = 1574.69
+			text = "..."
+		intervals [199]:
+			xmin = 1574.69
+			xmax = 1584.5900000000001
+			text = "como nas ahn manifestações que eles fazem nos trabalhos religiosos é muito semelhante à igreja ortodoxa russa que é a que eu tenho mais"
+		intervals [200]:
+			xmin = 1584.5900000000001
+			xmax = 1584.99
+			text = "..."
+		intervals [201]:
+			xmin = 1584.99
+			xmax = 1586.77
+			text = "ahn convivência não é"
+		intervals [202]:
+			xmin = 1586.77
+			xmax = 1588.39
+			text = "..."
+		intervals [203]:
+			xmin = 1588.39
+			xmax = 1595.0800000000002
+			text = "são essas as religiões tenho também o não não eu não considero o espiritismo propriamente uma religião"
+		intervals [204]:
+			xmin = 1595.0800000000002
+			xmax = 1595.56
+			text = "..."
+		intervals [205]:
+			xmin = 1595.56
+			xmax = 1599.98
+			text = "mas tenho muitos amigos espíritas e que têm até procurado"
+		intervals [206]:
+			xmin = 1599.98
+			xmax = 1600.5700000000002
+			text = "..."
+		intervals [207]:
+			xmin = 1600.5700000000002
+			xmax = 1602.93
+			text = "me convencer de certas coisas"
+		intervals [208]:
+			xmin = 1602.93
+			xmax = 1603.8300000000002
+			text = "..."
+		intervals [209]:
+			xmin = 1603.8300000000002
+			xmax = 1608.3500000000001
+			text = "e eu também não não nego mas nunca me interessei"
+		intervals [210]:
+			xmin = 1608.3500000000001
+			xmax = 1608.88
+			text = "..."
+		intervals [211]:
+			xmin = 1608.88
+			xmax = 1611.04
+			text = "em me aprofundar mais nesse campo"
+		intervals [212]:
+			xmin = 1611.04
+			xmax = 1611.5500000000002
+			text = "..."
+		intervals [213]:
+			xmin = 1611.5500000000002
+			xmax = 1616.75
+			text = ""
+		intervals [214]:
+			xmin = 1616.75
+			xmax = 1618.0700000000002
+			text = "não religião não"
+		intervals [215]:
+			xmin = 1618.0700000000002
+			xmax = 1618.6000000000001
+			text = "..."
+		intervals [216]:
+			xmin = 1618.6000000000001
+			xmax = 1620.92
+			text = "mas não consideraria propriamente religião"
+		intervals [217]:
+			xmin = 1620.92
+			xmax = 1621.2800000000002
+			text = "..."
+		intervals [218]:
+			xmin = 1621.2800000000002
+			xmax = 1622.64
+			text = "mas indiscutivelmente"
+		intervals [219]:
+			xmin = 1622.64
+			xmax = 1623.1200000000001
+			text = "..."
+		intervals [220]:
+			xmin = 1623.1200000000001
+			xmax = 1628.95
+			text = "também depende do que nós chamamos de religião porque é indiscutivelmente uma demonstração de fé não é"
+		intervals [221]:
+			xmin = 1628.95
+			xmax = 1629.3500000000001
+			text = "..."
+		intervals [222]:
+			xmin = 1629.3500000000001
+			xmax = 1631.5500000000002
+			text = "mas sempre que se fala em religião a gente"
+		intervals [223]:
+			xmin = 1631.5500000000002
+			xmax = 1631.89
+			text = "..."
+		intervals [224]:
+			xmin = 1631.89
+			xmax = 1634.0300000000002
+			text = "pensa numa coisa mais organizada"
+		intervals [225]:
+			xmin = 1634.0300000000002
+			xmax = 1634.5300000000002
+			text = "..."
+		intervals [226]:
+			xmin = 1634.5300000000002
+			xmax = 1635.46
+			text = "mas"
+		intervals [227]:
+			xmin = 1635.46
+			xmax = 1636.0
+			text = "..."
+		intervals [228]:
+			xmin = 1636.0
+			xmax = 1640.38
+			text = "ahn eu quer dizer que é uma demonstração de fé e uma demonstração de fé"
+		intervals [229]:
+			xmin = 1640.38
+			xmax = 1640.8700000000001
+			text = "..."
+		intervals [230]:
+			xmin = 1640.8700000000001
+			xmax = 1646.75
+			text = "bastante forte que está aumentando assustadoramente eu tive até a oportunidade de presenciar"
+		intervals [231]:
+			xmin = 1646.75
+			xmax = 1647.22
+			text = "..."
+		intervals [232]:
+			xmin = 1647.22
+			xmax = 1650.91
+			text = "como está extraordinário uma vez que eu estava em itanhaém"
+		intervals [233]:
+			xmin = 1650.91
+			xmax = 1651.77
+			text = "..."
+		intervals [234]:
+			xmin = 1651.77
+			xmax = 1653.3700000000001
+			text = "no dia oito de dezembro"
+		intervals [235]:
+			xmin = 1653.3700000000001
+			xmax = 1653.7800000000002
+			text = "..."
+		intervals [236]:
+			xmin = 1653.7800000000002
+			xmax = 1656.01
+			text = "e chegaram os umbandistas"
+		intervals [237]:
+			xmin = 1656.01
+			xmax = 1656.8400000000001
+			text = "..."
+		intervals [238]:
+			xmin = 1656.8400000000001
+			xmax = 1659.4
+			text = "foi uma coisa que me impressionou"
+		intervals [239]:
+			xmin = 1659.4
+			xmax = 1659.94
+			text = "..."
+		intervals [240]:
+			xmin = 1659.94
+			xmax = 1662.3200000000002
+			text = "a quantidade de pessoas"
+		intervals [241]:
+			xmin = 1662.3200000000002
+			xmax = 1662.7800000000002
+			text = "..."
+		intervals [242]:
+			xmin = 1662.7800000000002
+			xmax = 1664.8200000000002
+			text = "a praia ficou lotada"
+		intervals [243]:
+			xmin = 1664.8200000000002
+			xmax = 1665.13
+			text = "..."
+		intervals [244]:
+			xmin = 1665.13
+			xmax = 1669.29
+			text = "aquela praia grande que é enorme pois já se chama praia grande né"
+		intervals [245]:
+			xmin = 1669.29
+			xmax = 1669.8500000000001
+			text = "..."
+		intervals [246]:
+			xmin = 1669.8500000000001
+			xmax = 1675.56
+			text = "foi uma coisa fantástica o número de ônibus eu até senti não ter contado"
+		intervals [247]:
+			xmin = 1675.56
+			xmax = 1675.98
+			text = "..."
+		intervals [248]:
+			xmin = 1675.98
+			xmax = 1679.38
+			text = "o número de ônibus que passou pela nossa casa pra se dirigir às praias"
+		intervals [249]:
+			xmin = 1679.38
+			xmax = 1679.69
+			text = "..."
+		intervals [250]:
+			xmin = 1679.69
+			xmax = 1680.8000000000002
+			text = "foi uma coisa"
+		intervals [251]:
+			xmin = 1680.8000000000002
+			xmax = 1681.3000000000002
+			text = "..."
+		intervals [252]:
+			xmin = 1681.3000000000002
+			xmax = 1683.4
+			text = "acima do que podia imaginar e"
+		intervals [253]:
+			xmin = 1683.4
+			xmax = 1683.95
+			text = "..."
+		intervals [254]:
+			xmin = 1683.95
+			xmax = 1686.3200000000002
+			text = "isto quer dizer que é uma demonstração de fé"
+		intervals [255]:
+			xmin = 1686.3200000000002
+			xmax = 1686.7800000000002
+			text = "..."
+		intervals [256]:
+			xmin = 1686.7800000000002
+			xmax = 1688.18
+			text = "e eu penso que"
+		intervals [257]:
+			xmin = 1688.18
+			xmax = 1688.96
+			text = "..."
+		intervals [258]:
+			xmin = 1688.96
+			xmax = 1693.91
+			text = "não não sei s bem como eu digo precisaria definir bem religião pra eu poder dizer se"
+		intervals [259]:
+			xmin = 1693.91
+			xmax = 1694.7
+			text = "..."
+		intervals [260]:
+			xmin = 1694.7
+			xmax = 1695.22
+			text = "é"
+		intervals [261]:
+			xmin = 1695.22
+			xmax = 1696.15
+			text = "ou não é não é"
+		intervals [262]:
+			xmin = 1696.15
+			xmax = 1696.5
+			text = "..."
+		intervals [263]:
+			xmin = 1696.5
+			xmax = 1698.88
+			text = "o que é é uma demonstração de fé indiscutível"
+		intervals [264]:
+			xmin = 1698.88
+			xmax = 1699.71
+			text = "..."
+		intervals [265]:
+			xmin = 1699.71
+			xmax = 1715.1100000000001
+			text = ""
+		intervals [266]:
+			xmin = 1715.1100000000001
+			xmax = 1722.0500000000002
+			text = "bem naturalmente que tem porque os foi organizado de acordo com esses princípios começa"
+		intervals [267]:
+			xmin = 1722.0500000000002
+			xmax = 1722.38
+			text = "..."
+		intervals [268]:
+			xmin = 1722.38
+			xmax = 1724.72
+			text = "pelo digamos o natal não é"
+		intervals [269]:
+			xmin = 1724.72
+			xmax = 1725.08
+			text = "..."
+		intervals [270]:
+			xmin = 1725.08
+			xmax = 1726.1100000000001
+			text = "que é a semana"
+		intervals [271]:
+			xmin = 1726.1100000000001
+			xmax = 1726.8200000000002
+			text = "santa"
+		intervals [272]:
+			xmin = 1726.8200000000002
+			xmax = 1727.2400000000002
+			text = "..."
+		intervals [273]:
+			xmin = 1727.2400000000002
+			xmax = 1731.25
+			text = "o carnaval quer dizer essas datas todas estão mascadas de acordo"
+		intervals [274]:
+			xmin = 1731.25
+			xmax = 1731.75
+			text = "..."
+		intervals [275]:
+			xmin = 1731.75
+			xmax = 1734.0700000000002
+			text = "com isso tanto que são em o a"
+		intervals [276]:
+			xmin = 1734.0700000000002
+			xmax = 1735.02
+			text = "..."
+		intervals [277]:
+			xmin = 1735.02
+			xmax = 1738.41
+			text = "o natal é uma data fixa mas as outras são móveis não é"
+		intervals [278]:
+			xmin = 1738.41
+			xmax = 1738.83
+			text = "..."
+		intervals [279]:
+			xmin = 1738.83
+			xmax = 1742.19
+			text = "e baseadas naquelas fatos religiosos isso"
+		intervals [280]:
+			xmin = 1742.19
+			xmax = 1742.4900000000002
+			text = "..."
+		intervals [281]:
+			xmin = 1742.4900000000002
+			xmax = 1743.1200000000001
+			text = "é mas"
+		intervals [282]:
+			xmin = 1743.1200000000001
+			xmax = 1743.85
+			text = "..."
+		intervals [283]:
+			xmin = 1743.85
+			xmax = 1747.8600000000001
+			text = "uhn em termos não é quer dizer que essa base existiu mesmo"
+		intervals [284]:
+			xmin = 1747.8600000000001
+			xmax = 1749.16
+			text = "..."
+		intervals [285]:
+			xmin = 1749.16
+			xmax = 1751.79
+			text = "e e assinalam as datas"
+		intervals [286]:
+			xmin = 1751.79
+			xmax = 1752.1100000000001
+			text = "..."
+		intervals [287]:
+			xmin = 1752.1100000000001
+			xmax = 1755.2800000000002
+			text = "todas da religião católica são marcadas não é"
+		intervals [288]:
+			xmin = 1755.2800000000002
+			xmax = 1755.6200000000001
+			text = "..."
+		intervals [289]:
+			xmin = 1755.6200000000001
+			xmax = 1760.42
+			text = "até há pouco tempo eram muito respeitadas nós tínhamos muitos feriados católicos"
+		intervals [290]:
+			xmin = 1760.42
+			xmax = 1760.77
+			text = "..."
+		intervals [291]:
+			xmin = 1760.77
+			xmax = 1762.3700000000001
+			text = "hoje é que eles diminuíram"
+		intervals [292]:
+			xmin = 1762.3700000000001
+			xmax = 1763.1
+			text = "..."
+		intervals [293]:
+			xmin = 1763.1
+			xmax = 1764.6100000000001
+			text = "algumas ahn"
+		intervals [294]:
+			xmin = 1764.6100000000001
+			xmax = 1765.3000000000002
+			text = "..."
+		intervals [295]:
+			xmin = 1765.3000000000002
+			xmax = 1769.63
+			text = "ahn como é que se diz algumas comemorações oficialmente"
+		intervals [296]:
+			xmin = 1769.63
+			xmax = 1770.2
+			text = "..."
+		intervals [297]:
+			xmin = 1770.2
+			xmax = 1772.93
+			text = "mas naturalmente que houve essa base mesmo"
+		intervals [298]:
+			xmin = 1772.93
+			xmax = 1774.15
+			text = "..."
+		intervals [299]:
+			xmin = 1774.15
+			xmax = 1790.27
+			text = ""
+		intervals [300]:
+			xmin = 1790.27
+			xmax = 1794.83
+			text = "essa pergunta eu não posso responder porque eu nunca me preocupei de observar não é"
+		intervals [301]:
+			xmin = 1794.83
+			xmax = 1795.3700000000001
+			text = "..."
+		intervals [302]:
+			xmin = 1795.3700000000001
+			xmax = 1797.5100000000002
+			text = "eu o o que eu observei"
+		intervals [303]:
+			xmin = 1797.5100000000002
+			xmax = 1797.97
+			text = "..."
+		intervals [304]:
+			xmin = 1797.97
+			xmax = 1800.7400000000002
+			text = ""
+	item [4]:
+		class = "IntervalTier"
+		name = "NTB-l1"
+		xmin = 0.0
+		xmax = 1800.7400000000002
+		intervals: size = 304
+		intervals [1]:
+			xmin = 0.0
+			xmax = 1206.16
+			text = ""
+		intervals [2]:
+			xmin = 1206.16
+			xmax = 1212.98
+			text = "e hoje quando eu vejo o ecumenismo aqui entre as igrejas eu vejo que nós fomos precursores disso num é porque"
+		intervals [3]:
+			xmin = 1212.98
+			xmax = 1213.3400000000001
+			text = "..."
+		intervals [4]:
+			xmin = 1213.3400000000001
+			xmax = 1214.91
+			text = "lá cada um continuou com a sua"
+		intervals [5]:
+			xmin = 1214.91
+			xmax = 1215.49
+			text = "religião"
+		intervals [6]:
+			xmin = 1215.49
+			xmax = 1215.88
+			text = "..."
+		intervals [7]:
+			xmin = 1215.88
+			xmax = 1221.74
+			text = "e ouvia aquele trecho da bíblia que não iria converter ninguém nem conseguiria converter com aquela leiturazinha"
+		intervals [8]:
+			xmin = 1221.74
+			xmax = 1222.1100000000001
+			text = "..."
+		intervals [9]:
+			xmin = 1222.1100000000001
+			xmax = 1222.8500000000001
+			text = "diária né"
+		intervals [10]:
+			xmin = 1222.8500000000001
+			xmax = 1223.6000000000001
+			text = "..."
+		intervals [11]:
+			xmin = 1223.6000000000001
+			xmax = 1226.65
+			text = "e e a leitura era da bíblia de modo que não havia"
+		intervals [12]:
+			xmin = 1226.65
+			xmax = 1227.0500000000002
+			text = "..."
+		intervals [13]:
+			xmin = 1227.0500000000002
+			xmax = 1231.3600000000001
+			text = "pregação nenhuma nem contra essa igreja nem a favor daquela quer dizer a apenas"
+		intervals [14]:
+			xmin = 1231.3600000000001
+			xmax = 1231.71
+			text = "..."
+		intervals [15]:
+			xmin = 1231.71
+			xmax = 1234.42
+			text = "lia um um pequeno trecho da bíblia pequeno"
+		intervals [16]:
+			xmin = 1234.42
+			xmax = 1234.75
+			text = "..."
+		intervals [17]:
+			xmin = 1234.75
+			xmax = 1235.88
+			text = "e havia uma explicação"
+		intervals [18]:
+			xmin = 1235.88
+			xmax = 1238.3700000000001
+			text = "o o culto não durava mais do que sete"
+		intervals [19]:
+			xmin = 1238.3700000000001
+			xmax = 1239.13
+			text = "ou oito minutos"
+		intervals [20]:
+			xmin = 1239.13
+			xmax = 1240.67
+			text = "..."
+		intervals [21]:
+			xmin = 1240.67
+			xmax = 1251.88
+			text = ""
+		intervals [22]:
+			xmin = 1251.88
+			xmax = 1259.3100000000002
+			text = "bom eu disse que eu sou católica porque eu nasci de uma família católica e quando me perguntam qual é a minha religião"
+		intervals [23]:
+			xmin = 1259.3100000000002
+			xmax = 1259.78
+			text = "..."
+		intervals [24]:
+			xmin = 1259.78
+			xmax = 1261.68
+			text = "eu digo que é a católica porque é"
+		intervals [25]:
+			xmin = 1261.68
+			xmax = 1262.3100000000002
+			text = "..."
+		intervals [26]:
+			xmin = 1262.3100000000002
+			xmax = 1263.21
+			text = "ah"
+		intervals [27]:
+			xmin = 1263.21
+			xmax = 1263.8200000000002
+			text = "..."
+		intervals [28]:
+			xmin = 1263.8200000000002
+			xmax = 1264.41
+			text = "eu estou"
+		intervals [29]:
+			xmin = 1264.41
+			xmax = 1265.0700000000002
+			text = "..."
+		intervals [30]:
+			xmin = 1265.0700000000002
+			xmax = 1271.92
+			text = "vivendo dentro de uma organização católica fui batizada e e me considero católica mas"
+		intervals [31]:
+			xmin = 1271.92
+			xmax = 1272.5600000000002
+			text = "..."
+		intervals [32]:
+			xmin = 1272.5600000000002
+			xmax = 1275.26
+			text = "eu não não faço comentário"
+		intervals [33]:
+			xmin = 1275.26
+			xmax = 1275.72
+			text = "..."
+		intervals [34]:
+			xmin = 1275.72
+			xmax = 1281.01
+			text = "porque como católica propriamente dito eu sou uma má católica porque eu não"
+		intervals [35]:
+			xmin = 1281.01
+			xmax = 1281.4
+			text = "..."
+		intervals [36]:
+			xmin = 1281.4
+			xmax = 1284.93
+			text = "frequento assim a igreja com regularidade"
+		intervals [37]:
+			xmin = 1284.93
+			xmax = 1285.3600000000001
+			text = "..."
+		intervals [38]:
+			xmin = 1285.3600000000001
+			xmax = 1291.99
+			text = "não estou muito presa aos princípios todos da igreja católica não é sou bastante independente"
+		intervals [39]:
+			xmin = 1291.99
+			xmax = 1292.44
+			text = "..."
+		intervals [40]:
+			xmin = 1292.44
+			xmax = 1293.52
+			text = "em matéria de religião"
+		intervals [41]:
+			xmin = 1293.52
+			xmax = 1294.0600000000002
+			text = "..."
+		intervals [42]:
+			xmin = 1294.0600000000002
+			xmax = 1297.76
+			text = "embora eu seja uma pessoa de muita crença eu tenho fé"
+		intervals [43]:
+			xmin = 1297.76
+			xmax = 1298.6100000000001
+			text = "..."
+		intervals [44]:
+			xmin = 1298.6100000000001
+			xmax = 1300.23
+			text = "acredito em deus"
+		intervals [45]:
+			xmin = 1300.23
+			xmax = 1300.6000000000001
+			text = "..."
+		intervals [46]:
+			xmin = 1300.6000000000001
+			xmax = 1305.8500000000001
+			text = "e acho até impossível uma pessoa de uma inteligência"
+		intervals [47]:
+			xmin = 1305.8500000000001
+			xmax = 1306.7
+			text = "..."
+		intervals [48]:
+			xmin = 1306.7
+			xmax = 1308.43
+			text = "normal duvidar"
+		intervals [49]:
+			xmin = 1308.43
+			xmax = 1308.77
+			text = "..."
+		intervals [50]:
+			xmin = 1308.77
+			xmax = 1309.93
+			text = "de uma força superior"
+		intervals [51]:
+			xmin = 1309.93
+			xmax = 1310.6200000000001
+			text = "..."
+		intervals [52]:
+			xmin = 1310.6200000000001
+			xmax = 1316.42
+			text = "de maneira que e justamente acho isto observando observando as coisas na vida eu acho impossível"
+		intervals [53]:
+			xmin = 1316.42
+			xmax = 1317.01
+			text = "..."
+		intervals [54]:
+			xmin = 1317.01
+			xmax = 1317.8300000000002
+			text = "apesar"
+		intervals [55]:
+			xmin = 1317.8300000000002
+			xmax = 1318.18
+			text = "..."
+		intervals [56]:
+			xmin = 1318.18
+			xmax = 1322.0800000000002
+			text = "de que hoje eu tenho lido muita coisa interessante sobre isso"
+		intervals [57]:
+			xmin = 1322.0800000000002
+			xmax = 1322.8000000000002
+			text = "..."
+		intervals [58]:
+			xmin = 1322.8000000000002
+			xmax = 1325.67
+			text = "outro dia um inquérito que fizeram em londres"
+		intervals [59]:
+			xmin = 1325.67
+			xmax = 1326.26
+			text = "..."
+		intervals [60]:
+			xmin = 1326.26
+			xmax = 1332.1100000000001
+			text = "chegaram à conclusão de que só vinte e nove por cento das pessoas que foram"
+		intervals [61]:
+			xmin = 1332.1100000000001
+			xmax = 1332.63
+			text = "..."
+		intervals [62]:
+			xmin = 1332.63
+			xmax = 1333.29
+			text = "ahn"
+		intervals [63]:
+			xmin = 1333.29
+			xmax = 1333.7800000000002
+			text = "..."
+		intervals [64]:
+			xmin = 1333.7800000000002
+			xmax = 1336.8600000000001
+			text = "entrevistadas vamos dizer acreditavam em deus"
+		intervals [65]:
+			xmin = 1336.8600000000001
+			xmax = 1337.71
+			text = "..."
+		intervals [66]:
+			xmin = 1337.71
+			xmax = 1342.75
+			text = "isto foi um último questionário que foi respondi do em londres e publicado num jornal"
+		intervals [67]:
+			xmin = 1342.75
+			xmax = 1343.5800000000002
+			text = "..."
+		intervals [68]:
+			xmin = 1343.5800000000002
+			xmax = 1348.96
+			text = "e e eu achei uma coisa triste uma situação destas não é porque dizer que"
+		intervals [69]:
+			xmin = 1348.96
+			xmax = 1349.3400000000001
+			text = "..."
+		intervals [70]:
+			xmin = 1349.3400000000001
+			xmax = 1352.81
+			text = "a religiosidade porque não importa a igreja não importa"
+		intervals [71]:
+			xmin = 1352.81
+			xmax = 1353.23
+			text = "..."
+		intervals [72]:
+			xmin = 1353.23
+			xmax = 1353.8500000000001
+			text = "a"
+		intervals [73]:
+			xmin = 1353.8500000000001
+			xmax = 1354.68
+			text = "..."
+		intervals [74]:
+			xmin = 1354.68
+			xmax = 1358.4
+			text = "a religião que a pessoa esteja seguindo mas quer dizer que"
+		intervals [75]:
+			xmin = 1358.4
+			xmax = 1358.94
+			text = "..."
+		intervals [76]:
+			xmin = 1358.94
+			xmax = 1361.13
+			text = "vinte e nove por cento só"
+		intervals [77]:
+			xmin = 1361.13
+			xmax = 1362.65
+			text = "acreditarem que há deus"
+		intervals [78]:
+			xmin = 1362.65
+			xmax = 1363.0800000000002
+			text = "..."
+		intervals [79]:
+			xmin = 1363.0800000000002
+			xmax = 1364.52
+			text = "eu tenho impressão que é uma coisa"
+		intervals [80]:
+			xmin = 1364.52
+			xmax = 1365.0
+			text = "..."
+		intervals [81]:
+			xmin = 1365.0
+			xmax = 1368.88
+			text = "bem ruim que está acontecendo para a humanidade quer dizer isso não é"
+		intervals [82]:
+			xmin = 1368.88
+			xmax = 1369.31
+			text = "..."
+		intervals [83]:
+			xmin = 1369.31
+			xmax = 1371.81
+			text = "não é é um inquérito apenas em londres mas"
+		intervals [84]:
+			xmin = 1371.81
+			xmax = 1372.3600000000001
+			text = "..."
+		intervals [85]:
+			xmin = 1372.3600000000001
+			xmax = 1374.04
+			text = "já revela alguma coisa não é"
+		intervals [86]:
+			xmin = 1374.04
+			xmax = 1374.39
+			text = "..."
+		intervals [87]:
+			xmin = 1374.39
+			xmax = 1379.04
+			text = "de modo que eu posso dizer que com a graça de deus eu creio em deus né mas"
+		intervals [88]:
+			xmin = 1379.04
+			xmax = 1379.54
+			text = "..."
+		intervals [89]:
+			xmin = 1379.54
+			xmax = 1386.52
+			text = "não não quero falar do catolicismo porque eu acho que não tenho autoridade para isso porque pra isso eu precisaria"
+		intervals [90]:
+			xmin = 1386.52
+			xmax = 1386.89
+			text = "..."
+		intervals [91]:
+			xmin = 1386.89
+			xmax = 1388.79
+			text = "seguir mesmo bem não é"
+		intervals [92]:
+			xmin = 1388.79
+			xmax = 1389.24
+			text = "..."
+		intervals [93]:
+			xmin = 1389.24
+			xmax = 1390.45
+			text = "e eu não sou"
+		intervals [94]:
+			xmin = 1390.45
+			xmax = 1391.3300000000002
+			text = "..."
+		intervals [95]:
+			xmin = 1391.3300000000002
+			xmax = 1401.02
+			text = ""
+		intervals [96]:
+			xmin = 1401.02
+			xmax = 1401.3600000000001
+			text = "bom"
+		intervals [97]:
+			xmin = 1401.3600000000001
+			xmax = 1402.77
+			text = "..."
+		intervals [98]:
+			xmin = 1402.77
+			xmax = 1411.8000000000002
+			text = "segundo a religião católica é uma coisa que está estabelecido né nós temos toda uma organização o papa e todos os"
+		intervals [99]:
+			xmin = 1411.8000000000002
+			xmax = 1412.21
+			text = "..."
+		intervals [100]:
+			xmin = 1412.21
+			xmax = 1418.0300000000002
+			text = "ahn ahn missionários nas suas diferentes categorias e diferentes hierarquias não é ele seria"
+		intervals [101]:
+			xmin = 1418.0300000000002
+			xmax = 1418.45
+			text = "..."
+		intervals [102]:
+			xmin = 1418.45
+			xmax = 1419.3600000000001
+			text = "o representante"
+		intervals [103]:
+			xmin = 1419.3600000000001
+			xmax = 1419.8400000000001
+			text = "..."
+		intervals [104]:
+			xmin = 1419.8400000000001
+			xmax = 1420.0700000000002
+			text = "e"
+		intervals [105]:
+			xmin = 1420.0700000000002
+			xmax = 1420.42
+			text = "eu"
+		intervals [106]:
+			xmin = 1420.42
+			xmax = 1421.2
+			text = "..."
+		intervals [107]:
+			xmin = 1421.2
+			xmax = 1421.95
+			text = "aceito"
+		intervals [108]:
+			xmin = 1421.95
+			xmax = 1422.45
+			text = "..."
+		intervals [109]:
+			xmin = 1422.45
+			xmax = 1427.49
+			text = "que possa haver uma representação mas é justamente por isso que eu prefiro não falar"
+		intervals [110]:
+			xmin = 1427.49
+			xmax = 1427.9
+			text = "..."
+		intervals [111]:
+			xmin = 1427.9
+			xmax = 1429.1200000000001
+			text = "porque eu na o não"
+		intervals [112]:
+			xmin = 1429.1200000000001
+			xmax = 1429.6100000000001
+			text = "..."
+		intervals [113]:
+			xmin = 1429.6100000000001
+			xmax = 1430.71
+			text = "estou assim"
+		intervals [114]:
+			xmin = 1430.71
+			xmax = 1431.2800000000002
+			text = "..."
+		intervals [115]:
+			xmin = 1431.2800000000002
+			xmax = 1431.8700000000001
+			text = "tão"
+		intervals [116]:
+			xmin = 1431.8700000000001
+			xmax = 1432.5500000000002
+			text = "..."
+		intervals [117]:
+			xmin = 1432.5500000000002
+			xmax = 1434.23
+			text = "ahn integrada"
+		intervals [118]:
+			xmin = 1434.23
+			xmax = 1434.74
+			text = "..."
+		intervals [119]:
+			xmin = 1434.74
+			xmax = 1437.0800000000002
+			text = "entende nesta representação não é"
+		intervals [120]:
+			xmin = 1437.0800000000002
+			xmax = 1437.5700000000002
+			text = "..."
+		intervals [121]:
+			xmin = 1437.5700000000002
+			xmax = 1439.92
+			text = "especialmente atualmente que eu acho que"
+		intervals [122]:
+			xmin = 1439.92
+			xmax = 1440.25
+			text = "..."
+		intervals [123]:
+			xmin = 1440.25
+			xmax = 1441.63
+			text = "os representantes"
+		intervals [124]:
+			xmin = 1441.63
+			xmax = 1441.95
+			text = "..."
+		intervals [125]:
+			xmin = 1441.95
+			xmax = 1443.5800000000002
+			text = "têm falhado muito"
+		intervals [126]:
+			xmin = 1443.5800000000002
+			xmax = 1444.23
+			text = "..."
+		intervals [127]:
+			xmin = 1444.23
+			xmax = 1450.39
+			text = "de acordo com meu desejo quer dizer eles não estão sendo como eu desejaria que eles fossem agora quem sabe se a errada sou eu né não"
+		intervals [128]:
+			xmin = 1450.39
+			xmax = 1450.76
+			text = "..."
+		intervals [129]:
+			xmin = 1450.76
+			xmax = 1454.02
+			text = "imagino que não quero por isso que eu não quero di"
+		intervals [130]:
+			xmin = 1454.02
+			xmax = 1454.3300000000002
+			text = "..."
+		intervals [131]:
+			xmin = 1454.3300000000002
+			xmax = 1455.7800000000002
+			text = "atacar quer dizer eu"
+		intervals [132]:
+			xmin = 1455.7800000000002
+			xmax = 1456.1000000000001
+			text = "..."
+		intervals [133]:
+			xmin = 1456.1000000000001
+			xmax = 1459.14
+			text = "tenho me decepcionado com certas condutas"
+		intervals [134]:
+			xmin = 1459.14
+			xmax = 1459.77
+			text = "..."
+		intervals [135]:
+			xmin = 1459.77
+			xmax = 1465.66
+			text = "e mas naturalmente é o modo de sentir meu agora eu me sinto plenamente satisfeita"
+		intervals [136]:
+			xmin = 1465.66
+			xmax = 1466.22
+			text = "..."
+		intervals [137]:
+			xmin = 1466.22
+			xmax = 1467.89
+			text = "com a minha crença"
+		intervals [138]:
+			xmin = 1467.89
+			xmax = 1468.25
+			text = "..."
+		intervals [139]:
+			xmin = 1468.25
+			xmax = 1473.17
+			text = "eu não estou precisando me apoiar em outras autoridades religiosas"
+		intervals [140]:
+			xmin = 1473.17
+			xmax = 1473.6100000000001
+			text = "..."
+		intervals [141]:
+			xmin = 1473.6100000000001
+			xmax = 1475.3500000000001
+			text = "pra me sentir consolada"
+		intervals [142]:
+			xmin = 1475.3500000000001
+			xmax = 1475.7800000000002
+			text = "..."
+		intervals [143]:
+			xmin = 1475.7800000000002
+			xmax = 1476.3600000000001
+			text = "tenho"
+		intervals [144]:
+			xmin = 1476.3600000000001
+			xmax = 1477.04
+			text = "..."
+		intervals [145]:
+			xmin = 1477.04
+			xmax = 1483.77
+			text = "ahn atravessado naturalmente dificuldades como todos na vida atravessam né ora uma coisa ora outra"
+		intervals [146]:
+			xmin = 1483.77
+			xmax = 1484.21
+			text = "..."
+		intervals [147]:
+			xmin = 1484.21
+			xmax = 1487.39
+			text = "e tenho conseguido enfrentar muito bem quer diz er graças ao"
+		intervals [148]:
+			xmin = 1487.39
+			xmax = 1490.5300000000002
+			text = "meu modo de pensar então eu prefiro continuar com ele"
+		intervals [149]:
+			xmin = 1490.5300000000002
+			xmax = 1490.88
+			text = "..."
+		intervals [150]:
+			xmin = 1490.88
+			xmax = 1492.39
+			text = "e não preciso me ligar"
+		intervals [151]:
+			xmin = 1492.39
+			xmax = 1492.74
+			text = "..."
+		intervals [152]:
+			xmin = 1492.74
+			xmax = 1501.26
+			text = ""
+		intervals [153]:
+			xmin = 1501.26
+			xmax = 1504.3700000000001
+			text = "conheço até bastante por exemplo o protestantismo"
+		intervals [154]:
+			xmin = 1504.3700000000001
+			xmax = 1504.93
+			text = "..."
+		intervals [155]:
+			xmin = 1504.93
+			xmax = 1507.3500000000001
+			text = "ahn eu conheço bastante não só"
+		intervals [156]:
+			xmin = 1507.3500000000001
+			xmax = 1507.93
+			text = "..."
+		intervals [157]:
+			xmin = 1507.93
+			xmax = 1509.8200000000002
+			text = "a respeito do presbiterianismo"
+		intervals [158]:
+			xmin = 1509.8200000000002
+			xmax = 1510.25
+			text = "..."
+		intervals [159]:
+			xmin = 1510.25
+			xmax = 1510.7800000000002
+			text = "como"
+		intervals [160]:
+			xmin = 1510.7800000000002
+			xmax = 1511.5700000000002
+			text = "..."
+		intervals [161]:
+			xmin = 1511.5700000000002
+			xmax = 1513.0300000000002
+			text = "dos metodistas"
+		intervals [162]:
+			xmin = 1513.0300000000002
+			xmax = 1513.38
+			text = "..."
+		intervals [163]:
+			xmin = 1513.38
+			xmax = 1514.5700000000002
+			text = "dos batistas"
+		intervals [164]:
+			xmin = 1514.5700000000002
+			xmax = 1514.89
+			text = "..."
+		intervals [165]:
+			xmin = 1514.89
+			xmax = 1517.5700000000002
+			text = "porque eu tenho grandes amigos nessas"
+		intervals [166]:
+			xmin = 1517.5700000000002
+			xmax = 1518.04
+			text = "..."
+		intervals [167]:
+			xmin = 1518.04
+			xmax = 1520.2800000000002
+			text = "religiões e tenho observado"
+		intervals [168]:
+			xmin = 1520.2800000000002
+			xmax = 1521.0
+			text = "..."
+		intervals [169]:
+			xmin = 1521.0
+			xmax = 1521.1000000000001
+			text = "ahn"
+		intervals [170]:
+			xmin = 1521.1000000000001
+			xmax = 1523.96
+			text = "muito não só maneira de pensar"
+		intervals [171]:
+			xmin = 1523.96
+			xmax = 1524.3500000000001
+			text = "..."
+		intervals [172]:
+			xmin = 1524.3500000000001
+			xmax = 1526.51
+			text = "como a interpretação que eles dão não é"
+		intervals [173]:
+			xmin = 1526.51
+			xmax = 1527.98
+			text = "..."
+		intervals [174]:
+			xmin = 1527.98
+			xmax = 1529.13
+			text = "e"
+		intervals [175]:
+			xmin = 1529.13
+			xmax = 1530.04
+			text = "..."
+		intervals [176]:
+			xmin = 1530.04
+			xmax = 1535.69
+			text = "se eu fosse me ligar a uma igreja integralmente eu continuaria na igreja católica"
+		intervals [177]:
+			xmin = 1535.69
+			xmax = 1537.01
+			text = "..."
+		intervals [178]:
+			xmin = 1537.01
+			xmax = 1537.49
+			text = "não"
+		intervals [179]:
+			xmin = 1537.49
+			xmax = 1540.0700000000002
+			text = "porque eu ache que seja melhor do que essas outras"
+		intervals [180]:
+			xmin = 1540.0700000000002
+			xmax = 1540.5700000000002
+			text = "..."
+		intervals [181]:
+			xmin = 1540.5700000000002
+			xmax = 1541.15
+			text = "mas porque eu"
+		intervals [182]:
+			xmin = 1541.15
+			xmax = 1553.75
+			text = "não vi que nenhuma fosse melhor do que a outra então eu ficaria na que eu nasci não é mas eu conheço bem o protestantismo dessas dessas grupos presbiteriano metodista e"
+		intervals [183]:
+			xmin = 1553.75
+			xmax = 1554.41
+			text = "..."
+		intervals [184]:
+			xmin = 1554.41
+			xmax = 1554.96
+			text = "batista"
+		intervals [185]:
+			xmin = 1554.96
+			xmax = 1555.9
+			text = "..."
+		intervals [186]:
+			xmin = 1555.9
+			xmax = 1557.02
+			text = "ah conheço"
+		intervals [187]:
+			xmin = 1557.02
+			xmax = 1557.3400000000001
+			text = "..."
+		intervals [188]:
+			xmin = 1557.3400000000001
+			xmax = 1564.0900000000001
+			text = "mais ou menos bem a igreja ortodoxa porque ela é muito parecida com a nossa não é a ortodoxa russa por exemplo que eu"
+		intervals [189]:
+			xmin = 1564.0900000000001
+			xmax = 1564.44
+			text = "..."
+		intervals [190]:
+			xmin = 1564.44
+			xmax = 1567.7
+			text = "tenho bastante convivência tenho até afilhados na ortodoxa russa"
+		intervals [191]:
+			xmin = 1567.7
+			xmax = 1568.06
+			text = "..."
+		intervals [192]:
+			xmin = 1568.06
+			xmax = 1569.8300000000002
+			text = ""
+		intervals [193]:
+			xmin = 1569.8300000000002
+			xmax = 1571.01
+			text = "na nas suas"
+		intervals [194]:
+			xmin = 1571.01
+			xmax = 1571.56
+			text = "..."
+		intervals [195]:
+			xmin = 1571.56
+			xmax = 1571.8500000000001
+			text = "ahn não"
+		intervals [196]:
+			xmin = 1571.8500000000001
+			xmax = 1572.19
+			text = "só"
+		intervals [197]:
+			xmin = 1572.19
+			xmax = 1574.0300000000002
+			text = "nas interpretações"
+		intervals [198]:
+			xmin = 1574.0300000000002
+			xmax = 1574.69
+			text = "..."
+		intervals [199]:
+			xmin = 1574.69
+			xmax = 1584.5900000000001
+			text = "como nas ahn manifestações que eles fazem nos trabalhos religiosos é muito semelhante à igreja ortodoxa russa que é a que eu tenho mais"
+		intervals [200]:
+			xmin = 1584.5900000000001
+			xmax = 1584.99
+			text = "..."
+		intervals [201]:
+			xmin = 1584.99
+			xmax = 1586.77
+			text = "ahn convivência não é"
+		intervals [202]:
+			xmin = 1586.77
+			xmax = 1588.39
+			text = "..."
+		intervals [203]:
+			xmin = 1588.39
+			xmax = 1595.0800000000002
+			text = "são essas as religiões tenho também o não não eu não considero o espiritismo propriamente uma religião"
+		intervals [204]:
+			xmin = 1595.0800000000002
+			xmax = 1595.56
+			text = "..."
+		intervals [205]:
+			xmin = 1595.56
+			xmax = 1599.98
+			text = "mas tenho muitos amigos espíritas e que têm até procurado"
+		intervals [206]:
+			xmin = 1599.98
+			xmax = 1600.5700000000002
+			text = "..."
+		intervals [207]:
+			xmin = 1600.5700000000002
+			xmax = 1602.93
+			text = "me convencer de certas coisas"
+		intervals [208]:
+			xmin = 1602.93
+			xmax = 1603.8300000000002
+			text = "..."
+		intervals [209]:
+			xmin = 1603.8300000000002
+			xmax = 1608.3500000000001
+			text = "e eu também não não nego mas nunca me interessei"
+		intervals [210]:
+			xmin = 1608.3500000000001
+			xmax = 1608.88
+			text = "..."
+		intervals [211]:
+			xmin = 1608.88
+			xmax = 1611.04
+			text = "em me aprofundar mais nesse campo"
+		intervals [212]:
+			xmin = 1611.04
+			xmax = 1611.5500000000002
+			text = "..."
+		intervals [213]:
+			xmin = 1611.5500000000002
+			xmax = 1616.75
+			text = ""
+		intervals [214]:
+			xmin = 1616.75
+			xmax = 1618.0700000000002
+			text = "não religião não"
+		intervals [215]:
+			xmin = 1618.0700000000002
+			xmax = 1618.6000000000001
+			text = "..."
+		intervals [216]:
+			xmin = 1618.6000000000001
+			xmax = 1620.92
+			text = "mas não consideraria propriamente religião"
+		intervals [217]:
+			xmin = 1620.92
+			xmax = 1621.2800000000002
+			text = "..."
+		intervals [218]:
+			xmin = 1621.2800000000002
+			xmax = 1622.64
+			text = "mas indiscutivelmente"
+		intervals [219]:
+			xmin = 1622.64
+			xmax = 1623.1200000000001
+			text = "..."
+		intervals [220]:
+			xmin = 1623.1200000000001
+			xmax = 1628.95
+			text = "também depende do que nós chamamos de religião porque é indiscutivelmente uma demonstração de fé não é"
+		intervals [221]:
+			xmin = 1628.95
+			xmax = 1629.3500000000001
+			text = "..."
+		intervals [222]:
+			xmin = 1629.3500000000001
+			xmax = 1631.5500000000002
+			text = "mas sempre que se fala em religião a gente"
+		intervals [223]:
+			xmin = 1631.5500000000002
+			xmax = 1631.89
+			text = "..."
+		intervals [224]:
+			xmin = 1631.89
+			xmax = 1634.0300000000002
+			text = "pensa numa coisa mais organizada"
+		intervals [225]:
+			xmin = 1634.0300000000002
+			xmax = 1634.5300000000002
+			text = "..."
+		intervals [226]:
+			xmin = 1634.5300000000002
+			xmax = 1635.46
+			text = "mas"
+		intervals [227]:
+			xmin = 1635.46
+			xmax = 1636.0
+			text = "..."
+		intervals [228]:
+			xmin = 1636.0
+			xmax = 1640.38
+			text = "ahn eu quer dizer que é uma demonstração de fé e uma demonstração de fé"
+		intervals [229]:
+			xmin = 1640.38
+			xmax = 1640.8700000000001
+			text = "..."
+		intervals [230]:
+			xmin = 1640.8700000000001
+			xmax = 1646.75
+			text = "bastante forte que está aumentando assustadoramente eu tive até a oportunidade de presenciar"
+		intervals [231]:
+			xmin = 1646.75
+			xmax = 1647.22
+			text = "..."
+		intervals [232]:
+			xmin = 1647.22
+			xmax = 1650.91
+			text = "como está extraordinário uma vez que eu estava em itanhaém"
+		intervals [233]:
+			xmin = 1650.91
+			xmax = 1651.77
+			text = "..."
+		intervals [234]:
+			xmin = 1651.77
+			xmax = 1653.3700000000001
+			text = "no dia oito de dezembro"
+		intervals [235]:
+			xmin = 1653.3700000000001
+			xmax = 1653.7800000000002
+			text = "..."
+		intervals [236]:
+			xmin = 1653.7800000000002
+			xmax = 1656.01
+			text = "e chegaram os umbandistas"
+		intervals [237]:
+			xmin = 1656.01
+			xmax = 1656.8400000000001
+			text = "..."
+		intervals [238]:
+			xmin = 1656.8400000000001
+			xmax = 1659.4
+			text = "foi uma coisa que me impressionou"
+		intervals [239]:
+			xmin = 1659.4
+			xmax = 1659.94
+			text = "..."
+		intervals [240]:
+			xmin = 1659.94
+			xmax = 1662.3200000000002
+			text = "a quantidade de pessoas"
+		intervals [241]:
+			xmin = 1662.3200000000002
+			xmax = 1662.7800000000002
+			text = "..."
+		intervals [242]:
+			xmin = 1662.7800000000002
+			xmax = 1664.8200000000002
+			text = "a praia ficou lotada"
+		intervals [243]:
+			xmin = 1664.8200000000002
+			xmax = 1665.13
+			text = "..."
+		intervals [244]:
+			xmin = 1665.13
+			xmax = 1669.29
+			text = "aquela praia grande que é enorme pois já se chama praia grande né"
+		intervals [245]:
+			xmin = 1669.29
+			xmax = 1669.8500000000001
+			text = "..."
+		intervals [246]:
+			xmin = 1669.8500000000001
+			xmax = 1675.56
+			text = "foi uma coisa fantástica o número de ônibus eu até senti não ter contado"
+		intervals [247]:
+			xmin = 1675.56
+			xmax = 1675.98
+			text = "..."
+		intervals [248]:
+			xmin = 1675.98
+			xmax = 1679.38
+			text = "o número de ônibus que passou pela nossa casa pra se dirigir às praias"
+		intervals [249]:
+			xmin = 1679.38
+			xmax = 1679.69
+			text = "..."
+		intervals [250]:
+			xmin = 1679.69
+			xmax = 1680.8000000000002
+			text = "foi uma coisa"
+		intervals [251]:
+			xmin = 1680.8000000000002
+			xmax = 1681.3000000000002
+			text = "..."
+		intervals [252]:
+			xmin = 1681.3000000000002
+			xmax = 1683.4
+			text = "acima do que podia imaginar e"
+		intervals [253]:
+			xmin = 1683.4
+			xmax = 1683.95
+			text = "..."
+		intervals [254]:
+			xmin = 1683.95
+			xmax = 1686.3200000000002
+			text = "isto quer dizer que é uma demonstração de fé"
+		intervals [255]:
+			xmin = 1686.3200000000002
+			xmax = 1686.7800000000002
+			text = "..."
+		intervals [256]:
+			xmin = 1686.7800000000002
+			xmax = 1688.18
+			text = "e eu penso que"
+		intervals [257]:
+			xmin = 1688.18
+			xmax = 1688.96
+			text = "..."
+		intervals [258]:
+			xmin = 1688.96
+			xmax = 1693.91
+			text = "não não sei s bem como eu digo precisaria definir bem religião pra eu poder dizer se"
+		intervals [259]:
+			xmin = 1693.91
+			xmax = 1694.7
+			text = "..."
+		intervals [260]:
+			xmin = 1694.7
+			xmax = 1695.22
+			text = "é"
+		intervals [261]:
+			xmin = 1695.22
+			xmax = 1696.15
+			text = "ou não é não é"
+		intervals [262]:
+			xmin = 1696.15
+			xmax = 1696.5
+			text = "..."
+		intervals [263]:
+			xmin = 1696.5
+			xmax = 1698.88
+			text = "o que é é uma demonstração de fé indiscutível"
+		intervals [264]:
+			xmin = 1698.88
+			xmax = 1699.71
+			text = "..."
+		intervals [265]:
+			xmin = 1699.71
+			xmax = 1715.1100000000001
+			text = ""
+		intervals [266]:
+			xmin = 1715.1100000000001
+			xmax = 1722.0500000000002
+			text = "bem naturalmente que tem porque os foi organizado de acordo com esses princípios começa"
+		intervals [267]:
+			xmin = 1722.0500000000002
+			xmax = 1722.38
+			text = "..."
+		intervals [268]:
+			xmin = 1722.38
+			xmax = 1724.72
+			text = "pelo digamos o natal não é"
+		intervals [269]:
+			xmin = 1724.72
+			xmax = 1725.08
+			text = "..."
+		intervals [270]:
+			xmin = 1725.08
+			xmax = 1726.1100000000001
+			text = "que é a semana"
+		intervals [271]:
+			xmin = 1726.1100000000001
+			xmax = 1726.8200000000002
+			text = "santa"
+		intervals [272]:
+			xmin = 1726.8200000000002
+			xmax = 1727.2400000000002
+			text = "..."
+		intervals [273]:
+			xmin = 1727.2400000000002
+			xmax = 1731.25
+			text = "o carnaval quer dizer essas datas todas estão mascadas de acordo"
+		intervals [274]:
+			xmin = 1731.25
+			xmax = 1731.75
+			text = "..."
+		intervals [275]:
+			xmin = 1731.75
+			xmax = 1734.0700000000002
+			text = "com isso tanto que são em o a"
+		intervals [276]:
+			xmin = 1734.0700000000002
+			xmax = 1735.02
+			text = "..."
+		intervals [277]:
+			xmin = 1735.02
+			xmax = 1738.41
+			text = "o natal é uma data fixa mas as outras são móveis não é"
+		intervals [278]:
+			xmin = 1738.41
+			xmax = 1738.83
+			text = "..."
+		intervals [279]:
+			xmin = 1738.83
+			xmax = 1742.19
+			text = "e baseadas naquelas fatos religiosos isso"
+		intervals [280]:
+			xmin = 1742.19
+			xmax = 1742.4900000000002
+			text = "..."
+		intervals [281]:
+			xmin = 1742.4900000000002
+			xmax = 1743.1200000000001
+			text = "é mas"
+		intervals [282]:
+			xmin = 1743.1200000000001
+			xmax = 1743.85
+			text = "..."
+		intervals [283]:
+			xmin = 1743.85
+			xmax = 1747.8600000000001
+			text = "uhn em termos não é quer dizer que essa base existiu mesmo"
+		intervals [284]:
+			xmin = 1747.8600000000001
+			xmax = 1749.16
+			text = "..."
+		intervals [285]:
+			xmin = 1749.16
+			xmax = 1751.79
+			text = "e e assinalam as datas"
+		intervals [286]:
+			xmin = 1751.79
+			xmax = 1752.1100000000001
+			text = "..."
+		intervals [287]:
+			xmin = 1752.1100000000001
+			xmax = 1755.2800000000002
+			text = "todas da religião católica são marcadas não é"
+		intervals [288]:
+			xmin = 1755.2800000000002
+			xmax = 1755.6200000000001
+			text = "..."
+		intervals [289]:
+			xmin = 1755.6200000000001
+			xmax = 1760.42
+			text = "até há pouco tempo eram muito respeitadas nós tínhamos muitos feriados católicos"
+		intervals [290]:
+			xmin = 1760.42
+			xmax = 1760.77
+			text = "..."
+		intervals [291]:
+			xmin = 1760.77
+			xmax = 1762.3700000000001
+			text = "hoje é que eles diminuíram"
+		intervals [292]:
+			xmin = 1762.3700000000001
+			xmax = 1763.1
+			text = "..."
+		intervals [293]:
+			xmin = 1763.1
+			xmax = 1764.6100000000001
+			text = "algumas ahn"
+		intervals [294]:
+			xmin = 1764.6100000000001
+			xmax = 1765.3000000000002
+			text = "..."
+		intervals [295]:
+			xmin = 1765.3000000000002
+			xmax = 1769.63
+			text = "ahn como é que se diz algumas comemorações oficialmente"
+		intervals [296]:
+			xmin = 1769.63
+			xmax = 1770.2
+			text = "..."
+		intervals [297]:
+			xmin = 1770.2
+			xmax = 1772.93
+			text = "mas naturalmente que houve essa base mesmo"
+		intervals [298]:
+			xmin = 1772.93
+			xmax = 1774.15
+			text = "..."
+		intervals [299]:
+			xmin = 1774.15
+			xmax = 1790.27
+			text = ""
+		intervals [300]:
+			xmin = 1790.27
+			xmax = 1794.83
+			text = "essa pergunta eu não posso responder porque eu nunca me preocupei de observar não é"
+		intervals [301]:
+			xmin = 1794.83
+			xmax = 1795.3700000000001
+			text = "..."
+		intervals [302]:
+			xmin = 1795.3700000000001
+			xmax = 1797.5100000000002
+			text = "eu o o que eu observei"
+		intervals [303]:
+			xmin = 1797.5100000000002
+			xmax = 1797.97
+			text = "..."
+		intervals [304]:
+			xmin = 1797.97
+			xmax = 1800.7400000000002
+			text = ""
+	item [5]:
+		class = "IntervalTier"
+		name = "TB-doc1"
+		xmin = 0.0
+		xmax = 1800.7400000000002
+		intervals: size = 50
+		intervals [1]:
+			xmin = 0.0
+			xmax = 1240.67
+			text = ""
+		intervals [2]:
+			xmin = 1240.67
+			xmax = 1245.98
+			text = "agora existe um ritual da igreja católica a senhora disse que é católica né existe algum ritual"
+		intervals [3]:
+			xmin = 1245.98
+			xmax = 1247.27
+			text = "..."
+		intervals [4]:
+			xmin = 1247.27
+			xmax = 1249.69
+			text = "como é a a religião católica"
+		intervals [5]:
+			xmin = 1249.69
+			xmax = 1250.14
+			text = "..."
+		intervals [6]:
+			xmin = 1250.14
+			xmax = 1251.25
+			text = "em termos gerais"
+		intervals [7]:
+			xmin = 1251.25
+			xmax = 1251.88
+			text = "..."
+		intervals [8]:
+			xmin = 1251.88
+			xmax = 1391.3300000000002
+			text = ""
+		intervals [9]:
+			xmin = 1391.3300000000002
+			xmax = 1394.42
+			text = "tão ligada à igreja certo a senhora diss e que acredita em deus"
+		intervals [10]:
+			xmin = 1394.42
+			xmax = 1394.7800000000002
+			text = "..."
+		intervals [11]:
+			xmin = 1394.7800000000002
+			xmax = 1400.0900000000001
+			text = "mas ahn qual seria o representante de deus na terra segundo a religião católica"
+		intervals [12]:
+			xmin = 1400.0900000000001
+			xmax = 1401.02
+			text = "..."
+		intervals [13]:
+			xmin = 1401.02
+			xmax = 1492.74
+			text = ""
+		intervals [14]:
+			xmin = 1492.74
+			xmax = 1494.73
+			text = "a demais a nenhuma igreja"
+		intervals [15]:
+			xmin = 1494.73
+			xmax = 1495.1200000000001
+			text = "certo"
+		intervals [16]:
+			xmin = 1495.1200000000001
+			xmax = 1495.52
+			text = "..."
+		intervals [17]:
+			xmin = 1495.52
+			xmax = 1499.51
+			text = "a senhora conhece outras religiões já ouviu já leu"
+		intervals [18]:
+			xmin = 1499.51
+			xmax = 1500.17
+			text = "alguma coisa"
+		intervals [19]:
+			xmin = 1500.17
+			xmax = 1501.26
+			text = "..."
+		intervals [20]:
+			xmin = 1501.26
+			xmax = 1568.06
+			text = ""
+		intervals [21]:
+			xmin = 1568.06
+			xmax = 1568.5700000000002
+			text = "é parecida"
+		intervals [22]:
+			xmin = 1568.5700000000002
+			xmax = 1569.23
+			text = "em que termos"
+		intervals [23]:
+			xmin = 1569.23
+			xmax = 1569.8300000000002
+			text = "..."
+		intervals [24]:
+			xmin = 1569.8300000000002
+			xmax = 1611.5500000000002
+			text = ""
+		intervals [25]:
+			xmin = 1611.5500000000002
+			xmax = 1611.91
+			text = "certo"
+		intervals [26]:
+			xmin = 1611.91
+			xmax = 1612.44
+			text = "..."
+		intervals [27]:
+			xmin = 1612.44
+			xmax = 1615.02
+			text = "a senhora consideraria umbanda religião"
+		intervals [28]:
+			xmin = 1615.02
+			xmax = 1616.75
+			text = "..."
+		intervals [29]:
+			xmin = 1616.75
+			xmax = 1699.71
+			text = ""
+		intervals [30]:
+			xmin = 1699.71
+			xmax = 1702.06
+			text = "certo agora ahn parece ou é"
+		intervals [31]:
+			xmin = 1702.06
+			xmax = 1702.54
+			text = "..."
+		intervals [32]:
+			xmin = 1702.54
+			xmax = 1705.38
+			text = "que o nosso calendário o calendário brasileiro"
+		intervals [33]:
+			xmin = 1705.38
+			xmax = 1706.31
+			text = "..."
+		intervals [34]:
+			xmin = 1706.31
+			xmax = 1708.3600000000001
+			text = "né tem uma certa ligação com a religião"
+		intervals [35]:
+			xmin = 1708.3600000000001
+			xmax = 1710.88
+			text = "católica não os feriados"
+		intervals [36]:
+			xmin = 1710.88
+			xmax = 1711.5300000000002
+			text = "..."
+		intervals [37]:
+			xmin = 1711.5300000000002
+			xmax = 1712.5300000000002
+			text = "datas"
+		intervals [38]:
+			xmin = 1712.5300000000002
+			xmax = 1715.1100000000001
+			text = "..."
+		intervals [39]:
+			xmin = 1715.1100000000001
+			xmax = 1774.15
+			text = ""
+		intervals [40]:
+			xmin = 1774.15
+			xmax = 1775.29
+			text = "a senhora que viajou pra"
+		intervals [41]:
+			xmin = 1775.29
+			xmax = 1776.5900000000001
+			text = "outros países"
+		intervals [42]:
+			xmin = 1776.5900000000001
+			xmax = 1777.17
+			text = "..."
+		intervals [43]:
+			xmin = 1777.17
+			xmax = 1778.5300000000002
+			text = "inclusive europa"
+		intervals [44]:
+			xmin = 1778.5300000000002
+			xmax = 1778.8700000000001
+			text = "..."
+		intervals [45]:
+			xmin = 1778.8700000000001
+			xmax = 1782.1100000000001
+			text = "a senhora percebe alguma coisa nesse sentido"
+		intervals [46]:
+			xmin = 1782.1100000000001
+			xmax = 1783.14
+			text = "as datas"
+		intervals [47]:
+			xmin = 1783.14
+			xmax = 1783.83
+			text = "..."
+		intervals [48]:
+			xmin = 1783.83
+			xmax = 1788.8400000000001
+			text = "oficiais ahn segundo a religião ou seria assim mais o brasil"
+		intervals [49]:
+			xmin = 1788.8400000000001
+			xmax = 1790.27
+			text = "..."
+		intervals [50]:
+			xmin = 1790.27
+			xmax = 1800.7400000000002
+			text = ""
+	item [6]:
+		class = "IntervalTier"
+		name = "NTB-doc1"
+		xmin = 0.0
+		xmax = 1800.7400000000002
+		intervals: size = 50
+		intervals [1]:
+			xmin = 0.0
+			xmax = 1240.67
+			text = ""
+		intervals [2]:
+			xmin = 1240.67
+			xmax = 1245.98
+			text = "agora existe um ritual da igreja católica a senhora disse que é católica né existe algum ritual"
+		intervals [3]:
+			xmin = 1245.98
+			xmax = 1247.27
+			text = "..."
+		intervals [4]:
+			xmin = 1247.27
+			xmax = 1249.69
+			text = "como é a a religião católica"
+		intervals [5]:
+			xmin = 1249.69
+			xmax = 1250.14
+			text = "..."
+		intervals [6]:
+			xmin = 1250.14
+			xmax = 1251.25
+			text = "em termos gerais"
+		intervals [7]:
+			xmin = 1251.25
+			xmax = 1251.88
+			text = "..."
+		intervals [8]:
+			xmin = 1251.88
+			xmax = 1391.3300000000002
+			text = ""
+		intervals [9]:
+			xmin = 1391.3300000000002
+			xmax = 1394.42
+			text = "tão ligada à igreja certo a senhora diss e que acredita em deus"
+		intervals [10]:
+			xmin = 1394.42
+			xmax = 1394.7800000000002
+			text = "..."
+		intervals [11]:
+			xmin = 1394.7800000000002
+			xmax = 1400.0900000000001
+			text = "mas ahn qual seria o representante de deus na terra segundo a religião católica"
+		intervals [12]:
+			xmin = 1400.0900000000001
+			xmax = 1401.02
+			text = "..."
+		intervals [13]:
+			xmin = 1401.02
+			xmax = 1492.74
+			text = ""
+		intervals [14]:
+			xmin = 1492.74
+			xmax = 1494.73
+			text = "a demais a nenhuma igreja"
+		intervals [15]:
+			xmin = 1494.73
+			xmax = 1495.1200000000001
+			text = "certo"
+		intervals [16]:
+			xmin = 1495.1200000000001
+			xmax = 1495.52
+			text = "..."
+		intervals [17]:
+			xmin = 1495.52
+			xmax = 1499.51
+			text = "a senhora conhece outras religiões já ouviu já leu"
+		intervals [18]:
+			xmin = 1499.51
+			xmax = 1500.17
+			text = "alguma coisa"
+		intervals [19]:
+			xmin = 1500.17
+			xmax = 1501.26
+			text = "..."
+		intervals [20]:
+			xmin = 1501.26
+			xmax = 1568.06
+			text = ""
+		intervals [21]:
+			xmin = 1568.06
+			xmax = 1568.5700000000002
+			text = "é parecida"
+		intervals [22]:
+			xmin = 1568.5700000000002
+			xmax = 1569.23
+			text = "em que termos"
+		intervals [23]:
+			xmin = 1569.23
+			xmax = 1569.8300000000002
+			text = "..."
+		intervals [24]:
+			xmin = 1569.8300000000002
+			xmax = 1611.5500000000002
+			text = ""
+		intervals [25]:
+			xmin = 1611.5500000000002
+			xmax = 1611.91
+			text = "certo"
+		intervals [26]:
+			xmin = 1611.91
+			xmax = 1612.44
+			text = "..."
+		intervals [27]:
+			xmin = 1612.44
+			xmax = 1615.02
+			text = "a senhora consideraria umbanda religião"
+		intervals [28]:
+			xmin = 1615.02
+			xmax = 1616.75
+			text = "..."
+		intervals [29]:
+			xmin = 1616.75
+			xmax = 1699.71
+			text = ""
+		intervals [30]:
+			xmin = 1699.71
+			xmax = 1702.06
+			text = "certo agora ahn parece ou é"
+		intervals [31]:
+			xmin = 1702.06
+			xmax = 1702.54
+			text = "..."
+		intervals [32]:
+			xmin = 1702.54
+			xmax = 1705.38
+			text = "que o nosso calendário o calendário brasileiro"
+		intervals [33]:
+			xmin = 1705.38
+			xmax = 1706.31
+			text = "..."
+		intervals [34]:
+			xmin = 1706.31
+			xmax = 1708.3600000000001
+			text = "né tem uma certa ligação com a religião"
+		intervals [35]:
+			xmin = 1708.3600000000001
+			xmax = 1710.88
+			text = "católica não os feriados"
+		intervals [36]:
+			xmin = 1710.88
+			xmax = 1711.5300000000002
+			text = "..."
+		intervals [37]:
+			xmin = 1711.5300000000002
+			xmax = 1712.5300000000002
+			text = "datas"
+		intervals [38]:
+			xmin = 1712.5300000000002
+			xmax = 1715.1100000000001
+			text = "..."
+		intervals [39]:
+			xmin = 1715.1100000000001
+			xmax = 1774.15
+			text = ""
+		intervals [40]:
+			xmin = 1774.15
+			xmax = 1775.29
+			text = "a senhora que viajou pra"
+		intervals [41]:
+			xmin = 1775.29
+			xmax = 1776.5900000000001
+			text = "outros países"
+		intervals [42]:
+			xmin = 1776.5900000000001
+			xmax = 1777.17
+			text = "..."
+		intervals [43]:
+			xmin = 1777.17
+			xmax = 1778.5300000000002
+			text = "inclusive europa"
+		intervals [44]:
+			xmin = 1778.5300000000002
+			xmax = 1778.8700000000001
+			text = "..."
+		intervals [45]:
+			xmin = 1778.8700000000001
+			xmax = 1782.1100000000001
+			text = "a senhora percebe alguma coisa nesse sentido"
+		intervals [46]:
+			xmin = 1782.1100000000001
+			xmax = 1783.14
+			text = "as datas"
+		intervals [47]:
+			xmin = 1783.14
+			xmax = 1783.83
+			text = "..."
+		intervals [48]:
+			xmin = 1783.83
+			xmax = 1788.8400000000001
+			text = "oficiais ahn segundo a religião ou seria assim mais o brasil"
+		intervals [49]:
+			xmin = 1788.8400000000001
+			xmax = 1790.27
+			text = "..."
+		intervals [50]:
+			xmin = 1790.27
+			xmax = 1800.7400000000002
+			text = ""
+	item [7]:
+		class = "IntervalTier"
+		name = "comentarios-anotacao"
+		xmin = 0.0
+		xmax = 1800.7400000000002
+		intervals: size = 1
+		intervals [1]:
+			xmin = 1200.42
+			xmax = 1800.7400000000002
+			text = ""
+	item [8]:
+		class = "IntervalTier"
+		name = "comentarios"
+		xmin = 0.0
+		xmax = 1800.7400000000002
+		intervals: size = 1
+		intervals [1]:
+			xmin = 1200.42
+			xmax = 1800.7400000000002
+			text = ""

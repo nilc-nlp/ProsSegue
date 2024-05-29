@@ -1,0 +1,2 @@
+bash ufpalign.sh --beam 40 --retry-beam 100 --no-syllphones true Teste156/SP_EF_156_clipped_4.wav Teste156/SP_EF_156_clipped_4.txt mono
+

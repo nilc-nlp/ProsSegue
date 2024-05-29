@@ -1,0 +1,12 @@
+TB Hits,65
+NTB Hits,122
+Precision TB,0.22
+Precision NTB,0.42
+Recall TB,0.08
+Recall NTB,0.04
+Accuracy TB,0.06
+Accuracy NTB,0.04
+F1 TB,0.11
+F1 NTB,0.08
+SER TB,1.19
+SER NTB,1.02

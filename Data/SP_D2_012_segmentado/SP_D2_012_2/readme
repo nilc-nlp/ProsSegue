@@ -1,0 +1,4 @@
+Gerei o textgrid através do alinhador forçado ufpalign com parâmetros:
+
+bash ufpalign.sh --beam 40 --retry-beam 100 --no-syllphones true Teste012/SP_D2_012_2_clipped.wav Teste012/SP_D2_012_2_clipped.txt mono
+

@@ -1,0 +1,1 @@
+bash ufpalign.sh --no-syllphones true Teste156/SP_EF_156_clipped_1.wav Teste156/SP_EF_156_clipped_1.txt mono
