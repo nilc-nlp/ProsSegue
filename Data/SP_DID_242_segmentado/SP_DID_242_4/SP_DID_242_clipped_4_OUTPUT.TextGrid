@@ -1,0 +1,4064 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 2604.0800000000004
+tiers? <exists>
+size = 8
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "TB-﻿l1"
+		xmin = 0.0
+		xmax = 2604.0800000000004
+		intervals: size = 3
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.18
+			text = ""
+		intervals [2]:
+			xmin = 0.18
+			xmax = 1.02
+			text = "o interesse do povo pela"
+		intervals [3]:
+			xmin = 1.02
+			xmax = 2604.0800000000004
+			text = ""
+	item [2]:
+		class = "IntervalTier"
+		name = "NTB-﻿l1"
+		xmin = 0.0
+		xmax = 2604.0800000000004
+		intervals: size = 3
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.18
+			text = ""
+		intervals [2]:
+			xmin = 0.18
+			xmax = 1.02
+			text = "o interesse do povo pela"
+		intervals [3]:
+			xmin = 1.02
+			xmax = 2604.0800000000004
+			text = ""
+	item [3]:
+		class = "IntervalTier"
+		name = "TB-l1"
+		xmin = 0.0
+		xmax = 2604.0800000000004
+		intervals: size = 443
+		intervals [1]:
+			xmin = 0.0
+			xmax = 1.02
+			text = ""
+		intervals [2]:
+			xmin = 1.02
+			xmax = 1.58
+			text = "religião por"
+		intervals [3]:
+			xmin = 1.58
+			xmax = 2.14
+			text = "..."
+		intervals [4]:
+			xmin = 2.14
+			xmax = 2.59
+			text = "uma"
+		intervals [5]:
+			xmin = 2.59
+			xmax = 6.19
+			text = "ou outra religião isso eu tive muita oportunidade de ver em alguns"
+		intervals [6]:
+			xmin = 6.19
+			xmax = 8.67
+			text = "..."
+		intervals [7]:
+			xmin = 8.67
+			xmax = 10.37
+			text = "países e achei interessante"
+		intervals [8]:
+			xmin = 10.37
+			xmax = 13.65
+			text = "quer dizer muito respeito à à igreja a"
+		intervals [9]:
+			xmin = 13.65
+			xmax = 14.34
+			text = "..."
+		intervals [10]:
+			xmin = 14.34
+			xmax = 17.58
+			text = "e religião mas não não fiz observação nenhuma sobre"
+		intervals [11]:
+			xmin = 17.58
+			xmax = 18.34
+			text = "..."
+		intervals [12]:
+			xmin = 18.34
+			xmax = 19.73
+			text = "data isto eu"
+		intervals [13]:
+			xmin = 19.73
+			xmax = 20.54
+			text = "..."
+		intervals [14]:
+			xmin = 20.54
+			xmax = 30.83
+			text = ""
+		intervals [15]:
+			xmin = 30.83
+			xmax = 35.26
+			text = "demonstrou maior interesse pela religião bom isso também essa re ahn"
+		intervals [16]:
+			xmin = 35.26
+			xmax = 36.21
+			text = "..."
+		intervals [17]:
+			xmin = 36.21
+			xmax = 41.02
+			text = "respó pergunta também eu tenho preocupação de responder porque como"
+		intervals [18]:
+			xmin = 41.02
+			xmax = 41.61
+			text = "..."
+		intervals [19]:
+			xmin = 41.61
+			xmax = 44.5
+			text = "eu não tive é a preocupação"
+		intervals [20]:
+			xmin = 44.5
+			xmax = 44.9
+			text = "..."
+		intervals [21]:
+			xmin = 44.9
+			xmax = 49.51
+			text = "de observar eu fui observando assim ao acaso não é mas"
+		intervals [22]:
+			xmin = 49.51
+			xmax = 49.86
+			text = "..."
+		intervals [23]:
+			xmin = 49.86
+			xmax = 52.13
+			text = "pra eu dizer"
+		intervals [24]:
+			xmin = 52.13
+			xmax = 52.65
+			text = "..."
+		intervals [25]:
+			xmin = 52.65
+			xmax = 54.13
+			text = "que eu acho que"
+		intervals [26]:
+			xmin = 54.13
+			xmax = 54.6
+			text = "..."
+		intervals [27]:
+			xmin = 54.6
+			xmax = 56.17
+			text = "está é mais do"
+		intervals [28]:
+			xmin = 56.17
+			xmax = 56.67
+			text = "..."
+		intervals [29]:
+			xmin = 56.67
+			xmax = 56.97
+			text = "que"
+		intervals [30]:
+			xmin = 56.97
+			xmax = 57.98
+			text = "aquela eu"
+		intervals [31]:
+			xmin = 57.98
+			xmax = 58.75
+			text = "..."
+		intervals [32]:
+			xmin = 58.75
+			xmax = 64.05
+			text = "posso até me comprometer e dar uma informação errada"
+		intervals [33]:
+			xmin = 64.05
+			xmax = 67.64
+			text = "..."
+		intervals [34]:
+			xmin = 67.64
+			xmax = 67.79
+			text = "porque"
+		intervals [35]:
+			xmin = 67.79
+			xmax = 68.47
+			text = "..."
+		intervals [36]:
+			xmin = 68.47
+			xmax = 75.6
+			text = "para isso eu precisaria fazer um uma observação aliás eu sou muito cuidadosa em fazer afirmações de observações sociais"
+		intervals [37]:
+			xmin = 75.6
+			xmax = 75.9
+			text = "..."
+		intervals [38]:
+			xmin = 75.9
+			xmax = 79.61
+			text = "como a gente diz fulanos ou tal raça é assim tal"
+		intervals [39]:
+			xmin = 79.61
+			xmax = 81.68
+			text = "..."
+		intervals [40]:
+			xmin = 81.68
+			xmax = 85.17
+			text = "raça é de outra maneira quer"
+		intervals [41]:
+			xmin = 85.17
+			xmax = 85.73
+			text = "..."
+		intervals [42]:
+			xmin = 85.73
+			xmax = 87.62
+			text = "dizer ou elogiando ou"
+		intervals [43]:
+			xmin = 87.62
+			xmax = 88.5
+			text = "..."
+		intervals [44]:
+			xmin = 88.5
+			xmax = 89.16
+			text = "éh"
+		intervals [45]:
+			xmin = 89.16
+			xmax = 89.8
+			text = "..."
+		intervals [46]:
+			xmin = 89.8
+			xmax = 93.96
+			text = "fazendo maus comentários não é eu não faço porque eu acho que isso"
+		intervals [47]:
+			xmin = 93.96
+			xmax = 94.45
+			text = "..."
+		intervals [48]:
+			xmin = 94.45
+			xmax = 97.42
+			text = "é uma coisa muito séria a gente precisa observar"
+		intervals [49]:
+			xmin = 97.42
+			xmax = 98.2
+			text = "..."
+		intervals [50]:
+			xmin = 98.2
+			xmax = 99.55
+			text = "muito pra poder"
+		intervals [51]:
+			xmin = 99.55
+			xmax = 99.91
+			text = "..."
+		intervals [52]:
+			xmin = 99.91
+			xmax = 100.74
+			text = "fazer um"
+		intervals [53]:
+			xmin = 100.74
+			xmax = 101.05
+			text = "..."
+		intervals [54]:
+			xmin = 101.05
+			xmax = 102.93
+			text = "levantamento chegar a"
+		intervals [55]:
+			xmin = 102.93
+			xmax = 104.33
+			text = "..."
+		intervals [56]:
+			xmin = 104.33
+			xmax = 111.41
+			text = "conclusões que nem sempre são exatas mesmo depois do levantamento não é agora assim"
+		intervals [57]:
+			xmin = 111.41
+			xmax = 111.91
+			text = "..."
+		intervals [58]:
+			xmin = 111.91
+			xmax = 115.34
+			text = "determinar uma característica pra isso eu"
+		intervals [59]:
+			xmin = 115.34
+			xmax = 115.85
+			text = "..."
+		intervals [60]:
+			xmin = 115.85
+			xmax = 119.03
+			text = "gostaria de responder só se"
+		intervals [61]:
+			xmin = 119.03
+			xmax = 119.76
+			text = "..."
+		intervals [62]:
+			xmin = 119.76
+			xmax = 122.16
+			text = "eu tivesse feito mesmo uma"
+		intervals [63]:
+			xmin = 122.16
+			xmax = 122.65
+			text = "..."
+		intervals [64]:
+			xmin = 122.65
+			xmax = 123.01
+			text = "observação melhor"
+		intervals [65]:
+			xmin = 123.01
+			xmax = 133.96
+			text = ""
+		intervals [66]:
+			xmin = 133.96
+			xmax = 137.65
+			text = "existe alguma coisa mais sim eu fiz não"
+		intervals [67]:
+			xmin = 137.65
+			xmax = 138.17
+			text = "..."
+		intervals [68]:
+			xmin = 138.17
+			xmax = 139.1
+			text = "é digamos"
+		intervals [69]:
+			xmin = 139.1
+			xmax = 140.2
+			text = "..."
+		intervals [70]:
+			xmin = 140.2
+			xmax = 142.92
+			text = "fiz primeira comunhão fui crismada quer dizer"
+		intervals [71]:
+			xmin = 142.92
+			xmax = 143.57
+			text = "..."
+		intervals [72]:
+			xmin = 143.57
+			xmax = 147.0
+			text = "que eu a minha família fez"
+		intervals [73]:
+			xmin = 147.0
+			xmax = 149.98
+			text = "..."
+		intervals [74]:
+			xmin = 149.98
+			xmax = 155.32
+			text = "tudo que era para fazer dentro da religião não"
+		intervals [75]:
+			xmin = 155.32
+			xmax = 156.3
+			text = "..."
+		intervals [76]:
+			xmin = 156.3
+			xmax = 158.15
+			text = "é frequentava missa aos domingos"
+		intervals [77]:
+			xmin = 158.15
+			xmax = 159.28
+			text = "..."
+		intervals [78]:
+			xmin = 159.28
+			xmax = 161.37
+			text = "depois é que eu"
+		intervals [79]:
+			xmin = 161.37
+			xmax = 161.87
+			text = "..."
+		intervals [80]:
+			xmin = 161.87
+			xmax = 162.36
+			text = "fui"
+		intervals [81]:
+			xmin = 162.36
+			xmax = 162.9
+			text = "..."
+		intervals [82]:
+			xmin = 162.9
+			xmax = 163.67
+			text = "naturalmente"
+		intervals [83]:
+			xmin = 163.67
+			xmax = 163.97
+			text = "..."
+		intervals [84]:
+			xmin = 163.97
+			xmax = 166.1
+			text = "mais adulta tomando outros rumos"
+		intervals [85]:
+			xmin = 166.1
+			xmax = 166.96
+			text = "..."
+		intervals [86]:
+			xmin = 166.96
+			xmax = 169.47
+			text = "não é mas ahn toda durante a minha"
+		intervals [87]:
+			xmin = 169.47
+			xmax = 170.36
+			text = "..."
+		intervals [88]:
+			xmin = 170.36
+			xmax = 171.39
+			text = "infância"
+		intervals [89]:
+			xmin = 171.39
+			xmax = 171.65
+			text = "a"
+		intervals [90]:
+			xmin = 171.65
+			xmax = 172.54
+			text = "orientação"
+		intervals [91]:
+			xmin = 172.54
+			xmax = 173.4
+			text = "..."
+		intervals [92]:
+			xmin = 173.4
+			xmax = 178.17
+			text = "da minha casa era bem segura não é"
+		intervals [93]:
+			xmin = 178.17
+			xmax = 179.31
+			text = "..."
+		intervals [94]:
+			xmin = 179.31
+			xmax = 180.05
+			text = "quer dizer"
+		intervals [95]:
+			xmin = 180.05
+			xmax = 181.14
+			text = "..."
+		intervals [96]:
+			xmin = 181.14
+			xmax = 182.88
+			text = "que depois que eu pude"
+		intervals [97]:
+			xmin = 182.88
+			xmax = 183.31
+			text = "..."
+		intervals [98]:
+			xmin = 183.31
+			xmax = 185.59
+			text = "escolher o que eu queria fazer é que"
+		intervals [99]:
+			xmin = 185.59
+			xmax = 186.79
+			text = "..."
+		intervals [100]:
+			xmin = 186.79
+			xmax = 189.57
+			text = "eu tomei outras deliberações mas fiz fiz estas"
+		intervals [101]:
+			xmin = 189.57
+			xmax = 190.25
+			text = "..."
+		intervals [102]:
+			xmin = 190.25
+			xmax = 190.74
+			text = "todas"
+		intervals [103]:
+			xmin = 190.74
+			xmax = 191.41
+			text = "..."
+		intervals [104]:
+			xmin = 191.41
+			xmax = 192.91
+			text = "essas obrigações"
+		intervals [105]:
+			xmin = 192.91
+			xmax = 193.32
+			text = "..."
+		intervals [106]:
+			xmin = 193.32
+			xmax = 204.06
+			text = ""
+		intervals [107]:
+			xmin = 204.06
+			xmax = 210.26
+			text = "né digamos que eu desconhecesse o assunto o que é uma missa bem a missa eu acho melhor não descrever porque naturalmente eu teri gostaria"
+		intervals [108]:
+			xmin = 210.26
+			xmax = 212.34
+			text = "..."
+		intervals [109]:
+			xmin = 212.34
+			xmax = 213.54
+			text = "de"
+		intervals [110]:
+			xmin = 213.54
+			xmax = 214.02
+			text = "..."
+		intervals [111]:
+			xmin = 214.02
+			xmax = 215.74
+			text = "fazer se fosse fazer uma"
+		intervals [112]:
+			xmin = 215.74
+			xmax = 216.08
+			text = "..."
+		intervals [113]:
+			xmin = 216.08
+			xmax = 217.27
+			text = "coisa dessa"
+		intervals [114]:
+			xmin = 217.27
+			xmax = 217.62
+			text = "..."
+		intervals [115]:
+			xmin = 217.62
+			xmax = 219.39
+			text = "eu gostaria de fazer uma coisa"
+		intervals [116]:
+			xmin = 219.39
+			xmax = 220.04
+			text = "..."
+		intervals [117]:
+			xmin = 220.04
+			xmax = 221.21
+			text = "bem feita como"
+		intervals [118]:
+			xmin = 221.21
+			xmax = 221.91
+			text = "..."
+		intervals [119]:
+			xmin = 221.91
+			xmax = 225.15
+			text = "eu acabei de dizer a você"
+		intervals [120]:
+			xmin = 225.15
+			xmax = 225.58
+			text = "..."
+		intervals [121]:
+			xmin = 225.58
+			xmax = 226.61
+			text = "eu sou"
+		intervals [122]:
+			xmin = 226.61
+			xmax = 227.24
+			text = "..."
+		intervals [123]:
+			xmin = 227.24
+			xmax = 229.15
+			text = "uma pessoa que"
+		intervals [124]:
+			xmin = 229.15
+			xmax = 229.55
+			text = "..."
+		intervals [125]:
+			xmin = 229.55
+			xmax = 231.24
+			text = "tenho preocupação de"
+		intervals [126]:
+			xmin = 231.24
+			xmax = 232.13
+			text = "..."
+		intervals [127]:
+			xmin = 232.13
+			xmax = 234.81
+			text = "fazer descrições ou afirmações de coisas que não"
+		intervals [128]:
+			xmin = 234.81
+			xmax = 235.23
+			text = "..."
+		intervals [129]:
+			xmin = 235.23
+			xmax = 238.07
+			text = "estou bem ah ah orientada"
+		intervals [130]:
+			xmin = 238.07
+			xmax = 238.69
+			text = "..."
+		intervals [131]:
+			xmin = 238.69
+			xmax = 241.12
+			text = "pra fazer não é de"
+		intervals [132]:
+			xmin = 241.12
+			xmax = 241.79
+			text = "..."
+		intervals [133]:
+			xmin = 241.79
+			xmax = 249.91
+			text = "maneira que eu se eu fosse responder isto exatamente eu teria que pensar bem não seria assim"
+		intervals [134]:
+			xmin = 249.91
+			xmax = 250.37
+			text = "..."
+		intervals [135]:
+			xmin = 250.37
+			xmax = 252.22
+			text = "numa entrevista porque"
+		intervals [136]:
+			xmin = 252.22
+			xmax = 252.66
+			text = "..."
+		intervals [137]:
+			xmin = 252.66
+			xmax = 256.24
+			text = "como justamente eu não frequento missa não é"
+		intervals [138]:
+			xmin = 256.24
+			xmax = 257.05
+			text = "..."
+		intervals [139]:
+			xmin = 257.05
+			xmax = 259.47
+			text = "eu queria fazer éh precisaria"
+		intervals [140]:
+			xmin = 259.47
+			xmax = 259.86
+			text = "..."
+		intervals [141]:
+			xmin = 259.86
+			xmax = 261.3
+			text = "reavivar a minha"
+		intervals [142]:
+			xmin = 261.3
+			xmax = 261.65
+			text = "..."
+		intervals [143]:
+			xmin = 261.65
+			xmax = 263.7
+			text = "memória com todos os dados pra poder"
+		intervals [144]:
+			xmin = 263.7
+			xmax = 264.5
+			text = "..."
+		intervals [145]:
+			xmin = 264.5
+			xmax = 265.99
+			text = "dizer uma coisa certa mas"
+		intervals [146]:
+			xmin = 265.99
+			xmax = 267.05
+			text = "é"
+		intervals [147]:
+			xmin = 267.05
+			xmax = 268.06
+			text = "que uma coisa"
+		intervals [148]:
+			xmin = 268.06
+			xmax = 268.73
+			text = "..."
+		intervals [149]:
+			xmin = 268.73
+			xmax = 270.6
+			text = "que vai ficar gravada eu não"
+		intervals [150]:
+			xmin = 270.6
+			xmax = 271.07
+			text = "..."
+		intervals [151]:
+			xmin = 271.07
+			xmax = 271.52
+			text = "quero"
+		intervals [152]:
+			xmin = 271.52
+			xmax = 271.84
+			text = "..."
+		intervals [153]:
+			xmin = 271.84
+			xmax = 273.44
+			text = "que fique sem ser correta"
+		intervals [154]:
+			xmin = 273.44
+			xmax = 278.14
+			text = ""
+		intervals [155]:
+			xmin = 278.14
+			xmax = 281.24
+			text = "por perguntas quem é que realiza uma missa era"
+		intervals [156]:
+			xmin = 281.24
+			xmax = 281.93
+			text = "..."
+		intervals [157]:
+			xmin = 281.93
+			xmax = 284.7
+			text = "o padre mas agora até já"
+		intervals [158]:
+			xmin = 284.7
+			xmax = 285.09
+			text = "..."
+		intervals [159]:
+			xmin = 285.09
+			xmax = 287.43
+			text = "estão freiras realizando né nó eu"
+		intervals [160]:
+			xmin = 287.43
+			xmax = 287.7
+			text = "tenho"
+		intervals [161]:
+			xmin = 287.7
+			xmax = 288.15
+			text = "..."
+		intervals [162]:
+			xmin = 288.15
+			xmax = 292.58
+			text = "aqui na vila carioca as franciscana de maria né então"
+		intervals [163]:
+			xmin = 292.58
+			xmax = 293.0
+			text = "..."
+		intervals [164]:
+			xmin = 293.0
+			xmax = 295.81
+			text = "você vê que eu mais ou menos estou"
+		intervals [165]:
+			xmin = 295.81
+			xmax = 296.23
+			text = "..."
+		intervals [166]:
+			xmin = 296.23
+			xmax = 303.56
+			text = "atualizada as franciscanas de maria estão fazendo todo o trabalho elas estão realizando missa elas estão dando extremaunção estão ahn"
+		intervals [167]:
+			xmin = 303.56
+			xmax = 304.07
+			text = "..."
+		intervals [168]:
+			xmin = 304.07
+			xmax = 312.16
+			text = ""
+		intervals [169]:
+			xmin = 312.16
+			xmax = 318.43
+			text = "de grande número de pessoas ou não e como é essa participação se houver agora as missas estão"
+		intervals [170]:
+			xmin = 318.43
+			xmax = 319.69
+			text = "..."
+		intervals [171]:
+			xmin = 319.69
+			xmax = 326.59
+			text = "todas com muita participação eles estão até pedindo a pessoas que vão ajudar não é antigamente era o"
+		intervals [172]:
+			xmin = 326.59
+			xmax = 327.21
+			text = "..."
+		intervals [173]:
+			xmin = 327.21
+			xmax = 329.19
+			text = "serviço feito só por"
+		intervals [174]:
+			xmin = 329.19
+			xmax = 329.87
+			text = "..."
+		intervals [175]:
+			xmin = 329.87
+			xmax = 330.22
+			text = "aqueles"
+		intervals [176]:
+			xmin = 330.22
+			xmax = 331.11
+			text = "..."
+		intervals [177]:
+			xmin = 331.11
+			xmax = 331.63
+			text = "meninos"
+		intervals [178]:
+			xmin = 331.63
+			xmax = 331.98
+			text = "que"
+		intervals [179]:
+			xmin = 331.98
+			xmax = 334.92
+			text = "se chamavam coroinhas não é e hoje não as pessoas"
+		intervals [180]:
+			xmin = 334.92
+			xmax = 336.2
+			text = "..."
+		intervals [181]:
+			xmin = 336.2
+			xmax = 338.29
+			text = "estão participando da missa"
+		intervals [182]:
+			xmin = 338.29
+			xmax = 338.76
+			text = "..."
+		intervals [183]:
+			xmin = 338.76
+			xmax = 340.82
+			text = "as missas que eu tenho"
+		intervals [184]:
+			xmin = 340.82
+			xmax = 341.35
+			text = "..."
+		intervals [185]:
+			xmin = 341.35
+			xmax = 341.69
+			text = "assistido"
+		intervals [186]:
+			xmin = 341.69
+			xmax = 342.42
+			text = "..."
+		intervals [187]:
+			xmin = 342.42
+			xmax = 343.69
+			text = "todas tem havido muita"
+		intervals [188]:
+			xmin = 343.69
+			xmax = 344.87
+			text = "..."
+		intervals [189]:
+			xmin = 344.87
+			xmax = 346.85
+			text = "participação inclusive estão fazendo muita"
+		intervals [190]:
+			xmin = 346.85
+			xmax = 347.17
+			text = "..."
+		intervals [191]:
+			xmin = 347.17
+			xmax = 348.66
+			text = "participação também com"
+		intervals [192]:
+			xmin = 348.66
+			xmax = 349.31
+			text = "..."
+		intervals [193]:
+			xmin = 349.31
+			xmax = 353.88
+			text = "o pessoal éh entre todos que estão assistindo mostrando assim uma união"
+		intervals [194]:
+			xmin = 353.88
+			xmax = 354.29
+			text = "..."
+		intervals [195]:
+			xmin = 354.29
+			xmax = 360.54
+			text = ""
+		intervals [196]:
+			xmin = 360.54
+			xmax = 368.79
+			text = "disse das das freiras tal o que você queria que eu dissesse mais eu eu estava observando que todos os que estão assistindo à missa"
+		intervals [197]:
+			xmin = 368.79
+			xmax = 369.57
+			text = "..."
+		intervals [198]:
+			xmin = 369.57
+			xmax = 370.96
+			text = "estão assistindo à missa"
+		intervals [199]:
+			xmin = 370.96
+			xmax = 371.39
+			text = "..."
+		intervals [200]:
+			xmin = 371.39
+			xmax = 373.81
+			text = "estão se cumprimentando ao terminar"
+		intervals [201]:
+			xmin = 373.81
+			xmax = 374.15
+			text = "..."
+		intervals [202]:
+			xmin = 374.15
+			xmax = 376.15
+			text = "a missa não é e isto"
+		intervals [203]:
+			xmin = 376.15
+			xmax = 377.03
+			text = "..."
+		intervals [204]:
+			xmin = 377.03
+			xmax = 381.01
+			text = "eu não e estou tão convencida da utilidade disso eu"
+		intervals [205]:
+			xmin = 381.01
+			xmax = 381.84
+			text = "..."
+		intervals [206]:
+			xmin = 381.84
+			xmax = 382.29
+			text = "pessoalmente"
+		intervals [207]:
+			xmin = 382.29
+			xmax = 382.65
+			text = "..."
+		intervals [208]:
+			xmin = 382.65
+			xmax = 387.72
+			text = "mas talvez isto seja uma falha minha porque eu tenho conversado com muitas pessoas que"
+		intervals [209]:
+			xmin = 387.72
+			xmax = 388.08
+			text = "..."
+		intervals [210]:
+			xmin = 388.08
+			xmax = 388.54
+			text = "estão"
+		intervals [211]:
+			xmin = 388.54
+			xmax = 388.9
+			text = "..."
+		intervals [212]:
+			xmin = 388.9
+			xmax = 394.32
+			text = "gostando muito disso achando que é uma coisa interessante que dá um aspecto assim"
+		intervals [213]:
+			xmin = 394.32
+			xmax = 394.72
+			text = "..."
+		intervals [214]:
+			xmin = 394.72
+			xmax = 396.32
+			text = "bom a gente"
+		intervals [215]:
+			xmin = 396.32
+			xmax = 397.22
+			text = "..."
+		intervals [216]:
+			xmin = 397.22
+			xmax = 399.1
+			text = "ahn e h ver o seu"
+		intervals [217]:
+			xmin = 399.1
+			xmax = 399.79
+			text = "..."
+		intervals [218]:
+			xmin = 399.79
+			xmax = 400.94
+			text = "irmão"
+		intervals [219]:
+			xmin = 400.94
+			xmax = 402.13
+			text = "..."
+		intervals [220]:
+			xmin = 402.13
+			xmax = 404.03
+			text = "afinal ali cumprimentar"
+		intervals [221]:
+			xmin = 404.03
+			xmax = 404.84
+			text = "..."
+		intervals [222]:
+			xmin = 404.84
+			xmax = 407.11
+			text = "um desconhecido mas que"
+		intervals [223]:
+			xmin = 407.11
+			xmax = 407.52
+			text = "..."
+		intervals [224]:
+			xmin = 407.52
+			xmax = 412.13
+			text = "demonstra assim uma certa ahn união e e ouvi vejo e como eu"
+		intervals [225]:
+			xmin = 412.13
+			xmax = 412.53
+			text = "..."
+		intervals [226]:
+			xmin = 412.53
+			xmax = 412.69
+			text = "estava"
+		intervals [227]:
+			xmin = 412.69
+			xmax = 413.54
+			text = "..."
+		intervals [228]:
+			xmin = 413.54
+			xmax = 415.51
+			text = "falando eu pessoalmente não não"
+		intervals [229]:
+			xmin = 415.51
+			xmax = 416.18
+			text = "..."
+		intervals [230]:
+			xmin = 416.18
+			xmax = 418.89
+			text = "vejo muita utilidade disso mas ah são"
+		intervals [231]:
+			xmin = 418.89
+			xmax = 419.62
+			text = "..."
+		intervals [232]:
+			xmin = 419.62
+			xmax = 426.29
+			text = "muitas as opiniões a favor disso agora o que eu acho que melhorou muito"
+		intervals [233]:
+			xmin = 426.29
+			xmax = 426.72
+			text = "..."
+		intervals [234]:
+			xmin = 426.72
+			xmax = 429.13
+			text = "na missa nas missas"
+		intervals [235]:
+			xmin = 429.13
+			xmax = 429.46
+			text = "..."
+		intervals [236]:
+			xmin = 429.46
+			xmax = 434.87
+			text = "modernas em relação às missas antigas porque uma das coisas que eu não acho que"
+		intervals [237]:
+			xmin = 434.87
+			xmax = 435.32
+			text = "..."
+		intervals [238]:
+			xmin = 435.32
+			xmax = 438.86
+			text = "foi bom foi aquele exagero que começou haver de"
+		intervals [239]:
+			xmin = 438.86
+			xmax = 439.27
+			text = "..."
+		intervals [240]:
+			xmin = 439.27
+			xmax = 445.9
+			text = "modernismo com relação a músicas e tudo mais um exagero que não não combinava com o ambiente da igreja mas atualmente"
+		intervals [241]:
+			xmin = 445.9
+			xmax = 446.29
+			text = "..."
+		intervals [242]:
+			xmin = 446.29
+			xmax = 448.77
+			text = "eu tenho assistido missas que eu"
+		intervals [243]:
+			xmin = 448.77
+			xmax = 449.71
+			text = "..."
+		intervals [244]:
+			xmin = 449.71
+			xmax = 452.2
+			text = "considero magníficas posso citar por exemplo"
+		intervals [245]:
+			xmin = 452.2
+			xmax = 453.43
+			text = "..."
+		intervals [246]:
+			xmin = 453.43
+			xmax = 455.51
+			text = "umas que foram realizadas"
+		intervals [247]:
+			xmin = 455.51
+			xmax = 455.84
+			text = "..."
+		intervals [248]:
+			xmin = 455.84
+			xmax = 456.88
+			text = "na ahn"
+		intervals [249]:
+			xmin = 456.88
+			xmax = 457.32
+			text = "..."
+		intervals [250]:
+			xmin = 457.32
+			xmax = 457.46
+			text = "puc"
+		intervals [251]:
+			xmin = 457.46
+			xmax = 458.21
+			text = "..."
+		intervals [252]:
+			xmin = 458.21
+			xmax = 461.96
+			text = "na igreja da puc há uns dois ou três padres"
+		intervals [253]:
+			xmin = 461.96
+			xmax = 462.4
+			text = "..."
+		intervals [254]:
+			xmin = 462.4
+			xmax = 464.27
+			text = "lá que eu acho que são assim"
+		intervals [255]:
+			xmin = 464.27
+			xmax = 465.02
+			text = "extraordinários"
+		intervals [256]:
+			xmin = 465.02
+			xmax = 465.61
+			text = "..."
+		intervals [257]:
+			xmin = 465.61
+			xmax = 467.58
+			text = "porque no decorrer da missa eles"
+		intervals [258]:
+			xmin = 467.58
+			xmax = 467.99
+			text = "..."
+		intervals [259]:
+			xmin = 467.99
+			xmax = 469.53
+			text = "param e eles conversam"
+		intervals [260]:
+			xmin = 469.53
+			xmax = 470.06
+			text = "..."
+		intervals [261]:
+			xmin = 470.06
+			xmax = 474.51
+			text = "com o público que está assistindo à missa e as palavras que"
+		intervals [262]:
+			xmin = 474.51
+			xmax = 475.96
+			text = "..."
+		intervals [263]:
+			xmin = 475.96
+			xmax = 480.71
+			text = "eles têm dito têm sido formidáveis extraordinárias como elevação como"
+		intervals [264]:
+			xmin = 480.71
+			xmax = 481.43
+			text = "..."
+		intervals [265]:
+			xmin = 481.43
+			xmax = 484.23
+			text = "provocação de uma conduta melhor dos"
+		intervals [266]:
+			xmin = 484.23
+			xmax = 484.73
+			text = "..."
+		intervals [267]:
+			xmin = 484.73
+			xmax = 485.89
+			text = "homens mas"
+		intervals [268]:
+			xmin = 485.89
+			xmax = 486.44
+			text = "..."
+		intervals [269]:
+			xmin = 486.44
+			xmax = 493.47
+			text = "tudo jogando com argumentos muito ah espontâneos muito naturais esse estes padres fizeram trabalhos magníficos eu já"
+		intervals [270]:
+			xmin = 493.47
+			xmax = 494.0
+			text = "..."
+		intervals [271]:
+			xmin = 494.0
+			xmax = 497.92
+			text = "assisti umas diversas missas na puc que me encantaram a missa"
+		intervals [272]:
+			xmin = 497.92
+			xmax = 498.22
+			text = "..."
+		intervals [273]:
+			xmin = 498.22
+			xmax = 498.9
+			text = "de domingo"
+		intervals [274]:
+			xmin = 498.9
+			xmax = 499.57
+			text = "..."
+		intervals [275]:
+			xmin = 499.57
+			xmax = 503.07
+			text = "mesmo lá é muito boa eu estou"
+		intervals [276]:
+			xmin = 503.07
+			xmax = 504.51
+			text = "..."
+		intervals [277]:
+			xmin = 504.51
+			xmax = 511.24
+			text = "citando a da puc porque é perto da minha casa não é e eu"
+		intervals [278]:
+			xmin = 511.24
+			xmax = 511.88
+			text = "..."
+		intervals [279]:
+			xmin = 511.88
+			xmax = 514.48
+			text = "posso ahn então acompanhar ah outro dia"
+		intervals [280]:
+			xmin = 514.48
+			xmax = 514.87
+			text = "..."
+		intervals [281]:
+			xmin = 514.87
+			xmax = 520.86
+			text = "assisti uma na liga das senhoras católicas também monsenhor benedito que ahn rezou a missa ele se"
+		intervals [282]:
+			xmin = 520.86
+			xmax = 522.08
+			text = "..."
+		intervals [283]:
+			xmin = 522.08
+			xmax = 522.45
+			text = "dirigiu"
+		intervals [284]:
+			xmin = 522.45
+			xmax = 522.81
+			text = "..."
+		intervals [285]:
+			xmin = 522.81
+			xmax = 526.44
+			text = "ao público mas d e uma maneira ah encantadora"
+		intervals [286]:
+			xmin = 526.44
+			xmax = 528.82
+			text = "extraordinária todo mundo saiu feliz da igreja neste"
+		intervals [287]:
+			xmin = 528.82
+			xmax = 529.35
+			text = "..."
+		intervals [288]:
+			xmin = 529.35
+			xmax = 535.63
+			text = "ponto eu acho que melhorou demais e é o trabalho de evangelização que eu estou lendo sempre"
+		intervals [289]:
+			xmin = 535.63
+			xmax = 536.14
+			text = "..."
+		intervals [290]:
+			xmin = 536.14
+			xmax = 542.06
+			text = "no jornal que até o papa está preocupadíssimo com ele achando que é uma tarefa dificílima quer"
+		intervals [291]:
+			xmin = 542.06
+			xmax = 543.01
+			text = "..."
+		intervals [292]:
+			xmin = 543.01
+			xmax = 547.49
+			text = "dizer que eles estão encontrando dificuldade de"
+		intervals [293]:
+			xmin = 547.49
+			xmax = 548.34
+			text = "..."
+		intervals [294]:
+			xmin = 548.34
+			xmax = 554.96
+			text = "toda ordem o que está certo porque neste mundo nós estamos vendo tanta coisa que precisa"
+		intervals [295]:
+			xmin = 554.96
+			xmax = 555.39
+			text = "..."
+		intervals [296]:
+			xmin = 555.39
+			xmax = 556.39
+			text = "ser consertada"
+		intervals [297]:
+			xmin = 556.39
+			xmax = 556.7
+			text = "..."
+		intervals [298]:
+			xmin = 556.7
+			xmax = 557.6
+			text = "quer dizer"
+		intervals [299]:
+			xmin = 557.6
+			xmax = 558.72
+			text = "..."
+		intervals [300]:
+			xmin = 558.72
+			xmax = 562.07
+			text = "tantas condutas humanas que estão tomando"
+		intervals [301]:
+			xmin = 562.07
+			xmax = 562.58
+			text = "..."
+		intervals [302]:
+			xmin = 562.58
+			xmax = 565.68
+			text = "rumos absolutamente errados que eu imagino que a"
+		intervals [303]:
+			xmin = 565.68
+			xmax = 566.37
+			text = "..."
+		intervals [304]:
+			xmin = 566.37
+			xmax = 566.67
+			text = "tarefa"
+		intervals [305]:
+			xmin = 566.67
+			xmax = 568.84
+			text = "do pastor hoje deve ser uma"
+		intervals [306]:
+			xmin = 568.84
+			xmax = 569.2
+			text = "..."
+		intervals [307]:
+			xmin = 569.2
+			xmax = 570.16
+			text = "tarefa enorme difícil de"
+		intervals [308]:
+			xmin = 570.16
+			xmax = 570.6
+			text = "..."
+		intervals [309]:
+			xmin = 570.6
+			xmax = 577.94
+			text = "ser executada mas naturalmente que cada um precisa fazendo alguma coisa e aos poucos é que pode"
+		intervals [310]:
+			xmin = 577.94
+			xmax = 578.26
+			text = "..."
+		intervals [311]:
+			xmin = 578.26
+			xmax = 581.72
+			text = "conseguir né de maneira que em matéria de missa"
+		intervals [312]:
+			xmin = 581.72
+			xmax = 582.09
+			text = "..."
+		intervals [313]:
+			xmin = 582.09
+			xmax = 589.1
+			text = "eu posso citar essas da puc que eu acho esplêndidas e tive oportunidade de assistir essa do monsenhor benedito"
+		intervals [314]:
+			xmin = 589.1
+			xmax = 589.44
+			text = "..."
+		intervals [315]:
+			xmin = 589.44
+			xmax = 590.17
+			text = "que eu"
+		intervals [316]:
+			xmin = 590.17
+			xmax = 590.58
+			text = "..."
+		intervals [317]:
+			xmin = 590.58
+			xmax = 597.43
+			text = "também fiquei encantada e eu acho que essa maneira de se dirigir aos que estão assistindo à missa é uma um bom"
+		intervals [318]:
+			xmin = 597.43
+			xmax = 597.84
+			text = "..."
+		intervals [319]:
+			xmin = 597.84
+			xmax = 605.03
+			text = ""
+		intervals [320]:
+			xmin = 605.03
+			xmax = 611.14
+			text = "mesma de antigamente não isso nós estamos vendo igrejas completamente diferentes né e também eu acho que"
+		intervals [321]:
+			xmin = 611.14
+			xmax = 611.52
+			text = "..."
+		intervals [322]:
+			xmin = 611.52
+			xmax = 613.59
+			text = "estão caindo num"
+		intervals [323]:
+			xmin = 613.59
+			xmax = 614.36
+			text = "..."
+		intervals [324]:
+			xmin = 614.36
+			xmax = 615.61
+			text = "exagero"
+		intervals [325]:
+			xmin = 615.61
+			xmax = 616.03
+			text = "..."
+		intervals [326]:
+			xmin = 616.03
+			xmax = 623.66
+			text = "porque antigamente as igrejas eram ahn muito cheias de imagens um um ambiente que também não era ahn tão acolhedor"
+		intervals [327]:
+			xmin = 623.66
+			xmax = 624.07
+			text = "..."
+		intervals [328]:
+			xmin = 624.07
+			xmax = 628.95
+			text = "então começaram a evoluir mas temos também igrejas que a meu ver não agradam não"
+		intervals [329]:
+			xmin = 628.95
+			xmax = 629.27
+			text = "..."
+		intervals [330]:
+			xmin = 629.27
+			xmax = 632.37
+			text = "é apesar de talvez como eu disse"
+		intervals [331]:
+			xmin = 632.37
+			xmax = 632.78
+			text = "..."
+		intervals [332]:
+			xmin = 632.78
+			xmax = 633.79
+			text = "seja uma"
+		intervals [333]:
+			xmin = 633.79
+			xmax = 634.62
+			text = "..."
+		intervals [334]:
+			xmin = 634.62
+			xmax = 637.0600000000001
+			text = "questão pessoal mas há"
+		intervals [335]:
+			xmin = 637.0600000000001
+			xmax = 637.4300000000001
+			text = "..."
+		intervals [336]:
+			xmin = 637.4300000000001
+			xmax = 638.12
+			text = "igrejas que"
+		intervals [337]:
+			xmin = 638.12
+			xmax = 638.57
+			text = "não"
+		intervals [338]:
+			xmin = 638.57
+			xmax = 643.86
+			text = "não me causam prazer nenhum entrar nelas o ideal"
+		intervals [339]:
+			xmin = 643.86
+			xmax = 644.39
+			text = "é"
+		intervals [340]:
+			xmin = 644.39
+			xmax = 645.11
+			text = "o"
+		intervals [341]:
+			xmin = 645.11
+			xmax = 645.53
+			text = "..."
+		intervals [342]:
+			xmin = 645.53
+			xmax = 646.19
+			text = "meio"
+		intervals [343]:
+			xmin = 646.19
+			xmax = 646.5
+			text = "..."
+		intervals [344]:
+			xmin = 646.5
+			xmax = 653.57
+			text = "termo quer dizer igrejas modernas porque aquelas igrejas antigas hoje eu até me aborreço quando eu vou visitar de ver todo mundo fazendo da"
+		intervals [345]:
+			xmin = 653.57
+			xmax = 653.89
+			text = "..."
+		intervals [346]:
+			xmin = 653.89
+			xmax = 656.64
+			text = "igreja um museu então desapareceu a religiosidade"
+		intervals [347]:
+			xmin = 656.64
+			xmax = 657.03
+			text = "..."
+		intervals [348]:
+			xmin = 657.03
+			xmax = 659.04
+			text = "todo mundo fica olhe mas"
+		intervals [349]:
+			xmin = 659.04
+			xmax = 659.5
+			text = "..."
+		intervals [350]:
+			xmin = 659.5
+			xmax = 660.62
+			text = "que coisa analisando as"
+		intervals [351]:
+			xmin = 660.62
+			xmax = 661.0600000000001
+			text = "..."
+		intervals [352]:
+			xmin = 661.0600000000001
+			xmax = 662.58
+			text = "peças analisando então não é"
+		intervals [353]:
+			xmin = 662.58
+			xmax = 663.48
+			text = "..."
+		intervals [354]:
+			xmin = 663.48
+			xmax = 665.62
+			text = "mais um ambiente religioso"
+		intervals [355]:
+			xmin = 665.62
+			xmax = 666.08
+			text = "..."
+		intervals [356]:
+			xmin = 666.08
+			xmax = 672.1800000000001
+			text = "não é é um ambiente artístico então é a a peça é barroca é"
+		intervals [357]:
+			xmin = 672.1800000000001
+			xmax = 672.5
+			text = "..."
+		intervals [358]:
+			xmin = 672.5
+			xmax = 673.6600000000001
+			text = "isto é aquilo mas"
+		intervals [359]:
+			xmin = 673.6600000000001
+			xmax = 674.02
+			text = "..."
+		intervals [360]:
+			xmin = 674.02
+			xmax = 675.8100000000001
+			text = "quer dizer que então ninguém está"
+		intervals [361]:
+			xmin = 675.8100000000001
+			xmax = 676.1700000000001
+			text = "..."
+		intervals [362]:
+			xmin = 676.1700000000001
+			xmax = 676.8100000000001
+			text = "lá"
+		intervals [363]:
+			xmin = 676.8100000000001
+			xmax = 677.78
+			text = "..."
+		intervals [364]:
+			xmin = 677.78
+			xmax = 680.78
+			text = "dentro com espírito de religião e essas igrejas"
+		intervals [365]:
+			xmin = 680.78
+			xmax = 681.13
+			text = "..."
+		intervals [366]:
+			xmin = 681.13
+			xmax = 681.76
+			text = "que são"
+		intervals [367]:
+			xmin = 681.76
+			xmax = 682.09
+			text = "..."
+		intervals [368]:
+			xmin = 682.09
+			xmax = 684.9
+			text = "ahn modernas mas sem exagero ainda tendo suas"
+		intervals [369]:
+			xmin = 684.9
+			xmax = 685.29
+			text = "..."
+		intervals [370]:
+			xmin = 685.29
+			xmax = 690.21
+			text = "imagens eu tenho a impressão que fala mais ao coração do católico"
+		intervals [371]:
+			xmin = 690.21
+			xmax = 690.82
+			text = "..."
+		intervals [372]:
+			xmin = 690.82
+			xmax = 694.22
+			text = "porque o católico se acostumou a isso"
+		intervals [373]:
+			xmin = 694.22
+			xmax = 694.53
+			text = "..."
+		intervals [374]:
+			xmin = 694.53
+			xmax = 697.1
+			text = "e sente assim porque esta ahn vamos"
+		intervals [375]:
+			xmin = 697.1
+			xmax = 697.47
+			text = "..."
+		intervals [376]:
+			xmin = 697.47
+			xmax = 700.48
+			text = "dizer essa questão de religião assim tão"
+		intervals [377]:
+			xmin = 700.48
+			xmax = 702.12
+			text = "abstrata talvez seja justamente porque eu fui criada"
+		intervals [378]:
+			xmin = 702.12
+			xmax = 702.6
+			text = "..."
+		intervals [379]:
+			xmin = 702.6
+			xmax = 703.82
+			text = "num ambiente"
+		intervals [380]:
+			xmin = 703.82
+			xmax = 705.02
+			text = "..."
+		intervals [381]:
+			xmin = 705.02
+			xmax = 709.48
+			text = "diferente quem sabe se essa geração atual sendo agora criada nesse"
+		intervals [382]:
+			xmin = 709.48
+			xmax = 709.99
+			text = "..."
+		intervals [383]:
+			xmin = 709.99
+			xmax = 714.35
+			text = "ambiente encontre conforto nessas igrejas peladas vazias sem nada apenas é"
+		intervals [384]:
+			xmin = 714.35
+			xmax = 714.6800000000001
+			text = "..."
+		intervals [385]:
+			xmin = 714.6800000000001
+			xmax = 718.1700000000001
+			text = "uma casa como qualquer outra e e eu admiro a"
+		intervals [386]:
+			xmin = 718.1700000000001
+			xmax = 718.51
+			text = "..."
+		intervals [387]:
+			xmin = 718.51
+			xmax = 720.52
+			text = "hipótese deles sendo criados aí sentirem"
+		intervals [388]:
+			xmin = 720.52
+			xmax = 720.98
+			text = "..."
+		intervals [389]:
+			xmin = 720.98
+			xmax = 728.36
+			text = "mas eu não sinto esse ambiente de religiosidade numa igreja extraordinariamente moderna eu tenho a impressão que precisa ser um meio termo pelo"
+		intervals [390]:
+			xmin = 728.36
+			xmax = 728.72
+			text = "..."
+		intervals [391]:
+			xmin = 728.72
+			xmax = 730.0600000000001
+			text = "menos pra mim precisa"
+		intervals [392]:
+			xmin = 730.0600000000001
+			xmax = 732.94
+			text = ""
+		intervals [393]:
+			xmin = 732.94
+			xmax = 735.6500000000001
+			text = "igreja de brasília conhece conheço a"
+		intervals [394]:
+			xmin = 735.6500000000001
+			xmax = 736.1700000000001
+			text = "..."
+		intervals [395]:
+			xmin = 736.1700000000001
+			xmax = 740.98
+			text = "igreja de brasília eu acho interessante mas é para mim o que eu disse"
+		intervals [396]:
+			xmin = 740.98
+			xmax = 741.38
+			text = "..."
+		intervals [397]:
+			xmin = 741.38
+			xmax = 748.87
+			text = "não é a que me provoca religiosidade mas é muito bonita muito curiosa né a achei interessantíssima tive muito prazer em conhecer e aliás"
+		intervals [398]:
+			xmin = 748.87
+			xmax = 749.1800000000001
+			text = "..."
+		intervals [399]:
+			xmin = 749.1800000000001
+			xmax = 749.83
+			text = "já fui"
+		intervals [400]:
+			xmin = 749.83
+			xmax = 750.3100000000001
+			text = "..."
+		intervals [401]:
+			xmin = 750.3100000000001
+			xmax = 754.09
+			text = ""
+		intervals [402]:
+			xmin = 754.09
+			xmax = 767.39
+			text = "a o formato a arquitetura da igreja bom eu isto é difícil de responder assim numa entrevista sabe eu é uma coisa que há muita coisa pra dizer muito detalhe muita observação é uma igreja completamente diferente de tudo o que se tinha visto até"
+		intervals [403]:
+			xmin = 767.39
+			xmax = 767.7
+			text = "..."
+		intervals [404]:
+			xmin = 767.7
+			xmax = 768.63
+			text = "então não é mas"
+		intervals [405]:
+			xmin = 768.63
+			xmax = 768.99
+			text = "..."
+		intervals [406]:
+			xmin = 768.99
+			xmax = 772.63
+			text = "é ju ah isto eu vou repetir o que eu"
+		intervals [407]:
+			xmin = 772.63
+			xmax = 772.96
+			text = "..."
+		intervals [408]:
+			xmin = 772.96
+			xmax = 773.27
+			text = "disse"
+		intervals [409]:
+			xmin = 773.27
+			xmax = 774.74
+			text = "a você é uma uma"
+		intervals [410]:
+			xmin = 774.74
+			xmax = 775.12
+			text = "..."
+		intervals [411]:
+			xmin = 775.12
+			xmax = 775.4100000000001
+			text = "eu"
+		intervals [412]:
+			xmin = 775.4100000000001
+			xmax = 776.64
+			text = "entrei e achei muito curiosa"
+		intervals [413]:
+			xmin = 776.64
+			xmax = 777.1
+			text = "..."
+		intervals [414]:
+			xmin = 777.1
+			xmax = 787.73
+			text = "achei curiosa a arquitetura o aspecto aquela coisa redonda e aquele modo da gente estar ali pra assistir o o ofício religioso não é mas não me provocou nada em matéria de"
+		intervals [415]:
+			xmin = 787.73
+			xmax = 788.05
+			text = "..."
+		intervals [416]:
+			xmin = 788.05
+			xmax = 792.23
+			text = ""
+		intervals [417]:
+			xmin = 792.23
+			xmax = 792.88
+			text = "não"
+		intervals [418]:
+			xmin = 792.88
+			xmax = 794.62
+			text = "não não"
+		intervals [419]:
+			xmin = 794.62
+			xmax = 796.25
+			text = "não são não não"
+		intervals [420]:
+			xmin = 796.25
+			xmax = 796.8
+			text = "..."
+		intervals [421]:
+			xmin = 796.8
+			xmax = 797.29
+			text = "há"
+		intervals [422]:
+			xmin = 797.29
+			xmax = 797.63
+			text = "..."
+		intervals [423]:
+			xmin = 797.63
+			xmax = 800.09
+			text = "são uns blocos assim para algumas pessoas tudo mas não"
+		intervals [424]:
+			xmin = 800.09
+			xmax = 800.4200000000001
+			text = "..."
+		intervals [425]:
+			xmin = 800.4200000000001
+			xmax = 802.4100000000001
+			text = "são bancos não de"
+		intervals [426]:
+			xmin = 802.4100000000001
+			xmax = 802.87
+			text = "..."
+		intervals [427]:
+			xmin = 802.87
+			xmax = 803.19
+			text = "maneira"
+		intervals [428]:
+			xmin = 803.19
+			xmax = 803.88
+			text = "..."
+		intervals [429]:
+			xmin = 803.88
+			xmax = 804.79
+			text = "que"
+		intervals [430]:
+			xmin = 804.79
+			xmax = 805.24
+			text = "..."
+		intervals [431]:
+			xmin = 805.24
+			xmax = 805.39
+			text = "é"
+		intervals [432]:
+			xmin = 805.39
+			xmax = 805.74
+			text = "..."
+		intervals [433]:
+			xmin = 805.74
+			xmax = 807.64
+			text = "completamente diferente mas os bancos"
+		intervals [434]:
+			xmin = 807.64
+			xmax = 808.59
+			text = "eu"
+		intervals [435]:
+			xmin = 808.59
+			xmax = 813.6600000000001
+			text = "acho que ainda não teriam maior importância maior importância é mesmo o ambiente quer"
+		intervals [436]:
+			xmin = 813.6600000000001
+			xmax = 814.19
+			text = "..."
+		intervals [437]:
+			xmin = 814.19
+			xmax = 815.4100000000001
+			text = "dizer é como eu"
+		intervals [438]:
+			xmin = 815.4100000000001
+			xmax = 815.73
+			text = "..."
+		intervals [439]:
+			xmin = 815.73
+			xmax = 819.95
+			text = "disse pode ser que essa geração que está nascendo em brasília"
+		intervals [440]:
+			xmin = 819.95
+			xmax = 820.3
+			text = "..."
+		intervals [441]:
+			xmin = 820.3
+			xmax = 822.38
+			text = "e crescendo lá ache que é uma"
+		intervals [442]:
+			xmin = 822.38
+			xmax = 822.76
+			text = "..."
+		intervals [443]:
+			xmin = 822.76
+			xmax = 2604.0800000000004
+			text = ""
+	item [4]:
+		class = "IntervalTier"
+		name = "NTB-l1"
+		xmin = 0.0
+		xmax = 2604.0800000000004
+		intervals: size = 443
+		intervals [1]:
+			xmin = 0.0
+			xmax = 1.02
+			text = ""
+		intervals [2]:
+			xmin = 1.02
+			xmax = 1.58
+			text = "religião por"
+		intervals [3]:
+			xmin = 1.58
+			xmax = 2.14
+			text = "..."
+		intervals [4]:
+			xmin = 2.14
+			xmax = 2.59
+			text = "uma"
+		intervals [5]:
+			xmin = 2.59
+			xmax = 6.19
+			text = "ou outra religião isso eu tive muita oportunidade de ver em alguns"
+		intervals [6]:
+			xmin = 6.19
+			xmax = 8.67
+			text = "..."
+		intervals [7]:
+			xmin = 8.67
+			xmax = 10.37
+			text = "países e achei interessante"
+		intervals [8]:
+			xmin = 10.37
+			xmax = 13.65
+			text = "quer dizer muito respeito à à igreja a"
+		intervals [9]:
+			xmin = 13.65
+			xmax = 14.34
+			text = "..."
+		intervals [10]:
+			xmin = 14.34
+			xmax = 17.58
+			text = "e religião mas não não fiz observação nenhuma sobre"
+		intervals [11]:
+			xmin = 17.58
+			xmax = 18.34
+			text = "..."
+		intervals [12]:
+			xmin = 18.34
+			xmax = 19.73
+			text = "data isto eu"
+		intervals [13]:
+			xmin = 19.73
+			xmax = 20.54
+			text = "..."
+		intervals [14]:
+			xmin = 20.54
+			xmax = 30.83
+			text = ""
+		intervals [15]:
+			xmin = 30.83
+			xmax = 35.26
+			text = "demonstrou maior interesse pela religião bom isso também essa re ahn"
+		intervals [16]:
+			xmin = 35.26
+			xmax = 36.21
+			text = "..."
+		intervals [17]:
+			xmin = 36.21
+			xmax = 41.02
+			text = "respó pergunta também eu tenho preocupação de responder porque como"
+		intervals [18]:
+			xmin = 41.02
+			xmax = 41.61
+			text = "..."
+		intervals [19]:
+			xmin = 41.61
+			xmax = 44.5
+			text = "eu não tive é a preocupação"
+		intervals [20]:
+			xmin = 44.5
+			xmax = 44.9
+			text = "..."
+		intervals [21]:
+			xmin = 44.9
+			xmax = 49.51
+			text = "de observar eu fui observando assim ao acaso não é mas"
+		intervals [22]:
+			xmin = 49.51
+			xmax = 49.86
+			text = "..."
+		intervals [23]:
+			xmin = 49.86
+			xmax = 52.13
+			text = "pra eu dizer"
+		intervals [24]:
+			xmin = 52.13
+			xmax = 52.65
+			text = "..."
+		intervals [25]:
+			xmin = 52.65
+			xmax = 54.13
+			text = "que eu acho que"
+		intervals [26]:
+			xmin = 54.13
+			xmax = 54.6
+			text = "..."
+		intervals [27]:
+			xmin = 54.6
+			xmax = 56.17
+			text = "está é mais do"
+		intervals [28]:
+			xmin = 56.17
+			xmax = 56.67
+			text = "..."
+		intervals [29]:
+			xmin = 56.67
+			xmax = 56.97
+			text = "que"
+		intervals [30]:
+			xmin = 56.97
+			xmax = 57.98
+			text = "aquela eu"
+		intervals [31]:
+			xmin = 57.98
+			xmax = 58.75
+			text = "..."
+		intervals [32]:
+			xmin = 58.75
+			xmax = 64.05
+			text = "posso até me comprometer e dar uma informação errada"
+		intervals [33]:
+			xmin = 64.05
+			xmax = 67.64
+			text = "..."
+		intervals [34]:
+			xmin = 67.64
+			xmax = 67.79
+			text = "porque"
+		intervals [35]:
+			xmin = 67.79
+			xmax = 68.47
+			text = "..."
+		intervals [36]:
+			xmin = 68.47
+			xmax = 75.6
+			text = "para isso eu precisaria fazer um uma observação aliás eu sou muito cuidadosa em fazer afirmações de observações sociais"
+		intervals [37]:
+			xmin = 75.6
+			xmax = 75.9
+			text = "..."
+		intervals [38]:
+			xmin = 75.9
+			xmax = 79.61
+			text = "como a gente diz fulanos ou tal raça é assim tal"
+		intervals [39]:
+			xmin = 79.61
+			xmax = 81.68
+			text = "..."
+		intervals [40]:
+			xmin = 81.68
+			xmax = 85.17
+			text = "raça é de outra maneira quer"
+		intervals [41]:
+			xmin = 85.17
+			xmax = 85.73
+			text = "..."
+		intervals [42]:
+			xmin = 85.73
+			xmax = 87.62
+			text = "dizer ou elogiando ou"
+		intervals [43]:
+			xmin = 87.62
+			xmax = 88.5
+			text = "..."
+		intervals [44]:
+			xmin = 88.5
+			xmax = 89.16
+			text = "éh"
+		intervals [45]:
+			xmin = 89.16
+			xmax = 89.8
+			text = "..."
+		intervals [46]:
+			xmin = 89.8
+			xmax = 93.96
+			text = "fazendo maus comentários não é eu não faço porque eu acho que isso"
+		intervals [47]:
+			xmin = 93.96
+			xmax = 94.45
+			text = "..."
+		intervals [48]:
+			xmin = 94.45
+			xmax = 97.42
+			text = "é uma coisa muito séria a gente precisa observar"
+		intervals [49]:
+			xmin = 97.42
+			xmax = 98.2
+			text = "..."
+		intervals [50]:
+			xmin = 98.2
+			xmax = 99.55
+			text = "muito pra poder"
+		intervals [51]:
+			xmin = 99.55
+			xmax = 99.91
+			text = "..."
+		intervals [52]:
+			xmin = 99.91
+			xmax = 100.74
+			text = "fazer um"
+		intervals [53]:
+			xmin = 100.74
+			xmax = 101.05
+			text = "..."
+		intervals [54]:
+			xmin = 101.05
+			xmax = 102.93
+			text = "levantamento chegar a"
+		intervals [55]:
+			xmin = 102.93
+			xmax = 104.33
+			text = "..."
+		intervals [56]:
+			xmin = 104.33
+			xmax = 111.41
+			text = "conclusões que nem sempre são exatas mesmo depois do levantamento não é agora assim"
+		intervals [57]:
+			xmin = 111.41
+			xmax = 111.91
+			text = "..."
+		intervals [58]:
+			xmin = 111.91
+			xmax = 115.34
+			text = "determinar uma característica pra isso eu"
+		intervals [59]:
+			xmin = 115.34
+			xmax = 115.85
+			text = "..."
+		intervals [60]:
+			xmin = 115.85
+			xmax = 119.03
+			text = "gostaria de responder só se"
+		intervals [61]:
+			xmin = 119.03
+			xmax = 119.76
+			text = "..."
+		intervals [62]:
+			xmin = 119.76
+			xmax = 122.16
+			text = "eu tivesse feito mesmo uma"
+		intervals [63]:
+			xmin = 122.16
+			xmax = 122.65
+			text = "..."
+		intervals [64]:
+			xmin = 122.65
+			xmax = 123.01
+			text = "observação melhor"
+		intervals [65]:
+			xmin = 123.01
+			xmax = 133.96
+			text = ""
+		intervals [66]:
+			xmin = 133.96
+			xmax = 137.65
+			text = "existe alguma coisa mais sim eu fiz não"
+		intervals [67]:
+			xmin = 137.65
+			xmax = 138.17
+			text = "..."
+		intervals [68]:
+			xmin = 138.17
+			xmax = 139.1
+			text = "é digamos"
+		intervals [69]:
+			xmin = 139.1
+			xmax = 140.2
+			text = "..."
+		intervals [70]:
+			xmin = 140.2
+			xmax = 142.92
+			text = "fiz primeira comunhão fui crismada quer dizer"
+		intervals [71]:
+			xmin = 142.92
+			xmax = 143.57
+			text = "..."
+		intervals [72]:
+			xmin = 143.57
+			xmax = 147.0
+			text = "que eu a minha família fez"
+		intervals [73]:
+			xmin = 147.0
+			xmax = 149.98
+			text = "..."
+		intervals [74]:
+			xmin = 149.98
+			xmax = 155.32
+			text = "tudo que era para fazer dentro da religião não"
+		intervals [75]:
+			xmin = 155.32
+			xmax = 156.3
+			text = "..."
+		intervals [76]:
+			xmin = 156.3
+			xmax = 158.15
+			text = "é frequentava missa aos domingos"
+		intervals [77]:
+			xmin = 158.15
+			xmax = 159.28
+			text = "..."
+		intervals [78]:
+			xmin = 159.28
+			xmax = 161.37
+			text = "depois é que eu"
+		intervals [79]:
+			xmin = 161.37
+			xmax = 161.87
+			text = "..."
+		intervals [80]:
+			xmin = 161.87
+			xmax = 162.36
+			text = "fui"
+		intervals [81]:
+			xmin = 162.36
+			xmax = 162.9
+			text = "..."
+		intervals [82]:
+			xmin = 162.9
+			xmax = 163.67
+			text = "naturalmente"
+		intervals [83]:
+			xmin = 163.67
+			xmax = 163.97
+			text = "..."
+		intervals [84]:
+			xmin = 163.97
+			xmax = 166.1
+			text = "mais adulta tomando outros rumos"
+		intervals [85]:
+			xmin = 166.1
+			xmax = 166.96
+			text = "..."
+		intervals [86]:
+			xmin = 166.96
+			xmax = 169.47
+			text = "não é mas ahn toda durante a minha"
+		intervals [87]:
+			xmin = 169.47
+			xmax = 170.36
+			text = "..."
+		intervals [88]:
+			xmin = 170.36
+			xmax = 171.39
+			text = "infância"
+		intervals [89]:
+			xmin = 171.39
+			xmax = 171.65
+			text = "a"
+		intervals [90]:
+			xmin = 171.65
+			xmax = 172.54
+			text = "orientação"
+		intervals [91]:
+			xmin = 172.54
+			xmax = 173.4
+			text = "..."
+		intervals [92]:
+			xmin = 173.4
+			xmax = 178.17
+			text = "da minha casa era bem segura não é"
+		intervals [93]:
+			xmin = 178.17
+			xmax = 179.31
+			text = "..."
+		intervals [94]:
+			xmin = 179.31
+			xmax = 180.05
+			text = "quer dizer"
+		intervals [95]:
+			xmin = 180.05
+			xmax = 181.14
+			text = "..."
+		intervals [96]:
+			xmin = 181.14
+			xmax = 182.88
+			text = "que depois que eu pude"
+		intervals [97]:
+			xmin = 182.88
+			xmax = 183.31
+			text = "..."
+		intervals [98]:
+			xmin = 183.31
+			xmax = 185.59
+			text = "escolher o que eu queria fazer é que"
+		intervals [99]:
+			xmin = 185.59
+			xmax = 186.79
+			text = "..."
+		intervals [100]:
+			xmin = 186.79
+			xmax = 189.57
+			text = "eu tomei outras deliberações mas fiz fiz estas"
+		intervals [101]:
+			xmin = 189.57
+			xmax = 190.25
+			text = "..."
+		intervals [102]:
+			xmin = 190.25
+			xmax = 190.74
+			text = "todas"
+		intervals [103]:
+			xmin = 190.74
+			xmax = 191.41
+			text = "..."
+		intervals [104]:
+			xmin = 191.41
+			xmax = 192.91
+			text = "essas obrigações"
+		intervals [105]:
+			xmin = 192.91
+			xmax = 193.32
+			text = "..."
+		intervals [106]:
+			xmin = 193.32
+			xmax = 204.06
+			text = ""
+		intervals [107]:
+			xmin = 204.06
+			xmax = 210.26
+			text = "né digamos que eu desconhecesse o assunto o que é uma missa bem a missa eu acho melhor não descrever porque naturalmente eu teri gostaria"
+		intervals [108]:
+			xmin = 210.26
+			xmax = 212.34
+			text = "..."
+		intervals [109]:
+			xmin = 212.34
+			xmax = 213.54
+			text = "de"
+		intervals [110]:
+			xmin = 213.54
+			xmax = 214.02
+			text = "..."
+		intervals [111]:
+			xmin = 214.02
+			xmax = 215.74
+			text = "fazer se fosse fazer uma"
+		intervals [112]:
+			xmin = 215.74
+			xmax = 216.08
+			text = "..."
+		intervals [113]:
+			xmin = 216.08
+			xmax = 217.27
+			text = "coisa dessa"
+		intervals [114]:
+			xmin = 217.27
+			xmax = 217.62
+			text = "..."
+		intervals [115]:
+			xmin = 217.62
+			xmax = 219.39
+			text = "eu gostaria de fazer uma coisa"
+		intervals [116]:
+			xmin = 219.39
+			xmax = 220.04
+			text = "..."
+		intervals [117]:
+			xmin = 220.04
+			xmax = 221.21
+			text = "bem feita como"
+		intervals [118]:
+			xmin = 221.21
+			xmax = 221.91
+			text = "..."
+		intervals [119]:
+			xmin = 221.91
+			xmax = 225.15
+			text = "eu acabei de dizer a você"
+		intervals [120]:
+			xmin = 225.15
+			xmax = 225.58
+			text = "..."
+		intervals [121]:
+			xmin = 225.58
+			xmax = 226.61
+			text = "eu sou"
+		intervals [122]:
+			xmin = 226.61
+			xmax = 227.24
+			text = "..."
+		intervals [123]:
+			xmin = 227.24
+			xmax = 229.15
+			text = "uma pessoa que"
+		intervals [124]:
+			xmin = 229.15
+			xmax = 229.55
+			text = "..."
+		intervals [125]:
+			xmin = 229.55
+			xmax = 231.24
+			text = "tenho preocupação de"
+		intervals [126]:
+			xmin = 231.24
+			xmax = 232.13
+			text = "..."
+		intervals [127]:
+			xmin = 232.13
+			xmax = 234.81
+			text = "fazer descrições ou afirmações de coisas que não"
+		intervals [128]:
+			xmin = 234.81
+			xmax = 235.23
+			text = "..."
+		intervals [129]:
+			xmin = 235.23
+			xmax = 238.07
+			text = "estou bem ah ah orientada"
+		intervals [130]:
+			xmin = 238.07
+			xmax = 238.69
+			text = "..."
+		intervals [131]:
+			xmin = 238.69
+			xmax = 241.12
+			text = "pra fazer não é de"
+		intervals [132]:
+			xmin = 241.12
+			xmax = 241.79
+			text = "..."
+		intervals [133]:
+			xmin = 241.79
+			xmax = 249.91
+			text = "maneira que eu se eu fosse responder isto exatamente eu teria que pensar bem não seria assim"
+		intervals [134]:
+			xmin = 249.91
+			xmax = 250.37
+			text = "..."
+		intervals [135]:
+			xmin = 250.37
+			xmax = 252.22
+			text = "numa entrevista porque"
+		intervals [136]:
+			xmin = 252.22
+			xmax = 252.66
+			text = "..."
+		intervals [137]:
+			xmin = 252.66
+			xmax = 256.24
+			text = "como justamente eu não frequento missa não é"
+		intervals [138]:
+			xmin = 256.24
+			xmax = 257.05
+			text = "..."
+		intervals [139]:
+			xmin = 257.05
+			xmax = 259.47
+			text = "eu queria fazer éh precisaria"
+		intervals [140]:
+			xmin = 259.47
+			xmax = 259.86
+			text = "..."
+		intervals [141]:
+			xmin = 259.86
+			xmax = 261.3
+			text = "reavivar a minha"
+		intervals [142]:
+			xmin = 261.3
+			xmax = 261.65
+			text = "..."
+		intervals [143]:
+			xmin = 261.65
+			xmax = 263.7
+			text = "memória com todos os dados pra poder"
+		intervals [144]:
+			xmin = 263.7
+			xmax = 264.5
+			text = "..."
+		intervals [145]:
+			xmin = 264.5
+			xmax = 265.99
+			text = "dizer uma coisa certa mas"
+		intervals [146]:
+			xmin = 265.99
+			xmax = 267.05
+			text = "é"
+		intervals [147]:
+			xmin = 267.05
+			xmax = 268.06
+			text = "que uma coisa"
+		intervals [148]:
+			xmin = 268.06
+			xmax = 268.73
+			text = "..."
+		intervals [149]:
+			xmin = 268.73
+			xmax = 270.6
+			text = "que vai ficar gravada eu não"
+		intervals [150]:
+			xmin = 270.6
+			xmax = 271.07
+			text = "..."
+		intervals [151]:
+			xmin = 271.07
+			xmax = 271.52
+			text = "quero"
+		intervals [152]:
+			xmin = 271.52
+			xmax = 271.84
+			text = "..."
+		intervals [153]:
+			xmin = 271.84
+			xmax = 273.44
+			text = "que fique sem ser correta"
+		intervals [154]:
+			xmin = 273.44
+			xmax = 278.14
+			text = ""
+		intervals [155]:
+			xmin = 278.14
+			xmax = 281.24
+			text = "por perguntas quem é que realiza uma missa era"
+		intervals [156]:
+			xmin = 281.24
+			xmax = 281.93
+			text = "..."
+		intervals [157]:
+			xmin = 281.93
+			xmax = 284.7
+			text = "o padre mas agora até já"
+		intervals [158]:
+			xmin = 284.7
+			xmax = 285.09
+			text = "..."
+		intervals [159]:
+			xmin = 285.09
+			xmax = 287.43
+			text = "estão freiras realizando né nó eu"
+		intervals [160]:
+			xmin = 287.43
+			xmax = 287.7
+			text = "tenho"
+		intervals [161]:
+			xmin = 287.7
+			xmax = 288.15
+			text = "..."
+		intervals [162]:
+			xmin = 288.15
+			xmax = 292.58
+			text = "aqui na vila carioca as franciscana de maria né então"
+		intervals [163]:
+			xmin = 292.58
+			xmax = 293.0
+			text = "..."
+		intervals [164]:
+			xmin = 293.0
+			xmax = 295.81
+			text = "você vê que eu mais ou menos estou"
+		intervals [165]:
+			xmin = 295.81
+			xmax = 296.23
+			text = "..."
+		intervals [166]:
+			xmin = 296.23
+			xmax = 303.56
+			text = "atualizada as franciscanas de maria estão fazendo todo o trabalho elas estão realizando missa elas estão dando extremaunção estão ahn"
+		intervals [167]:
+			xmin = 303.56
+			xmax = 304.07
+			text = "..."
+		intervals [168]:
+			xmin = 304.07
+			xmax = 312.16
+			text = ""
+		intervals [169]:
+			xmin = 312.16
+			xmax = 318.43
+			text = "de grande número de pessoas ou não e como é essa participação se houver agora as missas estão"
+		intervals [170]:
+			xmin = 318.43
+			xmax = 319.69
+			text = "..."
+		intervals [171]:
+			xmin = 319.69
+			xmax = 326.59
+			text = "todas com muita participação eles estão até pedindo a pessoas que vão ajudar não é antigamente era o"
+		intervals [172]:
+			xmin = 326.59
+			xmax = 327.21
+			text = "..."
+		intervals [173]:
+			xmin = 327.21
+			xmax = 329.19
+			text = "serviço feito só por"
+		intervals [174]:
+			xmin = 329.19
+			xmax = 329.87
+			text = "..."
+		intervals [175]:
+			xmin = 329.87
+			xmax = 330.22
+			text = "aqueles"
+		intervals [176]:
+			xmin = 330.22
+			xmax = 331.11
+			text = "..."
+		intervals [177]:
+			xmin = 331.11
+			xmax = 331.63
+			text = "meninos"
+		intervals [178]:
+			xmin = 331.63
+			xmax = 331.98
+			text = "que"
+		intervals [179]:
+			xmin = 331.98
+			xmax = 334.92
+			text = "se chamavam coroinhas não é e hoje não as pessoas"
+		intervals [180]:
+			xmin = 334.92
+			xmax = 336.2
+			text = "..."
+		intervals [181]:
+			xmin = 336.2
+			xmax = 338.29
+			text = "estão participando da missa"
+		intervals [182]:
+			xmin = 338.29
+			xmax = 338.76
+			text = "..."
+		intervals [183]:
+			xmin = 338.76
+			xmax = 340.82
+			text = "as missas que eu tenho"
+		intervals [184]:
+			xmin = 340.82
+			xmax = 341.35
+			text = "..."
+		intervals [185]:
+			xmin = 341.35
+			xmax = 341.69
+			text = "assistido"
+		intervals [186]:
+			xmin = 341.69
+			xmax = 342.42
+			text = "..."
+		intervals [187]:
+			xmin = 342.42
+			xmax = 343.69
+			text = "todas tem havido muita"
+		intervals [188]:
+			xmin = 343.69
+			xmax = 344.87
+			text = "..."
+		intervals [189]:
+			xmin = 344.87
+			xmax = 346.85
+			text = "participação inclusive estão fazendo muita"
+		intervals [190]:
+			xmin = 346.85
+			xmax = 347.17
+			text = "..."
+		intervals [191]:
+			xmin = 347.17
+			xmax = 348.66
+			text = "participação também com"
+		intervals [192]:
+			xmin = 348.66
+			xmax = 349.31
+			text = "..."
+		intervals [193]:
+			xmin = 349.31
+			xmax = 353.88
+			text = "o pessoal éh entre todos que estão assistindo mostrando assim uma união"
+		intervals [194]:
+			xmin = 353.88
+			xmax = 354.29
+			text = "..."
+		intervals [195]:
+			xmin = 354.29
+			xmax = 360.54
+			text = ""
+		intervals [196]:
+			xmin = 360.54
+			xmax = 368.79
+			text = "disse das das freiras tal o que você queria que eu dissesse mais eu eu estava observando que todos os que estão assistindo à missa"
+		intervals [197]:
+			xmin = 368.79
+			xmax = 369.57
+			text = "..."
+		intervals [198]:
+			xmin = 369.57
+			xmax = 370.96
+			text = "estão assistindo à missa"
+		intervals [199]:
+			xmin = 370.96
+			xmax = 371.39
+			text = "..."
+		intervals [200]:
+			xmin = 371.39
+			xmax = 373.81
+			text = "estão se cumprimentando ao terminar"
+		intervals [201]:
+			xmin = 373.81
+			xmax = 374.15
+			text = "..."
+		intervals [202]:
+			xmin = 374.15
+			xmax = 376.15
+			text = "a missa não é e isto"
+		intervals [203]:
+			xmin = 376.15
+			xmax = 377.03
+			text = "..."
+		intervals [204]:
+			xmin = 377.03
+			xmax = 381.01
+			text = "eu não e estou tão convencida da utilidade disso eu"
+		intervals [205]:
+			xmin = 381.01
+			xmax = 381.84
+			text = "..."
+		intervals [206]:
+			xmin = 381.84
+			xmax = 382.29
+			text = "pessoalmente"
+		intervals [207]:
+			xmin = 382.29
+			xmax = 382.65
+			text = "..."
+		intervals [208]:
+			xmin = 382.65
+			xmax = 387.72
+			text = "mas talvez isto seja uma falha minha porque eu tenho conversado com muitas pessoas que"
+		intervals [209]:
+			xmin = 387.72
+			xmax = 388.08
+			text = "..."
+		intervals [210]:
+			xmin = 388.08
+			xmax = 388.54
+			text = "estão"
+		intervals [211]:
+			xmin = 388.54
+			xmax = 388.9
+			text = "..."
+		intervals [212]:
+			xmin = 388.9
+			xmax = 394.32
+			text = "gostando muito disso achando que é uma coisa interessante que dá um aspecto assim"
+		intervals [213]:
+			xmin = 394.32
+			xmax = 394.72
+			text = "..."
+		intervals [214]:
+			xmin = 394.72
+			xmax = 396.32
+			text = "bom a gente"
+		intervals [215]:
+			xmin = 396.32
+			xmax = 397.22
+			text = "..."
+		intervals [216]:
+			xmin = 397.22
+			xmax = 399.1
+			text = "ahn e h ver o seu"
+		intervals [217]:
+			xmin = 399.1
+			xmax = 399.79
+			text = "..."
+		intervals [218]:
+			xmin = 399.79
+			xmax = 400.94
+			text = "irmão"
+		intervals [219]:
+			xmin = 400.94
+			xmax = 402.13
+			text = "..."
+		intervals [220]:
+			xmin = 402.13
+			xmax = 404.03
+			text = "afinal ali cumprimentar"
+		intervals [221]:
+			xmin = 404.03
+			xmax = 404.84
+			text = "..."
+		intervals [222]:
+			xmin = 404.84
+			xmax = 407.11
+			text = "um desconhecido mas que"
+		intervals [223]:
+			xmin = 407.11
+			xmax = 407.52
+			text = "..."
+		intervals [224]:
+			xmin = 407.52
+			xmax = 412.13
+			text = "demonstra assim uma certa ahn união e e ouvi vejo e como eu"
+		intervals [225]:
+			xmin = 412.13
+			xmax = 412.53
+			text = "..."
+		intervals [226]:
+			xmin = 412.53
+			xmax = 412.69
+			text = "estava"
+		intervals [227]:
+			xmin = 412.69
+			xmax = 413.54
+			text = "..."
+		intervals [228]:
+			xmin = 413.54
+			xmax = 415.51
+			text = "falando eu pessoalmente não não"
+		intervals [229]:
+			xmin = 415.51
+			xmax = 416.18
+			text = "..."
+		intervals [230]:
+			xmin = 416.18
+			xmax = 418.89
+			text = "vejo muita utilidade disso mas ah são"
+		intervals [231]:
+			xmin = 418.89
+			xmax = 419.62
+			text = "..."
+		intervals [232]:
+			xmin = 419.62
+			xmax = 426.29
+			text = "muitas as opiniões a favor disso agora o que eu acho que melhorou muito"
+		intervals [233]:
+			xmin = 426.29
+			xmax = 426.72
+			text = "..."
+		intervals [234]:
+			xmin = 426.72
+			xmax = 429.13
+			text = "na missa nas missas"
+		intervals [235]:
+			xmin = 429.13
+			xmax = 429.46
+			text = "..."
+		intervals [236]:
+			xmin = 429.46
+			xmax = 434.87
+			text = "modernas em relação às missas antigas porque uma das coisas que eu não acho que"
+		intervals [237]:
+			xmin = 434.87
+			xmax = 435.32
+			text = "..."
+		intervals [238]:
+			xmin = 435.32
+			xmax = 438.86
+			text = "foi bom foi aquele exagero que começou haver de"
+		intervals [239]:
+			xmin = 438.86
+			xmax = 439.27
+			text = "..."
+		intervals [240]:
+			xmin = 439.27
+			xmax = 445.9
+			text = "modernismo com relação a músicas e tudo mais um exagero que não não combinava com o ambiente da igreja mas atualmente"
+		intervals [241]:
+			xmin = 445.9
+			xmax = 446.29
+			text = "..."
+		intervals [242]:
+			xmin = 446.29
+			xmax = 448.77
+			text = "eu tenho assistido missas que eu"
+		intervals [243]:
+			xmin = 448.77
+			xmax = 449.71
+			text = "..."
+		intervals [244]:
+			xmin = 449.71
+			xmax = 452.2
+			text = "considero magníficas posso citar por exemplo"
+		intervals [245]:
+			xmin = 452.2
+			xmax = 453.43
+			text = "..."
+		intervals [246]:
+			xmin = 453.43
+			xmax = 455.51
+			text = "umas que foram realizadas"
+		intervals [247]:
+			xmin = 455.51
+			xmax = 455.84
+			text = "..."
+		intervals [248]:
+			xmin = 455.84
+			xmax = 456.88
+			text = "na ahn"
+		intervals [249]:
+			xmin = 456.88
+			xmax = 457.32
+			text = "..."
+		intervals [250]:
+			xmin = 457.32
+			xmax = 457.46
+			text = "puc"
+		intervals [251]:
+			xmin = 457.46
+			xmax = 458.21
+			text = "..."
+		intervals [252]:
+			xmin = 458.21
+			xmax = 461.96
+			text = "na igreja da puc há uns dois ou três padres"
+		intervals [253]:
+			xmin = 461.96
+			xmax = 462.4
+			text = "..."
+		intervals [254]:
+			xmin = 462.4
+			xmax = 464.27
+			text = "lá que eu acho que são assim"
+		intervals [255]:
+			xmin = 464.27
+			xmax = 465.02
+			text = "extraordinários"
+		intervals [256]:
+			xmin = 465.02
+			xmax = 465.61
+			text = "..."
+		intervals [257]:
+			xmin = 465.61
+			xmax = 467.58
+			text = "porque no decorrer da missa eles"
+		intervals [258]:
+			xmin = 467.58
+			xmax = 467.99
+			text = "..."
+		intervals [259]:
+			xmin = 467.99
+			xmax = 469.53
+			text = "param e eles conversam"
+		intervals [260]:
+			xmin = 469.53
+			xmax = 470.06
+			text = "..."
+		intervals [261]:
+			xmin = 470.06
+			xmax = 474.51
+			text = "com o público que está assistindo à missa e as palavras que"
+		intervals [262]:
+			xmin = 474.51
+			xmax = 475.96
+			text = "..."
+		intervals [263]:
+			xmin = 475.96
+			xmax = 480.71
+			text = "eles têm dito têm sido formidáveis extraordinárias como elevação como"
+		intervals [264]:
+			xmin = 480.71
+			xmax = 481.43
+			text = "..."
+		intervals [265]:
+			xmin = 481.43
+			xmax = 484.23
+			text = "provocação de uma conduta melhor dos"
+		intervals [266]:
+			xmin = 484.23
+			xmax = 484.73
+			text = "..."
+		intervals [267]:
+			xmin = 484.73
+			xmax = 485.89
+			text = "homens mas"
+		intervals [268]:
+			xmin = 485.89
+			xmax = 486.44
+			text = "..."
+		intervals [269]:
+			xmin = 486.44
+			xmax = 493.47
+			text = "tudo jogando com argumentos muito ah espontâneos muito naturais esse estes padres fizeram trabalhos magníficos eu já"
+		intervals [270]:
+			xmin = 493.47
+			xmax = 494.0
+			text = "..."
+		intervals [271]:
+			xmin = 494.0
+			xmax = 497.92
+			text = "assisti umas diversas missas na puc que me encantaram a missa"
+		intervals [272]:
+			xmin = 497.92
+			xmax = 498.22
+			text = "..."
+		intervals [273]:
+			xmin = 498.22
+			xmax = 498.9
+			text = "de domingo"
+		intervals [274]:
+			xmin = 498.9
+			xmax = 499.57
+			text = "..."
+		intervals [275]:
+			xmin = 499.57
+			xmax = 503.07
+			text = "mesmo lá é muito boa eu estou"
+		intervals [276]:
+			xmin = 503.07
+			xmax = 504.51
+			text = "..."
+		intervals [277]:
+			xmin = 504.51
+			xmax = 511.24
+			text = "citando a da puc porque é perto da minha casa não é e eu"
+		intervals [278]:
+			xmin = 511.24
+			xmax = 511.88
+			text = "..."
+		intervals [279]:
+			xmin = 511.88
+			xmax = 514.48
+			text = "posso ahn então acompanhar ah outro dia"
+		intervals [280]:
+			xmin = 514.48
+			xmax = 514.87
+			text = "..."
+		intervals [281]:
+			xmin = 514.87
+			xmax = 520.86
+			text = "assisti uma na liga das senhoras católicas também monsenhor benedito que ahn rezou a missa ele se"
+		intervals [282]:
+			xmin = 520.86
+			xmax = 522.08
+			text = "..."
+		intervals [283]:
+			xmin = 522.08
+			xmax = 522.45
+			text = "dirigiu"
+		intervals [284]:
+			xmin = 522.45
+			xmax = 522.81
+			text = "..."
+		intervals [285]:
+			xmin = 522.81
+			xmax = 526.44
+			text = "ao público mas d e uma maneira ah encantadora"
+		intervals [286]:
+			xmin = 526.44
+			xmax = 528.82
+			text = "extraordinária todo mundo saiu feliz da igreja neste"
+		intervals [287]:
+			xmin = 528.82
+			xmax = 529.35
+			text = "..."
+		intervals [288]:
+			xmin = 529.35
+			xmax = 535.63
+			text = "ponto eu acho que melhorou demais e é o trabalho de evangelização que eu estou lendo sempre"
+		intervals [289]:
+			xmin = 535.63
+			xmax = 536.14
+			text = "..."
+		intervals [290]:
+			xmin = 536.14
+			xmax = 542.06
+			text = "no jornal que até o papa está preocupadíssimo com ele achando que é uma tarefa dificílima quer"
+		intervals [291]:
+			xmin = 542.06
+			xmax = 543.01
+			text = "..."
+		intervals [292]:
+			xmin = 543.01
+			xmax = 547.49
+			text = "dizer que eles estão encontrando dificuldade de"
+		intervals [293]:
+			xmin = 547.49
+			xmax = 548.34
+			text = "..."
+		intervals [294]:
+			xmin = 548.34
+			xmax = 554.96
+			text = "toda ordem o que está certo porque neste mundo nós estamos vendo tanta coisa que precisa"
+		intervals [295]:
+			xmin = 554.96
+			xmax = 555.39
+			text = "..."
+		intervals [296]:
+			xmin = 555.39
+			xmax = 556.39
+			text = "ser consertada"
+		intervals [297]:
+			xmin = 556.39
+			xmax = 556.7
+			text = "..."
+		intervals [298]:
+			xmin = 556.7
+			xmax = 557.6
+			text = "quer dizer"
+		intervals [299]:
+			xmin = 557.6
+			xmax = 558.72
+			text = "..."
+		intervals [300]:
+			xmin = 558.72
+			xmax = 562.07
+			text = "tantas condutas humanas que estão tomando"
+		intervals [301]:
+			xmin = 562.07
+			xmax = 562.58
+			text = "..."
+		intervals [302]:
+			xmin = 562.58
+			xmax = 565.68
+			text = "rumos absolutamente errados que eu imagino que a"
+		intervals [303]:
+			xmin = 565.68
+			xmax = 566.37
+			text = "..."
+		intervals [304]:
+			xmin = 566.37
+			xmax = 566.67
+			text = "tarefa"
+		intervals [305]:
+			xmin = 566.67
+			xmax = 568.84
+			text = "do pastor hoje deve ser uma"
+		intervals [306]:
+			xmin = 568.84
+			xmax = 569.2
+			text = "..."
+		intervals [307]:
+			xmin = 569.2
+			xmax = 570.16
+			text = "tarefa enorme difícil de"
+		intervals [308]:
+			xmin = 570.16
+			xmax = 570.6
+			text = "..."
+		intervals [309]:
+			xmin = 570.6
+			xmax = 577.94
+			text = "ser executada mas naturalmente que cada um precisa fazendo alguma coisa e aos poucos é que pode"
+		intervals [310]:
+			xmin = 577.94
+			xmax = 578.26
+			text = "..."
+		intervals [311]:
+			xmin = 578.26
+			xmax = 581.72
+			text = "conseguir né de maneira que em matéria de missa"
+		intervals [312]:
+			xmin = 581.72
+			xmax = 582.09
+			text = "..."
+		intervals [313]:
+			xmin = 582.09
+			xmax = 589.1
+			text = "eu posso citar essas da puc que eu acho esplêndidas e tive oportunidade de assistir essa do monsenhor benedito"
+		intervals [314]:
+			xmin = 589.1
+			xmax = 589.44
+			text = "..."
+		intervals [315]:
+			xmin = 589.44
+			xmax = 590.17
+			text = "que eu"
+		intervals [316]:
+			xmin = 590.17
+			xmax = 590.58
+			text = "..."
+		intervals [317]:
+			xmin = 590.58
+			xmax = 597.43
+			text = "também fiquei encantada e eu acho que essa maneira de se dirigir aos que estão assistindo à missa é uma um bom"
+		intervals [318]:
+			xmin = 597.43
+			xmax = 597.84
+			text = "..."
+		intervals [319]:
+			xmin = 597.84
+			xmax = 605.03
+			text = ""
+		intervals [320]:
+			xmin = 605.03
+			xmax = 611.14
+			text = "mesma de antigamente não isso nós estamos vendo igrejas completamente diferentes né e também eu acho que"
+		intervals [321]:
+			xmin = 611.14
+			xmax = 611.52
+			text = "..."
+		intervals [322]:
+			xmin = 611.52
+			xmax = 613.59
+			text = "estão caindo num"
+		intervals [323]:
+			xmin = 613.59
+			xmax = 614.36
+			text = "..."
+		intervals [324]:
+			xmin = 614.36
+			xmax = 615.61
+			text = "exagero"
+		intervals [325]:
+			xmin = 615.61
+			xmax = 616.03
+			text = "..."
+		intervals [326]:
+			xmin = 616.03
+			xmax = 623.66
+			text = "porque antigamente as igrejas eram ahn muito cheias de imagens um um ambiente que também não era ahn tão acolhedor"
+		intervals [327]:
+			xmin = 623.66
+			xmax = 624.07
+			text = "..."
+		intervals [328]:
+			xmin = 624.07
+			xmax = 628.95
+			text = "então começaram a evoluir mas temos também igrejas que a meu ver não agradam não"
+		intervals [329]:
+			xmin = 628.95
+			xmax = 629.27
+			text = "..."
+		intervals [330]:
+			xmin = 629.27
+			xmax = 632.37
+			text = "é apesar de talvez como eu disse"
+		intervals [331]:
+			xmin = 632.37
+			xmax = 632.78
+			text = "..."
+		intervals [332]:
+			xmin = 632.78
+			xmax = 633.79
+			text = "seja uma"
+		intervals [333]:
+			xmin = 633.79
+			xmax = 634.62
+			text = "..."
+		intervals [334]:
+			xmin = 634.62
+			xmax = 637.0600000000001
+			text = "questão pessoal mas há"
+		intervals [335]:
+			xmin = 637.0600000000001
+			xmax = 637.4300000000001
+			text = "..."
+		intervals [336]:
+			xmin = 637.4300000000001
+			xmax = 638.12
+			text = "igrejas que"
+		intervals [337]:
+			xmin = 638.12
+			xmax = 638.57
+			text = "não"
+		intervals [338]:
+			xmin = 638.57
+			xmax = 643.86
+			text = "não me causam prazer nenhum entrar nelas o ideal"
+		intervals [339]:
+			xmin = 643.86
+			xmax = 644.39
+			text = "é"
+		intervals [340]:
+			xmin = 644.39
+			xmax = 645.11
+			text = "o"
+		intervals [341]:
+			xmin = 645.11
+			xmax = 645.53
+			text = "..."
+		intervals [342]:
+			xmin = 645.53
+			xmax = 646.19
+			text = "meio"
+		intervals [343]:
+			xmin = 646.19
+			xmax = 646.5
+			text = "..."
+		intervals [344]:
+			xmin = 646.5
+			xmax = 653.57
+			text = "termo quer dizer igrejas modernas porque aquelas igrejas antigas hoje eu até me aborreço quando eu vou visitar de ver todo mundo fazendo da"
+		intervals [345]:
+			xmin = 653.57
+			xmax = 653.89
+			text = "..."
+		intervals [346]:
+			xmin = 653.89
+			xmax = 656.64
+			text = "igreja um museu então desapareceu a religiosidade"
+		intervals [347]:
+			xmin = 656.64
+			xmax = 657.03
+			text = "..."
+		intervals [348]:
+			xmin = 657.03
+			xmax = 659.04
+			text = "todo mundo fica olhe mas"
+		intervals [349]:
+			xmin = 659.04
+			xmax = 659.5
+			text = "..."
+		intervals [350]:
+			xmin = 659.5
+			xmax = 660.62
+			text = "que coisa analisando as"
+		intervals [351]:
+			xmin = 660.62
+			xmax = 661.0600000000001
+			text = "..."
+		intervals [352]:
+			xmin = 661.0600000000001
+			xmax = 662.58
+			text = "peças analisando então não é"
+		intervals [353]:
+			xmin = 662.58
+			xmax = 663.48
+			text = "..."
+		intervals [354]:
+			xmin = 663.48
+			xmax = 665.62
+			text = "mais um ambiente religioso"
+		intervals [355]:
+			xmin = 665.62
+			xmax = 666.08
+			text = "..."
+		intervals [356]:
+			xmin = 666.08
+			xmax = 672.1800000000001
+			text = "não é é um ambiente artístico então é a a peça é barroca é"
+		intervals [357]:
+			xmin = 672.1800000000001
+			xmax = 672.5
+			text = "..."
+		intervals [358]:
+			xmin = 672.5
+			xmax = 673.6600000000001
+			text = "isto é aquilo mas"
+		intervals [359]:
+			xmin = 673.6600000000001
+			xmax = 674.02
+			text = "..."
+		intervals [360]:
+			xmin = 674.02
+			xmax = 675.8100000000001
+			text = "quer dizer que então ninguém está"
+		intervals [361]:
+			xmin = 675.8100000000001
+			xmax = 676.1700000000001
+			text = "..."
+		intervals [362]:
+			xmin = 676.1700000000001
+			xmax = 676.8100000000001
+			text = "lá"
+		intervals [363]:
+			xmin = 676.8100000000001
+			xmax = 677.78
+			text = "..."
+		intervals [364]:
+			xmin = 677.78
+			xmax = 680.78
+			text = "dentro com espírito de religião e essas igrejas"
+		intervals [365]:
+			xmin = 680.78
+			xmax = 681.13
+			text = "..."
+		intervals [366]:
+			xmin = 681.13
+			xmax = 681.76
+			text = "que são"
+		intervals [367]:
+			xmin = 681.76
+			xmax = 682.09
+			text = "..."
+		intervals [368]:
+			xmin = 682.09
+			xmax = 684.9
+			text = "ahn modernas mas sem exagero ainda tendo suas"
+		intervals [369]:
+			xmin = 684.9
+			xmax = 685.29
+			text = "..."
+		intervals [370]:
+			xmin = 685.29
+			xmax = 690.21
+			text = "imagens eu tenho a impressão que fala mais ao coração do católico"
+		intervals [371]:
+			xmin = 690.21
+			xmax = 690.82
+			text = "..."
+		intervals [372]:
+			xmin = 690.82
+			xmax = 694.22
+			text = "porque o católico se acostumou a isso"
+		intervals [373]:
+			xmin = 694.22
+			xmax = 694.53
+			text = "..."
+		intervals [374]:
+			xmin = 694.53
+			xmax = 697.1
+			text = "e sente assim porque esta ahn vamos"
+		intervals [375]:
+			xmin = 697.1
+			xmax = 697.47
+			text = "..."
+		intervals [376]:
+			xmin = 697.47
+			xmax = 700.48
+			text = "dizer essa questão de religião assim tão"
+		intervals [377]:
+			xmin = 700.48
+			xmax = 702.12
+			text = "abstrata talvez seja justamente porque eu fui criada"
+		intervals [378]:
+			xmin = 702.12
+			xmax = 702.6
+			text = "..."
+		intervals [379]:
+			xmin = 702.6
+			xmax = 703.82
+			text = "num ambiente"
+		intervals [380]:
+			xmin = 703.82
+			xmax = 705.02
+			text = "..."
+		intervals [381]:
+			xmin = 705.02
+			xmax = 709.48
+			text = "diferente quem sabe se essa geração atual sendo agora criada nesse"
+		intervals [382]:
+			xmin = 709.48
+			xmax = 709.99
+			text = "..."
+		intervals [383]:
+			xmin = 709.99
+			xmax = 714.35
+			text = "ambiente encontre conforto nessas igrejas peladas vazias sem nada apenas é"
+		intervals [384]:
+			xmin = 714.35
+			xmax = 714.6800000000001
+			text = "..."
+		intervals [385]:
+			xmin = 714.6800000000001
+			xmax = 718.1700000000001
+			text = "uma casa como qualquer outra e e eu admiro a"
+		intervals [386]:
+			xmin = 718.1700000000001
+			xmax = 718.51
+			text = "..."
+		intervals [387]:
+			xmin = 718.51
+			xmax = 720.52
+			text = "hipótese deles sendo criados aí sentirem"
+		intervals [388]:
+			xmin = 720.52
+			xmax = 720.98
+			text = "..."
+		intervals [389]:
+			xmin = 720.98
+			xmax = 728.36
+			text = "mas eu não sinto esse ambiente de religiosidade numa igreja extraordinariamente moderna eu tenho a impressão que precisa ser um meio termo pelo"
+		intervals [390]:
+			xmin = 728.36
+			xmax = 728.72
+			text = "..."
+		intervals [391]:
+			xmin = 728.72
+			xmax = 730.0600000000001
+			text = "menos pra mim precisa"
+		intervals [392]:
+			xmin = 730.0600000000001
+			xmax = 732.94
+			text = ""
+		intervals [393]:
+			xmin = 732.94
+			xmax = 735.6500000000001
+			text = "igreja de brasília conhece conheço a"
+		intervals [394]:
+			xmin = 735.6500000000001
+			xmax = 736.1700000000001
+			text = "..."
+		intervals [395]:
+			xmin = 736.1700000000001
+			xmax = 740.98
+			text = "igreja de brasília eu acho interessante mas é para mim o que eu disse"
+		intervals [396]:
+			xmin = 740.98
+			xmax = 741.38
+			text = "..."
+		intervals [397]:
+			xmin = 741.38
+			xmax = 748.87
+			text = "não é a que me provoca religiosidade mas é muito bonita muito curiosa né a achei interessantíssima tive muito prazer em conhecer e aliás"
+		intervals [398]:
+			xmin = 748.87
+			xmax = 749.1800000000001
+			text = "..."
+		intervals [399]:
+			xmin = 749.1800000000001
+			xmax = 749.83
+			text = "já fui"
+		intervals [400]:
+			xmin = 749.83
+			xmax = 750.3100000000001
+			text = "..."
+		intervals [401]:
+			xmin = 750.3100000000001
+			xmax = 754.09
+			text = ""
+		intervals [402]:
+			xmin = 754.09
+			xmax = 767.39
+			text = "a o formato a arquitetura da igreja bom eu isto é difícil de responder assim numa entrevista sabe eu é uma coisa que há muita coisa pra dizer muito detalhe muita observação é uma igreja completamente diferente de tudo o que se tinha visto até"
+		intervals [403]:
+			xmin = 767.39
+			xmax = 767.7
+			text = "..."
+		intervals [404]:
+			xmin = 767.7
+			xmax = 768.63
+			text = "então não é mas"
+		intervals [405]:
+			xmin = 768.63
+			xmax = 768.99
+			text = "..."
+		intervals [406]:
+			xmin = 768.99
+			xmax = 772.63
+			text = "é ju ah isto eu vou repetir o que eu"
+		intervals [407]:
+			xmin = 772.63
+			xmax = 772.96
+			text = "..."
+		intervals [408]:
+			xmin = 772.96
+			xmax = 773.27
+			text = "disse"
+		intervals [409]:
+			xmin = 773.27
+			xmax = 774.74
+			text = "a você é uma uma"
+		intervals [410]:
+			xmin = 774.74
+			xmax = 775.12
+			text = "..."
+		intervals [411]:
+			xmin = 775.12
+			xmax = 775.4100000000001
+			text = "eu"
+		intervals [412]:
+			xmin = 775.4100000000001
+			xmax = 776.64
+			text = "entrei e achei muito curiosa"
+		intervals [413]:
+			xmin = 776.64
+			xmax = 777.1
+			text = "..."
+		intervals [414]:
+			xmin = 777.1
+			xmax = 787.73
+			text = "achei curiosa a arquitetura o aspecto aquela coisa redonda e aquele modo da gente estar ali pra assistir o o ofício religioso não é mas não me provocou nada em matéria de"
+		intervals [415]:
+			xmin = 787.73
+			xmax = 788.05
+			text = "..."
+		intervals [416]:
+			xmin = 788.05
+			xmax = 792.23
+			text = ""
+		intervals [417]:
+			xmin = 792.23
+			xmax = 792.88
+			text = "não"
+		intervals [418]:
+			xmin = 792.88
+			xmax = 794.62
+			text = "não não"
+		intervals [419]:
+			xmin = 794.62
+			xmax = 796.25
+			text = "não são não não"
+		intervals [420]:
+			xmin = 796.25
+			xmax = 796.8
+			text = "..."
+		intervals [421]:
+			xmin = 796.8
+			xmax = 797.29
+			text = "há"
+		intervals [422]:
+			xmin = 797.29
+			xmax = 797.63
+			text = "..."
+		intervals [423]:
+			xmin = 797.63
+			xmax = 800.09
+			text = "são uns blocos assim para algumas pessoas tudo mas não"
+		intervals [424]:
+			xmin = 800.09
+			xmax = 800.4200000000001
+			text = "..."
+		intervals [425]:
+			xmin = 800.4200000000001
+			xmax = 802.4100000000001
+			text = "são bancos não de"
+		intervals [426]:
+			xmin = 802.4100000000001
+			xmax = 802.87
+			text = "..."
+		intervals [427]:
+			xmin = 802.87
+			xmax = 803.19
+			text = "maneira"
+		intervals [428]:
+			xmin = 803.19
+			xmax = 803.88
+			text = "..."
+		intervals [429]:
+			xmin = 803.88
+			xmax = 804.79
+			text = "que"
+		intervals [430]:
+			xmin = 804.79
+			xmax = 805.24
+			text = "..."
+		intervals [431]:
+			xmin = 805.24
+			xmax = 805.39
+			text = "é"
+		intervals [432]:
+			xmin = 805.39
+			xmax = 805.74
+			text = "..."
+		intervals [433]:
+			xmin = 805.74
+			xmax = 807.64
+			text = "completamente diferente mas os bancos"
+		intervals [434]:
+			xmin = 807.64
+			xmax = 808.59
+			text = "eu"
+		intervals [435]:
+			xmin = 808.59
+			xmax = 813.6600000000001
+			text = "acho que ainda não teriam maior importância maior importância é mesmo o ambiente quer"
+		intervals [436]:
+			xmin = 813.6600000000001
+			xmax = 814.19
+			text = "..."
+		intervals [437]:
+			xmin = 814.19
+			xmax = 815.4100000000001
+			text = "dizer é como eu"
+		intervals [438]:
+			xmin = 815.4100000000001
+			xmax = 815.73
+			text = "..."
+		intervals [439]:
+			xmin = 815.73
+			xmax = 819.95
+			text = "disse pode ser que essa geração que está nascendo em brasília"
+		intervals [440]:
+			xmin = 819.95
+			xmax = 820.3
+			text = "..."
+		intervals [441]:
+			xmin = 820.3
+			xmax = 822.38
+			text = "e crescendo lá ache que é uma"
+		intervals [442]:
+			xmin = 822.38
+			xmax = 822.76
+			text = "..."
+		intervals [443]:
+			xmin = 822.76
+			xmax = 2604.0800000000004
+			text = ""
+	item [5]:
+		class = "IntervalTier"
+		name = "TB-doc1"
+		xmin = 0.0
+		xmax = 2604.0800000000004
+		intervals: size = 54
+		intervals [1]:
+			xmin = 0.0
+			xmax = 20.54
+			text = ""
+		intervals [2]:
+			xmin = 20.54
+			xmax = 22.41
+			text = "estou completamente por fora e qual"
+		intervals [3]:
+			xmin = 22.41
+			xmax = 23.72
+			text = "..."
+		intervals [4]:
+			xmin = 23.72
+			xmax = 24.95
+			text = "era o interesse qual era o"
+		intervals [5]:
+			xmin = 24.95
+			xmax = 26.3
+			text = "..."
+		intervals [6]:
+			xmin = 26.3
+			xmax = 30.34
+			text = "povo qual foi o povo que a senhora achou que"
+		intervals [7]:
+			xmin = 30.34
+			xmax = 30.83
+			text = "..."
+		intervals [8]:
+			xmin = 30.83
+			xmax = 123.01
+			text = ""
+		intervals [9]:
+			xmin = 123.01
+			xmax = 125.1
+			text = "está certo a senhora"
+		intervals [10]:
+			xmin = 125.1
+			xmax = 126.07
+			text = "..."
+		intervals [11]:
+			xmin = 126.07
+			xmax = 128.72
+			text = "disse que foi batizada"
+		intervals [12]:
+			xmin = 128.72
+			xmax = 129.19
+			text = "..."
+		intervals [13]:
+			xmin = 129.19
+			xmax = 129.6
+			text = "né"
+		intervals [14]:
+			xmin = 129.6
+			xmax = 130.69
+			text = "..."
+		intervals [15]:
+			xmin = 130.69
+			xmax = 133.96
+			text = "agora dentro da religião católica além do batismo"
+		intervals [16]:
+			xmin = 133.96
+			xmax = 193.32
+			text = ""
+		intervals [17]:
+			xmin = 193.32
+			xmax = 194.63
+			text = "religiosas eu gostaria que"
+		intervals [18]:
+			xmin = 194.63
+			xmax = 195.67
+			text = "..."
+		intervals [19]:
+			xmin = 195.67
+			xmax = 196.99
+			text = "a senhora"
+		intervals [20]:
+			xmin = 196.99
+			xmax = 197.35
+			text = "..."
+		intervals [21]:
+			xmin = 197.35
+			xmax = 202.93
+			text = "digamos o seguinte que eu desconhecesse a senhora disse que existe missa"
+		intervals [22]:
+			xmin = 202.93
+			xmax = 204.06
+			text = "..."
+		intervals [23]:
+			xmin = 204.06
+			xmax = 273.44
+			text = ""
+		intervals [24]:
+			xmin = 273.44
+			xmax = 277.8
+			text = "não eu eu não quero os detalhes digamos não ahn por acaso então"
+		intervals [25]:
+			xmin = 277.8
+			xmax = 278.14
+			text = "..."
+		intervals [26]:
+			xmin = 278.14
+			xmax = 304.07
+			text = ""
+		intervals [27]:
+			xmin = 304.07
+			xmax = 309.8
+			text = "fazendo casamentos porque já estão autorizadas para isso sabe certo agora existe a"
+		intervals [28]:
+			xmin = 309.8
+			xmax = 310.48
+			text = "..."
+		intervals [29]:
+			xmin = 310.48
+			xmax = 311.72
+			text = "participação"
+		intervals [30]:
+			xmin = 311.72
+			xmax = 312.16
+			text = "..."
+		intervals [31]:
+			xmin = 312.16
+			xmax = 354.29
+			text = ""
+		intervals [32]:
+			xmin = 354.29
+			xmax = 354.67
+			text = "então"
+		intervals [33]:
+			xmin = 354.67
+			xmax = 360.19
+			text = "continuando com a participação da missa que nós estamos falando né a senhora"
+		intervals [34]:
+			xmin = 360.19
+			xmax = 360.54
+			text = "..."
+		intervals [35]:
+			xmin = 360.54
+			xmax = 597.84
+			text = ""
+		intervals [36]:
+			xmin = 597.84
+			xmax = 600.45
+			text = "caminho para um resultado bastante favorável e"
+		intervals [37]:
+			xmin = 600.45
+			xmax = 600.88
+			text = "..."
+		intervals [38]:
+			xmin = 600.88
+			xmax = 603.7
+			text = "as igrejas a apresentação das igrejas é"
+		intervals [39]:
+			xmin = 603.7
+			xmax = 604.27
+			text = "..."
+		intervals [40]:
+			xmin = 604.27
+			xmax = 605.03
+			text = "a"
+		intervals [41]:
+			xmin = 605.03
+			xmax = 730.0600000000001
+			text = ""
+		intervals [42]:
+			xmin = 730.0600000000001
+			xmax = 730.55
+			text = "a"
+		intervals [43]:
+			xmin = 730.55
+			xmax = 730.85
+			text = "..."
+		intervals [44]:
+			xmin = 730.85
+			xmax = 732.94
+			text = "senhora conhece a"
+		intervals [45]:
+			xmin = 732.94
+			xmax = 750.3100000000001
+			text = ""
+		intervals [46]:
+			xmin = 750.3100000000001
+			xmax = 753.57
+			text = "lá várias vezes de maneira que conheço bem e como é como é"
+		intervals [47]:
+			xmin = 753.57
+			xmax = 754.09
+			text = "..."
+		intervals [48]:
+			xmin = 754.09
+			xmax = 788.05
+			text = ""
+		intervals [49]:
+			xmin = 788.05
+			xmax = 790.73
+			text = "sentimento religioso não não consegui nada mas há bancos"
+		intervals [50]:
+			xmin = 790.73
+			xmax = 791.04
+			text = "..."
+		intervals [51]:
+			xmin = 791.04
+			xmax = 791.76
+			text = "na igreja há"
+		intervals [52]:
+			xmin = 791.76
+			xmax = 792.0600000000001
+			text = "..."
+		intervals [53]:
+			xmin = 792.0600000000001
+			xmax = 792.23
+			text = "bancos"
+		intervals [54]:
+			xmin = 792.23
+			xmax = 2604.0800000000004
+			text = ""
+	item [6]:
+		class = "IntervalTier"
+		name = "NTB-doc1"
+		xmin = 0.0
+		xmax = 2604.0800000000004
+		intervals: size = 54
+		intervals [1]:
+			xmin = 0.0
+			xmax = 20.54
+			text = ""
+		intervals [2]:
+			xmin = 20.54
+			xmax = 22.41
+			text = "estou completamente por fora e qual"
+		intervals [3]:
+			xmin = 22.41
+			xmax = 23.72
+			text = "..."
+		intervals [4]:
+			xmin = 23.72
+			xmax = 24.95
+			text = "era o interesse qual era o"
+		intervals [5]:
+			xmin = 24.95
+			xmax = 26.3
+			text = "..."
+		intervals [6]:
+			xmin = 26.3
+			xmax = 30.34
+			text = "povo qual foi o povo que a senhora achou que"
+		intervals [7]:
+			xmin = 30.34
+			xmax = 30.83
+			text = "..."
+		intervals [8]:
+			xmin = 30.83
+			xmax = 123.01
+			text = ""
+		intervals [9]:
+			xmin = 123.01
+			xmax = 125.1
+			text = "está certo a senhora"
+		intervals [10]:
+			xmin = 125.1
+			xmax = 126.07
+			text = "..."
+		intervals [11]:
+			xmin = 126.07
+			xmax = 128.72
+			text = "disse que foi batizada"
+		intervals [12]:
+			xmin = 128.72
+			xmax = 129.19
+			text = "..."
+		intervals [13]:
+			xmin = 129.19
+			xmax = 129.6
+			text = "né"
+		intervals [14]:
+			xmin = 129.6
+			xmax = 130.69
+			text = "..."
+		intervals [15]:
+			xmin = 130.69
+			xmax = 133.96
+			text = "agora dentro da religião católica além do batismo"
+		intervals [16]:
+			xmin = 133.96
+			xmax = 193.32
+			text = ""
+		intervals [17]:
+			xmin = 193.32
+			xmax = 194.63
+			text = "religiosas eu gostaria que"
+		intervals [18]:
+			xmin = 194.63
+			xmax = 195.67
+			text = "..."
+		intervals [19]:
+			xmin = 195.67
+			xmax = 196.99
+			text = "a senhora"
+		intervals [20]:
+			xmin = 196.99
+			xmax = 197.35
+			text = "..."
+		intervals [21]:
+			xmin = 197.35
+			xmax = 202.93
+			text = "digamos o seguinte que eu desconhecesse a senhora disse que existe missa"
+		intervals [22]:
+			xmin = 202.93
+			xmax = 204.06
+			text = "..."
+		intervals [23]:
+			xmin = 204.06
+			xmax = 273.44
+			text = ""
+		intervals [24]:
+			xmin = 273.44
+			xmax = 277.8
+			text = "não eu eu não quero os detalhes digamos não ahn por acaso então"
+		intervals [25]:
+			xmin = 277.8
+			xmax = 278.14
+			text = "..."
+		intervals [26]:
+			xmin = 278.14
+			xmax = 304.07
+			text = ""
+		intervals [27]:
+			xmin = 304.07
+			xmax = 309.8
+			text = "fazendo casamentos porque já estão autorizadas para isso sabe certo agora existe a"
+		intervals [28]:
+			xmin = 309.8
+			xmax = 310.48
+			text = "..."
+		intervals [29]:
+			xmin = 310.48
+			xmax = 311.72
+			text = "participação"
+		intervals [30]:
+			xmin = 311.72
+			xmax = 312.16
+			text = "..."
+		intervals [31]:
+			xmin = 312.16
+			xmax = 354.29
+			text = ""
+		intervals [32]:
+			xmin = 354.29
+			xmax = 354.67
+			text = "então"
+		intervals [33]:
+			xmin = 354.67
+			xmax = 360.19
+			text = "continuando com a participação da missa que nós estamos falando né a senhora"
+		intervals [34]:
+			xmin = 360.19
+			xmax = 360.54
+			text = "..."
+		intervals [35]:
+			xmin = 360.54
+			xmax = 597.84
+			text = ""
+		intervals [36]:
+			xmin = 597.84
+			xmax = 600.45
+			text = "caminho para um resultado bastante favorável e"
+		intervals [37]:
+			xmin = 600.45
+			xmax = 600.88
+			text = "..."
+		intervals [38]:
+			xmin = 600.88
+			xmax = 603.7
+			text = "as igrejas a apresentação das igrejas é"
+		intervals [39]:
+			xmin = 603.7
+			xmax = 604.27
+			text = "..."
+		intervals [40]:
+			xmin = 604.27
+			xmax = 605.03
+			text = "a"
+		intervals [41]:
+			xmin = 605.03
+			xmax = 730.0600000000001
+			text = ""
+		intervals [42]:
+			xmin = 730.0600000000001
+			xmax = 730.55
+			text = "a"
+		intervals [43]:
+			xmin = 730.55
+			xmax = 730.85
+			text = "..."
+		intervals [44]:
+			xmin = 730.85
+			xmax = 732.94
+			text = "senhora conhece a"
+		intervals [45]:
+			xmin = 732.94
+			xmax = 750.3100000000001
+			text = ""
+		intervals [46]:
+			xmin = 750.3100000000001
+			xmax = 753.57
+			text = "lá várias vezes de maneira que conheço bem e como é como é"
+		intervals [47]:
+			xmin = 753.57
+			xmax = 754.09
+			text = "..."
+		intervals [48]:
+			xmin = 754.09
+			xmax = 788.05
+			text = ""
+		intervals [49]:
+			xmin = 788.05
+			xmax = 790.73
+			text = "sentimento religioso não não consegui nada mas há bancos"
+		intervals [50]:
+			xmin = 790.73
+			xmax = 791.04
+			text = "..."
+		intervals [51]:
+			xmin = 791.04
+			xmax = 791.76
+			text = "na igreja há"
+		intervals [52]:
+			xmin = 791.76
+			xmax = 792.0600000000001
+			text = "..."
+		intervals [53]:
+			xmin = 792.0600000000001
+			xmax = 792.23
+			text = "bancos"
+		intervals [54]:
+			xmin = 792.23
+			xmax = 2604.0800000000004
+			text = ""
+	item [7]:
+		class = "IntervalTier"
+		name = "comentarios-anotacao"
+		xmin = 0.0
+		xmax = 2604.0800000000004
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0
+			xmax = 2604.0800000000004
+			text = ""
+	item [8]:
+		class = "IntervalTier"
+		name = "comentarios"
+		xmin = 0.0
+		xmax = 2604.0800000000004
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0
+			xmax = 2604.0800000000004
+			text = ""

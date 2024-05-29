@@ -1,0 +1,2896 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 1200.42
+tiers? <exists>
+size = 8
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "TB-﻿l1"
+		xmin = 0.0
+		xmax = 1200.42
+		intervals: size = 6
+		intervals [1]:
+			xmin = 0.0
+			xmax = 600.21
+			text = ""
+		intervals [2]:
+			xmin = 600.21
+			xmax = 600.32
+			text = "ter"
+		intervals [3]:
+			xmin = 600.32
+			xmax = 600.45
+			text = "um"
+		intervals [4]:
+			xmin = 600.45
+			xmax = 600.88
+			text = "..."
+		intervals [5]:
+			xmin = 600.88
+			xmax = 602.1800000000001
+			text = "muito"
+		intervals [6]:
+			xmin = 602.1800000000001
+			xmax = 1200.42
+			text = ""
+	item [2]:
+		class = "IntervalTier"
+		name = "NTB-﻿l1"
+		xmin = 0.0
+		xmax = 1200.42
+		intervals: size = 6
+		intervals [1]:
+			xmin = 0.0
+			xmax = 600.21
+			text = ""
+		intervals [2]:
+			xmin = 600.21
+			xmax = 600.32
+			text = "ter"
+		intervals [3]:
+			xmin = 600.32
+			xmax = 600.45
+			text = "um"
+		intervals [4]:
+			xmin = 600.45
+			xmax = 600.88
+			text = "..."
+		intervals [5]:
+			xmin = 600.88
+			xmax = 602.1800000000001
+			text = "muito"
+		intervals [6]:
+			xmin = 602.1800000000001
+			xmax = 1200.42
+			text = ""
+	item [3]:
+		class = "IntervalTier"
+		name = "TB-l1"
+		xmin = 0.0
+		xmax = 1200.42
+		intervals: size = 311
+		intervals [1]:
+			xmin = 0.0
+			xmax = 602.1800000000001
+			text = ""
+		intervals [2]:
+			xmin = 602.1800000000001
+			xmax = 603.7
+			text = "melhor do nosso estudo"
+		intervals [3]:
+			xmin = 603.7
+			xmax = 604.27
+			text = "..."
+		intervals [4]:
+			xmin = 604.27
+			xmax = 605.03
+			text = "hoje"
+		intervals [5]:
+			xmin = 605.03
+			xmax = 611.14
+			text = "nós vemos um quadro completamente diferente não no mackenzie só mas em todos os estabelecimentos de ensino"
+		intervals [6]:
+			xmin = 611.14
+			xmax = 611.52
+			text = "..."
+		intervals [7]:
+			xmin = 611.52
+			xmax = 613.59
+			text = "vemos classes superlotadas"
+		intervals [8]:
+			xmin = 613.59
+			xmax = 614.36
+			text = "..."
+		intervals [9]:
+			xmin = 614.36
+			xmax = 615.61
+			text = "professores"
+		intervals [10]:
+			xmin = 615.61
+			xmax = 616.03
+			text = "..."
+		intervals [11]:
+			xmin = 616.03
+			xmax = 623.66
+			text = "com não podem se manter com dando poucas aulas né a situação financeira obriga o professor a dar muitas aulas"
+		intervals [12]:
+			xmin = 623.66
+			xmax = 624.07
+			text = "..."
+		intervals [13]:
+			xmin = 624.07
+			xmax = 628.95
+			text = "então ele não pode fazer as correções dos trabalhos dos alunos como eram feitas antigamente"
+		intervals [14]:
+			xmin = 628.95
+			xmax = 629.27
+			text = "..."
+		intervals [15]:
+			xmin = 629.27
+			xmax = 632.37
+			text = "de maneira que o o ensino sofre"
+		intervals [16]:
+			xmin = 632.37
+			xmax = 632.78
+			text = "..."
+		intervals [17]:
+			xmin = 632.78
+			xmax = 633.79
+			text = "uma porção"
+		intervals [18]:
+			xmin = 633.79
+			xmax = 634.62
+			text = "..."
+		intervals [19]:
+			xmin = 634.62
+			xmax = 637.0600000000001
+			text = "de de influências más"
+		intervals [20]:
+			xmin = 637.0600000000001
+			xmax = 637.4300000000001
+			text = "..."
+		intervals [21]:
+			xmin = 637.4300000000001
+			xmax = 638.12
+			text = "nós vimos"
+		intervals [22]:
+			xmin = 638.12
+			xmax = 638.57
+			text = "a"
+		intervals [23]:
+			xmin = 638.57
+			xmax = 643.86
+			text = "uma estamos atravessando uma era utilitarista todo mundo está"
+		intervals [24]:
+			xmin = 643.86
+			xmax = 644.39
+			text = "sempre"
+		intervals [25]:
+			xmin = 644.39
+			xmax = 645.11
+			text = "procurando"
+		intervals [26]:
+			xmin = 645.11
+			xmax = 645.53
+			text = "..."
+		intervals [27]:
+			xmin = 645.53
+			xmax = 646.19
+			text = "obter"
+		intervals [28]:
+			xmin = 646.19
+			xmax = 646.5
+			text = "..."
+		intervals [29]:
+			xmin = 646.5
+			xmax = 653.57
+			text = "o máximo de rendimento quer dizer é um defeito que não não é do professor mas é de todo o humano hoje não é"
+		intervals [30]:
+			xmin = 653.57
+			xmax = 653.89
+			text = "..."
+		intervals [31]:
+			xmin = 653.89
+			xmax = 656.64
+			text = "nós sentimos esse problema em todos os"
+		intervals [32]:
+			xmin = 656.64
+			xmax = 657.03
+			text = "..."
+		intervals [33]:
+			xmin = 657.03
+			xmax = 659.04
+			text = "ahn em todas as atividades"
+		intervals [34]:
+			xmin = 659.04
+			xmax = 659.5
+			text = "..."
+		intervals [35]:
+			xmin = 659.5
+			xmax = 660.62
+			text = "de maneira que hoje"
+		intervals [36]:
+			xmin = 660.62
+			xmax = 661.0600000000001
+			text = "..."
+		intervals [37]:
+			xmin = 661.0600000000001
+			xmax = 662.58
+			text = "eu acho que o ensino"
+		intervals [38]:
+			xmin = 662.58
+			xmax = 663.48
+			text = "..."
+		intervals [39]:
+			xmin = 663.48
+			xmax = 665.62
+			text = "im piorou nesse sentido"
+		intervals [40]:
+			xmin = 665.62
+			xmax = 666.08
+			text = "..."
+		intervals [41]:
+			xmin = 666.08
+			xmax = 672.1800000000001
+			text = "e estamos vendo mesmo campanhas para melhorar opiniões de ministros de educação discussão sobre"
+		intervals [42]:
+			xmin = 672.1800000000001
+			xmax = 672.5
+			text = "..."
+		intervals [43]:
+			xmin = 672.5
+			xmax = 673.6600000000001
+			text = "a situação do ensino"
+		intervals [44]:
+			xmin = 673.6600000000001
+			xmax = 674.02
+			text = "..."
+		intervals [45]:
+			xmin = 674.02
+			xmax = 675.8100000000001
+			text = "quer dizer que isso não podemos"
+		intervals [46]:
+			xmin = 675.8100000000001
+			xmax = 676.1700000000001
+			text = "..."
+		intervals [47]:
+			xmin = 676.1700000000001
+			xmax = 676.8100000000001
+			text = "ahn"
+		intervals [48]:
+			xmin = 676.8100000000001
+			xmax = 677.78
+			text = "..."
+		intervals [49]:
+			xmin = 677.78
+			xmax = 680.78
+			text = "determinar que seja este ou aquele o defeito"
+		intervals [50]:
+			xmin = 680.78
+			xmax = 681.13
+			text = "..."
+		intervals [51]:
+			xmin = 681.13
+			xmax = 681.76
+			text = "mas é"
+		intervals [52]:
+			xmin = 681.76
+			xmax = 682.09
+			text = "..."
+		intervals [53]:
+			xmin = 682.09
+			xmax = 684.9
+			text = "a consequência de uma porção de fatores negativos"
+		intervals [54]:
+			xmin = 684.9
+			xmax = 685.29
+			text = "..."
+		intervals [55]:
+			xmin = 685.29
+			xmax = 690.21
+			text = "mas que naturalmente nós podemos cada um especialmente dos ahn na sua"
+		intervals [56]:
+			xmin = 690.21
+			xmax = 690.82
+			text = "..."
+		intervals [57]:
+			xmin = 690.82
+			xmax = 694.22
+			text = "área poderá fazer um esforço para reduzir"
+		intervals [58]:
+			xmin = 694.22
+			xmax = 694.53
+			text = "..."
+		intervals [59]:
+			xmin = 694.53
+			xmax = 697.1
+			text = "este prejuízo e tornar o ensino bom"
+		intervals [60]:
+			xmin = 697.1
+			xmax = 697.47
+			text = "..."
+		intervals [61]:
+			xmin = 697.47
+			xmax = 700.48
+			text = "nós também vemos um lado positivo hoje"
+		intervals [62]:
+			xmin = 700.48
+			xmax = 702.12
+			text = "pelo menos é uma coisa que eu acho"
+		intervals [63]:
+			xmin = 702.12
+			xmax = 702.6
+			text = "..."
+		intervals [64]:
+			xmin = 702.6
+			xmax = 703.82
+			text = "o estudante"
+		intervals [65]:
+			xmin = 703.82
+			xmax = 705.02
+			text = "..."
+		intervals [66]:
+			xmin = 705.02
+			xmax = 709.48
+			text = "tem muita oportunidade tem oportunidade que nós não tínhamos por exemplo"
+		intervals [67]:
+			xmin = 709.48
+			xmax = 709.99
+			text = "..."
+		intervals [68]:
+			xmin = 709.99
+			xmax = 714.35
+			text = "a os meios de comunicação os meios de comunicação são extraordinários"
+		intervals [69]:
+			xmin = 714.35
+			xmax = 714.6800000000001
+			text = "..."
+		intervals [70]:
+			xmin = 714.6800000000001
+			xmax = 718.1700000000001
+			text = "de maneira que o nosso estudante hoje conhece muito mais"
+		intervals [71]:
+			xmin = 718.1700000000001
+			xmax = 718.51
+			text = "..."
+		intervals [72]:
+			xmin = 718.51
+			xmax = 720.52
+			text = "do que nós conhecíamos naquela idade"
+		intervals [73]:
+			xmin = 720.52
+			xmax = 720.98
+			text = "..."
+		intervals [74]:
+			xmin = 720.98
+			xmax = 728.36
+			text = "não por causa das aulas mas por causa da das facilidades que tem de travar conhecimento com o que se passa no mundo"
+		intervals [75]:
+			xmin = 728.36
+			xmax = 728.72
+			text = "..."
+		intervals [76]:
+			xmin = 728.72
+			xmax = 730.55
+			text = "de maneira que pode haver"
+		intervals [77]:
+			xmin = 730.55
+			xmax = 730.85
+			text = "..."
+		intervals [78]:
+			xmin = 730.85
+			xmax = 735.6500000000001
+			text = "uma compensação dando um equilíbrio eu vejo muita possibilidade"
+		intervals [79]:
+			xmin = 735.6500000000001
+			xmax = 736.1700000000001
+			text = "..."
+		intervals [80]:
+			xmin = 736.1700000000001
+			xmax = 740.98
+			text = "de nós conseguirmos um um alto nível de cultura em todos os setores hoje"
+		intervals [81]:
+			xmin = 740.98
+			xmax = 741.38
+			text = "..."
+		intervals [82]:
+			xmin = 741.38
+			xmax = 748.87
+			text = "por que se por um lado como justamente eu respondi isso pra responder a sua pergunta se era melhor ou do o mackenzie antigo"
+		intervals [83]:
+			xmin = 748.87
+			xmax = 749.1800000000001
+			text = "..."
+		intervals [84]:
+			xmin = 749.1800000000001
+			xmax = 749.83
+			text = "ou ah"
+		intervals [85]:
+			xmin = 749.83
+			xmax = 750.3100000000001
+			text = "..."
+		intervals [86]:
+			xmin = 750.3100000000001
+			xmax = 753.57
+			text = "ou o mackenzie moderno é melhor não é você queria saber isso não"
+		intervals [87]:
+			xmin = 753.57
+			xmax = 754.09
+			text = "..."
+		intervals [88]:
+			xmin = 754.09
+			xmax = 767.39
+			text = "a eu acho que o ensino era melhor por isso por porque nós tínhamos aquela possibilidade de ter os professores que se dedicavam muito mais do que hoje porque eles não podem se dedicar não estou acusando eu também sou professora e também vejo o"
+		intervals [89]:
+			xmin = 767.39
+			xmax = 767.7
+			text = "..."
+		intervals [90]:
+			xmin = 767.7
+			xmax = 768.63
+			text = "problema como é mas"
+		intervals [91]:
+			xmin = 768.63
+			xmax = 768.99
+			text = "..."
+		intervals [92]:
+			xmin = 768.99
+			xmax = 772.63
+			text = "em compensação os alunos encontram outro campo de cultura hoje"
+		intervals [93]:
+			xmin = 772.63
+			xmax = 772.96
+			text = "..."
+		intervals [94]:
+			xmin = 772.96
+			xmax = 774.74
+			text = "por exemplo as bibliotecas né que"
+		intervals [95]:
+			xmin = 774.74
+			xmax = 775.12
+			text = "..."
+		intervals [96]:
+			xmin = 775.12
+			xmax = 776.64
+			text = "justamente é o meu setor o"
+		intervals [97]:
+			xmin = 776.64
+			xmax = 777.1
+			text = "..."
+		intervals [98]:
+			xmin = 777.1
+			xmax = 787.73
+			text = "que se oferece pro aluno em matéria de biblioteca é uma coisa extraordinária quer dizer nós não tínhamos isso a gente estava quase que se reduzida ao texto não é escolar hoje"
+		intervals [99]:
+			xmin = 787.73
+			xmax = 788.05
+			text = "..."
+		intervals [100]:
+			xmin = 788.05
+			xmax = 790.73
+			text = "não há mais isso há possibilidade de pesquisa de"
+		intervals [101]:
+			xmin = 790.73
+			xmax = 791.04
+			text = "..."
+		intervals [102]:
+			xmin = 791.04
+			xmax = 791.76
+			text = "maneira que o"
+		intervals [103]:
+			xmin = 791.76
+			xmax = 792.0600000000001
+			text = "..."
+		intervals [104]:
+			xmin = 792.0600000000001
+			xmax = 794.62
+			text = "estudante querendo aproveitar o"
+		intervals [105]:
+			xmin = 794.62
+			xmax = 796.25
+			text = "campo é maravilhoso agora"
+		intervals [106]:
+			xmin = 796.25
+			xmax = 796.8
+			text = "..."
+		intervals [107]:
+			xmin = 796.8
+			xmax = 797.29
+			text = "é"
+		intervals [108]:
+			xmin = 797.29
+			xmax = 797.63
+			text = "..."
+		intervals [109]:
+			xmin = 797.63
+			xmax = 800.09
+			text = "pro o que eu tenho impressão que épreciso desenvolver muito"
+		intervals [110]:
+			xmin = 800.09
+			xmax = 800.4200000000001
+			text = "..."
+		intervals [111]:
+			xmin = 800.4200000000001
+			xmax = 802.4100000000001
+			text = "nos professores é a"
+		intervals [112]:
+			xmin = 802.4100000000001
+			xmax = 802.87
+			text = "..."
+		intervals [113]:
+			xmin = 802.87
+			xmax = 803.19
+			text = "o"
+		intervals [114]:
+			xmin = 803.19
+			xmax = 803.88
+			text = "..."
+		intervals [115]:
+			xmin = 803.88
+			xmax = 804.79
+			text = "vamos"
+		intervals [116]:
+			xmin = 804.79
+			xmax = 805.24
+			text = "..."
+		intervals [117]:
+			xmin = 805.24
+			xmax = 805.39
+			text = "dizer"
+		intervals [118]:
+			xmin = 805.39
+			xmax = 805.74
+			text = "..."
+		intervals [119]:
+			xmin = 805.74
+			xmax = 813.6600000000001
+			text = "o trabalho de motivar os alunos para que eles aproveitem tudo isso que eles têm todas essas chances e que"
+		intervals [120]:
+			xmin = 813.6600000000001
+			xmax = 814.19
+			text = "..."
+		intervals [121]:
+			xmin = 814.19
+			xmax = 815.4100000000001
+			text = "eles possam gozar de"
+		intervals [122]:
+			xmin = 815.4100000000001
+			xmax = 815.73
+			text = "..."
+		intervals [123]:
+			xmin = 815.73
+			xmax = 819.95
+			text = "tudo isso e aproveitar tirar o partido porque infelizmente a gente"
+		intervals [124]:
+			xmin = 819.95
+			xmax = 820.3
+			text = "..."
+		intervals [125]:
+			xmin = 820.3
+			xmax = 822.38
+			text = "vê ainda uma grande preocupação de aluno"
+		intervals [126]:
+			xmin = 822.38
+			xmax = 822.76
+			text = "..."
+		intervals [127]:
+			xmin = 822.76
+			xmax = 830.11
+			text = "que está querendo apenas passar de ano quer dizer passar de ano obter nota já fechou uma a tal matéria já fechou aquela matéria sem essa"
+		intervals [128]:
+			xmin = 830.11
+			xmax = 830.46
+			text = "..."
+		intervals [129]:
+			xmin = 830.46
+			xmax = 838.64
+			text = "preocupação mas há muitos que se aproveitam e se preocupam quer dizer o nosso trabalho deve ser justamente o de motivar esse elemento estudantil"
+		intervals [130]:
+			xmin = 838.64
+			xmax = 838.96
+			text = "..."
+		intervals [131]:
+			xmin = 838.96
+			xmax = 841.01
+			text = ""
+		intervals [132]:
+			xmin = 841.01
+			xmax = 844.4100000000001
+			text = "eram os professores naquela época exigentes demais ou não ah isto"
+		intervals [133]:
+			xmin = 844.4100000000001
+			xmax = 846.07
+			text = "..."
+		intervals [134]:
+			xmin = 846.07
+			xmax = 853.1700000000001
+			text = "ahn variava não é nós tínhamos professores exigen exigentíssimos viu outros já não eram tão exigentes né de modo"
+		intervals [135]:
+			xmin = 853.1700000000001
+			xmax = 853.6
+			text = "..."
+		intervals [136]:
+			xmin = 853.6
+			xmax = 856.98
+			text = "que isso eu penso que continua mais ou menos do mesmo jeito"
+		intervals [137]:
+			xmin = 856.98
+			xmax = 865.32
+			text = ""
+		intervals [138]:
+			xmin = 865.32
+			xmax = 865.97
+			text = "ahn tipo"
+		intervals [139]:
+			xmin = 865.97
+			xmax = 867.7
+			text = "..."
+		intervals [140]:
+			xmin = 867.7
+			xmax = 873.11
+			text = "de avaliação era justamente o resultado de tudo o que o estudante produzia não é porque eram os"
+		intervals [141]:
+			xmin = 873.11
+			xmax = 873.74
+			text = "..."
+		intervals [142]:
+			xmin = 873.74
+			xmax = 879.6800000000001
+			text = "trabalhos eram sabatinas eram exames não é não havia dispensa podia ter nota ótima e"
+		intervals [143]:
+			xmin = 879.6800000000001
+			xmax = 880.19
+			text = "o"
+		intervals [144]:
+			xmin = 880.19
+			xmax = 882.9300000000001
+			text = "aluno fazia todos os exames finais de maneira"
+		intervals [145]:
+			xmin = 882.9300000000001
+			xmax = 883.35
+			text = "..."
+		intervals [146]:
+			xmin = 883.35
+			xmax = 887.02
+			text = "que é era esse conjunto a frequência"
+		intervals [147]:
+			xmin = 887.02
+			xmax = 887.4000000000001
+			text = "..."
+		intervals [148]:
+			xmin = 887.4000000000001
+			xmax = 888.51
+			text = "a a"
+		intervals [149]:
+			xmin = 888.51
+			xmax = 888.95
+			text = "..."
+		intervals [150]:
+			xmin = 888.95
+			xmax = 895.25
+			text = "frequência também era considerada de modo que era a frequência eram os trabalhos apresentados as sabatinas e os exames o resultado"
+		intervals [151]:
+			xmin = 895.25
+			xmax = 896.01
+			text = "..."
+		intervals [152]:
+			xmin = 896.01
+			xmax = 898.1700000000001
+			text = "de tudo isso dava a a"
+		intervals [153]:
+			xmin = 898.1700000000001
+			xmax = 898.8900000000001
+			text = "..."
+		intervals [154]:
+			xmin = 898.8900000000001
+			xmax = 900.62
+			text = "nota que o aluno conseguiu obter"
+		intervals [155]:
+			xmin = 900.62
+			xmax = 901.12
+			text = "..."
+		intervals [156]:
+			xmin = 901.12
+			xmax = 901.95
+			text = "para passar"
+		intervals [157]:
+			xmin = 901.95
+			xmax = 907.35
+			text = ""
+		intervals [158]:
+			xmin = 907.35
+			xmax = 908.13
+			text = "mas o"
+		intervals [159]:
+			xmin = 908.13
+			xmax = 909.54
+			text = "..."
+		intervals [160]:
+			xmin = 909.54
+			xmax = 915.78
+			text = ""
+		intervals [161]:
+			xmin = 915.78
+			xmax = 917.77
+			text = "festa ah sim bem naturalmente"
+		intervals [162]:
+			xmin = 917.77
+			xmax = 918.24
+			text = "..."
+		intervals [163]:
+			xmin = 918.24
+			xmax = 920.74
+			text = "havia festa de formatura e no"
+		intervals [164]:
+			xmin = 920.74
+			xmax = 921.1400000000001
+			text = "..."
+		intervals [165]:
+			xmin = 921.1400000000001
+			xmax = 924.47
+			text = "caso do mackenzie era muito agradável porque era um"
+		intervals [166]:
+			xmin = 924.47
+			xmax = 924.88
+			text = "..."
+		intervals [167]:
+			xmin = 924.88
+			xmax = 925.82
+			text = "um terreno"
+		intervals [168]:
+			xmin = 925.82
+			xmax = 927.07
+			text = "..."
+		intervals [169]:
+			xmin = 927.07
+			xmax = 930.76
+			text = "muito grande onde funcionavam vários cursos de e nós"
+		intervals [170]:
+			xmin = 930.76
+			xmax = 931.02
+			text = "tínhamos"
+		intervals [171]:
+			xmin = 931.02
+			xmax = 934.44
+			text = "então salão de festas as festas eram lá mesmo havia um"
+		intervals [172]:
+			xmin = 934.44
+			xmax = 934.81
+			text = "..."
+		intervals [173]:
+			xmin = 934.81
+			xmax = 936.09
+			text = "campo de esporte então havia"
+		intervals [174]:
+			xmin = 936.09
+			xmax = 936.4300000000001
+			text = "..."
+		intervals [175]:
+			xmin = 936.4300000000001
+			xmax = 938.96
+			text = "uma convivência muito grande entre os"
+		intervals [176]:
+			xmin = 938.96
+			xmax = 939.31
+			text = "..."
+		intervals [177]:
+			xmin = 939.31
+			xmax = 943.56
+			text = "alunos todo mundo mais ou menos se conhecia também muito menos do que hoje o número"
+		intervals [178]:
+			xmin = 943.56
+			xmax = 943.86
+			text = "..."
+		intervals [179]:
+			xmin = 943.86
+			xmax = 945.57
+			text = "de alunos facilitava e as"
+		intervals [180]:
+			xmin = 945.57
+			xmax = 946.04
+			text = "..."
+		intervals [181]:
+			xmin = 946.04
+			xmax = 947.72
+			text = "reuniões eram muito animadas nós tínhamos"
+		intervals [182]:
+			xmin = 947.72
+			xmax = 948.07
+			text = "..."
+		intervals [183]:
+			xmin = 948.07
+			xmax = 953.98
+			text = "festas periódicas e e festas esportivas mensais quer dizer que havia sabe ou"
+		intervals [184]:
+			xmin = 953.98
+			xmax = 954.31
+			text = "..."
+		intervals [185]:
+			xmin = 954.31
+			xmax = 957.8
+			text = "era campeonato de bola ao cesto ou campeonato de futebol e a"
+		intervals [186]:
+			xmin = 957.8
+			xmax = 958.19
+			text = "..."
+		intervals [187]:
+			xmin = 958.19
+			xmax = 961.4300000000001
+			text = "atividade esportiva no mackenzie foi sempre muito grande de modo"
+		intervals [188]:
+			xmin = 961.4300000000001
+			xmax = 962.1400000000001
+			text = "..."
+		intervals [189]:
+			xmin = 962.1400000000001
+			xmax = 967.12
+			text = "que na ocasião do encerramento do curso a festa de formatura era uma festa muito bonita não é e havia"
+		intervals [190]:
+			xmin = 967.12
+			xmax = 967.71
+			text = "..."
+		intervals [191]:
+			xmin = 967.71
+			xmax = 968.3
+			text = "baile"
+		intervals [192]:
+			xmin = 968.3
+			xmax = 968.79
+			text = "..."
+		intervals [193]:
+			xmin = 968.79
+			xmax = 969.21
+			text = "lá"
+		intervals [194]:
+			xmin = 969.21
+			xmax = 972.32
+			text = "no mackenzie mesmo porque nós tínhamos um ginasium que era"
+		intervals [195]:
+			xmin = 972.32
+			xmax = 972.83
+			text = "..."
+		intervals [196]:
+			xmin = 972.83
+			xmax = 976.33
+			text = "muito grande e que ce era cedido nessa ocasião para a"
+		intervals [197]:
+			xmin = 976.33
+			xmax = 976.96
+			text = "..."
+		intervals [198]:
+			xmin = 976.96
+			xmax = 994.44
+			text = ""
+		intervals [199]:
+			xmin = 994.44
+			xmax = 995.6800000000001
+			text = "nós ahn"
+		intervals [200]:
+			xmin = 995.6800000000001
+			xmax = 999.19
+			text = "..."
+		intervals [201]:
+			xmin = 999.19
+			xmax = 1000.75
+			text = "eh faculdades a"
+		intervals [202]:
+			xmin = 1000.75
+			xmax = 1001.57
+			text = "naquela"
+		intervals [203]:
+			xmin = 1001.57
+			xmax = 1001.94
+			text = "..."
+		intervals [204]:
+			xmin = 1001.94
+			xmax = 1003.21
+			text = "o número"
+		intervals [205]:
+			xmin = 1003.21
+			xmax = 1003.55
+			text = "..."
+		intervals [206]:
+			xmin = 1003.55
+			xmax = 1006.4300000000001
+			text = "de faculdades era pequeno não é de"
+		intervals [207]:
+			xmin = 1006.4300000000001
+			xmax = 1006.81
+			text = "..."
+		intervals [208]:
+			xmin = 1006.81
+			xmax = 1014.28
+			text = "maneira que a maioria ficou no mackenzie mesmo porque como nós tínhamos escola de engenharia e escola de arquitetura eles ficaram"
+		intervals [209]:
+			xmin = 1014.28
+			xmax = 1014.97
+			text = "..."
+		intervals [210]:
+			xmin = 1014.97
+			xmax = 1015.38
+			text = "já"
+		intervals [211]:
+			xmin = 1015.38
+			xmax = 1016.19
+			text = "..."
+		intervals [212]:
+			xmin = 1016.19
+			xmax = 1019.23
+			text = "acostumados a o número de alunos que estava"
+		intervals [213]:
+			xmin = 1019.23
+			xmax = 1019.61
+			text = "..."
+		intervals [214]:
+			xmin = 1019.61
+			xmax = 1023.08
+			text = "no mackenzie desde o primeiro ano primário era grande de maneira que"
+		intervals [215]:
+			xmin = 1023.08
+			xmax = 1023.49
+			text = "..."
+		intervals [216]:
+			xmin = 1023.49
+			xmax = 1025.51
+			text = "eles não tinham vontade de sair não é"
+		intervals [217]:
+			xmin = 1025.51
+			xmax = 1025.72
+			text = ""
+		intervals [218]:
+			xmin = 1025.72
+			xmax = 1028.98
+			text = "engenharia só arquitetura e engenharia e de"
+		intervals [219]:
+			xmin = 1028.98
+			xmax = 1029.44
+			text = "..."
+		intervals [220]:
+			xmin = 1029.44
+			xmax = 1033.6
+			text = "escola superior né não era univers não havia universidade então a a"
+		intervals [221]:
+			xmin = 1033.6
+			xmax = 1034.2
+			text = "..."
+		intervals [222]:
+			xmin = 1034.2
+			xmax = 1036.28
+			text = "grande maioria ficava ah eu"
+		intervals [223]:
+			xmin = 1036.28
+			xmax = 1037.15
+			text = "..."
+		intervals [224]:
+			xmin = 1037.15
+			xmax = 1044.0700000000002
+			text = "posso contar até há pouco tempo mesmo um caso interessante um filho de uma amiga minha entrou com"
+		intervals [225]:
+			xmin = 1044.0700000000002
+			xmax = 1044.6100000000001
+			text = "..."
+		intervals [226]:
+			xmin = 1044.6100000000001
+			xmax = 1047.74
+			text = "nota muito boa na politécnica no ita"
+		intervals [227]:
+			xmin = 1047.74
+			xmax = 1048.0900000000001
+			text = "..."
+		intervals [228]:
+			xmin = 1048.0900000000001
+			xmax = 1048.97
+			text = "e no"
+		intervals [229]:
+			xmin = 1048.97
+			xmax = 1049.6100000000001
+			text = "mackenzie e não"
+		intervals [230]:
+			xmin = 1049.6100000000001
+			xmax = 1050.66
+			text = "..."
+		intervals [231]:
+			xmin = 1050.66
+			xmax = 1060.65
+			text = "queria ir nem à politécnica nem ao ita queria ficar no mackenzie quer dizer isso pra mostrar que havia um espírito mackenzista né porque ele por exemplo foi um que entrou desde o primeiro ano e ele"
+		intervals [232]:
+			xmin = 1060.65
+			xmax = 1061.05
+			text = "..."
+		intervals [233]:
+			xmin = 1061.05
+			xmax = 1063.77
+			text = "não queria foi preciso muita insistência da parte"
+		intervals [234]:
+			xmin = 1063.77
+			xmax = 1064.0900000000001
+			text = "..."
+		intervals [235]:
+			xmin = 1064.0900000000001
+			xmax = 1065.33
+			text = "da mãe que via"
+		intervals [236]:
+			xmin = 1065.33
+			xmax = 1065.68
+			text = "..."
+		intervals [237]:
+			xmin = 1065.68
+			xmax = 1073.02
+			text = "a possi uma possibilidade melhor de ele ir aos outros principalmente por causa de fi de si da situação financeira ela estava viúva e o"
+		intervals [238]:
+			xmin = 1073.02
+			xmax = 1073.56
+			text = "..."
+		intervals [239]:
+			xmin = 1073.56
+			xmax = 1074.3400000000001
+			text = "aluno"
+		intervals [240]:
+			xmin = 1074.3400000000001
+			xmax = 1074.67
+			text = "..."
+		intervals [241]:
+			xmin = 1074.67
+			xmax = 1080.22
+			text = "indo prá politécnica ou para o ita seria bem mais fácil para ela do que ele ficar no mackenzie mas foi"
+		intervals [242]:
+			xmin = 1080.22
+			xmax = 1080.6
+			text = "..."
+		intervals [243]:
+			xmin = 1080.6
+			xmax = 1085.23
+			text = "com muita pena que ele desistiu da da possibilidade de entrar na mackenzie e isto"
+		intervals [244]:
+			xmin = 1085.23
+			xmax = 1085.8200000000002
+			text = "..."
+		intervals [245]:
+			xmin = 1085.8200000000002
+			xmax = 1093.06
+			text = "isso aconteceu recentemente quer dizer recentemente não porque ele já se formou mas mais ou menos há uma questão de sete ou oito anos atrás e este"
+		intervals [246]:
+			xmin = 1093.06
+			xmax = 1093.47
+			text = "..."
+		intervals [247]:
+			xmin = 1093.47
+			xmax = 1097.1
+			text = "espírito então antigamente existia muito mais forte porque ah o"
+		intervals [248]:
+			xmin = 1097.1
+			xmax = 1097.47
+			text = "..."
+		intervals [249]:
+			xmin = 1097.47
+			xmax = 1101.48
+			text = "grupo era menor todo mundo se conhecia havia bastante amizade e tal e então"
+		intervals [250]:
+			xmin = 1101.48
+			xmax = 1101.99
+			text = "..."
+		intervals [251]:
+			xmin = 1101.99
+			xmax = 1108.17
+			text = "a grande maioria dos alunos ficavam num desses cursos ou engenharia ou arquitetura agora o uma"
+		intervals [252]:
+			xmin = 1108.17
+			xmax = 1108.5
+			text = "..."
+		intervals [253]:
+			xmin = 1108.5
+			xmax = 1108.71
+			text = "parte"
+		intervals [254]:
+			xmin = 1108.71
+			xmax = 1109.1
+			text = "..."
+		intervals [255]:
+			xmin = 1109.1
+			xmax = 1110.39
+			text = "menor ia para"
+		intervals [256]:
+			xmin = 1110.39
+			xmax = 1110.85
+			text = "..."
+		intervals [257]:
+			xmin = 1110.85
+			xmax = 1111.26
+			text = "ahn"
+		intervals [258]:
+			xmin = 1111.26
+			xmax = 1111.87
+			text = "o"
+		intervals [259]:
+			xmin = 1111.87
+			xmax = 1112.17
+			text = "..."
+		intervals [260]:
+			xmin = 1112.17
+			xmax = 1113.02
+			text = "são"
+		intervals [261]:
+			xmin = 1113.02
+			xmax = 1113.5900000000001
+			text = "..."
+		intervals [262]:
+			xmin = 1113.5900000000001
+			xmax = 1116.0
+			text = "francisco fazer faculdade de direito ou então"
+		intervals [263]:
+			xmin = 1116.0
+			xmax = 1116.44
+			text = "..."
+		intervals [264]:
+			xmin = 1116.44
+			xmax = 1117.33
+			text = "ia para"
+		intervals [265]:
+			xmin = 1117.33
+			xmax = 1117.72
+			text = "..."
+		intervals [266]:
+			xmin = 1117.72
+			xmax = 1120.79
+			text = "a faculdade de medicina em menor número este os candidatos"
+		intervals [267]:
+			xmin = 1120.79
+			xmax = 1121.21
+			text = "à"
+		intervals [268]:
+			xmin = 1121.21
+			xmax = 1122.1100000000001
+			text = "me que se dirigiam"
+		intervals [269]:
+			xmin = 1122.1100000000001
+			xmax = 1122.3600000000001
+			text = "à"
+		intervals [270]:
+			xmin = 1122.3600000000001
+			xmax = 1123.4099999999999
+			text = "medicina eram era"
+		intervals [271]:
+			xmin = 1123.4099999999999
+			xmax = 1123.8000000000002
+			text = "..."
+		intervals [272]:
+			xmin = 1123.8000000000002
+			xmax = 1124.5500000000002
+			text = "um"
+		intervals [273]:
+			xmin = 1124.5500000000002
+			xmax = 1125.44
+			text = "..."
+		intervals [274]:
+			xmin = 1125.44
+			xmax = 1125.99
+			text = "número bem menor"
+		intervals [275]:
+			xmin = 1125.99
+			xmax = 1128.93
+			text = ""
+		intervals [276]:
+			xmin = 1128.93
+			xmax = 1131.95
+			text = "recebiam alguma orientação religiosa não orientação"
+		intervals [277]:
+			xmin = 1131.95
+			xmax = 1133.93
+			text = "..."
+		intervals [278]:
+			xmin = 1133.93
+			xmax = 1136.8899999999999
+			text = "religiosa propriamente não o mackenzie"
+		intervals [279]:
+			xmin = 1136.8899999999999
+			xmax = 1137.5700000000002
+			text = "..."
+		intervals [280]:
+			xmin = 1137.5700000000002
+			xmax = 1138.54
+			text = "é de"
+		intervals [281]:
+			xmin = 1138.54
+			xmax = 1139.81
+			text = "base protestante"
+		intervals [282]:
+			xmin = 1139.81
+			xmax = 1140.29
+			text = "..."
+		intervals [283]:
+			xmin = 1140.29
+			xmax = 1142.75
+			text = "presbiteriana havia um"
+		intervals [284]:
+			xmin = 1142.75
+			xmax = 1143.4099999999999
+			text = "..."
+		intervals [285]:
+			xmin = 1143.4099999999999
+			xmax = 1144.9
+			text = "culto diário mas esse"
+		intervals [286]:
+			xmin = 1144.9
+			xmax = 1145.46
+			text = "..."
+		intervals [287]:
+			xmin = 1145.46
+			xmax = 1147.19
+			text = "culto não era ahn eu"
+		intervals [288]:
+			xmin = 1147.19
+			xmax = 1147.63
+			text = "..."
+		intervals [289]:
+			xmin = 1147.63
+			xmax = 1151.08
+			text = "não classificaria de orientação religiosa era como"
+		intervals [290]:
+			xmin = 1151.08
+			xmax = 1151.53
+			text = "..."
+		intervals [291]:
+			xmin = 1151.53
+			xmax = 1155.45
+			text = "se fosse uma oração na igreja católica que se fizesse todos os dias então eles"
+		intervals [292]:
+			xmin = 1155.45
+			xmax = 1155.8600000000001
+			text = "..."
+		intervals [293]:
+			xmin = 1155.8600000000001
+			xmax = 1158.56
+			text = "liam um trechozinho da bíblia e falavam"
+		intervals [294]:
+			xmin = 1158.56
+			xmax = 1159.0500000000002
+			text = "..."
+		intervals [295]:
+			xmin = 1159.0500000000002
+			xmax = 1162.31
+			text = "alguma coisa sobre esse trecho da bíblia mas ahn"
+		intervals [296]:
+			xmin = 1162.31
+			xmax = 1163.03
+			text = "..."
+		intervals [297]:
+			xmin = 1163.03
+			xmax = 1169.4099999999999
+			text = "disto para orientação religiosa propriamente ia bastante distância não é tanto que"
+		intervals [298]:
+			xmin = 1169.4099999999999
+			xmax = 1169.8200000000002
+			text = "..."
+		intervals [299]:
+			xmin = 1169.8200000000002
+			xmax = 1177.2
+			text = "eu e todas as minhas colegas que eram católicas não houve nenhum caso de alguma se tornar protestante portanto quer"
+		intervals [300]:
+			xmin = 1177.2
+			xmax = 1177.65
+			text = "..."
+		intervals [301]:
+			xmin = 1177.65
+			xmax = 1180.0500000000002
+			text = "dizer que não havia mesmo ahn o"
+		intervals [302]:
+			xmin = 1180.0500000000002
+			xmax = 1180.51
+			text = "..."
+		intervals [303]:
+			xmin = 1180.51
+			xmax = 1184.53
+			text = "assim um trabalho religioso na escola não é o que"
+		intervals [304]:
+			xmin = 1184.53
+			xmax = 1184.93
+			text = "..."
+		intervals [305]:
+			xmin = 1184.93
+			xmax = 1186.68
+			text = "havia era um culto diário que nós"
+		intervals [306]:
+			xmin = 1186.68
+			xmax = 1187.1399999999999
+			text = "..."
+		intervals [307]:
+			xmin = 1187.1399999999999
+			xmax = 1190.6100000000001
+			text = "éramos obrigados a assistir o que aliás era muito bom porque era um"
+		intervals [308]:
+			xmin = 1190.6100000000001
+			xmax = 1190.92
+			text = "..."
+		intervals [309]:
+			xmin = 1190.92
+			xmax = 1192.0500000000002
+			text = "trechinho da bíblia e foi"
+		intervals [310]:
+			xmin = 1192.0500000000002
+			xmax = 1192.3899999999999
+			text = "..."
+		intervals [311]:
+			xmin = 1192.3899999999999
+			xmax = 1200.42
+			text = ""
+	item [4]:
+		class = "IntervalTier"
+		name = "NTB-l1"
+		xmin = 0.0
+		xmax = 1200.42
+		intervals: size = 311
+		intervals [1]:
+			xmin = 0.0
+			xmax = 602.1800000000001
+			text = ""
+		intervals [2]:
+			xmin = 602.1800000000001
+			xmax = 603.7
+			text = "melhor do nosso estudo"
+		intervals [3]:
+			xmin = 603.7
+			xmax = 604.27
+			text = "..."
+		intervals [4]:
+			xmin = 604.27
+			xmax = 605.03
+			text = "hoje"
+		intervals [5]:
+			xmin = 605.03
+			xmax = 611.14
+			text = "nós vemos um quadro completamente diferente não no mackenzie só mas em todos os estabelecimentos de ensino"
+		intervals [6]:
+			xmin = 611.14
+			xmax = 611.52
+			text = "..."
+		intervals [7]:
+			xmin = 611.52
+			xmax = 613.59
+			text = "vemos classes superlotadas"
+		intervals [8]:
+			xmin = 613.59
+			xmax = 614.36
+			text = "..."
+		intervals [9]:
+			xmin = 614.36
+			xmax = 615.61
+			text = "professores"
+		intervals [10]:
+			xmin = 615.61
+			xmax = 616.03
+			text = "..."
+		intervals [11]:
+			xmin = 616.03
+			xmax = 623.66
+			text = "com não podem se manter com dando poucas aulas né a situação financeira obriga o professor a dar muitas aulas"
+		intervals [12]:
+			xmin = 623.66
+			xmax = 624.07
+			text = "..."
+		intervals [13]:
+			xmin = 624.07
+			xmax = 628.95
+			text = "então ele não pode fazer as correções dos trabalhos dos alunos como eram feitas antigamente"
+		intervals [14]:
+			xmin = 628.95
+			xmax = 629.27
+			text = "..."
+		intervals [15]:
+			xmin = 629.27
+			xmax = 632.37
+			text = "de maneira que o o ensino sofre"
+		intervals [16]:
+			xmin = 632.37
+			xmax = 632.78
+			text = "..."
+		intervals [17]:
+			xmin = 632.78
+			xmax = 633.79
+			text = "uma porção"
+		intervals [18]:
+			xmin = 633.79
+			xmax = 634.62
+			text = "..."
+		intervals [19]:
+			xmin = 634.62
+			xmax = 637.0600000000001
+			text = "de de influências más"
+		intervals [20]:
+			xmin = 637.0600000000001
+			xmax = 637.4300000000001
+			text = "..."
+		intervals [21]:
+			xmin = 637.4300000000001
+			xmax = 638.12
+			text = "nós vimos"
+		intervals [22]:
+			xmin = 638.12
+			xmax = 638.57
+			text = "a"
+		intervals [23]:
+			xmin = 638.57
+			xmax = 643.86
+			text = "uma estamos atravessando uma era utilitarista todo mundo está"
+		intervals [24]:
+			xmin = 643.86
+			xmax = 644.39
+			text = "sempre"
+		intervals [25]:
+			xmin = 644.39
+			xmax = 645.11
+			text = "procurando"
+		intervals [26]:
+			xmin = 645.11
+			xmax = 645.53
+			text = "..."
+		intervals [27]:
+			xmin = 645.53
+			xmax = 646.19
+			text = "obter"
+		intervals [28]:
+			xmin = 646.19
+			xmax = 646.5
+			text = "..."
+		intervals [29]:
+			xmin = 646.5
+			xmax = 653.57
+			text = "o máximo de rendimento quer dizer é um defeito que não não é do professor mas é de todo o humano hoje não é"
+		intervals [30]:
+			xmin = 653.57
+			xmax = 653.89
+			text = "..."
+		intervals [31]:
+			xmin = 653.89
+			xmax = 656.64
+			text = "nós sentimos esse problema em todos os"
+		intervals [32]:
+			xmin = 656.64
+			xmax = 657.03
+			text = "..."
+		intervals [33]:
+			xmin = 657.03
+			xmax = 659.04
+			text = "ahn em todas as atividades"
+		intervals [34]:
+			xmin = 659.04
+			xmax = 659.5
+			text = "..."
+		intervals [35]:
+			xmin = 659.5
+			xmax = 660.62
+			text = "de maneira que hoje"
+		intervals [36]:
+			xmin = 660.62
+			xmax = 661.0600000000001
+			text = "..."
+		intervals [37]:
+			xmin = 661.0600000000001
+			xmax = 662.58
+			text = "eu acho que o ensino"
+		intervals [38]:
+			xmin = 662.58
+			xmax = 663.48
+			text = "..."
+		intervals [39]:
+			xmin = 663.48
+			xmax = 665.62
+			text = "im piorou nesse sentido"
+		intervals [40]:
+			xmin = 665.62
+			xmax = 666.08
+			text = "..."
+		intervals [41]:
+			xmin = 666.08
+			xmax = 672.1800000000001
+			text = "e estamos vendo mesmo campanhas para melhorar opiniões de ministros de educação discussão sobre"
+		intervals [42]:
+			xmin = 672.1800000000001
+			xmax = 672.5
+			text = "..."
+		intervals [43]:
+			xmin = 672.5
+			xmax = 673.6600000000001
+			text = "a situação do ensino"
+		intervals [44]:
+			xmin = 673.6600000000001
+			xmax = 674.02
+			text = "..."
+		intervals [45]:
+			xmin = 674.02
+			xmax = 675.8100000000001
+			text = "quer dizer que isso não podemos"
+		intervals [46]:
+			xmin = 675.8100000000001
+			xmax = 676.1700000000001
+			text = "..."
+		intervals [47]:
+			xmin = 676.1700000000001
+			xmax = 676.8100000000001
+			text = "ahn"
+		intervals [48]:
+			xmin = 676.8100000000001
+			xmax = 677.78
+			text = "..."
+		intervals [49]:
+			xmin = 677.78
+			xmax = 680.78
+			text = "determinar que seja este ou aquele o defeito"
+		intervals [50]:
+			xmin = 680.78
+			xmax = 681.13
+			text = "..."
+		intervals [51]:
+			xmin = 681.13
+			xmax = 681.76
+			text = "mas é"
+		intervals [52]:
+			xmin = 681.76
+			xmax = 682.09
+			text = "..."
+		intervals [53]:
+			xmin = 682.09
+			xmax = 684.9
+			text = "a consequência de uma porção de fatores negativos"
+		intervals [54]:
+			xmin = 684.9
+			xmax = 685.29
+			text = "..."
+		intervals [55]:
+			xmin = 685.29
+			xmax = 690.21
+			text = "mas que naturalmente nós podemos cada um especialmente dos ahn na sua"
+		intervals [56]:
+			xmin = 690.21
+			xmax = 690.82
+			text = "..."
+		intervals [57]:
+			xmin = 690.82
+			xmax = 694.22
+			text = "área poderá fazer um esforço para reduzir"
+		intervals [58]:
+			xmin = 694.22
+			xmax = 694.53
+			text = "..."
+		intervals [59]:
+			xmin = 694.53
+			xmax = 697.1
+			text = "este prejuízo e tornar o ensino bom"
+		intervals [60]:
+			xmin = 697.1
+			xmax = 697.47
+			text = "..."
+		intervals [61]:
+			xmin = 697.47
+			xmax = 700.48
+			text = "nós também vemos um lado positivo hoje"
+		intervals [62]:
+			xmin = 700.48
+			xmax = 702.12
+			text = "pelo menos é uma coisa que eu acho"
+		intervals [63]:
+			xmin = 702.12
+			xmax = 702.6
+			text = "..."
+		intervals [64]:
+			xmin = 702.6
+			xmax = 703.82
+			text = "o estudante"
+		intervals [65]:
+			xmin = 703.82
+			xmax = 705.02
+			text = "..."
+		intervals [66]:
+			xmin = 705.02
+			xmax = 709.48
+			text = "tem muita oportunidade tem oportunidade que nós não tínhamos por exemplo"
+		intervals [67]:
+			xmin = 709.48
+			xmax = 709.99
+			text = "..."
+		intervals [68]:
+			xmin = 709.99
+			xmax = 714.35
+			text = "a os meios de comunicação os meios de comunicação são extraordinários"
+		intervals [69]:
+			xmin = 714.35
+			xmax = 714.6800000000001
+			text = "..."
+		intervals [70]:
+			xmin = 714.6800000000001
+			xmax = 718.1700000000001
+			text = "de maneira que o nosso estudante hoje conhece muito mais"
+		intervals [71]:
+			xmin = 718.1700000000001
+			xmax = 718.51
+			text = "..."
+		intervals [72]:
+			xmin = 718.51
+			xmax = 720.52
+			text = "do que nós conhecíamos naquela idade"
+		intervals [73]:
+			xmin = 720.52
+			xmax = 720.98
+			text = "..."
+		intervals [74]:
+			xmin = 720.98
+			xmax = 728.36
+			text = "não por causa das aulas mas por causa da das facilidades que tem de travar conhecimento com o que se passa no mundo"
+		intervals [75]:
+			xmin = 728.36
+			xmax = 728.72
+			text = "..."
+		intervals [76]:
+			xmin = 728.72
+			xmax = 730.55
+			text = "de maneira que pode haver"
+		intervals [77]:
+			xmin = 730.55
+			xmax = 730.85
+			text = "..."
+		intervals [78]:
+			xmin = 730.85
+			xmax = 735.6500000000001
+			text = "uma compensação dando um equilíbrio eu vejo muita possibilidade"
+		intervals [79]:
+			xmin = 735.6500000000001
+			xmax = 736.1700000000001
+			text = "..."
+		intervals [80]:
+			xmin = 736.1700000000001
+			xmax = 740.98
+			text = "de nós conseguirmos um um alto nível de cultura em todos os setores hoje"
+		intervals [81]:
+			xmin = 740.98
+			xmax = 741.38
+			text = "..."
+		intervals [82]:
+			xmin = 741.38
+			xmax = 748.87
+			text = "por que se por um lado como justamente eu respondi isso pra responder a sua pergunta se era melhor ou do o mackenzie antigo"
+		intervals [83]:
+			xmin = 748.87
+			xmax = 749.1800000000001
+			text = "..."
+		intervals [84]:
+			xmin = 749.1800000000001
+			xmax = 749.83
+			text = "ou ah"
+		intervals [85]:
+			xmin = 749.83
+			xmax = 750.3100000000001
+			text = "..."
+		intervals [86]:
+			xmin = 750.3100000000001
+			xmax = 753.57
+			text = "ou o mackenzie moderno é melhor não é você queria saber isso não"
+		intervals [87]:
+			xmin = 753.57
+			xmax = 754.09
+			text = "..."
+		intervals [88]:
+			xmin = 754.09
+			xmax = 767.39
+			text = "a eu acho que o ensino era melhor por isso por porque nós tínhamos aquela possibilidade de ter os professores que se dedicavam muito mais do que hoje porque eles não podem se dedicar não estou acusando eu também sou professora e também vejo o"
+		intervals [89]:
+			xmin = 767.39
+			xmax = 767.7
+			text = "..."
+		intervals [90]:
+			xmin = 767.7
+			xmax = 768.63
+			text = "problema como é mas"
+		intervals [91]:
+			xmin = 768.63
+			xmax = 768.99
+			text = "..."
+		intervals [92]:
+			xmin = 768.99
+			xmax = 772.63
+			text = "em compensação os alunos encontram outro campo de cultura hoje"
+		intervals [93]:
+			xmin = 772.63
+			xmax = 772.96
+			text = "..."
+		intervals [94]:
+			xmin = 772.96
+			xmax = 774.74
+			text = "por exemplo as bibliotecas né que"
+		intervals [95]:
+			xmin = 774.74
+			xmax = 775.12
+			text = "..."
+		intervals [96]:
+			xmin = 775.12
+			xmax = 776.64
+			text = "justamente é o meu setor o"
+		intervals [97]:
+			xmin = 776.64
+			xmax = 777.1
+			text = "..."
+		intervals [98]:
+			xmin = 777.1
+			xmax = 787.73
+			text = "que se oferece pro aluno em matéria de biblioteca é uma coisa extraordinária quer dizer nós não tínhamos isso a gente estava quase que se reduzida ao texto não é escolar hoje"
+		intervals [99]:
+			xmin = 787.73
+			xmax = 788.05
+			text = "..."
+		intervals [100]:
+			xmin = 788.05
+			xmax = 790.73
+			text = "não há mais isso há possibilidade de pesquisa de"
+		intervals [101]:
+			xmin = 790.73
+			xmax = 791.04
+			text = "..."
+		intervals [102]:
+			xmin = 791.04
+			xmax = 791.76
+			text = "maneira que o"
+		intervals [103]:
+			xmin = 791.76
+			xmax = 792.0600000000001
+			text = "..."
+		intervals [104]:
+			xmin = 792.0600000000001
+			xmax = 794.62
+			text = "estudante querendo aproveitar o"
+		intervals [105]:
+			xmin = 794.62
+			xmax = 796.25
+			text = "campo é maravilhoso agora"
+		intervals [106]:
+			xmin = 796.25
+			xmax = 796.8
+			text = "..."
+		intervals [107]:
+			xmin = 796.8
+			xmax = 797.29
+			text = "é"
+		intervals [108]:
+			xmin = 797.29
+			xmax = 797.63
+			text = "..."
+		intervals [109]:
+			xmin = 797.63
+			xmax = 800.09
+			text = "pro o que eu tenho impressão que épreciso desenvolver muito"
+		intervals [110]:
+			xmin = 800.09
+			xmax = 800.4200000000001
+			text = "..."
+		intervals [111]:
+			xmin = 800.4200000000001
+			xmax = 802.4100000000001
+			text = "nos professores é a"
+		intervals [112]:
+			xmin = 802.4100000000001
+			xmax = 802.87
+			text = "..."
+		intervals [113]:
+			xmin = 802.87
+			xmax = 803.19
+			text = "o"
+		intervals [114]:
+			xmin = 803.19
+			xmax = 803.88
+			text = "..."
+		intervals [115]:
+			xmin = 803.88
+			xmax = 804.79
+			text = "vamos"
+		intervals [116]:
+			xmin = 804.79
+			xmax = 805.24
+			text = "..."
+		intervals [117]:
+			xmin = 805.24
+			xmax = 805.39
+			text = "dizer"
+		intervals [118]:
+			xmin = 805.39
+			xmax = 805.74
+			text = "..."
+		intervals [119]:
+			xmin = 805.74
+			xmax = 813.6600000000001
+			text = "o trabalho de motivar os alunos para que eles aproveitem tudo isso que eles têm todas essas chances e que"
+		intervals [120]:
+			xmin = 813.6600000000001
+			xmax = 814.19
+			text = "..."
+		intervals [121]:
+			xmin = 814.19
+			xmax = 815.4100000000001
+			text = "eles possam gozar de"
+		intervals [122]:
+			xmin = 815.4100000000001
+			xmax = 815.73
+			text = "..."
+		intervals [123]:
+			xmin = 815.73
+			xmax = 819.95
+			text = "tudo isso e aproveitar tirar o partido porque infelizmente a gente"
+		intervals [124]:
+			xmin = 819.95
+			xmax = 820.3
+			text = "..."
+		intervals [125]:
+			xmin = 820.3
+			xmax = 822.38
+			text = "vê ainda uma grande preocupação de aluno"
+		intervals [126]:
+			xmin = 822.38
+			xmax = 822.76
+			text = "..."
+		intervals [127]:
+			xmin = 822.76
+			xmax = 830.11
+			text = "que está querendo apenas passar de ano quer dizer passar de ano obter nota já fechou uma a tal matéria já fechou aquela matéria sem essa"
+		intervals [128]:
+			xmin = 830.11
+			xmax = 830.46
+			text = "..."
+		intervals [129]:
+			xmin = 830.46
+			xmax = 838.64
+			text = "preocupação mas há muitos que se aproveitam e se preocupam quer dizer o nosso trabalho deve ser justamente o de motivar esse elemento estudantil"
+		intervals [130]:
+			xmin = 838.64
+			xmax = 838.96
+			text = "..."
+		intervals [131]:
+			xmin = 838.96
+			xmax = 841.01
+			text = ""
+		intervals [132]:
+			xmin = 841.01
+			xmax = 844.4100000000001
+			text = "eram os professores naquela época exigentes demais ou não ah isto"
+		intervals [133]:
+			xmin = 844.4100000000001
+			xmax = 846.07
+			text = "..."
+		intervals [134]:
+			xmin = 846.07
+			xmax = 853.1700000000001
+			text = "ahn variava não é nós tínhamos professores exigen exigentíssimos viu outros já não eram tão exigentes né de modo"
+		intervals [135]:
+			xmin = 853.1700000000001
+			xmax = 853.6
+			text = "..."
+		intervals [136]:
+			xmin = 853.6
+			xmax = 856.98
+			text = "que isso eu penso que continua mais ou menos do mesmo jeito"
+		intervals [137]:
+			xmin = 856.98
+			xmax = 865.32
+			text = ""
+		intervals [138]:
+			xmin = 865.32
+			xmax = 865.97
+			text = "ahn tipo"
+		intervals [139]:
+			xmin = 865.97
+			xmax = 867.7
+			text = "..."
+		intervals [140]:
+			xmin = 867.7
+			xmax = 873.11
+			text = "de avaliação era justamente o resultado de tudo o que o estudante produzia não é porque eram os"
+		intervals [141]:
+			xmin = 873.11
+			xmax = 873.74
+			text = "..."
+		intervals [142]:
+			xmin = 873.74
+			xmax = 879.6800000000001
+			text = "trabalhos eram sabatinas eram exames não é não havia dispensa podia ter nota ótima e"
+		intervals [143]:
+			xmin = 879.6800000000001
+			xmax = 880.19
+			text = "o"
+		intervals [144]:
+			xmin = 880.19
+			xmax = 882.9300000000001
+			text = "aluno fazia todos os exames finais de maneira"
+		intervals [145]:
+			xmin = 882.9300000000001
+			xmax = 883.35
+			text = "..."
+		intervals [146]:
+			xmin = 883.35
+			xmax = 887.02
+			text = "que é era esse conjunto a frequência"
+		intervals [147]:
+			xmin = 887.02
+			xmax = 887.4000000000001
+			text = "..."
+		intervals [148]:
+			xmin = 887.4000000000001
+			xmax = 888.51
+			text = "a a"
+		intervals [149]:
+			xmin = 888.51
+			xmax = 888.95
+			text = "..."
+		intervals [150]:
+			xmin = 888.95
+			xmax = 895.25
+			text = "frequência também era considerada de modo que era a frequência eram os trabalhos apresentados as sabatinas e os exames o resultado"
+		intervals [151]:
+			xmin = 895.25
+			xmax = 896.01
+			text = "..."
+		intervals [152]:
+			xmin = 896.01
+			xmax = 898.1700000000001
+			text = "de tudo isso dava a a"
+		intervals [153]:
+			xmin = 898.1700000000001
+			xmax = 898.8900000000001
+			text = "..."
+		intervals [154]:
+			xmin = 898.8900000000001
+			xmax = 900.62
+			text = "nota que o aluno conseguiu obter"
+		intervals [155]:
+			xmin = 900.62
+			xmax = 901.12
+			text = "..."
+		intervals [156]:
+			xmin = 901.12
+			xmax = 901.95
+			text = "para passar"
+		intervals [157]:
+			xmin = 901.95
+			xmax = 907.35
+			text = ""
+		intervals [158]:
+			xmin = 907.35
+			xmax = 908.13
+			text = "mas o"
+		intervals [159]:
+			xmin = 908.13
+			xmax = 909.54
+			text = "..."
+		intervals [160]:
+			xmin = 909.54
+			xmax = 915.78
+			text = ""
+		intervals [161]:
+			xmin = 915.78
+			xmax = 917.77
+			text = "festa ah sim bem naturalmente"
+		intervals [162]:
+			xmin = 917.77
+			xmax = 918.24
+			text = "..."
+		intervals [163]:
+			xmin = 918.24
+			xmax = 920.74
+			text = "havia festa de formatura e no"
+		intervals [164]:
+			xmin = 920.74
+			xmax = 921.1400000000001
+			text = "..."
+		intervals [165]:
+			xmin = 921.1400000000001
+			xmax = 924.47
+			text = "caso do mackenzie era muito agradável porque era um"
+		intervals [166]:
+			xmin = 924.47
+			xmax = 924.88
+			text = "..."
+		intervals [167]:
+			xmin = 924.88
+			xmax = 925.82
+			text = "um terreno"
+		intervals [168]:
+			xmin = 925.82
+			xmax = 927.07
+			text = "..."
+		intervals [169]:
+			xmin = 927.07
+			xmax = 930.76
+			text = "muito grande onde funcionavam vários cursos de e nós"
+		intervals [170]:
+			xmin = 930.76
+			xmax = 931.02
+			text = "tínhamos"
+		intervals [171]:
+			xmin = 931.02
+			xmax = 934.44
+			text = "então salão de festas as festas eram lá mesmo havia um"
+		intervals [172]:
+			xmin = 934.44
+			xmax = 934.81
+			text = "..."
+		intervals [173]:
+			xmin = 934.81
+			xmax = 936.09
+			text = "campo de esporte então havia"
+		intervals [174]:
+			xmin = 936.09
+			xmax = 936.4300000000001
+			text = "..."
+		intervals [175]:
+			xmin = 936.4300000000001
+			xmax = 938.96
+			text = "uma convivência muito grande entre os"
+		intervals [176]:
+			xmin = 938.96
+			xmax = 939.31
+			text = "..."
+		intervals [177]:
+			xmin = 939.31
+			xmax = 943.56
+			text = "alunos todo mundo mais ou menos se conhecia também muito menos do que hoje o número"
+		intervals [178]:
+			xmin = 943.56
+			xmax = 943.86
+			text = "..."
+		intervals [179]:
+			xmin = 943.86
+			xmax = 945.57
+			text = "de alunos facilitava e as"
+		intervals [180]:
+			xmin = 945.57
+			xmax = 946.04
+			text = "..."
+		intervals [181]:
+			xmin = 946.04
+			xmax = 947.72
+			text = "reuniões eram muito animadas nós tínhamos"
+		intervals [182]:
+			xmin = 947.72
+			xmax = 948.07
+			text = "..."
+		intervals [183]:
+			xmin = 948.07
+			xmax = 953.98
+			text = "festas periódicas e e festas esportivas mensais quer dizer que havia sabe ou"
+		intervals [184]:
+			xmin = 953.98
+			xmax = 954.31
+			text = "..."
+		intervals [185]:
+			xmin = 954.31
+			xmax = 957.8
+			text = "era campeonato de bola ao cesto ou campeonato de futebol e a"
+		intervals [186]:
+			xmin = 957.8
+			xmax = 958.19
+			text = "..."
+		intervals [187]:
+			xmin = 958.19
+			xmax = 961.4300000000001
+			text = "atividade esportiva no mackenzie foi sempre muito grande de modo"
+		intervals [188]:
+			xmin = 961.4300000000001
+			xmax = 962.1400000000001
+			text = "..."
+		intervals [189]:
+			xmin = 962.1400000000001
+			xmax = 967.12
+			text = "que na ocasião do encerramento do curso a festa de formatura era uma festa muito bonita não é e havia"
+		intervals [190]:
+			xmin = 967.12
+			xmax = 967.71
+			text = "..."
+		intervals [191]:
+			xmin = 967.71
+			xmax = 968.3
+			text = "baile"
+		intervals [192]:
+			xmin = 968.3
+			xmax = 968.79
+			text = "..."
+		intervals [193]:
+			xmin = 968.79
+			xmax = 969.21
+			text = "lá"
+		intervals [194]:
+			xmin = 969.21
+			xmax = 972.32
+			text = "no mackenzie mesmo porque nós tínhamos um ginasium que era"
+		intervals [195]:
+			xmin = 972.32
+			xmax = 972.83
+			text = "..."
+		intervals [196]:
+			xmin = 972.83
+			xmax = 976.33
+			text = "muito grande e que ce era cedido nessa ocasião para a"
+		intervals [197]:
+			xmin = 976.33
+			xmax = 976.96
+			text = "..."
+		intervals [198]:
+			xmin = 976.96
+			xmax = 994.44
+			text = ""
+		intervals [199]:
+			xmin = 994.44
+			xmax = 995.6800000000001
+			text = "nós ahn"
+		intervals [200]:
+			xmin = 995.6800000000001
+			xmax = 999.19
+			text = "..."
+		intervals [201]:
+			xmin = 999.19
+			xmax = 1000.75
+			text = "eh faculdades a"
+		intervals [202]:
+			xmin = 1000.75
+			xmax = 1001.57
+			text = "naquela"
+		intervals [203]:
+			xmin = 1001.57
+			xmax = 1001.94
+			text = "..."
+		intervals [204]:
+			xmin = 1001.94
+			xmax = 1003.21
+			text = "o número"
+		intervals [205]:
+			xmin = 1003.21
+			xmax = 1003.55
+			text = "..."
+		intervals [206]:
+			xmin = 1003.55
+			xmax = 1006.4300000000001
+			text = "de faculdades era pequeno não é de"
+		intervals [207]:
+			xmin = 1006.4300000000001
+			xmax = 1006.81
+			text = "..."
+		intervals [208]:
+			xmin = 1006.81
+			xmax = 1014.28
+			text = "maneira que a maioria ficou no mackenzie mesmo porque como nós tínhamos escola de engenharia e escola de arquitetura eles ficaram"
+		intervals [209]:
+			xmin = 1014.28
+			xmax = 1014.97
+			text = "..."
+		intervals [210]:
+			xmin = 1014.97
+			xmax = 1015.38
+			text = "já"
+		intervals [211]:
+			xmin = 1015.38
+			xmax = 1016.19
+			text = "..."
+		intervals [212]:
+			xmin = 1016.19
+			xmax = 1019.23
+			text = "acostumados a o número de alunos que estava"
+		intervals [213]:
+			xmin = 1019.23
+			xmax = 1019.61
+			text = "..."
+		intervals [214]:
+			xmin = 1019.61
+			xmax = 1023.08
+			text = "no mackenzie desde o primeiro ano primário era grande de maneira que"
+		intervals [215]:
+			xmin = 1023.08
+			xmax = 1023.49
+			text = "..."
+		intervals [216]:
+			xmin = 1023.49
+			xmax = 1025.51
+			text = "eles não tinham vontade de sair não é"
+		intervals [217]:
+			xmin = 1025.51
+			xmax = 1025.72
+			text = ""
+		intervals [218]:
+			xmin = 1025.72
+			xmax = 1028.98
+			text = "engenharia só arquitetura e engenharia e de"
+		intervals [219]:
+			xmin = 1028.98
+			xmax = 1029.44
+			text = "..."
+		intervals [220]:
+			xmin = 1029.44
+			xmax = 1033.6
+			text = "escola superior né não era univers não havia universidade então a a"
+		intervals [221]:
+			xmin = 1033.6
+			xmax = 1034.2
+			text = "..."
+		intervals [222]:
+			xmin = 1034.2
+			xmax = 1036.28
+			text = "grande maioria ficava ah eu"
+		intervals [223]:
+			xmin = 1036.28
+			xmax = 1037.15
+			text = "..."
+		intervals [224]:
+			xmin = 1037.15
+			xmax = 1044.0700000000002
+			text = "posso contar até há pouco tempo mesmo um caso interessante um filho de uma amiga minha entrou com"
+		intervals [225]:
+			xmin = 1044.0700000000002
+			xmax = 1044.6100000000001
+			text = "..."
+		intervals [226]:
+			xmin = 1044.6100000000001
+			xmax = 1047.74
+			text = "nota muito boa na politécnica no ita"
+		intervals [227]:
+			xmin = 1047.74
+			xmax = 1048.0900000000001
+			text = "..."
+		intervals [228]:
+			xmin = 1048.0900000000001
+			xmax = 1048.97
+			text = "e no"
+		intervals [229]:
+			xmin = 1048.97
+			xmax = 1049.6100000000001
+			text = "mackenzie e não"
+		intervals [230]:
+			xmin = 1049.6100000000001
+			xmax = 1050.66
+			text = "..."
+		intervals [231]:
+			xmin = 1050.66
+			xmax = 1060.65
+			text = "queria ir nem à politécnica nem ao ita queria ficar no mackenzie quer dizer isso pra mostrar que havia um espírito mackenzista né porque ele por exemplo foi um que entrou desde o primeiro ano e ele"
+		intervals [232]:
+			xmin = 1060.65
+			xmax = 1061.05
+			text = "..."
+		intervals [233]:
+			xmin = 1061.05
+			xmax = 1063.77
+			text = "não queria foi preciso muita insistência da parte"
+		intervals [234]:
+			xmin = 1063.77
+			xmax = 1064.0900000000001
+			text = "..."
+		intervals [235]:
+			xmin = 1064.0900000000001
+			xmax = 1065.33
+			text = "da mãe que via"
+		intervals [236]:
+			xmin = 1065.33
+			xmax = 1065.68
+			text = "..."
+		intervals [237]:
+			xmin = 1065.68
+			xmax = 1073.02
+			text = "a possi uma possibilidade melhor de ele ir aos outros principalmente por causa de fi de si da situação financeira ela estava viúva e o"
+		intervals [238]:
+			xmin = 1073.02
+			xmax = 1073.56
+			text = "..."
+		intervals [239]:
+			xmin = 1073.56
+			xmax = 1074.3400000000001
+			text = "aluno"
+		intervals [240]:
+			xmin = 1074.3400000000001
+			xmax = 1074.67
+			text = "..."
+		intervals [241]:
+			xmin = 1074.67
+			xmax = 1080.22
+			text = "indo prá politécnica ou para o ita seria bem mais fácil para ela do que ele ficar no mackenzie mas foi"
+		intervals [242]:
+			xmin = 1080.22
+			xmax = 1080.6
+			text = "..."
+		intervals [243]:
+			xmin = 1080.6
+			xmax = 1085.23
+			text = "com muita pena que ele desistiu da da possibilidade de entrar na mackenzie e isto"
+		intervals [244]:
+			xmin = 1085.23
+			xmax = 1085.8200000000002
+			text = "..."
+		intervals [245]:
+			xmin = 1085.8200000000002
+			xmax = 1093.06
+			text = "isso aconteceu recentemente quer dizer recentemente não porque ele já se formou mas mais ou menos há uma questão de sete ou oito anos atrás e este"
+		intervals [246]:
+			xmin = 1093.06
+			xmax = 1093.47
+			text = "..."
+		intervals [247]:
+			xmin = 1093.47
+			xmax = 1097.1
+			text = "espírito então antigamente existia muito mais forte porque ah o"
+		intervals [248]:
+			xmin = 1097.1
+			xmax = 1097.47
+			text = "..."
+		intervals [249]:
+			xmin = 1097.47
+			xmax = 1101.48
+			text = "grupo era menor todo mundo se conhecia havia bastante amizade e tal e então"
+		intervals [250]:
+			xmin = 1101.48
+			xmax = 1101.99
+			text = "..."
+		intervals [251]:
+			xmin = 1101.99
+			xmax = 1108.17
+			text = "a grande maioria dos alunos ficavam num desses cursos ou engenharia ou arquitetura agora o uma"
+		intervals [252]:
+			xmin = 1108.17
+			xmax = 1108.5
+			text = "..."
+		intervals [253]:
+			xmin = 1108.5
+			xmax = 1108.71
+			text = "parte"
+		intervals [254]:
+			xmin = 1108.71
+			xmax = 1109.1
+			text = "..."
+		intervals [255]:
+			xmin = 1109.1
+			xmax = 1110.39
+			text = "menor ia para"
+		intervals [256]:
+			xmin = 1110.39
+			xmax = 1110.85
+			text = "..."
+		intervals [257]:
+			xmin = 1110.85
+			xmax = 1111.26
+			text = "ahn"
+		intervals [258]:
+			xmin = 1111.26
+			xmax = 1111.87
+			text = "o"
+		intervals [259]:
+			xmin = 1111.87
+			xmax = 1112.17
+			text = "..."
+		intervals [260]:
+			xmin = 1112.17
+			xmax = 1113.02
+			text = "são"
+		intervals [261]:
+			xmin = 1113.02
+			xmax = 1113.5900000000001
+			text = "..."
+		intervals [262]:
+			xmin = 1113.5900000000001
+			xmax = 1116.0
+			text = "francisco fazer faculdade de direito ou então"
+		intervals [263]:
+			xmin = 1116.0
+			xmax = 1116.44
+			text = "..."
+		intervals [264]:
+			xmin = 1116.44
+			xmax = 1117.33
+			text = "ia para"
+		intervals [265]:
+			xmin = 1117.33
+			xmax = 1117.72
+			text = "..."
+		intervals [266]:
+			xmin = 1117.72
+			xmax = 1120.79
+			text = "a faculdade de medicina em menor número este os candidatos"
+		intervals [267]:
+			xmin = 1120.79
+			xmax = 1121.21
+			text = "à"
+		intervals [268]:
+			xmin = 1121.21
+			xmax = 1122.1100000000001
+			text = "me que se dirigiam"
+		intervals [269]:
+			xmin = 1122.1100000000001
+			xmax = 1122.3600000000001
+			text = "à"
+		intervals [270]:
+			xmin = 1122.3600000000001
+			xmax = 1123.4099999999999
+			text = "medicina eram era"
+		intervals [271]:
+			xmin = 1123.4099999999999
+			xmax = 1123.8000000000002
+			text = "..."
+		intervals [272]:
+			xmin = 1123.8000000000002
+			xmax = 1124.5500000000002
+			text = "um"
+		intervals [273]:
+			xmin = 1124.5500000000002
+			xmax = 1125.44
+			text = "..."
+		intervals [274]:
+			xmin = 1125.44
+			xmax = 1125.99
+			text = "número bem menor"
+		intervals [275]:
+			xmin = 1125.99
+			xmax = 1128.93
+			text = ""
+		intervals [276]:
+			xmin = 1128.93
+			xmax = 1131.95
+			text = "recebiam alguma orientação religiosa não orientação"
+		intervals [277]:
+			xmin = 1131.95
+			xmax = 1133.93
+			text = "..."
+		intervals [278]:
+			xmin = 1133.93
+			xmax = 1136.8899999999999
+			text = "religiosa propriamente não o mackenzie"
+		intervals [279]:
+			xmin = 1136.8899999999999
+			xmax = 1137.5700000000002
+			text = "..."
+		intervals [280]:
+			xmin = 1137.5700000000002
+			xmax = 1138.54
+			text = "é de"
+		intervals [281]:
+			xmin = 1138.54
+			xmax = 1139.81
+			text = "base protestante"
+		intervals [282]:
+			xmin = 1139.81
+			xmax = 1140.29
+			text = "..."
+		intervals [283]:
+			xmin = 1140.29
+			xmax = 1142.75
+			text = "presbiteriana havia um"
+		intervals [284]:
+			xmin = 1142.75
+			xmax = 1143.4099999999999
+			text = "..."
+		intervals [285]:
+			xmin = 1143.4099999999999
+			xmax = 1144.9
+			text = "culto diário mas esse"
+		intervals [286]:
+			xmin = 1144.9
+			xmax = 1145.46
+			text = "..."
+		intervals [287]:
+			xmin = 1145.46
+			xmax = 1147.19
+			text = "culto não era ahn eu"
+		intervals [288]:
+			xmin = 1147.19
+			xmax = 1147.63
+			text = "..."
+		intervals [289]:
+			xmin = 1147.63
+			xmax = 1151.08
+			text = "não classificaria de orientação religiosa era como"
+		intervals [290]:
+			xmin = 1151.08
+			xmax = 1151.53
+			text = "..."
+		intervals [291]:
+			xmin = 1151.53
+			xmax = 1155.45
+			text = "se fosse uma oração na igreja católica que se fizesse todos os dias então eles"
+		intervals [292]:
+			xmin = 1155.45
+			xmax = 1155.8600000000001
+			text = "..."
+		intervals [293]:
+			xmin = 1155.8600000000001
+			xmax = 1158.56
+			text = "liam um trechozinho da bíblia e falavam"
+		intervals [294]:
+			xmin = 1158.56
+			xmax = 1159.0500000000002
+			text = "..."
+		intervals [295]:
+			xmin = 1159.0500000000002
+			xmax = 1162.31
+			text = "alguma coisa sobre esse trecho da bíblia mas ahn"
+		intervals [296]:
+			xmin = 1162.31
+			xmax = 1163.03
+			text = "..."
+		intervals [297]:
+			xmin = 1163.03
+			xmax = 1169.4099999999999
+			text = "disto para orientação religiosa propriamente ia bastante distância não é tanto que"
+		intervals [298]:
+			xmin = 1169.4099999999999
+			xmax = 1169.8200000000002
+			text = "..."
+		intervals [299]:
+			xmin = 1169.8200000000002
+			xmax = 1177.2
+			text = "eu e todas as minhas colegas que eram católicas não houve nenhum caso de alguma se tornar protestante portanto quer"
+		intervals [300]:
+			xmin = 1177.2
+			xmax = 1177.65
+			text = "..."
+		intervals [301]:
+			xmin = 1177.65
+			xmax = 1180.0500000000002
+			text = "dizer que não havia mesmo ahn o"
+		intervals [302]:
+			xmin = 1180.0500000000002
+			xmax = 1180.51
+			text = "..."
+		intervals [303]:
+			xmin = 1180.51
+			xmax = 1184.53
+			text = "assim um trabalho religioso na escola não é o que"
+		intervals [304]:
+			xmin = 1184.53
+			xmax = 1184.93
+			text = "..."
+		intervals [305]:
+			xmin = 1184.93
+			xmax = 1186.68
+			text = "havia era um culto diário que nós"
+		intervals [306]:
+			xmin = 1186.68
+			xmax = 1187.1399999999999
+			text = "..."
+		intervals [307]:
+			xmin = 1187.1399999999999
+			xmax = 1190.6100000000001
+			text = "éramos obrigados a assistir o que aliás era muito bom porque era um"
+		intervals [308]:
+			xmin = 1190.6100000000001
+			xmax = 1190.92
+			text = "..."
+		intervals [309]:
+			xmin = 1190.92
+			xmax = 1192.0500000000002
+			text = "trechinho da bíblia e foi"
+		intervals [310]:
+			xmin = 1192.0500000000002
+			xmax = 1192.3899999999999
+			text = "..."
+		intervals [311]:
+			xmin = 1192.3899999999999
+			xmax = 1200.42
+			text = ""
+	item [5]:
+		class = "IntervalTier"
+		name = "TB-doc1"
+		xmin = 0.0
+		xmax = 1200.42
+		intervals: size = 37
+		intervals [1]:
+			xmin = 0.0
+			xmax = 838.96
+			text = ""
+		intervals [2]:
+			xmin = 838.96
+			xmax = 840.6
+			text = "certo e como"
+		intervals [3]:
+			xmin = 840.6
+			xmax = 841.01
+			text = "..."
+		intervals [4]:
+			xmin = 841.01
+			xmax = 856.98
+			text = ""
+		intervals [5]:
+			xmin = 856.98
+			xmax = 858.25
+			text = "certo e os"
+		intervals [6]:
+			xmin = 858.25
+			xmax = 858.75
+			text = "..."
+		intervals [7]:
+			xmin = 858.75
+			xmax = 860.3900000000001
+			text = "ti a senhora disse dos trabalhos agora existia"
+		intervals [8]:
+			xmin = 860.3900000000001
+			xmax = 860.84
+			text = "..."
+		intervals [9]:
+			xmin = 860.84
+			xmax = 863.24
+			text = "alguma outro tipo de avaliação pra nota"
+		intervals [10]:
+			xmin = 863.24
+			xmax = 865.32
+			text = "..."
+		intervals [11]:
+			xmin = 865.32
+			xmax = 901.95
+			text = ""
+		intervals [12]:
+			xmin = 901.95
+			xmax = 903.08
+			text = "e comé"
+		intervals [13]:
+			xmin = 903.08
+			xmax = 903.75
+			text = "..."
+		intervals [14]:
+			xmin = 903.75
+			xmax = 903.94
+			text = "que"
+		intervals [15]:
+			xmin = 903.94
+			xmax = 906.97
+			text = "foi o encerramento do curso na mackenzie a turma"
+		intervals [16]:
+			xmin = 906.97
+			xmax = 907.35
+			text = "..."
+		intervals [17]:
+			xmin = 907.35
+			xmax = 909.54
+			text = ""
+		intervals [18]:
+			xmin = 909.54
+			xmax = 912.53
+			text = "encerramento de quê do curso mesmo quando vocês terminaram o"
+		intervals [19]:
+			xmin = 912.53
+			xmax = 915.08
+			text = "curso como é que foi houve alguma"
+		intervals [20]:
+			xmin = 915.08
+			xmax = 915.78
+			text = "..."
+		intervals [21]:
+			xmin = 915.78
+			xmax = 976.96
+			text = ""
+		intervals [22]:
+			xmin = 976.96
+			xmax = 978.74
+			text = "festa de formatura certo agora"
+		intervals [23]:
+			xmin = 978.74
+			xmax = 980.49
+			text = "..."
+		intervals [24]:
+			xmin = 980.49
+			xmax = 986.02
+			text = "eu gostaria de saber o seguinte naquela época uma vez que o a turma encerrou o"
+		intervals [25]:
+			xmin = 986.02
+			xmax = 986.63
+			text = "..."
+		intervals [26]:
+			xmin = 986.63
+			xmax = 988.04
+			text = "curso tal muitos alunos"
+		intervals [27]:
+			xmin = 988.04
+			xmax = 989.05
+			text = "..."
+		intervals [28]:
+			xmin = 989.05
+			xmax = 994.09
+			text = "foram para a faculdades dessa turma a senhora disse que saíram grandes nomes né quais faculdades"
+		intervals [29]:
+			xmin = 994.09
+			xmax = 994.44
+			text = "..."
+		intervals [30]:
+			xmin = 994.44
+			xmax = 1025.51
+			text = ""
+		intervals [31]:
+			xmin = 1025.51
+			xmax = 1025.69
+			text = "arquitetura"
+		intervals [32]:
+			xmin = 1025.69
+			xmax = 1025.72
+			text = "e"
+		intervals [33]:
+			xmin = 1025.72
+			xmax = 1125.99
+			text = ""
+		intervals [34]:
+			xmin = 1125.99
+			xmax = 1126.4099999999999
+			text = "e"
+		intervals [35]:
+			xmin = 1126.4099999999999
+			xmax = 1126.73
+			text = "vocês"
+		intervals [36]:
+			xmin = 1126.73
+			xmax = 1128.93
+			text = "..."
+		intervals [37]:
+			xmin = 1128.93
+			xmax = 1200.42
+			text = ""
+	item [6]:
+		class = "IntervalTier"
+		name = "NTB-doc1"
+		xmin = 0.0
+		xmax = 1200.42
+		intervals: size = 37
+		intervals [1]:
+			xmin = 0.0
+			xmax = 838.96
+			text = ""
+		intervals [2]:
+			xmin = 838.96
+			xmax = 840.6
+			text = "certo e como"
+		intervals [3]:
+			xmin = 840.6
+			xmax = 841.01
+			text = "..."
+		intervals [4]:
+			xmin = 841.01
+			xmax = 856.98
+			text = ""
+		intervals [5]:
+			xmin = 856.98
+			xmax = 858.25
+			text = "certo e os"
+		intervals [6]:
+			xmin = 858.25
+			xmax = 858.75
+			text = "..."
+		intervals [7]:
+			xmin = 858.75
+			xmax = 860.3900000000001
+			text = "ti a senhora disse dos trabalhos agora existia"
+		intervals [8]:
+			xmin = 860.3900000000001
+			xmax = 860.84
+			text = "..."
+		intervals [9]:
+			xmin = 860.84
+			xmax = 863.24
+			text = "alguma outro tipo de avaliação pra nota"
+		intervals [10]:
+			xmin = 863.24
+			xmax = 865.32
+			text = "..."
+		intervals [11]:
+			xmin = 865.32
+			xmax = 901.95
+			text = ""
+		intervals [12]:
+			xmin = 901.95
+			xmax = 903.08
+			text = "e comé"
+		intervals [13]:
+			xmin = 903.08
+			xmax = 903.75
+			text = "..."
+		intervals [14]:
+			xmin = 903.75
+			xmax = 903.94
+			text = "que"
+		intervals [15]:
+			xmin = 903.94
+			xmax = 906.97
+			text = "foi o encerramento do curso na mackenzie a turma"
+		intervals [16]:
+			xmin = 906.97
+			xmax = 907.35
+			text = "..."
+		intervals [17]:
+			xmin = 907.35
+			xmax = 909.54
+			text = ""
+		intervals [18]:
+			xmin = 909.54
+			xmax = 912.53
+			text = "encerramento de quê do curso mesmo quando vocês terminaram o"
+		intervals [19]:
+			xmin = 912.53
+			xmax = 915.08
+			text = "curso como é que foi houve alguma"
+		intervals [20]:
+			xmin = 915.08
+			xmax = 915.78
+			text = "..."
+		intervals [21]:
+			xmin = 915.78
+			xmax = 976.96
+			text = ""
+		intervals [22]:
+			xmin = 976.96
+			xmax = 978.74
+			text = "festa de formatura certo agora"
+		intervals [23]:
+			xmin = 978.74
+			xmax = 980.49
+			text = "..."
+		intervals [24]:
+			xmin = 980.49
+			xmax = 986.02
+			text = "eu gostaria de saber o seguinte naquela época uma vez que o a turma encerrou o"
+		intervals [25]:
+			xmin = 986.02
+			xmax = 986.63
+			text = "..."
+		intervals [26]:
+			xmin = 986.63
+			xmax = 988.04
+			text = "curso tal muitos alunos"
+		intervals [27]:
+			xmin = 988.04
+			xmax = 989.05
+			text = "..."
+		intervals [28]:
+			xmin = 989.05
+			xmax = 994.09
+			text = "foram para a faculdades dessa turma a senhora disse que saíram grandes nomes né quais faculdades"
+		intervals [29]:
+			xmin = 994.09
+			xmax = 994.44
+			text = "..."
+		intervals [30]:
+			xmin = 994.44
+			xmax = 1025.51
+			text = ""
+		intervals [31]:
+			xmin = 1025.51
+			xmax = 1025.69
+			text = "arquitetura"
+		intervals [32]:
+			xmin = 1025.69
+			xmax = 1025.72
+			text = "e"
+		intervals [33]:
+			xmin = 1025.72
+			xmax = 1125.99
+			text = ""
+		intervals [34]:
+			xmin = 1125.99
+			xmax = 1126.4099999999999
+			text = "e"
+		intervals [35]:
+			xmin = 1126.4099999999999
+			xmax = 1126.73
+			text = "vocês"
+		intervals [36]:
+			xmin = 1126.73
+			xmax = 1128.93
+			text = "..."
+		intervals [37]:
+			xmin = 1128.93
+			xmax = 1200.42
+			text = ""
+	item [7]:
+		class = "IntervalTier"
+		name = "comentarios-anotacao"
+		xmin = 0.0
+		xmax = 1200.42
+		intervals: size = 1
+		intervals [1]:
+			xmin = 600.1
+			xmax = 1200.42
+			text = ""
+	item [8]:
+		class = "IntervalTier"
+		name = "comentarios"
+		xmin = 0.0
+		xmax = 1200.42
+		intervals: size = 1
+		intervals [1]:
+			xmin = 600.1
+			xmax = 1200.42
+			text = ""

@@ -1,0 +1,2 @@
+bash ufpalign.sh --no-syllphones true Teste242/SP_DID_242_clipped_1.wav Teste242/SP_DID_242_clipped_1.txt mono
+

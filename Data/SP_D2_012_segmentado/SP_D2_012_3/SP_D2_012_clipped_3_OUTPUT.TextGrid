@@ -1,0 +1,4188 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 599.19
+tiers? <exists>
+size = 10
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "TB-infm"
+		xmin = 0.0
+		xmax = 599.19
+		intervals: size = 244
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.47
+			text = "..."
+		intervals [2]:
+			xmin = 0.47
+			xmax = 1.79
+			text = "de um dos lados a bilheteria"
+		intervals [3]:
+			xmin = 1.79
+			xmax = 2.49
+			text = "..."
+		intervals [4]:
+			xmin = 2.49
+			xmax = 3.7
+			text = "depois um saguão principal"
+		intervals [5]:
+			xmin = 3.7
+			xmax = 4.77
+			text = "..."
+		intervals [6]:
+			xmin = 4.77
+			xmax = 9.48
+			text = "e desse saguão principal você tem uma escada que leva a ao foyer de cima"
+		intervals [7]:
+			xmin = 9.48
+			xmax = 9.85
+			text = "..."
+		intervals [8]:
+			xmin = 9.85
+			xmax = 10.29
+			text = "que dá pras"
+		intervals [9]:
+			xmin = 10.29
+			xmax = 10.6
+			text = "..."
+		intervals [10]:
+			xmin = 10.6
+			xmax = 11.2
+			text = "galerias"
+		intervals [11]:
+			xmin = 11.2
+			xmax = 11.91
+			text = "..."
+		intervals [12]:
+			xmin = 11.91
+			xmax = 14.66
+			text = "aliás o nome exato daquelas galerias eu nunca sei porque eu sempre vou lá para cima"
+		intervals [13]:
+			xmin = 14.66
+			xmax = 15.3
+			text = "..."
+		intervals [14]:
+			xmin = 15.3
+			xmax = 15.96
+			text = "e"
+		intervals [15]:
+			xmin = 15.96
+			xmax = 16.68
+			text = "..."
+		intervals [16]:
+			xmin = 16.68
+			xmax = 19.21
+			text = "e depois por baixo tem comunicação com a platéia inferior"
+		intervals [17]:
+			xmin = 19.21
+			xmax = 19.94
+			text = "..."
+		intervals [18]:
+			xmin = 19.94
+			xmax = 23.63
+			text = "agora do lado estando de frente pro teatro do lado esquerdo tem um outro portão"
+		intervals [19]:
+			xmin = 23.63
+			xmax = 24.02
+			text = "..."
+		intervals [20]:
+			xmin = 24.02
+			xmax = 25.32
+			text = "que você vai acabar lá em cima num"
+		intervals [21]:
+			xmin = 25.32
+			xmax = 26.0
+			text = "..."
+		intervals [22]:
+			xmin = 26.0
+			xmax = 28.85
+			text = "na no anfiteatro bem lá em cima e na última galeria e"
+		intervals [23]:
+			xmin = 28.85
+			xmax = 29.9
+			text = "..."
+		intervals [24]:
+			xmin = 29.9
+			xmax = 36.55
+			text = "também tem uma série de escadinhas ali laterais que vão dar lá em cima com o corredor isso é comum em quase todos os teatros da época aquele corredor que circunda"
+		intervals [25]:
+			xmin = 36.55
+			xmax = 37.1
+			text = "..."
+		intervals [26]:
+			xmin = 37.1
+			xmax = 38.56
+			text = "a platéia depois ele tem o quê"
+		intervals [27]:
+			xmin = 38.56
+			xmax = 39.01
+			text = "..."
+		intervals [28]:
+			xmin = 39.01
+			xmax = 40.48
+			text = "tem uma uma cupulazinha no"
+		intervals [29]:
+			xmin = 40.48
+			xmax = 40.91
+			text = "centro"
+		intervals [30]:
+			xmin = 40.91
+			xmax = 42.32
+			text = "como incompreensível estava muito bonito"
+		intervals [31]:
+			xmin = 42.32
+			xmax = 42.95
+			text = "..."
+		intervals [32]:
+			xmin = 42.95
+			xmax = 44.0
+			text = "pintura no teto"
+		intervals [33]:
+			xmin = 44.0
+			xmax = 44.87
+			text = "..."
+		intervals [34]:
+			xmin = 44.87
+			xmax = 50.69
+			text = "depois é aquele palco enorme aquela cortina de veludo com dois antigamente não tinha o órgão agora tem o órgão naquelas duas laterais"
+		intervals [35]:
+			xmin = 50.69
+			xmax = 51.88
+			text = "..."
+		intervals [36]:
+			xmin = 51.88
+			xmax = 53.81
+			text = "e é só eu nunca entrei nos bastidores do teatro"
+		intervals [37]:
+			xmin = 53.81
+			xmax = 56.12
+			text = "..."
+		intervals [38]:
+			xmin = 56.12
+			xmax = 65.19
+			text = ""
+		intervals [39]:
+			xmin = 65.19
+			xmax = 67.13
+			text = "escobar fez ah do balcão"
+		intervals [40]:
+			xmin = 67.13
+			xmax = 67.82
+			text = "..."
+		intervals [41]:
+			xmin = 67.82
+			xmax = 68.72
+			text = "ah é eu achei magnífica"
+		intervals [42]:
+			xmin = 68.72
+			xmax = 70.72
+			text = "..."
+		intervals [43]:
+			xmin = 70.72
+			xmax = 74.25
+			text = "aliás daquela peça eu gostei muito da peça porque achei um espetáculo muito bonito"
+		intervals [44]:
+			xmin = 74.25
+			xmax = 75.0
+			text = "..."
+		intervals [45]:
+			xmin = 75.0
+			xmax = 80.97
+			text = "acho que o conteúdo dela o texto do filme que passava importava muito pouco mas a montagem era tão espetacular tão bonita que valeu a pena"
+		intervals [46]:
+			xmin = 80.97
+			xmax = 81.74
+			text = "..."
+		intervals [47]:
+			xmin = 81.74
+			xmax = 87.34
+			text = "especialmente a cena inicial e a cena final são lindas aquela cena inicial do bispo descendo daquele cê assistiu a peça"
+		intervals [48]:
+			xmin = 87.34
+			xmax = 88.09
+			text = ""
+		intervals [49]:
+			xmin = 88.09
+			xmax = 88.64
+			text = "chegou a ver"
+		intervals [50]:
+			xmin = 88.64
+			xmax = 89.29
+			text = "..."
+		intervals [51]:
+			xmin = 89.29
+			xmax = 96.3
+			text = ""
+		intervals [52]:
+			xmin = 96.3
+			xmax = 96.56
+			text = "tinha"
+		intervals [53]:
+			xmin = 96.56
+			xmax = 113.77
+			text = ""
+		intervals [54]:
+			xmin = 113.77
+			xmax = 116.85
+			text = "é eu também não entendia bem o texto visualmente mesmo o texto go gostaria de ter"
+		intervals [55]:
+			xmin = 116.85
+			xmax = 117.21
+			text = "ido"
+		intervals [56]:
+			xmin = 117.21
+			xmax = 119.4
+			text = "pretendia ter ido uma segunda vez mais acabei não conseguindo"
+		intervals [57]:
+			xmin = 119.4
+			xmax = 120.03
+			text = ""
+		intervals [58]:
+			xmin = 120.03
+			xmax = 123.06
+			text = "vezes é eu achei uma beleza a peça achei"
+		intervals [59]:
+			xmin = 123.06
+			xmax = 123.96
+			text = "espetacular"
+		intervals [60]:
+			xmin = 123.96
+			xmax = 124.4
+			text = ""
+		intervals [61]:
+			xmin = 124.4
+			xmax = 124.91
+			text = "valeu a pena"
+		intervals [62]:
+			xmin = 124.91
+			xmax = 125.56
+			text = "..."
+		intervals [63]:
+			xmin = 125.56
+			xmax = 178.28
+			text = ""
+		intervals [64]:
+			xmin = 178.28
+			xmax = 178.74
+			text = "é eu naquele teatro"
+		intervals [65]:
+			xmin = 178.74
+			xmax = 178.89
+			text = "só"
+		intervals [66]:
+			xmin = 178.89
+			xmax = 179.32
+			text = "assisti morte e"
+		intervals [67]:
+			xmin = 179.32
+			xmax = 179.89
+			text = "..."
+		intervals [68]:
+			xmin = 179.89
+			xmax = 181.68
+			text = "vida severina que aliás achei muito um espetáculo muito"
+		intervals [69]:
+			xmin = 181.68
+			xmax = 182.02
+			text = "..."
+		intervals [70]:
+			xmin = 182.02
+			xmax = 182.4
+			text = "bonito"
+		intervals [71]:
+			xmin = 182.4
+			xmax = 183.14
+			text = "..."
+		intervals [72]:
+			xmin = 183.14
+			xmax = 185.48
+			text = "deslumbrante eu inclusive tinha certeza que"
+		intervals [73]:
+			xmin = 185.48
+			xmax = 191.54
+			text = "iria vencer o concurso porque achei um espetáculo daqueles um dos raros espetáculos de teatro que a gente sai e"
+		intervals [74]:
+			xmin = 191.54
+			xmax = 191.93
+			text = "..."
+		intervals [75]:
+			xmin = 191.93
+			xmax = 194.21
+			text = "sei lá dá vontade até de chorar no sentido de chorar por"
+		intervals [76]:
+			xmin = 194.21
+			xmax = 194.64
+			text = "..."
+		intervals [77]:
+			xmin = 194.64
+			xmax = 196.39
+			text = "emocionado pela pelo espetáculo"
+		intervals [78]:
+			xmin = 196.39
+			xmax = 197.21
+			text = ""
+		intervals [79]:
+			xmin = 197.21
+			xmax = 198.62
+			text = "do joão cabral é uma beleza"
+		intervals [80]:
+			xmin = 198.62
+			xmax = 200.39
+			text = "..."
+		intervals [81]:
+			xmin = 200.39
+			xmax = 200.84
+			text = "mas é realmente"
+		intervals [82]:
+			xmin = 200.84
+			xmax = 201.15
+			text = "os"
+		intervals [83]:
+			xmin = 201.15
+			xmax = 202.54
+			text = "outros teatros eu acho que não tem nada"
+		intervals [84]:
+			xmin = 202.54
+			xmax = 203.49
+			text = "..."
+		intervals [85]:
+			xmin = 203.49
+			xmax = 204.24
+			text = "de significativo"
+		intervals [86]:
+			xmin = 204.24
+			xmax = 204.73
+			text = "..."
+		intervals [87]:
+			xmin = 204.73
+			xmax = 205.9
+			text = "todos projetos muito ruins"
+		intervals [88]:
+			xmin = 205.9
+			xmax = 206.98
+			text = "muito adaptados"
+		intervals [89]:
+			xmin = 206.98
+			xmax = 207.67
+			text = "..."
+		intervals [90]:
+			xmin = 207.67
+			xmax = 208.4
+			text = "num tem nada que"
+		intervals [91]:
+			xmin = 208.4
+			xmax = 209.07
+			text = "..."
+		intervals [92]:
+			xmin = 209.07
+			xmax = 222.98
+			text = ""
+		intervals [93]:
+			xmin = 222.98
+			xmax = 223.38
+			text = "treze de"
+		intervals [94]:
+			xmin = 223.38
+			xmax = 223.81
+			text = "maio"
+		intervals [95]:
+			xmin = 223.81
+			xmax = 225.12
+			text = "..."
+		intervals [96]:
+			xmin = 225.12
+			xmax = 227.55
+			text = ""
+		intervals [97]:
+			xmin = 227.55
+			xmax = 227.72
+			text = "não"
+		intervals [98]:
+			xmin = 227.72
+			xmax = 228.14
+			text = "ah sim"
+		intervals [99]:
+			xmin = 228.14
+			xmax = 228.44
+			text = "..."
+		intervals [100]:
+			xmin = 228.44
+			xmax = 231.01
+			text = "que é não esse é na rua dos ingleses é em cima do balcão"
+		intervals [101]:
+			xmin = 231.01
+			xmax = 239.34
+			text = ""
+		intervals [102]:
+			xmin = 239.34
+			xmax = 241.52
+			text = "eu confundi com o paiol eu quis falar paiol paiol"
+		intervals [103]:
+			xmin = 241.52
+			xmax = 248.21
+			text = ""
+		intervals [104]:
+			xmin = 248.21
+			xmax = 252.12
+			text = "não quanto ao aspecto de pequena sala é não tenho nada contra são"
+		intervals [105]:
+			xmin = 252.12
+			xmax = 252.48
+			text = "boas"
+		intervals [106]:
+			xmin = 252.48
+			xmax = 253.79
+			text = "acho boa interessante aquela forma"
+		intervals [107]:
+			xmin = 253.79
+			xmax = 254.18
+			text = "de"
+		intervals [108]:
+			xmin = 254.18
+			xmax = 256.42
+			text = "como espetáculo acho um bom ângulo para faz"
+		intervals [109]:
+			xmin = 256.42
+			xmax = 257.02
+			text = "..."
+		intervals [110]:
+			xmin = 257.02
+			xmax = 264.92
+			text = "soar uma espécie de arena eu acho bom mas u aquilo é um projeto ruim adaptado quer dizer o cenário pode ser bom com tudo escuro então o teatro vai ficar bom ou não mas"
+		intervals [111]:
+			xmin = 264.92
+			xmax = 265.48
+			text = "..."
+		intervals [112]:
+			xmin = 265.48
+			xmax = 265.95
+			text = "como prédio"
+		intervals [113]:
+			xmin = 265.95
+			xmax = 266.4
+			text = "..."
+		intervals [114]:
+			xmin = 266.4
+			xmax = 267.71
+			text = "como projeto não uma"
+		intervals [115]:
+			xmin = 267.71
+			xmax = 268.46
+			text = "..."
+		intervals [116]:
+			xmin = 268.46
+			xmax = 270.11
+			text = "oficina era uma adaptação razoável a oficina"
+		intervals [117]:
+			xmin = 270.11
+			xmax = 271.05
+			text = "..."
+		intervals [118]:
+			xmin = 271.05
+			xmax = 276.34
+			text = "tinha um certo uma atmosfera boa como teatro mesmo quando num intervalo com luzes acesas"
+		intervals [119]:
+			xmin = 276.34
+			xmax = 278.02
+			text = ""
+		intervals [120]:
+			xmin = 278.02
+			xmax = 278.26
+			text = "na"
+		intervals [121]:
+			xmin = 278.26
+			xmax = 278.71
+			text = "rua joão segoi"
+		intervals [122]:
+			xmin = 278.71
+			xmax = 279.97
+			text = ""
+		intervals [123]:
+			xmin = 279.97
+			xmax = 280.27
+			text = "inclusive"
+		intervals [124]:
+			xmin = 280.27
+			xmax = 280.66
+			text = "claro"
+		intervals [125]:
+			xmin = 280.66
+			xmax = 281.29
+			text = "..."
+		intervals [126]:
+			xmin = 281.29
+			xmax = 290.18
+			text = ""
+		intervals [127]:
+			xmin = 290.18
+			xmax = 294.91
+			text = "mais em em acústica por isso que a gente sente esse problema não eu acho que é possível é uma questão de de"
+		intervals [128]:
+			xmin = 294.91
+			xmax = 296.59
+			text = "fazer um tratamento acústico entendeu"
+		intervals [129]:
+			xmin = 296.59
+			xmax = 296.95
+			text = "..."
+		intervals [130]:
+			xmin = 296.95
+			xmax = 298.71
+			text = "é um tratamento caro nem"
+		intervals [131]:
+			xmin = 298.71
+			xmax = 299.55
+			text = "..."
+		intervals [132]:
+			xmin = 299.55
+			xmax = 303.15
+			text = "todos os teatros conseguem fazer depende de um bom projeto e depende de uma da"
+		intervals [133]:
+			xmin = 303.15
+			xmax = 303.64
+			text = "..."
+		intervals [134]:
+			xmin = 303.64
+			xmax = 305.19
+			text = "qualidade do material empregado e"
+		intervals [135]:
+			xmin = 305.19
+			xmax = 306.97
+			text = "..."
+		intervals [136]:
+			xmin = 306.97
+			xmax = 309.48
+			text = "as companhias teatrais não tem muitos recursos para fazerem muito"
+		intervals [137]:
+			xmin = 309.48
+			xmax = 309.86
+			text = "a"
+		intervals [138]:
+			xmin = 309.86
+			xmax = 311.73
+			text = "situação do teatro muito instável também né a"
+		intervals [139]:
+			xmin = 311.73
+			xmax = 313.53
+			text = "..."
+		intervals [140]:
+			xmin = 313.53
+			xmax = 317.18
+			text = "ruth escobar conseguiu montar aquele espetáculo incompreensível ficar um ano em cartaz mas é"
+		intervals [141]:
+			xmin = 317.18
+			xmax = 317.47
+			text = "é"
+		intervals [142]:
+			xmin = 317.47
+			xmax = 370.4
+			text = ""
+		intervals [143]:
+			xmin = 370.4
+			xmax = 372.21
+			text = "eu acho que todos"
+		intervals [144]:
+			xmin = 372.21
+			xmax = 372.66
+			text = "..."
+		intervals [145]:
+			xmin = 372.66
+			xmax = 373.74
+			text = "os itens são excelentes autores alguns muito"
+		intervals [146]:
+			xmin = 373.74
+			xmax = 374.35
+			text = "bons"
+		intervals [147]:
+			xmin = 374.35
+			xmax = 375.42
+			text = "exato é cenógrafos"
+		intervals [148]:
+			xmin = 375.42
+			xmax = 375.89
+			text = "a"
+		intervals [149]:
+			xmin = 375.89
+			xmax = 377.03
+			text = "..."
+		intervals [150]:
+			xmin = 377.03
+			xmax = 378.47
+			text = "gente tem alguns"
+		intervals [151]:
+			xmin = 378.47
+			xmax = 378.88
+			text = "..."
+		intervals [152]:
+			xmin = 378.88
+			xmax = 379.93
+			text = "bons mas geralmente também o"
+		intervals [153]:
+			xmin = 379.93
+			xmax = 381.51
+			text = "..."
+		intervals [154]:
+			xmin = 381.51
+			xmax = 384.33
+			text = "nosso problema de cenário sempre se defronta com o problema"
+		intervals [155]:
+			xmin = 384.33
+			xmax = 387.81
+			text = "do custo da produção então são sempre cenários escritos com uma certa"
+		intervals [156]:
+			xmin = 387.81
+			xmax = 388.76
+			text = "..."
+		intervals [157]:
+			xmin = 388.76
+			xmax = 390.03
+			text = "bossa mais não são grandes"
+		intervals [158]:
+			xmin = 390.03
+			xmax = 395.25
+			text = ""
+		intervals [159]:
+			xmin = 395.25
+			xmax = 396.1
+			text = "eu acho"
+		intervals [160]:
+			xmin = 396.1
+			xmax = 400.04
+			text = ""
+		intervals [161]:
+			xmin = 400.04
+			xmax = 401.72
+			text = "coisas que encantam né embora bastante criatividade"
+		intervals [162]:
+			xmin = 401.72
+			xmax = 402.52
+			text = "..."
+		intervals [163]:
+			xmin = 402.52
+			xmax = 404.61
+			text = "com dinheiro também num"
+		intervals [164]:
+			xmin = 404.61
+			xmax = 405.42
+			text = ""
+		intervals [165]:
+			xmin = 405.42
+			xmax = 405.62
+			text = "não"
+		intervals [166]:
+			xmin = 405.62
+			xmax = 406.14
+			text = "..."
+		intervals [167]:
+			xmin = 406.14
+			xmax = 407.3
+			text = "seria nada mal eu"
+		intervals [168]:
+			xmin = 407.3
+			xmax = 408.39
+			text = "acho que o flávio"
+		intervals [169]:
+			xmin = 408.39
+			xmax = 409.34
+			text = "..."
+		intervals [170]:
+			xmin = 409.34
+			xmax = 416.02
+			text = "império por exemplo é um cenógrafo excelente mas geralmente ele tem que se defrontar com coisas improvisadas ele consegue um bom efeito é claro mais não significa se"
+		intervals [171]:
+			xmin = 416.02
+			xmax = 417.84
+			text = "..."
+		intervals [172]:
+			xmin = 417.84
+			xmax = 420.09
+			text = "ele tivesse mais recursos não fizessem coisas de melhor nível entende"
+		intervals [173]:
+			xmin = 420.09
+			xmax = 439.39
+			text = ""
+		intervals [174]:
+			xmin = 439.39
+			xmax = 440.9
+			text = "um bom nível um bom nível acho"
+		intervals [175]:
+			xmin = 440.9
+			xmax = 443.1
+			text = "..."
+		intervals [176]:
+			xmin = 443.1
+			xmax = 444.38
+			text = "que um bom nível ele tem no teatro eu"
+		intervals [177]:
+			xmin = 444.38
+			xmax = 445.22
+			text = "acho que especialmente"
+		intervals [178]:
+			xmin = 445.22
+			xmax = 445.6
+			text = "..."
+		intervals [179]:
+			xmin = 445.6
+			xmax = 448.59
+			text = "aqui em são paulo a gente tem oportunidade de ver coisas muito boas em"
+		intervals [180]:
+			xmin = 448.59
+			xmax = 448.9
+			text = "..."
+		intervals [181]:
+			xmin = 448.9
+			xmax = 451.18
+			text = "teatro agora bom nível aí é um problema meio"
+		intervals [182]:
+			xmin = 451.18
+			xmax = 451.38
+			text = "sério"
+		intervals [183]:
+			xmin = 451.38
+			xmax = 452.46
+			text = "..."
+		intervals [184]:
+			xmin = 452.46
+			xmax = 455.91
+			text = "porque o teatro continua sendo uma de uma elite o"
+		intervals [185]:
+			xmin = 455.91
+			xmax = 457.31
+			text = "..."
+		intervals [186]:
+			xmin = 457.31
+			xmax = 464.87
+			text = ""
+		intervals [187]:
+			xmin = 464.87
+			xmax = 465.22
+			text = "sempre"
+		intervals [188]:
+			xmin = 465.22
+			xmax = 472.2
+			text = ""
+		intervals [189]:
+			xmin = 472.2
+			xmax = 475.87
+			text = "e mesmo para gente que costuma ir ao teatro o teatro exige da gente"
+		intervals [190]:
+			xmin = 475.87
+			xmax = 479.74
+			text = "uma espécie de programação a gente não vai ao teatro como vai ao cinema a gente tem que"
+		intervals [191]:
+			xmin = 479.74
+			xmax = 481.97
+			text = "programar marcar tem um horário não é uma coisa"
+		intervals [192]:
+			xmin = 481.97
+			xmax = 482.75
+			text = "..."
+		intervals [193]:
+			xmin = 482.75
+			xmax = 485.01
+			text = "assim muito normal mesmo para gente para maioria da população"
+		intervals [194]:
+			xmin = 485.01
+			xmax = 485.91
+			text = "..."
+		intervals [195]:
+			xmin = 485.91
+			xmax = 516.7
+			text = ""
+		intervals [196]:
+			xmin = 516.7
+			xmax = 517.09
+			text = "é a"
+		intervals [197]:
+			xmin = 517.09
+			xmax = 517.31
+			text = "gente"
+		intervals [198]:
+			xmin = 517.31
+			xmax = 518.37
+			text = ""
+		intervals [199]:
+			xmin = 518.37
+			xmax = 519.44
+			text = "programar um dia combina com"
+		intervals [200]:
+			xmin = 519.44
+			xmax = 519.78
+			text = "..."
+		intervals [201]:
+			xmin = 519.78
+			xmax = 520.29
+			text = "alguns"
+		intervals [202]:
+			xmin = 520.29
+			xmax = 520.6
+			text = "..."
+		intervals [203]:
+			xmin = 520.6
+			xmax = 520.89
+			text = "amigos"
+		intervals [204]:
+			xmin = 520.89
+			xmax = 522.37
+			text = "..."
+		intervals [205]:
+			xmin = 522.37
+			xmax = 522.78
+			text = "para"
+		intervals [206]:
+			xmin = 522.78
+			xmax = 523.48
+			text = "..."
+		intervals [207]:
+			xmin = 523.48
+			xmax = 524.98
+			text = "ir é sempre um programa assim meio"
+		intervals [208]:
+			xmin = 524.98
+			xmax = 526.1
+			text = ""
+		intervals [209]:
+			xmin = 526.1
+			xmax = 537.89
+			text = "não é um negócio tão a vontade é muito caro também eu acho muito caro é muito caro eu acho que pesa bastante é verdade que se a gente for fazer comparações a gente gasta às vezes mais dinheiro em outras coisas e pode medir se vale a pena ou num vale eu acho"
+		intervals [210]:
+			xmin = 537.89
+			xmax = 538.87
+			text = "..."
+		intervals [211]:
+			xmin = 538.87
+			xmax = 539.91
+			text = "que vale"
+		intervals [212]:
+			xmin = 539.91
+			xmax = 541.49
+			text = ""
+		intervals [213]:
+			xmin = 541.49
+			xmax = 543.21
+			text = "aí é problema econômico"
+		intervals [214]:
+			xmin = 543.21
+			xmax = 543.64
+			text = "mas"
+		intervals [215]:
+			xmin = 543.64
+			xmax = 543.8
+			text = "assim"
+		intervals [216]:
+			xmin = 543.8
+			xmax = 544.79
+			text = "..."
+		intervals [217]:
+			xmin = 544.79
+			xmax = 545.04
+			text = "é caro"
+		intervals [218]:
+			xmin = 545.04
+			xmax = 555.95
+			text = ""
+		intervals [219]:
+			xmin = 555.95
+			xmax = 559.2
+			text = "a procura é maior e você não consegue ingressar e depois é chato porque quando fui ver o"
+		intervals [220]:
+			xmin = 559.2
+			xmax = 559.68
+			text = "..."
+		intervals [221]:
+			xmin = 559.68
+			xmax = 559.74
+			text = "balcão"
+		intervals [222]:
+			xmin = 559.74
+			xmax = 565.44
+			text = "foi mais ou menos no início eu paguei mais ou menos dez ou quinze cruzeiros na época não era um"
+		intervals [223]:
+			xmin = 565.44
+			xmax = 565.8
+			text = "..."
+		intervals [224]:
+			xmin = 565.8
+			xmax = 566.27
+			text = "preço baixo"
+		intervals [225]:
+			xmin = 566.27
+			xmax = 566.64
+			text = "..."
+		intervals [226]:
+			xmin = 566.64
+			xmax = 567.39
+			text = "na época no fim tava"
+		intervals [227]:
+			xmin = 567.39
+			xmax = 567.9
+			text = "..."
+		intervals [228]:
+			xmin = 567.9
+			xmax = 570.05
+			text = "uma temporada de cinco cruzeiros a gente fica quase"
+		intervals [229]:
+			xmin = 570.05
+			xmax = 571.46
+			text = "..."
+		intervals [230]:
+			xmin = 571.46
+			xmax = 571.97
+			text = "achando vamos"
+		intervals [231]:
+			xmin = 571.97
+			xmax = 572.28
+			text = "deixar"
+		intervals [232]:
+			xmin = 572.28
+			xmax = 574.47
+			text = "para o finzinho para ver se assiste mas"
+		intervals [233]:
+			xmin = 574.47
+			xmax = 574.96
+			text = "..."
+		intervals [234]:
+			xmin = 574.96
+			xmax = 575.31
+			text = "não é o"
+		intervals [235]:
+			xmin = 575.31
+			xmax = 575.65
+			text = "..."
+		intervals [236]:
+			xmin = 575.65
+			xmax = 575.85
+			text = "caso"
+		intervals [237]:
+			xmin = 575.85
+			xmax = 576.29
+			text = "..."
+		intervals [238]:
+			xmin = 576.29
+			xmax = 578.67
+			text = "não ainda assim eu acho o teatro aqui muito barato"
+		intervals [239]:
+			xmin = 578.67
+			xmax = 581.06
+			text = ""
+		intervals [240]:
+			xmin = 581.06
+			xmax = 585.39
+			text = "lugar nenhum teatro tão barato quanto aqui cê viu não eu já vi"
+		intervals [241]:
+			xmin = 585.39
+			xmax = 586.38
+			text = "mais"
+		intervals [242]:
+			xmin = 586.38
+			xmax = 588.69
+			text = "caro em outros lugares mas enfim"
+		intervals [243]:
+			xmin = 588.69
+			xmax = 589.47
+			text = "..."
+		intervals [244]:
+			xmin = 589.47
+			xmax = 599.19
+			text = ""
+	item [2]:
+		class = "IntervalTier"
+		name = "NTB-infm"
+		xmin = 0.0
+		xmax = 599.19
+		intervals: size = 244
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.47
+			text = "..."
+		intervals [2]:
+			xmin = 0.47
+			xmax = 1.79
+			text = "de um dos lados a bilheteria"
+		intervals [3]:
+			xmin = 1.79
+			xmax = 2.49
+			text = "..."
+		intervals [4]:
+			xmin = 2.49
+			xmax = 3.7
+			text = "depois um saguão principal"
+		intervals [5]:
+			xmin = 3.7
+			xmax = 4.77
+			text = "..."
+		intervals [6]:
+			xmin = 4.77
+			xmax = 9.48
+			text = "e desse saguão principal você tem uma escada que leva a ao foyer de cima"
+		intervals [7]:
+			xmin = 9.48
+			xmax = 9.85
+			text = "..."
+		intervals [8]:
+			xmin = 9.85
+			xmax = 10.29
+			text = "que dá pras"
+		intervals [9]:
+			xmin = 10.29
+			xmax = 10.6
+			text = "..."
+		intervals [10]:
+			xmin = 10.6
+			xmax = 11.2
+			text = "galerias"
+		intervals [11]:
+			xmin = 11.2
+			xmax = 11.91
+			text = "..."
+		intervals [12]:
+			xmin = 11.91
+			xmax = 14.66
+			text = "aliás o nome exato daquelas galerias eu nunca sei porque eu sempre vou lá para cima"
+		intervals [13]:
+			xmin = 14.66
+			xmax = 15.3
+			text = "..."
+		intervals [14]:
+			xmin = 15.3
+			xmax = 15.96
+			text = "e"
+		intervals [15]:
+			xmin = 15.96
+			xmax = 16.68
+			text = "..."
+		intervals [16]:
+			xmin = 16.68
+			xmax = 19.21
+			text = "e depois por baixo tem comunicação com a platéia inferior"
+		intervals [17]:
+			xmin = 19.21
+			xmax = 19.94
+			text = "..."
+		intervals [18]:
+			xmin = 19.94
+			xmax = 23.63
+			text = "agora do lado estando de frente pro teatro do lado esquerdo tem um outro portão"
+		intervals [19]:
+			xmin = 23.63
+			xmax = 24.02
+			text = "..."
+		intervals [20]:
+			xmin = 24.02
+			xmax = 25.32
+			text = "que você vai acabar lá em cima num"
+		intervals [21]:
+			xmin = 25.32
+			xmax = 26.0
+			text = "..."
+		intervals [22]:
+			xmin = 26.0
+			xmax = 28.85
+			text = "na no anfiteatro bem lá em cima e na última galeria e"
+		intervals [23]:
+			xmin = 28.85
+			xmax = 29.9
+			text = "..."
+		intervals [24]:
+			xmin = 29.9
+			xmax = 36.55
+			text = "também tem uma série de escadinhas ali laterais que vão dar lá em cima com o corredor isso é comum em quase todos os teatros da época aquele corredor que circunda"
+		intervals [25]:
+			xmin = 36.55
+			xmax = 37.1
+			text = "..."
+		intervals [26]:
+			xmin = 37.1
+			xmax = 38.56
+			text = "a platéia depois ele tem o quê"
+		intervals [27]:
+			xmin = 38.56
+			xmax = 39.01
+			text = "..."
+		intervals [28]:
+			xmin = 39.01
+			xmax = 40.48
+			text = "tem uma uma cupulazinha no"
+		intervals [29]:
+			xmin = 40.48
+			xmax = 40.91
+			text = "centro"
+		intervals [30]:
+			xmin = 40.91
+			xmax = 42.32
+			text = "como incompreensível estava muito bonito"
+		intervals [31]:
+			xmin = 42.32
+			xmax = 42.95
+			text = "..."
+		intervals [32]:
+			xmin = 42.95
+			xmax = 44.0
+			text = "pintura no teto"
+		intervals [33]:
+			xmin = 44.0
+			xmax = 44.87
+			text = "..."
+		intervals [34]:
+			xmin = 44.87
+			xmax = 50.69
+			text = "depois é aquele palco enorme aquela cortina de veludo com dois antigamente não tinha o órgão agora tem o órgão naquelas duas laterais"
+		intervals [35]:
+			xmin = 50.69
+			xmax = 51.88
+			text = "..."
+		intervals [36]:
+			xmin = 51.88
+			xmax = 53.81
+			text = "e é só eu nunca entrei nos bastidores do teatro"
+		intervals [37]:
+			xmin = 53.81
+			xmax = 56.12
+			text = "..."
+		intervals [38]:
+			xmin = 56.12
+			xmax = 65.19
+			text = ""
+		intervals [39]:
+			xmin = 65.19
+			xmax = 67.13
+			text = "escobar fez ah do balcão"
+		intervals [40]:
+			xmin = 67.13
+			xmax = 67.82
+			text = "..."
+		intervals [41]:
+			xmin = 67.82
+			xmax = 68.72
+			text = "ah é eu achei magnífica"
+		intervals [42]:
+			xmin = 68.72
+			xmax = 70.72
+			text = "..."
+		intervals [43]:
+			xmin = 70.72
+			xmax = 74.25
+			text = "aliás daquela peça eu gostei muito da peça porque achei um espetáculo muito bonito"
+		intervals [44]:
+			xmin = 74.25
+			xmax = 75.0
+			text = "..."
+		intervals [45]:
+			xmin = 75.0
+			xmax = 80.97
+			text = "acho que o conteúdo dela o texto do filme que passava importava muito pouco mas a montagem era tão espetacular tão bonita que valeu a pena"
+		intervals [46]:
+			xmin = 80.97
+			xmax = 81.74
+			text = "..."
+		intervals [47]:
+			xmin = 81.74
+			xmax = 87.34
+			text = "especialmente a cena inicial e a cena final são lindas aquela cena inicial do bispo descendo daquele cê assistiu a peça"
+		intervals [48]:
+			xmin = 87.34
+			xmax = 88.09
+			text = ""
+		intervals [49]:
+			xmin = 88.09
+			xmax = 88.64
+			text = "chegou a ver"
+		intervals [50]:
+			xmin = 88.64
+			xmax = 89.29
+			text = "..."
+		intervals [51]:
+			xmin = 89.29
+			xmax = 96.3
+			text = ""
+		intervals [52]:
+			xmin = 96.3
+			xmax = 96.56
+			text = "tinha"
+		intervals [53]:
+			xmin = 96.56
+			xmax = 113.77
+			text = ""
+		intervals [54]:
+			xmin = 113.77
+			xmax = 116.85
+			text = "é eu também não entendia bem o texto visualmente mesmo o texto go gostaria de ter"
+		intervals [55]:
+			xmin = 116.85
+			xmax = 117.21
+			text = "ido"
+		intervals [56]:
+			xmin = 117.21
+			xmax = 119.4
+			text = "pretendia ter ido uma segunda vez mais acabei não conseguindo"
+		intervals [57]:
+			xmin = 119.4
+			xmax = 120.03
+			text = ""
+		intervals [58]:
+			xmin = 120.03
+			xmax = 123.06
+			text = "vezes é eu achei uma beleza a peça achei"
+		intervals [59]:
+			xmin = 123.06
+			xmax = 123.96
+			text = "espetacular"
+		intervals [60]:
+			xmin = 123.96
+			xmax = 124.4
+			text = ""
+		intervals [61]:
+			xmin = 124.4
+			xmax = 124.91
+			text = "valeu a pena"
+		intervals [62]:
+			xmin = 124.91
+			xmax = 125.56
+			text = "..."
+		intervals [63]:
+			xmin = 125.56
+			xmax = 178.28
+			text = ""
+		intervals [64]:
+			xmin = 178.28
+			xmax = 178.74
+			text = "é eu naquele teatro"
+		intervals [65]:
+			xmin = 178.74
+			xmax = 178.89
+			text = "só"
+		intervals [66]:
+			xmin = 178.89
+			xmax = 179.32
+			text = "assisti morte e"
+		intervals [67]:
+			xmin = 179.32
+			xmax = 179.89
+			text = "..."
+		intervals [68]:
+			xmin = 179.89
+			xmax = 181.68
+			text = "vida severina que aliás achei muito um espetáculo muito"
+		intervals [69]:
+			xmin = 181.68
+			xmax = 182.02
+			text = "..."
+		intervals [70]:
+			xmin = 182.02
+			xmax = 182.4
+			text = "bonito"
+		intervals [71]:
+			xmin = 182.4
+			xmax = 183.14
+			text = "..."
+		intervals [72]:
+			xmin = 183.14
+			xmax = 185.48
+			text = "deslumbrante eu inclusive tinha certeza que"
+		intervals [73]:
+			xmin = 185.48
+			xmax = 191.54
+			text = "iria vencer o concurso porque achei um espetáculo daqueles um dos raros espetáculos de teatro que a gente sai e"
+		intervals [74]:
+			xmin = 191.54
+			xmax = 191.93
+			text = "..."
+		intervals [75]:
+			xmin = 191.93
+			xmax = 194.21
+			text = "sei lá dá vontade até de chorar no sentido de chorar por"
+		intervals [76]:
+			xmin = 194.21
+			xmax = 194.64
+			text = "..."
+		intervals [77]:
+			xmin = 194.64
+			xmax = 196.39
+			text = "emocionado pela pelo espetáculo"
+		intervals [78]:
+			xmin = 196.39
+			xmax = 197.21
+			text = ""
+		intervals [79]:
+			xmin = 197.21
+			xmax = 198.62
+			text = "do joão cabral é uma beleza"
+		intervals [80]:
+			xmin = 198.62
+			xmax = 200.39
+			text = "..."
+		intervals [81]:
+			xmin = 200.39
+			xmax = 200.84
+			text = "mas é realmente"
+		intervals [82]:
+			xmin = 200.84
+			xmax = 201.15
+			text = "os"
+		intervals [83]:
+			xmin = 201.15
+			xmax = 202.54
+			text = "outros teatros eu acho que não tem nada"
+		intervals [84]:
+			xmin = 202.54
+			xmax = 203.49
+			text = "..."
+		intervals [85]:
+			xmin = 203.49
+			xmax = 204.24
+			text = "de significativo"
+		intervals [86]:
+			xmin = 204.24
+			xmax = 204.73
+			text = "..."
+		intervals [87]:
+			xmin = 204.73
+			xmax = 205.9
+			text = "todos projetos muito ruins"
+		intervals [88]:
+			xmin = 205.9
+			xmax = 206.98
+			text = "muito adaptados"
+		intervals [89]:
+			xmin = 206.98
+			xmax = 207.67
+			text = "..."
+		intervals [90]:
+			xmin = 207.67
+			xmax = 208.4
+			text = "num tem nada que"
+		intervals [91]:
+			xmin = 208.4
+			xmax = 209.07
+			text = "..."
+		intervals [92]:
+			xmin = 209.07
+			xmax = 222.98
+			text = ""
+		intervals [93]:
+			xmin = 222.98
+			xmax = 223.38
+			text = "treze de"
+		intervals [94]:
+			xmin = 223.38
+			xmax = 223.81
+			text = "maio"
+		intervals [95]:
+			xmin = 223.81
+			xmax = 225.12
+			text = "..."
+		intervals [96]:
+			xmin = 225.12
+			xmax = 227.55
+			text = ""
+		intervals [97]:
+			xmin = 227.55
+			xmax = 227.72
+			text = "não"
+		intervals [98]:
+			xmin = 227.72
+			xmax = 228.14
+			text = "ah sim"
+		intervals [99]:
+			xmin = 228.14
+			xmax = 228.44
+			text = "..."
+		intervals [100]:
+			xmin = 228.44
+			xmax = 231.01
+			text = "que é não esse é na rua dos ingleses é em cima do balcão"
+		intervals [101]:
+			xmin = 231.01
+			xmax = 239.34
+			text = ""
+		intervals [102]:
+			xmin = 239.34
+			xmax = 241.52
+			text = "eu confundi com o paiol eu quis falar paiol paiol"
+		intervals [103]:
+			xmin = 241.52
+			xmax = 248.21
+			text = ""
+		intervals [104]:
+			xmin = 248.21
+			xmax = 252.12
+			text = "não quanto ao aspecto de pequena sala é não tenho nada contra são"
+		intervals [105]:
+			xmin = 252.12
+			xmax = 252.48
+			text = "boas"
+		intervals [106]:
+			xmin = 252.48
+			xmax = 253.79
+			text = "acho boa interessante aquela forma"
+		intervals [107]:
+			xmin = 253.79
+			xmax = 254.18
+			text = "de"
+		intervals [108]:
+			xmin = 254.18
+			xmax = 256.42
+			text = "como espetáculo acho um bom ângulo para faz"
+		intervals [109]:
+			xmin = 256.42
+			xmax = 257.02
+			text = "..."
+		intervals [110]:
+			xmin = 257.02
+			xmax = 264.92
+			text = "soar uma espécie de arena eu acho bom mas u aquilo é um projeto ruim adaptado quer dizer o cenário pode ser bom com tudo escuro então o teatro vai ficar bom ou não mas"
+		intervals [111]:
+			xmin = 264.92
+			xmax = 265.48
+			text = "..."
+		intervals [112]:
+			xmin = 265.48
+			xmax = 265.95
+			text = "como prédio"
+		intervals [113]:
+			xmin = 265.95
+			xmax = 266.4
+			text = "..."
+		intervals [114]:
+			xmin = 266.4
+			xmax = 267.71
+			text = "como projeto não uma"
+		intervals [115]:
+			xmin = 267.71
+			xmax = 268.46
+			text = "..."
+		intervals [116]:
+			xmin = 268.46
+			xmax = 270.11
+			text = "oficina era uma adaptação razoável a oficina"
+		intervals [117]:
+			xmin = 270.11
+			xmax = 271.05
+			text = "..."
+		intervals [118]:
+			xmin = 271.05
+			xmax = 276.34
+			text = "tinha um certo uma atmosfera boa como teatro mesmo quando num intervalo com luzes acesas"
+		intervals [119]:
+			xmin = 276.34
+			xmax = 278.02
+			text = ""
+		intervals [120]:
+			xmin = 278.02
+			xmax = 278.26
+			text = "na"
+		intervals [121]:
+			xmin = 278.26
+			xmax = 278.71
+			text = "rua joão segoi"
+		intervals [122]:
+			xmin = 278.71
+			xmax = 279.97
+			text = ""
+		intervals [123]:
+			xmin = 279.97
+			xmax = 280.27
+			text = "inclusive"
+		intervals [124]:
+			xmin = 280.27
+			xmax = 280.66
+			text = "claro"
+		intervals [125]:
+			xmin = 280.66
+			xmax = 281.29
+			text = "..."
+		intervals [126]:
+			xmin = 281.29
+			xmax = 290.18
+			text = ""
+		intervals [127]:
+			xmin = 290.18
+			xmax = 294.91
+			text = "mais em em acústica por isso que a gente sente esse problema não eu acho que é possível é uma questão de de"
+		intervals [128]:
+			xmin = 294.91
+			xmax = 296.59
+			text = "fazer um tratamento acústico entendeu"
+		intervals [129]:
+			xmin = 296.59
+			xmax = 296.95
+			text = "..."
+		intervals [130]:
+			xmin = 296.95
+			xmax = 298.71
+			text = "é um tratamento caro nem"
+		intervals [131]:
+			xmin = 298.71
+			xmax = 299.55
+			text = "..."
+		intervals [132]:
+			xmin = 299.55
+			xmax = 303.15
+			text = "todos os teatros conseguem fazer depende de um bom projeto e depende de uma da"
+		intervals [133]:
+			xmin = 303.15
+			xmax = 303.64
+			text = "..."
+		intervals [134]:
+			xmin = 303.64
+			xmax = 305.19
+			text = "qualidade do material empregado e"
+		intervals [135]:
+			xmin = 305.19
+			xmax = 306.97
+			text = "..."
+		intervals [136]:
+			xmin = 306.97
+			xmax = 309.48
+			text = "as companhias teatrais não tem muitos recursos para fazerem muito"
+		intervals [137]:
+			xmin = 309.48
+			xmax = 309.86
+			text = "a"
+		intervals [138]:
+			xmin = 309.86
+			xmax = 311.73
+			text = "situação do teatro muito instável também né a"
+		intervals [139]:
+			xmin = 311.73
+			xmax = 313.53
+			text = "..."
+		intervals [140]:
+			xmin = 313.53
+			xmax = 317.18
+			text = "ruth escobar conseguiu montar aquele espetáculo incompreensível ficar um ano em cartaz mas é"
+		intervals [141]:
+			xmin = 317.18
+			xmax = 317.47
+			text = "é"
+		intervals [142]:
+			xmin = 317.47
+			xmax = 370.4
+			text = ""
+		intervals [143]:
+			xmin = 370.4
+			xmax = 372.21
+			text = "eu acho que todos"
+		intervals [144]:
+			xmin = 372.21
+			xmax = 372.66
+			text = "..."
+		intervals [145]:
+			xmin = 372.66
+			xmax = 373.74
+			text = "os itens são excelentes autores alguns muito"
+		intervals [146]:
+			xmin = 373.74
+			xmax = 374.35
+			text = "bons"
+		intervals [147]:
+			xmin = 374.35
+			xmax = 375.42
+			text = "exato é cenógrafos"
+		intervals [148]:
+			xmin = 375.42
+			xmax = 375.89
+			text = "a"
+		intervals [149]:
+			xmin = 375.89
+			xmax = 377.03
+			text = "..."
+		intervals [150]:
+			xmin = 377.03
+			xmax = 378.47
+			text = "gente tem alguns"
+		intervals [151]:
+			xmin = 378.47
+			xmax = 378.88
+			text = "..."
+		intervals [152]:
+			xmin = 378.88
+			xmax = 379.93
+			text = "bons mas geralmente também o"
+		intervals [153]:
+			xmin = 379.93
+			xmax = 381.51
+			text = "..."
+		intervals [154]:
+			xmin = 381.51
+			xmax = 384.33
+			text = "nosso problema de cenário sempre se defronta com o problema"
+		intervals [155]:
+			xmin = 384.33
+			xmax = 387.81
+			text = "do custo da produção então são sempre cenários escritos com uma certa"
+		intervals [156]:
+			xmin = 387.81
+			xmax = 388.76
+			text = "..."
+		intervals [157]:
+			xmin = 388.76
+			xmax = 390.03
+			text = "bossa mais não são grandes"
+		intervals [158]:
+			xmin = 390.03
+			xmax = 395.25
+			text = ""
+		intervals [159]:
+			xmin = 395.25
+			xmax = 396.1
+			text = "eu acho"
+		intervals [160]:
+			xmin = 396.1
+			xmax = 400.04
+			text = ""
+		intervals [161]:
+			xmin = 400.04
+			xmax = 401.72
+			text = "coisas que encantam né embora bastante criatividade"
+		intervals [162]:
+			xmin = 401.72
+			xmax = 402.52
+			text = "..."
+		intervals [163]:
+			xmin = 402.52
+			xmax = 404.61
+			text = "com dinheiro também num"
+		intervals [164]:
+			xmin = 404.61
+			xmax = 405.42
+			text = ""
+		intervals [165]:
+			xmin = 405.42
+			xmax = 405.62
+			text = "não"
+		intervals [166]:
+			xmin = 405.62
+			xmax = 406.14
+			text = "..."
+		intervals [167]:
+			xmin = 406.14
+			xmax = 407.3
+			text = "seria nada mal eu"
+		intervals [168]:
+			xmin = 407.3
+			xmax = 408.39
+			text = "acho que o flávio"
+		intervals [169]:
+			xmin = 408.39
+			xmax = 409.34
+			text = "..."
+		intervals [170]:
+			xmin = 409.34
+			xmax = 416.02
+			text = "império por exemplo é um cenógrafo excelente mas geralmente ele tem que se defrontar com coisas improvisadas ele consegue um bom efeito é claro mais não significa se"
+		intervals [171]:
+			xmin = 416.02
+			xmax = 417.84
+			text = "..."
+		intervals [172]:
+			xmin = 417.84
+			xmax = 420.09
+			text = "ele tivesse mais recursos não fizessem coisas de melhor nível entende"
+		intervals [173]:
+			xmin = 420.09
+			xmax = 439.39
+			text = ""
+		intervals [174]:
+			xmin = 439.39
+			xmax = 440.9
+			text = "um bom nível um bom nível acho"
+		intervals [175]:
+			xmin = 440.9
+			xmax = 443.1
+			text = "..."
+		intervals [176]:
+			xmin = 443.1
+			xmax = 444.38
+			text = "que um bom nível ele tem no teatro eu"
+		intervals [177]:
+			xmin = 444.38
+			xmax = 445.22
+			text = "acho que especialmente"
+		intervals [178]:
+			xmin = 445.22
+			xmax = 445.6
+			text = "..."
+		intervals [179]:
+			xmin = 445.6
+			xmax = 448.59
+			text = "aqui em são paulo a gente tem oportunidade de ver coisas muito boas em"
+		intervals [180]:
+			xmin = 448.59
+			xmax = 448.9
+			text = "..."
+		intervals [181]:
+			xmin = 448.9
+			xmax = 451.18
+			text = "teatro agora bom nível aí é um problema meio"
+		intervals [182]:
+			xmin = 451.18
+			xmax = 451.38
+			text = "sério"
+		intervals [183]:
+			xmin = 451.38
+			xmax = 452.46
+			text = "..."
+		intervals [184]:
+			xmin = 452.46
+			xmax = 455.91
+			text = "porque o teatro continua sendo uma de uma elite o"
+		intervals [185]:
+			xmin = 455.91
+			xmax = 457.31
+			text = "..."
+		intervals [186]:
+			xmin = 457.31
+			xmax = 464.87
+			text = ""
+		intervals [187]:
+			xmin = 464.87
+			xmax = 465.22
+			text = "sempre"
+		intervals [188]:
+			xmin = 465.22
+			xmax = 472.2
+			text = ""
+		intervals [189]:
+			xmin = 472.2
+			xmax = 475.87
+			text = "e mesmo para gente que costuma ir ao teatro o teatro exige da gente"
+		intervals [190]:
+			xmin = 475.87
+			xmax = 479.74
+			text = "uma espécie de programação a gente não vai ao teatro como vai ao cinema a gente tem que"
+		intervals [191]:
+			xmin = 479.74
+			xmax = 481.97
+			text = "programar marcar tem um horário não é uma coisa"
+		intervals [192]:
+			xmin = 481.97
+			xmax = 482.75
+			text = "..."
+		intervals [193]:
+			xmin = 482.75
+			xmax = 485.01
+			text = "assim muito normal mesmo para gente para maioria da população"
+		intervals [194]:
+			xmin = 485.01
+			xmax = 485.91
+			text = "..."
+		intervals [195]:
+			xmin = 485.91
+			xmax = 516.7
+			text = ""
+		intervals [196]:
+			xmin = 516.7
+			xmax = 517.09
+			text = "é a"
+		intervals [197]:
+			xmin = 517.09
+			xmax = 517.31
+			text = "gente"
+		intervals [198]:
+			xmin = 517.31
+			xmax = 518.37
+			text = ""
+		intervals [199]:
+			xmin = 518.37
+			xmax = 519.44
+			text = "programar um dia combina com"
+		intervals [200]:
+			xmin = 519.44
+			xmax = 519.78
+			text = "..."
+		intervals [201]:
+			xmin = 519.78
+			xmax = 520.29
+			text = "alguns"
+		intervals [202]:
+			xmin = 520.29
+			xmax = 520.6
+			text = "..."
+		intervals [203]:
+			xmin = 520.6
+			xmax = 520.89
+			text = "amigos"
+		intervals [204]:
+			xmin = 520.89
+			xmax = 522.37
+			text = "..."
+		intervals [205]:
+			xmin = 522.37
+			xmax = 522.78
+			text = "para"
+		intervals [206]:
+			xmin = 522.78
+			xmax = 523.48
+			text = "..."
+		intervals [207]:
+			xmin = 523.48
+			xmax = 524.98
+			text = "ir é sempre um programa assim meio"
+		intervals [208]:
+			xmin = 524.98
+			xmax = 526.1
+			text = ""
+		intervals [209]:
+			xmin = 526.1
+			xmax = 537.89
+			text = "não é um negócio tão a vontade é muito caro também eu acho muito caro é muito caro eu acho que pesa bastante é verdade que se a gente for fazer comparações a gente gasta às vezes mais dinheiro em outras coisas e pode medir se vale a pena ou num vale eu acho"
+		intervals [210]:
+			xmin = 537.89
+			xmax = 538.87
+			text = "..."
+		intervals [211]:
+			xmin = 538.87
+			xmax = 539.91
+			text = "que vale"
+		intervals [212]:
+			xmin = 539.91
+			xmax = 541.49
+			text = ""
+		intervals [213]:
+			xmin = 541.49
+			xmax = 543.21
+			text = "aí é problema econômico"
+		intervals [214]:
+			xmin = 543.21
+			xmax = 543.64
+			text = "mas"
+		intervals [215]:
+			xmin = 543.64
+			xmax = 543.8
+			text = "assim"
+		intervals [216]:
+			xmin = 543.8
+			xmax = 544.79
+			text = "..."
+		intervals [217]:
+			xmin = 544.79
+			xmax = 545.04
+			text = "é caro"
+		intervals [218]:
+			xmin = 545.04
+			xmax = 555.95
+			text = ""
+		intervals [219]:
+			xmin = 555.95
+			xmax = 559.2
+			text = "a procura é maior e você não consegue ingressar e depois é chato porque quando fui ver o"
+		intervals [220]:
+			xmin = 559.2
+			xmax = 559.68
+			text = "..."
+		intervals [221]:
+			xmin = 559.68
+			xmax = 559.74
+			text = "balcão"
+		intervals [222]:
+			xmin = 559.74
+			xmax = 565.44
+			text = "foi mais ou menos no início eu paguei mais ou menos dez ou quinze cruzeiros na época não era um"
+		intervals [223]:
+			xmin = 565.44
+			xmax = 565.8
+			text = "..."
+		intervals [224]:
+			xmin = 565.8
+			xmax = 566.27
+			text = "preço baixo"
+		intervals [225]:
+			xmin = 566.27
+			xmax = 566.64
+			text = "..."
+		intervals [226]:
+			xmin = 566.64
+			xmax = 567.39
+			text = "na época no fim tava"
+		intervals [227]:
+			xmin = 567.39
+			xmax = 567.9
+			text = "..."
+		intervals [228]:
+			xmin = 567.9
+			xmax = 570.05
+			text = "uma temporada de cinco cruzeiros a gente fica quase"
+		intervals [229]:
+			xmin = 570.05
+			xmax = 571.46
+			text = "..."
+		intervals [230]:
+			xmin = 571.46
+			xmax = 571.97
+			text = "achando vamos"
+		intervals [231]:
+			xmin = 571.97
+			xmax = 572.28
+			text = "deixar"
+		intervals [232]:
+			xmin = 572.28
+			xmax = 574.47
+			text = "para o finzinho para ver se assiste mas"
+		intervals [233]:
+			xmin = 574.47
+			xmax = 574.96
+			text = "..."
+		intervals [234]:
+			xmin = 574.96
+			xmax = 575.31
+			text = "não é o"
+		intervals [235]:
+			xmin = 575.31
+			xmax = 575.65
+			text = "..."
+		intervals [236]:
+			xmin = 575.65
+			xmax = 575.85
+			text = "caso"
+		intervals [237]:
+			xmin = 575.85
+			xmax = 576.29
+			text = "..."
+		intervals [238]:
+			xmin = 576.29
+			xmax = 578.67
+			text = "não ainda assim eu acho o teatro aqui muito barato"
+		intervals [239]:
+			xmin = 578.67
+			xmax = 581.06
+			text = ""
+		intervals [240]:
+			xmin = 581.06
+			xmax = 585.39
+			text = "lugar nenhum teatro tão barato quanto aqui cê viu não eu já vi"
+		intervals [241]:
+			xmin = 585.39
+			xmax = 586.38
+			text = "mais"
+		intervals [242]:
+			xmin = 586.38
+			xmax = 588.69
+			text = "caro em outros lugares mas enfim"
+		intervals [243]:
+			xmin = 588.69
+			xmax = 589.47
+			text = "..."
+		intervals [244]:
+			xmin = 589.47
+			xmax = 599.19
+			text = ""
+	item [3]:
+		class = "IntervalTier"
+		name = "TB-docf"
+		xmin = 0.0
+		xmax = 599.19
+		intervals: size = 50
+		intervals [1]:
+			xmin = 0.0
+			xmax = 56.12
+			text = ""
+		intervals [2]:
+			xmin = 56.12
+			xmax = 56.91
+			text = "cê conhece algum"
+		intervals [3]:
+			xmin = 56.91
+			xmax = 58.51
+			text = "teatro assim sirlei que você"
+		intervals [4]:
+			xmin = 58.51
+			xmax = 59.14
+			text = "achasse que"
+		intervals [5]:
+			xmin = 59.14
+			xmax = 59.74
+			text = "..."
+		intervals [6]:
+			xmin = 59.74
+			xmax = 62.49
+			text = "não sei que merecesse uma reparação maior e tudo"
+		intervals [7]:
+			xmin = 62.49
+			xmax = 62.95
+			text = "..."
+		intervals [8]:
+			xmin = 62.95
+			xmax = 65.19
+			text = "não sei o que que vocês acham daquela arrumação que"
+		intervals [9]:
+			xmin = 65.19
+			xmax = 235.71
+			text = ""
+		intervals [10]:
+			xmin = 235.71
+			xmax = 238.09
+			text = "o de baixo é augusto escobar o de cima é galpão né"
+		intervals [11]:
+			xmin = 238.09
+			xmax = 317.47
+			text = ""
+		intervals [12]:
+			xmin = 317.47
+			xmax = 318.61
+			text = "um exemplo meio raro vocês acham assim"
+		intervals [13]:
+			xmin = 318.61
+			xmax = 322.11
+			text = "..."
+		intervals [14]:
+			xmin = 322.11
+			xmax = 324.9
+			text = "que de uma maneira geral no teatro há nós estamos"
+		intervals [15]:
+			xmin = 324.9
+			xmax = 325.85
+			text = "..."
+		intervals [16]:
+			xmin = 325.85
+			xmax = 328.88
+			text = "bem servidos isso eu estou dizendo assim em todas as"
+		intervals [17]:
+			xmin = 328.88
+			xmax = 329.9
+			text = "..."
+		intervals [18]:
+			xmin = 329.9
+			xmax = 332.41
+			text = "funções cujos nomes vocês vão dizer em todas as"
+		intervals [19]:
+			xmin = 332.41
+			xmax = 332.77
+			text = "..."
+		intervals [20]:
+			xmin = 332.77
+			xmax = 333.86
+			text = "funções é necessárias para um"
+		intervals [21]:
+			xmin = 333.86
+			xmax = 334.18
+			text = "..."
+		intervals [22]:
+			xmin = 334.18
+			xmax = 336.06
+			text = "um a a"
+		intervals [23]:
+			xmin = 336.06
+			xmax = 336.37
+			text = "..."
+		intervals [24]:
+			xmin = 336.37
+			xmax = 336.89
+			text = "função teatral"
+		intervals [25]:
+			xmin = 336.89
+			xmax = 337.5
+			text = "..."
+		intervals [26]:
+			xmin = 337.5
+			xmax = 337.95
+			text = "enfim"
+		intervals [27]:
+			xmin = 337.95
+			xmax = 339.32
+			text = "vocês acham que em"
+		intervals [28]:
+			xmin = 339.32
+			xmax = 340.51
+			text = "..."
+		intervals [29]:
+			xmin = 340.51
+			xmax = 342.52
+			text = "todos esses setores digo do ponto de"
+		intervals [30]:
+			xmin = 342.52
+			xmax = 343.21
+			text = "..."
+		intervals [31]:
+			xmin = 343.21
+			xmax = 349.75
+			text = ""
+		intervals [32]:
+			xmin = 349.75
+			xmax = 349.88
+			text = "tudo"
+		intervals [33]:
+			xmin = 349.88
+			xmax = 350.09
+			text = ""
+		intervals [34]:
+			xmin = 350.09
+			xmax = 350.18
+			text = "não"
+		intervals [35]:
+			xmin = 350.18
+			xmax = 355.1
+			text = ""
+		intervals [36]:
+			xmin = 355.1
+			xmax = 356.99
+			text = "não do espectador no"
+		intervals [37]:
+			xmin = 356.99
+			xmax = 357.37
+			text = "..."
+		intervals [38]:
+			xmin = 357.37
+			xmax = 358.65
+			text = "caso não da"
+		intervals [39]:
+			xmin = 358.65
+			xmax = 421.3
+			text = ""
+		intervals [40]:
+			xmin = 421.3
+			xmax = 422.82
+			text = "mas e que mais"
+		intervals [41]:
+			xmin = 422.82
+			xmax = 424.07
+			text = "..."
+		intervals [42]:
+			xmin = 424.07
+			xmax = 429.64
+			text = "na parte de teatro quer dizer dos profissionais de teatro quem mais vocês acham que a gente não precisaria"
+		intervals [43]:
+			xmin = 429.64
+			xmax = 430.66
+			text = "..."
+		intervals [44]:
+			xmin = 430.66
+			xmax = 432.08
+			text = "nenhum desses setores assim"
+		intervals [45]:
+			xmin = 432.08
+			xmax = 433.59
+			text = "..."
+		intervals [46]:
+			xmin = 433.59
+			xmax = 437.72
+			text = "maior reparo vocês acham que eles estão em condições para levar"
+		intervals [47]:
+			xmin = 437.72
+			xmax = 438.13
+			text = "..."
+		intervals [48]:
+			xmin = 438.13
+			xmax = 439.09
+			text = "o teatro a"
+		intervals [49]:
+			xmin = 439.09
+			xmax = 439.39
+			text = "..."
+		intervals [50]:
+			xmin = 439.39
+			xmax = 599.19
+			text = ""
+	item [4]:
+		class = "IntervalTier"
+		name = "NTB-docf"
+		xmin = 0.0
+		xmax = 599.19
+		intervals: size = 50
+		intervals [1]:
+			xmin = 0.0
+			xmax = 56.12
+			text = ""
+		intervals [2]:
+			xmin = 56.12
+			xmax = 56.91
+			text = "cê conhece algum"
+		intervals [3]:
+			xmin = 56.91
+			xmax = 58.51
+			text = "teatro assim sirlei que você"
+		intervals [4]:
+			xmin = 58.51
+			xmax = 59.14
+			text = "achasse que"
+		intervals [5]:
+			xmin = 59.14
+			xmax = 59.74
+			text = "..."
+		intervals [6]:
+			xmin = 59.74
+			xmax = 62.49
+			text = "não sei que merecesse uma reparação maior e tudo"
+		intervals [7]:
+			xmin = 62.49
+			xmax = 62.95
+			text = "..."
+		intervals [8]:
+			xmin = 62.95
+			xmax = 65.19
+			text = "não sei o que que vocês acham daquela arrumação que"
+		intervals [9]:
+			xmin = 65.19
+			xmax = 235.71
+			text = ""
+		intervals [10]:
+			xmin = 235.71
+			xmax = 238.09
+			text = "o de baixo é augusto escobar o de cima é galpão né"
+		intervals [11]:
+			xmin = 238.09
+			xmax = 317.47
+			text = ""
+		intervals [12]:
+			xmin = 317.47
+			xmax = 318.61
+			text = "um exemplo meio raro vocês acham assim"
+		intervals [13]:
+			xmin = 318.61
+			xmax = 322.11
+			text = "..."
+		intervals [14]:
+			xmin = 322.11
+			xmax = 324.9
+			text = "que de uma maneira geral no teatro há nós estamos"
+		intervals [15]:
+			xmin = 324.9
+			xmax = 325.85
+			text = "..."
+		intervals [16]:
+			xmin = 325.85
+			xmax = 328.88
+			text = "bem servidos isso eu estou dizendo assim em todas as"
+		intervals [17]:
+			xmin = 328.88
+			xmax = 329.9
+			text = "..."
+		intervals [18]:
+			xmin = 329.9
+			xmax = 332.41
+			text = "funções cujos nomes vocês vão dizer em todas as"
+		intervals [19]:
+			xmin = 332.41
+			xmax = 332.77
+			text = "..."
+		intervals [20]:
+			xmin = 332.77
+			xmax = 333.86
+			text = "funções é necessárias para um"
+		intervals [21]:
+			xmin = 333.86
+			xmax = 334.18
+			text = "..."
+		intervals [22]:
+			xmin = 334.18
+			xmax = 336.06
+			text = "um a a"
+		intervals [23]:
+			xmin = 336.06
+			xmax = 336.37
+			text = "..."
+		intervals [24]:
+			xmin = 336.37
+			xmax = 336.89
+			text = "função teatral"
+		intervals [25]:
+			xmin = 336.89
+			xmax = 337.5
+			text = "..."
+		intervals [26]:
+			xmin = 337.5
+			xmax = 337.95
+			text = "enfim"
+		intervals [27]:
+			xmin = 337.95
+			xmax = 339.32
+			text = "vocês acham que em"
+		intervals [28]:
+			xmin = 339.32
+			xmax = 340.51
+			text = "..."
+		intervals [29]:
+			xmin = 340.51
+			xmax = 342.52
+			text = "todos esses setores digo do ponto de"
+		intervals [30]:
+			xmin = 342.52
+			xmax = 343.21
+			text = "..."
+		intervals [31]:
+			xmin = 343.21
+			xmax = 349.75
+			text = ""
+		intervals [32]:
+			xmin = 349.75
+			xmax = 349.88
+			text = "tudo"
+		intervals [33]:
+			xmin = 349.88
+			xmax = 350.09
+			text = ""
+		intervals [34]:
+			xmin = 350.09
+			xmax = 350.18
+			text = "não"
+		intervals [35]:
+			xmin = 350.18
+			xmax = 355.1
+			text = ""
+		intervals [36]:
+			xmin = 355.1
+			xmax = 356.99
+			text = "não do espectador no"
+		intervals [37]:
+			xmin = 356.99
+			xmax = 357.37
+			text = "..."
+		intervals [38]:
+			xmin = 357.37
+			xmax = 358.65
+			text = "caso não da"
+		intervals [39]:
+			xmin = 358.65
+			xmax = 421.3
+			text = ""
+		intervals [40]:
+			xmin = 421.3
+			xmax = 422.82
+			text = "mas e que mais"
+		intervals [41]:
+			xmin = 422.82
+			xmax = 424.07
+			text = "..."
+		intervals [42]:
+			xmin = 424.07
+			xmax = 429.64
+			text = "na parte de teatro quer dizer dos profissionais de teatro quem mais vocês acham que a gente não precisaria"
+		intervals [43]:
+			xmin = 429.64
+			xmax = 430.66
+			text = "..."
+		intervals [44]:
+			xmin = 430.66
+			xmax = 432.08
+			text = "nenhum desses setores assim"
+		intervals [45]:
+			xmin = 432.08
+			xmax = 433.59
+			text = "..."
+		intervals [46]:
+			xmin = 433.59
+			xmax = 437.72
+			text = "maior reparo vocês acham que eles estão em condições para levar"
+		intervals [47]:
+			xmin = 437.72
+			xmax = 438.13
+			text = "..."
+		intervals [48]:
+			xmin = 438.13
+			xmax = 439.09
+			text = "o teatro a"
+		intervals [49]:
+			xmin = 439.09
+			xmax = 439.39
+			text = "..."
+		intervals [50]:
+			xmin = 439.39
+			xmax = 599.19
+			text = ""
+	item [5]:
+		class = "IntervalTier"
+		name = "TB-inff"
+		xmin = 0.0
+		xmax = 599.19
+		intervals: size = 216
+		intervals [1]:
+			xmin = 0.0
+			xmax = 87.34
+			text = ""
+		intervals [2]:
+			xmin = 87.34
+			xmax = 87.58
+			text = "assisti"
+		intervals [3]:
+			xmin = 87.58
+			xmax = 88.09
+			text = "eu cheguei a ver"
+		intervals [4]:
+			xmin = 88.09
+			xmax = 89.29
+			text = ""
+		intervals [5]:
+			xmin = 89.29
+			xmax = 89.6
+			text = "o"
+		intervals [6]:
+			xmin = 89.6
+			xmax = 90.89
+			text = "texto eu procurei lêlo"
+		intervals [7]:
+			xmin = 90.89
+			xmax = 91.24
+			text = "..."
+		intervals [8]:
+			xmin = 91.24
+			xmax = 92.38
+			text = "porque eu não ouvi"
+		intervals [9]:
+			xmin = 92.38
+			xmax = 92.69
+			text = "direito"
+		intervals [10]:
+			xmin = 92.69
+			xmax = 93.33
+			text = "..."
+		intervals [11]:
+			xmin = 93.33
+			xmax = 95.66
+			text = "no teatro eu achei que tinha uma acústica muito ruim"
+		intervals [12]:
+			xmin = 95.66
+			xmax = 96.3
+			text = "..."
+		intervals [13]:
+			xmin = 96.3
+			xmax = 96.56
+			text = ""
+		intervals [14]:
+			xmin = 96.56
+			xmax = 97.65
+			text = "sim a montagem"
+		intervals [15]:
+			xmin = 97.65
+			xmax = 98.01
+			text = "..."
+		intervals [16]:
+			xmin = 98.01
+			xmax = 100.34
+			text = "maravilhosa eu achei espetacular a"
+		intervals [17]:
+			xmin = 100.34
+			xmax = 101.21
+			text = "..."
+		intervals [18]:
+			xmin = 101.21
+			xmax = 104.02
+			text = "montagem mais não consegui ouvir direito o texto"
+		intervals [19]:
+			xmin = 104.02
+			xmax = 104.6
+			text = "..."
+		intervals [20]:
+			xmin = 104.6
+			xmax = 107.39
+			text = "então procurei ver alguma coisa do texto porque"
+		intervals [21]:
+			xmin = 107.39
+			xmax = 107.78
+			text = "..."
+		intervals [22]:
+			xmin = 107.78
+			xmax = 110.07
+			text = "determinadas cenas nu não percebi"
+		intervals [23]:
+			xmin = 110.07
+			xmax = 110.5
+			text = "..."
+		intervals [24]:
+			xmin = 110.5
+			xmax = 110.77
+			text = "até"
+		intervals [25]:
+			xmin = 110.77
+			xmax = 113.77
+			text = "onde ia a grandeza da coisa porque eu não entendia bem o texto"
+		intervals [26]:
+			xmin = 113.77
+			xmax = 119.4
+			text = ""
+		intervals [27]:
+			xmin = 119.4
+			xmax = 120.03
+			text = "vi três"
+		intervals [28]:
+			xmin = 120.03
+			xmax = 123.96
+			text = ""
+		intervals [29]:
+			xmin = 123.96
+			xmax = 124.25
+			text = "eu vi três"
+		intervals [30]:
+			xmin = 124.25
+			xmax = 124.4
+			text = "vezes"
+		intervals [31]:
+			xmin = 124.4
+			xmax = 125.56
+			text = ""
+		intervals [32]:
+			xmin = 125.56
+			xmax = 128.07
+			text = "aliás ó você como arquiteto inclusive"
+		intervals [33]:
+			xmin = 128.07
+			xmax = 128.65
+			text = "..."
+		intervals [34]:
+			xmin = 128.65
+			xmax = 129.19
+			text = "eu acho"
+		intervals [35]:
+			xmin = 129.19
+			xmax = 129.81
+			text = "..."
+		intervals [36]:
+			xmin = 129.81
+			xmax = 130.1
+			text = "um"
+		intervals [37]:
+			xmin = 130.1
+			xmax = 130.27
+			text = "dos"
+		intervals [38]:
+			xmin = 130.27
+			xmax = 133.69
+			text = "aspectos mais deficientes dos teatros em são paulo é a falta de"
+		intervals [39]:
+			xmin = 133.69
+			xmax = 135.26
+			text = "..."
+		intervals [40]:
+			xmin = 135.26
+			xmax = 135.5
+			text = "acústica"
+		intervals [41]:
+			xmin = 135.5
+			xmax = 136.74
+			text = "é isso e então"
+		intervals [42]:
+			xmin = 136.74
+			xmax = 138.11
+			text = "você veja um municipal tem"
+		intervals [43]:
+			xmin = 138.11
+			xmax = 138.54
+			text = "uma"
+		intervals [44]:
+			xmin = 138.54
+			xmax = 141.7
+			text = "acústica razoável certo não há nenhum problema talvez"
+		intervals [45]:
+			xmin = 141.7
+			xmax = 142.1
+			text = "..."
+		intervals [46]:
+			xmin = 142.1
+			xmax = 144.82
+			text = "a construção tenha sido mais cuidada"
+		intervals [47]:
+			xmin = 144.82
+			xmax = 145.35
+			text = "..."
+		intervals [48]:
+			xmin = 145.35
+			xmax = 147.31
+			text = "então daí se tenha conseguido boa qualidade"
+		intervals [49]:
+			xmin = 147.31
+			xmax = 148.04
+			text = "..."
+		intervals [50]:
+			xmin = 148.04
+			xmax = 148.69
+			text = "mas o do"
+		intervals [51]:
+			xmin = 148.69
+			xmax = 149.2
+			text = "..."
+		intervals [52]:
+			xmin = 149.2
+			xmax = 150.98
+			text = "lá da católica aí na ponte alegre tem uma"
+		intervals [53]:
+			xmin = 150.98
+			xmax = 152.6
+			text = "..."
+		intervals [54]:
+			xmin = 152.6
+			xmax = 156.05
+			text = "acústica no tuca se consegue falar normalmente do palco"
+		intervals [55]:
+			xmin = 156.05
+			xmax = 156.48
+			text = "..."
+		intervals [56]:
+			xmin = 156.48
+			xmax = 158.9
+			text = "eu fiz essa experiência porque eu tive aulas assim lá"
+		intervals [57]:
+			xmin = 158.9
+			xmax = 159.6
+			text = "..."
+		intervals [58]:
+			xmin = 159.6
+			xmax = 161.33
+			text = "se fala normalmente assim da no uma"
+		intervals [59]:
+			xmin = 161.33
+			xmax = 161.79
+			text = "aula"
+		intervals [60]:
+			xmin = 161.79
+			xmax = 162.97
+			text = "do palco sem"
+		intervals [61]:
+			xmin = 162.97
+			xmax = 164.55
+			text = "sistema de amplificação de som"
+		intervals [62]:
+			xmin = 164.55
+			xmax = 165.18
+			text = "..."
+		intervals [63]:
+			xmin = 165.18
+			xmax = 166.84
+			text = "e todas as pessoas entenderem"
+		intervals [64]:
+			xmin = 166.84
+			xmax = 167.28
+			text = "..."
+		intervals [65]:
+			xmin = 167.28
+			xmax = 167.76
+			text = "bem bem"
+		intervals [66]:
+			xmin = 167.76
+			xmax = 168.28
+			text = "..."
+		intervals [67]:
+			xmin = 168.28
+			xmax = 171.82
+			text = "mesmo determinadas apresentações que nós fizemos com piano"
+		intervals [68]:
+			xmin = 171.82
+			xmax = 172.2
+			text = "..."
+		intervals [69]:
+			xmin = 172.2
+			xmax = 173.21
+			text = "de música contemporânea"
+		intervals [70]:
+			xmin = 173.21
+			xmax = 174.04
+			text = "..."
+		intervals [71]:
+			xmin = 174.04
+			xmax = 174.36
+			text = "e"
+		intervals [72]:
+			xmin = 174.36
+			xmax = 175.14
+			text = "a acústica"
+		intervals [73]:
+			xmin = 175.14
+			xmax = 175.61
+			text = "se prestava"
+		intervals [74]:
+			xmin = 175.61
+			xmax = 176.37
+			text = "..."
+		intervals [75]:
+			xmin = 176.37
+			xmax = 178.28
+			text = "muito bem não se perdia nenhum dos timbres novos"
+		intervals [76]:
+			xmin = 178.28
+			xmax = 196.39
+			text = ""
+		intervals [77]:
+			xmin = 196.39
+			xmax = 197.21
+			text = "pela beleza né"
+		intervals [78]:
+			xmin = 197.21
+			xmax = 209.07
+			text = ""
+		intervals [79]:
+			xmin = 209.07
+			xmax = 215.49
+			text = "e esses teatrinhos assim pequenos que eles estão fazendo agora tipo balcão ou mesmo"
+		intervals [80]:
+			xmin = 215.49
+			xmax = 216.12
+			text = "..."
+		intervals [81]:
+			xmin = 216.12
+			xmax = 217.09
+			text = "lá na"
+		intervals [82]:
+			xmin = 217.09
+			xmax = 217.73
+			text = "..."
+		intervals [83]:
+			xmin = 217.73
+			xmax = 218.82
+			text = "na treze de maio"
+		intervals [84]:
+			xmin = 218.82
+			xmax = 219.27
+			text = "..."
+		intervals [85]:
+			xmin = 219.27
+			xmax = 222.2
+			text = "com o que chama aquele teatro que eles fizeram três salas agora"
+		intervals [86]:
+			xmin = 222.2
+			xmax = 222.98
+			text = "..."
+		intervals [87]:
+			xmin = 222.98
+			xmax = 225.12
+			text = ""
+		intervals [88]:
+			xmin = 225.12
+			xmax = 226.72
+			text = "onde eles apresentaram castro alves"
+		intervals [89]:
+			xmin = 226.72
+			xmax = 226.91
+			text = "agora"
+		intervals [90]:
+			xmin = 226.91
+			xmax = 227.55
+			text = "..."
+		intervals [91]:
+			xmin = 227.55
+			xmax = 231.01
+			text = ""
+		intervals [92]:
+			xmin = 231.01
+			xmax = 232.84
+			text = "é esse mesmo tem o balcão"
+		intervals [93]:
+			xmin = 232.84
+			xmax = 233.21
+			text = "..."
+		intervals [94]:
+			xmin = 233.21
+			xmax = 235.71
+			text = "como se chama é ruth escobar todo ele todas as salas"
+		intervals [95]:
+			xmin = 235.71
+			xmax = 238.09
+			text = ""
+		intervals [96]:
+			xmin = 238.09
+			xmax = 238.53
+			text = "galpão"
+		intervals [97]:
+			xmin = 238.53
+			xmax = 239.34
+			text = "..."
+		intervals [98]:
+			xmin = 239.34
+			xmax = 241.52
+			text = ""
+		intervals [99]:
+			xmin = 241.52
+			xmax = 243.78
+			text = "é na generalgurjão paiol galpão fazia"
+		intervals [100]:
+			xmin = 243.78
+			xmax = 245.83
+			text = "assim a comparação quer dizer são"
+		intervals [101]:
+			xmin = 245.83
+			xmax = 247.44
+			text = "pequenas salas pequeno público e"
+		intervals [102]:
+			xmin = 247.44
+			xmax = 248.21
+			text = "..."
+		intervals [103]:
+			xmin = 248.21
+			xmax = 276.34
+			text = ""
+		intervals [104]:
+			xmin = 276.34
+			xmax = 276.74
+			text = "o"
+		intervals [105]:
+			xmin = 276.74
+			xmax = 276.78
+			text = "oficina"
+		intervals [106]:
+			xmin = 276.78
+			xmax = 277.26
+			text = "..."
+		intervals [107]:
+			xmin = 277.26
+			xmax = 278.02
+			text = "qual é"
+		intervals [108]:
+			xmin = 278.02
+			xmax = 278.71
+			text = ""
+		intervals [109]:
+			xmin = 278.71
+			xmax = 279.17
+			text = "ahan"
+		intervals [110]:
+			xmin = 279.17
+			xmax = 279.97
+			text = "..."
+		intervals [111]:
+			xmin = 279.97
+			xmax = 281.29
+			text = ""
+		intervals [112]:
+			xmin = 281.29
+			xmax = 285.01
+			text = "construção pobre e adaptada também é"
+		intervals [113]:
+			xmin = 285.01
+			xmax = 286.54
+			text = "..."
+		intervals [114]:
+			xmin = 286.54
+			xmax = 286.77
+			text = "eu"
+		intervals [115]:
+			xmin = 286.77
+			xmax = 289.87
+			text = "não o que eu ia dizer era justamente isso essas adaptações assim perdem"
+		intervals [116]:
+			xmin = 289.87
+			xmax = 290.18
+			text = "..."
+		intervals [117]:
+			xmin = 290.18
+			xmax = 343.21
+			text = ""
+		intervals [118]:
+			xmin = 343.21
+			xmax = 344.74
+			text = "vista humano nós estamos bem servidos"
+		intervals [119]:
+			xmin = 344.74
+			xmax = 346.12
+			text = "do ponto de vista"
+		intervals [120]:
+			xmin = 346.12
+			xmax = 348.18
+			text = "..."
+		intervals [121]:
+			xmin = 348.18
+			xmax = 349.68
+			text = "humano o ator ou do ponto de"
+		intervals [122]:
+			xmin = 349.68
+			xmax = 349.75
+			text = "vista"
+		intervals [123]:
+			xmin = 349.75
+			xmax = 349.88
+			text = ""
+		intervals [124]:
+			xmin = 349.88
+			xmax = 350.09
+			text = "espectador"
+		intervals [125]:
+			xmin = 350.09
+			xmax = 350.18
+			text = ""
+		intervals [126]:
+			xmin = 350.18
+			xmax = 350.96
+			text = "das pessoas"
+		intervals [127]:
+			xmin = 350.96
+			xmax = 351.84
+			text = "chegarem"
+		intervals [128]:
+			xmin = 351.84
+			xmax = 355.1
+			text = "e conseguirem ter uma boa acomodação uma boa cadeira"
+		intervals [129]:
+			xmin = 355.1
+			xmax = 358.65
+			text = ""
+		intervals [130]:
+			xmin = 358.65
+			xmax = 358.93
+			text = "porque"
+		intervals [131]:
+			xmin = 358.93
+			xmax = 363.49
+			text = "isso não existe em todos os lugares você tem projetos assim escadas você fica ultra mal"
+		intervals [132]:
+			xmin = 363.49
+			xmax = 363.8
+			text = "..."
+		intervals [133]:
+			xmin = 363.8
+			xmax = 368.06
+			text = "acomodado não existem assim cadeiras ou poltronas lugares em que você"
+		intervals [134]:
+			xmin = 368.06
+			xmax = 368.38
+			text = "..."
+		intervals [135]:
+			xmin = 368.38
+			xmax = 369.38
+			text = "possa se"
+		intervals [136]:
+			xmin = 369.38
+			xmax = 370.06
+			text = "..."
+		intervals [137]:
+			xmin = 370.06
+			xmax = 370.4
+			text = "instalar comodamente"
+		intervals [138]:
+			xmin = 370.4
+			xmax = 390.03
+			text = ""
+		intervals [139]:
+			xmin = 390.03
+			xmax = 390.67
+			text = "montagens ou"
+		intervals [140]:
+			xmin = 390.67
+			xmax = 393.87
+			text = "você não acha que as vezes quando existe esse problema"
+		intervals [141]:
+			xmin = 393.87
+			xmax = 395.25
+			text = "de dinheiro existe maior criatividade"
+		intervals [142]:
+			xmin = 395.25
+			xmax = 396.1
+			text = ""
+		intervals [143]:
+			xmin = 396.1
+			xmax = 397.31
+			text = "eu acho você não"
+		intervals [144]:
+			xmin = 397.31
+			xmax = 397.61
+			text = "..."
+		intervals [145]:
+			xmin = 397.61
+			xmax = 398.1
+			text = "tem notado isso"
+		intervals [146]:
+			xmin = 398.1
+			xmax = 399.08
+			text = "eu acho embora porque é uma"
+		intervals [147]:
+			xmin = 399.08
+			xmax = 399.44
+			text = "..."
+		intervals [148]:
+			xmin = 399.44
+			xmax = 400.04
+			text = "das"
+		intervals [149]:
+			xmin = 400.04
+			xmax = 404.61
+			text = ""
+		intervals [150]:
+			xmin = 404.61
+			xmax = 405.11
+			text = "não seria"
+		intervals [151]:
+			xmin = 405.11
+			xmax = 405.42
+			text = "mal"
+		intervals [152]:
+			xmin = 405.42
+			xmax = 420.09
+			text = ""
+		intervals [153]:
+			xmin = 420.09
+			xmax = 421.03
+			text = "sim claro eu"
+		intervals [154]:
+			xmin = 421.03
+			xmax = 421.3
+			text = "percebi"
+		intervals [155]:
+			xmin = 421.3
+			xmax = 457.31
+			text = ""
+		intervals [156]:
+			xmin = 457.31
+			xmax = 464.87
+			text = "pessoal faz textos pretensamente populares mais eles não atingem ninguém atingem sempre a mesma camadinha problema acho muito sério e é sempre um problema econômico"
+		intervals [157]:
+			xmin = 464.87
+			xmax = 465.22
+			text = ""
+		intervals [158]:
+			xmin = 465.22
+			xmax = 466.43
+			text = "né sempre um"
+		intervals [159]:
+			xmin = 466.43
+			xmax = 468.06
+			text = "problema econômico porque problema cultural no"
+		intervals [160]:
+			xmin = 468.06
+			xmax = 469.01
+			text = "..."
+		intervals [161]:
+			xmin = 469.01
+			xmax = 471.69
+			text = "caso não seria eu acho que nós"
+		intervals [162]:
+			xmin = 471.69
+			xmax = 472.02
+			text = "..."
+		intervals [163]:
+			xmin = 472.02
+			xmax = 472.2
+			text = "temos bons"
+		intervals [164]:
+			xmin = 472.2
+			xmax = 485.91
+			text = ""
+		intervals [165]:
+			xmin = 485.91
+			xmax = 486.67
+			text = "já é mais sofisticado"
+		intervals [166]:
+			xmin = 486.67
+			xmax = 487.6
+			text = "é e bem diferente"
+		intervals [167]:
+			xmin = 487.6
+			xmax = 487.8
+			text = "se"
+		intervals [168]:
+			xmin = 487.8
+			xmax = 489.34
+			text = "..."
+		intervals [169]:
+			xmin = 489.34
+			xmax = 490.1
+			text = "for para"
+		intervals [170]:
+			xmin = 490.1
+			xmax = 490.52
+			text = "..."
+		intervals [171]:
+			xmin = 490.52
+			xmax = 492.41
+			text = "europa também você tem os espetáculos às"
+		intervals [172]:
+			xmin = 492.41
+			xmax = 492.91
+			text = "..."
+		intervals [173]:
+			xmin = 492.91
+			xmax = 493.3
+			text = "sete"
+		intervals [174]:
+			xmin = 493.3
+			xmax = 493.45
+			text = "horas"
+		intervals [175]:
+			xmin = 493.45
+			xmax = 494.88
+			text = "é principalmente época de"
+		intervals [176]:
+			xmin = 494.88
+			xmax = 495.36
+			text = "..."
+		intervals [177]:
+			xmin = 495.36
+			xmax = 495.5
+			text = "inverno"
+		intervals [178]:
+			xmin = 495.5
+			xmax = 495.99
+			text = "..."
+		intervals [179]:
+			xmin = 495.99
+			xmax = 498.19
+			text = "então muito mais tranquilo às"
+		intervals [180]:
+			xmin = 498.19
+			xmax = 498.85
+			text = "..."
+		intervals [181]:
+			xmin = 498.85
+			xmax = 499.91
+			text = "vezes você"
+		intervals [182]:
+			xmin = 499.91
+			xmax = 500.47
+			text = "..."
+		intervals [183]:
+			xmin = 500.47
+			xmax = 500.98
+			text = "sai do trabalho"
+		intervals [184]:
+			xmin = 500.98
+			xmax = 501.36
+			text = "vai"
+		intervals [185]:
+			xmin = 501.36
+			xmax = 505.5
+			text = "direto até o teatro depois é que vai à casa"
+		intervals [186]:
+			xmin = 505.5
+			xmax = 506.14
+			text = "..."
+		intervals [187]:
+			xmin = 506.14
+			xmax = 506.7
+			text = ""
+		intervals [188]:
+			xmin = 506.7
+			xmax = 507.18
+			text = "..."
+		intervals [189]:
+			xmin = 507.18
+			xmax = 516.7
+			text = "não tem problema aqui não aqui você precisa aguardar quer dizer os espetáculos começam tarde"
+		intervals [190]:
+			xmin = 516.7
+			xmax = 517.31
+			text = ""
+		intervals [191]:
+			xmin = 517.31
+			xmax = 518.37
+			text = "então precisa"
+		intervals [192]:
+			xmin = 518.37
+			xmax = 524.98
+			text = ""
+		intervals [193]:
+			xmin = 524.98
+			xmax = 526.1
+			text = "fica mais sofisticado"
+		intervals [194]:
+			xmin = 526.1
+			xmax = 539.91
+			text = ""
+		intervals [195]:
+			xmin = 539.91
+			xmax = 540.88
+			text = "mas ainda"
+		intervals [196]:
+			xmin = 540.88
+			xmax = 541.49
+			text = "..."
+		intervals [197]:
+			xmin = 541.49
+			xmax = 545.04
+			text = ""
+		intervals [198]:
+			xmin = 545.04
+			xmax = 548.14
+			text = "é problema econômico do espectador não é toda gente que pode dispor"
+		intervals [199]:
+			xmin = 548.14
+			xmax = 548.54
+			text = "..."
+		intervals [200]:
+			xmin = 548.54
+			xmax = 551.32
+			text = "de determinadas quantias para ir assim cinema teatro sempre sempre sempre"
+		intervals [201]:
+			xmin = 551.32
+			xmax = 554.54
+			text = ""
+		intervals [202]:
+			xmin = 554.54
+			xmax = 555.95
+			text = "é o preço aumenta o preço aumenta e"
+		intervals [203]:
+			xmin = 555.95
+			xmax = 578.67
+			text = ""
+		intervals [204]:
+			xmin = 578.67
+			xmax = 579.28
+			text = "é"
+		intervals [205]:
+			xmin = 579.28
+			xmax = 580.31
+			text = "o não vi"
+		intervals [206]:
+			xmin = 580.31
+			xmax = 581.06
+			text = "em"
+		intervals [207]:
+			xmin = 581.06
+			xmax = 589.47
+			text = ""
+		intervals [208]:
+			xmin = 589.47
+			xmax = 589.91
+			text = "mais talvez"
+		intervals [209]:
+			xmin = 589.91
+			xmax = 591.77
+			text = "por isso inclusive a renda"
+		intervals [210]:
+			xmin = 591.77
+			xmax = 592.84
+			text = "sendo muito maior"
+		intervals [211]:
+			xmin = 592.84
+			xmax = 593.42
+			text = "..."
+		intervals [212]:
+			xmin = 593.42
+			xmax = 593.91
+			text = "a possibilidade"
+		intervals [213]:
+			xmin = 593.91
+			xmax = 594.35
+			text = "..."
+		intervals [214]:
+			xmin = 594.35
+			xmax = 595.14
+			text = "que você"
+		intervals [215]:
+			xmin = 595.14
+			xmax = 595.45
+			text = "..."
+		intervals [216]:
+			xmin = 595.45
+			xmax = 599.19
+			text = ""
+	item [6]:
+		class = "IntervalTier"
+		name = "NTB-inff"
+		xmin = 0.0
+		xmax = 599.19
+		intervals: size = 216
+		intervals [1]:
+			xmin = 0.0
+			xmax = 87.34
+			text = ""
+		intervals [2]:
+			xmin = 87.34
+			xmax = 87.58
+			text = "assisti"
+		intervals [3]:
+			xmin = 87.58
+			xmax = 88.09
+			text = "eu cheguei a ver"
+		intervals [4]:
+			xmin = 88.09
+			xmax = 89.29
+			text = ""
+		intervals [5]:
+			xmin = 89.29
+			xmax = 89.6
+			text = "o"
+		intervals [6]:
+			xmin = 89.6
+			xmax = 90.89
+			text = "texto eu procurei lêlo"
+		intervals [7]:
+			xmin = 90.89
+			xmax = 91.24
+			text = "..."
+		intervals [8]:
+			xmin = 91.24
+			xmax = 92.38
+			text = "porque eu não ouvi"
+		intervals [9]:
+			xmin = 92.38
+			xmax = 92.69
+			text = "direito"
+		intervals [10]:
+			xmin = 92.69
+			xmax = 93.33
+			text = "..."
+		intervals [11]:
+			xmin = 93.33
+			xmax = 95.66
+			text = "no teatro eu achei que tinha uma acústica muito ruim"
+		intervals [12]:
+			xmin = 95.66
+			xmax = 96.3
+			text = "..."
+		intervals [13]:
+			xmin = 96.3
+			xmax = 96.56
+			text = ""
+		intervals [14]:
+			xmin = 96.56
+			xmax = 97.65
+			text = "sim a montagem"
+		intervals [15]:
+			xmin = 97.65
+			xmax = 98.01
+			text = "..."
+		intervals [16]:
+			xmin = 98.01
+			xmax = 100.34
+			text = "maravilhosa eu achei espetacular a"
+		intervals [17]:
+			xmin = 100.34
+			xmax = 101.21
+			text = "..."
+		intervals [18]:
+			xmin = 101.21
+			xmax = 104.02
+			text = "montagem mais não consegui ouvir direito o texto"
+		intervals [19]:
+			xmin = 104.02
+			xmax = 104.6
+			text = "..."
+		intervals [20]:
+			xmin = 104.6
+			xmax = 107.39
+			text = "então procurei ver alguma coisa do texto porque"
+		intervals [21]:
+			xmin = 107.39
+			xmax = 107.78
+			text = "..."
+		intervals [22]:
+			xmin = 107.78
+			xmax = 110.07
+			text = "determinadas cenas nu não percebi"
+		intervals [23]:
+			xmin = 110.07
+			xmax = 110.5
+			text = "..."
+		intervals [24]:
+			xmin = 110.5
+			xmax = 110.77
+			text = "até"
+		intervals [25]:
+			xmin = 110.77
+			xmax = 113.77
+			text = "onde ia a grandeza da coisa porque eu não entendia bem o texto"
+		intervals [26]:
+			xmin = 113.77
+			xmax = 119.4
+			text = ""
+		intervals [27]:
+			xmin = 119.4
+			xmax = 120.03
+			text = "vi três"
+		intervals [28]:
+			xmin = 120.03
+			xmax = 123.96
+			text = ""
+		intervals [29]:
+			xmin = 123.96
+			xmax = 124.25
+			text = "eu vi três"
+		intervals [30]:
+			xmin = 124.25
+			xmax = 124.4
+			text = "vezes"
+		intervals [31]:
+			xmin = 124.4
+			xmax = 125.56
+			text = ""
+		intervals [32]:
+			xmin = 125.56
+			xmax = 128.07
+			text = "aliás ó você como arquiteto inclusive"
+		intervals [33]:
+			xmin = 128.07
+			xmax = 128.65
+			text = "..."
+		intervals [34]:
+			xmin = 128.65
+			xmax = 129.19
+			text = "eu acho"
+		intervals [35]:
+			xmin = 129.19
+			xmax = 129.81
+			text = "..."
+		intervals [36]:
+			xmin = 129.81
+			xmax = 130.1
+			text = "um"
+		intervals [37]:
+			xmin = 130.1
+			xmax = 130.27
+			text = "dos"
+		intervals [38]:
+			xmin = 130.27
+			xmax = 133.69
+			text = "aspectos mais deficientes dos teatros em são paulo é a falta de"
+		intervals [39]:
+			xmin = 133.69
+			xmax = 135.26
+			text = "..."
+		intervals [40]:
+			xmin = 135.26
+			xmax = 135.5
+			text = "acústica"
+		intervals [41]:
+			xmin = 135.5
+			xmax = 136.74
+			text = "é isso e então"
+		intervals [42]:
+			xmin = 136.74
+			xmax = 138.11
+			text = "você veja um municipal tem"
+		intervals [43]:
+			xmin = 138.11
+			xmax = 138.54
+			text = "uma"
+		intervals [44]:
+			xmin = 138.54
+			xmax = 141.7
+			text = "acústica razoável certo não há nenhum problema talvez"
+		intervals [45]:
+			xmin = 141.7
+			xmax = 142.1
+			text = "..."
+		intervals [46]:
+			xmin = 142.1
+			xmax = 144.82
+			text = "a construção tenha sido mais cuidada"
+		intervals [47]:
+			xmin = 144.82
+			xmax = 145.35
+			text = "..."
+		intervals [48]:
+			xmin = 145.35
+			xmax = 147.31
+			text = "então daí se tenha conseguido boa qualidade"
+		intervals [49]:
+			xmin = 147.31
+			xmax = 148.04
+			text = "..."
+		intervals [50]:
+			xmin = 148.04
+			xmax = 148.69
+			text = "mas o do"
+		intervals [51]:
+			xmin = 148.69
+			xmax = 149.2
+			text = "..."
+		intervals [52]:
+			xmin = 149.2
+			xmax = 150.98
+			text = "lá da católica aí na ponte alegre tem uma"
+		intervals [53]:
+			xmin = 150.98
+			xmax = 152.6
+			text = "..."
+		intervals [54]:
+			xmin = 152.6
+			xmax = 156.05
+			text = "acústica no tuca se consegue falar normalmente do palco"
+		intervals [55]:
+			xmin = 156.05
+			xmax = 156.48
+			text = "..."
+		intervals [56]:
+			xmin = 156.48
+			xmax = 158.9
+			text = "eu fiz essa experiência porque eu tive aulas assim lá"
+		intervals [57]:
+			xmin = 158.9
+			xmax = 159.6
+			text = "..."
+		intervals [58]:
+			xmin = 159.6
+			xmax = 161.33
+			text = "se fala normalmente assim da no uma"
+		intervals [59]:
+			xmin = 161.33
+			xmax = 161.79
+			text = "aula"
+		intervals [60]:
+			xmin = 161.79
+			xmax = 162.97
+			text = "do palco sem"
+		intervals [61]:
+			xmin = 162.97
+			xmax = 164.55
+			text = "sistema de amplificação de som"
+		intervals [62]:
+			xmin = 164.55
+			xmax = 165.18
+			text = "..."
+		intervals [63]:
+			xmin = 165.18
+			xmax = 166.84
+			text = "e todas as pessoas entenderem"
+		intervals [64]:
+			xmin = 166.84
+			xmax = 167.28
+			text = "..."
+		intervals [65]:
+			xmin = 167.28
+			xmax = 167.76
+			text = "bem bem"
+		intervals [66]:
+			xmin = 167.76
+			xmax = 168.28
+			text = "..."
+		intervals [67]:
+			xmin = 168.28
+			xmax = 171.82
+			text = "mesmo determinadas apresentações que nós fizemos com piano"
+		intervals [68]:
+			xmin = 171.82
+			xmax = 172.2
+			text = "..."
+		intervals [69]:
+			xmin = 172.2
+			xmax = 173.21
+			text = "de música contemporânea"
+		intervals [70]:
+			xmin = 173.21
+			xmax = 174.04
+			text = "..."
+		intervals [71]:
+			xmin = 174.04
+			xmax = 174.36
+			text = "e"
+		intervals [72]:
+			xmin = 174.36
+			xmax = 175.14
+			text = "a acústica"
+		intervals [73]:
+			xmin = 175.14
+			xmax = 175.61
+			text = "se prestava"
+		intervals [74]:
+			xmin = 175.61
+			xmax = 176.37
+			text = "..."
+		intervals [75]:
+			xmin = 176.37
+			xmax = 178.28
+			text = "muito bem não se perdia nenhum dos timbres novos"
+		intervals [76]:
+			xmin = 178.28
+			xmax = 196.39
+			text = ""
+		intervals [77]:
+			xmin = 196.39
+			xmax = 197.21
+			text = "pela beleza né"
+		intervals [78]:
+			xmin = 197.21
+			xmax = 209.07
+			text = ""
+		intervals [79]:
+			xmin = 209.07
+			xmax = 215.49
+			text = "e esses teatrinhos assim pequenos que eles estão fazendo agora tipo balcão ou mesmo"
+		intervals [80]:
+			xmin = 215.49
+			xmax = 216.12
+			text = "..."
+		intervals [81]:
+			xmin = 216.12
+			xmax = 217.09
+			text = "lá na"
+		intervals [82]:
+			xmin = 217.09
+			xmax = 217.73
+			text = "..."
+		intervals [83]:
+			xmin = 217.73
+			xmax = 218.82
+			text = "na treze de maio"
+		intervals [84]:
+			xmin = 218.82
+			xmax = 219.27
+			text = "..."
+		intervals [85]:
+			xmin = 219.27
+			xmax = 222.2
+			text = "com o que chama aquele teatro que eles fizeram três salas agora"
+		intervals [86]:
+			xmin = 222.2
+			xmax = 222.98
+			text = "..."
+		intervals [87]:
+			xmin = 222.98
+			xmax = 225.12
+			text = ""
+		intervals [88]:
+			xmin = 225.12
+			xmax = 226.72
+			text = "onde eles apresentaram castro alves"
+		intervals [89]:
+			xmin = 226.72
+			xmax = 226.91
+			text = "agora"
+		intervals [90]:
+			xmin = 226.91
+			xmax = 227.55
+			text = "..."
+		intervals [91]:
+			xmin = 227.55
+			xmax = 231.01
+			text = ""
+		intervals [92]:
+			xmin = 231.01
+			xmax = 232.84
+			text = "é esse mesmo tem o balcão"
+		intervals [93]:
+			xmin = 232.84
+			xmax = 233.21
+			text = "..."
+		intervals [94]:
+			xmin = 233.21
+			xmax = 235.71
+			text = "como se chama é ruth escobar todo ele todas as salas"
+		intervals [95]:
+			xmin = 235.71
+			xmax = 238.09
+			text = ""
+		intervals [96]:
+			xmin = 238.09
+			xmax = 238.53
+			text = "galpão"
+		intervals [97]:
+			xmin = 238.53
+			xmax = 239.34
+			text = "..."
+		intervals [98]:
+			xmin = 239.34
+			xmax = 241.52
+			text = ""
+		intervals [99]:
+			xmin = 241.52
+			xmax = 243.78
+			text = "é na generalgurjão paiol galpão fazia"
+		intervals [100]:
+			xmin = 243.78
+			xmax = 245.83
+			text = "assim a comparação quer dizer são"
+		intervals [101]:
+			xmin = 245.83
+			xmax = 247.44
+			text = "pequenas salas pequeno público e"
+		intervals [102]:
+			xmin = 247.44
+			xmax = 248.21
+			text = "..."
+		intervals [103]:
+			xmin = 248.21
+			xmax = 276.34
+			text = ""
+		intervals [104]:
+			xmin = 276.34
+			xmax = 276.74
+			text = "o"
+		intervals [105]:
+			xmin = 276.74
+			xmax = 276.78
+			text = "oficina"
+		intervals [106]:
+			xmin = 276.78
+			xmax = 277.26
+			text = "..."
+		intervals [107]:
+			xmin = 277.26
+			xmax = 278.02
+			text = "qual é"
+		intervals [108]:
+			xmin = 278.02
+			xmax = 278.71
+			text = ""
+		intervals [109]:
+			xmin = 278.71
+			xmax = 279.17
+			text = "ahan"
+		intervals [110]:
+			xmin = 279.17
+			xmax = 279.97
+			text = "..."
+		intervals [111]:
+			xmin = 279.97
+			xmax = 281.29
+			text = ""
+		intervals [112]:
+			xmin = 281.29
+			xmax = 285.01
+			text = "construção pobre e adaptada também é"
+		intervals [113]:
+			xmin = 285.01
+			xmax = 286.54
+			text = "..."
+		intervals [114]:
+			xmin = 286.54
+			xmax = 286.77
+			text = "eu"
+		intervals [115]:
+			xmin = 286.77
+			xmax = 289.87
+			text = "não o que eu ia dizer era justamente isso essas adaptações assim perdem"
+		intervals [116]:
+			xmin = 289.87
+			xmax = 290.18
+			text = "..."
+		intervals [117]:
+			xmin = 290.18
+			xmax = 343.21
+			text = ""
+		intervals [118]:
+			xmin = 343.21
+			xmax = 344.74
+			text = "vista humano nós estamos bem servidos"
+		intervals [119]:
+			xmin = 344.74
+			xmax = 346.12
+			text = "do ponto de vista"
+		intervals [120]:
+			xmin = 346.12
+			xmax = 348.18
+			text = "..."
+		intervals [121]:
+			xmin = 348.18
+			xmax = 349.68
+			text = "humano o ator ou do ponto de"
+		intervals [122]:
+			xmin = 349.68
+			xmax = 349.75
+			text = "vista"
+		intervals [123]:
+			xmin = 349.75
+			xmax = 349.88
+			text = ""
+		intervals [124]:
+			xmin = 349.88
+			xmax = 350.09
+			text = "espectador"
+		intervals [125]:
+			xmin = 350.09
+			xmax = 350.18
+			text = ""
+		intervals [126]:
+			xmin = 350.18
+			xmax = 350.96
+			text = "das pessoas"
+		intervals [127]:
+			xmin = 350.96
+			xmax = 351.84
+			text = "chegarem"
+		intervals [128]:
+			xmin = 351.84
+			xmax = 355.1
+			text = "e conseguirem ter uma boa acomodação uma boa cadeira"
+		intervals [129]:
+			xmin = 355.1
+			xmax = 358.65
+			text = ""
+		intervals [130]:
+			xmin = 358.65
+			xmax = 358.93
+			text = "porque"
+		intervals [131]:
+			xmin = 358.93
+			xmax = 363.49
+			text = "isso não existe em todos os lugares você tem projetos assim escadas você fica ultra mal"
+		intervals [132]:
+			xmin = 363.49
+			xmax = 363.8
+			text = "..."
+		intervals [133]:
+			xmin = 363.8
+			xmax = 368.06
+			text = "acomodado não existem assim cadeiras ou poltronas lugares em que você"
+		intervals [134]:
+			xmin = 368.06
+			xmax = 368.38
+			text = "..."
+		intervals [135]:
+			xmin = 368.38
+			xmax = 369.38
+			text = "possa se"
+		intervals [136]:
+			xmin = 369.38
+			xmax = 370.06
+			text = "..."
+		intervals [137]:
+			xmin = 370.06
+			xmax = 370.4
+			text = "instalar comodamente"
+		intervals [138]:
+			xmin = 370.4
+			xmax = 390.03
+			text = ""
+		intervals [139]:
+			xmin = 390.03
+			xmax = 390.67
+			text = "montagens ou"
+		intervals [140]:
+			xmin = 390.67
+			xmax = 393.87
+			text = "você não acha que as vezes quando existe esse problema"
+		intervals [141]:
+			xmin = 393.87
+			xmax = 395.25
+			text = "de dinheiro existe maior criatividade"
+		intervals [142]:
+			xmin = 395.25
+			xmax = 396.1
+			text = ""
+		intervals [143]:
+			xmin = 396.1
+			xmax = 397.31
+			text = "eu acho você não"
+		intervals [144]:
+			xmin = 397.31
+			xmax = 397.61
+			text = "..."
+		intervals [145]:
+			xmin = 397.61
+			xmax = 398.1
+			text = "tem notado isso"
+		intervals [146]:
+			xmin = 398.1
+			xmax = 399.08
+			text = "eu acho embora porque é uma"
+		intervals [147]:
+			xmin = 399.08
+			xmax = 399.44
+			text = "..."
+		intervals [148]:
+			xmin = 399.44
+			xmax = 400.04
+			text = "das"
+		intervals [149]:
+			xmin = 400.04
+			xmax = 404.61
+			text = ""
+		intervals [150]:
+			xmin = 404.61
+			xmax = 405.11
+			text = "não seria"
+		intervals [151]:
+			xmin = 405.11
+			xmax = 405.42
+			text = "mal"
+		intervals [152]:
+			xmin = 405.42
+			xmax = 420.09
+			text = ""
+		intervals [153]:
+			xmin = 420.09
+			xmax = 421.03
+			text = "sim claro eu"
+		intervals [154]:
+			xmin = 421.03
+			xmax = 421.3
+			text = "percebi"
+		intervals [155]:
+			xmin = 421.3
+			xmax = 457.31
+			text = ""
+		intervals [156]:
+			xmin = 457.31
+			xmax = 464.87
+			text = "pessoal faz textos pretensamente populares mais eles não atingem ninguém atingem sempre a mesma camadinha problema acho muito sério e é sempre um problema econômico"
+		intervals [157]:
+			xmin = 464.87
+			xmax = 465.22
+			text = ""
+		intervals [158]:
+			xmin = 465.22
+			xmax = 466.43
+			text = "né sempre um"
+		intervals [159]:
+			xmin = 466.43
+			xmax = 468.06
+			text = "problema econômico porque problema cultural no"
+		intervals [160]:
+			xmin = 468.06
+			xmax = 469.01
+			text = "..."
+		intervals [161]:
+			xmin = 469.01
+			xmax = 471.69
+			text = "caso não seria eu acho que nós"
+		intervals [162]:
+			xmin = 471.69
+			xmax = 472.02
+			text = "..."
+		intervals [163]:
+			xmin = 472.02
+			xmax = 472.2
+			text = "temos bons"
+		intervals [164]:
+			xmin = 472.2
+			xmax = 485.91
+			text = ""
+		intervals [165]:
+			xmin = 485.91
+			xmax = 486.67
+			text = "já é mais sofisticado"
+		intervals [166]:
+			xmin = 486.67
+			xmax = 487.6
+			text = "é e bem diferente"
+		intervals [167]:
+			xmin = 487.6
+			xmax = 487.8
+			text = "se"
+		intervals [168]:
+			xmin = 487.8
+			xmax = 489.34
+			text = "..."
+		intervals [169]:
+			xmin = 489.34
+			xmax = 490.1
+			text = "for para"
+		intervals [170]:
+			xmin = 490.1
+			xmax = 490.52
+			text = "..."
+		intervals [171]:
+			xmin = 490.52
+			xmax = 492.41
+			text = "europa também você tem os espetáculos às"
+		intervals [172]:
+			xmin = 492.41
+			xmax = 492.91
+			text = "..."
+		intervals [173]:
+			xmin = 492.91
+			xmax = 493.3
+			text = "sete"
+		intervals [174]:
+			xmin = 493.3
+			xmax = 493.45
+			text = "horas"
+		intervals [175]:
+			xmin = 493.45
+			xmax = 494.88
+			text = "é principalmente época de"
+		intervals [176]:
+			xmin = 494.88
+			xmax = 495.36
+			text = "..."
+		intervals [177]:
+			xmin = 495.36
+			xmax = 495.5
+			text = "inverno"
+		intervals [178]:
+			xmin = 495.5
+			xmax = 495.99
+			text = "..."
+		intervals [179]:
+			xmin = 495.99
+			xmax = 498.19
+			text = "então muito mais tranquilo às"
+		intervals [180]:
+			xmin = 498.19
+			xmax = 498.85
+			text = "..."
+		intervals [181]:
+			xmin = 498.85
+			xmax = 499.91
+			text = "vezes você"
+		intervals [182]:
+			xmin = 499.91
+			xmax = 500.47
+			text = "..."
+		intervals [183]:
+			xmin = 500.47
+			xmax = 500.98
+			text = "sai do trabalho"
+		intervals [184]:
+			xmin = 500.98
+			xmax = 501.36
+			text = "vai"
+		intervals [185]:
+			xmin = 501.36
+			xmax = 505.5
+			text = "direto até o teatro depois é que vai à casa"
+		intervals [186]:
+			xmin = 505.5
+			xmax = 506.14
+			text = "..."
+		intervals [187]:
+			xmin = 506.14
+			xmax = 506.7
+			text = ""
+		intervals [188]:
+			xmin = 506.7
+			xmax = 507.18
+			text = "..."
+		intervals [189]:
+			xmin = 507.18
+			xmax = 516.7
+			text = "não tem problema aqui não aqui você precisa aguardar quer dizer os espetáculos começam tarde"
+		intervals [190]:
+			xmin = 516.7
+			xmax = 517.31
+			text = ""
+		intervals [191]:
+			xmin = 517.31
+			xmax = 518.37
+			text = "então precisa"
+		intervals [192]:
+			xmin = 518.37
+			xmax = 524.98
+			text = ""
+		intervals [193]:
+			xmin = 524.98
+			xmax = 526.1
+			text = "fica mais sofisticado"
+		intervals [194]:
+			xmin = 526.1
+			xmax = 539.91
+			text = ""
+		intervals [195]:
+			xmin = 539.91
+			xmax = 540.88
+			text = "mas ainda"
+		intervals [196]:
+			xmin = 540.88
+			xmax = 541.49
+			text = "..."
+		intervals [197]:
+			xmin = 541.49
+			xmax = 545.04
+			text = ""
+		intervals [198]:
+			xmin = 545.04
+			xmax = 548.14
+			text = "é problema econômico do espectador não é toda gente que pode dispor"
+		intervals [199]:
+			xmin = 548.14
+			xmax = 548.54
+			text = "..."
+		intervals [200]:
+			xmin = 548.54
+			xmax = 551.32
+			text = "de determinadas quantias para ir assim cinema teatro sempre sempre sempre"
+		intervals [201]:
+			xmin = 551.32
+			xmax = 554.54
+			text = ""
+		intervals [202]:
+			xmin = 554.54
+			xmax = 555.95
+			text = "é o preço aumenta o preço aumenta e"
+		intervals [203]:
+			xmin = 555.95
+			xmax = 578.67
+			text = ""
+		intervals [204]:
+			xmin = 578.67
+			xmax = 579.28
+			text = "é"
+		intervals [205]:
+			xmin = 579.28
+			xmax = 580.31
+			text = "o não vi"
+		intervals [206]:
+			xmin = 580.31
+			xmax = 581.06
+			text = "em"
+		intervals [207]:
+			xmin = 581.06
+			xmax = 589.47
+			text = ""
+		intervals [208]:
+			xmin = 589.47
+			xmax = 589.91
+			text = "mais talvez"
+		intervals [209]:
+			xmin = 589.91
+			xmax = 591.77
+			text = "por isso inclusive a renda"
+		intervals [210]:
+			xmin = 591.77
+			xmax = 592.84
+			text = "sendo muito maior"
+		intervals [211]:
+			xmin = 592.84
+			xmax = 593.42
+			text = "..."
+		intervals [212]:
+			xmin = 593.42
+			xmax = 593.91
+			text = "a possibilidade"
+		intervals [213]:
+			xmin = 593.91
+			xmax = 594.35
+			text = "..."
+		intervals [214]:
+			xmin = 594.35
+			xmax = 595.14
+			text = "que você"
+		intervals [215]:
+			xmin = 595.14
+			xmax = 595.45
+			text = "..."
+		intervals [216]:
+			xmin = 595.45
+			xmax = 599.19
+			text = ""
+	item [7]:
+		class = "IntervalTier"
+		name = "TB-docm"
+		xmin = 0.0
+		xmax = 599.19
+		intervals: size = 4
+		intervals [1]:
+			xmin = 0.0
+			xmax = 551.32
+			text = ""
+		intervals [2]:
+			xmin = 551.32
+			xmax = 553.59
+			text = "e no fim de semana que a gente tem"
+		intervals [3]:
+			xmin = 553.59
+			xmax = 554.54
+			text = "mais tempo o preço aumenta né"
+		intervals [4]:
+			xmin = 554.54
+			xmax = 599.19
+			text = ""
+	item [8]:
+		class = "IntervalTier"
+		name = "NTB-docm"
+		xmin = 0.0
+		xmax = 599.19
+		intervals: size = 4
+		intervals [1]:
+			xmin = 0.0
+			xmax = 551.32
+			text = ""
+		intervals [2]:
+			xmin = 551.32
+			xmax = 553.59
+			text = "e no fim de semana que a gente tem"
+		intervals [3]:
+			xmin = 553.59
+			xmax = 554.54
+			text = "mais tempo o preço aumenta né"
+		intervals [4]:
+			xmin = 554.54
+			xmax = 599.19
+			text = ""
+	item [9]:
+		class = "IntervalTier"
+		name = "comentarios-anotacao"
+		xmin = 0.0
+		xmax = 599.19
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0
+			xmax = 599.19
+			text = ""
+	item [10]:
+		class = "IntervalTier"
+		name = "comentarios"
+		xmin = 0.0
+		xmax = 599.19
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0
+			xmax = 599.19
+			text = ""

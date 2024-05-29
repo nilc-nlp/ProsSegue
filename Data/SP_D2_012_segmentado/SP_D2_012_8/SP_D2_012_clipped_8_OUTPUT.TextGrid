@@ -1,0 +1,3280 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 761.6
+tiers? <exists>
+size = 8
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "TB-infm"
+		xmin = 0.0
+		xmax = 761.6
+		intervals: size = 189
+		intervals [1]:
+			xmin = 0.0
+			xmax = 6.05
+			text = "eu telefono dá uma passadinha em casa e combina um dia ou para vir na casa dessa pessoa ou para vir com a gente ou para ir ao teatro ou eventualmente"
+		intervals [2]:
+			xmin = 6.05
+			xmax = 6.68
+			text = "jantar"
+		intervals [3]:
+			xmin = 6.68
+			xmax = 7.93
+			text = "em algum lugar é o que a gente faz"
+		intervals [4]:
+			xmin = 7.93
+			xmax = 8.41
+			text = "..."
+		intervals [5]:
+			xmin = 8.41
+			xmax = 12.46
+			text = ""
+		intervals [6]:
+			xmin = 12.46
+			xmax = 22.67
+			text = "é muito difícil a gente encontrar alguém que não esperava que não marcou e sentar e bater um papo esticar qualquer programa não tem que ser programado porque não tem onde ficar num tem aonde fazer esse programa"
+		intervals [7]:
+			xmin = 22.67
+			xmax = 23.4
+			text = "..."
+		intervals [8]:
+			xmin = 23.4
+			xmax = 26.3
+			text = "veja só como o aspecto físico é eu acho que é importante"
+		intervals [9]:
+			xmin = 26.3
+			xmax = 26.84
+			text = "..."
+		intervals [10]:
+			xmin = 26.84
+			xmax = 30.88
+			text = "copacabana esquece de mar esquece praia todo mundo mora ali embolado aquele"
+		intervals [11]:
+			xmin = 30.88
+			xmax = 31.37
+			text = "monte"
+		intervals [12]:
+			xmin = 31.37
+			xmax = 31.91
+			text = "de gente sei lá"
+		intervals [13]:
+			xmin = 31.91
+			xmax = 32.21
+			text = "..."
+		intervals [14]:
+			xmin = 32.21
+			xmax = 35.84
+			text = "quatrocentas mil pessoas que moram no mesmo lugar que passam pela mesma avenida"
+		intervals [15]:
+			xmin = 35.84
+			xmax = 36.32
+			text = "..."
+		intervals [16]:
+			xmin = 36.32
+			xmax = 46.13
+			text = "que descem do seu apartamento e encontram ali embaixo tinturaria padaria um barzinho tudo que precisar sujeito tá andando pela rua encontra uma porção de amigos aquilo é um ponto de passagem obrigatória tem"
+		intervals [17]:
+			xmin = 46.13
+			xmax = 46.49
+			text = "..."
+		intervals [18]:
+			xmin = 46.49
+			xmax = 49.44
+			text = "muito de província isso é de coisa mais bonita que permite aquele intercâmbio de ideias"
+		intervals [19]:
+			xmin = 49.44
+			xmax = 50.28
+			text = "..."
+		intervals [20]:
+			xmin = 50.28
+			xmax = 51.16
+			text = "coisa"
+		intervals [21]:
+			xmin = 51.16
+			xmax = 51.73
+			text = "..."
+		intervals [22]:
+			xmin = 51.73
+			xmax = 51.84
+			text = "que"
+		intervals [23]:
+			xmin = 51.84
+			xmax = 52.63
+			text = "..."
+		intervals [24]:
+			xmin = 52.63
+			xmax = 56.58
+			text = "em são paulo a gente não tem aqui a a gente não passa pelos mesmos lugares eu moro nessa"
+		intervals [25]:
+			xmin = 56.58
+			xmax = 57.28
+			text = "..."
+		intervals [26]:
+			xmin = 57.28
+			xmax = 58.14
+			text = "cidade faz bem"
+		intervals [27]:
+			xmin = 58.14
+			xmax = 59.2
+			text = "..."
+		intervals [28]:
+			xmin = 59.2
+			xmax = 61.88
+			text = "uns três ou quatro meses que eu não desço do"
+		intervals [29]:
+			xmin = 61.88
+			xmax = 62.22
+			text = "..."
+		intervals [30]:
+			xmin = 62.22
+			xmax = 65.98
+			text = "carro no centro da cidade eu cozeio umas duas ou três vezes não desço eu vou de"
+		intervals [31]:
+			xmin = 65.98
+			xmax = 66.33
+			text = "..."
+		intervals [32]:
+			xmin = 66.33
+			xmax = 68.15
+			text = "casa para avenida paulista da avenida paulista para casa"
+		intervals [33]:
+			xmin = 68.15
+			xmax = 68.66
+			text = "..."
+		intervals [34]:
+			xmin = 68.66
+			xmax = 71.44
+			text = "dos cinemas da rua augusta da avenida paulista eu não vou ao"
+		intervals [35]:
+			xmin = 71.44
+			xmax = 78.5
+			text = "centro da cidade eu não sei o que tem no centro da cidade praça de república eventualmente quando acontece se tem alguém para leválo tem de ir a gente nunca se encontra nos mesmos lugares né"
+		intervals [36]:
+			xmin = 78.5
+			xmax = 87.59
+			text = ""
+		intervals [37]:
+			xmin = 87.59
+			xmax = 90.86
+			text = "casa dele sim os amigos com os quais você convive"
+		intervals [38]:
+			xmin = 90.86
+			xmax = 90.89
+			text = "pessoalmente"
+		intervals [39]:
+			xmin = 90.89
+			xmax = 91.68
+			text = "..."
+		intervals [40]:
+			xmin = 91.68
+			xmax = 129.09
+			text = ""
+		intervals [41]:
+			xmin = 129.09
+			xmax = 130.45
+			text = "bom não tem"
+		intervals [42]:
+			xmin = 130.45
+			xmax = 130.78
+			text = "..."
+		intervals [43]:
+			xmin = 130.78
+			xmax = 131.88
+			text = "o que fazer"
+		intervals [44]:
+			xmin = 131.88
+			xmax = 132.45
+			text = "..."
+		intervals [45]:
+			xmin = 132.45
+			xmax = 183.69
+			text = ""
+		intervals [46]:
+			xmin = 183.69
+			xmax = 183.92
+			text = "é"
+		intervals [47]:
+			xmin = 183.92
+			xmax = 201.4
+			text = ""
+		intervals [48]:
+			xmin = 201.4
+			xmax = 203.72
+			text = "de restaurante restaurante você encontra aos montes né restaurante"
+		intervals [49]:
+			xmin = 203.72
+			xmax = 204.12
+			text = "não"
+		intervals [50]:
+			xmin = 204.12
+			xmax = 204.71
+			text = "..."
+		intervals [51]:
+			xmin = 204.71
+			xmax = 214.48
+			text = ""
+		intervals [52]:
+			xmin = 214.48
+			xmax = 215.01
+			text = "agora"
+		intervals [53]:
+			xmin = 215.01
+			xmax = 215.8
+			text = "..."
+		intervals [54]:
+			xmin = 215.8
+			xmax = 227.62
+			text = "outro aspecto que eu acho significativo em são paulo e acho importante fico louco da vida quando vejo um fazendo comentários à respeito é a rua augusta porque a rua augusta é claro que é uma rua que vende que vende artigos finos para uma"
+		intervals [55]:
+			xmin = 227.62
+			xmax = 228.37
+			text = "..."
+		intervals [56]:
+			xmin = 228.37
+			xmax = 231.82
+			text = "classe privilegiada etcétera uma rua de luxo mas eu acho que a rua augusta é"
+		intervals [57]:
+			xmin = 231.82
+			xmax = 232.33
+			text = "aquilo"
+		intervals [58]:
+			xmin = 232.33
+			xmax = 234.94
+			text = "que a cidade conseguiu formar através dos anos ela num"
+		intervals [59]:
+			xmin = 234.94
+			xmax = 235.4
+			text = "..."
+		intervals [60]:
+			xmin = 235.4
+			xmax = 239.25
+			text = "é bonita a gente não pode dizer que ela é feia ela é interessante ela é um fenômeno ao meu ver fenômeno"
+		intervals [61]:
+			xmin = 239.25
+			xmax = 239.68
+			text = "..."
+		intervals [62]:
+			xmin = 239.68
+			xmax = 241.25
+			text = "que uma cidade de seis milhões de pessoas conseguiu construir então"
+		intervals [63]:
+			xmin = 241.25
+			xmax = 242.15
+			text = "..."
+		intervals [64]:
+			xmin = 242.15
+			xmax = 248.6
+			text = "eu fico furioso quando vejo alguém pensar em termos de trânsito na rua augusta a rua augusta tem que ser preservada ao meu ver porque"
+		intervals [65]:
+			xmin = 248.6
+			xmax = 248.96
+			text = "ao"
+		intervals [66]:
+			xmin = 248.96
+			xmax = 250.13
+			text = "meu ver é realmente um ponto de encontro também"
+		intervals [67]:
+			xmin = 250.13
+			xmax = 250.54
+			text = ""
+		intervals [68]:
+			xmin = 250.54
+			xmax = 257.31
+			text = "ponto de encontro disse que não se estende à toda a população mas ela se estende a uma boa parte da população e que num tem o que fazer então eu fico furioso da mesma forma que"
+		intervals [69]:
+			xmin = 257.31
+			xmax = 257.7
+			text = "diretor"
+		intervals [70]:
+			xmin = 257.7
+			xmax = 259.68
+			text = "de trânsito queria por pontos de ônibus na praça dom"
+		intervals [71]:
+			xmin = 259.68
+			xmax = 260.18
+			text = "..."
+		intervals [72]:
+			xmin = 260.18
+			xmax = 265.93
+			text = "josé gaspar ia acabar com a praça entende ia democratizar mas não é uma forma quer dizer destruído não é uma forma de fazer tá certo"
+		intervals [73]:
+			xmin = 265.93
+			xmax = 266.51
+			text = "..."
+		intervals [74]:
+			xmin = 266.51
+			xmax = 266.72
+			text = "então"
+		intervals [75]:
+			xmin = 266.72
+			xmax = 267.35
+			text = "..."
+		intervals [76]:
+			xmin = 267.35
+			xmax = 271.41
+			text = "a rua augusta eu acho que é uma outra coisa que que existe de certa forma que"
+		intervals [77]:
+			xmin = 271.41
+			xmax = 272.23
+			text = "..."
+		intervals [78]:
+			xmin = 272.23
+			xmax = 278.39
+			text = "a cidade conseguiu construir com muito sacrifício e que vale a pena preservar talvez melhorar de alguma forma mas sem perder aquele caráter que é um caráter interessante realmente"
+		intervals [79]:
+			xmin = 278.39
+			xmax = 280.63
+			text = ""
+		intervals [80]:
+			xmin = 280.63
+			xmax = 282.14
+			text = "realmente um fenômeno estilo sábado de manhã"
+		intervals [81]:
+			xmin = 282.14
+			xmax = 283.34
+			text = "na augusta é uma beleza"
+		intervals [82]:
+			xmin = 283.34
+			xmax = 284.06
+			text = ""
+		intervals [83]:
+			xmin = 284.06
+			xmax = 285.23
+			text = "beleza todos os tipos"
+		intervals [84]:
+			xmin = 285.23
+			xmax = 285.51
+			text = "descendo"
+		intervals [85]:
+			xmin = 285.51
+			xmax = 293.21
+			text = "pela rua jeitos de vestir é uma alegria uma festa a cidade precisa ter isso não pode desprezar um negócio por causa que tem que ser mão dupla inclusive para"
+		intervals [86]:
+			xmin = 293.21
+			xmax = 294.73
+			text = "estacionar né a rua augusta tem que ser"
+		intervals [87]:
+			xmin = 294.73
+			xmax = 295.57
+			text = "exceção"
+		intervals [88]:
+			xmin = 295.57
+			xmax = 298.02
+			text = "ao meu ver entende não dá para encarar essas coisas tão friamente"
+		intervals [89]:
+			xmin = 298.02
+			xmax = 299.96
+			text = ""
+		intervals [90]:
+			xmin = 299.96
+			xmax = 300.05
+			text = "não"
+		intervals [91]:
+			xmin = 300.05
+			xmax = 302.65
+			text = ""
+		intervals [92]:
+			xmin = 302.65
+			xmax = 305.41
+			text = "eu acho que aquela amarela dá na mesma"
+		intervals [93]:
+			xmin = 305.41
+			xmax = 306.46
+			text = ""
+		intervals [94]:
+			xmin = 306.46
+			xmax = 306.96
+			text = "passar na"
+		intervals [95]:
+			xmin = 306.96
+			xmax = 307.44
+			text = "..."
+		intervals [96]:
+			xmin = 307.44
+			xmax = 311.29
+			text = "rua augusta puxa vida a gente dizia quem tem carro pode virar a rua augusta sem preocupação"
+		intervals [97]:
+			xmin = 311.29
+			xmax = 313.59
+			text = ""
+		intervals [98]:
+			xmin = 313.59
+			xmax = 313.82
+			text = "não"
+		intervals [99]:
+			xmin = 313.82
+			xmax = 314.51
+			text = ""
+		intervals [100]:
+			xmin = 314.51
+			xmax = 315.19
+			text = "ônibus também ônibus"
+		intervals [101]:
+			xmin = 315.19
+			xmax = 318.18
+			text = "é a forma de quem não tem carro poder chegar à rua augusta"
+		intervals [102]:
+			xmin = 318.18
+			xmax = 318.76
+			text = ""
+		intervals [103]:
+			xmin = 318.76
+			xmax = 319.64
+			text = "deixa a"
+		intervals [104]:
+			xmin = 319.64
+			xmax = 320.4
+			text = "rua aberta não tem jeito"
+		intervals [105]:
+			xmin = 320.4
+			xmax = 323.95
+			text = "a bagunça da rua augusta num dá porque tecnicamente ela não tinha nenhuma condições de ser uma rua de"
+		intervals [106]:
+			xmin = 323.95
+			xmax = 324.24
+			text = "comércio né"
+		intervals [107]:
+			xmin = 324.24
+			xmax = 330.91
+			text = "e de repente deu uma rua de comércio disse que durante a guerra que disse que bom era para começar uma das poças ruas que ligavam"
+		intervals [108]:
+			xmin = 330.91
+			xmax = 331.38
+			text = "..."
+		intervals [109]:
+			xmin = 331.38
+			xmax = 334.08
+			text = "os bairros granfinos ao centro da cidade né todas"
+		intervals [110]:
+			xmin = 334.08
+			xmax = 335.14
+			text = "as outras acompanham são todas"
+		intervals [111]:
+			xmin = 335.14
+			xmax = 335.45
+			text = "..."
+		intervals [112]:
+			xmin = 335.45
+			xmax = 336.86
+			text = "interrompidas a rua"
+		intervals [113]:
+			xmin = 336.86
+			xmax = 337.88
+			text = "..."
+		intervals [114]:
+			xmin = 337.88
+			xmax = 347.14
+			text = "augusta era a única então isso é fundamental pro comércio agora como é que ela virou uma rua de comércio tão sofisticada e inclusive de caráter metropolitano eu acho que já não é mais só de quem mora"
+		intervals [115]:
+			xmin = 347.14
+			xmax = 347.81
+			text = "..."
+		intervals [116]:
+			xmin = 347.81
+			xmax = 353.72
+			text = "ali no bairro é eu sei lá por que vou juntando vou juntando vou criando enfim a rua augusta deu música por exemplo eu acho"
+		intervals [117]:
+			xmin = 353.72
+			xmax = 353.99
+			text = "importante isso"
+		intervals [118]:
+			xmin = 353.99
+			xmax = 354.87
+			text = "importante importantíssimo foi uma"
+		intervals [119]:
+			xmin = 354.87
+			xmax = 355.67
+			text = "..."
+		intervals [120]:
+			xmin = 355.67
+			xmax = 355.7
+			text = "música"
+		intervals [121]:
+			xmin = 355.7
+			xmax = 356.87
+			text = "..."
+		intervals [122]:
+			xmin = 356.87
+			xmax = 358.64
+			text = "só ou duas talvez tem o gato"
+		intervals [123]:
+			xmin = 358.64
+			xmax = 360.08
+			text = "da rua augusta tem"
+		intervals [124]:
+			xmin = 360.08
+			xmax = 360.84
+			text = "a"
+		intervals [125]:
+			xmin = 360.84
+			xmax = 363.69
+			text = "musica do do roberto carlos lá descendo a rua augusta"
+		intervals [126]:
+			xmin = 363.69
+			xmax = 365.37
+			text = "a cento e vinte"
+		intervals [127]:
+			xmin = 365.37
+			xmax = 365.96
+			text = "..."
+		intervals [128]:
+			xmin = 365.96
+			xmax = 377.04
+			text = ""
+		intervals [129]:
+			xmin = 377.04
+			xmax = 377.2
+			text = "fora"
+		intervals [130]:
+			xmin = 377.2
+			xmax = 377.68
+			text = "de"
+		intervals [131]:
+			xmin = 377.68
+			xmax = 379.6
+			text = ""
+		intervals [132]:
+			xmin = 379.6
+			xmax = 380.81
+			text = "vocês costumam fazer uai"
+		intervals [133]:
+			xmin = 380.81
+			xmax = 381.42
+			text = "..."
+		intervals [134]:
+			xmin = 381.42
+			xmax = 382.31
+			text = "não estou sabendo"
+		intervals [135]:
+			xmin = 382.31
+			xmax = 385.16
+			text = "não bom procuro se tiver telefone telefonar mas se não tiver"
+		intervals [136]:
+			xmin = 385.16
+			xmax = 388.27
+			text = ""
+		intervals [137]:
+			xmin = 388.27
+			xmax = 389.22
+			text = "não ah não eu num"
+		intervals [138]:
+			xmin = 389.22
+			xmax = 390.8
+			text = "..."
+		intervals [139]:
+			xmin = 390.8
+			xmax = 392.08
+			text = "escrevo eu raramente escrevo"
+		intervals [140]:
+			xmin = 392.08
+			xmax = 393.57
+			text = "..."
+		intervals [141]:
+			xmin = 393.57
+			xmax = 393.8
+			text = "eu"
+		intervals [142]:
+			xmin = 393.8
+			xmax = 394.26
+			text = "..."
+		intervals [143]:
+			xmin = 394.26
+			xmax = 395.14
+			text = "nunca tive família morando"
+		intervals [144]:
+			xmin = 395.14
+			xmax = 395.68
+			text = "..."
+		intervals [145]:
+			xmin = 395.68
+			xmax = 398.96
+			text = "fora de são paulo eu nunca tive problema então eu não tenho o"
+		intervals [146]:
+			xmin = 398.96
+			xmax = 399.94
+			text = "..."
+		intervals [147]:
+			xmin = 399.94
+			xmax = 400.84
+			text = "hábito de escrever"
+		intervals [148]:
+			xmin = 400.84
+			xmax = 401.2
+			text = "..."
+		intervals [149]:
+			xmin = 401.2
+			xmax = 401.26
+			text = "eu"
+		intervals [150]:
+			xmin = 401.26
+			xmax = 405.38
+			text = ""
+		intervals [151]:
+			xmin = 405.38
+			xmax = 407.65
+			text = "mas essas pessoas que viajam pro exterior assim"
+		intervals [152]:
+			xmin = 407.65
+			xmax = 408.89
+			text = "né eventualmente mas é muito raro muito"
+		intervals [153]:
+			xmin = 408.89
+			xmax = 419.94
+			text = ""
+		intervals [154]:
+			xmin = 419.94
+			xmax = 420.64
+			text = "eu tenho"
+		intervals [155]:
+			xmin = 420.64
+			xmax = 420.92
+			text = "amigos"
+		intervals [156]:
+			xmin = 420.92
+			xmax = 421.43
+			text = "..."
+		intervals [157]:
+			xmin = 421.43
+			xmax = 421.83
+			text = "que não"
+		intervals [158]:
+			xmin = 421.83
+			xmax = 560.88
+			text = ""
+		intervals [159]:
+			xmin = 560.88
+			xmax = 564.61
+			text = "fora mas fora isso eu nunca eu nunca tive o hábito de escrever eu tinha"
+		intervals [160]:
+			xmin = 564.61
+			xmax = 565.26
+			text = "..."
+		intervals [161]:
+			xmin = 565.26
+			xmax = 565.7
+			text = "amigos que"
+		intervals [162]:
+			xmin = 565.7
+			xmax = 566.84
+			text = "..."
+		intervals [163]:
+			xmin = 566.84
+			xmax = 568.02
+			text = "tinham família fora família"
+		intervals [164]:
+			xmin = 568.02
+			xmax = 568.39
+			text = "no"
+		intervals [165]:
+			xmin = 568.39
+			xmax = 572.73
+			text = "interior eu estava estudando em são paulo então eles escreviam normalmente uma ou duas vezes por semana"
+		intervals [166]:
+			xmin = 572.73
+			xmax = 573.27
+			text = "..."
+		intervals [167]:
+			xmin = 573.27
+			xmax = 573.58
+			text = "eu nunca"
+		intervals [168]:
+			xmin = 573.58
+			xmax = 575.49
+			text = "tive família fora de modo que não"
+		intervals [169]:
+			xmin = 575.49
+			xmax = 576.11
+			text = "..."
+		intervals [170]:
+			xmin = 576.11
+			xmax = 576.67
+			text = "tenho o"
+		intervals [171]:
+			xmin = 576.67
+			xmax = 582.4
+			text = "hábito de escrever não para mim ocorria é um dos últimos recursos que é o ponto só em caso de"
+		intervals [172]:
+			xmin = 582.4
+			xmax = 582.54
+			text = "viagem"
+		intervals [173]:
+			xmin = 582.54
+			xmax = 583.21
+			text = ""
+		intervals [174]:
+			xmin = 583.21
+			xmax = 584.31
+			text = "um cartão postal uma"
+		intervals [175]:
+			xmin = 584.31
+			xmax = 584.51
+			text = "carta"
+		intervals [176]:
+			xmin = 584.51
+			xmax = 585.64
+			text = ""
+		intervals [177]:
+			xmin = 585.64
+			xmax = 586.03
+			text = "só"
+		intervals [178]:
+			xmin = 586.03
+			xmax = 586.71
+			text = "..."
+		intervals [179]:
+			xmin = 586.71
+			xmax = 587.68
+			text = "fora você não escreve"
+		intervals [180]:
+			xmin = 587.68
+			xmax = 589.61
+			text = ""
+		intervals [181]:
+			xmin = 589.61
+			xmax = 589.97
+			text = "mas você"
+		intervals [182]:
+			xmin = 589.97
+			xmax = 590.64
+			text = "..."
+		intervals [183]:
+			xmin = 590.64
+			xmax = 595.37
+			text = "sabe que por exemplo na europa por exemplo em londres por exemplo o pessoal manda cartinha de um"
+		intervals [184]:
+			xmin = 595.37
+			xmax = 596.15
+			text = "..."
+		intervals [185]:
+			xmin = 596.15
+			xmax = 597.52
+			text = "bairro para o"
+		intervals [186]:
+			xmin = 597.52
+			xmax = 602.75
+			text = "outro isso é gozado é claro eles têm um sistema de correio tão eficiente que eles criaram já o hábito"
+		intervals [187]:
+			xmin = 602.75
+			xmax = 603.51
+			text = "..."
+		intervals [188]:
+			xmin = 603.51
+			xmax = 605.51
+			text = "a gente não isso me ocorreu"
+		intervals [189]:
+			xmin = 605.51
+			xmax = 761.6
+			text = ""
+	item [2]:
+		class = "IntervalTier"
+		name = "NTB-infm"
+		xmin = 0.0
+		xmax = 761.6
+		intervals: size = 189
+		intervals [1]:
+			xmin = 0.0
+			xmax = 6.05
+			text = "eu telefono dá uma passadinha em casa e combina um dia ou para vir na casa dessa pessoa ou para vir com a gente ou para ir ao teatro ou eventualmente"
+		intervals [2]:
+			xmin = 6.05
+			xmax = 6.68
+			text = "jantar"
+		intervals [3]:
+			xmin = 6.68
+			xmax = 7.93
+			text = "em algum lugar é o que a gente faz"
+		intervals [4]:
+			xmin = 7.93
+			xmax = 8.41
+			text = "..."
+		intervals [5]:
+			xmin = 8.41
+			xmax = 12.46
+			text = ""
+		intervals [6]:
+			xmin = 12.46
+			xmax = 22.67
+			text = "é muito difícil a gente encontrar alguém que não esperava que não marcou e sentar e bater um papo esticar qualquer programa não tem que ser programado porque não tem onde ficar num tem aonde fazer esse programa"
+		intervals [7]:
+			xmin = 22.67
+			xmax = 23.4
+			text = "..."
+		intervals [8]:
+			xmin = 23.4
+			xmax = 26.3
+			text = "veja só como o aspecto físico é eu acho que é importante"
+		intervals [9]:
+			xmin = 26.3
+			xmax = 26.84
+			text = "..."
+		intervals [10]:
+			xmin = 26.84
+			xmax = 30.88
+			text = "copacabana esquece de mar esquece praia todo mundo mora ali embolado aquele"
+		intervals [11]:
+			xmin = 30.88
+			xmax = 31.37
+			text = "monte"
+		intervals [12]:
+			xmin = 31.37
+			xmax = 31.91
+			text = "de gente sei lá"
+		intervals [13]:
+			xmin = 31.91
+			xmax = 32.21
+			text = "..."
+		intervals [14]:
+			xmin = 32.21
+			xmax = 35.84
+			text = "quatrocentas mil pessoas que moram no mesmo lugar que passam pela mesma avenida"
+		intervals [15]:
+			xmin = 35.84
+			xmax = 36.32
+			text = "..."
+		intervals [16]:
+			xmin = 36.32
+			xmax = 46.13
+			text = "que descem do seu apartamento e encontram ali embaixo tinturaria padaria um barzinho tudo que precisar sujeito tá andando pela rua encontra uma porção de amigos aquilo é um ponto de passagem obrigatória tem"
+		intervals [17]:
+			xmin = 46.13
+			xmax = 46.49
+			text = "..."
+		intervals [18]:
+			xmin = 46.49
+			xmax = 49.44
+			text = "muito de província isso é de coisa mais bonita que permite aquele intercâmbio de ideias"
+		intervals [19]:
+			xmin = 49.44
+			xmax = 50.28
+			text = "..."
+		intervals [20]:
+			xmin = 50.28
+			xmax = 51.16
+			text = "coisa"
+		intervals [21]:
+			xmin = 51.16
+			xmax = 51.73
+			text = "..."
+		intervals [22]:
+			xmin = 51.73
+			xmax = 51.84
+			text = "que"
+		intervals [23]:
+			xmin = 51.84
+			xmax = 52.63
+			text = "..."
+		intervals [24]:
+			xmin = 52.63
+			xmax = 56.58
+			text = "em são paulo a gente não tem aqui a a gente não passa pelos mesmos lugares eu moro nessa"
+		intervals [25]:
+			xmin = 56.58
+			xmax = 57.28
+			text = "..."
+		intervals [26]:
+			xmin = 57.28
+			xmax = 58.14
+			text = "cidade faz bem"
+		intervals [27]:
+			xmin = 58.14
+			xmax = 59.2
+			text = "..."
+		intervals [28]:
+			xmin = 59.2
+			xmax = 61.88
+			text = "uns três ou quatro meses que eu não desço do"
+		intervals [29]:
+			xmin = 61.88
+			xmax = 62.22
+			text = "..."
+		intervals [30]:
+			xmin = 62.22
+			xmax = 65.98
+			text = "carro no centro da cidade eu cozeio umas duas ou três vezes não desço eu vou de"
+		intervals [31]:
+			xmin = 65.98
+			xmax = 66.33
+			text = "..."
+		intervals [32]:
+			xmin = 66.33
+			xmax = 68.15
+			text = "casa para avenida paulista da avenida paulista para casa"
+		intervals [33]:
+			xmin = 68.15
+			xmax = 68.66
+			text = "..."
+		intervals [34]:
+			xmin = 68.66
+			xmax = 71.44
+			text = "dos cinemas da rua augusta da avenida paulista eu não vou ao"
+		intervals [35]:
+			xmin = 71.44
+			xmax = 78.5
+			text = "centro da cidade eu não sei o que tem no centro da cidade praça de república eventualmente quando acontece se tem alguém para leválo tem de ir a gente nunca se encontra nos mesmos lugares né"
+		intervals [36]:
+			xmin = 78.5
+			xmax = 87.59
+			text = ""
+		intervals [37]:
+			xmin = 87.59
+			xmax = 90.86
+			text = "casa dele sim os amigos com os quais você convive"
+		intervals [38]:
+			xmin = 90.86
+			xmax = 90.89
+			text = "pessoalmente"
+		intervals [39]:
+			xmin = 90.89
+			xmax = 91.68
+			text = "..."
+		intervals [40]:
+			xmin = 91.68
+			xmax = 129.09
+			text = ""
+		intervals [41]:
+			xmin = 129.09
+			xmax = 130.45
+			text = "bom não tem"
+		intervals [42]:
+			xmin = 130.45
+			xmax = 130.78
+			text = "..."
+		intervals [43]:
+			xmin = 130.78
+			xmax = 131.88
+			text = "o que fazer"
+		intervals [44]:
+			xmin = 131.88
+			xmax = 132.45
+			text = "..."
+		intervals [45]:
+			xmin = 132.45
+			xmax = 183.69
+			text = ""
+		intervals [46]:
+			xmin = 183.69
+			xmax = 183.92
+			text = "é"
+		intervals [47]:
+			xmin = 183.92
+			xmax = 201.4
+			text = ""
+		intervals [48]:
+			xmin = 201.4
+			xmax = 203.72
+			text = "de restaurante restaurante você encontra aos montes né restaurante"
+		intervals [49]:
+			xmin = 203.72
+			xmax = 204.12
+			text = "não"
+		intervals [50]:
+			xmin = 204.12
+			xmax = 204.71
+			text = "..."
+		intervals [51]:
+			xmin = 204.71
+			xmax = 214.48
+			text = ""
+		intervals [52]:
+			xmin = 214.48
+			xmax = 215.01
+			text = "agora"
+		intervals [53]:
+			xmin = 215.01
+			xmax = 215.8
+			text = "..."
+		intervals [54]:
+			xmin = 215.8
+			xmax = 227.62
+			text = "outro aspecto que eu acho significativo em são paulo e acho importante fico louco da vida quando vejo um fazendo comentários à respeito é a rua augusta porque a rua augusta é claro que é uma rua que vende que vende artigos finos para uma"
+		intervals [55]:
+			xmin = 227.62
+			xmax = 228.37
+			text = "..."
+		intervals [56]:
+			xmin = 228.37
+			xmax = 231.82
+			text = "classe privilegiada etcétera uma rua de luxo mas eu acho que a rua augusta é"
+		intervals [57]:
+			xmin = 231.82
+			xmax = 232.33
+			text = "aquilo"
+		intervals [58]:
+			xmin = 232.33
+			xmax = 234.94
+			text = "que a cidade conseguiu formar através dos anos ela num"
+		intervals [59]:
+			xmin = 234.94
+			xmax = 235.4
+			text = "..."
+		intervals [60]:
+			xmin = 235.4
+			xmax = 239.25
+			text = "é bonita a gente não pode dizer que ela é feia ela é interessante ela é um fenômeno ao meu ver fenômeno"
+		intervals [61]:
+			xmin = 239.25
+			xmax = 239.68
+			text = "..."
+		intervals [62]:
+			xmin = 239.68
+			xmax = 241.25
+			text = "que uma cidade de seis milhões de pessoas conseguiu construir então"
+		intervals [63]:
+			xmin = 241.25
+			xmax = 242.15
+			text = "..."
+		intervals [64]:
+			xmin = 242.15
+			xmax = 248.6
+			text = "eu fico furioso quando vejo alguém pensar em termos de trânsito na rua augusta a rua augusta tem que ser preservada ao meu ver porque"
+		intervals [65]:
+			xmin = 248.6
+			xmax = 248.96
+			text = "ao"
+		intervals [66]:
+			xmin = 248.96
+			xmax = 250.13
+			text = "meu ver é realmente um ponto de encontro também"
+		intervals [67]:
+			xmin = 250.13
+			xmax = 250.54
+			text = ""
+		intervals [68]:
+			xmin = 250.54
+			xmax = 257.31
+			text = "ponto de encontro disse que não se estende à toda a população mas ela se estende a uma boa parte da população e que num tem o que fazer então eu fico furioso da mesma forma que"
+		intervals [69]:
+			xmin = 257.31
+			xmax = 257.7
+			text = "diretor"
+		intervals [70]:
+			xmin = 257.7
+			xmax = 259.68
+			text = "de trânsito queria por pontos de ônibus na praça dom"
+		intervals [71]:
+			xmin = 259.68
+			xmax = 260.18
+			text = "..."
+		intervals [72]:
+			xmin = 260.18
+			xmax = 265.93
+			text = "josé gaspar ia acabar com a praça entende ia democratizar mas não é uma forma quer dizer destruído não é uma forma de fazer tá certo"
+		intervals [73]:
+			xmin = 265.93
+			xmax = 266.51
+			text = "..."
+		intervals [74]:
+			xmin = 266.51
+			xmax = 266.72
+			text = "então"
+		intervals [75]:
+			xmin = 266.72
+			xmax = 267.35
+			text = "..."
+		intervals [76]:
+			xmin = 267.35
+			xmax = 271.41
+			text = "a rua augusta eu acho que é uma outra coisa que que existe de certa forma que"
+		intervals [77]:
+			xmin = 271.41
+			xmax = 272.23
+			text = "..."
+		intervals [78]:
+			xmin = 272.23
+			xmax = 278.39
+			text = "a cidade conseguiu construir com muito sacrifício e que vale a pena preservar talvez melhorar de alguma forma mas sem perder aquele caráter que é um caráter interessante realmente"
+		intervals [79]:
+			xmin = 278.39
+			xmax = 280.63
+			text = ""
+		intervals [80]:
+			xmin = 280.63
+			xmax = 282.14
+			text = "realmente um fenômeno estilo sábado de manhã"
+		intervals [81]:
+			xmin = 282.14
+			xmax = 283.34
+			text = "na augusta é uma beleza"
+		intervals [82]:
+			xmin = 283.34
+			xmax = 284.06
+			text = ""
+		intervals [83]:
+			xmin = 284.06
+			xmax = 285.23
+			text = "beleza todos os tipos"
+		intervals [84]:
+			xmin = 285.23
+			xmax = 285.51
+			text = "descendo"
+		intervals [85]:
+			xmin = 285.51
+			xmax = 293.21
+			text = "pela rua jeitos de vestir é uma alegria uma festa a cidade precisa ter isso não pode desprezar um negócio por causa que tem que ser mão dupla inclusive para"
+		intervals [86]:
+			xmin = 293.21
+			xmax = 294.73
+			text = "estacionar né a rua augusta tem que ser"
+		intervals [87]:
+			xmin = 294.73
+			xmax = 295.57
+			text = "exceção"
+		intervals [88]:
+			xmin = 295.57
+			xmax = 298.02
+			text = "ao meu ver entende não dá para encarar essas coisas tão friamente"
+		intervals [89]:
+			xmin = 298.02
+			xmax = 299.96
+			text = ""
+		intervals [90]:
+			xmin = 299.96
+			xmax = 300.05
+			text = "não"
+		intervals [91]:
+			xmin = 300.05
+			xmax = 302.65
+			text = ""
+		intervals [92]:
+			xmin = 302.65
+			xmax = 305.41
+			text = "eu acho que aquela amarela dá na mesma"
+		intervals [93]:
+			xmin = 305.41
+			xmax = 306.46
+			text = ""
+		intervals [94]:
+			xmin = 306.46
+			xmax = 306.96
+			text = "passar na"
+		intervals [95]:
+			xmin = 306.96
+			xmax = 307.44
+			text = "..."
+		intervals [96]:
+			xmin = 307.44
+			xmax = 311.29
+			text = "rua augusta puxa vida a gente dizia quem tem carro pode virar a rua augusta sem preocupação"
+		intervals [97]:
+			xmin = 311.29
+			xmax = 313.59
+			text = ""
+		intervals [98]:
+			xmin = 313.59
+			xmax = 313.82
+			text = "não"
+		intervals [99]:
+			xmin = 313.82
+			xmax = 314.51
+			text = ""
+		intervals [100]:
+			xmin = 314.51
+			xmax = 315.19
+			text = "ônibus também ônibus"
+		intervals [101]:
+			xmin = 315.19
+			xmax = 318.18
+			text = "é a forma de quem não tem carro poder chegar à rua augusta"
+		intervals [102]:
+			xmin = 318.18
+			xmax = 318.76
+			text = ""
+		intervals [103]:
+			xmin = 318.76
+			xmax = 319.64
+			text = "deixa a"
+		intervals [104]:
+			xmin = 319.64
+			xmax = 320.4
+			text = "rua aberta não tem jeito"
+		intervals [105]:
+			xmin = 320.4
+			xmax = 323.95
+			text = "a bagunça da rua augusta num dá porque tecnicamente ela não tinha nenhuma condições de ser uma rua de"
+		intervals [106]:
+			xmin = 323.95
+			xmax = 324.24
+			text = "comércio né"
+		intervals [107]:
+			xmin = 324.24
+			xmax = 330.91
+			text = "e de repente deu uma rua de comércio disse que durante a guerra que disse que bom era para começar uma das poças ruas que ligavam"
+		intervals [108]:
+			xmin = 330.91
+			xmax = 331.38
+			text = "..."
+		intervals [109]:
+			xmin = 331.38
+			xmax = 334.08
+			text = "os bairros granfinos ao centro da cidade né todas"
+		intervals [110]:
+			xmin = 334.08
+			xmax = 335.14
+			text = "as outras acompanham são todas"
+		intervals [111]:
+			xmin = 335.14
+			xmax = 335.45
+			text = "..."
+		intervals [112]:
+			xmin = 335.45
+			xmax = 336.86
+			text = "interrompidas a rua"
+		intervals [113]:
+			xmin = 336.86
+			xmax = 337.88
+			text = "..."
+		intervals [114]:
+			xmin = 337.88
+			xmax = 347.14
+			text = "augusta era a única então isso é fundamental pro comércio agora como é que ela virou uma rua de comércio tão sofisticada e inclusive de caráter metropolitano eu acho que já não é mais só de quem mora"
+		intervals [115]:
+			xmin = 347.14
+			xmax = 347.81
+			text = "..."
+		intervals [116]:
+			xmin = 347.81
+			xmax = 353.72
+			text = "ali no bairro é eu sei lá por que vou juntando vou juntando vou criando enfim a rua augusta deu música por exemplo eu acho"
+		intervals [117]:
+			xmin = 353.72
+			xmax = 353.99
+			text = "importante isso"
+		intervals [118]:
+			xmin = 353.99
+			xmax = 354.87
+			text = "importante importantíssimo foi uma"
+		intervals [119]:
+			xmin = 354.87
+			xmax = 355.67
+			text = "..."
+		intervals [120]:
+			xmin = 355.67
+			xmax = 355.7
+			text = "música"
+		intervals [121]:
+			xmin = 355.7
+			xmax = 356.87
+			text = "..."
+		intervals [122]:
+			xmin = 356.87
+			xmax = 358.64
+			text = "só ou duas talvez tem o gato"
+		intervals [123]:
+			xmin = 358.64
+			xmax = 360.08
+			text = "da rua augusta tem"
+		intervals [124]:
+			xmin = 360.08
+			xmax = 360.84
+			text = "a"
+		intervals [125]:
+			xmin = 360.84
+			xmax = 363.69
+			text = "musica do do roberto carlos lá descendo a rua augusta"
+		intervals [126]:
+			xmin = 363.69
+			xmax = 365.37
+			text = "a cento e vinte"
+		intervals [127]:
+			xmin = 365.37
+			xmax = 365.96
+			text = "..."
+		intervals [128]:
+			xmin = 365.96
+			xmax = 377.04
+			text = ""
+		intervals [129]:
+			xmin = 377.04
+			xmax = 377.2
+			text = "fora"
+		intervals [130]:
+			xmin = 377.2
+			xmax = 377.68
+			text = "de"
+		intervals [131]:
+			xmin = 377.68
+			xmax = 379.6
+			text = ""
+		intervals [132]:
+			xmin = 379.6
+			xmax = 380.81
+			text = "vocês costumam fazer uai"
+		intervals [133]:
+			xmin = 380.81
+			xmax = 381.42
+			text = "..."
+		intervals [134]:
+			xmin = 381.42
+			xmax = 382.31
+			text = "não estou sabendo"
+		intervals [135]:
+			xmin = 382.31
+			xmax = 385.16
+			text = "não bom procuro se tiver telefone telefonar mas se não tiver"
+		intervals [136]:
+			xmin = 385.16
+			xmax = 388.27
+			text = ""
+		intervals [137]:
+			xmin = 388.27
+			xmax = 389.22
+			text = "não ah não eu num"
+		intervals [138]:
+			xmin = 389.22
+			xmax = 390.8
+			text = "..."
+		intervals [139]:
+			xmin = 390.8
+			xmax = 392.08
+			text = "escrevo eu raramente escrevo"
+		intervals [140]:
+			xmin = 392.08
+			xmax = 393.57
+			text = "..."
+		intervals [141]:
+			xmin = 393.57
+			xmax = 393.8
+			text = "eu"
+		intervals [142]:
+			xmin = 393.8
+			xmax = 394.26
+			text = "..."
+		intervals [143]:
+			xmin = 394.26
+			xmax = 395.14
+			text = "nunca tive família morando"
+		intervals [144]:
+			xmin = 395.14
+			xmax = 395.68
+			text = "..."
+		intervals [145]:
+			xmin = 395.68
+			xmax = 398.96
+			text = "fora de são paulo eu nunca tive problema então eu não tenho o"
+		intervals [146]:
+			xmin = 398.96
+			xmax = 399.94
+			text = "..."
+		intervals [147]:
+			xmin = 399.94
+			xmax = 400.84
+			text = "hábito de escrever"
+		intervals [148]:
+			xmin = 400.84
+			xmax = 401.2
+			text = "..."
+		intervals [149]:
+			xmin = 401.2
+			xmax = 401.26
+			text = "eu"
+		intervals [150]:
+			xmin = 401.26
+			xmax = 405.38
+			text = ""
+		intervals [151]:
+			xmin = 405.38
+			xmax = 407.65
+			text = "mas essas pessoas que viajam pro exterior assim"
+		intervals [152]:
+			xmin = 407.65
+			xmax = 408.89
+			text = "né eventualmente mas é muito raro muito"
+		intervals [153]:
+			xmin = 408.89
+			xmax = 419.94
+			text = ""
+		intervals [154]:
+			xmin = 419.94
+			xmax = 420.64
+			text = "eu tenho"
+		intervals [155]:
+			xmin = 420.64
+			xmax = 420.92
+			text = "amigos"
+		intervals [156]:
+			xmin = 420.92
+			xmax = 421.43
+			text = "..."
+		intervals [157]:
+			xmin = 421.43
+			xmax = 421.83
+			text = "que não"
+		intervals [158]:
+			xmin = 421.83
+			xmax = 560.88
+			text = ""
+		intervals [159]:
+			xmin = 560.88
+			xmax = 564.61
+			text = "fora mas fora isso eu nunca eu nunca tive o hábito de escrever eu tinha"
+		intervals [160]:
+			xmin = 564.61
+			xmax = 565.26
+			text = "..."
+		intervals [161]:
+			xmin = 565.26
+			xmax = 565.7
+			text = "amigos que"
+		intervals [162]:
+			xmin = 565.7
+			xmax = 566.84
+			text = "..."
+		intervals [163]:
+			xmin = 566.84
+			xmax = 568.02
+			text = "tinham família fora família"
+		intervals [164]:
+			xmin = 568.02
+			xmax = 568.39
+			text = "no"
+		intervals [165]:
+			xmin = 568.39
+			xmax = 572.73
+			text = "interior eu estava estudando em são paulo então eles escreviam normalmente uma ou duas vezes por semana"
+		intervals [166]:
+			xmin = 572.73
+			xmax = 573.27
+			text = "..."
+		intervals [167]:
+			xmin = 573.27
+			xmax = 573.58
+			text = "eu nunca"
+		intervals [168]:
+			xmin = 573.58
+			xmax = 575.49
+			text = "tive família fora de modo que não"
+		intervals [169]:
+			xmin = 575.49
+			xmax = 576.11
+			text = "..."
+		intervals [170]:
+			xmin = 576.11
+			xmax = 576.67
+			text = "tenho o"
+		intervals [171]:
+			xmin = 576.67
+			xmax = 582.4
+			text = "hábito de escrever não para mim ocorria é um dos últimos recursos que é o ponto só em caso de"
+		intervals [172]:
+			xmin = 582.4
+			xmax = 582.54
+			text = "viagem"
+		intervals [173]:
+			xmin = 582.54
+			xmax = 583.21
+			text = ""
+		intervals [174]:
+			xmin = 583.21
+			xmax = 584.31
+			text = "um cartão postal uma"
+		intervals [175]:
+			xmin = 584.31
+			xmax = 584.51
+			text = "carta"
+		intervals [176]:
+			xmin = 584.51
+			xmax = 585.64
+			text = ""
+		intervals [177]:
+			xmin = 585.64
+			xmax = 586.03
+			text = "só"
+		intervals [178]:
+			xmin = 586.03
+			xmax = 586.71
+			text = "..."
+		intervals [179]:
+			xmin = 586.71
+			xmax = 587.68
+			text = "fora você não escreve"
+		intervals [180]:
+			xmin = 587.68
+			xmax = 589.61
+			text = ""
+		intervals [181]:
+			xmin = 589.61
+			xmax = 589.97
+			text = "mas você"
+		intervals [182]:
+			xmin = 589.97
+			xmax = 590.64
+			text = "..."
+		intervals [183]:
+			xmin = 590.64
+			xmax = 595.37
+			text = "sabe que por exemplo na europa por exemplo em londres por exemplo o pessoal manda cartinha de um"
+		intervals [184]:
+			xmin = 595.37
+			xmax = 596.15
+			text = "..."
+		intervals [185]:
+			xmin = 596.15
+			xmax = 597.52
+			text = "bairro para o"
+		intervals [186]:
+			xmin = 597.52
+			xmax = 602.75
+			text = "outro isso é gozado é claro eles têm um sistema de correio tão eficiente que eles criaram já o hábito"
+		intervals [187]:
+			xmin = 602.75
+			xmax = 603.51
+			text = "..."
+		intervals [188]:
+			xmin = 603.51
+			xmax = 605.51
+			text = "a gente não isso me ocorreu"
+		intervals [189]:
+			xmin = 605.51
+			xmax = 761.6
+			text = ""
+	item [3]:
+		class = "IntervalTier"
+		name = "TB-inff"
+		xmin = 0.0
+		xmax = 761.6
+		intervals: size = 190
+		intervals [1]:
+			xmin = 0.0
+			xmax = 8.41
+			text = ""
+		intervals [2]:
+			xmin = 8.41
+			xmax = 11.18
+			text = "infelizmente porque você está restrito né"
+		intervals [3]:
+			xmin = 11.18
+			xmax = 12.1
+			text = "a esses programas"
+		intervals [4]:
+			xmin = 12.1
+			xmax = 12.46
+			text = "..."
+		intervals [5]:
+			xmin = 12.46
+			xmax = 78.5
+			text = ""
+		intervals [6]:
+			xmin = 78.5
+			xmax = 79.34
+			text = "eu também você"
+		intervals [7]:
+			xmin = 79.34
+			xmax = 80.6
+			text = "..."
+		intervals [8]:
+			xmin = 80.6
+			xmax = 84.87
+			text = "ainda coloca um um problema assim de encontrar os amigos ainda os amigos a gente pode convidar"
+		intervals [9]:
+			xmin = 84.87
+			xmax = 85.33
+			text = "..."
+		intervals [10]:
+			xmin = 85.33
+			xmax = 87.59
+			text = "à casa e tal você ir à"
+		intervals [11]:
+			xmin = 87.59
+			xmax = 91.68
+			text = ""
+		intervals [12]:
+			xmin = 91.68
+			xmax = 99.76
+			text = "e quando são pessoas que você não tem a intimidade de convidar à casa que você precisa ter esse contato para os problemas que eu maiores que eu enfrentei"
+		intervals [13]:
+			xmin = 99.76
+			xmax = 100.17
+			text = "..."
+		intervals [14]:
+			xmin = 100.17
+			xmax = 105.38
+			text = "com pessoas de fora quer dizer num era o caso de intimidade para convidar todas as pessoas na minha casa"
+		intervals [15]:
+			xmin = 105.38
+			xmax = 105.72
+			text = "..."
+		intervals [16]:
+			xmin = 105.72
+			xmax = 111.57
+			text = "todas as semanas num num era o caso compreende não era o caso exatamente de se convidar um"
+		intervals [17]:
+			xmin = 111.57
+			xmax = 112.5
+			text = "..."
+		intervals [18]:
+			xmin = 112.5
+			xmax = 114.28
+			text = "grupo um grupo da dessa universidade"
+		intervals [19]:
+			xmin = 114.28
+			xmax = 114.7
+			text = "..."
+		intervals [20]:
+			xmin = 114.7
+			xmax = 120.86
+			text = "um grupo de outra universidade que dizer formar aquele grupo bater um papo em algum lugar era a dificuldade mas a dificuldade e"
+		intervals [21]:
+			xmin = 120.86
+			xmax = 121.29
+			text = "..."
+		intervals [22]:
+			xmin = 121.29
+			xmax = 123.82
+			text = "quando ocorria então de virem professores para determinadas aulas"
+		intervals [23]:
+			xmin = 123.82
+			xmax = 124.24
+			text = "..."
+		intervals [24]:
+			xmin = 124.24
+			xmax = 124.62
+			text = "e"
+		intervals [25]:
+			xmin = 124.62
+			xmax = 124.91
+			text = "traziam"
+		intervals [26]:
+			xmin = 124.91
+			xmax = 127.29
+			text = "as esposas o que"
+		intervals [27]:
+			xmin = 127.29
+			xmax = 127.84
+			text = "..."
+		intervals [28]:
+			xmin = 127.84
+			xmax = 129.09
+			text = "fazer com as esposas"
+		intervals [29]:
+			xmin = 129.09
+			xmax = 132.45
+			text = ""
+		intervals [30]:
+			xmin = 132.45
+			xmax = 133.62
+			text = "muitas vezes nós conseguimos"
+		intervals [31]:
+			xmin = 133.62
+			xmax = 134.05
+			text = "..."
+		intervals [32]:
+			xmin = 134.05
+			xmax = 136.31
+			text = "assim companhias para as esposas muito"
+		intervals [33]:
+			xmin = 136.31
+			xmax = 136.98
+			text = "..."
+		intervals [34]:
+			xmin = 136.98
+			xmax = 137.04
+			text = "bem"
+		intervals [35]:
+			xmin = 137.04
+			xmax = 138.04
+			text = "..."
+		intervals [36]:
+			xmin = 138.04
+			xmax = 138.65
+			text = "então vinham"
+		intervals [37]:
+			xmin = 138.65
+			xmax = 138.91
+			text = "ver"
+		intervals [38]:
+			xmin = 138.91
+			xmax = 139.23
+			text = "..."
+		intervals [39]:
+			xmin = 139.23
+			xmax = 140.11
+			text = "cidade"
+		intervals [40]:
+			xmin = 140.11
+			xmax = 141.34
+			text = "..."
+		intervals [41]:
+			xmin = 141.34
+			xmax = 145.36
+			text = "iam visitar museus ver lojas eventualmente e tal mas e parar"
+		intervals [42]:
+			xmin = 145.36
+			xmax = 146.11
+			text = "..."
+		intervals [43]:
+			xmin = 146.11
+			xmax = 149.82
+			text = "um instante para um papo alguma coisa"
+		intervals [44]:
+			xmin = 149.82
+			xmax = 150.2
+			text = "..."
+		intervals [45]:
+			xmin = 150.2
+			xmax = 152.1
+			text = "quer dizer onde bom achei"
+		intervals [46]:
+			xmin = 152.1
+			xmax = 152.49
+			text = "..."
+		intervals [47]:
+			xmin = 152.49
+			xmax = 158.35
+			text = "um lugar né achei bom você procura você acaba achando então hospedei as pessoas no são rafael antigo"
+		intervals [48]:
+			xmin = 158.35
+			xmax = 159.11
+			text = "..."
+		intervals [49]:
+			xmin = 159.11
+			xmax = 161.28
+			text = "lorde que está todo reformado e que"
+		intervals [50]:
+			xmin = 161.28
+			xmax = 161.86
+			text = "..."
+		intervals [51]:
+			xmin = 161.86
+			xmax = 166.1
+			text = "tem então o canal não no próprio lorde o lorde tem assim só"
+		intervals [52]:
+			xmin = 166.1
+			xmax = 166.56
+			text = "..."
+		intervals [53]:
+			xmin = 166.56
+			xmax = 168.11
+			text = "o salão de refeições"
+		intervals [54]:
+			xmin = 168.11
+			xmax = 168.48
+			text = "..."
+		intervals [55]:
+			xmin = 168.48
+			xmax = 169.15
+			text = "mas o"
+		intervals [56]:
+			xmin = 169.15
+			xmax = 169.5
+			text = "..."
+		intervals [57]:
+			xmin = 169.5
+			xmax = 173.97
+			text = "salão de bate papo com a musiquinha tocando e que você pode perfeitamente aguardar"
+		intervals [58]:
+			xmin = 173.97
+			xmax = 174.28
+			text = "..."
+		intervals [59]:
+			xmin = 174.28
+			xmax = 183.69
+			text = "ali enquanto depois você vai para um outro lugar ou jantar ou coisa que o vale mas foi assim a ideia porque nem nos hotéis você encontra isso"
+		intervals [60]:
+			xmin = 183.69
+			xmax = 183.92
+			text = ""
+		intervals [61]:
+			xmin = 183.92
+			xmax = 184.39
+			text = "verdade foi a"
+		intervals [62]:
+			xmin = 184.39
+			xmax = 184.81
+			text = "..."
+		intervals [63]:
+			xmin = 184.81
+			xmax = 185.46
+			text = "ideia que eles"
+		intervals [64]:
+			xmin = 185.46
+			xmax = 185.7
+			text = "tiveram"
+		intervals [65]:
+			xmin = 185.7
+			xmax = 186.31
+			text = "agora"
+		intervals [66]:
+			xmin = 186.31
+			xmax = 186.72
+			text = "..."
+		intervals [67]:
+			xmin = 186.72
+			xmax = 188.72
+			text = "exatamente com a ideia de fazer"
+		intervals [68]:
+			xmin = 188.72
+			xmax = 189.13
+			text = "..."
+		intervals [69]:
+			xmin = 189.13
+			xmax = 196.03
+			text = "um local dentro do próprio hotel exatamente porque são paulo num oferece então as pessoas às vezes tinham um encontro hã de negócio coisa que vale não existe"
+		intervals [70]:
+			xmin = 196.03
+			xmax = 196.52
+			text = "..."
+		intervals [71]:
+			xmin = 196.52
+			xmax = 198.21
+			text = "ou vai receber no próprio apartamento ou vai"
+		intervals [72]:
+			xmin = 198.21
+			xmax = 198.66
+			text = "..."
+		intervals [73]:
+			xmin = 198.66
+			xmax = 201.02
+			text = "receber onde então eles montaram quer dizer além"
+		intervals [74]:
+			xmin = 201.02
+			xmax = 201.4
+			text = "..."
+		intervals [75]:
+			xmin = 201.4
+			xmax = 204.71
+			text = ""
+		intervals [76]:
+			xmin = 204.71
+			xmax = 205.63
+			text = "é o problema mas"
+		intervals [77]:
+			xmin = 205.63
+			xmax = 205.95
+			text = "..."
+		intervals [78]:
+			xmin = 205.95
+			xmax = 208.22
+			text = "lugar assim como você falou tão eles fizeram"
+		intervals [79]:
+			xmin = 208.22
+			xmax = 211.08
+			text = "o que você falou salão de estar que inclusive"
+		intervals [80]:
+			xmin = 211.08
+			xmax = 211.44
+			text = "é"
+		intervals [81]:
+			xmin = 211.44
+			xmax = 214.48
+			text = "tem música tem uma porção de coisa inclusive ultra agradável"
+		intervals [82]:
+			xmin = 214.48
+			xmax = 250.13
+			text = ""
+		intervals [83]:
+			xmin = 250.13
+			xmax = 250.54
+			text = "é um"
+		intervals [84]:
+			xmin = 250.54
+			xmax = 278.39
+			text = ""
+		intervals [85]:
+			xmin = 278.39
+			xmax = 279.13
+			text = "e é"
+		intervals [86]:
+			xmin = 279.13
+			xmax = 279.9
+			text = "..."
+		intervals [87]:
+			xmin = 279.9
+			xmax = 280.15
+			text = "interessante"
+		intervals [88]:
+			xmin = 280.15
+			xmax = 280.63
+			text = "é"
+		intervals [89]:
+			xmin = 280.63
+			xmax = 283.34
+			text = ""
+		intervals [90]:
+			xmin = 283.34
+			xmax = 284.06
+			text = "uma"
+		intervals [91]:
+			xmin = 284.06
+			xmax = 298.02
+			text = ""
+		intervals [92]:
+			xmin = 298.02
+			xmax = 299.28
+			text = "quer dizer que tecnicamente a solução"
+		intervals [93]:
+			xmin = 299.28
+			xmax = 299.96
+			text = "seria mão única ali"
+		intervals [94]:
+			xmin = 299.96
+			xmax = 300.05
+			text = ""
+		intervals [95]:
+			xmin = 300.05
+			xmax = 300.41
+			text = "quer estacionar"
+		intervals [96]:
+			xmin = 300.41
+			xmax = 301.21
+			text = "..."
+		intervals [97]:
+			xmin = 301.21
+			xmax = 302.65
+			text = "só na faixa amarela mesmo"
+		intervals [98]:
+			xmin = 302.65
+			xmax = 305.41
+			text = ""
+		intervals [99]:
+			xmin = 305.41
+			xmax = 305.95
+			text = "desce carro"
+		intervals [100]:
+			xmin = 305.95
+			xmax = 306.46
+			text = "sobe carro"
+		intervals [101]:
+			xmin = 306.46
+			xmax = 311.29
+			text = ""
+		intervals [102]:
+			xmin = 311.29
+			xmax = 311.62
+			text = "devia"
+		intervals [103]:
+			xmin = 311.62
+			xmax = 313.59
+			text = "virar ônibus então se diz o aspecto"
+		intervals [104]:
+			xmin = 313.59
+			xmax = 313.82
+			text = ""
+		intervals [105]:
+			xmin = 313.82
+			xmax = 314.14
+			text = "diz ao"
+		intervals [106]:
+			xmin = 314.14
+			xmax = 314.51
+			text = "aspecto urbanístico"
+		intervals [107]:
+			xmin = 314.51
+			xmax = 318.18
+			text = ""
+		intervals [108]:
+			xmin = 318.18
+			xmax = 318.76
+			text = "deixá a rua aberta"
+		intervals [109]:
+			xmin = 318.76
+			xmax = 401.81
+			text = ""
+		intervals [110]:
+			xmin = 401.81
+			xmax = 402.19
+			text = "não"
+		intervals [111]:
+			xmin = 402.19
+			xmax = 403.31
+			text = "..."
+		intervals [112]:
+			xmin = 403.31
+			xmax = 404.2
+			text = "não escrevo dificilmente"
+		intervals [113]:
+			xmin = 404.2
+			xmax = 405.38
+			text = "..."
+		intervals [114]:
+			xmin = 405.38
+			xmax = 408.89
+			text = ""
+		intervals [115]:
+			xmin = 408.89
+			xmax = 410.05
+			text = "é mas não é assim um hábito"
+		intervals [116]:
+			xmin = 410.05
+			xmax = 410.4
+			text = "..."
+		intervals [117]:
+			xmin = 410.4
+			xmax = 410.53
+			text = "eu"
+		intervals [118]:
+			xmin = 410.53
+			xmax = 411.22
+			text = "..."
+		intervals [119]:
+			xmin = 411.22
+			xmax = 411.7
+			text = "não"
+		intervals [120]:
+			xmin = 411.7
+			xmax = 418.47
+			text = ""
+		intervals [121]:
+			xmin = 418.47
+			xmax = 419.94
+			text = "eu acho que depende dos contatos que se tem também né"
+		intervals [122]:
+			xmin = 419.94
+			xmax = 421.83
+			text = ""
+		intervals [123]:
+			xmin = 421.83
+			xmax = 424.31
+			text = "quando se tem por exemplo uma pessoa fora"
+		intervals [124]:
+			xmin = 424.31
+			xmax = 425.88
+			text = "exato então naturalmente"
+		intervals [125]:
+			xmin = 425.88
+			xmax = 426.19
+			text = "..."
+		intervals [126]:
+			xmin = 426.19
+			xmax = 426.25
+			text = ""
+		intervals [127]:
+			xmin = 426.25
+			xmax = 427.48
+			text = "..."
+		intervals [128]:
+			xmin = 427.48
+			xmax = 434.0
+			text = "vai mandar correspondência você vai enviar"
+		intervals [129]:
+			xmin = 434.0
+			xmax = 434.54
+			text = "..."
+		intervals [130]:
+			xmin = 434.54
+			xmax = 439.81
+			text = "correspondência"
+		intervals [131]:
+			xmin = 439.81
+			xmax = 440.38
+			text = "..."
+		intervals [132]:
+			xmin = 440.38
+			xmax = 444.17
+			text = "a gente está"
+		intervals [133]:
+			xmin = 444.17
+			xmax = 444.52
+			text = "..."
+		intervals [134]:
+			xmin = 444.52
+			xmax = 446.1
+			text = "fora"
+		intervals [135]:
+			xmin = 446.1
+			xmax = 446.99
+			text = "..."
+		intervals [136]:
+			xmin = 446.99
+			xmax = 448.83
+			text = "me"
+		intervals [137]:
+			xmin = 448.83
+			xmax = 449.34
+			text = "..."
+		intervals [138]:
+			xmin = 449.34
+			xmax = 456.23
+			text = "todas as vezes que"
+		intervals [139]:
+			xmin = 456.23
+			xmax = 456.57
+			text = "..."
+		intervals [140]:
+			xmin = 456.57
+			xmax = 459.45
+			text = "fiquei fora"
+		intervals [141]:
+			xmin = 459.45
+			xmax = 460.1
+			text = "..."
+		intervals [142]:
+			xmin = 460.1
+			xmax = 462.04
+			text = ""
+		intervals [143]:
+			xmin = 462.04
+			xmax = 462.6
+			text = "..."
+		intervals [144]:
+			xmin = 462.6
+			xmax = 462.87
+			text = ""
+		intervals [145]:
+			xmin = 462.87
+			xmax = 463.36
+			text = "os"
+		intervals [146]:
+			xmin = 463.36
+			xmax = 468.98
+			text = "dias então você é"
+		intervals [147]:
+			xmin = 468.98
+			xmax = 470.23
+			text = "..."
+		intervals [148]:
+			xmin = 470.23
+			xmax = 472.35
+			text = ""
+		intervals [149]:
+			xmin = 472.35
+			xmax = 472.68
+			text = "..."
+		intervals [150]:
+			xmin = 472.68
+			xmax = 478.93
+			text = "seus pontos de referência os seus amigos os"
+		intervals [151]:
+			xmin = 478.93
+			xmax = 480.3
+			text = "..."
+		intervals [152]:
+			xmin = 480.3
+			xmax = 483.26
+			text = ""
+		intervals [153]:
+			xmin = 483.26
+			xmax = 484.03
+			text = "..."
+		intervals [154]:
+			xmin = 484.03
+			xmax = 490.71
+			text = ""
+		intervals [155]:
+			xmin = 490.71
+			xmax = 491.85
+			text = "..."
+		intervals [156]:
+			xmin = 491.85
+			xmax = 496.29
+			text = ""
+		intervals [157]:
+			xmin = 496.29
+			xmax = 496.83
+			text = "..."
+		intervals [158]:
+			xmin = 496.83
+			xmax = 497.91
+			text = ""
+		intervals [159]:
+			xmin = 497.91
+			xmax = 498.69
+			text = "..."
+		intervals [160]:
+			xmin = 498.69
+			xmax = 513.67
+			text = ""
+		intervals [161]:
+			xmin = 513.67
+			xmax = 514.15
+			text = "..."
+		intervals [162]:
+			xmin = 514.15
+			xmax = 516.94
+			text = ""
+		intervals [163]:
+			xmin = 516.94
+			xmax = 517.4
+			text = "..."
+		intervals [164]:
+			xmin = 517.4
+			xmax = 524.53
+			text = ""
+		intervals [165]:
+			xmin = 524.53
+			xmax = 525.17
+			text = "..."
+		intervals [166]:
+			xmin = 525.17
+			xmax = 526.12
+			text = ""
+		intervals [167]:
+			xmin = 526.12
+			xmax = 526.51
+			text = "..."
+		intervals [168]:
+			xmin = 526.51
+			xmax = 529.39
+			text = ""
+		intervals [169]:
+			xmin = 529.39
+			xmax = 529.9
+			text = "..."
+		intervals [170]:
+			xmin = 529.9
+			xmax = 535.21
+			text = "todos os pontos de referência sentimentais estavam aqui"
+		intervals [171]:
+			xmin = 535.21
+			xmax = 535.9
+			text = "..."
+		intervals [172]:
+			xmin = 535.9
+			xmax = 540.87
+			text = "então daí sim você tem aquela necessidade de se comunicar então daí você escreve bastante porque não"
+		intervals [173]:
+			xmin = 540.87
+			xmax = 542.13
+			text = "..."
+		intervals [174]:
+			xmin = 542.13
+			xmax = 542.87
+			text = "há possibilidade"
+		intervals [175]:
+			xmin = 542.87
+			xmax = 543.44
+			text = "..."
+		intervals [176]:
+			xmin = 543.44
+			xmax = 549.65
+			text = "de você fazer telefonemas assim internacionais a todo instante né o preço de telefonemas e tudo"
+		intervals [177]:
+			xmin = 549.65
+			xmax = 552.95
+			text = "..."
+		intervals [178]:
+			xmin = 552.95
+			xmax = 559.11
+			text = "isso mais quando é se está aqui e todas as pessoas estão por perto então a não ser assim ocasionalmente você tem amigos ou parentes que"
+		intervals [179]:
+			xmin = 559.11
+			xmax = 559.51
+			text = "..."
+		intervals [180]:
+			xmin = 559.51
+			xmax = 559.57
+			text = "estejam"
+		intervals [181]:
+			xmin = 559.57
+			xmax = 560.88
+			text = "..."
+		intervals [182]:
+			xmin = 560.88
+			xmax = 582.54
+			text = ""
+		intervals [183]:
+			xmin = 582.54
+			xmax = 583.21
+			text = "exato se você está"
+		intervals [184]:
+			xmin = 583.21
+			xmax = 584.51
+			text = ""
+		intervals [185]:
+			xmin = 584.51
+			xmax = 585.64
+			text = "exato então quando você está"
+		intervals [186]:
+			xmin = 585.64
+			xmax = 587.68
+			text = ""
+		intervals [187]:
+			xmin = 587.68
+			xmax = 587.97
+			text = "sim"
+		intervals [188]:
+			xmin = 587.97
+			xmax = 588.39
+			text = "uma necessidade sentimental"
+		intervals [189]:
+			xmin = 588.39
+			xmax = 589.61
+			text = "exato porque as suas pessoas então"
+		intervals [190]:
+			xmin = 589.61
+			xmax = 761.6
+			text = ""
+	item [4]:
+		class = "IntervalTier"
+		name = "NTB-inff"
+		xmin = 0.0
+		xmax = 761.6
+		intervals: size = 190
+		intervals [1]:
+			xmin = 0.0
+			xmax = 8.41
+			text = ""
+		intervals [2]:
+			xmin = 8.41
+			xmax = 11.18
+			text = "infelizmente porque você está restrito né"
+		intervals [3]:
+			xmin = 11.18
+			xmax = 12.1
+			text = "a esses programas"
+		intervals [4]:
+			xmin = 12.1
+			xmax = 12.46
+			text = "..."
+		intervals [5]:
+			xmin = 12.46
+			xmax = 78.5
+			text = ""
+		intervals [6]:
+			xmin = 78.5
+			xmax = 79.34
+			text = "eu também você"
+		intervals [7]:
+			xmin = 79.34
+			xmax = 80.6
+			text = "..."
+		intervals [8]:
+			xmin = 80.6
+			xmax = 84.87
+			text = "ainda coloca um um problema assim de encontrar os amigos ainda os amigos a gente pode convidar"
+		intervals [9]:
+			xmin = 84.87
+			xmax = 85.33
+			text = "..."
+		intervals [10]:
+			xmin = 85.33
+			xmax = 87.59
+			text = "à casa e tal você ir à"
+		intervals [11]:
+			xmin = 87.59
+			xmax = 91.68
+			text = ""
+		intervals [12]:
+			xmin = 91.68
+			xmax = 99.76
+			text = "e quando são pessoas que você não tem a intimidade de convidar à casa que você precisa ter esse contato para os problemas que eu maiores que eu enfrentei"
+		intervals [13]:
+			xmin = 99.76
+			xmax = 100.17
+			text = "..."
+		intervals [14]:
+			xmin = 100.17
+			xmax = 105.38
+			text = "com pessoas de fora quer dizer num era o caso de intimidade para convidar todas as pessoas na minha casa"
+		intervals [15]:
+			xmin = 105.38
+			xmax = 105.72
+			text = "..."
+		intervals [16]:
+			xmin = 105.72
+			xmax = 111.57
+			text = "todas as semanas num num era o caso compreende não era o caso exatamente de se convidar um"
+		intervals [17]:
+			xmin = 111.57
+			xmax = 112.5
+			text = "..."
+		intervals [18]:
+			xmin = 112.5
+			xmax = 114.28
+			text = "grupo um grupo da dessa universidade"
+		intervals [19]:
+			xmin = 114.28
+			xmax = 114.7
+			text = "..."
+		intervals [20]:
+			xmin = 114.7
+			xmax = 120.86
+			text = "um grupo de outra universidade que dizer formar aquele grupo bater um papo em algum lugar era a dificuldade mas a dificuldade e"
+		intervals [21]:
+			xmin = 120.86
+			xmax = 121.29
+			text = "..."
+		intervals [22]:
+			xmin = 121.29
+			xmax = 123.82
+			text = "quando ocorria então de virem professores para determinadas aulas"
+		intervals [23]:
+			xmin = 123.82
+			xmax = 124.24
+			text = "..."
+		intervals [24]:
+			xmin = 124.24
+			xmax = 124.62
+			text = "e"
+		intervals [25]:
+			xmin = 124.62
+			xmax = 124.91
+			text = "traziam"
+		intervals [26]:
+			xmin = 124.91
+			xmax = 127.29
+			text = "as esposas o que"
+		intervals [27]:
+			xmin = 127.29
+			xmax = 127.84
+			text = "..."
+		intervals [28]:
+			xmin = 127.84
+			xmax = 129.09
+			text = "fazer com as esposas"
+		intervals [29]:
+			xmin = 129.09
+			xmax = 132.45
+			text = ""
+		intervals [30]:
+			xmin = 132.45
+			xmax = 133.62
+			text = "muitas vezes nós conseguimos"
+		intervals [31]:
+			xmin = 133.62
+			xmax = 134.05
+			text = "..."
+		intervals [32]:
+			xmin = 134.05
+			xmax = 136.31
+			text = "assim companhias para as esposas muito"
+		intervals [33]:
+			xmin = 136.31
+			xmax = 136.98
+			text = "..."
+		intervals [34]:
+			xmin = 136.98
+			xmax = 137.04
+			text = "bem"
+		intervals [35]:
+			xmin = 137.04
+			xmax = 138.04
+			text = "..."
+		intervals [36]:
+			xmin = 138.04
+			xmax = 138.65
+			text = "então vinham"
+		intervals [37]:
+			xmin = 138.65
+			xmax = 138.91
+			text = "ver"
+		intervals [38]:
+			xmin = 138.91
+			xmax = 139.23
+			text = "..."
+		intervals [39]:
+			xmin = 139.23
+			xmax = 140.11
+			text = "cidade"
+		intervals [40]:
+			xmin = 140.11
+			xmax = 141.34
+			text = "..."
+		intervals [41]:
+			xmin = 141.34
+			xmax = 145.36
+			text = "iam visitar museus ver lojas eventualmente e tal mas e parar"
+		intervals [42]:
+			xmin = 145.36
+			xmax = 146.11
+			text = "..."
+		intervals [43]:
+			xmin = 146.11
+			xmax = 149.82
+			text = "um instante para um papo alguma coisa"
+		intervals [44]:
+			xmin = 149.82
+			xmax = 150.2
+			text = "..."
+		intervals [45]:
+			xmin = 150.2
+			xmax = 152.1
+			text = "quer dizer onde bom achei"
+		intervals [46]:
+			xmin = 152.1
+			xmax = 152.49
+			text = "..."
+		intervals [47]:
+			xmin = 152.49
+			xmax = 158.35
+			text = "um lugar né achei bom você procura você acaba achando então hospedei as pessoas no são rafael antigo"
+		intervals [48]:
+			xmin = 158.35
+			xmax = 159.11
+			text = "..."
+		intervals [49]:
+			xmin = 159.11
+			xmax = 161.28
+			text = "lorde que está todo reformado e que"
+		intervals [50]:
+			xmin = 161.28
+			xmax = 161.86
+			text = "..."
+		intervals [51]:
+			xmin = 161.86
+			xmax = 166.1
+			text = "tem então o canal não no próprio lorde o lorde tem assim só"
+		intervals [52]:
+			xmin = 166.1
+			xmax = 166.56
+			text = "..."
+		intervals [53]:
+			xmin = 166.56
+			xmax = 168.11
+			text = "o salão de refeições"
+		intervals [54]:
+			xmin = 168.11
+			xmax = 168.48
+			text = "..."
+		intervals [55]:
+			xmin = 168.48
+			xmax = 169.15
+			text = "mas o"
+		intervals [56]:
+			xmin = 169.15
+			xmax = 169.5
+			text = "..."
+		intervals [57]:
+			xmin = 169.5
+			xmax = 173.97
+			text = "salão de bate papo com a musiquinha tocando e que você pode perfeitamente aguardar"
+		intervals [58]:
+			xmin = 173.97
+			xmax = 174.28
+			text = "..."
+		intervals [59]:
+			xmin = 174.28
+			xmax = 183.69
+			text = "ali enquanto depois você vai para um outro lugar ou jantar ou coisa que o vale mas foi assim a ideia porque nem nos hotéis você encontra isso"
+		intervals [60]:
+			xmin = 183.69
+			xmax = 183.92
+			text = ""
+		intervals [61]:
+			xmin = 183.92
+			xmax = 184.39
+			text = "verdade foi a"
+		intervals [62]:
+			xmin = 184.39
+			xmax = 184.81
+			text = "..."
+		intervals [63]:
+			xmin = 184.81
+			xmax = 185.46
+			text = "ideia que eles"
+		intervals [64]:
+			xmin = 185.46
+			xmax = 185.7
+			text = "tiveram"
+		intervals [65]:
+			xmin = 185.7
+			xmax = 186.31
+			text = "agora"
+		intervals [66]:
+			xmin = 186.31
+			xmax = 186.72
+			text = "..."
+		intervals [67]:
+			xmin = 186.72
+			xmax = 188.72
+			text = "exatamente com a ideia de fazer"
+		intervals [68]:
+			xmin = 188.72
+			xmax = 189.13
+			text = "..."
+		intervals [69]:
+			xmin = 189.13
+			xmax = 196.03
+			text = "um local dentro do próprio hotel exatamente porque são paulo num oferece então as pessoas às vezes tinham um encontro hã de negócio coisa que vale não existe"
+		intervals [70]:
+			xmin = 196.03
+			xmax = 196.52
+			text = "..."
+		intervals [71]:
+			xmin = 196.52
+			xmax = 198.21
+			text = "ou vai receber no próprio apartamento ou vai"
+		intervals [72]:
+			xmin = 198.21
+			xmax = 198.66
+			text = "..."
+		intervals [73]:
+			xmin = 198.66
+			xmax = 201.02
+			text = "receber onde então eles montaram quer dizer além"
+		intervals [74]:
+			xmin = 201.02
+			xmax = 201.4
+			text = "..."
+		intervals [75]:
+			xmin = 201.4
+			xmax = 204.71
+			text = ""
+		intervals [76]:
+			xmin = 204.71
+			xmax = 205.63
+			text = "é o problema mas"
+		intervals [77]:
+			xmin = 205.63
+			xmax = 205.95
+			text = "..."
+		intervals [78]:
+			xmin = 205.95
+			xmax = 208.22
+			text = "lugar assim como você falou tão eles fizeram"
+		intervals [79]:
+			xmin = 208.22
+			xmax = 211.08
+			text = "o que você falou salão de estar que inclusive"
+		intervals [80]:
+			xmin = 211.08
+			xmax = 211.44
+			text = "é"
+		intervals [81]:
+			xmin = 211.44
+			xmax = 214.48
+			text = "tem música tem uma porção de coisa inclusive ultra agradável"
+		intervals [82]:
+			xmin = 214.48
+			xmax = 250.13
+			text = ""
+		intervals [83]:
+			xmin = 250.13
+			xmax = 250.54
+			text = "é um"
+		intervals [84]:
+			xmin = 250.54
+			xmax = 278.39
+			text = ""
+		intervals [85]:
+			xmin = 278.39
+			xmax = 279.13
+			text = "e é"
+		intervals [86]:
+			xmin = 279.13
+			xmax = 279.9
+			text = "..."
+		intervals [87]:
+			xmin = 279.9
+			xmax = 280.15
+			text = "interessante"
+		intervals [88]:
+			xmin = 280.15
+			xmax = 280.63
+			text = "é"
+		intervals [89]:
+			xmin = 280.63
+			xmax = 283.34
+			text = ""
+		intervals [90]:
+			xmin = 283.34
+			xmax = 284.06
+			text = "uma"
+		intervals [91]:
+			xmin = 284.06
+			xmax = 298.02
+			text = ""
+		intervals [92]:
+			xmin = 298.02
+			xmax = 299.28
+			text = "quer dizer que tecnicamente a solução"
+		intervals [93]:
+			xmin = 299.28
+			xmax = 299.96
+			text = "seria mão única ali"
+		intervals [94]:
+			xmin = 299.96
+			xmax = 300.05
+			text = ""
+		intervals [95]:
+			xmin = 300.05
+			xmax = 300.41
+			text = "quer estacionar"
+		intervals [96]:
+			xmin = 300.41
+			xmax = 301.21
+			text = "..."
+		intervals [97]:
+			xmin = 301.21
+			xmax = 302.65
+			text = "só na faixa amarela mesmo"
+		intervals [98]:
+			xmin = 302.65
+			xmax = 305.41
+			text = ""
+		intervals [99]:
+			xmin = 305.41
+			xmax = 305.95
+			text = "desce carro"
+		intervals [100]:
+			xmin = 305.95
+			xmax = 306.46
+			text = "sobe carro"
+		intervals [101]:
+			xmin = 306.46
+			xmax = 311.29
+			text = ""
+		intervals [102]:
+			xmin = 311.29
+			xmax = 311.62
+			text = "devia"
+		intervals [103]:
+			xmin = 311.62
+			xmax = 313.59
+			text = "virar ônibus então se diz o aspecto"
+		intervals [104]:
+			xmin = 313.59
+			xmax = 313.82
+			text = ""
+		intervals [105]:
+			xmin = 313.82
+			xmax = 314.14
+			text = "diz ao"
+		intervals [106]:
+			xmin = 314.14
+			xmax = 314.51
+			text = "aspecto urbanístico"
+		intervals [107]:
+			xmin = 314.51
+			xmax = 318.18
+			text = ""
+		intervals [108]:
+			xmin = 318.18
+			xmax = 318.76
+			text = "deixá a rua aberta"
+		intervals [109]:
+			xmin = 318.76
+			xmax = 401.81
+			text = ""
+		intervals [110]:
+			xmin = 401.81
+			xmax = 402.19
+			text = "não"
+		intervals [111]:
+			xmin = 402.19
+			xmax = 403.31
+			text = "..."
+		intervals [112]:
+			xmin = 403.31
+			xmax = 404.2
+			text = "não escrevo dificilmente"
+		intervals [113]:
+			xmin = 404.2
+			xmax = 405.38
+			text = "..."
+		intervals [114]:
+			xmin = 405.38
+			xmax = 408.89
+			text = ""
+		intervals [115]:
+			xmin = 408.89
+			xmax = 410.05
+			text = "é mas não é assim um hábito"
+		intervals [116]:
+			xmin = 410.05
+			xmax = 410.4
+			text = "..."
+		intervals [117]:
+			xmin = 410.4
+			xmax = 410.53
+			text = "eu"
+		intervals [118]:
+			xmin = 410.53
+			xmax = 411.22
+			text = "..."
+		intervals [119]:
+			xmin = 411.22
+			xmax = 411.7
+			text = "não"
+		intervals [120]:
+			xmin = 411.7
+			xmax = 418.47
+			text = ""
+		intervals [121]:
+			xmin = 418.47
+			xmax = 419.94
+			text = "eu acho que depende dos contatos que se tem também né"
+		intervals [122]:
+			xmin = 419.94
+			xmax = 421.83
+			text = ""
+		intervals [123]:
+			xmin = 421.83
+			xmax = 424.31
+			text = "quando se tem por exemplo uma pessoa fora"
+		intervals [124]:
+			xmin = 424.31
+			xmax = 425.88
+			text = "exato então naturalmente"
+		intervals [125]:
+			xmin = 425.88
+			xmax = 426.19
+			text = "..."
+		intervals [126]:
+			xmin = 426.19
+			xmax = 426.25
+			text = ""
+		intervals [127]:
+			xmin = 426.25
+			xmax = 427.48
+			text = "..."
+		intervals [128]:
+			xmin = 427.48
+			xmax = 434.0
+			text = "vai mandar correspondência você vai enviar"
+		intervals [129]:
+			xmin = 434.0
+			xmax = 434.54
+			text = "..."
+		intervals [130]:
+			xmin = 434.54
+			xmax = 439.81
+			text = "correspondência"
+		intervals [131]:
+			xmin = 439.81
+			xmax = 440.38
+			text = "..."
+		intervals [132]:
+			xmin = 440.38
+			xmax = 444.17
+			text = "a gente está"
+		intervals [133]:
+			xmin = 444.17
+			xmax = 444.52
+			text = "..."
+		intervals [134]:
+			xmin = 444.52
+			xmax = 446.1
+			text = "fora"
+		intervals [135]:
+			xmin = 446.1
+			xmax = 446.99
+			text = "..."
+		intervals [136]:
+			xmin = 446.99
+			xmax = 448.83
+			text = "me"
+		intervals [137]:
+			xmin = 448.83
+			xmax = 449.34
+			text = "..."
+		intervals [138]:
+			xmin = 449.34
+			xmax = 456.23
+			text = "todas as vezes que"
+		intervals [139]:
+			xmin = 456.23
+			xmax = 456.57
+			text = "..."
+		intervals [140]:
+			xmin = 456.57
+			xmax = 459.45
+			text = "fiquei fora"
+		intervals [141]:
+			xmin = 459.45
+			xmax = 460.1
+			text = "..."
+		intervals [142]:
+			xmin = 460.1
+			xmax = 462.04
+			text = ""
+		intervals [143]:
+			xmin = 462.04
+			xmax = 462.6
+			text = "..."
+		intervals [144]:
+			xmin = 462.6
+			xmax = 462.87
+			text = ""
+		intervals [145]:
+			xmin = 462.87
+			xmax = 463.36
+			text = "os"
+		intervals [146]:
+			xmin = 463.36
+			xmax = 468.98
+			text = "dias então você é"
+		intervals [147]:
+			xmin = 468.98
+			xmax = 470.23
+			text = "..."
+		intervals [148]:
+			xmin = 470.23
+			xmax = 472.35
+			text = ""
+		intervals [149]:
+			xmin = 472.35
+			xmax = 472.68
+			text = "..."
+		intervals [150]:
+			xmin = 472.68
+			xmax = 478.93
+			text = "seus pontos de referência os seus amigos os"
+		intervals [151]:
+			xmin = 478.93
+			xmax = 480.3
+			text = "..."
+		intervals [152]:
+			xmin = 480.3
+			xmax = 483.26
+			text = ""
+		intervals [153]:
+			xmin = 483.26
+			xmax = 484.03
+			text = "..."
+		intervals [154]:
+			xmin = 484.03
+			xmax = 490.71
+			text = ""
+		intervals [155]:
+			xmin = 490.71
+			xmax = 491.85
+			text = "..."
+		intervals [156]:
+			xmin = 491.85
+			xmax = 496.29
+			text = ""
+		intervals [157]:
+			xmin = 496.29
+			xmax = 496.83
+			text = "..."
+		intervals [158]:
+			xmin = 496.83
+			xmax = 497.91
+			text = ""
+		intervals [159]:
+			xmin = 497.91
+			xmax = 498.69
+			text = "..."
+		intervals [160]:
+			xmin = 498.69
+			xmax = 513.67
+			text = ""
+		intervals [161]:
+			xmin = 513.67
+			xmax = 514.15
+			text = "..."
+		intervals [162]:
+			xmin = 514.15
+			xmax = 516.94
+			text = ""
+		intervals [163]:
+			xmin = 516.94
+			xmax = 517.4
+			text = "..."
+		intervals [164]:
+			xmin = 517.4
+			xmax = 524.53
+			text = ""
+		intervals [165]:
+			xmin = 524.53
+			xmax = 525.17
+			text = "..."
+		intervals [166]:
+			xmin = 525.17
+			xmax = 526.12
+			text = ""
+		intervals [167]:
+			xmin = 526.12
+			xmax = 526.51
+			text = "..."
+		intervals [168]:
+			xmin = 526.51
+			xmax = 529.39
+			text = ""
+		intervals [169]:
+			xmin = 529.39
+			xmax = 529.9
+			text = "..."
+		intervals [170]:
+			xmin = 529.9
+			xmax = 535.21
+			text = "todos os pontos de referência sentimentais estavam aqui"
+		intervals [171]:
+			xmin = 535.21
+			xmax = 535.9
+			text = "..."
+		intervals [172]:
+			xmin = 535.9
+			xmax = 540.87
+			text = "então daí sim você tem aquela necessidade de se comunicar então daí você escreve bastante porque não"
+		intervals [173]:
+			xmin = 540.87
+			xmax = 542.13
+			text = "..."
+		intervals [174]:
+			xmin = 542.13
+			xmax = 542.87
+			text = "há possibilidade"
+		intervals [175]:
+			xmin = 542.87
+			xmax = 543.44
+			text = "..."
+		intervals [176]:
+			xmin = 543.44
+			xmax = 549.65
+			text = "de você fazer telefonemas assim internacionais a todo instante né o preço de telefonemas e tudo"
+		intervals [177]:
+			xmin = 549.65
+			xmax = 552.95
+			text = "..."
+		intervals [178]:
+			xmin = 552.95
+			xmax = 559.11
+			text = "isso mais quando é se está aqui e todas as pessoas estão por perto então a não ser assim ocasionalmente você tem amigos ou parentes que"
+		intervals [179]:
+			xmin = 559.11
+			xmax = 559.51
+			text = "..."
+		intervals [180]:
+			xmin = 559.51
+			xmax = 559.57
+			text = "estejam"
+		intervals [181]:
+			xmin = 559.57
+			xmax = 560.88
+			text = "..."
+		intervals [182]:
+			xmin = 560.88
+			xmax = 582.54
+			text = ""
+		intervals [183]:
+			xmin = 582.54
+			xmax = 583.21
+			text = "exato se você está"
+		intervals [184]:
+			xmin = 583.21
+			xmax = 584.51
+			text = ""
+		intervals [185]:
+			xmin = 584.51
+			xmax = 585.64
+			text = "exato então quando você está"
+		intervals [186]:
+			xmin = 585.64
+			xmax = 587.68
+			text = ""
+		intervals [187]:
+			xmin = 587.68
+			xmax = 587.97
+			text = "sim"
+		intervals [188]:
+			xmin = 587.97
+			xmax = 588.39
+			text = "uma necessidade sentimental"
+		intervals [189]:
+			xmin = 588.39
+			xmax = 589.61
+			text = "exato porque as suas pessoas então"
+		intervals [190]:
+			xmin = 589.61
+			xmax = 761.6
+			text = ""
+	item [5]:
+		class = "IntervalTier"
+		name = "TB-docf"
+		xmin = 0.0
+		xmax = 761.6
+		intervals: size = 23
+		intervals [1]:
+			xmin = 0.0
+			xmax = 365.96
+			text = ""
+		intervals [2]:
+			xmin = 365.96
+			xmax = 373.37
+			text = "por hora mas é importante isso fundamental que dê alguma coisa entende não pode ficar uma cidade assim tão morta como a nossa e quando vocês querem assim falar com um se comunicar com uma"
+		intervals [3]:
+			xmin = 373.37
+			xmax = 374.23
+			text = "..."
+		intervals [4]:
+			xmin = 374.23
+			xmax = 377.04
+			text = "pessoa que esteja fora de são paulo como é que vocês sofrem"
+		intervals [5]:
+			xmin = 377.04
+			xmax = 377.68
+			text = ""
+		intervals [6]:
+			xmin = 377.68
+			xmax = 378.06
+			text = "são paulo"
+		intervals [7]:
+			xmin = 378.06
+			xmax = 378.39
+			text = "é"
+		intervals [8]:
+			xmin = 378.39
+			xmax = 379.6
+			text = "..."
+		intervals [9]:
+			xmin = 379.6
+			xmax = 385.16
+			text = ""
+		intervals [10]:
+			xmin = 385.16
+			xmax = 385.79
+			text = "telefone não sei cê"
+		intervals [11]:
+			xmin = 385.79
+			xmax = 386.25
+			text = "escreve"
+		intervals [12]:
+			xmin = 386.25
+			xmax = 388.27
+			text = "..."
+		intervals [13]:
+			xmin = 388.27
+			xmax = 401.26
+			text = ""
+		intervals [14]:
+			xmin = 401.26
+			xmax = 401.59
+			text = "você escreve"
+		intervals [15]:
+			xmin = 401.59
+			xmax = 401.81
+			text = "sirlei"
+		intervals [16]:
+			xmin = 401.81
+			xmax = 411.7
+			text = ""
+		intervals [17]:
+			xmin = 411.7
+			xmax = 412.72
+			text = "tenho hábito também porque"
+		intervals [18]:
+			xmin = 412.72
+			xmax = 413.57
+			text = "..."
+		intervals [19]:
+			xmin = 413.57
+			xmax = 414.21
+			text = "que"
+		intervals [20]:
+			xmin = 414.21
+			xmax = 414.63
+			text = "..."
+		intervals [21]:
+			xmin = 414.63
+			xmax = 418.08
+			text = "vocês acham que de uma maneira geral nenhum de nós tem hábito de"
+		intervals [22]:
+			xmin = 418.08
+			xmax = 418.47
+			text = "escrever carta hein"
+		intervals [23]:
+			xmin = 418.47
+			xmax = 761.6
+			text = ""
+	item [6]:
+		class = "IntervalTier"
+		name = "NTB-docf"
+		xmin = 0.0
+		xmax = 761.6
+		intervals: size = 23
+		intervals [1]:
+			xmin = 0.0
+			xmax = 365.96
+			text = ""
+		intervals [2]:
+			xmin = 365.96
+			xmax = 373.37
+			text = "por hora mas é importante isso fundamental que dê alguma coisa entende não pode ficar uma cidade assim tão morta como a nossa e quando vocês querem assim falar com um se comunicar com uma"
+		intervals [3]:
+			xmin = 373.37
+			xmax = 374.23
+			text = "..."
+		intervals [4]:
+			xmin = 374.23
+			xmax = 377.04
+			text = "pessoa que esteja fora de são paulo como é que vocês sofrem"
+		intervals [5]:
+			xmin = 377.04
+			xmax = 377.68
+			text = ""
+		intervals [6]:
+			xmin = 377.68
+			xmax = 378.06
+			text = "são paulo"
+		intervals [7]:
+			xmin = 378.06
+			xmax = 378.39
+			text = "é"
+		intervals [8]:
+			xmin = 378.39
+			xmax = 379.6
+			text = "..."
+		intervals [9]:
+			xmin = 379.6
+			xmax = 385.16
+			text = ""
+		intervals [10]:
+			xmin = 385.16
+			xmax = 385.79
+			text = "telefone não sei cê"
+		intervals [11]:
+			xmin = 385.79
+			xmax = 386.25
+			text = "escreve"
+		intervals [12]:
+			xmin = 386.25
+			xmax = 388.27
+			text = "..."
+		intervals [13]:
+			xmin = 388.27
+			xmax = 401.26
+			text = ""
+		intervals [14]:
+			xmin = 401.26
+			xmax = 401.59
+			text = "você escreve"
+		intervals [15]:
+			xmin = 401.59
+			xmax = 401.81
+			text = "sirlei"
+		intervals [16]:
+			xmin = 401.81
+			xmax = 411.7
+			text = ""
+		intervals [17]:
+			xmin = 411.7
+			xmax = 412.72
+			text = "tenho hábito também porque"
+		intervals [18]:
+			xmin = 412.72
+			xmax = 413.57
+			text = "..."
+		intervals [19]:
+			xmin = 413.57
+			xmax = 414.21
+			text = "que"
+		intervals [20]:
+			xmin = 414.21
+			xmax = 414.63
+			text = "..."
+		intervals [21]:
+			xmin = 414.63
+			xmax = 418.08
+			text = "vocês acham que de uma maneira geral nenhum de nós tem hábito de"
+		intervals [22]:
+			xmin = 418.08
+			xmax = 418.47
+			text = "escrever carta hein"
+		intervals [23]:
+			xmin = 418.47
+			xmax = 761.6
+			text = ""
+	item [7]:
+		class = "IntervalTier"
+		name = "comentarios-anotacao"
+		xmin = 0.0
+		xmax = 761.6
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0
+			xmax = 761.6
+			text = ""
+	item [8]:
+		class = "IntervalTier"
+		name = "comentarios"
+		xmin = 0.0
+		xmax = 761.6
+		intervals: size = 1
+		intervals [1]:
+			xmin = 0.0
+			xmax = 761.6
+			text = ""
