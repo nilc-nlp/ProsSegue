@@ -106,8 +106,59 @@ class AutomaticSegmentation:
             new_text = os.linesep.join([s for s in new_text.splitlines() if s])
         return new_text
 
+    # MUPE
+    def generate_words_file_mupe(self, locs_file, locs_words_file):
+        with open(locs_file, 'r') as lf:
+            linhas = lf.readlines()
+        locs_list = []
+        for i, l in enumerate(linhas):
+            if(l.find(';') != -1):
+                loc = l.split(';')[0].lower()
+                #loc = re.sub('[-.,!;\s]', '', loc) # limpando locutor de caracteres especiais e espaços
+                if loc not in locs_list:
+                    #print("loc appended", loc)
+                    locs_list.append(loc)
+
+        with open(locs_file.replace("_locutores.txt", ".txt"), 'w', encoding='utf-8') as nlf2:
+            with open(locs_words_file, 'w', encoding='utf-8') as nlf:
+                for l in linhas:
+                    if(l.find(';') != -1):
+                        loc = l.split(";")[0]
+                        loc = l.split(';')[0].lower()
+                        #loc = re.sub('[-.,!;\s]', '', loc) # limpando locutor de caracteres especiais e espaços
+                        #phrase_elements = l.split(" ")
+                        # se houver um locutor no meio da frase, este loop identifica e remove a menção do locutor com o ; 
+                        #for index, element in enumerate(phrase_elements):
+                        #    if(element.find(';') != -1): # se houver um ; na palavra, então é um erro de locutor concatenado à primeira palavra da próxima frase
+                        #        phrase_elements[index] = element.split(";")[1] # este elemento é atualizado só com a palavra, sem o locutor
+                        #        l = " ".join(phrase_elements) # e a frase é reconstruída sem o locutor
+                        # padronizando locutores para doc1, doc2... e l1,l2,...
+                        #loc = re.sub(r'inf(\d+)', r'l\1', loc)
+                        #loc = re.sub(r'doc(\d+)', r'doc\1', loc)
+                        # necessário entender quem são inf., doc. inf.m, inf.f, doc.m, doc.f
+                        #loc = re.sub(r'inff', r'l1', loc)
+                        #loc = re.sub(r'infm', r'l2', loc)
+                        #loc = re.sub(r'docf', r'doc1', loc)
+                        #loc = re.sub(r'docm', r'doc2', loc)
+                        #loc = re.sub('inf$', 'l1', loc)
+                        #loc = re.sub('doc$', 'doc1', loc)
+                        #for loc_from_list in locs_list:
+                        #    if re.search(loc_from_list+"[\s.;,-].*", l,re.IGNORECASE):  #remove locutor duplicado no inicio do texto    
+                        #        l = l[len(loc_from_list)+1:]
+                    #l = l.lower()
+                    #l = self.clean_text(l)
+                    
+                    for lp in l.split(";")[1].split():#l.split():
+                        if lp.isnumeric():
+                            continue
+                        nlf.write(loc+';'+lp+"\n") # reescreve o .txt do texto
+                        nlf2.write(lp+" ") # escreve o arquivo de palavras por locutor
+        self.text_align = locs_file.replace(".txt", "_palavras_align.txt")
+
+
+    # CATNA
     # Gera dois novos arquivos com as falas e os turnos
-    def generate_words_file(self, locs_file, locs_words_file):
+    def generate_words_file_catna(self, locs_file, locs_words_file):
         with open(locs_file, 'r') as lf:
             linhas = lf.readlines()
         locs_list = []
@@ -167,6 +218,7 @@ class AutomaticSegmentation:
             new_tier = tgt.core.IntervalTier(start_time=tier.start_time + initial_time, end_time=tier.end_time + initial_time, name=tier.name, objects=None)
             # para o textgrid correspondente a cada segmento:
             for textgrid in alignment_tg_list:
+                #print(textgrid, tier)
                 tg = tgt.io.read_textgrid(textgrid, self.predict_encoding(textgrid))
                 original_tier = tg.get_tier_by_name(tier.name)
                 # para cada intervalo da camada atual no textgrid atual, criamos um novo intervalo com os tempos ajustados e o adicionamos à camada que criamos no textgrid final
@@ -187,8 +239,17 @@ class AutomaticSegmentation:
 
         concatenated_locs_text = ""
         for locs_file in locs_files_list:
-            with open(locs_file, "r", encoding='utf-8-sig') as f:
+            print(locs_file)
+            with open(locs_file, 'rb') as file:
+                raw_data = file.read(10000)  # Read a sample of the first 10000 bytes
+                encoding_identified = chardet.detect(raw_data)
+                print(encoding_identified['encoding'])
+            with open(locs_file, "r", encoding=encoding_identified['encoding']) as f: # 'utf-8-sig'
+                #if encoding_identified['encoding'] == "ISO-8859-1":
+                #    concatenated_locs_text += f.read()
+                #else:
                 concatenated_locs_text += f.read() + "\n"
+                # obs: qdo o encoding é iso-8859-1, o arquivo de locutores sai com pulos de linha a mais no início e fim do inquérito em questão mas isso parece não afetar os arquivos subsequentes e o resultado final
 
         # escrever conteúdo concatenado no arquivo final        
         with open(final_locs_file_path, "w") as final_locs_file:
@@ -345,6 +406,8 @@ class AutomaticSegmentation:
         boundaries_tier_TB = tgt.core.IntervalTier(start_time=input_tg.start_time, end_time=input_tg.end_time, name="fronteiras_metodo_TB", objects=None)
         boundaries_tier_NTB = tgt.core.IntervalTier(start_time=input_tg.start_time, end_time=input_tg.end_time, name="fronteiras_metodo_NTB", objects=None)
 
+        print("just entered find boundaries function")
+
         # lemos as palavras no arquivo com locutores e geramos essas duas listas:
             # sentences: guarda todas as palavras do texto
             # g2p_words: guarda as palavras convertidas para fonemas
@@ -365,6 +428,8 @@ class AutomaticSegmentation:
             index = 0
             phone = phonemesTier[index]
             still_mounting_grapheme = True
+
+            print("g2p before first loop")
             
             for grapheme in wordGraphemesTier:
               still_mounting_grapheme = True
@@ -373,11 +438,14 @@ class AutomaticSegmentation:
                   auxGrapheme += phone.text
                   # obs.: achei um erro em que o tempo final do grafema não correspondia ao tempo final do último fonema da palavra, então acrescentei essa condição de o tempo do fonema ser maior ou igual
                   if phone.end_time >= grapheme.end_time: # fim da palavra, pula para a próxima
+                    # AQUI PODE DAR ERRO SE O TEMPO DE FIM DO FONEMA FOR DIFERENTE DO TEMPO DE FIM DA PALAVRA
                     g2p_words.append(auxGrapheme)
                     auxGrapheme = ""
                     still_mounting_grapheme = False
                 index += 1
                 
+                print("loop 1", grapheme)
+
                 if index < len(phonemesTier):
                   phone = phonemesTier[index]
                 
@@ -542,6 +610,7 @@ class AutomaticSegmentation:
 
                     # se há troca de turno chamamos as heurísticas para as janelas do turno
                     if locs_and_words[i].split(';')[0] != curr_loc:
+                        print("TROCA DE TURNO", locs_and_words[i].split(';')[0], curr_loc, turn_until_word )
                         # Para desativar a primeira heurística: 
                         #dsrs_1 = []
                         # primeira heurística
@@ -549,7 +618,7 @@ class AutomaticSegmentation:
                         
                         #print("dsrs1",dsrs_1)
 
-                        # Para desativar a segundaa heurística: 
+                        # Para desativar a segunda heurística: 
                         #dsrs_2 = []
                         # segunda heurística
                         dsrs_2 = self.dsr_threshold_2(dsr_windows_1, delta2, interval_size, windows, min_words_h2)
@@ -585,25 +654,37 @@ class AutomaticSegmentation:
                         windows = []
                         curr_turn = ""
 
+                        # acrescenta tempo do fim do turno à lista de fronteiras para garantir que sempre há fronteira em troca de turno
+                        print(turn_until_word[i][3],[turn_until_word[i][3]] )
+                        all_timestamps_TB += [turn_until_word[i][3]]
+                        all_timestamps_NTB += [turn_until_word[i][3]]
+
                         # atualiza o começo do tempo do turno atual
                         aux = 0
                         if tier.intervals[enum+1].text == "sil":
                             aux = 1
                         last_turn_start = tier.intervals[enum+aux].end_time
                         turn_until_word[i][4] = last_turn_start
+                        #print(turn_until_word, all_timestamps_TB)
+                        print(last_turn_start)
+                        
+                        #quit()
 
                     # atualiza locutor para a proxima palavra
                     curr_loc = locs_and_words[i].split(';')[0]
                     turn_until_word[i][2] = curr_loc 
 
+                    #print("limpando constr", constr)
                     # limpamos a string que guarda a palavra sendo construída pelos fonemas
                     constr = ""
                     # janelas de 300 ms
                     curr_window = [interval.end_time, interval.end_time + window_size]
                     # limpamos a lista de fonemas para a próxima janela
                     window_phones = []
-
-        # terceira heurística
+                    
+        print(turn_until_word) # turn until word ta perfeito!
+        
+        # terceira heurística        
         
         # Para ativar a heurística de silêncios, deixe a próxima linha descomentada
         silences_TB, sil_boundaries_TB = self.print_silences(sil_timestamps, silence_threshold_TB)
@@ -623,10 +704,12 @@ class AutomaticSegmentation:
         boundaries_tier_TB = self.fill_boundaries_tier(all_timestamps_TB, boundaries_tier_TB, sil_boundaries_TB)
         boundaries_tier_NTB = self.fill_boundaries_tier(all_timestamps_NTB, boundaries_tier_NTB, sil_boundaries_NTB)
 
-        last_c = 0
-        last_text = ""
+        print(boundaries_tier_TB)
+        
+        #last_c = 0
+        #last_text = ""
         last_loc = turn_until_word[0][2]
-        last_b = turn_until_word[0][4]
+        #last_b = turn_until_word[0][4]
         missing_text = ""
 
         new_intervals = []
@@ -636,38 +719,50 @@ class AutomaticSegmentation:
 
         # aqui vamos inserir as informações das fronteiras identificadas pelo método nas tiers correspondentes de cada turno no textgrid
         for boundary in boundaries_tier_TB.intervals:
+            print("boundary!!", boundary.start_time, boundary.end_time, boundary.text)
             if boundary.text == "...":
-                new_intervals.append([boundary, last_loc])
-                current_stretch = ""
+                new_intervals.append([boundary, last_loc]) #last_loc
+                current_stretch = missing_text
             # itera pelas palavras
             else:
                 for index_infos_palavra in range(index_atual_lista_palavras,tamanho_lista_palavras):
                     # se o fim da fronteira é menor ou igual ao fim da palavra
                     if boundary.end_time <= turn_until_word[index_infos_palavra][5]:
+                        if boundary.end_time < turn_until_word[index_infos_palavra][5]: #fim da fronteira é menor que fim da palavra, logo deve ser igual ao tempo de início da palavra atual
+                            if current_stretch == "" and missing_text == "": # esse intervalo é de silêncio mas não estava denotado com "...", 
+                                break #pula pro próximo sem trocar o índice da palavra
+                            else:
+                                missing_text = turn_until_word[index_infos_palavra][0] + " "
+                        else:
+                            print("missing text", missing_text)
+                            print("current stretch ORIGINAL", current_stretch) #    
+                            current_stretch += turn_until_word[index_infos_palavra][0]
+                            last_loc = turn_until_word[index_infos_palavra][2]
+                            print("mais ultima adição",turn_until_word[index_infos_palavra][0], current_stretch)
+                            missing_text = ""
+                        
+                        i_text = current_stretch
+                        print("current stretch", current_stretch, turn_until_word[index_infos_palavra][2], "\n")
+                        i = [tgt.core.Interval(start_time=boundary.start_time, end_time=boundary.end_time, text=i_text), last_loc] # turn_until_word[index_infos_palavra][2] 
+                        new_intervals.append(i)               
+                        current_stretch = missing_text
                         # se trocou de turno, troca o locutor
                         if turn_until_word[index_infos_palavra][2] != last_loc:
                             last_loc = turn_until_word[index_infos_palavra][2]
-                        if boundary.end_time < turn_until_word[index_infos_palavra][5]: #fim da fronteira é menor que fim da palavra, logo deve ser igual ao tempo de início da palavra atual
-                            missing_text = turn_until_word[index_infos_palavra][0] + " "
-                        else:
-                            current_stretch += turn_until_word[index_infos_palavra][0]
-                            missing_text = ""
-                        i_text = current_stretch
-                        i = [tgt.core.Interval(start_time=boundary.start_time, end_time=boundary.end_time, text=i_text), turn_until_word[index_infos_palavra][2]] 
-                        new_intervals.append(i)
-                        current_stretch = missing_text
                         # para de iterar pelas palavras para essa fronteira pois já foi encontrada
                         index_atual_lista_palavras = index_infos_palavra + 1
                         break
                     current_stretch += turn_until_word[index_infos_palavra][0] + " "
+                    last_loc = turn_until_word[index_infos_palavra][2]
+                    #print("adicionando na current stretch", current_stretch)
+
         # adiciona intervalos na camada tb do turno adequado
-        for ni in new_intervals:
+        for ni in new_intervals: # AQUI JA ESTAVA ERRADO
             tb_turn_tier = output_tg.get_tier_by_name("TB-"+ni[1])
             try:
                 tb_turn_tier.add_interval(ni[0])
             except:
                 print("overlap")
-
         # reset de variáveis para NTB
 
         new_intervals = []
@@ -675,39 +770,41 @@ class AutomaticSegmentation:
         current_stretch = "" # trecho atual
         last_loc = turn_until_word[0][2]
         missing_text = ""
+        tamanho_lista_palavras = len(turn_until_word)
 
 
         # aqui vamos inserir as informações das fronteiras identificadas pelo método nas tiers correspondentes de cada turno no textgrid
         for boundary in boundaries_tier_NTB.intervals:
             if boundary.text == "...":
                 new_intervals.append([boundary, last_loc])
-                current_stretch = ""
+                current_stretch = missing_text
             # itera pelas palavras
             else:
                 for index_infos_palavra in range(index_atual_lista_palavras,tamanho_lista_palavras):
                     # se o fim da fronteira é menor ou igual ao fim da palavra
                     if boundary.end_time <= turn_until_word[index_infos_palavra][5]:
                         # se trocou de turno, troca o locutor
-                        if turn_until_word[index_infos_palavra][2] != last_loc:
-                            last_loc = turn_until_word[index_infos_palavra][2]
                         if boundary.end_time < turn_until_word[index_infos_palavra][5]: #fim da fronteira é menor que fim da palavra, logo deve ser igual ao tempo de início da palavra atual
-                            missing_text = turn_until_word[index_infos_palavra][0] + " "
-                        else:
+                            if current_stretch == "" and missing_text == "": # esse intervalo é de silêncio mas não estava denotado com "...", 
+                                break #pula pro próximo sem trocar o índice da palavra
+                            else:
+                                missing_text = turn_until_word[index_infos_palavra][0] + " "
+                        else:   
                             current_stretch += turn_until_word[index_infos_palavra][0]
+                            last_loc = turn_until_word[index_infos_palavra][2]
                             missing_text = ""
                         i_text = current_stretch
-                        #if(i_text == ""):
-                        #    print("ADDING EMPTY INTERVAL", boundary.start_time, boundary.end_time)
-                        #    i = new_intervals.pop()
-                        #    i[0].end_time = boundary.end_time 
-                        #else:
-                        i = [tgt.core.Interval(start_time=boundary.start_time, end_time=boundary.end_time, text=i_text), turn_until_word[index_infos_palavra][2]] 
-                        new_intervals.append(i)
+                        i = [tgt.core.Interval(start_time=boundary.start_time, end_time=boundary.end_time, text=i_text), last_loc] # turn_until_word[index_infos_palavra][2] 
+                        new_intervals.append(i)               
                         current_stretch = missing_text
+                        # se trocou de turno, troca o locutor
+                        if turn_until_word[index_infos_palavra][2] != last_loc:
+                            last_loc = turn_until_word[index_infos_palavra][2]
                         # para de iterar pelas palavras para essa fronteira pois já foi encontrada
                         index_atual_lista_palavras = index_infos_palavra + 1
                         break
                     current_stretch += turn_until_word[index_infos_palavra][0] + " "
+                    last_loc = turn_until_word[index_infos_palavra][2]
         
         # adiciona intervalos na camada ntb do turno adequado
         for ni in new_intervals:
@@ -716,8 +813,6 @@ class AutomaticSegmentation:
                 ntb_turn_tier.add_interval(ni[0])
             except:
                 print("overlap")
-
-
 
         # adiciona tier para comentários dos anotadores
         comments1_tier = tgt.core.IntervalTier(start_time=input_tg.start_time, end_time=input_tg.end_time, name="comentarios-anotacao", objects=None)
@@ -774,7 +869,7 @@ class AutomaticSegmentation:
                               mb[2]  = 'dsrs 1 '
                             if mb[0].start_time in timestamps_dsrs_2:
                               mb[2] += 'dsrs 2 '
-                            if mb[0].start_time in silences:
+                            if mb[0].start_time in timestamps_silences:
                               mb[2] += 'sil '
                         else:
                             R += 1
@@ -950,15 +1045,56 @@ class AutomaticSegmentation:
 
 # Inquérito selecionado
 #inq = "SP_EF_156"
-inq = "SP_D2_255"
+#inq = "SP_D2_255"
 #inq = "SP_DID_242"
 #inq = "SP_D2_012"
 #inq = "SP_D2_360"
+#inq = "SP_DID_016"            
+#inq = "SP_DID_013"
+#inq = "SP_DID_002"
+#inq = "SP_DID_070"
+#inq = "SP_DID_114"
+#inq = "SP_DID_111"
+#inq = "SP_D2_078"
+
 i = 1
-segments_quantity = 8
+#segments_quantity = 9
 alignment_tg_list = []
 locs_files_list = []
-rel_path_inq = "Data/" + inq + "_segmentado/"
+#rel_path_inq = "Data/" + inq + "_segmentado/"
+#rel_path_inq = "/home/giovana/Documentos/Mestrado/ProsSeguePastaLocal/CATNA/" + inq + "_segmentado/"
+
+# MUPE
+#estado = "RO"
+estado = "RJ"
+estado = "SE"
+#estado = "PA"
+#estado = "RS"
+#estado = "PI"
+#estado = "PR"
+#estado = "PB"
+#estado = "GO"
+#estado = "AL"
+#estado = "MG"
+#estado = "PE"
+#estado = "CE"
+#estado = "SP"
+#estado = "BA"
+#estado = "ES"
+#estado = "MS"
+
+## versao-0
+#genero = "Masc"
+#genero = "Fem"
+#inq = estado + "_" + genero
+
+## versao-1
+numero = "1"
+#numero = "2"
+inq = estado + numero
+
+#rel_path_inq = "/home/giovana/Documentos/Mestrado/ProsSeguePastaLocal/MUPE/" + estado +"/"
+rel_path_inq = "/home/giovana/Documentos/Mestrado/MuPe-Diversidades/versao-1/" + estado +"/"
 
 # v2
 #concatenated_tg_file = rel_path_inq + inq + "_concatenated_v2.TextGrid"
@@ -971,47 +1107,50 @@ rel_path_inq = "Data/" + inq + "_segmentado/"
 concatenated_tg_file = rel_path_inq + inq + "_concatenated.TextGrid"
 concatenated_locs_file = rel_path_inq + inq + "_locutores.txt"
 concatenated_locs_words_file = rel_path_inq + inq + "_locutores_palavras.txt"
-output_tg_file = rel_path_inq + inq + "_OUTPUT_NEW.TextGrid"
+output_tg_file = rel_path_inq + inq + "_OUTPUT.TextGrid" # CUIDADO AO RODAR ESSA VERSÃO COM OS INQUERITOS USADOS NO ARTIGO PQ OS RESULTADOS VÃO DAR DIFERENTE DEVIDO À PERSONALIZAÇÃO DA THRESHOLD DE NTB PARA 0.1
 metrics_path = rel_path_inq + inq + "_metrics.csv"
 annot_tg = rel_path_inq + inq + ".TextGrid"
-print(annot_tg)
+#print(annot_tg)
 
-for i in range (1,segments_quantity+1):
-    segment_number = str(i)
-    path = rel_path_inq + inq + "_" + segment_number + "/" + inq 
-    clipped_path = path + "_clipped_" + segment_number
+#for i in range (1,segments_quantity+1):
+#segment_number = str(i)
+#path = rel_path_inq + inq + "_" + segment_number + "/" + inq
+path = rel_path_inq + inq 
+clipped_path = path #+ "_clipped_" + segment_number
 
-    # v1
+# v1
 
-    locs_words_file = clipped_path + "_locutores_palavras.txt"
-    locs_file =  clipped_path + "_locutores.txt"
-    #output_tg_file = clipped_path + "_OUTPUT.TextGrid"
-    alignment_tg = clipped_path + ".TextGrid"
-    
-    # To use v2 - uncomment the following:
+locs_words_file = clipped_path + "_locutores_palavras.txt"
+locs_file =  clipped_path + "_locutores.txt"
+#output_tg_file = clipped_path + "_OUTPUT.TextGrid"
+alignment_tg = clipped_path + "_fones.TextGrid"
 
-    #path = rel_path_inq + "v2/" + inq
-    #locs_file =  clipped_path + "_locutores_v2.txt"
-    #alignment_tg = clipped_path + "_v2.TextGrid"
-    #annot_tg = path + "_v2.TextGrid"
-    
-    #Criando a classe com todas as funções que serão utilizadas
-    Segmentation = AutomaticSegmentation(path, locs_file)
+# To use v2 - uncomment the following:
 
-    # Pré-processando text grid de entrada
-    Segmentation.remove_overlaps(alignment_tg)
-    alignment_tg_list.append(alignment_tg)
-    locs_files_list.append(locs_file)
+#path = rel_path_inq + "v2/" + inq
+#locs_file =  clipped_path + "_locutores_v2.txt"
+#alignment_tg = clipped_path + "_v2.TextGrid"
+#annot_tg = path + "_v2.TextGrid"
+
+#Criando a classe com todas as funções que serão utilizadas
+Segmentation = AutomaticSegmentation(path, locs_file)
+
+# Pré-processando text grid de entrada
+Segmentation.remove_overlaps(alignment_tg)
+alignment_tg_list.append(alignment_tg)
+locs_files_list.append(locs_file)
+
+print(alignment_tg_list)
 
 # Juntando todos os textgrids de entrada
-Segmentation.concatenate_textgrids(alignment_tg_list, concatenated_tg_file)
-
+#Segmentation.concatenate_textgrids(alignment_tg_list, concatenated_tg_file)
 
 # Juntando todos os arquivos de locutores
-Segmentation.concatenate_locs_file(locs_files_list, concatenated_locs_file)
+#Segmentation.concatenate_locs_file(locs_files_list, concatenated_locs_file)
 
 # Gera arquivo de palavras por locutor
-Segmentation.generate_words_file(concatenated_locs_file, concatenated_locs_words_file)
+#Segmentation.generate_words_file_catna(concatenated_locs_file, concatenated_locs_words_file)
+Segmentation.generate_words_file_mupe(locs_file, locs_words_file)
 
 # Parâmetros
 window_size = 0.3
@@ -1024,7 +1163,9 @@ min_words_h2 = 10
 hits_threshold = 0.25
 
 # Aplicando o método
-silences_TB, silences_NTB, dsrs_1, dsrs_2 = Segmentation.find_boundaries(concatenated_locs_words_file, concatenated_tg_file, annot_tg, output_tg_file, window_size, delta1, delta2, silence_threshold_TB, silence_threshold_NTB, interval_size, min_words_h2)
+silences_TB, silences_NTB, dsrs_1, dsrs_2 = Segmentation.find_boundaries(locs_words_file, alignment_tg, annot_tg, output_tg_file, window_size, delta1, delta2, silence_threshold_TB, silence_threshold_NTB, interval_size, min_words_h2)
+# when there is more than one file
+#silences_TB, silences_NTB, dsrs_1, dsrs_2 = Segmentation.find_boundaries(concatenated_locs_words_file, concatenated_tg_file, annot_tg, output_tg_file, window_size, delta1, delta2, silence_threshold_TB, silence_threshold_NTB, interval_size, min_words_h2)
 
 # Imprimindo alguns dados
 print("silences TB", silences_TB)
@@ -1041,12 +1182,12 @@ print(output_tg_file, "SUCCESS" )
 print(annot_tg)
 
 # Métricas
-print("Metrics TB")
-Segmentation.metrics(annot_tg, output_tg_file, hits_threshold, metrics_path) 
+#print("Metrics TB")
+#Segmentation.metrics(annot_tg, output_tg_file, hits_threshold, metrics_path) 
 
 
 # 6 parâmetros: tamanho da janela: 0.3                      (em s, deve ser positivo e não deve ser grande, talvez no max 1s)
-#               threshold da 1a heurística (porcentagem
+#               threshcdold da 1a heurística (porcentagem
 #                   da maior diferença de taxas de fala
 #                   de janelas consecutivas para caracterizar
 #                   DSR): 0.88                              (no intervalo [0, 1] e não muito pequeno, talvez no min 0.5 ou 0.6)
