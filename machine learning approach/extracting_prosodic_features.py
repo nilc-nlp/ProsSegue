@@ -1,12 +1,12 @@
-# Extraction of prosodic features
+# Extraction of prosodic features from each syllable of the audio and assembling labels
 
 # Requirements:
-# Corpus MuPe-Diversidades, there must be folders "/MuPe-Diversidades/versao-1/" containing all audios, textgrids with phonetic alignment and refrence textgrids with prosodic segmented utterances, in the same folder as this code
+# Corpus MuPe-Diversidades, there must be folders "/MuPe-Diversidades/versao-1/" containing all audios, textgrids with phonetic alignment and reference textgrids with prosodic segmented utterances, in the same folder as this code
 
 
-# Related methods
+# Prosodic features replicated from article:
 #    Luengo, I., Navas, E., Hernáez, I., & Sánchez, J. (2005). Automatic emotion recognition using prosodic parameters. In Ninth European conference on speech communication and technology.
-#    Rao, K. S., Koolagudi, S. G., & Vempada, R. R. (2013). Emotion recognition from speech using global and local prosodic features. International journal of speech technology, 16(2), 143-160.
+#
 
 import os
 from os.path import isfile, join
@@ -122,18 +122,6 @@ for i, inquiry in enumerate(audios_list): # To extract features exclusively from
   # Dividing audio in syllables
 
   syllable_frames = [ y[int(interval.start_time * sr):int(interval.end_time * sr)] for interval in syllables_tier]
-  
-  # Generate silent padding for the start and end of each syllable
-  #padding_duration = 0.05  # 50ms of silence on each side so pitch extraction will consider edges - if pitch is extracted from the silence padding, it is considered NAN and are supposed to be ignored     
-  #num_padding_samples = int(sr * padding_duration) # Convert time to samples
-  #silent_padding = numpy.zeros(num_padding_samples)  # Silent array
-  #extended_syllable_frames = []
-  #for frame in syllable_frames:
-  #  extended_frame = numpy.concatenate((silent_padding, frame, silent_padding))
-  #  extended_syllable_frames.append(extended_frame)
-  # syllable_frames = extended_syllable_frames)
-  # print(extended_syllable_frames)
-  # quit()
 
   print("Quantity of syllables:", len(syllable_frames))
 
@@ -141,7 +129,7 @@ for i, inquiry in enumerate(audios_list): # To extract features exclusively from
   max_length = max(len(frame) for frame in syllable_frames)
   syllable_frames = [numpy.pad(frame, (0, max_length - len(frame)), mode='constant') for frame in syllable_frames]
 
-  # ADAPT HERE IF USING A DIFFERENT CORPUS, OR IF YOU WISH UTTERANCES FROM ALL SPEAKERS -> UNCOMMENT THIS BLOCK AND COMMENT THE LINE BELOW
+  # ADAPT HERE IF USING A DIFFERENT CORPUS
   # Merge TB tiers from all speakers -- later on, there is filtering_speakers.py to filter utterances spoken by interviewers
   TB_tiers = [tier for tier in tg_reference.tiers if tier.name.startswith("TB-") and "ponto" not in tier.name]
   all_utterances = []
@@ -149,9 +137,6 @@ for i, inquiry in enumerate(audios_list): # To extract features exclusively from
     all_utterances.extend(tier.intervals)
   all_utterances.sort(key=lambda interval: interval.start_time)
   # list of all utterances, ordered according to start time
-
-  # Alternatively, only get utterances from interviewee, considering it is always speaker 0:
-  #all_utterances = tg_reference.get_tier_by_name("TB-speaker 0") # ADAPT HERE IF USING A DIFFERENT CORPUS, OR IF YOU WISH UTTERANCES FROM ALL SPEAKERS -> CHANGE THIS LINE FOR THE COMMENTED BLOCK ABOVE, HOWEVER I STILL WOULD HAVE TO FILTER SYLLABLES LIKE IN THE FILTERING_SPEAKERS.PY
 
   # Calculating vowel mean duration for every possible nucleus vowel
   vowel_types = ["a","e","i","o","u","a~","e~","i~","o~","u~", "E","O"]
@@ -184,7 +169,7 @@ for i, inquiry in enumerate(audios_list): # To extract features exclusively from
         labels.append("NB")   
 
   # Calculating pitch average for each utterance
-  # Note: here, we don't consider the extended sound with a silent padding at the beginning and at the end as the utterance duration is quite longer than a syllable's duration, but still, a few values could be lost at the beginning and ending of each utterance
+  
   for i_utt, utterance in enumerate(all_utterances):
     utterance_frame = y[int(utterance.start_time * sr):int(utterance.end_time * sr)]
     sound = parselmouth.Sound(values=utterance_frame, sampling_frequency=sr)
@@ -200,7 +185,7 @@ for i, inquiry in enumerate(audios_list): # To extract features exclusively from
   phones_index = 0
 
   # Extracting prosodic features from each syllable
-  for i, (frame, interval) in enumerate(zip(syllable_frames, syllables_tier)): # CHANGED SYLLABLE FRAMES TO EXTENDED SYLLABLE FRAMES TO TEST
+  for i, (frame, interval) in enumerate(zip(syllable_frames, syllables_tier)): 
 
     if interval.text != "sil" and utterance_counter <= len(all_utterances): 
       interval.text = interval.text.replace(" ", "")
@@ -266,4 +251,3 @@ for i, inquiry in enumerate(audios_list): # To extract features exclusively from
 
   print(df_prosodic) 
   df_prosodic.to_csv('ExtractedProsodicFeatures/'+inquiry[1]+'_prosodic_features.csv',index=False)
-  #  df_prosodic.to_csv('ExtractedProsodicFeatures/versao final/'+inquiry[1]+'_prosodic_features.csv',index=False)
