@@ -53,7 +53,7 @@ for estado in estados:
     try:
         tg_reference = common_path + estado + "/" + audio_id + "_OUTPUT_revised.TextGrid"
         tg_reference = tgt.io.read_textgrid(tg_reference, predict_encoding(tg_reference), include_empty_intervals=False)
-        prosodic_features = pd.read_csv('ExtractedProsodicFeatures/versao final/'+audio_id+'_prosodic_features.csv')
+        prosodic_features = pd.read_csv('ExtractedProsodicFeatures/'+audio_id+'_prosodic_features.csv')
     except:
         print(audio_id, "doesn't exist, skipping to the next one")
         continue

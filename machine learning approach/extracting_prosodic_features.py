@@ -192,8 +192,7 @@ for i, inquiry in enumerate(audios_list): # To extract features exclusively from
       start_time = round(interval.start_time, 2)
       end_time = round(interval.end_time, 2)
       frame_id = f"frame_{interval.text}_{start_time}_{end_time}"
-      print("frame", frame_id)
-      
+            
       # Identifying the nucleus vowel and getting its characteristics
 
       # Aligning phones' tier with syllables' tier - reaching the first phone of the current syllable
@@ -236,9 +235,6 @@ for i, inquiry in enumerate(audios_list): # To extract features exclusively from
 
       # Updating current utterance
       if labels[labels_counter] == "TB":
-        print("proxima i_utt:", utterance_counter, "labels i", labels_counter, labels[labels_counter])
-        print(frame_id)
-        print(all_utterances[utterance_counter])
         utterance_counter += 1
 
       labels_counter += 1
