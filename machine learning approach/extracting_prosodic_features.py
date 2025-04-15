@@ -260,6 +260,8 @@ def run_pipeline(audio_path, tg_phone, filename, tg_reference=[]):
   #df_prosodic['label'] = labels
 
   print(df_prosodic) 
+  if os.path.isdir('ExtractedProsodicFeatures/') == False:
+     os.mkdir("ExtractedProsodicFeatures/")
   df_prosodic.to_csv('ExtractedProsodicFeatures/'+filename+'_prosodic_features.csv',index=False)
 
 
