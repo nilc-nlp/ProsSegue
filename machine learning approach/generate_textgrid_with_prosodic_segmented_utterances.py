@@ -13,14 +13,14 @@ def predict_encoding(tg_path):
     return chardet.detect(rawdata)['encoding']
 
 features = ['p_dur','n_dur','e_range','e_maxavg_diff',
-            'e_avgmin_diff','f0_range','f0_maxavg_diff','f0_avgmin_diff'] # 'f0_avgutt_diff',
+            'e_avgmin_diff','f0_range','f0_maxavg_diff','f0_avgmin_diff'] # 'f0_avgutt_diff', # we decided to remove this feature since we needed to know TB boundaries to measure f0 avg of an utterance
 
 scaler = pickle.load(open('scaler.prosodic.pkl', 'rb'))
 
 # Comment models that you will not use
-chosen_model = pickle.load(open('SVC_model_whole.pkl', 'rb')) # ADAPT MODEL AFTER TALKING WITH SANDRA
+#chosen_model = pickle.load(open('SVC_model_whole.pkl', 'rb')) 
 chosen_model = pickle.load(open('LDA_model_whole.pkl', 'rb'))
-chosen_model = pickle.load(open('MLP_model_whole.pkl', 'rb')) 
+#chosen_model = pickle.load(open('MLP_model_whole.pkl', 'rb')) 
 
 if len(sys.argv) < 2:
     print("Missing audio or textgrid filenames, please write them like this when you run the code: python3 mycode.py myfeatures.csv mytextgrid.TextGrid")
