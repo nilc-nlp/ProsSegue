@@ -15,7 +15,7 @@ def predict_encoding(tg_path):
 features = ['p_dur','n_dur','e_range','e_maxavg_diff',
             'e_avgmin_diff','f0_range','f0_maxavg_diff','f0_avgmin_diff'] # 'f0_avgutt_diff', # we decided to remove this feature since we needed to know TB boundaries to measure f0 avg of an utterance
 
-scaler = pickle.load(open('scaler_all_mupe-diversidades.prosodic.pkl', 'rb'))
+scaler = pickle.load(open('scaler_prosodic_all_mupe-diversidades.pkl', 'rb'))
 
 # Comment models that you will not use
 chosen_model = pickle.load(open('RandomForest_model_all_mupe-diversidades.pkl', 'rb')) 
