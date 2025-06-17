@@ -2,7 +2,6 @@
 # Training the model using prosodic features
 
 # We use a simple MLP implementation of scikit-learn.
-
 # We recommend that participants explore different classification models, feature selection, data balancing, data augmentation and other techniques such as classifier ensemble.
 
 # Source: https://colab.research.google.com/drive/1hdBMPrfk0-k0RxikBUs113RvNeI3o7j-?authuser=1#scrollTo=t45VreMWBg6W
@@ -18,120 +17,173 @@
 import pandas as pd
 import numpy as np
 import pickle
+import time
+import tracemalloc
+import matplotlib.pyplot as plt
+#import eli5
+#from eli5.sklearn import PermutationImportance
 
+from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
-from sklearn.neural_network import MLPClassifier
-from sklearn.model_selection import cross_val_score, StratifiedKFold
-from sklearn.dummy import DummyClassifier
-
-from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
-import tgt
-from pydub import AudioSegment
-
-# IMPORTS SUGGESTED FOR MODELS BY CHATGPT
-from sklearn.linear_model import LinearRegression
-from sklearn.model_selection import train_test_split
-from sklearn.mixture import GaussianMixture
-from sklearn.neural_network import MLPClassifier
-from sklearn.preprocessing import LabelEncoder
-from sklearn.ensemble import RandomForestClassifier
-
-# modelos usados pelo Bruno
-from sklearn.linear_model import LogisticRegression
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.ensemble import GradientBoostingClassifier
+#from sklearn.neural_network import MLPClassifier
+#from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 from sklearn.svm import SVC
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import make_scorer, f1_score
 
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
-from sklearn.metrics import classification_report
-from sklearn.metrics import confusion_matrix
+#from sklearn.utils.class_weight import compute_sample_weight
+#weights = y_train.map({'NB': 0.5, 'TB': 3.0})
+#model.fit(X_train, y_train, sample_weight=weights) # how to use sample weights at training time
+from codecarbon import EmissionsTracker
 
 
+def join_inquiries_in_single_dataset():
+    estados = ["AL", "BA", "CE", "ES", "GO", "MG", "MS", "PA", "PB", "PE", "PI", "PR", "RJ", "RO", "RS", "SE", "SP"]
+    numeros = ["1", "2"]
+    all_X = [] # prosodic features from all syllables of all audios
+    y = [] # labels from all syllables of all audios
+    frames = []
+    all_stratification_ids = []
+    for estado in estados:
+        for numero in numeros:
+            audio_id = estado+numero
+            #print("Processing",audio_id)
+            # Reading csv file with prosodic features  extracted from each syllable of the original audio
+            try:
+                df_prosodic = pd.read_csv('ExtractedProsodicFeatures/'+audio_id+'_prosodic_features_filtered_speakers.csv')
 
-# Aqui leio um csv correspondente às features prosódicas de cada janela de 10ms do áudio analisado
-df_prosodic = pd.read_csv('ExtractedProsodicFeatures/CE1_prosodic_features.csv')#.sort_values(by='sound_filepath') # desnecessário no caso do córpus MuPe local, que já está em ordem alfabética
+                current_X = df_prosodic[features]        
+                current_X = df_prosodic[features].fillna(0) # Replace NaN values with 0 in X
+                current_X = current_X.values.tolist()
+                all_X.extend(current_X)
 
-features = ['f0_avgutt_diff','p_dur','n_dur','e_range','e_maxavg_diff',
+                current_y = df_prosodic.label.to_list() # Label column must be filled with labels, such as "TB", "NB" at .csv file
+                y.extend(current_y)
+
+                current_frame = df_prosodic['frame'].to_list() # Label column must be filled with labels, such as "TB", "NB" at .csv file
+                frames.extend(current_frame)
+
+                df_prosodic['stratificationID'] = audio_id + "_" + df_prosodic['label'] 
+                current_stratification_id = df_prosodic['stratificationID'].to_list()
+                all_stratification_ids.extend(current_stratification_id) 
+
+            except:
+                print(audio_id, "doesn't exist, skipping to the next one")
+                continue
+
+   
+    mupe_diversidades = pd.DataFrame(all_X, columns=features)
+    mupe_diversidades["frame"] = frames
+    mupe_diversidades["label"] = y
+    mupe_diversidades["stratificationID"] = all_stratification_ids
+    mupe_diversidades.to_csv('MuPe-Diversidades.csv', index=False) 
+
+    X = pd.DataFrame(all_X)
+    
+    return X, y, all_stratification_ids
+
+
+#with EmissionsTracker(project_name="RF - training ") as tracker:
+
+# USE THE FOLLOWING COMMAND ONLY IF YOU HAVE LABELS AND WISH TO TRAIN WITH ALL 9 FEATURES
+#features = ['f0_avgutt_diff','p_dur','n_dur','e_range','e_maxavg_diff','e_avgmin_diff','f0_range','f0_maxavg_diff','f0_avgmin_diff']
+# USE THE FOLLOWING COMMAND ONLY IF YOU WISH TO PREDICT PROSODIC SEGMENTATION (YOU'LL USE ONLY 8 FEATURES)
+
+features = ['p_dur','n_dur','e_range','e_maxavg_diff',
             'e_avgmin_diff','f0_range','f0_maxavg_diff','f0_avgmin_diff']
 
-X = df_prosodic[features]
-#df_prosodic['id'] = df_prosodic['label'].str[-3:] # extraindo só o id da coluna label pq está com o caminho todo do arquivo
-y = df_prosodic.label.to_list() # Aqui a coluna label precisa estar preenchida com info do tipo TB ou - para cada janela de 10ms do áudio - feito!
 
-# Replace NaN values with 0 in X
-X = df_prosodic[features].fillna(0)
-#print(y)
+X, y, all_stratifications_ids = join_inquiries_in_single_dataset()
 
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+#print(all_stratifications_ids)
 
-#sc = StandardScaler() 
-#X = sc.fit_transform(X) # isso aqui faz uma transformação de média 0 e variância 1 que não sei se devia ser aplicada aqui a tudo... concluímos que não precisa
-#print(X)
+# If your dataset is completely contained in a single csv file, adapt the following line for the name and path of your file
+#df_prosodic = pd.read_csv('MuPe-Diversidades.csv')
+#X = df_prosodic[features]
+#y = df_prosodic['label'].to_list()
 
-# Configuração de diferentes modelos para ver qual se sai melhor 
+#print("Stratification ids total count")
+#classes, counts = np.unique(all_stratifications_ids, return_counts=True)
+#print(dict(zip(classes, counts)))
 
-classifiers = [
-    LinearDiscriminantAnalysis(), 
-    #GaussianMixture(n_components=18, covariance_type='full', random_state=42),  # GMM classifier - more complex, requires some more code to be investigated cause it is not a classifier
-    MLPClassifier(hidden_layer_sizes=(25,), activation='logistic', solver='adam', max_iter=200),  # NN classifier as described in the paper, other characteristics are set up by default
-    MLPClassifier(),
-    RandomForestClassifier(n_estimators=100, random_state=42),
-    RandomForestClassifier(),
-    LogisticRegression(),
-    SVC(),
-    GradientBoostingClassifier(),
-    DecisionTreeClassifier()
-]
+scaler = StandardScaler()
+X = scaler.fit_transform(X) # While some classifiers need this step, gradient boosting and decision tree are not affected by this, but it can safely be applied to all
 
-# Testar com inquéritos diversos - juntar todo o conjunto do mupe diversidades para testar tudo aqui
-for classifier in classifiers:
-    print('Running ',classifier)
-    kf=StratifiedKFold(n_splits=5, shuffle=True, random_state=1)
-    scores=cross_val_score(classifier, X, y, cv=kf, scoring='f1_macro') 
-    print(scores,'f1_macro=',np.mean(scores))
-    print('-------')
+seed = 42
 
-# Aqui preciso selecionar o modelo que teve o melhor f1-score e ajustar as próximas linhas de acordo
-# Para treiná-los, só preciso usar o fit em cada um dos modelos
+#X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, train_size=0.8, random_state=seed, shuffle=True, stratify=all_stratifications_ids) # stratify=y 
+
+# checking stratification # CAREFUL, here all_stratification_ids column is attributed to y so we can see what is inside
+#X_train, X_test, y_train, y_test = train_test_split(X, all_stratifications_ids, test_size=0.2, train_size=0.8, random_state=seed, shuffle=True, stratify=all_stratifications_ids) # stratify=y 
+
+#print("Train set stratification count")
+#classes, counts = np.unique(y_train, return_counts=True)
+#print(dict(zip(classes, counts)))
+
+#print("Test set stratification count")
+#classes, counts = np.unique(y_test, return_counts=True)
+#print(dict(zip(classes, counts)))
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, train_size=0.8, random_state=seed, shuffle=True, stratify=all_stratifications_ids) # stratify=y 
+
+# Training with all data to make model available for users
+X_train = X
+y_train = y
+
+""" print("Y train set - TB total count:", y_train.count('TB'))
+print("Y train set - NB total count:", y_train.count('NB'))
+
+print("Y test set - TB total count:", y_test.count('TB'))
+print("Y test set - NB total count:", y_test.count('NB'))
+"""
+#print(X_test)
+#print(y_test)
+
+
+# Salva o objeto scaler que foi utilizado para padronizar os dados para garantir que a mesma transformação seja aplicada a novos dados durante a previsão.
+
+#with open('scaler_prosodic_all_mupe-diversidades.pkl', 'wb') as fid_scaler:
+with open('scaler_prosodic.pkl', 'wb') as fid_scaler:
+    pickle.dump(scaler,fid_scaler)
 
 # Model Training
-print("Training LDA")
-chosen_model = LinearDiscriminantAnalysis()
-chosen_model.fit(X_train,y_train)
 
+print("Training Random Forest")
+#tracemalloc.start()
+#start_time = time.time()
+chosen_model = RandomForestClassifier(max_depth=20, min_samples_split=5, n_estimators=100, class_weight={'NB': 1.0, 'TB': 30},  random_state=seed)
+#chosen_model.fit(X_train,y_train)
+chosen_model.fit(X,y) # ONLY USED THIS TO MAKE AVAILABLE MODEL TRAINED WITH ENTIRE MUPE-DIVERSIDADES
+#memory_usage = tracemalloc.take_snapshot()
+#current, peak = tracemalloc.get_traced_memory()
+#tracemalloc.stop()
+#end_time = time.time()
+#execution_time = end_time - start_time
+#peak_memory = peak / 1024 / 1024
+#print("Execution Time:", round(execution_time,2), "seconds")
+#print(f"Current memory usage:{current / 1024 / 1024:.1f} MB")
+#print(f"Peak memory usage: {peak_memory:.1f} MB")
+#tracemalloc.reset_peak()
+#tracemalloc.clear_traces()
+#print("Random Forest trained")
 
-print("LDA trained")
-# Salva o modelo treinado para não precisar treiná-lo novamente posteriormente
-with open('model.prosodic.pkl', 'wb') as fid_model:
+importances = chosen_model.feature_importances_
+# Sort feature importances in descending order
+indices = np.argsort(importances)[::-1]
+
+# Rearrange feature names so they match the sorted feature importances
+names = [features[i] for i in indices]
+print(names)
+print(np.sort(importances)[::-1])
+
+""" plt.figure(figsize=(10, 6))
+plt.title(str(chosen_model)+" - Feature Importances")
+plt.bar(range(X.shape[1]), importances[indices])
+plt.xticks(range(X.shape[1]), names, rotation=90)
+plt.xlabel("Features")
+plt.ylabel("Importance")
+plt.show() """
+
+with open('RandomForest_model_all_mupe-diversidades.pkl', 'wb') as fid_model:
+#with open('RandomForest_model.pkl', 'wb') as fid_model:
     pickle.dump(chosen_model,fid_model)
-
-y_pred = chosen_model.predict(X_test)  # predicting
-#print(y_pred.tolist()) 
-#y_prob = chosen_model.predict_proba(X_test) # prediction probabilities
-#print(y_prob.tolist())
-
-# printing comparison among predicted label and true label
-for true_label, predicted_label in zip(y_test, y_pred):
-    print(f"True: {true_label}, Predicted: {predicted_label}")
-# Utilizar só se eu também utilizar o scaler
-# Salva o objeto scaler que foi utilizado para padronizar os dados para garantir que a mesma transformação seja aplicada a novos dados durante a previsão.
-#with open('scaler.prosodic.pkl', 'wb') as fid_scaler:
-#    pickle.dump(sc,fid_scaler)
-
-accuracy = accuracy_score(y_test, y_pred)
-precision = precision_score(y_test, y_pred, pos_label="TB")  # Specify the positive class
-recall = recall_score(y_test, y_pred, pos_label="TB")
-f1 = f1_score(y_test, y_pred, pos_label="TB")
-
-print(f"Accuracy: {accuracy:.4f}")
-print(f"Precision: {precision:.4f}")
-print(f"Recall: {recall:.4f}")
-print(f"F1 Score: {f1:.4f}")
-print(classification_report(y_test, y_pred, target_names=["NB", "TB"]))
-
-# Calculate SER
-# Get confusion matrix: [[TN, FP], [FN, TP]]
-tn, fp, fn, tp = confusion_matrix(y_test, y_pred, labels=["NB", "TB"]).ravel()
-ser = (fp + fn) / (tp + fn)  # Using your formula
-print(f"Slot Error Rate (SER): {ser:.4f}")
