@@ -93,14 +93,14 @@ features = ['p_dur','n_dur','e_range','e_maxavg_diff',
             'e_avgmin_diff','f0_range','f0_maxavg_diff','f0_avgmin_diff']
 
 
-X, y, all_stratifications_ids = join_inquiries_in_single_dataset()
+#X, y, all_stratifications_ids = join_inquiries_in_single_dataset()
 
 #print(all_stratifications_ids)
 
 # If your dataset is completely contained in a single csv file, adapt the following line for the name and path of your file
-#df_prosodic = pd.read_csv('MuPe-Diversidades.csv')
-#X = df_prosodic[features]
-#y = df_prosodic['label'].to_list()
+df_prosodic = pd.read_csv('MuPe-Diversidades.csv')
+X = df_prosodic[features]
+y = df_prosodic['label'].to_list()
 
 #print("Stratification ids total count")
 #classes, counts = np.unique(all_stratifications_ids, return_counts=True)
@@ -124,7 +124,8 @@ seed = 42
 #classes, counts = np.unique(y_test, return_counts=True)
 #print(dict(zip(classes, counts)))
 
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, train_size=0.8, random_state=seed, shuffle=True, stratify=all_stratifications_ids) # stratify=y 
+# Training with 80% of the dataset
+#X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, train_size=0.8, random_state=seed, shuffle=True, stratify=all_stratifications_ids) # stratify=y 
 
 # Training with all data to make model available for users
 X_train = X
@@ -142,8 +143,8 @@ print("Y test set - NB total count:", y_test.count('NB'))
 
 # Salva o objeto scaler que foi utilizado para padronizar os dados para garantir que a mesma transformação seja aplicada a novos dados durante a previsão.
 
-#with open('scaler_prosodic_all_mupe-diversidades.pkl', 'wb') as fid_scaler:
-with open('scaler_prosodic.pkl', 'wb') as fid_scaler:
+with open('scaler_prosodic_all_mupe-diversidades.pkl', 'wb') as fid_scaler:
+#with open('scaler_prosodic.pkl', 'wb') as fid_scaler:
     pickle.dump(scaler,fid_scaler)
 
 # Model Training
