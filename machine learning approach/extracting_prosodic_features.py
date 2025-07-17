@@ -20,8 +20,11 @@ import tgt
 import chardet
 import statistics
 
+# Uncomment the following line only if you wish to calculate carbon emissions
+#from codecarbon import EmissionsTracker
+
 # Attributing labels to each syllable
-def attributing_labels(syllables_tier):
+def attributing_labels(syllables_tier, all_utterances):
   labels = []
   i_utt = 0
   #(Going through syllables tier, verifying whether each syllable's start time is smaller than the end time of the current utterance, meaning that the current syllable would belong to the current utterance, and label "NB" (no boundary) is attributed. If not, "TB" is attributed and we move to the next syllable and utterance)
@@ -106,9 +109,10 @@ def process_corpus_mupe_diversidades():
   audios_list = []
   tg_phones_list = []
   tg_reference_list = []
-  for path in audio_files:
+  for i,path in enumerate(audio_files):
     audio_id = path.replace('.wav','').split("/")[1]
     estado = path[0:2]
+    
     file = path[3:]
     audios_list.append([file,audio_id,estado, common_path+path])
     tg_phones = common_path + estado + "/" + audio_id + "_fones.TextGrid"
@@ -116,22 +120,29 @@ def process_corpus_mupe_diversidades():
     tg_reference =  common_path + estado + "/" + audio_id + "_OUTPUT_revised.TextGrid"
     tg_reference_list.append(tg_reference)
 
+  for i, inquiry in enumerate(audios_list): # To extract features exclusively from specific interviews, specify here, inside parenthesis, adding for example '[4:5], start=4'
+    print("Processing", i,inquiry)
+
     audio = audios_list[i] 
     audio_path = audio[3]
-
-    for i, inquiry in enumerate(audios_list): # To extract features exclusively from specific interviews, specify here, inside parenthesis, adding for example '[4:5], start=4'
-      print("Processing", i,inquiry)
+    audio_id = audios_list[i][1]
+  
+    tg_phone = tg_phones_list[i]
     
-      tg_phone = tg_phones_list[i]
-      
-    # reading reference textgrid with prosodic segmented utterances to get labels and boundary positions
-      tg_reference = tgt.io.read_textgrid(tg_reference_list[i], predict_encoding(tg_reference_list[i]), include_empty_intervals=False)
-      print(tg_phones_list[i], tg_reference_list[i]) # to check if I got the correct files
-
-      run_pipeline(audio_path, tg_phone, estado+numero, tg_reference)
+  # reading reference textgrid with prosodic segmented utterances to get labels and boundary positions
+    tg_reference = tgt.io.read_textgrid(tg_reference_list[i], predict_encoding(tg_reference_list[i]), include_empty_intervals=False)
+    
+    print(tg_phones_list[i], tg_reference_list[i]) # to check if I got the correct files
+    print(audio_id, audio_path)
+    
+    run_pipeline(audio_path, tg_phone, audio_id, tg_reference)
 
 
 def run_pipeline(audio_path, tg_phone, filename, tg_reference=[]):
+
+  if tg_reference != []:
+    tg_reference = tgt.io.read_textgrid(tg_reference, predict_encoding(tg_reference), include_empty_intervals=False)
+
   tg_phone = tgt.io.read_textgrid(tg_phone, predict_encoding(tg_phone), include_empty_intervals=False)
   syllables_tier = tg_phone.get_tier_by_name("silabas-fonemas")
   try: # according to the version of ufpalign, the textgrid's phonemes' and graphemes' tiers could have one of the following two names
@@ -141,9 +152,7 @@ def run_pipeline(audio_path, tg_phone, filename, tg_reference=[]):
     phonemes_tier = tg_phone.get_tier_by_name("fonemas")
     wordGraphemesTier = tg_phone.get_tier_by_name("grafemas")
 
-  syllables_tier = tg_phone.get_tier_by_name("silabas-fonemas")
   # Loading the audio file
-  print(audio_path)
   y, sr = librosa.load(audio_path, sr=None)  # sr=None ensures native sampling rate
 
   # Dividing audio in syllables
@@ -156,14 +165,13 @@ def run_pipeline(audio_path, tg_phone, filename, tg_reference=[]):
   max_length = max(len(frame) for frame in syllable_frames)
   syllable_frames = [numpy.pad(frame, (0, max_length - len(frame)), mode='constant') for frame in syllable_frames]
 
-  # NOT SURE IF THIS BLOCK WILL BE MANTAINED
+  # COMMENT THIS BLOCK IF YOU DON'T HAVE THE REFERENCE LABELS, OR DON'T INTEND TO TRAIN THE MODEL
   # Merge TB tiers from all speakers -- later on, there is filtering_speakers.py to filter utterances spoken by interviewers
   #TB_tiers = [tier for tier in tg_reference.tiers if tier.name.startswith("TB-") and "ponto" not in tier.name]
   #all_utterances = []
   #for tier in TB_tiers:
   #  all_utterances.extend(tier.intervals)
-  #all_utterances.sort(key=lambda interval: interval.start_time)
-  # list of all utterances, ordered according to start time
+  #all_utterances.sort(key=lambda interval: interval.start_time) # list of all utterances, ordered according to start time
 
   # Calculating vowel mean duration for every possible nucleus vowel
   vowel_types = ["a","e","i","o","u","a~","e~","i~","o~","u~", "E","O"]
@@ -179,13 +187,15 @@ def run_pipeline(audio_path, tg_phone, filename, tg_reference=[]):
     print("Vowel types mean calculated:",vowel_type,"->", vowel_stats_dict[vowel_type]["mean"], vowel_stats_dict[vowel_type]["std_dev"])
   
   # Uncomment if you wish to extract prosodic features and labels (for instance, to train the model, or measure performance)
-  #labels = attributing_labels(syllables_tier)
+  #labels = attributing_labels(syllables_tier, all_utterances)
 
-  # Calculating pitch average for each utterance - NOT SURE IF THIS FEATURE WILL BE MANTAINED, IF SO, IT NEEDS TO BE ADAPTED
+  # Calculating pitch average for each utterance 
+  # COMMENT THIS BLOCK IF YOU DON'T HAVE THE REFERENCE LABELS, OR DON'T INTEND TO TRAIN THE MODEL
   #utterance_averages = []
   #for i_utt, utterance in enumerate(all_utterances):
   #  utterance_frame = y[int(utterance.start_time * sr):int(utterance.end_time * sr)]
   #  sound = parselmouth.Sound(values=utterance_frame, sampling_frequency=sr)
+  #  print()
   #  utt_avg = get_utterance_avg_pitch(sound)
   #  utterance_averages.append(utt_avg)
   #print("Length of the list of utterances' pitch averages:", len(utterance_averages))
@@ -245,13 +255,13 @@ def run_pipeline(audio_path, tg_phone, filename, tg_reference=[]):
       frame_prosodic_features = extract_prosody(frame, sr, frame_id, next_interval_text, next_interval_dur, interval.start_time, interval.end_time, nucleus_end_time, nucleus_start_time, nucleus_vowel, vowel_stats_dict) # utterance_averages[utterance_counter],
       all_syllables_prosodic_features.append(frame_prosodic_features)
 
-
-      # Updating current utterance - NOT SURE THIS BLOCK WILL BE MANTAINED
+      # COMMENT THIS BLOCK IF YOU DON'T HAVE THE REFERENCE LABELS, OR DON'T INTEND TO TRAIN THE MODEL
+      # Updating current utterance 
       #if labels[labels_counter] == "TB":
       #  utterance_counter += 1
       #labels_counter += 1
 
-  print("Extracted features from all frames!!")
+  print("Extracted features from all frames!! "+filename)
 
   # Organizing and saving results of the prosodic features extraction and labels at a table
   df_prosodic = pd.concat(all_syllables_prosodic_features).reset_index(drop=True)
@@ -259,11 +269,13 @@ def run_pipeline(audio_path, tg_phone, filename, tg_reference=[]):
   # Uncomment if you wish to attribute labels along with extracting prosodic features from syllables
   #df_prosodic['label'] = labels
 
-  print(df_prosodic) 
+  print(df_prosodic)
   if os.path.isdir('ExtractedProsodicFeatures/') == False:
-     os.mkdir("ExtractedProsodicFeatures/")
+    os.mkdir("ExtractedProsodicFeatures/") 
   df_prosodic.to_csv('ExtractedProsodicFeatures/'+filename+'_prosodic_features.csv',index=False)
 
+# Uncomment the following line and tab the rest of the code if you wish to calculate emissions:
+#with EmissionsTracker(project_name="Extracting prosodic features") as tracker:
 
 corpus_mupe = False
 if corpus_mupe==True:
@@ -271,14 +283,23 @@ if corpus_mupe==True:
 
 else:
 
-  if len(sys.argv) < 2:
-    print("Missing audio or textgrid filenames, please write them like this when you run the code: python3 mycode.py myaudio.wav mytextgrid.TextGrid")
+  tg_reference=[]
+  if len(sys.argv) < 3:
+    print("Missing audio or textgrid filenames, please write them like this when you run the code: python3 extracting_prosodic_features.py myaudio.wav my_textgrid_generated_by_ufpalign.TextGrid")
     sys.exit(1)
-  # Adapt here according to the path of your audio and textgrid generated by ufpalign
-  audio_path = sys.argv[1] #"AL1.wav"
-  tg_phone = sys.argv[2] #"AL1_fones.TextGrid"
-  filename = audio_path.split('.')[0]
+  elif len(sys.argv) == 4:
+    tg_reference = sys.argv[3]
+  elif len(sys.argv) > 4:
+    print("Too many arguments, please write them like this when you run the code: python3 extracting_prosodic_features.py myaudio.wav my_textgrid_generated_by_ufpalign.TextGrid")
+    sys.exit(1)
 
-  print(audio_path, tg_phone, filename)
+  #print(sys.argv) # debugging arguments
+  audio_path = sys.argv[1] # example "AL1.wav"
+  tg_phone = sys.argv[2] #example "AL1_fones.TextGrid"
+  filename = audio_path.split('.')[0] # stablishes same path and same name as audio
 
-  run_pipeline(audio_path, tg_phone, filename)
+  print("Audio path:",audio_path)
+  print("Phones textgrid:", tg_phone)
+  print("Reference textgrid (only necessary if data is meant for training the prosodic segmentation method):", tg_reference)
+  
+  run_pipeline(audio_path, tg_phone, filename, tg_reference)
