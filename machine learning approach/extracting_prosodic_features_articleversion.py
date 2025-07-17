@@ -1,0 +1,305 @@
+# Extraction of prosodic features from each syllable of the audio and assembling labels
+
+# Requirements:
+# Corpus MuPe-Diversidades, there must be folders "/MuPe-Diversidades/versao-1/" containing all audios, textgrids with phonetic alignment and reference textgrids with prosodic segmented utterances, in the same folder as this code
+
+
+# Prosodic features replicated from article:
+#    Luengo, I., Navas, E., Hernáez, I., & Sánchez, J. (2005). Automatic emotion recognition using prosodic parameters. In Ninth European conference on speech communication and technology.
+#
+
+import os
+import sys
+from os.path import isfile, join
+import pandas as pd
+import parselmouth
+from adapted_feature_extraction_utils import *
+import librosa
+import numpy
+import tgt
+import chardet
+import statistics
+
+# Uncomment the following line only if you wish to calculate carbon emissions
+#from codecarbon import EmissionsTracker
+
+# Attributing labels to each syllable
+def attributing_labels(syllables_tier, all_utterances):
+  labels = []
+  i_utt = 0
+  #(Going through syllables tier, verifying whether each syllable's start time is smaller than the end time of the current utterance, meaning that the current syllable would belong to the current utterance, and label "NB" (no boundary) is attributed. If not, "TB" is attributed and we move to the next syllable and utterance)
+  for i_syl, syllable in enumerate(syllables_tier): 
+    if syllable.text != "sil":
+      if i_syl+1 >= len(syllables_tier) or i_utt >= len(all_utterances) or syllables_tier[i_syl+1].start_time >= round(all_utterances[i_utt].end_time, 2):
+        labels.append("TB")
+        i_utt += 1
+      elif syllables_tier[i_syl+1].text == "sil" and i_syl+2 < len(syllables_tier) and syllables_tier[i_syl+2].start_time >= round(all_utterances[i_utt].end_time, 2):
+        labels.append("TB")
+        i_utt += 1
+      else:
+        labels.append("NB")   
+  return labels
+
+# Função para extrair features prosódicas
+def extract_prosody(frame, sr, frame_id, next_interval_text, next_interval_dur, interval_start_time, interval_end_time, nucleus_end_time, nucleus_start_time,  nucleus_vowel, vowel_stats_dict): # utt_avg_pitch,
+
+  sound = parselmouth.Sound(values=frame, sampling_frequency=sr)
+  df = pd.DataFrame()
+
+  attributes = {}
+
+  intensity_attributes = get_intensity_attributes(sound)[0]
+  pitch_attributes, _, avg_pitch = get_pitch_attributes(sound)
+
+  # NOT SURE IF THIS ATTRIBUTE WILL BE MANTAINED
+  #attributes['f0_avgutt_diff'] = abs(avg_pitch - utt_avg_pitch)
+  
+  if next_interval_text == "sil": 
+    p_dur = next_interval_dur
+  else:
+    p_dur = 0 
+  attributes['p_dur'] = p_dur
+
+  # normalized duration of the nucleus of the syllable (always a vowel)
+
+  if nucleus_vowel != None:
+    vowel_type_mean = vowel_stats_dict[nucleus_vowel]["mean"]
+    vowel_type_std_dev = vowel_stats_dict[nucleus_vowel]["std_dev"]
+    attributes['n_dur'] = ((nucleus_end_time - nucleus_start_time) - vowel_type_mean) / vowel_type_std_dev 
+  else: 
+    attributes['n_dur'] = 0 # there was no nucleus vowel
+
+  attributes.update(intensity_attributes)
+  attributes.update(pitch_attributes)
+
+  for attribute in attributes:
+    df.at[0, attribute] = attributes[attribute]
+  
+  df.at[0, 'frame'] = frame_id
+  rearranged_columns = df.columns.tolist()[-1:] + df.columns.tolist()[:-1]
+  df = df[rearranged_columns]
+
+  return df
+  
+def predict_encoding(tg_path):
+    '''Predict a file's encoding using chardet'''
+    # Open the file as binary data
+    with open(tg_path, 'rb') as f:
+        # Join binary lines for specified number of lines
+        rawdata = b''.join(f.readlines())
+    return chardet.detect(rawdata)['encoding']
+
+def process_corpus_mupe_diversidades():
+
+  # Corpus MuPe-Diversidades
+
+  estados = ["AL", "BA", "CE", "ES", "GO", "MG", "MS", "PA", "PB", "PE", "PI", "PR", "RJ", "RO", "RS", "SE", "SP"]
+  numeros = ["1", "2"]
+
+  # Creating list with audios' names
+  common_path = os.getcwd() + "/MuPe-Diversidades/versao-1/" # os.getcwd gets the current folder
+  audio_files = []
+  for estado in estados:
+    for numero in numeros:
+      audio_id = estado+numero+'.wav'
+      if isfile(join(common_path+estado+"/", audio_id)): # checking if the file exists
+        audio_files.append(estado+"/"+audio_id)
+
+  # Creating list with names, ids, states and paths of audios
+  audios_list = []
+  tg_phones_list = []
+  tg_reference_list = []
+  for i,path in enumerate(audio_files):
+    audio_id = path.replace('.wav','').split("/")[1]
+    estado = path[0:2]
+    
+    file = path[3:]
+    audios_list.append([file,audio_id,estado, common_path+path])
+    tg_phones = common_path + estado + "/" + audio_id + "_fones.TextGrid"
+    tg_phones_list.append(tg_phones)
+    tg_reference =  common_path + estado + "/" + audio_id + "_OUTPUT_revised.TextGrid"
+    tg_reference_list.append(tg_reference)
+
+  for i, inquiry in enumerate(audios_list): # To extract features exclusively from specific interviews, specify here, inside parenthesis, adding for example '[4:5], start=4'
+    print("Processing", i,inquiry)
+
+    audio = audios_list[i] 
+    audio_path = audio[3]
+    audio_id = audios_list[i][1]
+  
+    tg_phone = tg_phones_list[i]
+    
+  # reading reference textgrid with prosodic segmented utterances to get labels and boundary positions
+    tg_reference = tgt.io.read_textgrid(tg_reference_list[i], predict_encoding(tg_reference_list[i]), include_empty_intervals=False)
+    
+    print(tg_phones_list[i], tg_reference_list[i]) # to check if I got the correct files
+    print(audio_id, audio_path)
+    
+    run_pipeline(audio_path, tg_phone, audio_id, tg_reference)
+
+
+def run_pipeline(audio_path, tg_phone, filename, tg_reference=[]):
+
+  if tg_reference != []:
+    tg_reference = tgt.io.read_textgrid(tg_reference, predict_encoding(tg_reference), include_empty_intervals=False)
+
+  tg_phone = tgt.io.read_textgrid(tg_phone, predict_encoding(tg_phone), include_empty_intervals=False)
+  syllables_tier = tg_phone.get_tier_by_name("silabas-fonemas")
+  try: # according to the version of ufpalign, the textgrid's phonemes' and graphemes' tiers could have one of the following two names
+    phonemes_tier = tg_phone.get_tier_by_name("fonemeas")
+    wordGraphemesTier = tg_phone.get_tier_by_name("palavras-grafemas") 
+  except ValueError:
+    phonemes_tier = tg_phone.get_tier_by_name("fonemas")
+    wordGraphemesTier = tg_phone.get_tier_by_name("grafemas")
+
+  # Loading the audio file
+  y, sr = librosa.load(audio_path, sr=None)  # sr=None ensures native sampling rate
+
+  # Dividing audio in syllables
+
+  syllable_frames = [ y[int(interval.start_time * sr):int(interval.end_time * sr)] for interval in syllables_tier]
+
+  print("Quantity of syllables:", len(syllable_frames))
+
+  # Here, as syllables have different durations, they'll end up with different numbers of samples, which correspond to columns and become NAN, so I'm padding all syllables to the maximum frame length  
+  max_length = max(len(frame) for frame in syllable_frames)
+  syllable_frames = [numpy.pad(frame, (0, max_length - len(frame)), mode='constant') for frame in syllable_frames]
+
+  # COMMENT THIS BLOCK IF YOU DON'T HAVE THE REFERENCE LABELS, OR DON'T INTEND TO TRAIN THE MODEL
+  # Merge TB tiers from all speakers -- later on, there is filtering_speakers.py to filter utterances spoken by interviewers
+  #TB_tiers = [tier for tier in tg_reference.tiers if tier.name.startswith("TB-") and "ponto" not in tier.name]
+  #all_utterances = []
+  #for tier in TB_tiers:
+  #  all_utterances.extend(tier.intervals)
+  #all_utterances.sort(key=lambda interval: interval.start_time) # list of all utterances, ordered according to start time
+
+  # Calculating vowel mean duration for every possible nucleus vowel
+  vowel_types = ["a","e","i","o","u","a~","e~","i~","o~","u~", "E","O"]
+  vowel_stats_dict = {vowel: {"mean": None, "std_dev": None, "durations": []} for vowel in vowel_types}
+
+  for phone in phonemes_tier:
+    if phone.text in vowel_stats_dict:
+      vowel_stats_dict[phone.text]["durations"].append(phone.end_time - phone.start_time)
+
+  for vowel_type in vowel_stats_dict:
+    vowel_stats_dict[vowel_type]["mean"] = statistics.mean(vowel_stats_dict[vowel_type]["durations"])
+    vowel_stats_dict[vowel_type]["std_dev"] = statistics.stdev(vowel_stats_dict[vowel_type]["durations"]) if len(vowel_stats_dict[vowel_type]["durations"]) > 1 else 0
+    print("Vowel types mean calculated:",vowel_type,"->", vowel_stats_dict[vowel_type]["mean"], vowel_stats_dict[vowel_type]["std_dev"])
+  
+  # Uncomment if you wish to extract prosodic features and labels (for instance, to train the model, or measure performance)
+  #labels = attributing_labels(syllables_tier, all_utterances)
+
+  # Calculating pitch average for each utterance 
+  # COMMENT THIS BLOCK IF YOU DON'T HAVE THE REFERENCE LABELS, OR DON'T INTEND TO TRAIN THE MODEL
+  #utterance_averages = []
+  #for i_utt, utterance in enumerate(all_utterances):
+  #  utterance_frame = y[int(utterance.start_time * sr):int(utterance.end_time * sr)]
+  #  sound = parselmouth.Sound(values=utterance_frame, sampling_frequency=sr)
+  #  print()
+  #  utt_avg = get_utterance_avg_pitch(sound)
+  #  utterance_averages.append(utt_avg)
+  #print("Length of the list of utterances' pitch averages:", len(utterance_averages))
+  #print("Length of all utterances:", len(all_utterances))
+
+  all_syllables_prosodic_features = []
+  utterance_counter = 0
+  labels_counter = 0
+  phones_index = 0
+
+  # Extracting prosodic features from each syllable
+  for i, (frame, interval) in enumerate(zip(syllable_frames, syllables_tier)): 
+
+    if interval.text != "sil": # and utterance_counter <= len(all_utterances): 
+      interval.text = interval.text.replace(" ", "")
+      start_time = round(interval.start_time, 2)
+      end_time = round(interval.end_time, 2)
+      frame_id = f"frame_{interval.text}_{start_time}_{end_time}"
+            
+      # Identifying the nucleus vowel and getting its characteristics
+
+      # Aligning phones' tier with syllables' tier - reaching the first phone of the current syllable
+      while phonemes_tier[phones_index].start_time < start_time:
+        phones_index += 1
+      # Reaching the nucleus vowel of the syllable    
+      phones_index_aux = 0
+      while (not any(vowel in phonemes_tier[phones_index+phones_index_aux].text.lower() for vowel in "aeiou")) and (phonemes_tier[phones_index+phones_index_aux].end_time <= interval.end_time): # procurando o núcleo da sílaba
+        phones_index_aux += 1    
+      # Checking if we found the nucleus vowel (if the phone index already passed the end time of the syllable or we reached a silent phone, if so, we go back to the time of the first phone of the syllable and check for 'j' or 'w' as nucleus vowel)
+      if phonemes_tier[phones_index+phones_index_aux].start_time >= interval.end_time or phonemes_tier[phones_index+phones_index_aux].text == "sil":
+        phones_index_aux = 0
+        while not any(vowel in phonemes_tier[phones_index+phones_index_aux].text.lower() for vowel in "jw") and (phonemes_tier[phones_index+phones_index_aux].end_time <= interval.end_time):
+          phones_index_aux += 1
+        
+        if phonemes_tier[phones_index+phones_index_aux].start_time >= interval.end_time or phonemes_tier[phones_index+phones_index_aux].text == "sil":
+          nucleus_vowel = None
+        elif phonemes_tier[phones_index+phones_index_aux].text == "j":
+          nucleus_vowel = "i"
+        elif phonemes_tier[phones_index+phones_index_aux].text == "w":
+          nucleus_vowel = "u"
+      else:  
+        nucleus_vowel = phonemes_tier[phones_index+phones_index_aux].text
+      phones_index += phones_index_aux
+      nucleus_start_time = phonemes_tier[phones_index].start_time
+      nucleus_end_time = phonemes_tier[phones_index].end_time
+
+      # Getting characteristics of the next syllable to consider whether there was a pause or not after the current syllable
+      if i+1 == len(syllables_tier):
+        next_interval_text = "fim"
+        next_interval_dur = 0 
+      else:
+        next_interval_text = syllables_tier[i+1].text
+        next_interval_text = syllables_tier[i+1].text.replace(" ", "")
+        next_interval_dur = syllables_tier[i+1].end_time - syllables_tier[i+1].start_time
+
+      # Calling the function to extract prosodic features for the current frame
+      frame_prosodic_features = extract_prosody(frame, sr, frame_id, next_interval_text, next_interval_dur, interval.start_time, interval.end_time, nucleus_end_time, nucleus_start_time, nucleus_vowel, vowel_stats_dict) # utterance_averages[utterance_counter],
+      all_syllables_prosodic_features.append(frame_prosodic_features)
+
+      # COMMENT THIS BLOCK IF YOU DON'T HAVE THE REFERENCE LABELS, OR DON'T INTEND TO TRAIN THE MODEL
+      # Updating current utterance 
+      #if labels[labels_counter] == "TB":
+      #  utterance_counter += 1
+      #labels_counter += 1
+
+  print("Extracted features from all frames!! "+filename)
+
+  # Organizing and saving results of the prosodic features extraction and labels at a table
+  df_prosodic = pd.concat(all_syllables_prosodic_features).reset_index(drop=True)
+  
+  # Uncomment if you wish to attribute labels along with extracting prosodic features from syllables
+  #df_prosodic['label'] = labels
+
+  print(df_prosodic)
+  if os.path.isdir('ExtractedProsodicFeatures/') == False:
+    os.mkdir("ExtractedProsodicFeatures/") 
+  df_prosodic.to_csv('ExtractedProsodicFeatures/'+filename+'_prosodic_features.csv',index=False)
+
+# Uncomment the following line and tab the rest of the code if you wish to calculate emissions:
+#with EmissionsTracker(project_name="Extracting prosodic features") as tracker:
+
+corpus_mupe = False
+if corpus_mupe==True:
+  process_corpus_mupe_diversidades()
+
+else:
+
+  tg_reference=[]
+  if len(sys.argv) < 3:
+    print("Missing audio or textgrid filenames, please write them like this when you run the code: python3 extracting_prosodic_features.py myaudio.wav my_textgrid_generated_by_ufpalign.TextGrid")
+    sys.exit(1)
+  elif len(sys.argv) == 4:
+    tg_reference = sys.argv[3]
+  elif len(sys.argv) > 4:
+    print("Too many arguments, please write them like this when you run the code: python3 extracting_prosodic_features.py myaudio.wav my_textgrid_generated_by_ufpalign.TextGrid")
+    sys.exit(1)
+
+  #print(sys.argv) # debugging arguments
+  audio_path = sys.argv[1] # example "AL1.wav"
+  tg_phone = sys.argv[2] #example "AL1_fones.TextGrid"
+  filename = audio_path.split('.')[0] # stablishes same path and same name as audio
+
+  print("Audio path:",audio_path)
+  print("Phones textgrid:", tg_phone)
+  print("Reference textgrid (only necessary if data is meant for training the prosodic segmentation method):", tg_reference)
+  
+  run_pipeline(audio_path, tg_phone, filename, tg_reference)
