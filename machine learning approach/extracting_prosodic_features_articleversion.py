@@ -130,12 +130,12 @@ def process_corpus_mupe_diversidades():
     tg_phone = tg_phones_list[i]
     
   # reading reference textgrid with prosodic segmented utterances to get labels and boundary positions
-    tg_reference = tgt.io.read_textgrid(tg_reference_list[i], predict_encoding(tg_reference_list[i]), include_empty_intervals=False)
+    #tg_reference = tgt.io.read_textgrid(tg_reference_list[i], predict_encoding(tg_reference_list[i]), include_empty_intervals=False)
     
     print(tg_phones_list[i], tg_reference_list[i]) # to check if I got the correct files
     print(audio_id, audio_path)
     
-    run_pipeline(audio_path, tg_phone, audio_id, tg_reference)
+    run_pipeline(audio_path, tg_phone, audio_id, tg_reference_list[i])
 
 
 def run_pipeline(audio_path, tg_phone, filename, tg_reference=[]):
@@ -167,11 +167,11 @@ def run_pipeline(audio_path, tg_phone, filename, tg_reference=[]):
 
   # COMMENT THIS BLOCK IF YOU DON'T HAVE THE REFERENCE LABELS, OR DON'T INTEND TO TRAIN THE MODEL
   # Merge TB tiers from all speakers -- later on, there is filtering_speakers.py to filter utterances spoken by interviewers
-  #TB_tiers = [tier for tier in tg_reference.tiers if tier.name.startswith("TB-") and "ponto" not in tier.name]
-  #all_utterances = []
-  #for tier in TB_tiers:
-  #  all_utterances.extend(tier.intervals)
-  #all_utterances.sort(key=lambda interval: interval.start_time) # list of all utterances, ordered according to start time
+  TB_tiers = [tier for tier in tg_reference.tiers if tier.name.startswith("TB-") and "ponto" not in tier.name]
+  all_utterances = []
+  for tier in TB_tiers:
+    all_utterances.extend(tier.intervals)
+  all_utterances.sort(key=lambda interval: interval.start_time) # list of all utterances, ordered according to start time
 
   # Calculating vowel mean duration for every possible nucleus vowel
   vowel_types = ["a","e","i","o","u","a~","e~","i~","o~","u~", "E","O"]
@@ -187,19 +187,19 @@ def run_pipeline(audio_path, tg_phone, filename, tg_reference=[]):
     print("Vowel types mean calculated:",vowel_type,"->", vowel_stats_dict[vowel_type]["mean"], vowel_stats_dict[vowel_type]["std_dev"])
   
   # Uncomment if you wish to extract prosodic features and labels (for instance, to train the model, or measure performance)
-  #labels = attributing_labels(syllables_tier, all_utterances)
+  labels = attributing_labels(syllables_tier, all_utterances)
 
   # Calculating pitch average for each utterance 
   # COMMENT THIS BLOCK IF YOU DON'T HAVE THE REFERENCE LABELS, OR DON'T INTEND TO TRAIN THE MODEL
-  #utterance_averages = []
-  #for i_utt, utterance in enumerate(all_utterances):
-  #  utterance_frame = y[int(utterance.start_time * sr):int(utterance.end_time * sr)]
-  #  sound = parselmouth.Sound(values=utterance_frame, sampling_frequency=sr)
-  #  print()
-  #  utt_avg = get_utterance_avg_pitch(sound)
-  #  utterance_averages.append(utt_avg)
-  #print("Length of the list of utterances' pitch averages:", len(utterance_averages))
-  #print("Length of all utterances:", len(all_utterances))
+  utterance_averages = []
+  for i_utt, utterance in enumerate(all_utterances):
+    utterance_frame = y[int(utterance.start_time * sr):int(utterance.end_time * sr)]
+    sound = parselmouth.Sound(values=utterance_frame, sampling_frequency=sr)
+    print()
+    utt_avg = get_utterance_avg_pitch(sound)
+    utterance_averages.append(utt_avg)
+  print("Length of the list of utterances' pitch averages:", len(utterance_averages))
+  print("Length of all utterances:", len(all_utterances))
 
   all_syllables_prosodic_features = []
   utterance_counter = 0
@@ -257,9 +257,9 @@ def run_pipeline(audio_path, tg_phone, filename, tg_reference=[]):
 
       # COMMENT THIS BLOCK IF YOU DON'T HAVE THE REFERENCE LABELS, OR DON'T INTEND TO TRAIN THE MODEL
       # Updating current utterance 
-      #if labels[labels_counter] == "TB":
-      #  utterance_counter += 1
-      #labels_counter += 1
+      if labels[labels_counter] == "TB":
+        utterance_counter += 1
+      labels_counter += 1
 
   print("Extracted features from all frames!! "+filename)
 
@@ -267,7 +267,7 @@ def run_pipeline(audio_path, tg_phone, filename, tg_reference=[]):
   df_prosodic = pd.concat(all_syllables_prosodic_features).reset_index(drop=True)
   
   # Uncomment if you wish to attribute labels along with extracting prosodic features from syllables
-  #df_prosodic['label'] = labels
+  df_prosodic['label'] = labels
 
   print(df_prosodic)
   if os.path.isdir('ExtractedProsodicFeatures/') == False:
@@ -277,6 +277,7 @@ def run_pipeline(audio_path, tg_phone, filename, tg_reference=[]):
 # Uncomment the following line and tab the rest of the code if you wish to calculate emissions:
 #with EmissionsTracker(project_name="Extracting prosodic features") as tracker:
 
+# Change False to True below if you intend to extract features from all MuPe-Diversidades instead of specifying one file at a time
 corpus_mupe = False
 if corpus_mupe==True:
   process_corpus_mupe_diversidades()
