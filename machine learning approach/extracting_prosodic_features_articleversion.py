@@ -41,7 +41,7 @@ def attributing_labels(syllables_tier, all_utterances):
   return labels
 
 # Função para extrair features prosódicas
-def extract_prosody(frame, sr, frame_id, next_interval_text, next_interval_dur, interval_start_time, interval_end_time, nucleus_end_time, nucleus_start_time,  nucleus_vowel, vowel_stats_dict): # utt_avg_pitch,
+def extract_prosody(frame, sr, frame_id, next_interval_text, next_interval_dur, interval_start_time, interval_end_time, nucleus_end_time, nucleus_start_time,  nucleus_vowel, vowel_stats_dict, utt_avg_pitch): # REMOVE LAST PARAMETER (utt_avg_pitch) IF YOU WISH TO USE ONLY 8 FEATURES / DON'T HAVE ACCESS TO REFERENCE TBs
 
   sound = parselmouth.Sound(values=frame, sampling_frequency=sr)
   df = pd.DataFrame()
@@ -51,8 +51,7 @@ def extract_prosody(frame, sr, frame_id, next_interval_text, next_interval_dur, 
   intensity_attributes = get_intensity_attributes(sound)[0]
   pitch_attributes, _, avg_pitch = get_pitch_attributes(sound)
 
-  # NOT SURE IF THIS ATTRIBUTE WILL BE MANTAINED
-  #attributes['f0_avgutt_diff'] = abs(avg_pitch - utt_avg_pitch)
+  attributes['f0_avgutt_diff'] = abs(avg_pitch - utt_avg_pitch)
   
   if next_interval_text == "sil": 
     p_dur = next_interval_dur
@@ -128,9 +127,6 @@ def process_corpus_mupe_diversidades():
     audio_id = audios_list[i][1]
   
     tg_phone = tg_phones_list[i]
-    
-  # reading reference textgrid with prosodic segmented utterances to get labels and boundary positions
-    #tg_reference = tgt.io.read_textgrid(tg_reference_list[i], predict_encoding(tg_reference_list[i]), include_empty_intervals=False)
     
     print(tg_phones_list[i], tg_reference_list[i]) # to check if I got the correct files
     print(audio_id, audio_path)
@@ -209,7 +205,7 @@ def run_pipeline(audio_path, tg_phone, filename, tg_reference=[]):
   # Extracting prosodic features from each syllable
   for i, (frame, interval) in enumerate(zip(syllable_frames, syllables_tier)): 
 
-    if interval.text != "sil": # and utterance_counter <= len(all_utterances): 
+    if interval.text != "sil":  
       interval.text = interval.text.replace(" ", "")
       start_time = round(interval.start_time, 2)
       end_time = round(interval.end_time, 2)
@@ -252,7 +248,7 @@ def run_pipeline(audio_path, tg_phone, filename, tg_reference=[]):
         next_interval_dur = syllables_tier[i+1].end_time - syllables_tier[i+1].start_time
 
       # Calling the function to extract prosodic features for the current frame
-      frame_prosodic_features = extract_prosody(frame, sr, frame_id, next_interval_text, next_interval_dur, interval.start_time, interval.end_time, nucleus_end_time, nucleus_start_time, nucleus_vowel, vowel_stats_dict) # utterance_averages[utterance_counter],
+      frame_prosodic_features = extract_prosody(frame, sr, frame_id, next_interval_text, next_interval_dur, interval.start_time, interval.end_time, nucleus_end_time, nucleus_start_time, nucleus_vowel, vowel_stats_dict, utterance_averages[utterance_counter]) # REMOVE THE LAST PARAMETER IF YOU ARE USING ONLY 8 FEATURES / DON'T HAVE ACCESS TO INFO ABOUT TBs
       all_syllables_prosodic_features.append(frame_prosodic_features)
 
       # COMMENT THIS BLOCK IF YOU DON'T HAVE THE REFERENCE LABELS, OR DON'T INTEND TO TRAIN THE MODEL
