@@ -249,7 +249,7 @@ def run_pipeline(audio_path, tg_phone, filename, tg_reference=[]):
   for i, (frame, interval) in enumerate(zip(syllable_frames[j:], syllables_tier[j:])): # j indica para pular o primeiro intervalo caso seja silêncio para a contagem de utterances ficar certa
     
     if interval.text != "sil": 
-      if sil_utterance_counter < len(utterance_averages):
+      if sil_utterance_counter >= len(utterance_averages):
         print("UTTERANCE AVERAGES WAS PROBABLY WRONGLY CALCULATED, LIST OF AVERAGES ENDED BEFORE TEXTGRID SYLLABLES, STOPPING AT INTERVAL:", interval.text, interval.start_time, interval.end_time)
         print("KILLING PROGRAM")
         quit()
