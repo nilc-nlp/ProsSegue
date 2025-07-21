@@ -221,10 +221,12 @@ def run_pipeline(audio_path, tg_phone, filename, tg_reference=[]):
     utt_avg = get_utterance_avg_pitch(sound)
     utterance_averages.append(utt_avg)
 
-  print(utterance_averages)
-  print(len(utterance_averages))
+  #print(utterance_averages)
+  print(len(utterance_averages), " utterance averages calculated (between silences)")
+  print("Quantity of TBs (len all_utterances):", len(all_utterances))
+  print("Obs.: These two numbers are probably not identical, but it would be nice if they were close")
 
-##################################################################33333
+##################################################################
   # Calculating pitch average for each utterance - FEATURE ANTIGA
   # COMMENT THIS BLOCK IF YOU DON'T HAVE THE REFERENCE LABELS, OR DON'T INTEND TO TRAIN THE MODEL
   #utterance_averages = []
@@ -236,16 +238,21 @@ def run_pipeline(audio_path, tg_phone, filename, tg_reference=[]):
   #  utterance_averages.append(utt_avg)
   #print("Length of the list of utterances' pitch averages:", len(utterance_averages))
   #print("Length of all utterances:", len(all_utterances))
+#################3
 
   all_syllables_prosodic_features = []
-  utterance_counter = 0
-  labels_counter = 0
+  sil_utterance_counter = 0
+  #labels_counter = 0 # PROBABLY OBSOLETE, DELETE THIS LINE IF CODE WORKS WITHOUT IT
   phones_index = 0
 
   # Extracting prosodic features from each syllable
   for i, (frame, interval) in enumerate(zip(syllable_frames[j:], syllables_tier[j:])): # j indica para pular o primeiro intervalo caso seja silêncio para a contagem de utterances ficar certa
-
-    if interval.text != "sil": # and utterance_counter <= len(all_utterances): # TESTAR CONDIÇÃO EXTRA PRA VER SE PRECISA OU NÃO 
+    
+    if interval.text != "sil": 
+      if sil_utterance_counter < len(utterance_averages):
+        print("UTTERANCE AVERAGES WAS PROBABLY WRONGLY CALCULATED, LIST OF AVERAGES ENDED BEFORE TEXTGRID SYLLABLES, STOPPING AT INTERVAL:", interval.text, interval.start_time, interval.end_time)
+        print("KILLING PROGRAM")
+        quit()
       interval.text = interval.text.replace(" ", "")
       start_time = round(interval.start_time, 2)
       end_time = round(interval.end_time, 2)
@@ -288,16 +295,14 @@ def run_pipeline(audio_path, tg_phone, filename, tg_reference=[]):
         next_interval_dur = syllables_tier[i+1].end_time - syllables_tier[i+1].start_time
 
       # Calling the function to extract prosodic features for the current frame
-      frame_prosodic_features = extract_prosody(frame, sr, frame_id, next_interval_text, next_interval_dur, interval.start_time, interval.end_time, nucleus_end_time, nucleus_start_time, nucleus_vowel, vowel_stats_dict, utterance_averages[utterance_counter]) # utterance_averages[utterance_counter],
+      frame_prosodic_features = extract_prosody(frame, sr, frame_id, next_interval_text, next_interval_dur, interval.start_time, interval.end_time, nucleus_end_time, nucleus_start_time, nucleus_vowel, vowel_stats_dict, utterance_averages[sil_utterance_counter]) 
       all_syllables_prosodic_features.append(frame_prosodic_features)
 
-      # COMMENT THIS BLOCK IF YOU DON'T HAVE THE REFERENCE LABELS, OR DON'T INTEND TO TRAIN THE MODEL
+      # COMMENT THE FOLLOWING LINE IF YOU DON'T HAVE THE REFERENCE LABELS, OR DON'T INTEND TO TRAIN THE MODEL
       # Updating current utterance 
-      #if labels[labels_counter] == "TB":
-      #  utterance_counter += 1
-      labels_counter += 1
+      #labels_counter += 1 # PROBABLY OBSOLETE, DELETE THIS LINE IF CODE WORKS WITHOUT IT
     else:
-      utterance_counter += 1
+      sil_utterance_counter += 1
 
   print("Extracted features from all frames!! "+filename)
 
@@ -316,7 +321,7 @@ def run_pipeline(audio_path, tg_phone, filename, tg_reference=[]):
 #with EmissionsTracker(project_name="Extracting prosodic features") as tracker:
 
 # Change False to True below if you intend to extract features from all MuPe-Diversidades instead of specifying one file at a time
-corpus_mupe = False
+corpus_mupe = True
 if corpus_mupe==True:
   process_corpus_mupe_diversidades()
 
