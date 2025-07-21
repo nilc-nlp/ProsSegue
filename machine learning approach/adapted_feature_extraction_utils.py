@@ -77,7 +77,7 @@ def get_intensity_attributes(sound, time_step=0., min_time=0., max_time=0., pitc
     return attributes,  intensity_values
 
 def get_utterance_avg_pitch(sound, pitch_type='preferred', time_step=0.02, min_time=0., max_time=0.,
-                         pitch_floor=75., pitch_ceiling=600., unit='Hertz'):
+                         pitch_floor=100., pitch_ceiling=600., unit='Hertz'): # got error about minimum pitch must not be less than 100Hz, I had set it at 75.
 
        # Create pitch object
        if pitch_type == 'preferred':
