@@ -13,17 +13,16 @@
 
 import os
 import sys
+import statistics
 from os.path import isfile, join
 import pandas as pd
 import parselmouth
 from adapted_feature_extraction_utils import *
+from codecarbon import EmissionsTracker
 import librosa
 import numpy
 import tgt
 import chardet
-import statistics
-#Uncomment the following line only if you wish to calculate carbon emissions
-#from codecarbon import EmissionsTracker
 
 #Attributing labels to each syllable
 def attributing_labels(syllables_tier, all_utterances):
@@ -138,9 +137,6 @@ def process_corpus_mupe_diversidades():
 
 def run_pipeline(audio_path, tg_phone, filename, tg_reference=[]):
 
-  if tg_reference != []:
-    tg_reference = tgt.io.read_textgrid(tg_reference, predict_encoding(tg_reference), include_empty_intervals=False)
-
   tg_phone = tgt.io.read_textgrid(tg_phone, predict_encoding(tg_phone), include_empty_intervals=False)
   syllables_tier = tg_phone.get_tier_by_name("silabas-fonemas")
   try: # according to the version of ufpalign, the textgrid's phonemes' and graphemes' tiers could have one of the following two names
@@ -161,13 +157,7 @@ def run_pipeline(audio_path, tg_phone, filename, tg_reference=[]):
   max_length = max(len(frame) for frame in syllable_frames)
   syllable_frames = [numpy.pad(frame, (0, max_length - len(frame)), mode='constant') for frame in syllable_frames]
 
-  # COMMENT THIS BLOCK IF YOU DON'T HAVE THE REFERENCE TEXTGRID WITH TBs OR DON'T WISH TO USE REFERENCE LABELS
-  # Merge TB tiers from all speakers -- later on, there is filtering_speakers.py to filter utterances spoken by interviewers
-  TB_tiers = [tier for tier in tg_reference.tiers if tier.name.startswith("TB-") and "ponto" not in tier.name]
-  all_utterances = []
-  for tier in TB_tiers:
-    all_utterances.extend(tier.intervals)
-  all_utterances.sort(key=lambda interval: interval.start_time) # list of all utterances, ordered according to start time
+  
 
   # Calculating vowel mean duration for every possible nucleus vowel
   vowel_types = ["a","e","i","o","u","a~","e~","i~","o~","u~", "E","O"]
@@ -182,8 +172,18 @@ def run_pipeline(audio_path, tg_phone, filename, tg_reference=[]):
     vowel_stats_dict[vowel_type]["std_dev"] = statistics.stdev(vowel_stats_dict[vowel_type]["durations"]) if len(vowel_stats_dict[vowel_type]["durations"]) > 1 else 0
     print("Vowel types mean calculated:",vowel_type,"->", vowel_stats_dict[vowel_type]["mean"], vowel_stats_dict[vowel_type]["std_dev"])
   
-  # Uncomment if you wish to attribute labels to syllables (for instance, to train the model, or measure performance)
-  labels = attributing_labels(syllables_tier, all_utterances)
+
+  if tg_reference != []:
+    tg_reference = tgt.io.read_textgrid(tg_reference, predict_encoding(tg_reference), include_empty_intervals=False)
+    # Merge TB tiers from all speakers -- later on, there is filtering_speakers.py to filter utterances spoken by interviewers
+    TB_tiers = [tier for tier in tg_reference.tiers if tier.name.startswith("TB-") and "ponto" not in tier.name]
+    all_utterances = []
+    for tier in TB_tiers:
+      all_utterances.extend(tier.intervals)
+    all_utterances.sort(key=lambda interval: interval.start_time) # list of all utterances, ordered according to start time
+    print("Quantity of TBs (len all_utterances):", len(all_utterances))
+
+    labels = attributing_labels(syllables_tier, all_utterances)
 
   # Calculating pitch average for each utterance - NEW VERSION OF FEATURE  f0_avgutt_diff, intitled f0_avgutt_diff_2
   # Pitch average list considering each utterance to be all the text that occur between silences 
@@ -215,8 +215,8 @@ def run_pipeline(audio_path, tg_phone, filename, tg_reference=[]):
 
   #print(utterance_averages)
   print(len(utterance_averages), " utterance averages calculated (between silences)")
-  print("Quantity of TBs (len all_utterances):", len(all_utterances))
-  print("Obs.: These two numbers are probably not identical, but it would be nice if they were close")
+  
+  print("Obs.: Quantity of TBs and quantity of utterance averages are probably not identical, but it would be nice if they were close")
 
   all_syllables_prosodic_features = []
   sil_utterance_counter = 0
@@ -283,16 +283,18 @@ def run_pipeline(audio_path, tg_phone, filename, tg_reference=[]):
   # Organizing and saving results of the prosodic features extraction and labels at a table
   df_prosodic = pd.concat(all_syllables_prosodic_features).reset_index(drop=True)
   
-  # UNCOMMENT the following line IF you wish to attribute labels along with extracting prosodic features from syllables
-  df_prosodic['label'] = labels
+  if tg_reference != []:
+    df_prosodic['label'] = labels
 
   print(df_prosodic)
   if os.path.isdir('ExtractedProsodicFeatures/') == False:
     os.mkdir("ExtractedProsodicFeatures/") 
-  df_prosodic.to_csv('ExtractedProsodicFeatures/'+filename+'_prosodic_features_NEWFEATURE.csv',index=False)
+  df_prosodic.to_csv('ExtractedProsodicFeatures/'+filename+'_prosodic_features_NEWFEATURE_2.csv',index=False)
 
 # UNCOMMENT the following line and tab the rest of the code IF you wish to calculate emissions:
 #with EmissionsTracker(project_name="Extracting prosodic features") as tracker:
+
+print("Hello! You are about to extract prosodic features of your audio, in case you wish to use reference labels, you should have added the reference labels textgrid as an extra parameter. If you haven't, the csv file with prosodic features will be generated without labels.")
 
 # CHANGE False to True below IF you intend to extract features from all MuPe-Diversidades instead of specifying one file at a time
 corpus_mupe = False
@@ -318,6 +320,6 @@ else:
 
   print("Audio path:",audio_path)
   print("Phones textgrid:", tg_phone)
-  print("Reference textgrid (only necessary if data is meant for training the prosodic segmentation method):", tg_reference)
+  print("Reference textgrid (only necessary if you wish to generate a csv file with labels (for instance, to generate data to train the model)):", tg_reference)
   
   run_pipeline(audio_path, tg_phone, filename, tg_reference)
