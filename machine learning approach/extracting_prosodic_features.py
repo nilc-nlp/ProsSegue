@@ -18,7 +18,7 @@ from os.path import isfile, join
 import pandas as pd
 import parselmouth
 from adapted_feature_extraction_utils import *
-from codecarbon import EmissionsTracker
+#from codecarbon import EmissionsTracker # only necessary to calculate carbon emissions
 import librosa
 import numpy
 import tgt
