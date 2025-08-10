@@ -79,7 +79,7 @@ def join_inquiries_in_single_dataset():
     mupe_diversidades["frame"] = frames
     mupe_diversidades["label"] = y
     mupe_diversidades["stratificationID"] = all_stratification_ids
-    mupe_diversidades.to_csv('MuPe-Diversidades_newufpalignversion_articleversion_9features_allmupediversidades.csv', index=False) 
+    mupe_diversidades.to_csv('MuPe-Diversidades.csv', index=False) 
 
     X = pd.DataFrame(all_X)
     
