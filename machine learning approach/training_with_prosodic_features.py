@@ -47,26 +47,29 @@ def join_inquiries_in_single_dataset():
     for estado in estados:
         for numero in numeros:
             audio_id = estado+numero
-            #print("Processing",audio_id)
+            print("Processing",audio_id)
             # Reading csv file with prosodic features  extracted from each syllable of the original audio
             try:
-                df_prosodic = pd.read_csv('ExtractedProsodicFeatures/'+audio_id+'_prosodic_features_filtered_speakers.csv')
-
+                print("0")
+                df_prosodic = pd.read_csv('ExtractedProsodicFeatures/articleversion_newufpalignversion_filtered/'+audio_id+'_prosodic_features__newufpalignversion_articleversion_filtered_speakers.csv')
+                #df_prosodic = pd.read_csv('ExtractedProsodicFeatures/'+audio_id+'_prosodic_features_filtered_speakers.csv')
+                print("1")
                 current_X = df_prosodic[features]        
+                print("1,5")
                 current_X = df_prosodic[features].fillna(0) # Replace NaN values with 0 in X
                 current_X = current_X.values.tolist()
                 all_X.extend(current_X)
-
+                print("2")
                 current_y = df_prosodic.label.to_list() # Label column must be filled with labels, such as "TB", "NB" at .csv file
                 y.extend(current_y)
-
+                print("3")
                 current_frame = df_prosodic['frame'].to_list() # Label column must be filled with labels, such as "TB", "NB" at .csv file
                 frames.extend(current_frame)
-
+                print("4")
                 df_prosodic['stratificationID'] = audio_id + "_" + df_prosodic['label'] 
                 current_stratification_id = df_prosodic['stratificationID'].to_list()
                 all_stratification_ids.extend(current_stratification_id) 
-
+                print("5")
             except:
                 print(audio_id, "doesn't exist, skipping to the next one")
                 continue
@@ -76,7 +79,7 @@ def join_inquiries_in_single_dataset():
     mupe_diversidades["frame"] = frames
     mupe_diversidades["label"] = y
     mupe_diversidades["stratificationID"] = all_stratification_ids
-    mupe_diversidades.to_csv('MuPe-Diversidades.csv', index=False) 
+    mupe_diversidades.to_csv('MuPe-Diversidades_newufpalignversion_articleversion_9features_allmupediversidades.csv', index=False) 
 
     X = pd.DataFrame(all_X)
     
@@ -85,66 +88,62 @@ def join_inquiries_in_single_dataset():
 
 #with EmissionsTracker(project_name="RF - training ") as tracker:
 
-# USE THE FOLLOWING COMMAND ONLY IF YOU HAVE LABELS AND WISH TO TRAIN WITH ALL 9 FEATURES
-#features = ['f0_avgutt_diff','p_dur','n_dur','e_range','e_maxavg_diff','e_avgmin_diff','f0_range','f0_maxavg_diff','f0_avgmin_diff']
+# USE THE FOLLOWING COMMAND ONLY IF YOU HAVE LABELS AND WISH TO TRAIN WITH ALL 9 FEATURES 
+features = ['f0_avgutt_diff','p_dur','n_dur','e_range','e_maxavg_diff','e_avgmin_diff','f0_range','f0_maxavg_diff','f0_avgmin_diff']
 # USE THE FOLLOWING COMMAND ONLY IF YOU WISH TO PREDICT PROSODIC SEGMENTATION (YOU'LL USE ONLY 8 FEATURES)
+#features = ['p_dur','n_dur','e_range','e_maxavg_diff','e_avgmin_diff','f0_range','f0_maxavg_diff','f0_avgmin_diff']
 
-features = ['p_dur','n_dur','e_range','e_maxavg_diff',
-            'e_avgmin_diff','f0_range','f0_maxavg_diff','f0_avgmin_diff']
+X, y, all_stratifications_ids = join_inquiries_in_single_dataset()
 
-
-#X, y, all_stratifications_ids = join_inquiries_in_single_dataset()
-
-#print(all_stratifications_ids)
+print(all_stratifications_ids)
 
 # If your dataset is completely contained in a single csv file, adapt the following line for the name and path of your file
-df_prosodic = pd.read_csv('MuPe-Diversidades.csv')
-X = df_prosodic[features]
-y = df_prosodic['label'].to_list()
+#df_prosodic = pd.read_csv('MuPe-Diversidades.csv')
+#X = df_prosodic[features]
+#y = df_prosodic['label'].to_list()
 
-#print("Stratification ids total count")
-#classes, counts = np.unique(all_stratifications_ids, return_counts=True)
-#print(dict(zip(classes, counts)))
+print("Stratification ids total count")
+classes, counts = np.unique(all_stratifications_ids, return_counts=True)
+print(dict(zip(classes, counts)))
 
 scaler = StandardScaler()
 X = scaler.fit_transform(X) # While some classifiers need this step, gradient boosting and decision tree are not affected by this, but it can safely be applied to all
 
 seed = 42
 
+# CHECKINF IF STRATIFICATION WORKED
 #X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, train_size=0.8, random_state=seed, shuffle=True, stratify=all_stratifications_ids) # stratify=y 
-
 # checking stratification # CAREFUL, here all_stratification_ids column is attributed to y so we can see what is inside
 #X_train, X_test, y_train, y_test = train_test_split(X, all_stratifications_ids, test_size=0.2, train_size=0.8, random_state=seed, shuffle=True, stratify=all_stratifications_ids) # stratify=y 
-
 #print("Train set stratification count")
 #classes, counts = np.unique(y_train, return_counts=True)
 #print(dict(zip(classes, counts)))
-
 #print("Test set stratification count")
 #classes, counts = np.unique(y_test, return_counts=True)
 #print(dict(zip(classes, counts)))
 
 # Training with 80% of the dataset
-#X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, train_size=0.8, random_state=seed, shuffle=True, stratify=all_stratifications_ids) # stratify=y 
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, train_size=0.8, random_state=seed, shuffle=True, stratify=all_stratifications_ids) # stratify=y 
 
 # Training with all data to make model available for users
 X_train = X
 y_train = y
 
-""" print("Y train set - TB total count:", y_train.count('TB'))
+print("Y train set - TB total count:", y_train.count('TB'))
 print("Y train set - NB total count:", y_train.count('NB'))
 
-print("Y test set - TB total count:", y_test.count('TB'))
-print("Y test set - NB total count:", y_test.count('NB'))
-"""
+#print("Y test set - TB total count:", y_test.count('TB'))
+#print("Y test set - NB total count:", y_test.count('NB'))
+
 #print(X_test)
 #print(y_test)
 
 
 # Salva o objeto scaler que foi utilizado para padronizar os dados para garantir que a mesma transformação seja aplicada a novos dados durante a previsão.
 
-with open('scaler_prosodic_all_mupe-diversidades.pkl', 'wb') as fid_scaler:
-#with open('scaler_prosodic.pkl', 'wb') as fid_scaler:
+#with open('scaler_prosodic_all_mupe-diversidades.pkl', 'wb') as fid_scaler:
+with open('scaler_prosodic.pkl', 'wb') as fid_scaler:
+#with open('scaler_prosodic_newufpalignversion_articleversion_9features_allmupediversidades.pkl', 'wb') as fid_scaler:
     pickle.dump(scaler,fid_scaler)
 
 # Model Training
@@ -153,8 +152,8 @@ print("Training Random Forest")
 #tracemalloc.start()
 #start_time = time.time()
 chosen_model = RandomForestClassifier(max_depth=20, min_samples_split=5, n_estimators=100, class_weight={'NB': 1.0, 'TB': 30},  random_state=seed)
-#chosen_model.fit(X_train,y_train)
-chosen_model.fit(X,y) # ONLY USED THIS TO MAKE AVAILABLE MODEL TRAINED WITH ENTIRE MUPE-DIVERSIDADES
+chosen_model.fit(X_train,y_train)
+#chosen_model.fit(X,y) # ONLY USED THIS TO MAKE AVAILABLE MODEL TRAINED WITH ENTIRE MUPE-DIVERSIDADES
 #memory_usage = tracemalloc.take_snapshot()
 #current, peak = tracemalloc.get_traced_memory()
 #tracemalloc.stop()
@@ -185,6 +184,7 @@ plt.xlabel("Features")
 plt.ylabel("Importance")
 plt.show() """
 
-with open('RandomForest_model_all_mupe-diversidades.pkl', 'wb') as fid_model:
-#with open('RandomForest_model.pkl', 'wb') as fid_model:
+#with open('RandomForest_model_all_mupe-diversidades.pkl', 'wb') as fid_model:
+with open('RandomForest_model.pkl', 'wb') as fid_model:
+#with open('RandomForest_model_newufpalignversion_articleversion_9features_allmupediversidades.pkl', 'wb') as fid_model:
     pickle.dump(chosen_model,fid_model)
