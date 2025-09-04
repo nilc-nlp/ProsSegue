@@ -20,7 +20,10 @@ Baseline approach
 
 Machine learning approach
 
+> Machine Learning Classifiers with Acoustic Features for Prosodic Segmentation in Brazilian Portuguese: A Comprehensive Evaluation – Giovana Meloni Craveiro (USP/ICMC, Brazil), Caroline Adriane Alves (None, None), Flaviane Svartman (USP, Brazil), Sandra M. Aluísio (USP/ICMC, Brazil)
 > Soon to be completed
+>
+> https://bracis.sbc.org.br/2025/pt/stil-2025/
 
 # Libraries used
 
