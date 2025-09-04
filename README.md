@@ -14,7 +14,7 @@ First of all, we would like to thank the annotators of the TaRSila project who w
 
 Baseline approach
 
-> Craveiro, G. M., Santos, V. G., Dalalana, G. J., Svartman, F. R., & Aluísio, S. M. (2024). Simple and Fast Automatic Prosodic Segmentation of Brazilian Portuguese Spontaneous Speech. PROPOR 2024, 32.
+> Giovana Meloni Craveiro, Vinicius Gonçalves Santos, Gabriel Jose Pellisser Dalalana, Flaviane R. Fernandes Svartman, and Sandra Maria Aluísio. 2024. Simple and Fast Automatic Prosodic Segmentation of Brazilian Portuguese Spontaneous Speech. In Proceedings of the 16th International Conference on Computational Processing of Portuguese - Vol. 1, pages 32–44, Santiago de Compostela, Galicia/Spain. Association for Computational Lingustics.
 
 Machine learning approach
 
