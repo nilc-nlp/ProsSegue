@@ -16,6 +16,8 @@ Baseline approach
 
 > Giovana Meloni Craveiro, Vinicius Gonçalves Santos, Gabriel Jose Pellisser Dalalana, Flaviane R. Fernandes Svartman, and Sandra Maria Aluísio. 2024. Simple and Fast Automatic Prosodic Segmentation of Brazilian Portuguese Spontaneous Speech. In Proceedings of the 16th International Conference on Computational Processing of Portuguese - Vol. 1, pages 32–44, Santiago de Compostela, Galicia/Spain. Association for Computational Lingustics.
 
+> https://aclanthology.org/2024.propor-1.4/
+
 Machine learning approach
 
 > Soon to be completed
