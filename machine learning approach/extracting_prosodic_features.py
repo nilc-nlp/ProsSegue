@@ -57,6 +57,7 @@ def extract_prosody(frame, sr, frame_id, next_interval_text, next_interval_dur, 
   attributes['f0_avgutt_diff_2'] = abs(avg_pitch - utt_avg_pitch)
   
   if next_interval_text == "sil": 
+    print("NEXT INTERVAL SIL", frame_id, next_interval_text, next_interval_dur)
     p_dur = next_interval_dur
   else:
     p_dur = 0 
@@ -117,6 +118,7 @@ def process_corpus_mupe_diversidades():
     file = path[3:]
     audios_list.append([file,audio_id,estado, common_path+path])
     tg_phones = common_path + estado + "/" + audio_id + "_fones.TextGrid"
+    #tg_phones = audio_id + ".TextGrid"
     tg_phones_list.append(tg_phones)
     tg_reference =  common_path + estado + "/" + audio_id + "_OUTPUT_revised.TextGrid"
     tg_reference_list.append(tg_reference)
@@ -224,7 +226,7 @@ def run_pipeline(audio_path, tg_phone, filename, tg_reference=[]):
 
   # Extracting prosodic features from each syllable
   for i, (frame, interval) in enumerate(zip(syllable_frames[j:], syllables_tier[j:])): # j indicates skipping first interval in case it is a silence to correctly calculate utterance pitch averages
-    
+
     if interval.text != "sil": 
       if sil_utterance_counter >= len(utterance_averages):
         print("UTTERANCE AVERAGES WAS PROBABLY WRONGLY CALCULATED, LIST OF AVERAGES ENDED BEFORE TEXTGRID SYLLABLES, STOPPING AT INTERVAL:", interval.text, interval.start_time, interval.end_time)
@@ -263,20 +265,23 @@ def run_pipeline(audio_path, tg_phone, filename, tg_reference=[]):
       nucleus_end_time = phonemes_tier[phones_index].end_time
 
       # Getting characteristics of the next syllable to consider whether there was a pause or not after the current syllable
-      if i+1 == len(syllables_tier):
+      if j+1 == len(syllables_tier): 
         next_interval_text = "fim"
         next_interval_dur = 0 
-      else:
-        next_interval_text = syllables_tier[i+1].text
-        next_interval_text = syllables_tier[i+1].text.replace(" ", "")
-        next_interval_dur = syllables_tier[i+1].end_time - syllables_tier[i+1].start_time
+      else: 
+        next_interval_text = syllables_tier[j+1].text
+        next_interval_text = syllables_tier[j+1].text.replace(" ", "")
+        next_interval_dur = syllables_tier[j+1].end_time - syllables_tier[j+1].start_time
+        print("current syllable:", syllables_tier[j], j, "next syllable:", syllables_tier[j+1], j+1, next_interval_text, next_interval_dur)
 
       # Calling the function to extract prosodic features for the current frame
       frame_prosodic_features = extract_prosody(frame, sr, frame_id, next_interval_text, next_interval_dur, interval.start_time, interval.end_time, nucleus_end_time, nucleus_start_time, nucleus_vowel, vowel_stats_dict, utterance_averages[sil_utterance_counter]) 
       all_syllables_prosodic_features.append(frame_prosodic_features)
+      print(frame_prosodic_features)
 
     else:
       sil_utterance_counter += 1
+    j += 1
 
   print("Extracted features from all frames!! "+filename)
 
@@ -297,7 +302,7 @@ def run_pipeline(audio_path, tg_phone, filename, tg_reference=[]):
 print("Hello! You are about to extract prosodic features of your audio, in case you wish to use reference labels, you should have added the reference labels textgrid as an extra parameter. If you haven't, the csv file with prosodic features will be generated without labels.")
 
 # CHANGE False to True below IF you intend to extract features from all MuPe-Diversidades instead of specifying one file at a time
-corpus_mupe = False
+corpus_mupe = True
 if corpus_mupe==True:
   process_corpus_mupe_diversidades()
 
