@@ -8,31 +8,70 @@ from sklearn.model_selection import train_test_split
 from codecarbon import EmissionsTracker
 import scipy.stats as stats
 
-#models = ['MLP_model.pkl', 'LDA_model.pkl', 'RandomForest_model.pkl', 'SVC_model.pkl']
-
 #with EmissionsTracker(project_name="RF - all predictions delete this one and the 2 above") as tracker:
 
-model = 'RandomForest_model.pkl'
-#model = 'RandomForest_model_originalufpalignversion_articleversion_8features_trainset.pkl'
+# CHOOSE VERSION OF MODEL YOU WISH TO USE AND COMMENT THE OTHER TWO BLOCKS
 
+# 8 FEATURES OLD UFPALIGN
+#features = ['p_dur','n_dur','e_range','e_maxavg_diff','e_avgmin_diff','f0_range','f0_maxavg_diff','f0_avgmin_diff'] # WITHOUT F0 AVG UTT DIFF
+#scaler = pickle.load(open('scaler_all_mupe-diversidades_8features.pkl', 'rb'))
+#chosen_model = pickle.load(open('RF_all_mupe-diversidades_8features.pkl', 'rb')) 
+#df_prosodic = pd.read_csv('MuPe-Diversidades_original_8features.csv')
+
+# 8 FEATURES NEW UFPALIGN
+#features = ['p_dur','n_dur','e_range','e_maxavg_diff','e_avgmin_diff','f0_range','f0_maxavg_diff','f0_avgmin_diff'] # WITHOUT F0 AVG UTT DIFF
+#scaler = pickle.load(open('scaler_all_mupe-diversidades_8features_newufpalign.pkl', 'rb'))
+#chosen_model = pickle.load(open('RF_all_mupe-diversidades_8features_newufpalign.pkl', 'rb')) 
+#df_prosodic = pd.read_csv('MuPe-Diversidades_newufpalign_8features.csv')
+
+# 8 FEATURES NEW UFPALIGN
+features = ['p_dur','n_dur','e_range','e_maxavg_diff','e_avgmin_diff','f0_range','f0_maxavg_diff','f0_avgmin_diff'] # WITHOUT F0 AVG UTT DIFF
+scaler = pickle.load(open('scaler_only-trainset_8features_newufpalign.pkl', 'rb'))
+chosen_model = pickle.load(open('RF_only-trainset_8features_newufpalign.pkl', 'rb')) 
+df_prosodic = pd.read_csv('MuPe-Diversidades_newufpalign_8features_only-trainset.csv')
+
+# 9 FEATURES ORIGINAL F0_AVGUTT_DIFF
+#features = ['f0_avgutt_diff','p_dur','n_dur','e_range','e_maxavg_diff','e_avgmin_diff','f0_range','f0_maxavg_diff','f0_avgmin_diff'] 
+#scaler = pickle.load(open('scaler_prosodic_only-trainset_mupe-diversidades_9features_originalf0_avg_utt_diff.pkl', 'rb'))
+#chosen_model = pickle.load(open('RF_only-trainset_mupe-diversidades_9features_originalf0_avg_utt_diff.pkl', 'rb')) 
+#df_prosodic = pd.read_csv('MuPe-Diversidades_original_9features.csv')
+
+# 9 FEATURES NEW VERSION OF FO_AVGUTT_DIFF: F0_AVGUTT_DIFF_2
+#features = ['f0_avgutt_diff_2','p_dur','n_dur','e_range','e_maxavg_diff','e_avgmin_diff','f0_range','f0_maxavg_diff','f0_avgmin_diff'] 
+#scaler = pickle.load(open('scaler_prosodic_all_mupe-diversidades_9features_new-f0_avg_utt_diff_2.pkl', 'rb'))
+#chosen_model = pickle.load(open('RF_all_mupe-diversidades_9features_new-f0_avg_utt_diff_2.pkl', 'rb')) # _midwordcutadjusted
+#df_prosodic = pd.read_csv('MuPe-Diversidades_NewUfpalign_NewFeature_Corrigido.csv')
+
+# ---
+# 9 FEATURES NEW VERSION OF FO_AVGUTT_DIFF: F0_AVGUTT_DIFF_2 ONLY TRAINSET
+#features = ['f0_avgutt_diff_2','p_dur','n_dur','e_range','e_maxavg_diff','e_avgmin_diff','f0_range','f0_maxavg_diff','f0_avgmin_diff'] 
+#scaler = pickle.load(open('scaler_only-trainset_9features_newufpalign_new-f0_avg_utt_diff_2.pkl', 'rb'))
+#chosen_model = pickle.load(open('RF_only-trainset_9features_newufpalign_new-f0_avg_utt_diff_2.pkl', 'rb')) # _midwordcutadjusted
+#df_prosodic = pd.read_csv('MuPe-Diversidades_NewUfpalign_NewFeature_Corrigido.csv')#'MuPe-Diversidades_newufpalign_9features_newfeature_trainset.csv')
+
+# 9 FEATURES NEW VERSION OF FO_AVGUTT_DIFF: F0_AVGUTT_DIFF_2 - only trainset - non filteres
+#features = ['f0_avgutt_diff_2','p_dur','n_dur','e_range','e_maxavg_diff','e_avgmin_diff','f0_range','f0_maxavg_diff','f0_avgmin_diff'] 
+#scaler = pickle.load(open('scaler_only-trainset_9features_newufpalign_new-f0_avg_utt_diff_2_nonfiltered.pkl', 'rb'))
+#chosen_model = pickle.load(open('RF_only-trainset_9features_newufpalign_new-f0_avg_utt_diff_2_nonfiltered.pkl', 'rb')) # _midwordcutadjusted
+#df_prosodic = pd.read_csv('MuPe-Diversidades_newufpalign_9features_newfeature_trainset_nonfiltered.csv')
+
+
+
+# OBSOLETE - DELETE AFTERWARDS
+#model = 'RandomForest_model.pkl'
+#model = 'RandomForest_model_originalufpalignversion_articleversion_8features_trainset.pkl'
 # 9 FEATURES
-features = ['f0_avgutt_diff','p_dur','n_dur','e_range','e_maxavg_diff','e_avgmin_diff','f0_range','f0_maxavg_diff','f0_avgmin_diff']
+#features = ['f0_avgutt_diff','p_dur','n_dur','e_range','e_maxavg_diff','e_avgmin_diff','f0_range','f0_maxavg_diff','f0_avgmin_diff']
 # 8 FEATURES
 #features = ['p_dur','n_dur','e_range','e_maxavg_diff','e_avgmin_diff','f0_range','f0_maxavg_diff','f0_avgmin_diff']
-
-
-scaler = pickle.load(open('scaler_prosodic.pkl', 'rb'))
+#scaler = pickle.load(open('scaler_prosodic.pkl', 'rb'))
 #scaler = pickle.load(open('scaler_prosodic_originalufpalignversion_articleversion_8features_trainset.pkl', 'rb'))
+#chosen_model = pickle.load(open(model, 'rb'))
+#df_prosodic = pd.read_csv('MuPe-Diversidades.csv')
+#df_prosodic = pd.read_csv('MuPe-Diversidades_originalufpalignversion_articleversion_8features_trainset.csv')
 
-#for model in models:
-
-#print(model)
-chosen_model = pickle.load(open(model, 'rb'))
 
 seed = 42
-
-df_prosodic = pd.read_csv('MuPe-Diversidades.csv')
-#df_prosodic = pd.read_csv('MuPe-Diversidades_originalufpalignversion_articleversion_8features_trainset.csv')
 estados = ["AL", "BA", "CE", "ES", "GO", "MG", "MS", "PA", "PB", "PE", "PI", "PR", "RJ", "RO", "RS", "SE", "SP"]
 
 
@@ -127,8 +166,21 @@ train_indices = X_train.index  # These are from the original DataFrame
 test_indices = X_test.index
 
 #print(train_indices)
+#print(sorted(train_indices)[:20]) # tested to visualize the first rows contained in trainset 
 #print(test_indices)
 #print(y_test)
+
+# USED ONLY ONCE TO CREATE A NEW COLUMN INDICATING WHETHER THE SYLLABLE BELONGS TO TEST SET OR TRAIN SET
+#print(df_prosodic)
+#df_prosodic['set'] = np.where(df_prosodic.index.isin(train_indices), 'TRAIN SET', 'TEST SET')
+#print(df_prosodic)
+#df_prosodic.to_csv('MuPe-Diversidades.csv', index=False)
+#quit()
+
+# MAYBE SHOULD BE COMMENTED, MAYBE NOT - HAVE TO ANALYZE
+#df_prosodic['education group'] = np.where(df_prosodic['education'].str.startswith(('CB','M')), 'IV', df_prosodic['education group'])
+#org_info_exc['frame'].replace(',', '-', inplace=True)
+
 
 # Predicting results on specific states
 

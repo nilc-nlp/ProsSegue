@@ -46,14 +46,40 @@ common_path = os.getcwd() + "/MuPe-Diversidades/versao-1/" # os.getcwd gets the 
 estados = ["AL", "BA", "CE", "ES", "GO", "MG", "MS", "PA", "PB", "PE", "PI", "PR", "RJ", "RO", "RS", "SE", "SP"]
 numeros = ["1", "2"]
 
+ 
+#VERSION USED TO PROCESS INQUIRIES INDIVIDUALLY
+
+""" audio_id = "SE1"
+print("Processing",audio_id)
+try:
+    tg_reference = common_path + audio_id[0:2] + "/" + audio_id + "_OUTPUT_revised.TextGrid"
+    tg_reference = tgt.io.read_textgrid(tg_reference, predict_encoding(tg_reference), include_empty_intervals=False) 
+    prosodic_features = pd.read_csv(audio_id+'_prosodic_features_ufpalignnewversion.csv') # comment/correct here
+    #prosodic_features = pd.read_csv('ExtractedProsodicFeatures/articleversion_newufpalignversion/'+audio_id+'_prosodic_features_newufpalignversion_articleversion.csv') # comment/correct here
+
+except:
+    print(audio_id, "doesn't exist, skipping to the next one")
+    quit()
+pattern = r"frame_([^\d_]+)_(\d+\.\d+)_(\d+\.\d+)"
+
+# Apply the filtering condition
+df_filtered = prosodic_features[prosodic_features.apply(is_spoken_by_interviewee, axis=1)]
+print(df_filtered)
+print(audio_id,"successfully filtered")
+
+# Save the filtered DataFrame to a new CSV file
+df_filtered.to_csv('ExtractedProsodicFeatures/'+audio_id+'_prosodic_features_filtered_speakers_corrigido_newufpalign.csv', index=False)   
+quit()  """
+
 for estado in estados:
   for numero in numeros:
     audio_id = estado+numero
     print("Processing",audio_id)
     try:
         tg_reference = common_path + estado + "/" + audio_id + "_OUTPUT_revised.TextGrid"
-        tg_reference = tgt.io.read_textgrid(tg_reference, predict_encoding(tg_reference), include_empty_intervals=False)
-        prosodic_features = pd.read_csv('ExtractedProsodicFeatures/'+audio_id+'_prosodic_features.csv')
+        tg_reference = tgt.io.read_textgrid(tg_reference, predict_encoding(tg_reference), include_empty_intervals=False) 
+        #prosodic_features = pd.read_csv('ExtractedProsodicFeatures/articleversion_newufpalignversion/'+audio_id+'_prosodic_features_newufpalignversion_articleversion.csv') # comment/correct here
+        prosodic_features = pd.read_csv(audio_id+'_prosodic_features.csv') # comment/correct here RJ1_prosodic_features_corrigido
     except:
         print(audio_id, "doesn't exist, skipping to the next one")
         continue
@@ -65,4 +91,5 @@ for estado in estados:
     print(audio_id,"successfully filtered")
 
     # Save the filtered DataFrame to a new CSV file
-    df_filtered.to_csv('ExtractedProsodicFeatures/'+audio_id+'_prosodic_features_filtered_speakers.csv', index=False)   
+    #df_filtered.to_csv('ExtractedProsodicFeatures/'+audio_id+'_prosodic_features_articleversion_filtered_speakers_corrigido.csv', index=False)   
+    df_filtered.to_csv('ExtractedProsodicFeatures/'+audio_id+'_prosodic_features_filtered_speakers.csv', index=False)   # COMMENT/CORRECT/CHECK HERE
