@@ -165,6 +165,7 @@ To be completed
 
 The pipeline of usage of the trained model for the machine learning approach is as follows:
 
-<img width="1103" height="300" alt="pipelineRFv2" src="https://github.com/user-attachments/assets/3a72127a-3eb5-4def-918b-03307fb88f10" />
+<img width="1036" height="290" alt="image" src="https://github.com/user-attachments/assets/e41eaa1a-b8df-40bd-8e01-5015b7f18984" />
+
 
 
