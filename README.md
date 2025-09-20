@@ -161,7 +161,8 @@ Note: In SP_D2_012, the indication of speakers was confusing (doc., doc.f, doc.m
 
 The complete pipeline of the machine learning approach, which includes training, is as follows:
 
-To be completed
+<img width="1355" height="357" alt="image" src="https://github.com/user-attachments/assets/fde91761-ed57-44c6-a668-7f28e50501e3" />
+
 
 The pipeline of usage of the trained model for the machine learning approach is as follows:
 
