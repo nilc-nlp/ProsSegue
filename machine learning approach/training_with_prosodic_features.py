@@ -48,13 +48,13 @@ def join_inquiries_in_single_dataset():
                 # CHOOSE ONE AND COMMENT THE OTHERS
 
                 # 8 or 9 FEATURES ORIGINAL FEATURE 
-                df_prosodic = pd.read_csv('ExtractedProsodicFeatures/'+audio_id+'_prosodic_features_filtered_speakers.csv')
+                #df_prosodic = pd.read_csv('ExtractedProsodicFeatures/'+audio_id+'_prosodic_features_filtered_speakers.csv')
 
                 # 8 or 9 FEATURES NEW FEATURE NEW UFPALIGN
                 #df_prosodic = pd.read_csv('ExtractedProsodicFeaturesNEWUFPALIGNVERSION_newfeature/'+audio_id+'_prosodic_features_filtered_speakers_ufpalignnewversion.csv')
                 
                 # non filtered files new ufpalign new feature
-                #df_prosodic = pd.read_csv('ExtractedProsodicFeaturesNEWUFPALIGNVERSION_newfeature/non-filtered-files/'+audio_id+'_prosodic_features_ufpalignnewversion.csv')
+                df_prosodic = pd.read_csv('ExtractedProsodicFeatures/new_feature_newufpalign_corrigidos/'+audio_id+'_prosodic_features.csv')
                 
                 current_X = df_prosodic[features] 
                 current_X = df_prosodic[features].fillna(0) # Replace NaN values with 0 in X
@@ -82,11 +82,14 @@ def join_inquiries_in_single_dataset():
     # Original version - 8 features - OLD UFPALIGN
     #mupe_diversidades.to_csv('MuPe-Diversidades_original_8features.csv', index=False) 
 
-    # Original version - 8 features - NEW UFPALIGN
+    # 8 features - NEW UFPALIGN
     #mupe_diversidades.to_csv('MuPe-Diversidades_newufpalign_8features.csv', index=False) 
 
     # 8 features - new ufpalign - trainset
-    mupe_diversidades.to_csv('MuPe-Diversidades_newufpalign_8features_only-trainset.csv', index=False)
+    #mupe_diversidades.to_csv('MuPe-Diversidades_newufpalign_8features_only-trainset.csv', index=False)
+
+    # 8 features - new ufpalign - all mupe diversidades - non filtered
+    mupe_diversidades.to_csv('MuPe-Diversidades_newufpalign_8features_non-filtered.csv', index=False)
 
     # 9 features - new ufpalign - trainset - new feature
     #mupe_diversidades.to_csv('MuPe-Diversidades_newufpalign_9features_newfeature_trainset.csv', index=False) 
@@ -152,15 +155,15 @@ seed = 42
 # CHOOSE ONE OF THE FOLLOWING TWO DATASETS TO TRAIN THE MODEL (EITHER THE ENTIRE MUPE-DIVERSIDADES (lines 122 and 123), OR THE SELECTED TRAIN SET (line 119)) AND COMMENT THE OTHER 
 
 # Training with 80% of the dataset
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, train_size=0.8, random_state=seed, shuffle=True, stratify=all_stratifications_ids)  
+#X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, train_size=0.8, random_state=seed, shuffle=True, stratify=all_stratifications_ids)  
 #print(X_test)
 #print(y_test) 
 #print("Y test set - TB total count:", y_test.count('TB'))
 #print("Y test set - NB total count:", y_test.count('NB'))
 
 # Training with all data to make model available for users
-#X_train = X
-#y_train = y
+X_train = X
+y_train = y
 
 print("Y train set - TB total count:", y_train.count('TB'))
 print("Y train set - NB total count:", y_train.count('NB'))
@@ -212,9 +215,15 @@ plt.show() """
 # CHOOSE THE RIGHT SCALER AND MODEL BELOW AND COMMENT ALL OTHERS
 
 # 8 FEATURES - NEW UFPALIGN - TRAINSET - INDICATED FOR USAGE ON NEW DATASETS
-with open('scaler_only-trainset_8features_newufpalign.pkl', 'wb') as fid_scaler:
+#with open('scaler_only-trainset_8features_newufpalign.pkl', 'wb') as fid_scaler:
+#    pickle.dump(scaler,fid_scaler)
+#with open('RF_only-trainset_8features_newufpalign.pkl', 'wb') as fid_model:
+#    pickle.dump(chosen_model,fid_model)
+
+# 8 FEATURES - NEW UFPALIGN - ALL MUPE DIVERSIDADES - NON FILTERED - OFFICIAL VERSION - INDICATED FOR USAGE ON NEW DATASETS
+with open('scaler_all_mupe-diversidades_8features_newufpalign_non-filtered', 'wb') as fid_scaler:
     pickle.dump(scaler,fid_scaler)
-with open('RF_only-trainset_8features_newufpalign.pkl', 'wb') as fid_model:
+with open('RF_all_mupe-diversidades_8features_newufpalign_non-filtered', 'wb') as fid_model:
     pickle.dump(chosen_model,fid_model)
 
 # 9 FEATURES - NEW UFPALIGN - TRAINSET - INDICATED FOR USAGE ON NEW DATASETS
