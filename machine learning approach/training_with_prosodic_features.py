@@ -221,9 +221,9 @@ plt.show() """
 #    pickle.dump(chosen_model,fid_model)
 
 # 8 FEATURES - NEW UFPALIGN - ALL MUPE DIVERSIDADES - NON FILTERED - OFFICIAL VERSION - INDICATED FOR USAGE ON NEW DATASETS
-with open('scaler_all_mupe-diversidades_8features_newufpalign_non-filtered', 'wb') as fid_scaler:
+with open('scaler_all_mupe-diversidades_8features_newufpalign_non-filtered.pkl', 'wb') as fid_scaler:
     pickle.dump(scaler,fid_scaler)
-with open('RF_all_mupe-diversidades_8features_newufpalign_non-filtered', 'wb') as fid_model:
+with open('RF_all_mupe-diversidades_8features_newufpalign_non-filtered.pkl', 'wb') as fid_model:
     pickle.dump(chosen_model,fid_model)
 
 # 9 FEATURES - NEW UFPALIGN - TRAINSET - INDICATED FOR USAGE ON NEW DATASETS

@@ -38,11 +38,17 @@ tg_phone = sys.argv[2] #"AL1_fones.TextGrid"
 #chosen_model = pickle.load(open('RF_all_mupe-diversidades_8features.pkl', 'rb')) 
 #final_tg_name = csv_path.split('.')[0] + "_prosodic_segmented_8features.Textgrid"
 
-# 8 FEATURES NEW UFPALIGN
+# 8 FEATURES NEW UFPALIGN FILTERED
+#features = ['p_dur','n_dur','e_range','e_maxavg_diff','e_avgmin_diff','f0_range','f0_maxavg_diff','f0_avgmin_diff'] # WITHOUT F0 AVG UTT DIFF
+#scaler = pickle.load(open('scaler_all_mupe-diversidades_8features_newufpalign.pkl', 'rb'))
+#chosen_model = pickle.load(open('RF_all_mupe-diversidades_8features_newufpalign.pkl', 'rb')) 
+#final_tg_name = csv_path.split('.')[0] + "_prosodic_segmented_8features_newufpalign.Textgrid"
+
+# 8 FEATURES NEW UFPALIGN NON-FILTERED
 features = ['p_dur','n_dur','e_range','e_maxavg_diff','e_avgmin_diff','f0_range','f0_maxavg_diff','f0_avgmin_diff'] # WITHOUT F0 AVG UTT DIFF
-scaler = pickle.load(open('scaler_all_mupe-diversidades_8features_newufpalign.pkl', 'rb'))
-chosen_model = pickle.load(open('RF_all_mupe-diversidades_8features_newufpalign.pkl', 'rb')) 
-final_tg_name = csv_path.split('.')[0] + "_prosodic_segmented_8features_newufpalign.Textgrid"
+scaler = pickle.load(open('scaler_all_mupe-diversidades_8features_newufpalign_non-filtered.pkl', 'rb'))
+chosen_model = pickle.load(open('RF_all_mupe-diversidades_8features_newufpalign_non-filtered.pkl', 'rb')) 
+final_tg_name = csv_path.split('.')[0] + "_prosodic_segmented_8features_newufpalign_non-filtered.Textgrid"
 
 # 9 FEATURES ORIGINAL F0_AVGUTT_DIFF
 #features = ['f0_avgutt_diff','p_dur','n_dur','e_range','e_maxavg_diff','e_avgmin_diff','f0_range','f0_maxavg_diff','f0_avgmin_diff'] 
