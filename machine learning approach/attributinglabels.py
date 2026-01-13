@@ -10,18 +10,32 @@ def attributing_labels(syllables_tier, all_utterances):
   for i_syl, syllable in enumerate(syllables_tier): 
     #print(syllable, all_utterances[i_utt],  i_syl+1, " (i_syl+1) >= LEN SYLL TIER:", len(syllables_tier)) # CAREFUL, sensible to list index out of range error
     #print(syllable, all_utterances[i_utt], syllables_tier[i_syl+1].start_time, ">=", round(all_utterances[i_utt].end_time, 2), "or", i_utt,  "(i_utt) >= len all utterances:", len(all_utterances) )
+    if i_utt < len(all_utterances):
+      print(syllable, all_utterances[i_utt], "label below:\n")
+    else:
+      print(syllable, "and no more utterances\n")
     if syllable.text != "sil":
       if i_syl+1 >= len(syllables_tier) or i_utt >= len(all_utterances) or syllables_tier[i_syl+1].start_time >= round(all_utterances[i_utt].end_time, 2):
         labels.append("TB")
-        #print("PRIMEIRO")
+        print("FLAG 1 - LABEL TB")
+        print(i_syl+1, " (i_syl+1) >= LEN SYLL TIER:", len(syllables_tier), " or", i_utt,  " (i_utt) >= len all utterances:", len(all_utterances), "\n")
+        if i_syl+1 < len(syllables_tier) and i_utt < len(all_utterances):
+          print(" or ", syllables_tier[i_syl+1].start_time, " (next syllable start time) >= ", round(all_utterances[i_utt].end_time, 2), " (current utterance end time)\n")
+        i_utt += 1
+      elif syllables_tier[i_syl+1].text == "sil" and syllables_tier[i_syl+1].end_time >= round(all_utterances[i_utt].end_time, 2):
+        labels.append("TB")
+        print("FLAG 1,5!!! LABEL TB")
         i_utt += 1
       elif syllables_tier[i_syl+1].text == "sil" and i_syl+2 < len(syllables_tier) and syllables_tier[i_syl+2].start_time >= round(all_utterances[i_utt].end_time, 2):
-        #print("SEGUNDO", syllables_tier[i_syl+1].text, "== SIL and", i_syl+2, "<", len(syllables_tier), "and ", syllables_tier[i_syl+2].start_time, ">=", round(all_utterances[i_utt].end_time, 2))
+        print("FLAG 2 - LABEL TB")
+        print(syllables_tier[i_syl+1].text,"(next syllable is silent) == sil and (the following syllable exists)", i_syl+2, " (", syllables_tier[i_syl+2].text, ") <", len(syllables_tier), "and (it starts after (or at the same time as) the curent utterance has ended) ", syllables_tier[i_syl+2].start_time, ">=", round(all_utterances[i_utt].end_time, 2), "\n")
+        
         labels.append("TB")
         i_utt += 1
       else:
-        #print("EU TERCEIRO")
-        labels.append("NB")   
+        print("FLAG 3 - ELSE: LABEL NB\n")
+        labels.append("NB")  
+  
   return labels
 
 def predict_encoding(tg_path):
@@ -58,10 +72,12 @@ for arg in sys.argv[1:]:
 
 tg_phones_textgrids.sort()
 features_csv_files.sort()
+part_ids.sort()
 
 print("\nCheck if each list is complete and ordered correctly:\n")
 print(tg_phones_textgrids,"\n")
 print(features_csv_files, "\n")
+print(part_ids)
 print("Check if the following is really the reference textgrid:\n")
 print(tg_reference, "\n")
 
@@ -75,10 +91,17 @@ last_end_time = 0
 while i < len(tg_phones_textgrids):
   tg_phones_textgrids[i] = tgt.io.read_textgrid(tg_phones_textgrids[i], predict_encoding(tg_phones_textgrids[i]), include_empty_intervals=False)
   ## ONLY NEEDED FOR SEPARATED VERSION - IDENTIFYING WHERE EACH PART ENDED WITH UFPALIGN TO SEPARATE THEM FURTHER ON
-  phones_textgrid_endtimes.append(last_end_time+tg_phones_textgrids[i].end_time)
+  #phones_textgrid_endtimes.append(last_end_time+tg_phones_textgrids[i].end_time)
+  #if i > 1: # ONLY FOR 360
+    #last_end_time += 323.227 # ONLY FOR 360
+
+  phones_textgrid_endtimes.append(last_end_time+tg_phones_textgrids[i].end_time) 
   last_end_time = phones_textgrid_endtimes[i]
   i += 1
   ##
+#phones_textgrid_endtimes.extend([1082.01907])  # ONLY FOR D2 360
+#phones_textgrid_endtimes.sort() # ONLY FOR D2 360 
+#print(phones_textgrid_endtimes)
 
 #TB_tiers = [tier for tier in tg_reference.tiers if tier.name.startswith("TB-") and "ponto" not in tier.name]
 TB_tiers = [tier for tier in tg_reference.tiers if tier.name.startswith("TB-") and "normal" in tier.name]
@@ -130,6 +153,8 @@ for index,end_time in enumerate(phones_textgrid_endtimes):
 #  tgt.io.write_to_file(textgrid,id+"_reference_part"+str(index)+".TextGrid", format='long', encoding='utf-8') 
 ######
 
+#reference_parts.pop(2) # ONLY FOR D2 360 
+
 i = 0
 for csv, phones_textgrid, reference_textgrid in zip(features_csv_files,tg_phones_textgrids,reference_parts):
   syllables_tier = phones_textgrid.get_tier_by_name("silabas-fonemas")
@@ -148,6 +173,7 @@ for csv, phones_textgrid, reference_textgrid in zip(features_csv_files,tg_phones
   print(df_prosodic,"\n")
   print("The file was named as: ",id+"_"+part_ids[i]+"_features_labeled.csv\n")
   i += 1
+
 ###############################
 
 
