@@ -34,6 +34,9 @@ def attributing_labels(syllables_tier, all_utterances):
       if i_syl+1 >= len(syllables_tier) or i_utt >= len(all_utterances) or syllables_tier[i_syl+1].start_time >= round(all_utterances[i_utt].end_time, 2):
         labels.append("TB")
         i_utt += 1
+      elif syllables_tier[i_syl+1].text == "sil" and syllables_tier[i_syl+1].end_time >= round(all_utterances[i_utt].end_time, 2):
+        labels.append("TB")
+        i_utt += 1
       elif syllables_tier[i_syl+1].text == "sil" and i_syl+2 < len(syllables_tier) and syllables_tier[i_syl+2].start_time >= round(all_utterances[i_utt].end_time, 2):
         labels.append("TB")
         i_utt += 1
