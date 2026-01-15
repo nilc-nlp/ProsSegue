@@ -20,11 +20,9 @@ First of all, we would like to thank the annotators of the TaRSila project who w
 
 ### Machine learning approach
 
-> Machine Learning Classifiers with Acoustic Features for Prosodic Segmentation in Brazilian Portuguese: A Comprehensive Evaluation – Giovana Meloni Craveiro (USP/ICMC, Brazil), Caroline Adriane Alves (None, None), Flaviane Svartman (USP, Brazil), Sandra M. Aluísio (USP/ICMC, Brazil)
+> CRAVEIRO, Giovana M.; ALVES, Caroline A.; SVARTMAN, Flaviane; ALUÍSIO, Sandra M.. Machine Learning Classifiers with Acoustic Features for Prosodic Segmentation in Brazilian Portuguese: A Comprehensive Evaluation. In: SIMPÓSIO BRASILEIRO DE TECNOLOGIA DA INFORMAÇÃO E DA LINGUAGEM HUMANA (STIL), 16. , 2025, Fortaleza/CE. Anais [...]. Porto Alegre: Sociedade Brasileira de Computação, 2025 . p. 113-124. DOI: https://doi.org/10.5753/stil.2025.37818. 
 
-Soon to be completed
-
-> https://bracis.sbc.org.br/2025/pt/stil-2025/
+> https://sol.sbc.org.br/index.php/stil/article/view/37818
 
 ## Libraries used
 
