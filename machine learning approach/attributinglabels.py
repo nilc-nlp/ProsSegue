@@ -8,34 +8,20 @@ def attributing_labels(syllables_tier, all_utterances):
   i_utt = 0
   #(Going through syllables tier, verifying whether each syllable's start time is smaller than the end time of the current utterance, meaning that the current syllable would belong to the current utterance, and label "NB" (no boundary) is attributed. If not, "TB" is attributed and we move to the next syllable and utterance)
   for i_syl, syllable in enumerate(syllables_tier): 
-    #print(syllable, all_utterances[i_utt],  i_syl+1, " (i_syl+1) >= LEN SYLL TIER:", len(syllables_tier)) # CAREFUL, sensible to list index out of range error
-    #print(syllable, all_utterances[i_utt], syllables_tier[i_syl+1].start_time, ">=", round(all_utterances[i_utt].end_time, 2), "or", i_utt,  "(i_utt) >= len all utterances:", len(all_utterances) )
-    if i_utt < len(all_utterances):
-      print(syllable, all_utterances[i_utt], "label below:\n")
-    else:
-      print(syllable, "and no more utterances\n")
     if syllable.text != "sil":
-      if i_syl+1 >= len(syllables_tier) or i_utt >= len(all_utterances) or syllables_tier[i_syl+1].start_time >= round(all_utterances[i_utt].end_time, 2):
+      if i_utt >= len(all_utterances):
+        labels.append("NB")
+      elif  i_syl+1 >= len(syllables_tier) or syllables_tier[i_syl+1].start_time >= round(all_utterances[i_utt].end_time, 2):
         labels.append("TB")
-        print("FLAG 1 - LABEL TB")
-        print(i_syl+1, " (i_syl+1) >= LEN SYLL TIER:", len(syllables_tier), " or", i_utt,  " (i_utt) >= len all utterances:", len(all_utterances), "\n")
-        if i_syl+1 < len(syllables_tier) and i_utt < len(all_utterances):
-          print(" or ", syllables_tier[i_syl+1].start_time, " (next syllable start time) >= ", round(all_utterances[i_utt].end_time, 2), " (current utterance end time)\n")
         i_utt += 1
       elif syllables_tier[i_syl+1].text == "sil" and syllables_tier[i_syl+1].end_time >= round(all_utterances[i_utt].end_time, 2):
         labels.append("TB")
-        print("FLAG 1,5!!! LABEL TB")
         i_utt += 1
       elif syllables_tier[i_syl+1].text == "sil" and i_syl+2 < len(syllables_tier) and syllables_tier[i_syl+2].start_time >= round(all_utterances[i_utt].end_time, 2):
-        print("FLAG 2 - LABEL TB")
-        print(syllables_tier[i_syl+1].text,"(next syllable is silent) == sil and (the following syllable exists)", i_syl+2, " (", syllables_tier[i_syl+2].text, ") <", len(syllables_tier), "and (it starts after (or at the same time as) the curent utterance has ended) ", syllables_tier[i_syl+2].start_time, ">=", round(all_utterances[i_utt].end_time, 2), "\n")
-        
         labels.append("TB")
         i_utt += 1
       else:
-        print("FLAG 3 - ELSE: LABEL NB\n")
         labels.append("NB")  
-  
   return labels
 
 def predict_encoding(tg_path):
