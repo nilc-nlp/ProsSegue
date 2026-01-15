@@ -24,14 +24,15 @@ import numpy
 import tgt
 import chardet
 
-#Attributing labels to each syllable
 def attributing_labels(syllables_tier, all_utterances):
   labels = []
   i_utt = 0
   #(Going through syllables tier, verifying whether each syllable's start time is smaller than the end time of the current utterance, meaning that the current syllable would belong to the current utterance, and label "NB" (no boundary) is attributed. If not, "TB" is attributed and we move to the next syllable and utterance)
   for i_syl, syllable in enumerate(syllables_tier): 
     if syllable.text != "sil":
-      if i_syl+1 >= len(syllables_tier) or i_utt >= len(all_utterances) or syllables_tier[i_syl+1].start_time >= round(all_utterances[i_utt].end_time, 2):
+      if i_utt >= len(all_utterances):
+        labels.append("NB")
+      elif  i_syl+1 >= len(syllables_tier) or syllables_tier[i_syl+1].start_time >= round(all_utterances[i_utt].end_time, 2):
         labels.append("TB")
         i_utt += 1
       elif syllables_tier[i_syl+1].text == "sil" and syllables_tier[i_syl+1].end_time >= round(all_utterances[i_utt].end_time, 2):
@@ -41,7 +42,7 @@ def attributing_labels(syllables_tier, all_utterances):
         labels.append("TB")
         i_utt += 1
       else:
-        labels.append("NB")   
+        labels.append("NB")  
   return labels
 
 # Função para extrair features prosódicas
