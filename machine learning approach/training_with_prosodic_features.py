@@ -19,6 +19,7 @@ import numpy as np
 import pickle
 import time
 import tracemalloc
+import os
 import matplotlib.pyplot as plt
 
 from sklearn.model_selection import train_test_split
@@ -29,7 +30,7 @@ from sklearn.metrics import make_scorer, f1_score
 
 from codecarbon import EmissionsTracker
 
-
+# MuPe-Diversidades
 def join_inquiries_in_single_dataset():
     estados = ["AL", "BA", "CE", "ES", "GO", "MG", "MS", "PA", "PB", "PE", "PI", "PR", "RJ", "RO", "RS", "SE", "SP"]
     numeros = ["1", "2"]
@@ -88,15 +89,14 @@ def join_inquiries_in_single_dataset():
     # 8 features - new ufpalign - trainset
     #mupe_diversidades.to_csv('MuPe-Diversidades_newufpalign_8features_only-trainset.csv', index=False)
 
-    # 8 features - new ufpalign - all mupe diversidades - non filtered
-    mupe_diversidades.to_csv('MuPe-Diversidades_newufpalign_8features_non-filtered.csv', index=False)
+    # 8 features - new ufpalign - all mupe diversidades (can be used only for trainset too) - non filtered
+    #mupe_diversidades.to_csv('MuPe-Diversidades_newufpalign_8features_non-filtered.csv', index=False)
 
     # 9 features - new ufpalign - trainset - new feature
     #mupe_diversidades.to_csv('MuPe-Diversidades_newufpalign_9features_newfeature_trainset.csv', index=False) 
 
     # 9 features - new ufpalign - trainset - new feature
-    #mupe_diversidades.to_csv('MuPe-Diversidades_newufpalign_9features_newfeature_trainset_nonfiltered.csv', index=False) 
-
+    mupe_diversidades.to_csv('MuPe-Diversidades_newufpalign_9features_newfeature_trainset_nonfiltered.csv', index=False) 
 
     # Original version - 9 features
     #mupe_diversidades.to_csv('MuPe-Diversidades_original_9features.csv', index=False) 
@@ -107,6 +107,25 @@ def join_inquiries_in_single_dataset():
     X = pd.DataFrame(all_X)
     
     return X, y, all_stratification_ids
+
+# Minimum Corpus
+def gather_data_from_minimum_corpus():   
+    path = "./CM/CM_to_predict/CurrentInquiry" # here all files must be inside folder "CurrentInquiry", which is a folder inside folder "CM_to_predict"
+    features_csv_files = []
+    for entry in os.listdir(path):
+            full_path = os.path.join(path, entry)
+            features_csv_files.append(full_path) 
+    features_csv_files.sort()
+    print(features_csv_files)
+    df_prosodic = pd.concat(map(pd.read_csv, features_csv_files), ignore_index=True)
+    print(df_prosodic)
+    df_prosodic.to_csv("CM_corpus_features_trainset.csv", index=False)
+
+    X = df_prosodic[features] 
+    X = df_prosodic[features].fillna(0) # Replace NaN values with 0 in X
+    y = df_prosodic["label"].to_list()
+    frames = df_prosodic["frame"]
+    print(df_prosodic)
 
 
 #with EmissionsTracker(project_name="RF - training ") as tracker:
@@ -123,19 +142,21 @@ features = ['p_dur','n_dur','e_range','e_maxavg_diff','e_avgmin_diff','f0_range'
 #features = ['f0_avgutt_diff_2','p_dur','n_dur','e_range','e_maxavg_diff','e_avgmin_diff','f0_range','f0_maxavg_diff','f0_avgmin_diff']
 
 # CHOOSE ONE OF THE FOLLOWING BLOCKS TO GET EXCTRACTED FEATURES INFO FROM MUPE DIVERSIDADES AND EITHER COMMENT OR (RECOMMENDED) DELETE THE OTHER 
-
-X, y, all_stratifications_ids = join_inquiries_in_single_dataset() 
+#X, y = gather_data_from_minimum_corpus()
+#X, y, all_stratifications_ids = join_inquiries_in_single_dataset() # ENTIRE MUPE DIVERSIDADES
 #print(all_stratifications_ids)
 
 # If your dataset is completely contained in a single csv file, adapt the following line for the name and path of your file
 #df_prosodic = pd.read_csv('MuPe-Diversidades.csv') # ADAPT NAME HERE
-#X = df_prosodic[features]
-#y = df_prosodic['label'].to_list()
+df_prosodic = pd.read_csv("CM_corpus_features_trainset.csv")
+X = df_prosodic[features]
+y = df_prosodic['label'].to_list()
+print(X)
 
-# ANALYZING STRATIFICATION TO GUARANTEE DIVERSITY AND BALANCE OF CLASSES
-print("Stratification ids total count")
-classes, counts = np.unique(all_stratifications_ids, return_counts=True)
-print(dict(zip(classes, counts)))
+# ANALYZING STRATIFICATION TO GUARANTEE DIVERSITY AND BALANCE OF CLASSES - ONLY FOR MUPE-DIVERSIDADES
+#print("Stratification ids total count")
+#classes, counts = np.unique(all_stratifications_ids, return_counts=True)
+#print(dict(zip(classes, counts)))
 
 scaler = StandardScaler()
 X = scaler.fit_transform(X) # While some classifiers need this step, gradient boosting and decision tree are not affected by this, but it can safely be applied to all
@@ -161,7 +182,7 @@ seed = 42
 #print("Y test set - TB total count:", y_test.count('TB'))
 #print("Y test set - NB total count:", y_test.count('NB'))
 
-# Training with all data to make model available for users
+# Training with all data (to make model available for users OR BECAUSE ONLY TRAINSET IS IN THE CSV)
 X_train = X
 y_train = y
 
@@ -178,7 +199,6 @@ print("Training Random Forest")
 #start_time = time.time()
 chosen_model = RandomForestClassifier(max_depth=20, min_samples_split=5, n_estimators=100, class_weight={'NB': 1.0, 'TB': 30},  random_state=seed)
 chosen_model.fit(X_train,y_train)
-#chosen_model.fit(X,y) # ONLY USED THIS TO MAKE AVAILABLE MODEL TRAINED WITH ENTIRE MUPE-DIVERSIDADES
 #memory_usage = tracemalloc.take_snapshot()
 #current, peak = tracemalloc.get_traced_memory()
 #tracemalloc.stop()
@@ -221,10 +241,16 @@ plt.show() """
 #    pickle.dump(chosen_model,fid_model)
 
 # 8 FEATURES - NEW UFPALIGN - ALL MUPE DIVERSIDADES - NON FILTERED - OFFICIAL VERSION - INDICATED FOR USAGE ON NEW DATASETS
-with open('scaler_all_mupe-diversidades_8features_newufpalign_non-filtered.pkl', 'wb') as fid_scaler:
-    pickle.dump(scaler,fid_scaler)
-with open('RF_all_mupe-diversidades_8features_newufpalign_non-filtered.pkl', 'wb') as fid_model:
-    pickle.dump(chosen_model,fid_model)
+#with open('scaler_all_mupe-diversidades_8features_newufpalign_non-filtered.pkl', 'wb') as fid_scaler:
+#    pickle.dump(scaler,fid_scaler)
+#with open('RF_all_mupe-diversidades_8features_newufpalign_non-filtered.pkl', 'wb') as fid_model:
+#    pickle.dump(chosen_model,fid_model)
+
+# 8 FEATURES - NEW UFPALIGN - ONLY TRAINSET - NON FILTERED - VERSION SELECTED FOR FINAL ARTICLE
+#with open('scaler_only-trainset_8features_newufpalign_non-filtered.pkl', 'wb') as fid_scaler:
+#    pickle.dump(scaler,fid_scaler)
+#with open('RF_only-trainset_8features_newufpalign_non-filtered.pkl', 'wb') as fid_model:
+#    pickle.dump(chosen_model,fid_model)
 
 # 9 FEATURES - NEW UFPALIGN - TRAINSET - INDICATED FOR USAGE ON NEW DATASETS
 #with open('scaler_only-trainset_9features_newufpalign_new-f0_avg_utt_diff_2.pkl', 'wb') as fid_scaler:
@@ -262,12 +288,8 @@ with open('RF_all_mupe-diversidades_8features_newufpalign_non-filtered.pkl', 'wb
 #with open('RF_all_mupe-diversidades_9features_new-f0_avg_utt_diff_2.pkl', 'wb') as fid_model:
 #    pickle.dump(chosen_model,fid_model)
 
-# DELETE THESE AFTER ALL TESTS AND PROCESSES
-#with open('scaler_prosodic_all_mupe-diversidades.pkl', 'wb') as fid_scaler:
-#with open('scaler_prosodic.pkl', 'wb') as fid_scaler:
-#with open('scaler_prosodic_newufpalignversion_articleversion_9features_allmupediversidades.pkl', 'wb') as fid_scaler:
-#    pickle.dump(scaler,fid_scaler)
-#with open('RandomForest_model_all_mupe-diversidades.pkl', 'wb') as fid_model:
-#with open('RandomForest_model.pkl', 'wb') as fid_model:
-#with open('RandomForest_model_newufpalignversion_articleversion_9features_allmupediversidades.pkl', 'wb') as fid_model:
-#    pickle.dump(chosen_model,fid_model)
+# 8 FEATURES - NEW UFPALIGN - INDICATED FOR USAGE ON NEW DATASETS
+with open('scaler_MC_8features_newufpalign_nonfiltered.pkl', 'wb') as fid_scaler:
+    pickle.dump(scaler,fid_scaler)
+with open('RF_MC_8features_newufpalign_nonfiltered.pkl', 'wb') as fid_model:
+    pickle.dump(chosen_model,fid_model)
