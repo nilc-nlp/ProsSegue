@@ -148,10 +148,14 @@ features = ['p_dur','n_dur','e_range','e_maxavg_diff','e_avgmin_diff','f0_range'
 
 # If your dataset is completely contained in a single csv file, adapt the following line for the name and path of your file
 #df_prosodic = pd.read_csv('MuPe-Diversidades.csv') # ADAPT NAME HERE
-df_prosodic = pd.read_csv("CM_corpus_features_trainset.csv")
+df_prosodic = pd.read_csv('MuPe-Diversidades_newufpalign_8features_non-filtered.csv') 
+#df_prosodic = pd.read_csv("CM_corpus_features_trainset.csv")
+
 X = df_prosodic[features]
 y = df_prosodic['label'].to_list()
+all_stratifications_ids = df_prosodic['stratificationID']
 print(X)
+
 
 # ANALYZING STRATIFICATION TO GUARANTEE DIVERSITY AND BALANCE OF CLASSES - ONLY FOR MUPE-DIVERSIDADES
 #print("Stratification ids total count")
@@ -176,15 +180,25 @@ seed = 42
 # CHOOSE ONE OF THE FOLLOWING TWO DATASETS TO TRAIN THE MODEL (EITHER THE ENTIRE MUPE-DIVERSIDADES (lines 122 and 123), OR THE SELECTED TRAIN SET (line 119)) AND COMMENT THE OTHER 
 
 # Training with 80% of the dataset
-#X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, train_size=0.8, random_state=seed, shuffle=True, stratify=all_stratifications_ids)  
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, train_size=0.8, random_state=seed, shuffle=True, stratify=all_stratifications_ids)  
 #print(X_test)
 #print(y_test) 
 #print("Y test set - TB total count:", y_test.count('TB'))
 #print("Y test set - NB total count:", y_test.count('NB'))
 
+# Joining MC and Mupe diversidades training set
+df_prosodic_part2 = pd.read_csv("CM_corpus_features_trainset.csv")
+
+X_part2 = df_prosodic_part2[features]
+y_part2 = df_prosodic_part2['label'].to_list()
+X_part2 = scaler.fit_transform(X_part2) # While some classifiers need this step, gradient boosting and decision tree are not affected by this, but it can safely be applied to all
+
+X_train = np.concatenate((X_train, X_part2), axis=0)
+y_train = y_train + y_part2
+
 # Training with all data (to make model available for users OR BECAUSE ONLY TRAINSET IS IN THE CSV)
-X_train = X
-y_train = y
+#X_train = X
+#y_train = y
 
 print("Y train set - TB total count:", y_train.count('TB'))
 print("Y train set - NB total count:", y_train.count('NB'))
@@ -288,8 +302,14 @@ plt.show() """
 #with open('RF_all_mupe-diversidades_9features_new-f0_avg_utt_diff_2.pkl', 'wb') as fid_model:
 #    pickle.dump(chosen_model,fid_model)
 
-# 8 FEATURES - NEW UFPALIGN - INDICATED FOR USAGE ON NEW DATASETS
-with open('scaler_MC_8features_newufpalign_nonfiltered.pkl', 'wb') as fid_scaler:
+# MINIMUM CORPUS - 8 FEATURES - NEW UFPALIGN - INDICATED FOR USAGE ON NEW DATASETS
+#with open('scaler_MC_8features_newufpalign_nonfiltered.pkl', 'wb') as fid_scaler:
+#    pickle.dump(scaler,fid_scaler)
+#with open('RF_MC_8features_newufpalign_nonfiltered.pkl', 'wb') as fid_model:
+#    pickle.dump(chosen_model,fid_model)
+
+# MINIMUM CORPUS + MUPE DIVERSIDADES - 8 FEATURES - NEW UFPALIGN - INDICATED FOR USAGE ON NEW DATASETS
+with open('scaler_MCMuDi_8features_newufpalign_nonfiltered.pkl', 'wb') as fid_scaler:
     pickle.dump(scaler,fid_scaler)
-with open('RF_MC_8features_newufpalign_nonfiltered.pkl', 'wb') as fid_model:
+with open('RF_MCMuDi_8features_newufpalign_nonfiltered.pkl', 'wb') as fid_model:
     pickle.dump(chosen_model,fid_model)

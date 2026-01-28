@@ -11,7 +11,7 @@ from codecarbon import EmissionsTracker
 import scipy.stats as stats
 
 #with EmissionsTracker(project_name="RF - all predictions delete this one and the 2 above") as tracker:
-
+estados = ["AL", "BA", "CE", "ES", "GO", "MG", "MS", "PA", "PB", "PE", "PI", "PR", "RJ", "RO", "RS", "SE", "SP"]
 # MuPe-Diversidades
 ## FILLING DATAFRAME WITH INFO ABOUT REGION, GENDER, AGE, EDUCATION - ONLY NEEDED ONCE
 def complete_info_mupe_diversidades(df_prosodic):
@@ -33,6 +33,13 @@ def complete_info_mupe_diversidades(df_prosodic):
 
     # Region of birth (state)
     df_prosodic['state'] = df_prosodic['stratificationID'].apply(lambda s:s.split('_')[0][:2])
+
+    df_prosodic['region'] = df_prosodic['state']
+    df_prosodic['region'] = np.where(df_prosodic['state'].str.startswith(('AL','BA','CE','PE','PB','PI','SE')), 'NORDESTE', df_prosodic['region'])
+    df_prosodic['region'] = np.where(df_prosodic['state'].str.startswith(('PA','RO')), 'NORTE', df_prosodic['region'])
+    df_prosodic['region'] = np.where(df_prosodic['state'].str.startswith(('ES','MG','RJ','SP')), 'SUDESTE', df_prosodic['region'])
+    df_prosodic['region'] = np.where(df_prosodic['state'].str.startswith(('GO','MS')), 'CENTRO-OESTE', df_prosodic['region'])
+    df_prosodic['region'] = np.where(df_prosodic['state'].str.startswith(('PR','RS')), 'SUL', df_prosodic['region'])
 
     df_prosodic['region group'] = df_prosodic['state']
     df_prosodic['region group'] = np.where(df_prosodic['state'].str.startswith(('AL','BA','CE','PE','PB','PI','SE')), 'NORDESTE', df_prosodic['region group'])
@@ -82,14 +89,14 @@ def complete_info_mupe_diversidades(df_prosodic):
 
     # SAVING ALL THIS INFO AT THE TABLE
     #df_prosodic.to_csv('MuPe-Diversidades_.csv', index=False)
-    df_prosodic.to_csv('MuPe-Diversidades_newufpalign_8features_non-filtered.csv', index=False)
+    #df_prosodic.to_csv('MuPe-Diversidades_newufpalign_8features_non-filtered.csv', index=False)
 
-    print(df_prosodic['age group'])
-    print(df_prosodic['gender'])
-    print(df_prosodic['state'])
-    print(df_prosodic['education'])
-    print(df_prosodic['region group'])
-    print(df_prosodic['education group'])
+    #print(df_prosodic['age group'])
+    #print(df_prosodic['gender'])
+    #print(df_prosodic['state'])
+    #print(df_prosodic['education'])
+    #print(df_prosodic['region group'])
+    #print(df_prosodic['education group'])
     return df_prosodic
 
 # CHOOSE VERSION OF MODEL YOU WISH TO USE AND COMMENT THE OTHER TWO BLOCKS
@@ -150,10 +157,14 @@ def complete_info_mupe_diversidades(df_prosodic):
 #df_prosodic = pd.read_csv('Mupe-DiversidadesCSVs/MuPe-Diversidades_newufpalign_9features_newfeature_trainset_nonfiltered.csv')
 
 # MINIMUM CORPUS, 8 FEATURES, only trainset, non filtered, NEW UFPALIGN 
-features = ['p_dur','n_dur','e_range','e_maxavg_diff','e_avgmin_diff','f0_range','f0_maxavg_diff','f0_avgmin_diff'] 
-scaler = pickle.load(open('ModelsAndScalers/scaler_MC_8features_newufpalign_nonfiltered.pkl', 'rb'))
-chosen_model = pickle.load(open('ModelsAndScalers/RF_MC_8features_newufpalign_nonfiltered.pkl', 'rb')) # _midwordcutadjusted
+#features = ['p_dur','n_dur','e_range','e_maxavg_diff','e_avgmin_diff','f0_range','f0_maxavg_diff','f0_avgmin_diff'] 
+#scaler = pickle.load(open('ModelsAndScalers/scaler_MC_8features_newufpalign_nonfiltered.pkl', 'rb'))
+#chosen_model = pickle.load(open('ModelsAndScalers/RF_MC_8features_newufpalign_nonfiltered.pkl', 'rb')) # _midwordcutadjusted
 
+# MINIMUM CORPUS, 8 FEATURES, only trainset, non filtered, NEW UFPALIGN 
+features = ['p_dur','n_dur','e_range','e_maxavg_diff','e_avgmin_diff','f0_range','f0_maxavg_diff','f0_avgmin_diff'] 
+scaler = pickle.load(open('ModelsAndScalers/scaler_MCMuDi_8features_newufpalign_nonfiltered.pkl', 'rb'))
+chosen_model = pickle.load(open('ModelsAndScalers/RF_MCMuDi_8features_newufpalign_nonfiltered.pkl', 'rb')) # _midwordcutadjusted
 
 #################################################################################
 
@@ -208,7 +219,8 @@ df_prosodic = complete_info_mupe_diversidades(df_prosodic)
 #df_prosodic.to_csv("CM_corpus_features_testset.csv", index=False) # you either need this line and the preceeding block that reads all separate files inside Current inquiry, or the following line
 #df_prosodic = pd.read_csv('CM_corpus_features_testset.csv')
 #print(df_prosodic)
-# Predicting results on full dataset
+
+# Predicting results on entire dataset
 X_test = df_prosodic[features]        
 X_test = df_prosodic[features].fillna(0) # Replace NaN values with 0 in X
 y_test = df_prosodic['label'] 
@@ -258,21 +270,28 @@ print(f"Slot Error Rate (SER): {ser:.4f}")
 #print(y)
 #print(stratification_ids)
 
-#X_names = X.columns # to preserve features names
-#y_name = y.name # to preserve column name 'label'
+X = df_prosodic[features]
+y = df_prosodic["label"]
+
+X_names = X.columns # to preserve features names
+y_name = y.name # to preserve column name 'label'
 
 # ONLY IF THERE WAS SEPARATION OF TRAIN SET AND TEST SET
-#X_train, X_test, y_train, y_test = train_test_split(X, y, train_size=0.8, test_size=0.2, random_state=seed, shuffle=True, stratify=stratification_ids)
-
+X_train, X_test, y_train, y_test = train_test_split(X, y, train_size=0.8, test_size=0.2, random_state=seed, shuffle=True, stratify=stratification_ids)
+#X_train = X # in case we want to test entire mupe-diversidades
+#X_test = X
+#y_train = y
+#y_test = y
 # Predicting results on specific groups
 
-#train_indices = X_train.index  # These are from the original DataFrame
-#test_indices = X_test.index
+train_indices = X_train.index  # These are from the original DataFrame
+test_indices = X_test.index
 
 #print(train_indices)
 #print(sorted(train_indices)[:20]) # tested to visualize the first rows contained in trainset 
 #print(test_indices)
 #print(y_test)
+
 
 # USED ONLY ONCE TO CREATE A NEW COLUMN INDICATING WHETHER THE SYLLABLE BELONGS TO TEST SET OR TRAIN SET
 #print(df_prosodic)
@@ -288,31 +307,12 @@ print(f"Slot Error Rate (SER): {ser:.4f}")
 
 # Predicting results on specific states
 
-""" # RESULTADOS POR ESTADO - DESCONTINUADO
-test_states = df_prosodic.loc[test_indices, 'state'] # test set com informação dos estados
-print(test_states)
-grouped_states = test_states.groupby(test_states.values)
-states_indexes = []
-for i,state in enumerate(estados):
-    print()
-    print("ESTADO ",state)
-
-    states_indexes.append(grouped_states.groups[state])
-    #print(states_indexes)
-    #print(states_indexes[i])
-
-    current_state_features = df_prosodic.loc[states_indexes[i], features]
-    current_state_features = scaler.fit_transform(current_state_features)
-    y_test = df_prosodic.loc[states_indexes[i], 'label']
-
-    y_pred = chosen_model.predict(current_state_features) 
-
 
 # Predicting results per speaker - to enable calculating statistical relevance
-print(df_prosodic.columns)
+#print(df_prosodic.columns)
 speakers_f1 = []
 test_speaker = df_prosodic.loc[test_indices, 'ID'] # test set com informação dos falantes
-print(test_speaker)
+#print(test_speaker)
 grouped_individual_speaker = test_speaker.groupby(test_speaker.values)
 
 # debug print
@@ -323,11 +323,11 @@ grouped_individual_speaker = test_speaker.groupby(test_speaker.values)
 
 speaker_indexes = []
 for i,speaker in enumerate(['AL1','AL2','BA1', 'BA2', 'CE1', 'CE2', 'ES1', 'GO1', 'GO2', 'MG1', 'MG2', 'MS1', 'PA1', 'PA2', 'PB1', 'PB2', 'PE1', 'PE2', 'PI1', 'PR1', 'PR2', 'RJ1', 'RJ2', 'RO1', 'RO2', 'RS1', 'RS2', 'SE1', 'SP1', 'SP2']):
-    print()
+    #print()
     print("SPEAKER ",speaker)
 
     speaker_indexes.append(grouped_individual_speaker.groups[speaker])
-    print(speaker_indexes[i])
+    #print(speaker_indexes[i])
 
     current_speaker_features = df_prosodic.loc[speaker_indexes[i], features]
     current_speaker_features = scaler.fit_transform(current_speaker_features)
@@ -339,13 +339,120 @@ for i,speaker in enumerate(['AL1','AL2','BA1', 'BA2', 'CE1', 'CE2', 'ES1', 'GO1'
     print(f"F1 Score binary: {f1:.4f}")
 
     speakers_f1.append([speaker,f1])
-    print(speakers_f1)
-print(speakers_f1)
+    #print(speakers_f1)
+#print(speakers_f1)
 
 
 ####################################################################
 # Predicting results on specific regions
-print(df_prosodic.columns)
+
+# RESULTADOS POR ESTADO - DESCONTINUADO
+test_states = df_prosodic.loc[test_indices, 'state'] # test set com informação dos estados
+print(test_states)
+grouped_states = test_states.groupby(test_states.values)
+states_indexes = []
+for i,state in enumerate(estados):
+
+    states_indexes.append(grouped_states.groups[state])
+
+    current_state_features = df_prosodic.loc[states_indexes[i], features]
+    current_state_features = scaler.fit_transform(current_state_features)
+    y_test = df_prosodic.loc[states_indexes[i], 'label']
+
+    y_pred = chosen_model.predict(current_state_features) 
+
+    accuracy = accuracy_score(y_test, y_pred)
+    precision = precision_score(y_test, y_pred, pos_label="TB")  # Specify the positive class
+    recall = recall_score(y_test, y_pred, pos_label="TB")
+    f1_macro = f1_score(y_test, y_pred, average='macro')
+    f1_micro = f1_score(y_test, y_pred, average='micro')
+    f1 = f1_score(y_test, y_pred, pos_label="TB")
+    print()
+    print("RESULTS BY STATE ", state)
+    print()
+    print(f"F1 Score binary: {f1:.4f}")
+    print(f"F1 Score macro: {f1_macro:.4f}")
+    print(f"Accuracy: {accuracy:.4f}")
+    print(f"Precision (TBs only): {precision:.4f}")
+    print(f"Recall(sensitivity) (TBs only): {recall:.4f}")
+    print(f"F1 Score micro: {f1_micro:.4f}")
+
+    print("Results considering both TBs and NBs (no boundary)")
+    print(classification_report(y_test, y_pred, target_names=["NB", "TB"]))
+
+    # Calculate SER
+    # Get confusion matrix: [[TN, FP], [FN, TP]]
+    tn, fp, fn, tp = confusion_matrix(y_test, y_pred, labels=["NB", "TB"]).ravel()
+    print("True negatives: ", tn)
+    print("True positives: ", tp)
+    print("False positives: ", fp)
+    print("False negatives: ", fn)
+    print("Specificity: ", tn /(tn + fp))
+    ser = (fp + fn) / (tp + fn)  # Using your formula
+    print(f"Slot Error Rate (SER): {ser:.4f}")
+
+# Statistical relevance over state
+AL_f1 = []
+BA_f1 = []
+CE_f1 = []
+PE_f1 = []
+PB_f1 = []
+PI_f1 = []
+SE_f1 = []
+GO_f1 = []
+MS_f1 = []
+PA_f1 = []
+RO_f1 = []
+SP_f1 = []
+ES_f1 = []
+MG_f1 = []
+RJ_f1 = []
+RS_f1 = []
+PR_f1 = []
+for speaker in speakers_f1:
+    if speaker[0] in ['AL1','AL2']:
+        AL_f1.append(speaker[1])
+    elif speaker[0] in ['BA1','BA2']:
+        BA_f1.append(speaker[1])
+    elif speaker[0] in ['CE1','CE2']:
+        CE_f1.append(speaker[1])
+    elif speaker[0] in ['PE1','PE2']:
+        PE_f1.append(speaker[1])
+    elif speaker[0] in ['PB1','PB2']:
+        PB_f1.append(speaker[1])
+    elif speaker[0] in ['PI1']:
+        PI_f1.append(speaker[1])
+    elif speaker[0] in ['SE1']:
+        SE_f1.append(speaker[1])
+    elif speaker[0] in ['GO1','GO2']:
+        GO_f1.append(speaker[1])
+    elif speaker[0] in ['MS1']:
+        MS_f1.append(speaker[1])
+    elif speaker[0] in ['PA1','PA2']:
+        PA_f1.append(speaker[1])
+    elif speaker[0] in ['RO1','RO2']:
+        RO_f1.append(speaker[1])
+    elif speaker[0] in ['SP1','SP2']:
+        SP_f1.append(speaker[1])
+    elif speaker[0] in ['RJ1','RJ2']:
+        RJ_f1.append(speaker[1])
+    elif speaker[0] in ['RS1','RS2']:
+        RS_f1.append(speaker[1])
+    elif speaker[0] in ['ES1']:
+        ES_f1.append(speaker[1])
+    elif speaker[0] in ['MG1','MG2']:
+        MG_f1.append(speaker[1])
+    else:
+        PR_f1.append(speaker[1])
+
+statistical_relevance_state = stats.f_oneway(AL_f1, BA_f1,CE_f1, PB_f1,PI_f1,PE_f1,MG_f1,SP_f1,ES_f1,RJ_f1,PR_f1,RS_f1,PA_f1,RO_f1,SE_f1,GO_f1,MS_f1)
+print(statistical_relevance_state)
+print("P-value: ", round(statistical_relevance_state.pvalue,3))
+###################
+
+# REGIONS
+
+#print(df_prosodic.columns)
 test_regions = df_prosodic.loc[test_indices, 'region group'] # test set com informação dos estados
 #print(test_regions)
 grouped_regions = test_regions.groupby(test_regions.values)
@@ -357,6 +464,73 @@ grouped_regions = test_regions.groupby(test_regions.values)
 
 regions_indexes = []
 for i,region in enumerate(['NORDESTE','NORTE/CENTRO-OESTE','SUL/SUDESTE']):
+    print()
+    print("REGIÃO ",region)
+
+    regions_indexes.append(grouped_regions.groups[region])
+
+    current_region_features = df_prosodic.loc[regions_indexes[i], features]
+    current_region_features = scaler.fit_transform(current_region_features)
+    y_test = df_prosodic.loc[regions_indexes[i], 'label']
+
+    y_pred = chosen_model.predict(current_region_features) 
+
+
+###### RESULTADOS
+
+    accuracy = accuracy_score(y_test, y_pred)
+    precision = precision_score(y_test, y_pred, pos_label="TB")  # Specify the positive class
+    recall = recall_score(y_test, y_pred, pos_label="TB")
+    f1_macro = f1_score(y_test, y_pred, average='macro')
+    f1_micro = f1_score(y_test, y_pred, average='micro')
+    f1 = f1_score(y_test, y_pred, pos_label="TB")
+
+    print(f"F1 Score binary: {f1:.4f}")
+    print(f"F1 Score macro: {f1_macro:.4f}")
+    print(f"Accuracy: {accuracy:.4f}")
+    print(f"Precision: {precision:.4f}")
+    print(f"Recall: {recall:.4f}")
+    print(f"F1 Score micro: {f1_micro:.4f}")
+
+    print(classification_report(y_test, y_pred, target_names=["NB", "TB"]))
+
+    # Calculate SER
+    # Get confusion matrix: [[TN, FP], [FN, TP]]
+    tn, fp, fn, tp = confusion_matrix(y_test, y_pred, labels=["NB", "TB"]).ravel()
+    ser = (fp + fn) / (tp + fn)  # Using your formula
+    print(f"Slot Error Rate (SER): {ser:.4f}")
+
+# Calculating statistical relevance
+
+# Statistical relevance over region
+NE_f1 = []
+NMW_f1 = []
+SSE_f1 = []
+for speaker in speakers_f1:
+    if speaker[0] in ['AL1','AL2','BA1','BA2','CE1','CE2','PE1','PE2','PB1','PB2','PI1','SE1']:
+        NE_f1.append(speaker[1])
+    elif speaker[0] in ['GO1','GO2','MS1','PA1','PA2','RO1','RO2']:
+        NMW_f1.append(speaker[1])
+    else:
+        SSE_f1.append(speaker[1])
+
+statistical_relevance_region = stats.f_oneway(NE_f1, NMW_f1,SSE_f1)
+print(statistical_relevance_region)
+print("P-value: ", round(statistical_relevance_region.pvalue,3))
+
+# Statistical relevance over region version 2 CHANGE HEREEEE SEPARATE STATES FOR REAL:
+
+test_regions = df_prosodic.loc[test_indices, 'region'] # test set com informação dos estados
+#print(test_regions)
+grouped_regions = test_regions.groupby(test_regions.values)
+
+# debug print
+#for index, value in grouped_regions:
+#    print(index)
+#    print(value)
+
+regions_indexes = []
+for i,region in enumerate(['NORDESTE','NORTE','CENTRO-OESTE','SUL', 'SUDESTE']):
     print()
     print("REGIÃO ",region)
 
@@ -395,27 +569,36 @@ for i,region in enumerate(['NORDESTE','NORTE/CENTRO-OESTE','SUL/SUDESTE']):
     ser = (fp + fn) / (tp + fn)  # Using your formula
     print(f"Slot Error Rate (SER): {ser:.4f}")
 
-# Calculating statistical relevance
 NE_f1 = []
-NMW_f1 = []
-SSE_f1 = []
+N_f1 = []
+MW_f1 = []
+S_f1 = []
+SE_f1 = []
 for speaker in speakers_f1:
     if speaker[0] in ['AL1','AL2','BA1','BA2','CE1','CE2','PE1','PE2','PB1','PB2','PI1','SE1']:
-        print(speaker[0], speaker[1], 'NORDESTE')
+        #print('NORDESTE - ', speaker[0], round(speaker[1],2))
         NE_f1.append(speaker[1])
-    elif speaker[0] in ['GO1','GO2','MS1','PA1','PA2','RO1','RO2']:
-        print(speaker[0], speaker[1], 'NORTE/MIDWEST')
-        NMW_f1.append(speaker[1])
+    elif speaker[0] in ['PA1','PA2','RO1','RO2']:
+        #print('NORTE - ', speaker[0], round(speaker[1],2))
+        N_f1.append(speaker[1])
+    elif speaker[0] in ['GO1','GO2','MS1']:
+        #print('CENTRO-OESTE - ', speaker[0], round(speaker[1],2))
+        MW_f1.append(speaker[1])
+    elif speaker[0] in ['PR1','PR2','RS1','RS2']:
+        #print('SUL - ', speaker[0], round(speaker[1],2))
+        S_f1.append(speaker[1])
     else:
-        print(speaker[0], speaker[1], 'SOUTH/SOUTHEAST')
-        SSE_f1.append(speaker[1])
+        #print('SUDESTE - ', speaker[0], round(speaker[1],2))
+        SE_f1.append(speaker[1])
 
-print(NE_f1)
-print(NMW_f1)
-print(SSE_f1)
-statistical_relevance_region = stats.f_oneway(NE_f1, NMW_f1,SSE_f1)
-print(statistical_relevance_region)
-
+#print("NORDESTE: ",NE_f1)
+#print("NORTE: ", N_f1)
+#print("SUL: ",S_f1)
+#print("CENTRO-OESTE: ",MW_f1)
+#print("SUDESTE: ",SE_f1)
+statistical_relevance_region2 = stats.f_oneway(NE_f1, N_f1,S_f1, MW_f1,SE_f1)
+#print(statistical_relevance_region2)
+print("P-value: ", round(statistical_relevance_region2.pvalue,3))
 
 # Predicting results on specific genders
 
@@ -430,7 +613,7 @@ grouped_genders = test_gender.groupby(test_gender.values)
 
 gender_indexes = []
 for i,gender in enumerate(['M','F']):
-    print()
+    #print()
     print("GÊNERO ",gender)
 
     gender_indexes.append(grouped_genders.groups[gender])
@@ -473,19 +656,19 @@ Male_f1 = []
 Female_f1 = []
 for speaker in speakers_f1:
     if speaker[0] in ['AL2','BA2', 'CE1', 'GO1', 'GO2', 'MG1','PA2','PB2', 'PE1','PR1','RJ2', 'RO2','RS1', 'SP1']:
-        print(speaker[0], speaker[1], 'Male')
+        #print(speaker[0], speaker[1], 'Male')
         Male_f1.append(speaker[1])
     else:
-        print(speaker[0], speaker[1], 'Female')
+        #print(speaker[0], speaker[1], 'Female')
         Female_f1.append(speaker[1])
 #stats.f_oneway(df['Coluna1'], df['Coluna2'],df['Coluna3'])
-print(Male_f1)
-print(Female_f1)
+#print(Male_f1)
+#print(Female_f1)
 statistical_relevance_gender = stats.f_oneway(Male_f1,Female_f1)
 statistical_relevance_gender2 = stats.ttest_ind(Male_f1, Female_f1)
 print("anova", statistical_relevance_gender)
 print("t test", statistical_relevance_gender2)
-
+print("P-value: ", round(statistical_relevance_gender.pvalue,3))
 
 # Predicting results on specific age groups
 
@@ -500,7 +683,7 @@ grouped_age_groups = test_age_group.groupby(test_age_group.values)
 
 age_group_indexes = []
 for i,age_group in enumerate(['I','II','III']):
-    print()
+    #print()
     print("AGE GROUP ",age_group)
 
     age_group_indexes.append(grouped_age_groups.groups[age_group])
@@ -544,20 +727,21 @@ age_group_II_f1 = []
 age_group_III_f1 = []
 for speaker in speakers_f1:
     if speaker[0] in ['BA2','PE2','RS2','SE1','SP2']:
-        print(speaker[0], speaker[1], 'I')
+        #print(speaker[0], speaker[1], 'I')
         age_group_I_f1.append(speaker[1])
     elif speaker[0] in ['CE1','ES1','MG2','MS1','PA2','PB2','PI1','PR2','RJ2','RS1']:
-        print(speaker[0], speaker[1], 'II')
+        #print(speaker[0], speaker[1], 'II')
         age_group_II_f1.append(speaker[1])
     else:
-        print(speaker[0], speaker[1], 'III')
+        #print(speaker[0], speaker[1], 'III')
         age_group_III_f1.append(speaker[1])
 
-print(age_group_I_f1)
-print(age_group_II_f1)
-print(age_group_III_f1)
+#print(age_group_I_f1)
+#print(age_group_II_f1)
+#print(age_group_III_f1)
 statistical_relevance_age = stats.f_oneway(age_group_I_f1, age_group_II_f1, age_group_III_f1)
-print(statistical_relevance_age)
+#print(statistical_relevance_age)
+print("P-value: ", round(statistical_relevance_age.pvalue,3))
 
 
 # Predicting results on specific education groups 
@@ -573,7 +757,7 @@ grouped_education_groups = test_education_group.groupby(test_education_group.val
 
 education_group_indexes = []
 for i,education_group in enumerate(['I','II','III','IV']):
-    print()
+    #print()
     print("EDUCATION GROUP ",education_group)
 
     education_group_indexes.append(grouped_education_groups.groups[education_group])
@@ -609,7 +793,7 @@ for i,education_group in enumerate(['I','II','III','IV']):
     ser = (fp + fn) / (tp + fn)  # Using your formula
     print(f"Slot Error Rate (SER): {ser:.4f}")
 
-print(education_group_indexes)
+#print(education_group_indexes)
 
 # Education
 # NE ('AL1','BA1','MG1','PB1','PB2','RO1','RO2','SP1') 8 speakers
@@ -629,38 +813,49 @@ education_group_III_f1 = []
 education_group_IV_f1 = []
 for speaker in speakers_f1:
     if speaker[0] in ['AL1','BA1','MG1','PB1','PB2','RO1','RO2','SP1']:
-        print(speaker[0], speaker[1], 'EDUCATION GROUP I')
+        #print(speaker[0], speaker[1], 'EDUCATION GROUP I')
         education_group_I_f1.append(speaker[1])
     elif speaker[0] in ['AL2','BA2','CE1','CE2','PA1','RJ1','GO1','PA2']:
-        print(speaker[0], speaker[1], 'EDUCATION GROUP II')
+        #print(speaker[0], speaker[1], 'EDUCATION GROUP II')
         education_group_II_f1.append(speaker[1])
     elif speaker[0] in ['ES1','PE2','RS1','RS2','PE1','PR1','RJ2','SE1']:
-        print(speaker[0], speaker[1], 'EDUCATION GROUP III')
+        #print(speaker[0], speaker[1], 'EDUCATION GROUP III')
         education_group_III_f1.append(speaker[1])
     else:
-        print(speaker[0], speaker[1], 'education group IV')
+        #print(speaker[0], speaker[1], 'education group IV')
         education_group_IV_f1.append(speaker[1])
 
-print(education_group_I_f1)
-print(education_group_II_f1)
-print(education_group_III_f1)
-print(education_group_IV_f1)
+#print(education_group_I_f1)
+#print(education_group_II_f1)
+#print(education_group_III_f1)
+#print(education_group_IV_f1)
 statistical_relevance_education = stats.f_oneway(education_group_I_f1, education_group_II_f1, education_group_III_f1, education_group_IV_f1)
-print(statistical_relevance_education)
+#print(statistical_relevance_education)
+print("P-value: ", round(statistical_relevance_education.pvalue,3))
 
 print("################################################")
 print("Statistical Relevance overall")
+print("STATE (discontinued)")
+#print(statistical_relevance_region)
+print("P-value: ", round(statistical_relevance_state.pvalue,3))
 print("REGION")
-print(statistical_relevance_region)
+#print(statistical_relevance_region)
+print("P-value: ", round(statistical_relevance_region.pvalue,3))
+print("P-value (region 2): ", round(statistical_relevance_region2.pvalue,3))
 print("GENDER")
-print(statistical_relevance_gender)
-print(statistical_relevance_gender2)
+#print(statistical_relevance_gender)
+print("P-value: ", round(statistical_relevance_gender.pvalue,3))
+#print(statistical_relevance_gender2)
+print("P-value (gender 2): ", round(statistical_relevance_gender2.pvalue,3))
 print("AGE")
-print(statistical_relevance_age)
+#print(statistical_relevance_age)
+print("P-value: ", round(statistical_relevance_age.pvalue,3))
 print("EDUCATION")
-print(statistical_relevance_education)
+#print(statistical_relevance_education)
+print("P-value: ", round(statistical_relevance_education.pvalue,3))
+
 ######################################
-"""
+
 
 ###############################################################33
 
