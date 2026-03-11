@@ -24,7 +24,7 @@ First of all, we would like to thank the annotators of the TaRSila project who w
 
 > https://sol.sbc.org.br/index.php/stil/article/view/37818
 
-<img width="612" height="489" alt="image" src="https://github.com/user-attachments/assets/954bbfb6-2a50-4994-97da-7ef468f5b4c6" />
+<img width="547" height="502" alt="image" src="https://github.com/user-attachments/assets/54d79214-c83c-44f4-844a-3f2712a5da11" />
 
 
 ## Libraries used
