@@ -1,0 +1,1406 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 1204.04
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "All TBs-normal"
+		xmin = 0.0
+		xmax = 1204.04
+		intervals: size = 348
+		intervals [1]:
+			xmin = 0.0
+			xmax = 0.35756
+			text = ""
+		intervals [2]:
+			xmin = 0.35756
+			xmax = 5.10365
+			text = "bem nós gostaríamos de começar esta nossa conversa falando sobre transportes e viagens"
+		intervals [3]:
+			xmin = 5.10365
+			xmax = 5.64312
+			text = ""
+		intervals [4]:
+			xmin = 5.64312
+			xmax = 7.19261
+			text = "bom eu já viajei pelo país inteiro"
+		intervals [5]:
+			xmin = 7.19261
+			xmax = 7.65169
+			text = ""
+		intervals [6]:
+			xmin = 7.65169
+			xmax = 17.10229
+			text = "eh dando cursos principalmente como autor de livro didático tenho a responsabilidade e até a incumbência de dar cursos promovidos pelas minhas editoras"
+		intervals [7]:
+			xmin = 17.10229
+			xmax = 17.70425
+			text = ""
+		intervals [8]:
+			xmin = 17.70425
+			xmax = 22.21226
+			text = "e nessas circunstâncias eu só não estive no estado do acre e nos territórios federais"
+		intervals [9]:
+			xmin = 22.21226
+			xmax = 23.6356
+			text = ""
+		intervals [10]:
+			xmin = 23.6356
+			xmax = 26.12302
+			text = "e naturalmente em todos os demais estados"
+		intervals [11]:
+			xmin = 26.12302
+			xmax = 30.25036
+			text = "em alguns estados em muitas cidades do interior e naturalmente na própria capital"
+		intervals [12]:
+			xmin = 30.25036
+			xmax = 31.21712
+			text = ""
+		intervals [13]:
+			xmin = 31.21712
+			xmax = 34.84622
+			text = "eh assim em termos turísticos eu viajo muito raramente"
+		intervals [14]:
+			xmin = 34.84622
+			xmax = 49.27391
+			text = "até porque essa obrigatoriedade de uma viagem sistemática quase todo janeiro em termos de compromissos com as editoras tira disponibilidade de tempo e até interesse em viagens de cunho meramente turístico"
+		intervals [15]:
+			xmin = 49.27391
+			xmax = 49.63026
+			text = ""
+		intervals [16]:
+			xmin = 49.63026
+			xmax = 52.25054
+			text = "o rui não sei se viaja bastante ou igual proporção"
+		intervals [17]:
+			xmin = 52.25054
+			xmax = 53.03235
+			text = ""
+		intervals [18]:
+			xmin = 53.03235
+			xmax = 54.36122
+			text = "minhas viagens são bem diferentes"
+		intervals [19]:
+			xmin = 54.36122
+			xmax = 56.65081
+			text = "eu viajo mais é fazendo turismo mesmo"
+		intervals [20]:
+			xmin = 56.65081
+			xmax = 57.51116
+			text = ""
+		intervals [21]:
+			xmin = 57.51116
+			xmax = 60.92567
+			text = "boto a família no carro e saio por aí né"
+		intervals [22]:
+			xmin = 60.92567
+			xmax = 61.11285
+			text = ""
+		intervals [23]:
+			xmin = 61.11285
+			xmax = 66.21478
+			text = "fiz assim três viagens nessa base sendo que uma para o rio grande do sul um mês inteiro"
+		intervals [24]:
+			xmin = 66.21478
+			xmax = 71.18997
+			text = "depois vinte dias na bahia no ano seguinte e quinze dias no espírito santo"
+		intervals [25]:
+			xmin = 71.18997
+			xmax = 71.37205
+			text = ""
+		intervals [26]:
+			xmin = 71.37205
+			xmax = 72.0604
+			text = "e estado do rio"
+		intervals [27]:
+			xmin = 72.0604
+			xmax = 73.14636
+			text = ""
+		intervals [28]:
+			xmin = 73.14636
+			xmax = 76.7237
+			text = "essas foram as as viagens melhores que eu fiz assim maiores e"
+		intervals [29]:
+			xmin = 76.7237
+			xmax = 77.00045
+			text = ""
+		intervals [30]:
+			xmin = 77.00045
+			xmax = 79.22482
+			text = "o mais é viagem curta e perto essa coisa"
+		intervals [31]:
+			xmin = 79.22482
+			xmax = 80.38704
+			text = ""
+		intervals [32]:
+			xmin = 80.38704
+			xmax = 83.09831
+			text = "é no meu caso ocorre uma circunstância curiosa"
+		intervals [33]:
+			xmin = 83.09831
+			xmax = 95.29982
+			text = "raramente eu passo mais de quarenta e oito horas nos locais em que viajo por onde passo e dessas quarenta e oito horas umas dez eu passo dormindo e umas vinte dando cursos"
+		intervals [34]:
+			xmin = 95.29982
+			xmax = 95.65216
+			text = ""
+		intervals [35]:
+			xmin = 95.65216
+			xmax = 102.05217
+			text = "o que reduz assim o espaço para conhecer e para realmente entrar em contato com o ambiente eh muito pequeno"
+		intervals [36]:
+			xmin = 102.05217
+			xmax = 102.43719
+			text = ""
+		intervals [37]:
+			xmin = 102.43719
+			xmax = 103.65172
+			text = "eh extremamente reduzido"
+		intervals [38]:
+			xmin = 103.65172
+			xmax = 105.66336
+			text = ""
+		intervals [39]:
+			xmin = 105.66336
+			xmax = 113.63296
+			text = "eu gostaria de saber como o qual é o o meio de transporte que o senhor se utiliza o professor rui o professor celso para viajar"
+		intervals [40]:
+			xmin = 113.63296
+			xmax = 114.05838
+			text = ""
+		intervals [41]:
+			xmin = 114.05838
+			xmax = 118.91525
+			text = "coloca coloca a família no carro e vai viajar"
+		intervals [42]:
+			xmin = 118.91525
+			xmax = 119.02916
+			text = ""
+		intervals [43]:
+			xmin = 119.02916
+			xmax = 121.07722
+			text = "o senhor usa um outro meio de transporte"
+		intervals [44]:
+			xmin = 121.07722
+			xmax = 121.96701
+			text = ""
+		intervals [45]:
+			xmin = 121.96701
+			xmax = 122.06641
+			text = "não"
+		intervals [46]:
+			xmin = 122.06641
+			xmax = 123.31981
+			text = "eu viajo sempre de automóvel"
+		intervals [47]:
+			xmin = 123.31981
+			xmax = 123.4359
+			text = ""
+		intervals [48]:
+			xmin = 123.4359
+			xmax = 127.58761
+			text = "porque são seis filhos então não dá para viajar de outro jeito"
+		intervals [49]:
+			xmin = 127.58761
+			xmax = 128.08
+			text = ""
+		intervals [50]:
+			xmin = 128.08
+			xmax = 129.42927
+			text = "se fica crianças"
+		intervals [51]:
+			xmin = 129.42927
+			xmax = 136.63565
+			text = "agora que que é o caçula tem oito anos não é e poderíamos pensar em outro transporte"
+		intervals [52]:
+			xmin = 136.63565
+			xmax = 138.32949
+			text = "porque até agora o automóvel ajuda muito né"
+		intervals [53]:
+			xmin = 138.32949
+			xmax = 139.19106
+			text = "com criança pequena"
+		intervals [54]:
+			xmin = 139.19106
+			xmax = 140.3198
+			text = ""
+		intervals [55]:
+			xmin = 140.3198
+			xmax = 144.46543
+			text = "e depois é divertido né enfiar a família toda no carro sair andando por aí é muito bom"
+		intervals [56]:
+			xmin = 144.46543
+			xmax = 145.32013
+			text = ""
+		intervals [57]:
+			xmin = 145.32013
+			xmax = 146.3989
+			text = "tenho viajado sempre de automóvel"
+		intervals [58]:
+			xmin = 146.3989
+			xmax = 149.38743
+			text = ""
+		intervals [59]:
+			xmin = 149.38743
+			xmax = 154.34779
+			text = "a minha última viagem eu fiz uma cobertura de catorze estados em dezessete dias"
+		intervals [60]:
+			xmin = 154.34779
+			xmax = 154.71171
+			text = ""
+		intervals [61]:
+			xmin = 154.71171
+			xmax = 157.25763
+			text = "de maneira que nessas condições só poderia ter sido de avião realmente"
+		intervals [62]:
+			xmin = 157.25763
+			xmax = 157.7001
+			text = ""
+		intervals [63]:
+			xmin = 157.7001
+			xmax = 165.162
+			text = "o único trecho não aéreo em todo o percurso foi um trecho fortaleza teresina feito durante a madrugada"
+		intervals [64]:
+			xmin = 165.162
+			xmax = 165.7213
+			text = ""
+		intervals [65]:
+			xmin = 165.7213
+			xmax = 170.9706
+			text = "de maneira que o avião acaba sendo o meio de transporte único possível nas atuais circunstâncias"
+		intervals [66]:
+			xmin = 170.9706
+			xmax = 172.53638
+			text = "mas também o preferido por mim"
+		intervals [67]:
+			xmin = 172.53638
+			xmax = 173.06241
+			text = ""
+		intervals [68]:
+			xmin = 173.06241
+			xmax = 177.94791
+			text = "eu realmente talvez pela circunstância em que viajo venha a preferir o avião sobre outro meio"
+		intervals [69]:
+			xmin = 177.94791
+			xmax = 181.31597
+			text = ""
+		intervals [70]:
+			xmin = 181.31597
+			xmax = 193.56682
+			text = "com respeito a ao transporte aéreo vamos dizer propriamente dito nós gostaríamos que o senhor nos descrevesse o o atendimento o funcionamento vamos dizer do"
+		intervals [71]:
+			xmin = 193.56682
+			xmax = 195.38723
+			text = ""
+		intervals [72]:
+			xmin = 195.38723
+			xmax = 201.42853
+			text = "bom o atendimento é diretamente proporcional à extensão do do voo e naturalmente o preço da passagem"
+		intervals [73]:
+			xmin = 201.42853
+			xmax = 202.03606
+			text = ""
+		intervals [74]:
+			xmin = 202.03606
+			xmax = 212.08833
+			text = "eh eu quero crer que uma viagem são paulo a manaus ou são paulo belém a gente costuma ser muito bem atendido e regiamente tratado de maneira assim toda especial"
+		intervals [75]:
+			xmin = 212.08833
+			xmax = 214.63965
+			text = "em termos particulares eu prefiro a vasp"
+		intervals [76]:
+			xmin = 214.63965
+			xmax = 214.96792
+			text = ""
+		intervals [77]:
+			xmin = 214.96792
+			xmax = 216.9428
+			text = "sempre me dei muito bem com o tratamento da vasp"
+		intervals [78]:
+			xmin = 216.9428
+			xmax = 217.45966
+			text = ""
+		intervals [79]:
+			xmin = 217.45966
+			xmax = 220.78167
+			text = "mas não nunca fui mal tratado ou mal recebido em outras companhias aéreas"
+		intervals [80]:
+			xmin = 220.78167
+			xmax = 221.489
+			text = ""
+		intervals [81]:
+			xmin = 221.489
+			xmax = 222.97496
+			text = "agora numa viagem daqui ao rio de janeiro"
+		intervals [82]:
+			xmin = 222.97496
+			xmax = 229.4912
+			text = "que é uma viagem quase que habitual e comum até o cafezinho de péssima qualidade está se tornando cada vez mais difícil"
+		intervals [83]:
+			xmin = 229.4912
+			xmax = 230.07321
+			text = ""
+		intervals [84]:
+			xmin = 230.07321
+			xmax = 243.36525
+			text = "de maneira que eu suponho que nesta proporção e mesmo em contato com outras pessoas que tiveram viagens internacionais que à medida que vai a distância aumentando vai naturalmente aumentando o preço da passagem em função disso a qualificação do tratamento"
+		intervals [85]:
+			xmin = 243.36525
+			xmax = 245.72278
+			text = "que aí no caso acaba se tornando muito boa e muito produtiva"
+		intervals [86]:
+			xmin = 245.72278
+			xmax = 248.06291
+			text = ""
+		intervals [87]:
+			xmin = 248.06291
+			xmax = 250.60279
+			text = "professor rui já viajou de avião"
+		intervals [88]:
+			xmin = 250.60279
+			xmax = 252.65728
+			text = ""
+		intervals [89]:
+			xmin = 252.65728
+			xmax = 253.51908
+			text = "já viajei de avião"
+		intervals [90]:
+			xmin = 253.51908
+			xmax = 261.93669
+			text = "há dez anos atrás eu trabalhava com jornal e não era professor então minha atividade era mais diversificada então viajei bastante de avião"
+		intervals [91]:
+			xmin = 261.93669
+			xmax = 263.6904
+			text = "andei muito também por aí afora de avião"
+		intervals [92]:
+			xmin = 263.6904
+			xmax = 264.8165
+			text = ""
+		intervals [93]:
+			xmin = 264.8165
+			xmax = 269.36025
+			text = "e mas não gostava assim como parece que o celso gosta né cel"
+		intervals [94]:
+			xmin = 269.36025
+			xmax = 270.01116
+			text = ""
+		intervals [95]:
+			xmin = 270.01116
+			xmax = 273.55988
+			text = "quer dizer minhas viagem de avião eram mesmo p por negócio estritamente"
+		intervals [96]:
+			xmin = 273.55988
+			xmax = 274.06701
+			text = ""
+		intervals [97]:
+			xmin = 274.06701
+			xmax = 278.46731
+			text = "e quando eu podia fazer viagem de automóvel ou por outro meio eu prefi sempre dei preferência"
+		intervals [98]:
+			xmin = 278.46731
+			xmax = 279.45051
+			text = ""
+		intervals [99]:
+			xmin = 279.45051
+			xmax = 282.82733
+			text = "talvez há dez anos atrás os aviões não tinham o conforto de hoje"
+		intervals [100]:
+			xmin = 282.82733
+			xmax = 283.51836
+			text = ""
+		intervals [101]:
+			xmin = 283.51836
+			xmax = 288.27031
+			text = "e eu tive experiência assim meio desagradável numa viagem de um viscount da vasp até por sinal"
+		intervals [102]:
+			xmin = 288.27031
+			xmax = 289.03906
+			text = ""
+		intervals [103]:
+			xmin = 289.03906
+			xmax = 295.10553
+			text = "pegamos um desses cê bês que eles chamam né e o avião quase caiu comigo lá perto de goiânia né"
+		intervals [104]:
+			xmin = 295.10553
+			xmax = 296.13336
+			text = ""
+		intervals [105]:
+			xmin = 296.13336
+			xmax = 301.06836
+			text = "e então isso também colaborou para que eu não tivesse muito entusiasmo em viagens aéreas sabe"
+		intervals [106]:
+			xmin = 301.06836
+			xmax = 302.74946
+			text = ""
+		intervals [107]:
+			xmin = 302.74946
+			xmax = 303.49123
+			text = "comigo é o contrário"
+		intervals [108]:
+			xmin = 303.49123
+			xmax = 310.77202
+			text = "eu talvez até por um certo exotismo gostaria de poder contar alguma experiência aérea traumatizante ou pelo menos inquietante"
+		intervals [109]:
+			xmin = 310.77202
+			xmax = 311.28465
+			text = ""
+		intervals [110]:
+			xmin = 311.28465
+			xmax = 327.64349
+			text = "mas há não ser alguns atrasos homéricos né excepcionais assim em termos de viagens eh aparentemente de pequena distância nunca encontrei circunstâncias que tenham me feito preocupar ou temer pela própria segurança"
+		intervals [111]:
+			xmin = 327.64349
+			xmax = 327.92105
+			text = ""
+		intervals [112]:
+			xmin = 327.92105
+			xmax = 333.14498
+			text = "nunca tive aquela tão características posição do indivíduo que desce e beija a terra agradecido"
+		intervals [113]:
+			xmin = 333.14498
+			xmax = 333.48223
+			text = ""
+		intervals [114]:
+			xmin = 333.48223
+			xmax = 337.871
+			text = "sempre as minhas experiências aéreas foram das mais favoráveis possíveis"
+		intervals [115]:
+			xmin = 337.871
+			xmax = 338.5314
+			text = ""
+		intervals [116]:
+			xmin = 338.5314
+			xmax = 352.71407
+			text = "como particularidade curiosa das minhas viagens aéreas eu suponho que ah a mais exótica foi o fato de ter trocado o valor de uma passagem por uma palestra a oito mil metros de altitude"
+		intervals [117]:
+			xmin = 352.71407
+			xmax = 353.32513
+			text = ""
+		intervals [118]:
+			xmin = 353.32513
+			xmax = 368.08058
+			text = "quando do voo inaugural da vasp para manaus eh o voo do one eleven um dos diretores da companhia me propôs como forma de promoção uma passagem aérea gratuita"
+		intervals [119]:
+			xmin = 368.08058
+			xmax = 368.69883
+			text = ""
+		intervals [120]:
+			xmin = 368.69883
+			xmax = 371.72233
+			text = "e eu disse a ele que só poderia aceitar se fosse possível levar minha esposa também"
+		intervals [121]:
+			xmin = 371.72233
+			xmax = 372.34506
+			text = ""
+		intervals [122]:
+			xmin = 372.34506
+			xmax = 378.88942
+			text = "então ele disse que nessas circunstâncias era para justificar perante a companhia a ida da minha esposa eu teria que fazer alguma coisa pela companhia"
+		intervals [123]:
+			xmin = 378.88942
+			xmax = 379.51183
+			text = ""
+		intervals [124]:
+			xmin = 379.51183
+			xmax = 383.11971
+			text = "e a aquilo que o professor sabe fazer única e exclusivamente é dar aula"
+		intervals [125]:
+			xmin = 383.11971
+			xmax = 393.68626
+			text = "então ele pediu que eu preparasse uma aula para apresentar aos passageiros através do do microfone de de bordo eh numa grande altitude"
+		intervals [126]:
+			xmin = 393.68626
+			xmax = 394.24504
+			text = ""
+		intervals [127]:
+			xmin = 394.24504
+			xmax = 407.84953
+			text = "e foi uma palestra de oito minutos não mais do que isso sobre a ocupação amazônica e do interesse internacional pela região e o de exótico é que acredito que poucas pessoas tiveram o privilégio que tive de dar uma palestra a oito mil metros de altitude"
+		intervals [128]:
+			xmin = 407.84953
+			xmax = 409.16256
+			text = ""
+		intervals [129]:
+			xmin = 409.16256
+			xmax = 410.10593
+			text = "raridade né"
+		intervals [130]:
+			xmin = 410.10593
+			xmax = 410.6319
+			text = ""
+		intervals [131]:
+			xmin = 410.6319
+			xmax = 412.72782
+			text = "agora outros meios de transporte"
+		intervals [132]:
+			xmin = 412.72782
+			xmax = 412.93909
+			text = ""
+		intervals [133]:
+			xmin = 412.93909
+			xmax = 415.22945
+			text = "vocês se utilizam de alguns meios de transportes"
+		intervals [134]:
+			xmin = 415.22945
+			xmax = 420.21351
+			text = "agora existem outros que vocês conhecem né por mar"
+		intervals [135]:
+			xmin = 420.21351
+			xmax = 422.20863
+			text = ""
+		intervals [136]:
+			xmin = 422.20863
+			xmax = 426.5109
+			text = "é as minhas experiências marítimas são extremamente limitadas"
+		intervals [137]:
+			xmin = 426.5109
+			xmax = 427.00634
+			text = ""
+		intervals [138]:
+			xmin = 427.00634
+			xmax = 427.6443
+			text = "eu"
+		intervals [139]:
+			xmin = 427.6443
+			xmax = 428.0706
+			text = ""
+		intervals [140]:
+			xmin = 428.0706
+			xmax = 428.52065
+			text = "eh"
+		intervals [141]:
+			xmin = 428.52065
+			xmax = 428.99937
+			text = ""
+		intervals [142]:
+			xmin = 428.99937
+			xmax = 441.1006
+			text = "digamos assim como passeios para conhecimento da linha náutica oferta assim do ministério da marinha algumas vezes eu tive a oportunidade de fazer eh ah uma incursão pelo mar muito pequena"
+		intervals [143]:
+			xmin = 441.1006
+			xmax = 441.93438
+			text = ""
+		intervals [144]:
+			xmin = 441.93438
+			xmax = 451.26802
+			text = "o transporte urbano e mesmo o transporte suburbano e às vezes até interestadual do ônibus muitas vezes acabei me valendo também nessas circunstâncias"
+		intervals [145]:
+			xmin = 451.26802
+			xmax = 452.06064
+			text = ""
+		intervals [146]:
+			xmin = 452.06064
+			xmax = 464.21626
+			text = "ah e acredito até que grande parte das minhas viagens pelo estado de são paulo principalmente nos pontos não atendidos pelas companhias de navegação aérea foram feitos através do do do ônibus interestadual"
+		intervals [147]:
+			xmin = 464.21626
+			xmax = 464.96643
+			text = ""
+		intervals [148]:
+			xmin = 464.96643
+			xmax = 466.30077
+			text = "que eu detesto realmente"
+		intervals [149]:
+			xmin = 466.30077
+			xmax = 473.16262
+			text = "apesar de reconhecer que alguns eh nos oferecem as condições extremamente favoráveis de viagem"
+		intervals [150]:
+			xmin = 473.16262
+			xmax = 477.04811
+			text = "mas ah sou um indivíduo muito angustiado pelo fator tempo"
+		intervals [151]:
+			xmin = 477.04811
+			xmax = 477.47752
+			text = ""
+		intervals [152]:
+			xmin = 477.47752
+			xmax = 479.85264
+			text = "muito preocupado realmente com o aproveitamento daquele tempo"
+		intervals [153]:
+			xmin = 479.85264
+			xmax = 485.63977
+			text = "não tenho o privilégio de acordar me perguntar bom o que farei no dia de hoje né"
+		intervals [154]:
+			xmin = 485.63977
+			xmax = 486.06496
+			text = ""
+		intervals [155]:
+			xmin = 486.06496
+			xmax = 501.10641
+			text = "então esta impossibilidade de me valer assim do tempo faz com que as minhas experiências de transporte pelo ônibus sejam sempre experiências marcadas por uma anggústia de chegar e por uma preocupação muito grande de me sê viver assim rapidamente desincumbido daquela tarefa"
+		intervals [156]:
+			xmin = 501.10641
+			xmax = 501.58358
+			text = ""
+		intervals [157]:
+			xmin = 501.58358
+			xmax = 503.58564
+			text = "o rui deve ter andando por aí bastante de ônibus também"
+		intervals [158]:
+			xmin = 503.58564
+			xmax = 504.30244
+			text = "de navio não sei"
+		intervals [159]:
+			xmin = 504.30244
+			xmax = 504.91134
+			text = ""
+		intervals [160]:
+			xmin = 504.91134
+			xmax = 509.85358
+			text = "eh eu realmente tenho parentes no rio na guanabara então eu ando muito de ônibus daqui para o rio"
+		intervals [161]:
+			xmin = 509.85358
+			xmax = 510.9074
+			text = "nã hoje nem tanto"
+		intervals [162]:
+			xmin = 510.9074
+			xmax = 512.81649
+			text = "mas há algum tempo atrás andava bastante"
+		intervals [163]:
+			xmin = 512.81649
+			xmax = 513.49313
+			text = ""
+		intervals [164]:
+			xmin = 513.49313
+			xmax = 520.03668
+			text = "era raro mês ou cada dois meses que eu não ia de ônibus ou de trem mesmo até a guanabara"
+		intervals [165]:
+			xmin = 520.03668
+			xmax = 523.182
+			text = "eu viajei muito naquele santa cruz aquele noturno né várias vezes"
+		intervals [166]:
+			xmin = 523.182
+			xmax = 524.61861
+			text = ""
+		intervals [167]:
+			xmin = 524.61861
+			xmax = 528.86146
+			text = "e por mar apenas aquelas barcas da cantareira"
+		intervals [168]:
+			xmin = 528.86146
+			xmax = 529.15436
+			text = ""
+		intervals [169]:
+			xmin = 529.15436
+			xmax = 534.26079
+			text = "quando eu estava no rio ia lá da da praça quinze até paquetá"
+		intervals [170]:
+			xmin = 534.26079
+			xmax = 540.60916
+			text = "fui muito a paquetá de naquelas barcas da cantareira que lembram aquelas barcas do mississípi né com aquelas rodas laterais"
+		intervals [171]:
+			xmin = 540.60916
+			xmax = 540.69758
+			text = ""
+		intervals [172]:
+			xmin = 540.69758
+			xmax = 541.69766
+			text = "eu vi mas não"
+		intervals [173]:
+			xmin = 541.69766
+			xmax = 542.58006
+			text = ""
+		intervals [174]:
+			xmin = 542.58006
+			xmax = 547.92253
+			text = "assim aquilo me dá uma saudade imensa do tempo que era jovem porque todas as férias eram em paquetá"
+		intervals [175]:
+			xmin = 547.92253
+			xmax = 551.47752
+			text = "então eu ia daqui para o rio de trem e lá pegava a barca"
+		intervals [176]:
+			xmin = 551.47752
+			xmax = 552.59105
+			text = ""
+		intervals [177]:
+			xmin = 552.59105
+			xmax = 553.85536
+			text = "mais jovem"
+		intervals [178]:
+			xmin = 553.85536
+			xmax = 556.28419
+			text = ""
+		intervals [179]:
+			xmin = 556.28419
+			xmax = 560.40133
+			text = "agora e e as conduções aqui em são paulo por exemplo"
+		intervals [180]:
+			xmin = 560.40133
+			xmax = 563.50311
+			text = ""
+		intervals [181]:
+			xmin = 563.50311
+			xmax = 568.96023
+			text = "eu sou um indivíduo muito desprendido assim de bens materiais"
+		intervals [182]:
+			xmin = 568.96023
+			xmax = 569.72989
+			text = ""
+		intervals [183]:
+			xmin = 569.72989
+			xmax = 574.56569
+			text = "por uma questão de natureza realmente me importo muito pouco com aquilo que tenho"
+		intervals [184]:
+			xmin = 574.56569
+			xmax = 575.49762
+			text = ""
+		intervals [185]:
+			xmin = 575.49762
+			xmax = 585.98261
+			text = "mas eu considero o automóvel face às condições do transporte urbano como sendo um dos bens indispensáveis à minha vida"
+		intervals [186]:
+			xmin = 585.98261
+			xmax = 587.49311
+			text = "não apenas pelo fator tempo"
+		intervals [187]:
+			xmin = 587.49311
+			xmax = 588.17146
+			text = ""
+		intervals [188]:
+			xmin = 588.17146
+			xmax = 600.35419
+			text = "mas se algumas vezes eu me senti identificado como um animal foi quando tive que enfrentar ônibus e às vezes até mesmo a luta pela obtenção do táxi"
+		intervals [189]:
+			xmin = 600.35419
+			xmax = 600.88504
+			text = ""
+		intervals [190]:
+			xmin = 600.88504
+			xmax = 614.77327
+			text = "eu sou um indivíduo que não me envergonho em determinadas circunstâncias de ter que me humilhar para obter algumas coisas ainda que esta humilhação seja em termos assim marcados por uma certa condição de nobreza"
+		intervals [191]:
+			xmin = 614.77327
+			xmax = 615.17987
+			text = ""
+		intervals [192]:
+			xmin = 615.17987
+			xmax = 624.3959
+			text = "mas acho que apanhar um táxi em são paulo ou enfrentar as filas de ônibus corresponde a uma humilhação para a qual eu eh psicologicamente não me sinto preparado"
+		intervals [193]:
+			xmin = 624.3959
+			xmax = 624.80662
+			text = ""
+		intervals [194]:
+			xmin = 624.80662
+			xmax = 631.77327
+			text = "então acho detestável sob todos os aspectos e as experiências que tive foram sempre eh muito desagradáveis"
+		intervals [195]:
+			xmin = 631.77327
+			xmax = 636.30754
+			text = "é evidente que a as experiências agradáveis não foram registradas"
+		intervals [196]:
+			xmin = 636.30754
+			xmax = 645.0607
+			text = "eu não não me lembro e nem seria o caso de lembrar de uma confortável viagem por um ônibus urbano ou por um motorista de táxi assim extremamente solícito educado"
+		intervals [197]:
+			xmin = 645.0607
+			xmax = 645.42144
+			text = ""
+		intervals [198]:
+			xmin = 645.42144
+			xmax = 648.03019
+			text = "aquilo que marca realmente são as experiências negativas"
+		intervals [199]:
+			xmin = 648.03019
+			xmax = 648.49395
+			text = ""
+		intervals [200]:
+			xmin = 648.49395
+			xmax = 657.51118
+			text = "mas quando me vejo privado do automóvel eu me sinto assim eh em condições de enfrentar um desafio para o qual eu não me considero preparado"
+		intervals [201]:
+			xmin = 657.51118
+			xmax = 657.80849
+			text = ""
+		intervals [202]:
+			xmin = 657.80849
+			xmax = 659.51353
+			text = "acho horrível sob todos os aspectos"
+		intervals [203]:
+			xmin = 659.51353
+			xmax = 661.0857
+			text = ""
+		intervals [204]:
+			xmin = 661.0857
+			xmax = 665.81703
+			text = "é eu durante muito tempo tive que passar por este sacrifício que diz o celso de andar de ônibus"
+		intervals [205]:
+			xmin = 665.81703
+			xmax = 669.38537
+			text = "só que eu de certa forma me habituei a ler no ônibus"
+		intervals [206]:
+			xmin = 669.38537
+			xmax = 673.04531
+			text = "então eu levava um livro um jornal e era o a hora de leitura né"
+		intervals [207]:
+			xmin = 673.04531
+			xmax = 673.79809
+			text = ""
+		intervals [208]:
+			xmin = 673.79809
+			xmax = 679.05635
+			text = "eu conseguia sempre pelos horários que eu me servia da condução não encontrava grande dificuldade"
+		intervals [209]:
+			xmin = 679.05635
+			xmax = 679.50856
+			text = ""
+		intervals [210]:
+			xmin = 679.50856
+			xmax = 683.80928
+			text = "agora ultimamente de uns dois anos a essa parte é que eu também tenho andado mais de automóvel"
+		intervals [211]:
+			xmin = 683.80928
+			xmax = 684.99663
+			text = ""
+		intervals [212]:
+			xmin = 684.99663
+			xmax = 686.66883
+			text = "que o automóvel lá em casa sempre foi da minha mulher"
+		intervals [213]:
+			xmin = 686.66883
+			xmax = 689.52257
+			text = "porque com seis filhos ela tinha prioridade total sobre o automóvel"
+		intervals [214]:
+			xmin = 689.52257
+			xmax = 690.02005
+			text = ""
+		intervals [215]:
+			xmin = 690.02005
+			xmax = 691.78509
+			text = "levar filho para a escola essa coisa toda"
+		intervals [216]:
+			xmin = 691.78509
+			xmax = 692.20006
+			text = ""
+		intervals [217]:
+			xmin = 692.20006
+			xmax = 697.08842
+			text = "e eu só pude ter um outro carro agora há um dois anos para cá então passei a andar mais de automóvel"
+		intervals [218]:
+			xmin = 697.08842
+			xmax = 698.4471
+			text = ""
+		intervals [219]:
+			xmin = 698.4471
+			xmax = 703.79463
+			text = "mas até dois anos atrás eu in andava muito de de ônibus e ou táxi e mesmo bonde"
+		intervals [220]:
+			xmin = 703.79463
+			xmax = 705.21941
+			text = "andei muito de bonde aqui em são paulo"
+		intervals [221]:
+			xmin = 705.21941
+			xmax = 705.57696
+			text = "ah"
+		intervals [222]:
+			xmin = 705.57696
+			xmax = 705.57866
+			text = ""
+		intervals [223]:
+			xmin = 705.57866
+			xmax = 710.52652
+			text = "fui um frequentador de bondes durante todo o tempo de estudante e mesmo depois de formar"
+		intervals [224]:
+			xmin = 710.52652
+			xmax = 711.55243
+			text = ""
+		intervals [225]:
+			xmin = 711.55243
+			xmax = 714.58977
+			text = "e de certa forma até me distraía isso"
+		intervals [226]:
+			xmin = 714.58977
+			xmax = 725.75181
+			text = "embora o que o celso falou seja verdade numa certa medida quer dizer t conforme a hora e conforme o bairro conforme a linha que a pessoa se serve é um sacrifício realmente imenso né entrar em ônibus apertado"
+		intervals [227]:
+			xmin = 725.75181
+			xmax = 726.40146
+			text = ""
+		intervals [228]:
+			xmin = 726.40146
+			xmax = 729.76491
+			text = "às vezes que isso me aconteceu realmente foram bem desagradável"
+		intervals [229]:
+			xmin = 729.76491
+			xmax = 730.51864
+			text = ""
+		intervals [230]:
+			xmin = 730.51864
+			xmax = 732.98578
+			text = "senhor falou a pouco sobre trem"
+		intervals [231]:
+			xmin = 732.98578
+			xmax = 733.3222
+			text = ""
+		intervals [232]:
+			xmin = 733.3222
+			xmax = 735.30439
+			text = "eu gostaria de"
+		intervals [233]:
+			xmin = 735.30439
+			xmax = 735.57371
+			text = "é"
+		intervals [234]:
+			xmin = 735.57371
+			xmax = 735.78787
+			text = ""
+		intervals [235]:
+			xmin = 735.78787
+			xmax = 737.51577
+			text = "olha trem eu sou fã de trem sabe"
+		intervals [236]:
+			xmin = 737.51577
+			xmax = 740.80023
+			text = "eu acho trem assim um o tipo do transporte gostoso"
+		intervals [237]:
+			xmin = 740.80023
+			xmax = 745.0729
+			text = "eu por mim se pudesse escolher num determinado momento eu escolheria o trem"
+		intervals [238]:
+			xmin = 745.0729
+			xmax = 745.84924
+			text = ""
+		intervals [239]:
+			xmin = 745.84924
+			xmax = 746.82319
+			text = "por algumas razões"
+		intervals [240]:
+			xmin = 746.82319
+			xmax = 751.47639
+			text = "uma por exemplo é que no trem eu acho que há o repouso assim integral"
+		intervals [241]:
+			xmin = 751.47639
+			xmax = 751.69615
+			text = ""
+		intervals [242]:
+			xmin = 751.69615
+			xmax = 756.73744
+			text = "porque o trem não tem a mobilidade de um ônibus por exemplo que às vezes dificulta a leitura et cetera"
+		intervals [243]:
+			xmin = 756.73744
+			xmax = 758.15599
+			text = "quer dizer o trem é mais estável"
+		intervals [244]:
+			xmin = 758.15599
+			xmax = 758.8503
+			text = ""
+		intervals [245]:
+			xmin = 758.8503
+			xmax = 760.20177
+			text = "não mais do que o avião evidente"
+		intervals [246]:
+			xmin = 760.20177
+			xmax = 761.78732
+			text = "o avião é mais"
+		intervals [247]:
+			xmin = 761.78732
+			xmax = 769.0277
+			text = "mas o trem tem a vantagem sobre o avião assim de a gente ter aquela tranquilidade de saber que vai viajar durante um bom tempo"
+		intervals [248]:
+			xmin = 769.0277
+			xmax = 769.53464
+			text = ""
+		intervals [249]:
+			xmin = 769.53464
+			xmax = 771.25259
+			text = "quer dizer e que ele vai naquela linha e a"
+		intervals [250]:
+			xmin = 771.25259
+			xmax = 771.35749
+			text = ""
+		intervals [251]:
+			xmin = 771.35749
+			xmax = 772.33509
+			text = "isso repousa"
+		intervals [252]:
+			xmin = 772.33509
+			xmax = 773.51705
+			text = "eu acho isso repousante"
+		intervals [253]:
+			xmin = 773.51705
+			xmax = 777.32132
+			text = "quer dizer saber que eu vou tomar um trem vou chegar daí a sete hora então tenho sete horas realmente de repouso"
+		intervals [254]:
+			xmin = 777.32132
+			xmax = 777.85984
+			text = ""
+		intervals [255]:
+			xmin = 777.85984
+			xmax = 779.67217
+			text = "então relaxa entende e lê"
+		intervals [256]:
+			xmin = 779.67217
+			xmax = 780.0295
+			text = ""
+		intervals [257]:
+			xmin = 780.0295
+			xmax = 782.81542
+			text = "e mesmo aquela passagem por estações aquela coisa sempre gostei disso"
+		intervals [258]:
+			xmin = 782.81542
+			xmax = 783.31923
+			text = ""
+		intervals [259]:
+			xmin = 783.31923
+			xmax = 785.46082
+			text = "uma viagem d por de trem para mim sempre repousa"
+		intervals [260]:
+			xmin = 785.46082
+			xmax = 785.59179
+			text = ""
+		intervals [261]:
+			xmin = 785.59179
+			xmax = 786.61239
+			text = "sempre foi repousante"
+		intervals [262]:
+			xmin = 786.61239
+			xmax = 788.05663
+			text = ""
+		intervals [263]:
+			xmin = 788.05663
+			xmax = 791.98782
+			text = "é acho que até que enfim nós encontramos um ponto em comum"
+		intervals [264]:
+			xmin = 791.98782
+			xmax = 794.49224
+			text = "realmente eu também sou um grande admirador do trem"
+		intervals [265]:
+			xmin = 794.49224
+			xmax = 804.1368
+			text = "é claro que eh enfrentei anos atrás ah algumas viagens de trem em condições que se identificavam com aquelas que descrevi de ônibus"
+		intervals [266]:
+			xmin = 804.1368
+			xmax = 804.42742
+			text = ""
+		intervals [267]:
+			xmin = 804.42742
+			xmax = 813.43558
+			text = "inclusive quando servi o exército o trem militar nos levava eh oferecia condições de desconforto incríveis mesmo quando comparado com o transporte de animais"
+		intervals [268]:
+			xmin = 813.43558
+			xmax = 813.84944
+			text = ""
+		intervals [269]:
+			xmin = 813.84944
+			xmax = 817.97313
+			text = "mas atualmente quando possível eh eu sempre faço esta opção"
+		intervals [270]:
+			xmin = 817.97313
+			xmax = 818.45345
+			text = ""
+		intervals [271]:
+			xmin = 818.45345
+			xmax = 834.20689
+			text = "e acho integralmente válido isso que o rui falou em termos de descanso em termos de serenidade pela leitura e principalmente pelo bucólico que representa aquela sucessão de paisagens aquelas paradas e aquelas estações que trazem sempre reminiscências assim de infância"
+		intervals [272]:
+			xmin = 834.20689
+			xmax = 848.13241
+			text = "moro no brooklin eh eh a caminho de santo amaro anos atrás santo amaro se ligava à cidade pelo bonde e as os pontos de parada identificavam o que hoje significam as várias estações"
+		intervals [273]:
+			xmin = 848.13241
+			xmax = 848.48047
+			text = ""
+		intervals [274]:
+			xmin = 848.48047
+			xmax = 853.62808
+			text = "de maneira que o trem tem também para mim aquele sabor de reminiscência e quase aquele gosto assim de infância"
+		intervals [275]:
+			xmin = 853.62808
+			xmax = 853.98883
+			text = ""
+		intervals [276]:
+			xmin = 853.98883
+			xmax = 857.52857
+			text = "nesse aspecto eu quando posso escolher não vacilo"
+		intervals [277]:
+			xmin = 857.52857
+			xmax = 857.8998
+			text = ""
+		intervals [278]:
+			xmin = 857.8998
+			xmax = 859.58269
+			text = "o trem realmente é muito agradável"
+		intervals [279]:
+			xmin = 859.58269
+			xmax = 861.2381
+			text = "mas muito raramente posso escolher"
+		intervals [280]:
+			xmin = 861.2381
+			xmax = 862.47163
+			text = ""
+		intervals [281]:
+			xmin = 862.47163
+			xmax = 868.70332
+			text = "eh o senhor teria alguma ou teriam queriam me dizer algumas particularidades ainda referente a transporte"
+		intervals [282]:
+			xmin = 868.70332
+			xmax = 869.16607
+			text = ""
+		intervals [283]:
+			xmin = 869.16607
+			xmax = 870.91139
+			text = "talvez não mencionados aqui na"
+		intervals [284]:
+			xmin = 870.91139
+			xmax = 871.80437
+			text = ""
+		intervals [285]:
+			xmin = 871.80437
+			xmax = 873.39976
+			text = "não particularidade especificamente não"
+		intervals [286]:
+			xmin = 873.39976
+			xmax = 881.05706
+			text = "a última viagem de trem que fiz como que a desmentir esta minha impressão eh foi uma viagem marcada por um um incidente muito sério"
+		intervals [287]:
+			xmin = 881.05706
+			xmax = 892.57226
+			text = "eu deveria fazer a inauguração de uma sucursal da editora do brasil em são josé do rio preto tomei o trem e o trem um pouco antes de araraquara parou por falta de energia"
+		intervals [288]:
+			xmin = 892.57226
+			xmax = 893.07405
+			text = ""
+		intervals [289]:
+			xmin = 893.07405
+			xmax = 912.43182
+			text = "como o tempo de que eu dispunha era muito inferior ao tempo necessário para o trem chegar face ao atraso eu tive que descer no meio do caminho andar um quilômetro e meio a pé correndo com mala depois tentar subornar um motorista para me levar até são josé do rio preto de maneira que foi uma experiência muito marcante"
+		intervals [290]:
+			xmin = 912.43182
+			xmax = 919.25437
+			text = "mas nem por isso eu posso generalizar e acusar de negativas as viagens de trem feita nessas circunstâncias"
+		intervals [291]:
+			xmin = 919.25437
+			xmax = 919.7157
+			text = ""
+		intervals [292]:
+			xmin = 919.7157
+			xmax = 922.84919
+			text = "não sei se o rui teria alguma outra particularidade relativa a transportes"
+		intervals [293]:
+			xmin = 922.84919
+			xmax = 924.51915
+			text = ""
+		intervals [294]:
+			xmin = 924.51915
+			xmax = 934.61491
+			text = "ah apenas eu gostaria de de de de situar o seguinte eu tenho a impressão que o homem moderno hoje perdeu muito assim o sabor de aproveitar uma viagem entende"
+		intervals [295]:
+			xmin = 934.61491
+			xmax = 948.69858
+			text = "eu acho que quando a gente pode pegar uma bicicleta por exemplo e sair andando de bicicleta ou um cavalo entende ou mesmo a pé entende tudo isso dá um sabor de paisagem um sabor assim humano muito maior do que esses transportes de alta velocidade"
+		intervals [296]:
+			xmin = 948.69858
+			xmax = 950.72603
+			text = "mesmo o o trem numa certa situação quer dizer"
+		intervals [297]:
+			xmin = 950.72603
+			xmax = 951.24671
+			text = ""
+		intervals [298]:
+			xmin = 951.24671
+			xmax = 960.8357
+			text = "então eu tenho a impressão como esse desumaniza um pouco por perder assim esse tipo de de viagem mais lenta mais saborosa mais aproveitada entende"
+		intervals [299]:
+			xmin = 960.8357
+			xmax = 962.89488
+			text = ""
+		intervals [300]:
+			xmin = 962.89488
+			xmax = 973.21497
+			text = "agora ah mudando um pouquinho de assunto além das atividades profissionais no no no fim de semana vocês ah vão ao assim algum lugar para se distrair"
+		intervals [301]:
+			xmin = 973.21497
+			xmax = 976.07745
+			text = ""
+		intervals [302]:
+			xmin = 976.07745
+			xmax = 997.73344
+			text = "bom eu tenho a impressão que o sítio que eu possuo e é muito mais sítio porque morando na cidade a gente costuma designar de sítio todo terreno um pouco maior do que as dimensões habituais daqueles em que se vive mas na realidade é uma chácara este meu sítio representa para mim eh se outras coisas não houvessem uma razão a mais para viver para existir"
+		intervals [303]:
+			xmin = 997.73344
+			xmax = 998.30155
+			text = ""
+		intervals [304]:
+			xmin = 998.30155
+			xmax = 1005.37667
+			text = "eu tenho rer verdadeira veneração por tudo mesmo por aquilo que eventualmente de dissabor ele possa causar"
+		intervals [305]:
+			xmin = 1005.37667
+			xmax = 1005.75552
+			text = ""
+		intervals [306]:
+			xmin = 1005.75552
+			xmax = 1012.76736
+			text = "no caso as despesas sempre superiores aos possíveis sonhos de lucro que ele eventualmente traz"
+		intervals [307]:
+			xmin = 1012.76736
+			xmax = 1033.92728
+			text = "então este sítio tem uma parcela muito importante na minha vida acredito até que na vida de alguns amigos que frequentam e raramente eu posso admitir sequer que um outro fim de semana em um outro local possa reunir o conjunto de prazeres que esta chácara ou que este sítio realmente representa"
+		intervals [308]:
+			xmin = 1033.92728
+			xmax = 1034.7194
+			text = ""
+		intervals [309]:
+			xmin = 1034.7194
+			xmax = 1038.339
+			text = "quando eu o adquiri eh ele não eh possu"
+		intervals [310]:
+			xmin = 1038.339
+			xmax = 1041.5224
+			text = "o nome da propriedade era o nome do antigo proprietário"
+		intervals [311]:
+			xmin = 1041.5224
+			xmax = 1044.63252
+			text = "então nessas condições havia que se mudar o nome"
+		intervals [312]:
+			xmin = 1044.63252
+			xmax = 1045.12122
+			text = ""
+		intervals [313]:
+			xmin = 1045.12122
+			xmax = 1059.39
+			text = "meu sogro foi imediatamente chamado para residir como como primeiro morador ainda que nós eh tivéssemos condições de pagar um caseiro que lá existia mas o sogro estava estabelecido no sítio e ele deu o nome de shangri-lá"
+		intervals [314]:
+			xmin = 1059.39
+			xmax = 1060.40588
+			text = ""
+		intervals [315]:
+			xmin = 1060.40588
+			xmax = 1073.51147
+			text = "e como mais tarde o ibra acabou naturalmente tornando este nome ah oficial pelo menos em termos de escritura eh o nome shangri-lá ficou até pouco tempo atrás quando eu mudei para vale do cerilu"
+		intervals [316]:
+			xmin = 1073.51147
+			xmax = 1073.95752
+			text = ""
+		intervals [317]:
+			xmin = 1073.95752
+			xmax = 1083.90065
+			text = "isso porque eu tenho um filho nós o chamamos de ceri e o outro de lu como eu sou geógrafo não é aquilo é um vale nós associamos o vale do cerilu"
+		intervals [318]:
+			xmin = 1083.90065
+			xmax = 1084.58507
+			text = ""
+		intervals [319]:
+			xmin = 1084.58507
+			xmax = 1098.58175
+			text = "mas ah embora eu n pessoalmente não gosto do nome shangri-lá inclusive porque ele foge daquilo que seria uma tendência a originalidade eh realmente eu assinto que o sítio reconstitui aquela imagem de um shangri-lá"
+		intervals [320]:
+			xmin = 1098.58175
+			xmax = 1099.11211
+			text = ""
+		intervals [321]:
+			xmin = 1099.11211
+			xmax = 1105.28072
+			text = "de um lugar onde se rejuvenesce e onde a gente se reencontra com os eus perdidos ao longo do passado"
+		intervals [322]:
+			xmin = 1105.28072
+			xmax = 1106.37838
+			text = ""
+		intervals [323]:
+			xmin = 1106.37838
+			xmax = 1119.05966
+			text = "jogamos futebol andamos de barco jogamos bocha pebolim e realmente tudo isso faz com que o meu fim de semana quando as chuvas não atrapalhem eh se tornem assim extremamente agradáveis"
+		intervals [324]:
+			xmin = 1119.05966
+			xmax = 1127.1056
+			text = "é praticamente o meu grande hobby e eu vejo com muita felicidade que os meus filhos e a minha mulher ah realmente sentem também isto"
+		intervals [325]:
+			xmin = 1127.1056
+			xmax = 1127.44423
+			text = ""
+		intervals [326]:
+			xmin = 1127.44423
+			xmax = 1132.17153
+			text = "então eu não estou privando-os de um prazer maior ao levá-los para o sítio"
+		intervals [327]:
+			xmin = 1132.17153
+			xmax = 1132.62667
+			text = ""
+		intervals [328]:
+			xmin = 1132.62667
+			xmax = 1145.34367
+			text = "e nestas condições é assim com grande ansiedade que eu vejo a semana passar principalmente uma semana de dias bonito para poder reencontrar com essa expectativa de me encontrar lá no vale do cerilu"
+		intervals [329]:
+			xmin = 1145.34367
+			xmax = 1148.90225
+			text = ""
+		intervals [330]:
+			xmin = 1148.90225
+			xmax = 1152.0523
+			text = "eu normalmente em fim de semana eu eh vou para o clube"
+		intervals [331]:
+			xmin = 1152.0523
+			xmax = 1156.09368
+			text = "nós temos aí um clube pinheiros aqui em são paulo que nós somos sócios entende"
+		intervals [332]:
+			xmin = 1156.09368
+			xmax = 1156.7493
+			text = ""
+		intervals [333]:
+			xmin = 1156.7493
+			xmax = 1170.68087
+			text = "então eu geralmente jogo voleibol no sábado de manhã no domingo de manhã jogo voleibol e frequentamos a piscina no verão eu gosto de jogar xadrez também então no na parte da tarde às vezes jogo xadrez"
+		intervals [334]:
+			xmin = 1170.68087
+			xmax = 1172.19613
+			text = ""
+		intervals [335]:
+			xmin = 1172.19613
+			xmax = 1178.02649
+			text = "e quando não há o clube a gente às vezes sai uma viagem curta próxima de são paulo"
+		intervals [336]:
+			xmin = 1178.02649
+			xmax = 1178.50442
+			text = ""
+		intervals [337]:
+			xmin = 1178.50442
+			xmax = 1180.60039
+			text = "vamos fazer assim uma pequena excursão com a família né"
+		intervals [338]:
+			xmin = 1180.60039
+			xmax = 1182.06457
+			text = ""
+		intervals [339]:
+			xmin = 1182.06457
+			xmax = 1189.26178
+			text = "e atividade assim onde envolve mais a família toda inclusive minha mulher é que lá no pinheiros mesmo no sábado à noite nós jogamos boliche"
+		intervals [340]:
+			xmin = 1189.26178
+			xmax = 1192.07289
+			text = "é um jogo assim familiar né que reúne a turma toda"
+		intervals [341]:
+			xmin = 1192.07289
+			xmax = 1193.46583
+			text = ""
+		intervals [342]:
+			xmin = 1193.46583
+			xmax = 1195.01392
+			text = "mas geralmente o fim de semana é esse"
+		intervals [343]:
+			xmin = 1195.01392
+			xmax = 1197.85864
+			text = "é de um clube tomando sol jogando bola"
+		intervals [344]:
+			xmin = 1197.85864
+			xmax = 1198.67003
+			text = ""
+		intervals [345]:
+			xmin = 1198.67003
+			xmax = 1199.9982
+			text = "e cinema teatro"
+		intervals [346]:
+			xmin = 1199.9982
+			xmax = 1201.24476
+			text = ""
+		intervals [347]:
+			xmin = 1201.24476
+			xmax = 1202.33598
+			text = "há possibilidade"
+		intervals [348]:
+			xmin = 1202.33598
+			xmax = 1204.04
+			text = ""

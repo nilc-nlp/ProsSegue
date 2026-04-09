@@ -1,0 +1,1118 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 1306.1773500000002
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "All TBs-normal"
+		xmin = 0.0
+		xmax = 1306.1773500000002
+		intervals: size = 276
+		intervals [1]:
+			xmin = 0.0
+			xmax = 11.668719999999894
+			text = "quando eu era noivo há dez onze anos atrás íamos ao teatro quase que sistematicamente a ponto de às vezes optar pelo cinema por falta de peças novas em cartas né"
+		intervals [2]:
+			xmin = 11.668719999999894
+			xmax = 12.335579999999936
+			text = ""
+		intervals [3]:
+			xmin = 12.335579999999936
+			xmax = 22.395340000000033
+			text = "mas depois com o nascimento dos filhos e com a dificuldade em deixá-los eh nós abrimos um espaço de tempo muito grande sem realmente poder frequentar teatro"
+		intervals [4]:
+			xmin = 22.395340000000033
+			xmax = 22.88698999999997
+			text = ""
+		intervals [5]:
+			xmin = 22.88698999999997
+			xmax = 27.023220000000038
+			text = "e isto acabou tirando o hábito embora não tivesse tirado o gosto pelo teatro"
+		intervals [6]:
+			xmin = 27.023220000000038
+			xmax = 27.529790000000048
+			text = ""
+		intervals [7]:
+			xmin = 27.529790000000048
+			xmax = 41.22380999999996
+			text = "de maneira que hoje em dia frequentamos assim com muita raridade sobretudo porque neste espaço de tempo sobreveio a compra do sítio e através desta compra naturalmente uma outra forma de motivação"
+		intervals [8]:
+			xmin = 41.22380999999996
+			xmax = 41.81007999999997
+			text = ""
+		intervals [9]:
+			xmin = 41.81007999999997
+			xmax = 50.13792999999987
+			text = "eh e consequentemente vamos ah muito pouco embora tanto eu como minha esposa tenhamos assim uma grande admiração grande gosto pelo teatro"
+		intervals [10]:
+			xmin = 50.13792999999987
+			xmax = 50.69911000000002
+			text = ""
+		intervals [11]:
+			xmin = 50.69911000000002
+			xmax = 56.26924999999983
+			text = "o cinema eh já acaba sendo uma forma de diversão extremamente rara na nossa vida"
+		intervals [12]:
+			xmin = 56.26924999999983
+			xmax = 57.03984999999989
+			text = ""
+		intervals [13]:
+			xmin = 57.03984999999989
+			xmax = 68.65427
+			text = "ah eu quando tenho algumas atividades e alguns compromissos na cidade quando entre um compromisso e outro há um espaço de tempo que não é possível ser preenchido de uma outra forma acabo indo ao cinema"
+		intervals [14]:
+			xmin = 68.65427
+			xmax = 74.26319999999987
+			text = "mas acabo procurando sempre aquele que apresenta a menor fila e não o menor filme"
+		intervals [15]:
+			xmin = 74.26319999999987
+			xmax = 74.65830000000005
+			text = ""
+		intervals [16]:
+			xmin = 74.65830000000005
+			xmax = 82.73077999999987
+			text = "então o cinema acaba se constituindo quase que num preenchimento de um espaço vago e não numa procura né numa busca de um de um filme em cartaz"
+		intervals [17]:
+			xmin = 82.73077999999987
+			xmax = 83.24892
+			text = ""
+		intervals [18]:
+			xmin = 83.24892
+			xmax = 87.75107000000003
+			text = "algumas vezes alguns filmes que nos chamam a atenção nos levam assim ao cinema"
+		intervals [19]:
+			xmin = 87.75107000000003
+			xmax = 88.14198999999985
+			text = ""
+		intervals [20]:
+			xmin = 88.14198999999985
+			xmax = 89.21713999999997
+			text = "mas com muita raridade"
+		intervals [21]:
+			xmin = 89.21713999999997
+			xmax = 94.57710999999995
+			text = "eu suponho que não vou ao cinema em um ano ah mais do que dez vezes"
+		intervals [22]:
+			xmin = 94.57710999999995
+			xmax = 97.02184999999986
+			text = "o que representa menos de uma vez por mês"
+		intervals [23]:
+			xmin = 97.02184999999986
+			xmax = 97.30978000000005
+			text = ""
+		intervals [24]:
+			xmin = 97.30978000000005
+			xmax = 103.64184
+			text = "ao teatro atualmente dado as circunstâncias que citei seis cinco vezes por ano não mais do que isso"
+		intervals [25]:
+			xmin = 103.64184
+			xmax = 107.89211
+			text = ""
+		intervals [26]:
+			xmin = 107.89211
+			xmax = 112.36229000000003
+			text = "eu e minha mulher nós costumamos ir ao cinema assim umas duas ou três vezes por mês"
+		intervals [27]:
+			xmin = 112.36229000000003
+			xmax = 115.99757999999997
+			text = "a gente escolhe assim um uns filmes melhores senão"
+		intervals [28]:
+			xmin = 115.99757999999997
+			xmax = 122.01163999999994
+			text = "não tanto por exemplo os que têm maior propaganda como é o caso do exorcista agora até pelo contrário"
+		intervals [29]:
+			xmin = 122.01163999999994
+			xmax = 140.61249999999995
+			text = "esse tipo de propaganda assim eu para eu assistir um filme desse tipo como exorcista mesmo é preciso que ninguém mais esteja indo entende e que pelo que eu ouço comentários assim gerais eu sinto é que por dever de de ofício quer dizer como professor eu tenho que comentar o assunto"
+		intervals [30]:
+			xmin = 140.61249999999995
+			xmax = 140.95469000000003
+			text = ""
+		intervals [31]:
+			xmin = 140.95469000000003
+			xmax = 142.0701999999999
+			text = "senão eu acabo nem assistindo"
+		intervals [32]:
+			xmin = 142.0701999999999
+			xmax = 152.64540999999986
+			text = "porque eu acho que quando fazem esse tipo de propaganda que fizeram em torno do exorcista aí o que está havendo aí é uma grande campanha publicitária para se vender um produto mas na verdade não representa um valor real"
+		intervals [33]:
+			xmin = 152.64540999999986
+			xmax = 152.94973000000005
+			text = ""
+		intervals [34]:
+			xmin = 152.94973000000005
+			xmax = 153.54058999999984
+			text = "quer dizer"
+		intervals [35]:
+			xmin = 153.54058999999984
+			xmax = 154.1961899999999
+			text = ""
+		intervals [36]:
+			xmin = 154.1961899999999
+			xmax = 168.8833299999999
+			text = "então a gente escolhe filmes realmente assim numa linha que a gente sente que nos interessa que filmes assim que têm alguma mensagem ou que representem uma linha artística séria de cinema entende e assistimos uma média aí de uns três por mês"
+		intervals [37]:
+			xmin = 168.8833299999999
+			xmax = 168.94516999999996
+			text = ""
+		intervals [38]:
+			xmin = 168.94516999999996
+			xmax = 171.60371999999984
+			text = "geralmente o dia que a gente vai ao cinema é na sexta-feira à noite"
+		intervals [39]:
+			xmin = 171.60371999999984
+			xmax = 172.30717000000004
+			text = ""
+		intervals [40]:
+			xmin = 172.30717000000004
+			xmax = 176.44103999999993
+			text = "então a gente procura ir assistir assim os filmes que a gente considera melhores"
+		intervals [41]:
+			xmin = 176.44103999999993
+			xmax = 181.28264999999988
+			text = "teatro menos que cinema e"
+		intervals [42]:
+			xmin = 181.28264999999988
+			xmax = 190.86329
+			text = "não porque não gostemos mas eh ah com seis filhos em casa a programação do casal fica muito limitada assim realmente a vida da das crianças e"
+		intervals [43]:
+			xmin = 190.86329
+			xmax = 191.37417000000005
+			text = ""
+		intervals [44]:
+			xmin = 191.37417000000005
+			xmax = 194.46258999999986
+			text = "e a idade deles ainda não é uma idade de frequentar teatro entende"
+		intervals [45]:
+			xmin = 194.46258999999986
+			xmax = 200.06776999999988
+			text = "o próprio cinema para a gente tirar assim uma noite por semana é difícil porque eles envolvem a vida da gente e é natural que aconteça isso"
+		intervals [46]:
+			xmin = 200.06776999999988
+			xmax = 200.49618999999984
+			text = ""
+		intervals [47]:
+			xmin = 200.49618999999984
+			xmax = 203.17014999999992
+			text = "então nossas atividades ficam muito presas às atividade das crianças"
+		intervals [48]:
+			xmin = 203.17014999999992
+			xmax = 208.75144
+			text = "a filha mais velha já está com quinze anos e isso faz com que fique num segundo plano"
+		intervals [49]:
+			xmin = 208.75144
+			xmax = 209.50711
+			text = ""
+		intervals [50]:
+			xmin = 209.50711
+			xmax = 211.26216
+			text = "tem certa coisa que a gente faz"
+		intervals [51]:
+			xmin = 211.26216
+			xmax = 218.6494499999999
+			text = "a gente da às vezes dá preferência em ficar com os filhos de ver um filme na televisão por exemplo do que sair de casa e fazer um programa só nós dois né"
+		intervals [52]:
+			xmin = 218.6494499999999
+			xmax = 220.48261000000002
+			text = ""
+		intervals [53]:
+			xmin = 220.48261000000002
+			xmax = 229.1340399999999
+			text = "agora quanto à televisão o senhor professor rui professor celso tenha ah preferência por algum programa de televisão"
+		intervals [54]:
+			xmin = 229.1340399999999
+			xmax = 229.49872000000005
+			text = ""
+		intervals [55]:
+			xmin = 229.49872000000005
+			xmax = 231.23279000000002
+			text = "algum tipo de programação"
+		intervals [56]:
+			xmin = 231.23279000000002
+			xmax = 233.1416099999999
+			text = ""
+		intervals [57]:
+			xmin = 233.1416099999999
+			xmax = 238.61425999999983
+			text = "bom se eu tivesse que definir a televisão de casa eu diria que é um um móvel no qual a gente apoia alguns objetos sobre a mesma não é"
+		intervals [58]:
+			xmin = 238.61425999999983
+			xmax = 245.50878999999986
+			text = "eu eu não vejo televisão acho até que a antena interna da minha atrapalha esta esta pequena mesa que a televisão representa"
+		intervals [59]:
+			xmin = 245.50878999999986
+			xmax = 245.99140999999986
+			text = ""
+		intervals [60]:
+			xmin = 245.99140999999986
+			xmax = 262.58448
+			text = "embora para os meus filhos o luís guilherme tem oito anos o celso henrique tem seis eh observar e assistir os desenhos animados se constituem assim numa num numa expectativa muito grande e privá-los disso seria realmente dar o maior dos castigos"
+		intervals [61]:
+			xmin = 262.58448
+			xmax = 263.0465099999999
+			text = ""
+		intervals [62]:
+			xmin = 263.0465099999999
+			xmax = 265.8760299999999
+			text = "então eu sinto a importância da televisão a eles"
+		intervals [63]:
+			xmin = 265.8760299999999
+			xmax = 266.41454999999996
+			text = ""
+		intervals [64]:
+			xmin = 266.41454999999996
+			xmax = 268.97673999999984
+			text = "trabalho todas as noites sem exceção"
+		intervals [65]:
+			xmin = 268.97673999999984
+			xmax = 269.43566999999985
+			text = ""
+		intervals [66]:
+			xmin = 269.43566999999985
+			xmax = 278.3800899999999
+			text = "a minha esposa me aguarda sempre e apenas porque me aguarda costuma assistir alguns filmes"
+		intervals [67]:
+			xmin = 278.3800899999999
+			xmax = 278.8399099999999
+			text = ""
+		intervals [68]:
+			xmin = 278.8399099999999
+			xmax = 281.2518
+			text = "mas não que acompanhe com grande interesse"
+		intervals [69]:
+			xmin = 281.2518
+			xmax = 281.69660999999996
+			text = ""
+		intervals [70]:
+			xmin = 281.69660999999996
+			xmax = 284.5146299999999
+			text = "e muito raramente eu assisto televisão"
+		intervals [71]:
+			xmin = 284.5146299999999
+			xmax = 285.4354599999999
+			text = "gosto muito de futebol"
+		intervals [72]:
+			xmin = 285.4354599999999
+			xmax = 286.16787999999997
+			text = ""
+		intervals [73]:
+			xmin = 286.16787999999997
+			xmax = 293.24036
+			text = "e quando o são paulo futebol clube é outra coisa em comum que eu tenho com o rui ganhava jogos de futebol eu assistia o videotape"
+		intervals [74]:
+			xmin = 293.24036
+			xmax = 293.65930000000003
+			text = ""
+		intervals [75]:
+			xmin = 293.65930000000003
+			xmax = 295.16967
+			text = "mas eu sou um torcedor covarde"
+		intervals [76]:
+			xmin = 295.16967
+			xmax = 297.05031999999983
+			text = "eu não não assisto as derrotas do meu time"
+		intervals [77]:
+			xmin = 297.05031999999983
+			xmax = 297.39057
+			text = ""
+		intervals [78]:
+			xmin = 297.39057
+			xmax = 300.74656000000004
+			text = "o que equivale a dizer que de muito tempo para cá eu não assisto televisão"
+		intervals [79]:
+			xmin = 300.74656000000004
+			xmax = 302.39582999999993
+			text = ""
+		intervals [80]:
+			xmin = 302.39582999999993
+			xmax = 303.04746
+			text = "ótimo"
+		intervals [81]:
+			xmin = 303.04746
+			xmax = 304.6909699999999
+			text = ""
+		intervals [82]:
+			xmin = 304.6909699999999
+			xmax = 312.2776899999999
+			text = "é eu acho a televisão realmente ainda muito muito pobre em matéria de de oferta ao público né"
+		intervals [83]:
+			xmin = 312.2776899999999
+			xmax = 319.92842999999993
+			text = "grande parte dos programas são traduções de filmes estrangeiros e e traduções até mal feitas né"
+		intervals [84]:
+			xmin = 319.92842999999993
+			xmax = 321.02460999999994
+			text = ""
+		intervals [85]:
+			xmin = 321.02460999999994
+			xmax = 322.16211999999996
+			text = "não chega a me agradar"
+		intervals [86]:
+			xmin = 322.16211999999996
+			xmax = 322.6715899999999
+			text = ""
+		intervals [87]:
+			xmin = 322.6715899999999
+			xmax = 327.9523099999999
+			text = "programa de auditório realmente eu não só não gosto como nem gosto que fique ligado num programa desses"
+		intervals [88]:
+			xmin = 327.9523099999999
+			xmax = 328.7195199999999
+			text = ""
+		intervals [89]:
+			xmin = 328.7195199999999
+			xmax = 333.20678999999996
+			text = "tipo chacrinha sílvio santos flávio cavalcanti quer dizer isso aí isso eu acho realmente intolerável"
+		intervals [90]:
+			xmin = 333.20678999999996
+			xmax = 333.60528999999997
+			text = ""
+		intervals [91]:
+			xmin = 333.60528999999997
+			xmax = 337.95367999999985
+			text = "ultimamente apareceu um programa que estava num nível razoável no domingo que é o fantástico né"
+		intervals [92]:
+			xmin = 337.95367999999985
+			xmax = 338.45513000000005
+			text = ""
+		intervals [93]:
+			xmin = 338.45513000000005
+			xmax = 339.2910199999999
+			text = "então eu cheguei a assistir"
+		intervals [94]:
+			xmin = 339.2910199999999
+			xmax = 339.96029
+			text = ""
+		intervals [95]:
+			xmin = 339.96029
+			xmax = 345.9321399999999
+			text = "não assim todas as vezes mas algumas vezes eu assisti o fantástico e achei que eles fizeram alguns programas de bom nível"
+		intervals [96]:
+			xmin = 345.9321399999999
+			xmax = 347.4362899999999
+			text = ""
+		intervals [97]:
+			xmin = 347.4362899999999
+			xmax = 352.5664999999999
+			text = "mas quando eu assisto televisão em casa é assim para ficar junto com o pessoal mas não é diário entende"
+		intervals [98]:
+			xmin = 352.5664999999999
+			xmax = 353.0182399999999
+			text = ""
+		intervals [99]:
+			xmin = 353.0182399999999
+			xmax = 360.9692399999999
+			text = "é assim quando a gente sabe hoje vai ter um filme bom vai passar um filme que às vezes até filme que eu já assisti há dez anos atrás que rê uma rê uma reapresentação"
+		intervals [100]:
+			xmin = 360.9692399999999
+			xmax = 364.4995799999999
+			text = "então eu até aviso o pessoal olha vamos ver hoje esse filme então a gente fica junto assiste esse filme"
+		intervals [101]:
+			xmin = 364.4995799999999
+			xmax = 365.13550999999984
+			text = ""
+		intervals [102]:
+			xmin = 365.13550999999984
+			xmax = 381.10067000000004
+			text = "mas em termos assim de de assistir habitualmente não existe isso até pelo contrário eu faço até uma certa campanha que a televisão a gente se sirva dela e não ela se torne assim entende eh algo que acabe guiando a família quer dizer a família se prende aos horários da televisão"
+		intervals [103]:
+			xmin = 381.10067000000004
+			xmax = 386.2946199999999
+			text = "então começa a jantar depois de novela ou antes de novela e e tal dia não se sai porque tem televisão"
+		intervals [104]:
+			xmin = 386.2946199999999
+			xmax = 386.48804999999993
+			text = ""
+		intervals [105]:
+			xmin = 386.48804999999993
+			xmax = 392.84220000000005
+			text = "então nós nos servimos da televisão na medida que realmente há alguma coisa boa e eu procuro educar meus filhos nessa linha"
+		intervals [106]:
+			xmin = 392.84220000000005
+			xmax = 395.22492999999986
+			text = "de não ligarem a televisão por ligar"
+		intervals [107]:
+			xmin = 395.22492999999986
+			xmax = 397.30366000000004
+			text = "quer dizer para ver o que que tem né certo"
+		intervals [108]:
+			xmin = 397.30366000000004
+			xmax = 397.83430999999996
+			text = ""
+		intervals [109]:
+			xmin = 397.83430999999996
+			xmax = 405.58425999999986
+			text = "retomando um pouquinho ao ao cinema o senhor poderia falar um pouco sobre os tipos de filme a predileção por eles"
+		intervals [110]:
+			xmin = 405.58425999999986
+			xmax = 406.20655999999985
+			text = ""
+		intervals [111]:
+			xmin = 406.20655999999985
+			xmax = 413.1965399999999
+			text = "eu prefiro os filmes que apresentam assim uma mensagem uma análise de um momento da da da da da vida social"
+		intervals [112]:
+			xmin = 413.1965399999999
+			xmax = 424.5788
+			text = "por exemplo eu gostei dum filme como siddharta que transpôs para a tela aquele livro do mesmo nome do hermann hesse que tem realmente uma mensagem muito rica entende"
+		intervals [113]:
+			xmin = 424.5788
+			xmax = 425.34781999999996
+			text = ""
+		intervals [114]:
+			xmin = 425.34781999999996
+			xmax = 431.46979999999985
+			text = "gostei dum outro tipo de filme mas que também apresenta assim um conteúdo bem real que é aquele sérpico"
+		intervals [115]:
+			xmin = 431.46979999999985
+			xmax = 431.71759999999995
+			text = ""
+		intervals [116]:
+			xmin = 431.71759999999995
+			xmax = 443.60437
+			text = "que apresentou a vida daquele policial americano que tentou realmente enfrentar todas as barreiras para apresentar para viver o que ele acreditava que era o papel de um policial numa linha de verdade entendeu"
+		intervals [117]:
+			xmin = 443.60437
+			xmax = 444.39612999999986
+			text = "achei muito bacana"
+		intervals [118]:
+			xmin = 444.39612999999986
+			xmax = 445.7385999999999
+			text = ""
+		intervals [119]:
+			xmin = 445.7385999999999
+			xmax = 460.93298000000004
+			text = "eh gostei de um filme que passou que apresentava não me lembro agora o nome mas era sobre um líder marroquino que foi assassinado em paris e passou"
+		intervals [120]:
+			xmin = 460.93298000000004
+			xmax = 461.76972
+			text = "lembra do nome celso"
+		intervals [121]:
+			xmin = 461.76972
+			xmax = 462.2292
+			text = ""
+		intervals [122]:
+			xmin = 462.2292
+			xmax = 463.54501000000005
+			text = "o atentado parece"
+		intervals [123]:
+			xmin = 463.54501000000005
+			xmax = 463.66599999999994
+			text = ""
+		intervals [124]:
+			xmin = 463.66599999999994
+			xmax = 465.67452000000003
+			text = "filme também muito interessante dentro dessa linha"
+		intervals [125]:
+			xmin = 465.67452000000003
+			xmax = 466.0176899999999
+			text = ""
+		intervals [126]:
+			xmin = 466.0176899999999
+			xmax = 471.33968000000004
+			text = "gosto de boas comédias por exemplo eu gostava de um comediante francês que aliás agora tem passado poucos filmes dele que era o jacques tati"
+		intervals [127]:
+			xmin = 471.33968000000004
+			xmax = 472.03644999999983
+			text = ""
+		intervals [128]:
+			xmin = 472.03644999999983
+			xmax = 475.99262999999996
+			text = "eu achava o jacques tati assim um crítico genial da da sociedade entende"
+		intervals [129]:
+			xmin = 475.99262999999996
+			xmax = 478.0378699999999
+			text = "então eh assisti filmes dele muito bons entende"
+		intervals [130]:
+			xmin = 478.0378699999999
+			xmax = 478.5600099999999
+			text = ""
+		intervals [131]:
+			xmin = 478.5600099999999
+			xmax = 484.35851
+			text = "férias de monsieur hulot e o trânsito traffic né que eles chamavam o mon oncle né o meu tio"
+		intervals [132]:
+			xmin = 484.35851
+			xmax = 485.89218000000005
+			text = ""
+		intervals [133]:
+			xmin = 485.89218000000005
+			xmax = 500.75721
+			text = "enfim gosto então de comédias assim boas entende que apresentem assim uma certa sátira uma certa crítica entende à sociedade gosto de de filmes de conteúdo real como esse sérpico e atentado não é e filmes de mensagem como siddharta e outros nessa linha né"
+		intervals [134]:
+			xmin = 500.75721
+			xmax = 503.56393
+			text = ""
+		intervals [135]:
+			xmin = 503.56393
+			xmax = 506.12230999999997
+			text = "ah meu gosto cinematográfico não difere muito do rui não"
+		intervals [136]:
+			xmin = 506.12230999999997
+			xmax = 514.3971299999998
+			text = "eu inclusive acrescentaria apenas a esse a esta série de filmes dentro dessa mesma linha eh os bons filmes policiais"
+		intervals [137]:
+			xmin = 514.3971299999998
+			xmax = 514.89687
+			text = ""
+		intervals [138]:
+			xmin = 514.89687
+			xmax = 521.13993
+			text = "pelos quais eu tenho assim desde a minha quase a minha meninice uma paixão muito grande"
+		intervals [139]:
+			xmin = 521.13993
+			xmax = 526.49669
+			text = "quando eu era menino acredito que os primeiros livros que li eram livros da coleção vampiro"
+		intervals [140]:
+			xmin = 526.49669
+			xmax = 527.11058
+			text = ""
+		intervals [141]:
+			xmin = 527.11058
+			xmax = 537.5243699999999
+			text = "livros policiais e tal e sempre sempre me considerei o detetive em potencial na expectativa das descobertas que realmente nunca acabavam efetivamente acontecendo"
+		intervals [142]:
+			xmin = 537.5243699999999
+			xmax = 538.8466899999999
+			text = "eu sempre me enganava na última hora"
+		intervals [143]:
+			xmin = 538.8466899999999
+			xmax = 539.4015399999998
+			text = ""
+		intervals [144]:
+			xmin = 539.4015399999998
+			xmax = 552.9294499999999
+			text = "então quando o o filme policial é bem feito eu me reporto assim a um rififi a um testemunha de acusação e outros filmes eu também gosto acrescentando a esta lista que o o rui apresentou"
+		intervals [145]:
+			xmin = 552.9294499999999
+			xmax = 556.87934
+			text = ""
+		intervals [146]:
+			xmin = 556.87934
+			xmax = 571.78511
+			text = "bom voltando a à televisão eh eu acho que o professor celso gostaria de falar ainda vamos dizer alguma coisa algum ou lado crítico vamos dizer assim da televisão"
+		intervals [147]:
+			xmin = 571.78511
+			xmax = 573.5576799999999
+			text = ""
+		intervals [148]:
+			xmin = 573.5576799999999
+			xmax = 574.32756
+			text = "bom não sei"
+		intervals [149]:
+			xmin = 574.32756
+			xmax = 592.33366
+			text = "eu creio que sempre quando o a programação procura atingir uma faixa quantitativa em termos de mercado obviamente a aquela porção que busca uma melhor qualificação dos programas acaba se frustrando naturalmente"
+		intervals [150]:
+			xmin = 592.33366
+			xmax = 592.7366
+			text = ""
+		intervals [151]:
+			xmin = 592.7366
+			xmax = 610.7675299999999
+			text = "então não pode deixar de reconhecer que face ao nível sociocultural e até mesmo econômico de grande parte da população os programas que possam atingir mais claramente este tipo de público são programas de níveis ah inferiores àqueles que poderiam estar dentro de um agrado geral"
+		intervals [152]:
+			xmin = 610.7675299999999
+			xmax = 619.4890699999999
+			text = "então eu compreendo porque a televisão acaba naturalmente por apelar em função de uma programação que atinja o grande público"
+		intervals [153]:
+			xmin = 619.4890699999999
+			xmax = 620.0364199999999
+			text = ""
+		intervals [154]:
+			xmin = 620.0364199999999
+			xmax = 625.36246
+			text = "agora o a circunstância de compreender não faça com que eu justifique e endosse esse ponto de vista"
+		intervals [155]:
+			xmin = 625.36246
+			xmax = 625.9432299999999
+			text = ""
+		intervals [156]:
+			xmin = 625.9432299999999
+			xmax = 640.5270399999999
+			text = "eu acho que a televisão ao se implantar no brasil e para criar como efetivamente criou aquele mito de dependência que o rui se reportou muito bem para com o espectador poderia ter descido aos níveis desejáveis pelo grande público"
+		intervals [157]:
+			xmin = 640.5270399999999
+			xmax = 641.20812
+			text = ""
+		intervals [158]:
+			xmin = 641.20812
+			xmax = 649.8625099999999
+			text = "mas depois de ter criado esta dependência poderia ter a pretensão de elevar o seu nível e fazer com que o público chegasse evidentemente a este tipo de nível"
+		intervals [159]:
+			xmin = 649.8625099999999
+			xmax = 650.3069599999999
+			text = ""
+		intervals [160]:
+			xmin = 650.3069599999999
+			xmax = 652.2920899999999
+			text = "infelizmente não é o que ocorre"
+		intervals [161]:
+			xmin = 652.2920899999999
+			xmax = 652.92895
+			text = ""
+		intervals [162]:
+			xmin = 652.92895
+			xmax = 661.91515
+			text = "então eh eu não tenho nada assim de pessoal contra a televisão e nem nenhuma forma de restrição àqueles que se veem escravizados pela televisão"
+		intervals [163]:
+			xmin = 661.91515
+			xmax = 662.47012
+			text = ""
+		intervals [164]:
+			xmin = 662.47012
+			xmax = 667.7785999999999
+			text = "mas acho que ela não está cumprindo aquele serviço que realmente ah se proporia a cumprir"
+		intervals [165]:
+			xmin = 667.7785999999999
+			xmax = 668.1625799999999
+			text = ""
+		intervals [166]:
+			xmin = 668.1625799999999
+			xmax = 682.4119699999999
+			text = "ela é paga ela é sustentada pelo anúncio pelo comercial e na maior parte das vezes o comércio está interessado em atingir um maior número de espectadores possíveis ainda que naturalmente a qualificação desses espectadores possa ser colocada em dúvida"
+		intervals [167]:
+			xmin = 682.4119699999999
+			xmax = 682.8358699999999
+			text = ""
+		intervals [168]:
+			xmin = 682.8358699999999
+			xmax = 697.18938
+			text = "então nesses termos a gente lamenta muito profundamente essa característica comercial da televisão desvinculando daqueles verdadeiros objetivos que seriam objetivos de educar seriam objetivos de aconselhar seriam objetivos até mesmo de orientar"
+		intervals [169]:
+			xmin = 697.18938
+			xmax = 697.69092
+			text = ""
+		intervals [170]:
+			xmin = 697.69092
+			xmax = 717.5385199999998
+			text = "eu suponho que talvez um dia a tecnologia possa nos levar a um ponto em que determinadas formas de captação acabam tornando certos programas proibitivos para determinado público e assim sendo possível programar no mesmo horário programas diferentes e faixa diferentes"
+		intervals [171]:
+			xmin = 717.5385199999998
+			xmax = 717.91444
+			text = ""
+		intervals [172]:
+			xmin = 717.91444
+			xmax = 732.31069
+			text = "eh por exemplo vamos admitir que determinada faixa etária determinadas crianças ah não pudessem captar determinados tipos de programa que mesmo com a omissão dos pais lhes fossem apresentado"
+		intervals [173]:
+			xmin = 732.31069
+			xmax = 732.74396
+			text = ""
+		intervals [174]:
+			xmin = 732.74396
+			xmax = 751.1459299999999
+			text = "então quando a televisão chegar a este nível tecnológico onde realmente eh a seleção dos programas não ficar a critério do telespectador mas for dirigida para determinadas faixas eh nós poderemos pretender que a televisão venha a se constituir numa obra e numa num veículo de informação e de formação cultural"
+		intervals [175]:
+			xmin = 751.1459299999999
+			xmax = 751.55305
+			text = ""
+		intervals [176]:
+			xmin = 751.55305
+			xmax = 761.26928
+			text = "e não como está ocorrendo hoje sem pretensão a trocadilhos mas num veículo de deformação cultural e principalmente na criação de estereótipos"
+		intervals [177]:
+			xmin = 761.26928
+			xmax = 761.76268
+			text = ""
+		intervals [178]:
+			xmin = 761.76268
+			xmax = 781.93905
+			text = "eu há doze treze anos atrás tive a oportunidade de fazer pesquisas sobre a maneira de falar do gaúcho a maneira de falar do cearense do baiano eh embora nordestinos mas ah em termos diferentes a maneira de falar do amazonense isto geograficamente de uma importância muito grande"
+		intervals [179]:
+			xmin = 781.93905
+			xmax = 782.33455
+			text = ""
+		intervals [180]:
+			xmin = 782.33455
+			xmax = 787.19902
+			text = "hoje a gente percebe que a televisão está fazendo com que o regionalismo desapareça"
+		intervals [181]:
+			xmin = 787.19902
+			xmax = 787.70532
+			text = ""
+		intervals [182]:
+			xmin = 787.70532
+			xmax = 795.1677199999999
+			text = "e o o aquilo que diz o chacrinha aquilo que diz o sílvio santos acaba se constituindo nas frases que dizem todos os brasileiros de todas as regiões"
+		intervals [183]:
+			xmin = 795.1677199999999
+			xmax = 795.54757
+			text = ""
+		intervals [184]:
+			xmin = 795.54757
+			xmax = 801.5209399999999
+			text = "então aquele sabor de originalidade de cultura própria está sendo massacrado por aquela cultura imposta pela televisão"
+		intervals [185]:
+			xmin = 801.5209399999999
+			xmax = 801.9451199999999
+			text = ""
+		intervals [186]:
+			xmin = 801.9451199999999
+			xmax = 805.52979
+			text = "e nesse aspecto então a televisão está prestando um grande desserviço"
+		intervals [187]:
+			xmin = 805.52979
+			xmax = 805.85024
+			text = ""
+		intervals [188]:
+			xmin = 805.85024
+			xmax = 818.14211
+			text = "sem considerar a mensagem quase sempre de violência que ela leva e junto com esta mensagem de violência criar um verdadeiro círculo vicioso capaz de gerar um outro tipo de mecanismo de violência"
+		intervals [189]:
+			xmin = 818.14211
+			xmax = 818.4602199999999
+			text = ""
+		intervals [190]:
+			xmin = 818.4602199999999
+			xmax = 823.15173
+			text = "de maneira que as restrições que tenho ao telespectador são pequenas"
+		intervals [191]:
+			xmin = 823.15173
+			xmax = 827.7433599999999
+			text = "mas as restrições que tenho à televisão como entidade cultural são as mais sérias possíveis"
+		intervals [192]:
+			xmin = 827.7433599999999
+			xmax = 828.4483399999999
+			text = ""
+		intervals [193]:
+			xmin = 828.4483399999999
+			xmax = 853.3952400000001
+			text = "é eu gostaria de acrescentar celso o seguinte que eu tenho a impressão que tendo em vista o potencial que representa a televisão potencial assim de ligação entre o países e ligação entre pessoas entende comunicação dando até mesmo unidade nacional você falou nesse momento que retirava a riqueza dos regionalismos"
+		intervals [194]:
+			xmin = 853.3952400000001
+			xmax = 863.9661599999997
+			text = "mas o mesmo veículo que pode ter causar este mal poderá causar um bem na medida em que levar uma mensagem realmente de integração levar uma cultura até os extremos et cetera"
+		intervals [195]:
+			xmin = 863.9661599999997
+			xmax = 864.4969800000001
+			text = ""
+		intervals [196]:
+			xmin = 864.4969800000001
+			xmax = 871.3767299999997
+			text = "agora me parece o seguinte é que falta ao brasil uma política realmente de telecomunicações entende"
+		intervals [197]:
+			xmin = 871.3767299999997
+			xmax = 890.3561499999998
+			text = "quer dizer a nossa política de té telecomunicações até hoje fez foi enriquecer pessoas como sílvio santos por exemplo que hoje quase é dono de um canal de televisão só não é dono parece que a última hora não deixaram ele comprar o canal de televisão mas ele no fim é mais do que dono porque ele o domingo inteiro ele tem um programa num determinado canal fazendo com que o baú da felicidade dele cresça não é"
+		intervals [198]:
+			xmin = 890.3561499999998
+			xmax = 890.90797
+			text = ""
+		intervals [199]:
+			xmin = 890.90797
+			xmax = 903.87634
+			text = "quer dizer então em vez da televisão ter uma finalidade cultural de integração de comunicação passa a ser um veículo de promoção de um grupo promoção pessoal e enriquecimento pessoal num total desvirtuamento não é"
+		intervals [200]:
+			xmin = 903.87634
+			xmax = 904.3452399999999
+			text = ""
+		intervals [201]:
+			xmin = 904.3452399999999
+			xmax = 905.26916
+			text = "e com um agravante"
+		intervals [202]:
+			xmin = 905.26916
+			xmax = 921.2070499999998
+			text = "me parece que simplesmente ir de encontro ao que seria uma expectativa de uma camada despreparada da população seria então manter um status entende de pobreza intelectual e não promover o crescimento"
+		intervals [203]:
+			xmin = 921.2070499999998
+			xmax = 924.73019
+			text = "quando me parece que o papel exatamente seria o de promover o crescimento"
+		intervals [204]:
+			xmin = 924.73019
+			xmax = 932.8386499999999
+			text = "se o status hoje entende seria de querer apenas a violência e e os programas de prêmios entende nós temos que fazê-los subir um degrau"
+		intervals [205]:
+			xmin = 932.8386499999999
+			xmax = 933.5085999999999
+			text = ""
+		intervals [206]:
+			xmin = 933.5085999999999
+			xmax = 946.1570300000001
+			text = "se no na no na no determinado horário que a televisão é mais procurada não existir o programa de violência ou de prêmios só existiria outro nível de programação a população irá aprendendo a a assistir esses programas"
+		intervals [207]:
+			xmin = 946.1570300000001
+			xmax = 948.4293399999999
+			text = "eu até poderia dar um exemplo curioso a vocês"
+		intervals [208]:
+			xmin = 948.4293399999999
+			xmax = 950.7803699999997
+			text = "eu em uma ocasião fiz uma viagem a mato grosso"
+		intervals [209]:
+			xmin = 950.7803699999997
+			xmax = 951.6313299999999
+			text = ""
+		intervals [210]:
+			xmin = 951.6313299999999
+			xmax = 967.75413
+			text = "e lá em mato grosso eu conversando com um um administrador de uma fazenda que trabalhava por lá eu notei que o homem era assim profundo conhecedor de de do de quem eram os ministros e de atos do governo e eu fui descobrir que ele ouvia a hora do brasil diariamente"
+		intervals [211]:
+			xmin = 967.75413
+			xmax = 970.5878300000002
+			text = "quer dizer quem podia imaginar que um cara lá fosse ouvir diariamente a hora do brasil"
+		intervals [212]:
+			xmin = 970.5878300000002
+			xmax = 972.9277799999998
+			text = "ele ouvia porque não tinha outra coisa para ouvir naquele horário"
+		intervals [213]:
+			xmin = 972.9277799999998
+			xmax = 973.30972
+			text = ""
+		intervals [214]:
+			xmin = 973.30972
+			xmax = 974.5070699999999
+			text = "então é a mesma coisa que eu digo"
+		intervals [215]:
+			xmin = 974.5070699999999
+			xmax = 977.9867000000002
+			text = "quer dizer a televisão na casa e o sujeito sem outro programa ele acaba assistindo"
+		intervals [216]:
+			xmin = 977.9867000000002
+			xmax = 978.4361699999997
+			text = ""
+		intervals [217]:
+			xmin = 978.4361699999997
+			xmax = 988.04384
+			text = "e se forem educativos os programas se forem programas realmente de de de acréscimo cultural ela tá estará cumprindo um papel que hoje é até desconhecido né"
+		intervals [218]:
+			xmin = 988.04384
+			xmax = 1002.9005100000002
+			text = "porque colocar uma televisão cultura canal dois como tem aqui em são paulo para concorrer numa faixa entende que vai de encontro a a esse estado atual de de massificação da população o resultado é que a televisão cultura não não consegue audiência realmente né"
+		intervals [219]:
+			xmin = 1002.9005100000002
+			xmax = 1004.4549399999999
+			text = ""
+		intervals [220]:
+			xmin = 1004.4549399999999
+			xmax = 1004.6793799999998
+			text = "claro"
+		intervals [221]:
+			xmin = 1004.6793799999998
+			xmax = 1005.2498600000001
+			text = ""
+		intervals [222]:
+			xmin = 1005.2498600000001
+			xmax = 1012.2360499999998
+			text = "então o senhor falou d do da importância do rádio né então se nós fizéssemos uma comparação rádio e televisão"
+		intervals [223]:
+			xmin = 1012.2360499999998
+			xmax = 1014.3434399999999
+			text = ""
+		intervals [224]:
+			xmin = 1014.3434399999999
+			xmax = 1022.0442299999997
+			text = "bom o eu tenho a impressão que o rádio provocou realmente uma revolução no país na medida que eh principalmente o rádio de pilha né"
+		intervals [225]:
+			xmin = 1022.0442299999997
+			xmax = 1022.71676
+			text = ""
+		intervals [226]:
+			xmin = 1022.71676
+			xmax = 1028.4158999999997
+			text = "quer dizer o rádio de pilha representou a quebra de um isolamento do homem do campo principalmente quer dizer"
+		intervals [227]:
+			xmin = 1028.4158999999997
+			xmax = 1039.7051599999998
+			text = "então o homem do campo que nunca teria condição de de de ouvir falar de outras coisas de outros lugares de outras pessoas entende através do rádio de pilha ele pôde se ligar ao resto do mundo"
+		intervals [228]:
+			xmin = 1039.7051599999998
+			xmax = 1044.28958
+			text = "saber que existem outros lugares outras pessoas que existe um governo que existem atos do governo"
+		intervals [229]:
+			xmin = 1044.28958
+			xmax = 1045.17116
+			text = ""
+		intervals [230]:
+			xmin = 1045.17116
+			xmax = 1058.11765
+			text = "de modo que o rádio eu acho que tem um papel até numa certa medida ele provocou pelo alcance que tem uma revolução até maior do que a televisão no que significou a quebra do isolamento entende de certas pessoas"
+		intervals [231]:
+			xmin = 1058.11765
+			xmax = 1062.75159
+			text = "a gente hoje vê o operário de obra com rádio de pilha debaixo do braço durante todo o tempo que ele está trabalhando"
+		intervals [232]:
+			xmin = 1062.75159
+			xmax = 1063.0352500000001
+			text = ""
+		intervals [233]:
+			xmin = 1063.0352500000001
+			xmax = 1082.7114599999998
+			text = "quer dizer se esse canal que é o rádio fosse usado da mesma forma como eu mencionei a televisão num sentido cultural educativo de boas músicas e de e numa linha realmente de crescimento do homem se o ministério da educação cuidasse realmente de que estes veículos de telecomunicações se colocassem a serviço da cultura e da educação seria uma beleza né"
+		intervals [234]:
+			xmin = 1082.7114599999998
+			xmax = 1085.4352999999999
+			text = ""
+		intervals [235]:
+			xmin = 1085.4352999999999
+			xmax = 1094.17651
+			text = "é realmente a gente tem que diferenciar o papel do rádio como um veículo de comunicação e o papel do rádio brasileiro onde em determinadas circunstâncias é um veículo de promoção comercial"
+		intervals [236]:
+			xmin = 1094.17651
+			xmax = 1094.75897
+			text = ""
+		intervals [237]:
+			xmin = 1094.75897
+			xmax = 1112.22299
+			text = "mas realmente quando ao lado desta possível promoção comercial que não se pretende absolutamente condenar ou expurgá-la se pretende ou se faz do rádio um veículo como o rui salientou muito bem de aculturação e de elevação do padrão cultural ele acaba sendo extremamente válido e desejável"
+		intervals [238]:
+			xmin = 1112.22299
+			xmax = 1120.98239
+			text = "inclusive o rádio oferece sobre todas as vantagens que o rui citou uma outra e que deixou também entrever assim nas entrelinhas do que disse"
+		intervals [239]:
+			xmin = 1120.98239
+			xmax = 1121.48242
+			text = ""
+		intervals [240]:
+			xmin = 1121.48242
+			xmax = 1125.2302499999998
+			text = "ah o rádio não prende o indivíduo a um determinado horário"
+		intervals [241]:
+			xmin = 1125.2302499999998
+			xmax = 1129.77267
+			text = "em qualquer atividade que o homem possa estar desempenhando o rádio pode acompanhá-lo"
+		intervals [242]:
+			xmin = 1129.77267
+			xmax = 1142.1269599999998
+			text = "então enquanto a televisão para o indivíduo que trabalha oito ou nove horas se constitui numa companhia de duas horas de três horas o rádio pode vir a ser uma companhia de muitas horas do dia todo não é"
+		intervals [243]:
+			xmin = 1142.1269599999998
+			xmax = 1142.37422
+			text = ""
+		intervals [244]:
+			xmin = 1142.37422
+			xmax = 1146.04634
+			text = "como também pelo seu próprio custo pelo custo de manutenção tudo isto"
+		intervals [245]:
+			xmin = 1146.04634
+			xmax = 1146.48145
+			text = ""
+		intervals [246]:
+			xmin = 1146.48145
+			xmax = 1152.4843600000002
+			text = "então eh eh as mesmas críticas que se fez à televisão em proporções talvez um pouco menores poderiam ser feitas ao rádio"
+		intervals [247]:
+			xmin = 1152.4843600000002
+			xmax = 1152.8503899999998
+			text = ""
+		intervals [248]:
+			xmin = 1152.8503899999998
+			xmax = 1174.54652
+			text = "no momento em que o rádio se desvincular daquela preocupação de vender e e da hora que ele se desvincular daquele ideal de fazer com que o indivíduo se qualifique pelo que ele tem mas passe a se preocupar em qualificar o indivíduo por aquilo que ele é o rádio estará realmente prestando um serviço muito grande à nação e ao indivíduo de maneira particular"
+		intervals [249]:
+			xmin = 1174.54652
+			xmax = 1177.7355999999997
+			text = ""
+		intervals [250]:
+			xmin = 1177.7355999999997
+			xmax = 1187.6778299999999
+			text = "muito bem eu acho que nós já tivemos ótimas apresentações sobre parte de de rádio televisão"
+		intervals [251]:
+			xmin = 1187.6778299999999
+			xmax = 1188.09903
+			text = ""
+		intervals [252]:
+			xmin = 1188.09903
+			xmax = 1193.0609200000001
+			text = "nós queríamos modificar um pouquinho agora a área falando um pouco sobre comunicação e difusão"
+		intervals [253]:
+			xmin = 1193.0609200000001
+			xmax = 1194.49673
+			text = ""
+		intervals [254]:
+			xmin = 1194.49673
+			xmax = 1197.4318
+			text = "então nós gostaríamos que o professor celso falasse sobre o problema de correio"
+		intervals [255]:
+			xmin = 1197.4318
+			xmax = 1200.0403399999998
+			text = ""
+		intervals [256]:
+			xmin = 1200.0403399999998
+			xmax = 1212.01263
+			text = "bom é eu não sei até que ponto eu posso responder em termos pessoais ou posso analisar assim como uma problemática eh nacional"
+		intervals [257]:
+			xmin = 1212.01263
+			xmax = 1213.2911299999998
+			text = ""
+		intervals [258]:
+			xmin = 1213.2911299999998
+			xmax = 1218.77485
+			text = "naquilo que me diz respeito eu não tenho grandes queixas a fazer ao correio"
+		intervals [259]:
+			xmin = 1218.77485
+			xmax = 1218.9752799999999
+			text = ""
+		intervals [260]:
+			xmin = 1218.9752799999999
+			xmax = 1219.3770699999998
+			text = "não"
+		intervals [261]:
+			xmin = 1219.3770699999998
+			xmax = 1219.5742400000001
+			text = ""
+		intervals [262]:
+			xmin = 1219.5742400000001
+			xmax = 1219.76401
+			text = "não"
+		intervals [263]:
+			xmin = 1219.76401
+			xmax = 1224.56177
+			text = "inclusive por uma questão de solidariedade à circunstância de ter sido carteiro"
+		intervals [264]:
+			xmin = 1224.56177
+			xmax = 1224.8959200000002
+			text = ""
+		intervals [265]:
+			xmin = 1224.8959200000002
+			xmax = 1232.53648
+			text = "de maneira que como ex-carteiro que sou eu estaria fazendo um autocrítica na medida em que estivesse criticando os correios"
+		intervals [266]:
+			xmin = 1232.53648
+			xmax = 1233.11262
+			text = ""
+		intervals [267]:
+			xmin = 1233.11262
+			xmax = 1236.0125799999998
+			text = "mas ah utilizo muito pouco do correio"
+		intervals [268]:
+			xmin = 1236.0125799999998
+			xmax = 1236.46311
+			text = ""
+		intervals [269]:
+			xmin = 1236.46311
+			xmax = 1248.1863999999998
+			text = "inclusive hoje em dia com o telefone permitindo as ligações direta os meus contatos com outros estados quando precisam ser feitos em termos de um interesse editorial são quase sem quase sempre feitos através do telefone"
+		intervals [270]:
+			xmin = 1248.1863999999998
+			xmax = 1248.99547
+			text = ""
+		intervals [271]:
+			xmin = 1248.99547
+			xmax = 1289.98492
+			text = "desta maneira o o correio tem sido para mim um fator eh de divulgar determinadas circulares determinadas mensagens os meus parentes vivem em ambientes alcançáveis facilmente pelo telefone então aquela correspondência domiciliar aquela correspondência sentimental não se desenvolve com grande intensidade de maneira que se eu fosse fazer um depoimento em termos pessoais sobre a minha impressão dos correios ela não seria muito negativa e diria mais eh em função daquilo que o correio tem feito ultimamente com a modernização eu teria até que reformular algumas críticas que anteriormente pudessem ser feitas"
+		intervals [272]:
+			xmin = 1289.98492
+			xmax = 1290.62425
+			text = ""
+		intervals [273]:
+			xmin = 1290.62425
+			xmax = 1298.82979
+			text = "agora tenho ouvido de outras pessoas em outros locais eh queixas assim extremamente ácidas sobre o correio e sobre a sua forma de atuação"
+		intervals [274]:
+			xmin = 1298.82979
+			xmax = 1299.75483
+			text = ""
+		intervals [275]:
+			xmin = 1299.75483
+			xmax = 1304.90302
+			text = "não poderia por uma questão de honestidade endossá-las sem ter sentido esta problemática"
+		intervals [276]:
+			xmin = 1304.90302
+			xmax = 1306.1773500000002
+			text = ""

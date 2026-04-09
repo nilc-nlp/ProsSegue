@@ -1,0 +1,1126 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 1266.1339500000004
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "All TBs-normal"
+		xmin = 0.0
+		xmax = 1266.1339500000004
+		intervals: size = 278
+		intervals [1]:
+			xmin = 0.0
+			xmax = 2.558440000000246
+			text = "é a minha posição coincide também com a do celso não é"
+		intervals [2]:
+			xmin = 2.558440000000246
+			xmax = 4.904870000000301
+			text = "que nós temos também mais um ponto em comum"
+		intervals [3]:
+			xmin = 4.904870000000301
+			xmax = 17.89838000000009
+			text = "porque realmente eu não não só me utilizo pouco mas das poucas vezes que me utilizo me sinto bem atendido e não teria assim uma crítica específica a fazer ao correio nesse momento"
+		intervals [4]:
+			xmin = 17.89838000000009
+			xmax = 40.45625999999993
+			text = "eu acho que essa transformação que o governo emprestou ao correio transformando numa empresa eh parece que hoje é uma sociedade até de economia mista não sei um uma empresa eu não sei exatamente qual é a estrutura jurídica mas o fato é que houve uma reformulação no sistema de correios eh e nessa reformulação a minha impressão é de que houve uma melhora"
+		intervals [5]:
+			xmin = 40.45625999999993
+			xmax = 40.91693000000032
+			text = ""
+		intervals [6]:
+			xmin = 40.91693000000032
+			xmax = 47.1550000000002
+			text = "até mesmo essas críticas de terceiros que a gente sempre ouvia dizer que a carta não chega e tal hoje em dia parece que chega"
+		intervals [7]:
+			xmin = 47.1550000000002
+			xmax = 47.84483
+			text = ""
+		intervals [8]:
+			xmin = 47.84483
+			xmax = 49.056910000000244
+			text = "pelo menos é a minha impressão né"
+		intervals [9]:
+			xmin = 49.056910000000244
+			xmax = 51.619970000000194
+			text = ""
+		intervals [10]:
+			xmin = 51.619970000000194
+			xmax = 57.59297000000015
+			text = "eu acredito que o correio foi durante muito tempo aquilo que os antigos chamavam cavalo de batalha"
+		intervals [11]:
+			xmin = 57.59297000000015
+			xmax = 58.31472000000031
+			text = ""
+		intervals [12]:
+			xmin = 58.31472000000031
+			xmax = 64.16009000000031
+			text = "as críticas que se faziam ao correio eram uma forma de autodefesa para determinadas omissões de caráter pessoal"
+		intervals [13]:
+			xmin = 64.16009000000031
+			xmax = 64.77262000000019
+			text = ""
+		intervals [14]:
+			xmin = 64.77262000000019
+			xmax = 73.76821999999993
+			text = "eu mesmo não quero dizer que nunca tenha me valido da acusação contra o correio para justificar o esquecimento de uma correspondência prometida ou de qualquer coisa assim"
+		intervals [15]:
+			xmin = 73.76821999999993
+			xmax = 74.25800000000027
+			text = ""
+		intervals [16]:
+			xmin = 74.25800000000027
+			xmax = 78.00406999999996
+			text = "e suponho que isto deve ter sido usado em larga escala por muitas pessoas"
+		intervals [17]:
+			xmin = 78.00406999999996
+			xmax = 78.59127000000035
+			text = ""
+		intervals [18]:
+			xmin = 78.59127000000035
+			xmax = 89.2506800000001
+			text = "de maneira que se a gente quiser fazer justiça realmente aos correios há que se reabilitar esta imagem criada muitas vezes em função até de uma autodesculpa"
+		intervals [19]:
+			xmin = 89.2506800000001
+			xmax = 99.75264000000016
+			text = "e até o próprio correio tem se utilizado deste tipo de propaganda para mostrar que muitas vezes as cartas não chegam pelas simples razões de que nem sequer foram escritas não é"
+		intervals [20]:
+			xmin = 99.75264000000016
+			xmax = 104.23192000000017
+			text = "e portanto não poderiam realmente ter sido criadas pelo departamento dos correios"
+		intervals [21]:
+			xmin = 104.23192000000017
+			xmax = 104.65401999999995
+			text = ""
+		intervals [22]:
+			xmin = 104.65401999999995
+			xmax = 116.33057000000008
+			text = "não sei talvez outros possam ter outras críticas mas aqui em são paulo no no pouco que fui solicitado e no pouco que solicitei aos correios fui atendido de maneira extremamente razoável"
+		intervals [23]:
+			xmin = 116.33057000000008
+			xmax = 116.63347000000022
+			text = ""
+		intervals [24]:
+			xmin = 116.63347000000022
+			xmax = 135.08808
+			text = "inclusive ma de forma assim um pouco sentimental ele pagou os meus estudos né como empregado que fui do departamento de correios e telégrafos e naquela ocasião ah a gente podia se queixar de uma desorganização de algumas injustiças mesmo mas não assim de uma clara inidoneidade da empresa"
+		intervals [25]:
+			xmin = 135.08808
+			xmax = 151.6529300000002
+			text = "é claro que encontrei carteiros agentes postais inidôneos como hoje em dia encontro professores médicos advogados eh militares civis enfim em todas as categorias indivíduos de uma certa idoneidade mas não assim capaz de poder generalizar a crítica"
+		intervals [26]:
+			xmin = 151.6529300000002
+			xmax = 153.25892000000022
+			text = ""
+		intervals [27]:
+			xmin = 153.25892000000022
+			xmax = 156.12616000000025
+			text = "e o telefone o senhor já teve algum problema numa chamada"
+		intervals [28]:
+			xmin = 156.12616000000025
+			xmax = 157.80933000000005
+			text = ""
+		intervals [29]:
+			xmin = 157.80933000000005
+			xmax = 160.1853900000001
+			text = "poucas vezes não tive problemas em chamadas"
+		intervals [30]:
+			xmin = 160.1853900000001
+			xmax = 161.3031900000001
+			text = "poucas vezes realmente"
+		intervals [31]:
+			xmin = 161.3031900000001
+			xmax = 161.64381000000003
+			text = ""
+		intervals [32]:
+			xmin = 161.64381000000003
+			xmax = 168.95910000000003
+			text = "eh me considero até um indivíduo que encara como tarefa desagradável a incumbência de se comunicar por telefone"
+		intervals [33]:
+			xmin = 168.95910000000003
+			xmax = 169.60278000000017
+			text = ""
+		intervals [34]:
+			xmin = 169.60278000000017
+			xmax = 172.51906000000008
+			text = "considero eh tarefa desagradável"
+		intervals [35]:
+			xmin = 172.51906000000008
+			xmax = 175.2705100000003
+			text = "muitas vezes ah isto não ocorre"
+		intervals [36]:
+			xmin = 175.2705100000003
+			xmax = 178.93157999999994
+			text = "a ligação é fácil é imediata o telefone me presta serviços imensos"
+		intervals [37]:
+			xmin = 178.93157999999994
+			xmax = 179.57805000000008
+			text = ""
+		intervals [38]:
+			xmin = 179.57805000000008
+			xmax = 189.14332000000013
+			text = "mas eh quando na minha agenda para as atividades do dia vejo ah uma série de ligações telefônicas aquilo não é encarado assim como algo muito agradável não"
+		intervals [39]:
+			xmin = 189.14332000000013
+			xmax = 189.42680000000018
+			text = ""
+		intervals [40]:
+			xmin = 189.42680000000018
+			xmax = 203.58749000000034
+			text = "porque da maior parte das vezes ou que pelo menos grande parte das vezes essas ligações ocorrem com muitas dificuldades se bem que aqui no caso eu deva colocar a limitação de tempo que disponho para esse tipo de contato como sendo um dos empecilhos maiores"
+		intervals [41]:
+			xmin = 203.58749000000034
+			xmax = 203.81158000000005
+			text = ""
+		intervals [42]:
+			xmin = 203.81158000000005
+			xmax = 209.9028400000002
+			text = "tivesse eu o dia todo ao meu dispor talvez aquela ligação que não saia naquele momento pudesse sair em outros momentos"
+		intervals [43]:
+			xmin = 209.9028400000002
+			xmax = 210.55207999999993
+			text = ""
+		intervals [44]:
+			xmin = 210.55207999999993
+			xmax = 213.54044999999996
+			text = "mas é esta a minha impressão não sei como é que o rui telefona"
+		intervals [45]:
+			xmin = 213.54044999999996
+			xmax = 214.4716900000003
+			text = ""
+		intervals [46]:
+			xmin = 214.4716900000003
+			xmax = 221.25109999999995
+			text = "eu estou brigado com o telefone porque eu estou há um ano que eu me mudei e até agora não consegui a transferência do telefone para a minha casa"
+		intervals [47]:
+			xmin = 221.25109999999995
+			xmax = 221.88103
+			text = ""
+		intervals [48]:
+			xmin = 221.88103
+			xmax = 230.78699000000006
+			text = "já me prometeram para maio para julho para agosto agora está prometido para março mas até o momento eu não consegui a transferência do telefone"
+		intervals [49]:
+			xmin = 230.78699000000006
+			xmax = 231.3724900000002
+			text = ""
+		intervals [50]:
+			xmin = 231.3724900000002
+			xmax = 238.77917000000025
+			text = "de modo que ando eu assim de relações cortadas com a telesp enquanto ela não instalar o o telefone na na minha casa"
+		intervals [51]:
+			xmin = 238.77917000000025
+			xmax = 239.22945000000027
+			text = ""
+		intervals [52]:
+			xmin = 239.22945000000027
+			xmax = 248.6163200000001
+			text = "fora isso eu tenho tido alguns problemas assim de de realmente eh dificuldade em algumas ligações e isso que o celso disse também é verdade"
+		intervals [53]:
+			xmin = 248.6163200000001
+			xmax = 254.24271
+			text = "quer dizer não nem sempre é uma coisa agradável a a a busca de um contato por telefone né"
+		intervals [54]:
+			xmin = 254.24271
+			xmax = 257.59846000000016
+			text = "com frequência não se consegue linha não se consegue ligar et cetera"
+		intervals [55]:
+			xmin = 257.59846000000016
+			xmax = 259.13030000000026
+			text = ""
+		intervals [56]:
+			xmin = 259.13030000000026
+			xmax = 264.8675400000002
+			text = "agora o senhor se utiliza ah não tem telefone em casa o senhor se utiliza de um telefone assim da rua não"
+		intervals [57]:
+			xmin = 264.8675400000002
+			xmax = 266.43066
+			text = ""
+		intervals [58]:
+			xmin = 266.43066
+			xmax = 266.84648000000016
+			text = "é raro"
+		intervals [59]:
+			xmin = 266.84648000000016
+			xmax = 269.01021000000037
+			text = "porque o c onde eu trabalho geralmente tem telefone"
+		intervals [60]:
+			xmin = 269.01021000000037
+			xmax = 277.7733000000003
+			text = "de modo que ou aqui da escola ou da outra escola ou do sindicato onde eu sou advogado enfim o lugar onde eu estou trabalhando eu normalmente me utilizo desse telefone"
+		intervals [61]:
+			xmin = 277.7733000000003
+			xmax = 279.90797999999995
+			text = "ou então da casa de uma irmã que mora próximo entende"
+		intervals [62]:
+			xmin = 279.90797999999995
+			xmax = 280.56982000000016
+			text = ""
+		intervals [63]:
+			xmin = 280.56982000000016
+			xmax = 282.29232
+			text = "eh o telefone público é mais raro"
+		intervals [64]:
+			xmin = 282.29232
+			xmax = 287.8904500000003
+			text = ""
+		intervals [65]:
+			xmin = 287.8904500000003
+			xmax = 295.46500000000015
+			text = "com respeito ao telefone me diga gostaria que o senhor colocasse o significado vamos dizer do telefone para as comunicações"
+		intervals [66]:
+			xmin = 295.46500000000015
+			xmax = 299.4722200000001
+			text = "em tese o senhor já colocou mas eu gostaria que o senhor eh amiudasse um pouco"
+		intervals [67]:
+			xmin = 299.4722200000001
+			xmax = 301.49323000000004
+			text = ""
+		intervals [68]:
+			xmin = 301.49323000000004
+			xmax = 306.7966799999999
+			text = "é sem dúvida o telefone representa assim um fator de integração como a como o rádio e a televisão"
+		intervals [69]:
+			xmin = 306.7966799999999
+			xmax = 307.3809100000003
+			text = ""
+		intervals [70]:
+			xmin = 307.3809100000003
+			xmax = 314.45649000000003
+			text = "o telefone tem o condão assim de aproximar as pessoas permitir uma ma melhor informação para se debater um assunto"
+		intervals [71]:
+			xmin = 314.45649000000003
+			xmax = 333.5771400000003
+			text = "na hora que o telefone se transformar num instrumento assim de fácil utilização e que todos possam ter o seu telefone realmente eu num determinado momento posso dispor de muito mais informações e posso integrar muito mais pessoas dentro de um projeto do que eu faço sem ter a mão um telefone"
+		intervals [72]:
+			xmin = 333.5771400000003
+			xmax = 334.09010000000035
+			text = ""
+		intervals [73]:
+			xmin = 334.09010000000035
+			xmax = 355.70676000000003
+			text = "quer dizer se eu na hora de tomar uma decisão puder realmente em dez minutos me comunicar com duas com três com quatro pessoas até de fora do estado para colher um dado uma informação então o telefone estaria cumprindo um espetacular papel assim né de tornar muito mais eficiente uma decisão a par a integração duma pessoa num projeto a convocação mesmo de uma pessoa entende"
+		intervals [74]:
+			xmin = 355.70676000000003
+			xmax = 355.90394000000015
+			text = ""
+		intervals [75]:
+			xmin = 355.90394000000015
+			xmax = 360.6275700000001
+			text = "quer dizer então o o papel que ele poderá ter quer dizer em potencial é um papel extraordinário"
+		intervals [76]:
+			xmin = 360.6275700000001
+			xmax = 360.97667
+			text = ""
+		intervals [77]:
+			xmin = 360.97667
+			xmax = 366.84451000000035
+			text = "na hora que se tornar uma realidade a a extensão a todos e o funcionamento perfeito né"
+		intervals [78]:
+			xmin = 366.84451000000035
+			xmax = 369.14939000000004
+			text = ""
+		intervals [79]:
+			xmin = 369.14939000000004
+			xmax = 371.7984799999999
+			text = "e a importância do telégrafo nesse caso"
+		intervals [80]:
+			xmin = 371.7984799999999
+			xmax = 373.30647
+			text = ""
+		intervals [81]:
+			xmin = 373.30647
+			xmax = 385.1789200000003
+			text = "bom o telégrafo seria um papel semelhante ao do telefone apenas eu entendo que na hora que o telefone chegar a esse ideal que eu coloquei o telégrafo vai até perdendo a sua importância não é"
+		intervals [82]:
+			xmin = 385.1789200000003
+			xmax = 385.76359
+			text = ""
+		intervals [83]:
+			xmin = 385.76359
+			xmax = 397.92184
+			text = "porque veja se eu posso discar e falar pessoalmente com a pessoa e isso em poucos instantes através de um dê dê dê através de um um telefonema internacional o telegrama perde importância"
+		intervals [84]:
+			xmin = 397.92184
+			xmax = 398.3964500000002
+			text = ""
+		intervals [85]:
+			xmin = 398.3964500000002
+			xmax = 404.1851300000003
+			text = "quer dizer a importância do telegrama virá se reduzindo quanto mais eu puder falar diretamente com a pessoa"
+		intervals [86]:
+			xmin = 404.1851300000003
+			xmax = 407.21590000000015
+			text = "dizem até que vai haver um sistema agora de você ligar e ver a cara da pessoa"
+		intervals [87]:
+			xmin = 407.21590000000015
+			xmax = 411.44579999999996
+			text = "então ainda é melhor porque você vê até a reação da pessoa né na hora que você está falando"
+		intervals [88]:
+			xmin = 411.44579999999996
+			xmax = 411.83113000000003
+			text = ""
+		intervals [89]:
+			xmin = 411.83113000000003
+			xmax = 419.9842800000001
+			text = "de modo que eu a minha impressão assim em termos de futuro é que o telegrama vai ficar assim substituindo certas cartas"
+		intervals [90]:
+			xmin = 419.9842800000001
+			xmax = 422.8213800000003
+			text = "quer dizer o a até hoje já se usa muito o tal telegrama noturno né"
+		intervals [91]:
+			xmin = 422.8213800000003
+			xmax = 423.25099
+			text = ""
+		intervals [92]:
+			xmin = 423.25099
+			xmax = 427.7934
+			text = "em que o sujeito f faz assim com um preço barato manda dizer muita coisa num telegrama noturno"
+		intervals [93]:
+			xmin = 427.7934
+			xmax = 430.7826
+			text = "então transforma-se numa carta que chega logo não é"
+		intervals [94]:
+			xmin = 430.7826
+			xmax = 431.5475700000002
+			text = ""
+		intervals [95]:
+			xmin = 431.5475700000002
+			xmax = 433.53799000000026
+			text = "esse ainda será bem utilizado"
+		intervals [96]:
+			xmin = 433.53799000000026
+			xmax = 437.77538000000004
+			text = "mas o telegrama comum vai perder toda a sua importância diante do telefone né"
+		intervals [97]:
+			xmin = 437.77538000000004
+			xmax = 444.9538200000002
+			text = ""
+		intervals [98]:
+			xmin = 444.9538200000002
+			xmax = 453.29980000000023
+			text = "então então agora nós vamos mexer aqui num assunto que parece ser um pouco mais amplo"
+		intervals [99]:
+			xmin = 453.29980000000023
+			xmax = 454.46397000000024
+			text = "o problema da imprensa"
+		intervals [100]:
+			xmin = 454.46397000000024
+			xmax = 456.51395
+			text = ""
+		intervals [101]:
+			xmin = 456.51395
+			xmax = 462.48984999999993
+			text = "professor rui quer falar sobre a imprensa ou dá primazia aqui ao professor celso"
+		intervals [102]:
+			xmin = 462.48984999999993
+			xmax = 464.25901999999996
+			text = ""
+		intervals [103]:
+			xmin = 464.25901999999996
+			xmax = 472.6996400000003
+			text = "bom o rui já ao se apresentar no início da palestra já se definiu como um antigo jornalista ou pelo menos alguém que tinha trabalho nos jornais"
+		intervals [104]:
+			xmin = 472.6996400000003
+			xmax = 477.9965500000003
+			text = "de maneira que a impressão do rui acabará sendo muito mais profunda daí se justificar essa prioridade"
+		intervals [105]:
+			xmin = 477.9965500000003
+			xmax = 480.42377000000033
+			text = "eu tenho muito menos a dizer digo em primeiro lugar"
+		intervals [106]:
+			xmin = 480.42377000000033
+			xmax = 481.2745500000001
+			text = ""
+		intervals [107]:
+			xmin = 481.2745500000001
+			xmax = 488.4453800000001
+			text = "eh acredito que a imprensa é apenas mais um meio de comunicação"
+		intervals [108]:
+			xmin = 488.4453800000001
+			xmax = 488.9019800000001
+			text = ""
+		intervals [109]:
+			xmin = 488.9019800000001
+			xmax = 491.3242500000001
+			text = "juntamente com os meios modernos que naturalmente existem"
+		intervals [110]:
+			xmin = 491.3242500000001
+			xmax = 492.2203400000003
+			text = ""
+		intervals [111]:
+			xmin = 492.2203400000003
+			xmax = 506.9301800000003
+			text = "e acredito que tudo quanto foi dito com respeito à televisão foi dito com respeito ao correio foi dito com respeito ao rádio e quem sabe até mesmo ao cinema numa dimensão diferente que é a dimensão em que a imprensa chega o mesmo pode ser dito da própria imprensa"
+		intervals [112]:
+			xmin = 506.9301800000003
+			xmax = 522.5818800000002
+			text = "suponho suponho que talvez pela sua maior antiguidade no brasil a imprensa escrita já chegou a essa sofisticação de oferecer eh veículos diferentes a públicos diferentes que a televisão ainda não pôde oferecer"
+		intervals [113]:
+			xmin = 522.5818800000002
+			xmax = 522.9788000000003
+			text = ""
+		intervals [114]:
+			xmin = 522.9788000000003
+			xmax = 527.6053300000003
+			text = "e que nessas condições ela se torna muito mais seletiva e muito mais aproveitável"
+		intervals [115]:
+			xmin = 527.6053300000003
+			xmax = 528.1441300000001
+			text = ""
+		intervals [116]:
+			xmin = 528.1441300000001
+			xmax = 539.91867
+			text = "é óbvio que assim como falando-se apenas em termos de são paulo notícias populares com o seu sensacionalismo tem o seu público o jornal da tarde também tem o seu público dentro de uma outra linha"
+		intervals [117]:
+			xmin = 539.91867
+			xmax = 540.22739
+			text = ""
+		intervals [118]:
+			xmin = 540.22739
+			xmax = 546.0549000000001
+			text = "então neste aspecto a imprensa escrita já chegou a este ramo de sofisticação"
+		intervals [119]:
+			xmin = 546.0549000000001
+			xmax = 546.31052
+			text = ""
+		intervals [120]:
+			xmin = 546.31052
+			xmax = 547.78523
+			text = "a este ideal de sofisticação"
+		intervals [121]:
+			xmin = 547.78523
+			xmax = 548.1676700000003
+			text = ""
+		intervals [122]:
+			xmin = 548.1676700000003
+			xmax = 551.8906900000002
+			text = "que pode fazer com que o público venha a optar por este por aquele órgão"
+		intervals [123]:
+			xmin = 551.8906900000002
+			xmax = 552.33646
+			text = ""
+		intervals [124]:
+			xmin = 552.33646
+			xmax = 571.92184
+			text = "dos papéis a que a imprensa realmente pôde assumir para desempenhar a sua missão da do valor da imprensa como veículo de formação na preparação cultural eh acredito não ser necessário dizer porque ela nada mais é do que um outro meio de comunicação também importante como os outros citados"
+		intervals [125]:
+			xmin = 571.92184
+			xmax = 572.2794600000002
+			text = ""
+		intervals [126]:
+			xmin = 572.2794600000002
+			xmax = 576.3186300000002
+			text = "mas o rui como quem trabalhou em jornal tem muito mais experiência"
+		intervals [127]:
+			xmin = 576.3186300000002
+			xmax = 580.752
+			text = ""
+		intervals [128]:
+			xmin = 580.752
+			xmax = 590.0923700000003
+			text = "bom eu tenho a impressão o seguinte eu eu não sou propriamente jornalista porque não tenho formação específica de jornalista"
+		intervals [129]:
+			xmin = 590.0923700000003
+			xmax = 594.1643000000004
+			text = "meu trabalho em jornal é na linha assim de algumas coisas que a gente acredita"
+		intervals [130]:
+			xmin = 594.1643000000004
+			xmax = 594.4952200000002
+			text = ""
+		intervals [131]:
+			xmin = 594.4952200000002
+			xmax = 596.5001000000002
+			text = "até hoje eu permaneço escrevendo em jornal"
+		intervals [132]:
+			xmin = 596.5001000000002
+			xmax = 597.78631
+			text = ""
+		intervals [133]:
+			xmin = 597.78631
+			xmax = 609.9836100000002
+			text = "em jornal da arquidiocese e a minha linha de jornalismo é uma linha assim de levar uma mensagem das coisas que a gente acredita tentar assim refletir os acontecimentos de hoje numa linha de valor"
+		intervals [134]:
+			xmin = 609.9836100000002
+			xmax = 610.65407
+			text = ""
+		intervals [135]:
+			xmin = 610.65407
+			xmax = 616.9065300000002
+			text = "então mostrar que qualquer acontecimento a pessoa sempre tem uma participação dentro dele"
+		intervals [136]:
+			xmin = 616.9065300000002
+			xmax = 621.8708200000001
+			text = "quer dizer as coisas não acontecem sem que direta ou indiretamente a gente tome uma posição"
+		intervals [137]:
+			xmin = 621.8708200000001
+			xmax = 622.4598900000001
+			text = ""
+		intervals [138]:
+			xmin = 622.4598900000001
+			xmax = 625.7298500000002
+			text = "até mesmo não ter uma opinião sobre um determinado assunto é uma posição"
+		intervals [139]:
+			xmin = 625.7298500000002
+			xmax = 626.5707500000003
+			text = ""
+		intervals [140]:
+			xmin = 626.5707500000003
+			xmax = 631.4336700000003
+			text = "porque as coisas acontecem exatamente por força às vezes dessa maioria silenciosa"
+		intervals [141]:
+			xmin = 631.4336700000003
+			xmax = 632.0946800000002
+			text = ""
+		intervals [142]:
+			xmin = 632.0946800000002
+			xmax = 638.0473999999999
+			text = "quer dizer então não ter um ponto de vista sobre um determinado assunto hoje é ter um ponto de vista às vezes até perigoso"
+		intervals [143]:
+			xmin = 638.0473999999999
+			xmax = 639.02171
+			text = ""
+		intervals [144]:
+			xmin = 639.02171
+			xmax = 641.1445200000003
+			text = "porque o seu silêncio é comprometedor"
+		intervals [145]:
+			xmin = 641.1445200000003
+			xmax = 641.6166200000002
+			text = ""
+		intervals [146]:
+			xmin = 641.6166200000002
+			xmax = 650.9858600000002
+			text = "então eu vejo a imprensa como sendo assim o grande instrumento de colocar as pessoas assim num nível de participação de tudo que ocorre de tudo que acontece"
+		intervals [147]:
+			xmin = 650.9858600000002
+			xmax = 651.5064900000002
+			text = ""
+		intervals [148]:
+			xmin = 651.5064900000002
+			xmax = 658.9927299999999
+			text = "e se possível eh deve sempre haver assim um dado de valor na colocação dos temas na abordagem das coisas né"
+		intervals [149]:
+			xmin = 658.9927299999999
+			xmax = 661.1748000000002
+			text = "que minha linha de trabalho em jornal sempre foi assim"
+		intervals [150]:
+			xmin = 661.1748000000002
+			xmax = 661.91471
+			text = ""
+		intervals [151]:
+			xmin = 661.91471
+			xmax = 674.8060399999999
+			text = "eu acho até que quando o celso mencionou a existência de notícias populares assim como eu me referi à televisão e aos programas de sílvio santos me parece uma lástima existir um jornal do nível de notícias populares"
+		intervals [152]:
+			xmin = 674.8060399999999
+			xmax = 675.3354300000001
+			text = ""
+		intervals [153]:
+			xmin = 675.3354300000001
+			xmax = 682.7334100000003
+			text = "eu acho até que o sujeito entra para o mobral aprende a ler para depois ler notícias populares antes não tivesse feito mobral"
+		intervals [154]:
+			xmin = 682.7334100000003
+			xmax = 683.38654
+			text = ""
+		intervals [155]:
+			xmin = 683.38654
+			xmax = 711.9773700000001
+			text = "porque representa na minha opinião uma deformação entende representa assim o agravamento de um estado assim de marginalização da pessoa ela seria inserida naquele mundo dos crimes entende naquele mundo de violência e sexo que é desenvolvido por um jornal como o notícias populares e e numa total ausência entende de integração dentro dos grandes problemas da sociedade dos grandes valores entende"
+		intervals [156]:
+			xmin = 711.9773700000001
+			xmax = 717.7962299999999
+			text = "quer dizer ele entra assim numa numa linha m marginal que poderá levá-lo até mesmo à criminalidade"
+		intervals [157]:
+			xmin = 717.7962299999999
+			xmax = 718.49046
+			text = ""
+		intervals [158]:
+			xmin = 718.49046
+			xmax = 736.2377200000001
+			text = "quer dizer ele poderá entrar numa linha de de integração vamos dizer n dentro da violência dentro da ah que em vez de formálo em vez de trazê-lo para a comunhão na sociedade o desvia disso"
+		intervals [159]:
+			xmin = 736.2377200000001
+			xmax = 736.9769200000001
+			text = ""
+		intervals [160]:
+			xmin = 736.9769200000001
+			xmax = 745.61114
+			text = "então o esforço de alfabetização me parece que deve estar muito ligado a um esforço assim de uma boa imprensa"
+		intervals [161]:
+			xmin = 745.61114
+			xmax = 746.3855200000003
+			text = ""
+		intervals [162]:
+			xmin = 746.3855200000003
+			xmax = 757.9783600000001
+			text = "se o governo realmente não cuidar não se trata de censura aqui mas trata-se assim de linhas entende linhas de atuação da impren definir bem o papel da imprensa o papel da informação"
+		intervals [163]:
+			xmin = 757.9783600000001
+			xmax = 758.4752700000004
+			text = ""
+		intervals [164]:
+			xmin = 758.4752700000004
+			xmax = 765.0163500000003
+			text = "quer dizer um jornal nunca poderia enfatizar informações marginais em detrimento das grandes informações"
+		intervals [165]:
+			xmin = 765.0163500000003
+			xmax = 768.4013600000003
+			text = "quer dizer então o jornal tinha que obedecer certas prioridades de informação"
+		intervals [166]:
+			xmin = 768.4013600000003
+			xmax = 769.29358
+			text = ""
+		intervals [167]:
+			xmin = 769.29358
+			xmax = 775.2989299999999
+			text = "me parece que colocar em manchete que o padeiro assassinou a amante para vender o jornal é uma deformação"
+		intervals [168]:
+			xmin = 775.2989299999999
+			xmax = 776.03449
+			text = ""
+		intervals [169]:
+			xmin = 776.03449
+			xmax = 778.45471
+			text = "quer dizer representa até uma subversão de valores"
+		intervals [170]:
+			xmin = 778.45471
+			xmax = 780.0453400000001
+			text = "essa é a verdadeira subversão né"
+		intervals [171]:
+			xmin = 780.0453400000001
+			xmax = 780.9010400000002
+			text = ""
+		intervals [172]:
+			xmin = 780.9010400000002
+			xmax = 786.94659
+			text = "que subverte os valores e o sujeito não consegue hierarquizar o que é importante no país do que é menos importante"
+		intervals [173]:
+			xmin = 786.94659
+			xmax = 787.2640800000004
+			text = ""
+		intervals [174]:
+			xmin = 787.2640800000004
+			xmax = 788.4555100000002
+			text = "essa é a minha visão do brasil"
+		intervals [175]:
+			xmin = 788.4555100000002
+			xmax = 788.99604
+			text = ""
+		intervals [176]:
+			xmin = 788.99604
+			xmax = 791.37696
+			text = "agora aqui no colégio existe algum jornal"
+		intervals [177]:
+			xmin = 791.37696
+			xmax = 792.1139499999999
+			text = ""
+		intervals [178]:
+			xmin = 792.1139499999999
+			xmax = 793.3218300000003
+			text = "jornal dos estudantes"
+		intervals [179]:
+			xmin = 793.3218300000003
+			xmax = 794.1277600000003
+			text = ""
+		intervals [180]:
+			xmin = 794.1277600000003
+			xmax = 794.9560700000002
+			text = "existe professor"
+		intervals [181]:
+			xmin = 794.9560700000002
+			xmax = 796.9178400000001
+			text = ""
+		intervals [182]:
+			xmin = 796.9178400000001
+			xmax = 807.3070600000001
+			text = "várias tentativas foram feitas eh para que este jornal de estudantes fora instituídos e nós fomos assim obrigados a pisar sobre vários cadáveres de ex-jornais"
+		intervals [183]:
+			xmin = 807.3070600000001
+			xmax = 807.7950000000001
+			text = ""
+		intervals [184]:
+			xmin = 807.7950000000001
+			xmax = 816.9356700000003
+			text = "desde publicações murais mais sistemáticas até publicações realmente impressas até algumas com alguma riqueza assim de detalhes"
+		intervals [185]:
+			xmin = 816.9356700000003
+			xmax = 817.71839
+			text = ""
+		intervals [186]:
+			xmin = 817.71839
+			xmax = 823.10869
+			text = "mas o o ciclo colegial é um ciclo marcado assim por uma rapidez muito grande"
+		intervals [187]:
+			xmin = 823.10869
+			xmax = 823.6033000000002
+			text = ""
+		intervals [188]:
+			xmin = 823.6033000000002
+			xmax = 830.9621700000002
+			text = "aluna entra no primeiro ano naturalmente com aqueles problemas que caracterizam a sua adaptação e no terceiro ano ela já está preocupada com aquele exame vestibular que fará"
+		intervals [189]:
+			xmin = 830.9621700000002
+			xmax = 831.4290599999999
+			text = ""
+		intervals [190]:
+			xmin = 831.4290599999999
+			xmax = 848.2941100000003
+			text = "de maneira que o ano em que realmente a aluna nos é assim eh mais profícua em realizações desprendidas é o segundo ano quando ela já superou aquela fase de adaptação e quando ela ainda não está eventualmente preocupada com aquela angústia do que virá a fazer ao terminar o curso"
+		intervals [191]:
+			xmin = 848.2941100000003
+			xmax = 848.8773800000004
+			text = ""
+		intervals [192]:
+			xmin = 848.8773800000004
+			xmax = 857.5177000000003
+			text = "e nestas circunstâncias como o colégio é um colégio pequeno o os jornais não tem assim ah sido muito bem sucedidos"
+		intervals [193]:
+			xmin = 857.5177000000003
+			xmax = 874.9162900000001
+			text = "mas de qualquer maneira eu creio que uma das explicações que se possa dar a esta falha no sentido do jornal não ter o seu órgão oficial de divulgação pelo menos do pensamento das alunas é a notável liberdade de expressão que essas alunas dispõem através da própria aula"
+		intervals [194]:
+			xmin = 874.9162900000001
+			xmax = 875.3341700000001
+			text = ""
+		intervals [195]:
+			xmin = 875.3341700000001
+			xmax = 882.4449100000002
+			text = "então nessas circunstâncias eh a própria aluna dispõe de recursos e de meios notáveis de apresentação"
+		intervals [196]:
+			xmin = 882.4449100000002
+			xmax = 882.7390600000003
+			text = ""
+		intervals [197]:
+			xmin = 882.7390600000003
+			xmax = 888.53433
+			text = "quer pela teatralização quer por técnicas de trabalho onde realmente a exposição deve ser feita"
+		intervals [198]:
+			xmin = 888.53433
+			xmax = 889.1968300000003
+			text = ""
+		intervals [199]:
+			xmin = 889.1968300000003
+			xmax = 900.8451800000003
+			text = "e eu sinto então que aquele vazio de ter algo a dizer de ter alguma coisa a criar é preenchido com outras formas de comunicação que não especificamente o jornal"
+		intervals [200]:
+			xmin = 900.8451800000003
+			xmax = 926.8189500000003
+			text = "creio mesmo que o jornal poderia correr o risco de cair num certo vazio justamente porque a poesia que a aluna faz a carta que ela gostaria de ler para as colegas em voz alta a representação teatral que coloca a sua posição diante de um drama social qualquer é desenvolvido através das várias aulas e através das várias técnicas inclusive das aulas do rui e das minhas também em escala menor"
+		intervals [201]:
+			xmin = 926.8189500000003
+			xmax = 927.17434
+			text = ""
+		intervals [202]:
+			xmin = 927.17434
+			xmax = 942.04115
+			text = "então nestas condições a ausência do jornal embora não possa ser inteiramente justificável ela é parcialmente explicável por este por esta falta de alguma coisa de mais concreto que não possa ser dito de umas outras maneiras"
+		intervals [203]:
+			xmin = 942.04115
+			xmax = 942.35376
+			text = ""
+		intervals [204]:
+			xmin = 942.35376
+			xmax = 953.8230400000002
+			text = "eu creio que nas escolas com muitos alunos onde estas atividades não sejam desenvolvidas com esta intensidade o jornal tem um papel assim muito mais significativo do que neste caso particular"
+		intervals [205]:
+			xmin = 953.8230400000002
+			xmax = 954.4242400000003
+			text = ""
+		intervals [206]:
+			xmin = 954.4242400000003
+			xmax = 954.9792000000002
+			text = "do sion"
+		intervals [207]:
+			xmin = 954.9792000000002
+			xmax = 957.1070200000004
+			text = ""
+		intervals [208]:
+			xmin = 957.1070200000004
+			xmax = 964.8462
+			text = "professor celso o senhor lê jornal certamente como o senhor começa a leitura de um jornal"
+		intervals [209]:
+			xmin = 964.8462
+			xmax = 966.9342300000003
+			text = ""
+		intervals [210]:
+			xmin = 966.9342300000003
+			xmax = 969.1604400000001
+			text = "eu começo pela leitura de todas as manchetes"
+		intervals [211]:
+			xmin = 969.1604400000001
+			xmax = 969.56104
+			text = ""
+		intervals [212]:
+			xmin = 969.56104
+			xmax = 971.9542200000001
+			text = "há portanto um critério assim seletivo"
+		intervals [213]:
+			xmin = 971.9542200000001
+			xmax = 972.2566500000003
+			text = ""
+		intervals [214]:
+			xmin = 972.2566500000003
+			xmax = 979.9800600000003
+			text = "independente da maior ou menor atração que uma manchete possa me despertar eu folheio o jornal inteiramente à cata de todas as manchetes"
+		intervals [215]:
+			xmin = 979.9800600000003
+			xmax = 980.64696
+			text = ""
+		intervals [216]:
+			xmin = 980.64696
+			xmax = 987.3426100000001
+			text = "depois eu vou estabelecer ah aquela hierarquia dos assuntos que devo naturalmente consultar"
+		intervals [217]:
+			xmin = 987.3426100000001
+			xmax = 987.9854800000003
+			text = ""
+		intervals [218]:
+			xmin = 987.9854800000003
+			xmax = 1005.2863500000003
+			text = "aqueles assuntos que não provocam em mim um interesse momentâneo muito grande mas que eu suponho que possam ser de interesse posterior eu acabo ah recortando ou pelo menos uma pessoa que desempenha essa tarefa recorta e mantemos sob a forma de um arquivo"
+		intervals [219]:
+			xmin = 1005.2863500000003
+			xmax = 1005.7003500000001
+			text = ""
+		intervals [220]:
+			xmin = 1005.7003500000001
+			xmax = 1017.4091600000002
+			text = "de maneira que eu tenho um arquivo relativamente eh amplo bastante atualizado sobre as notícias que embora não tendo tido um interesse momentâneo muito grande possam futuramente vir a despertar um certo interesse prático"
+		intervals [221]:
+			xmin = 1017.4091600000002
+			xmax = 1018.21841
+			text = ""
+		intervals [222]:
+			xmin = 1018.21841
+			xmax = 1034.5991400000003
+			text = "de maneira que com esta preocupação de arquivar as notícias efetivamente importantes ou as reportagens às vezes até os artigos eu limito a minha leitura diárias apenas àqueles assuntos que exigem uma posição mais imediata ou pelo menos um conhecimento mais momentâneo"
+		intervals [223]:
+			xmin = 1034.5991400000003
+			xmax = 1035.8511700000004
+			text = ""
+		intervals [224]:
+			xmin = 1035.8511700000004
+			xmax = 1041.8367000000003
+			text = "além do jornal qual outro veículo da imprensa escrita que o senhor prefere"
+		intervals [225]:
+			xmin = 1041.8367000000003
+			xmax = 1043.20127
+			text = ""
+		intervals [226]:
+			xmin = 1043.20127
+			xmax = 1052.50587
+			text = "bom eu eu gosto muito da do veja ou da veja da revista veja eu sou assinante e sou um leitor sistemático"
+		intervals [227]:
+			xmin = 1052.50587
+			xmax = 1053.11447
+			text = ""
+		intervals [228]:
+			xmin = 1053.11447
+			xmax = 1072.19839
+			text = "eh acredito que quando leio pouco leio setenta e cinco porcento portanto três quartos do conteúdo da revista mesmo de assuntos que aparentemente eu não leio nos jornais eh são determinadas partes que afastam-se assim daquele meu ramo de interesse mas ainda assim eu acabo lendo no veja"
+		intervals [229]:
+			xmin = 1072.19839
+			xmax = 1072.6705200000001
+			text = ""
+		intervals [230]:
+			xmin = 1072.6705200000001
+			xmax = 1079.43305
+			text = "ah o opinião é uma outra um outro órgão de divulgação que realmente eu leio com algum interesse"
+		intervals [231]:
+			xmin = 1079.43305
+			xmax = 1087.89381
+			text = "opinião não tem aquela forma de apresentação agradável do veja mas tem um conteúdo muito mais extenso"
+		intervals [232]:
+			xmin = 1087.89381
+			xmax = 1088.3866400000002
+			text = ""
+		intervals [233]:
+			xmin = 1088.3866400000002
+			xmax = 1098.38726
+			text = "a revista visão também eu se não leio sistematicamente mas pelo menos eh leio assim assistematicamente com alguma intensidade"
+		intervals [234]:
+			xmin = 1098.38726
+			xmax = 1099.1379900000002
+			text = ""
+		intervals [235]:
+			xmin = 1099.1379900000002
+			xmax = 1110.9112400000004
+			text = "acredito que excluindo essas três eh fontes de de informação e até mesmo de comentários da imprensa escrita as outras eh revistas só acidentalmente eu procuro"
+		intervals [236]:
+			xmin = 1110.9112400000004
+			xmax = 1111.17479
+			text = ""
+		intervals [237]:
+			xmin = 1111.17479
+			xmax = 1113.1848
+			text = "o caso do correio da unesco por exemplo"
+		intervals [238]:
+			xmin = 1113.1848
+			xmax = 1113.5180300000002
+			text = ""
+		intervals [239]:
+			xmin = 1113.5180300000002
+			xmax = 1117.5048000000002
+			text = "o correio da unesco tem um número excepcional sobre o problema demográfico mundial"
+		intervals [240]:
+			xmin = 1117.5048000000002
+			xmax = 1117.9881600000003
+			text = ""
+		intervals [241]:
+			xmin = 1117.9881600000003
+			xmax = 1120.6982200000002
+			text = "um número muito atual agora sobre o problema da fome no mundo"
+		intervals [242]:
+			xmin = 1120.6982200000002
+			xmax = 1125.0909500000002
+			text = "então estes outros números eu acabo buscando assim com um certo interesse"
+		intervals [243]:
+			xmin = 1125.0909500000002
+			xmax = 1125.4170600000002
+			text = ""
+		intervals [244]:
+			xmin = 1125.4170600000002
+			xmax = 1134.24127
+			text = "essas revistas ditas de reportagens no estilo de manchete no estilo de cruzeiro eh muito raramente caem em minhas mãos"
+		intervals [245]:
+			xmin = 1134.24127
+			xmax = 1137.3841700000003
+			text = "até mais especificamente quando eu vou ao barbeiro"
+		intervals [246]:
+			xmin = 1137.3841700000003
+			xmax = 1137.8719100000003
+			text = ""
+		intervals [247]:
+			xmin = 1137.8719100000003
+			xmax = 1141.12642
+			text = "então eu folheio naturalmente a revista sem maior interesse"
+		intervals [248]:
+			xmin = 1141.12642
+			xmax = 1155.4616
+			text = "quando sei que há numa publicação algum artigo de maior profundidade quando alguns alunos me chamam a atenção para um aspecto de uma dessas revistas que não leio habitualmente de maior interesse vou de encontro a esse número de maneira especial"
+		intervals [249]:
+			xmin = 1155.4616
+			xmax = 1156.0498500000003
+			text = ""
+		intervals [250]:
+			xmin = 1156.0498500000003
+			xmax = 1160.69963
+			text = "mas sistematicamente não corresponde assim a um processo de leitura comum"
+		intervals [251]:
+			xmin = 1160.69963
+			xmax = 1161.0995500000004
+			text = ""
+		intervals [252]:
+			xmin = 1161.0995500000004
+			xmax = 1176.36177
+			text = "além disso coleciono eh alguns fascículos por exemplo agora o o século vinte da abril e quando consigo completar um volume eh inicio então a leitura ainda que não de todo mas de algumas partes assim do volume"
+		intervals [253]:
+			xmin = 1176.36177
+			xmax = 1183.3013300000002
+			text = "que eu me lembre de momento são as publicações eh da imprensa escrita que procuro com maior frequência com maior intensidade"
+		intervals [254]:
+			xmin = 1183.3013300000002
+			xmax = 1184.48776
+			text = ""
+		intervals [255]:
+			xmin = 1184.48776
+			xmax = 1185.96844
+			text = "professor rui por favor"
+		intervals [256]:
+			xmin = 1185.96844
+			xmax = 1187.00515
+			text = ""
+		intervals [257]:
+			xmin = 1187.00515
+			xmax = 1189.0641300000002
+			text = "bom jornal eu leio habitualmen"
+		intervals [258]:
+			xmin = 1189.0641300000002
+			xmax = 1192.3863300000003
+			text = "eu sou obrigado inclusive a ler muito jornal porque meu curso aqui é um curso de atualização"
+		intervals [259]:
+			xmin = 1192.3863300000003
+			xmax = 1195.23304
+			text = "então eu tenho que discutir com as meninas aqui o que está acontecendo"
+		intervals [260]:
+			xmin = 1195.23304
+			xmax = 1195.84033
+			text = ""
+		intervals [261]:
+			xmin = 1195.84033
+			xmax = 1201.8765200000003
+			text = "e aliás elas me trazem tanto material que às vezes eu não preciso nem ler tanto que elas mesmo trazem material para a aula"
+		intervals [262]:
+			xmin = 1201.8765200000003
+			xmax = 1203.5781700000002
+			text = "os grupos que pesquisam e tal"
+		intervals [263]:
+			xmin = 1203.5781700000002
+			xmax = 1204.40636
+			text = ""
+		intervals [264]:
+			xmin = 1204.40636
+			xmax = 1216.2064600000003
+			text = "e com isso eu fico sabendo a veja por exemplo que o o celso diz que lê habitualmente eu acabo nem lendo porque elas trazem tanta coisa de veja elas leem tanta coisa de veja que eu acabo nem precisando ler porque elas já me trazem esse material todo para ser discutido em aula"
+		intervals [265]:
+			xmin = 1216.2064600000003
+			xmax = 1222.56324
+			text = "o que eu leio habitualmente é o jornal realmente o estado de são paulo e noticiários assim de rádio né"
+		intervals [266]:
+			xmin = 1222.56324
+			xmax = 1224.02612
+			text = "e às vezes também de televisão"
+		intervals [267]:
+			xmin = 1224.02612
+			xmax = 1225.4183900000003
+			text = ""
+		intervals [268]:
+			xmin = 1225.4183900000003
+			xmax = 1229.7371600000001
+			text = "e o estado de são paulo de domingo por exemplo me é muito útil entende"
+		intervals [269]:
+			xmin = 1229.7371600000001
+			xmax = 1232.5728000000004
+			text = "aquelas matérias todas que publicam ali aquilo eu até coleciono"
+		intervals [270]:
+			xmin = 1232.5728000000004
+			xmax = 1237.6194100000002
+			text = "aliás eu ainda tenho pastas de assuntos em casa que eu vou guardando e eu tiro muito material dali não é"
+		intervals [271]:
+			xmin = 1237.6194100000002
+			xmax = 1238.43689
+			text = ""
+		intervals [272]:
+			xmin = 1238.43689
+			xmax = 1246.25711
+			text = "e eu tenho também as eh assinatura e também tenho que ler por força do trabalho são publicações religiosas"
+		intervals [273]:
+			xmin = 1246.25711
+			xmax = 1248.7764700000002
+			text = "porque eu dou aula no em outra escola de formação religiosa né"
+		intervals [274]:
+			xmin = 1248.7764700000002
+			xmax = 1249.7540800000002
+			text = ""
+		intervals [275]:
+			xmin = 1249.7540800000002
+			xmax = 1253.4253900000003
+			text = "então eu tenho que ler tenho que está atualizado com publicações desse nível né"
+		intervals [276]:
+			xmin = 1253.4253900000003
+			xmax = 1253.9430900000002
+			text = ""
+		intervals [277]:
+			xmin = 1253.9430900000002
+			xmax = 1265.0675800000004
+			text = "revistas especializadas e e dentro desta linha do que se do que ocorre no sínodo no que está ocorrendo entende nas diversas linhas de pesquisa teológica et cetera"
+		intervals [278]:
+			xmin = 1265.0675800000004
+			xmax = 1266.1339500000004
+			text = ""

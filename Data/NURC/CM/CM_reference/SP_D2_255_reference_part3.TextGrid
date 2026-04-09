@@ -1,0 +1,962 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 1194.53417
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "All TBs-normal"
+		xmin = 0.0
+		xmax = 1194.53417
+		intervals: size = 237
+		intervals [1]:
+			xmin = 0.0
+			xmax = 2.5304299999997966
+			text = "e a parte digamos recreativa do jornal"
+		intervals [2]:
+			xmin = 2.5304299999997966
+			xmax = 5.472710000000006
+			text = ""
+		intervals [3]:
+			xmin = 5.472710000000006
+			xmax = 9.73893999999973
+			text = "bom eu eh sou autor de livros didáticos"
+		intervals [4]:
+			xmin = 9.73893999999973
+			xmax = 10.042739999999867
+			text = ""
+		intervals [5]:
+			xmin = 10.042739999999867
+			xmax = 18.78116
+			text = "e o livro didático sofreu nesses doze anos quando meu primeiro livro foi publicado até o momento presente uma grande mudança"
+		intervals [6]:
+			xmin = 18.78116
+			xmax = 19.5951399999999
+			text = ""
+		intervals [7]:
+			xmin = 19.5951399999999
+			xmax = 37.0032299999998
+			text = "inclusive porque também ocorreu uma grande mudança no nível do aluno a escola que era anteriormente uma escola para uma certa elite acabou buscando as tendências de uma escola popular e nestas condições o livro não poderia passar imune a estas transformações"
+		intervals [8]:
+			xmin = 37.0032299999998
+			xmax = 38.04574000000002
+			text = ""
+		intervals [9]:
+			xmin = 38.04574000000002
+			xmax = 60.61398000000008
+			text = "e embora eu tenha resistido eh muito em procurar no quadrinho ou na história em quadrinho alguma coisa que pudesse trazer subsídios ao livro didático eu comecei sentir que em determinados momentos era uma luta muito grande tentar eh criar o tipo de livro que fosse avesso ao quadrinho"
+		intervals [10]:
+			xmin = 60.61398000000008
+			xmax = 61.09256000000005
+			text = ""
+		intervals [11]:
+			xmin = 61.09256000000005
+			xmax = 73.90873999999985
+			text = "então eu procurei buscar na história em quadrinho a boa história em quadrinho o bom autor a boa mensagem para criar com estas histórias o interesse do aluno pela própria leitura"
+		intervals [12]:
+			xmin = 73.90873999999985
+			xmax = 74.49315999999999
+			text = ""
+		intervals [13]:
+			xmin = 74.49315999999999
+			xmax = 112.47856999999976
+			text = "então embora os meus livros didáticos não sejam livros em histórias em quadrinho e eu sou contra livros totalmente em história em quadrinho eu estou produzindo livros eh associo a minha condição de autor à condição de produtor onde contrato entre outros profissionais o próprio autor eu já estou começando a produzir livros em que o quadrinho é utilizado não para transmitir a mensagem não para desvirtuar o a preocupação pela leitura mas justamente para abrir o apetite do aluno para abrir a vontade do aluno para realmente aquele que viria a ser o texto"
+		intervals [14]:
+			xmin = 112.47856999999976
+			xmax = 113.12212999999974
+			text = ""
+		intervals [15]:
+			xmin = 113.12212999999974
+			xmax = 132.08379999999988
+			text = "então não sei se profissionalmente por interesses ligados ao próprio livro didático ou não sei se até porque buscava nisso uma tendência à recreação como era a natureza da pergunta eu fui buscar na história em quadrinho aquilo que seria uma mensagem de recreação e ao mesmo tempo uma mensagem de ensino"
+		intervals [16]:
+			xmin = 132.08379999999988
+			xmax = 132.68402000000015
+			text = ""
+		intervals [17]:
+			xmin = 132.68402000000015
+			xmax = 146.2506199999998
+			text = "e reconheço que há cartunistas e e mesmo profissionais da história em quadrinho de valor notável quer até como elementos capaz de produzir uma própria mudança social em função da participação de seus personagens"
+		intervals [18]:
+			xmin = 146.2506199999998
+			xmax = 146.65337
+			text = ""
+		intervals [19]:
+			xmin = 146.65337
+			xmax = 160.5966699999999
+			text = "ah o schultz por exemplo criador dos charlie browns eh o próprio quino o criador da mafalda não é são indivíduos que realmente criaram junto com a recreação uma preocupação pela pelo momento pela situação"
+		intervals [20]:
+			xmin = 160.5966699999999
+			xmax = 164.30998999999974
+			text = "a mafalda é uma personagem angustiada com o drama social"
+		intervals [21]:
+			xmin = 164.30998999999974
+			xmax = 164.60883999999987
+			text = ""
+		intervals [22]:
+			xmin = 164.60883999999987
+			xmax = 176.36184000000003
+			text = "e é capaz de levar ao público da história em quadrinho aquele tipo de angústia que se não é ah um passo para resolver os problemas existenciais é pelo menos uma posição diante desses próprios fatos"
+		intervals [23]:
+			xmin = 176.36184000000003
+			xmax = 176.73916999999983
+			text = ""
+		intervals [24]:
+			xmin = 176.73916999999983
+			xmax = 182.17180000000008
+			text = "de maneira que como parte recreativa do jornal eu me limito quase que à história em quadrinho"
+		intervals [25]:
+			xmin = 182.17180000000008
+			xmax = 182.4719799999998
+			text = ""
+		intervals [26]:
+			xmin = 182.4719799999998
+			xmax = 190.64289000000008
+			text = "eh não tenho assim muita vocação para aquela parte de palavras cruzadas ou para outros setores assim eh puramente recreativos"
+		intervals [27]:
+			xmin = 190.64289000000008
+			xmax = 190.93301999999994
+			text = ""
+		intervals [28]:
+			xmin = 190.93301999999994
+			xmax = 198.25801999999976
+			text = "considero anedotas eh muito pouco engraçadas mas como anedotas válidas o horóscopo e outras partes dos jornais né"
+		intervals [29]:
+			xmin = 198.25801999999976
+			xmax = 201.5379899999998
+			text = ""
+		intervals [30]:
+			xmin = 201.5379899999998
+			xmax = 211.0299
+			text = "é eu de certa forma também parte recreativa de jornal lá em casa como eu tenho filhos desde oito anos até dezesseis anos entra muita história em quadrinho né"
+		intervals [31]:
+			xmin = 211.0299
+			xmax = 214.67889999999989
+			text = "e eu vez por outra realmente me divirto também com as histórias em quadrinhos"
+		intervals [32]:
+			xmin = 214.67889999999989
+			xmax = 220.17016000000012
+			text = "quer dizer especialmente os almanaques do tintim daquele hergé né"
+		intervals [33]:
+			xmin = 220.17016000000012
+			xmax = 220.6910499999999
+			text = ""
+		intervals [34]:
+			xmin = 220.6910499999999
+			xmax = 225.9000799999999
+			text = "eu considero realmente aquele cara sensacional porque entra nessa linha da mafalda também que eu também gosto"
+		intervals [35]:
+			xmin = 225.9000799999999
+			xmax = 226.36177999999973
+			text = ""
+		intervals [36]:
+			xmin = 226.36177999999973
+			xmax = 231.51443999999992
+			text = "quer dizer o hergé tem assim uma uma uma preocupação em apresentar os grandes temas internacionais"
+		intervals [37]:
+			xmin = 231.51443999999992
+			xmax = 244.19317
+			text = "problema do petróleo problema dos tóxicos e tal então realmente as histórias envolvem coisas assim do mundo todo e e tem assim uma visão muito interessante da além de distrair entende contém em si uma mensagem"
+		intervals [38]:
+			xmin = 244.19317
+			xmax = 246.9356600000001
+			text = "quer dizer esse tipo de de lazer assim eu gosto"
+		intervals [39]:
+			xmin = 246.9356600000001
+			xmax = 257.3851599999998
+			text = "com histórias assim bem feitas que não apelam nem para a violência entende nem para assim um um humor barato entende que não tem mais maió maior atrativo né"
+		intervals [40]:
+			xmin = 257.3851599999998
+			xmax = 259.5493499999998
+			text = ""
+		intervals [41]:
+			xmin = 259.5493499999998
+			xmax = 264.6405999999997
+			text = "outras revistas o senhor citaria assim do do da imprensa vamos dizer assim"
+		intervals [42]:
+			xmin = 264.6405999999997
+			xmax = 264.87579000000005
+			text = ""
+		intervals [43]:
+			xmin = 264.87579000000005
+			xmax = 265.7039799999998
+			text = "outras revistas"
+		intervals [44]:
+			xmin = 265.7039799999998
+			xmax = 272.76351999999997
+			text = "lá em casa nós temos assim por força da escola e das criança temos a veja não é e"
+		intervals [45]:
+			xmin = 272.76351999999997
+			xmax = 274.03647999999976
+			text = ""
+		intervals [46]:
+			xmin = 274.03647999999976
+			xmax = 275.4598799999999
+			text = "revistas de reportagem é raro"
+		intervals [47]:
+			xmin = 275.4598799999999
+			xmax = 286.82249
+			text = "uma vez ou outra manchete principalmente quando a manchete publica essas essas reportagens sobre cidades e por exemplo sobre o rio de janeiro sobre são paulo eles sempre fazem aquelas edições especiais entende"
+		intervals [48]:
+			xmin = 286.82249
+			xmax = 297.42871000000014
+			text = "aquelas edições ali realmente são interessantes a gente compra mas não não vejo não temos em casa outras revistas assim pelo menos habitualmente"
+		intervals [49]:
+			xmin = 297.42871000000014
+			xmax = 299.9080899999999
+			text = "é só coisa ocasional mesmo"
+		intervals [50]:
+			xmin = 299.9080899999999
+			xmax = 301.94248000000016
+			text = ""
+		intervals [51]:
+			xmin = 301.94248000000016
+			xmax = 304.24148000000014
+			text = "as outras são como eu disse revistas especializadas"
+		intervals [52]:
+			xmin = 304.24148000000014
+			xmax = 307.4791399999999
+			text = "quer dizer revistas ligadas a assuntos que dizem direito às aulas que eu dou né"
+		intervals [53]:
+			xmin = 307.4791399999999
+			xmax = 312.9478100000001
+			text = ""
+		intervals [54]:
+			xmin = 312.9478100000001
+			xmax = 318.36942
+			text = "bem eu acho que agora nós falá que o senhor falasse um pouquinho sobre a cidade"
+		intervals [55]:
+			xmin = 318.36942
+			xmax = 318.51811
+			text = ""
+		intervals [56]:
+			xmin = 318.51811
+			xmax = 319.89023
+			text = "o comércio vamos dizer assim"
+		intervals [57]:
+			xmin = 319.89023
+			xmax = 320.03845
+			text = ""
+		intervals [58]:
+			xmin = 320.03845
+			xmax = 322.38688999999977
+			text = "um assunto assim meio aberto vamos dizer assim"
+		intervals [59]:
+			xmin = 322.38688999999977
+			xmax = 325.96839
+			text = ""
+		intervals [60]:
+			xmin = 325.96839
+			xmax = 326.8697000000002
+			text = "sobre comércio"
+		intervals [61]:
+			xmin = 326.8697000000002
+			xmax = 327.4405399999996
+			text = ""
+		intervals [62]:
+			xmin = 327.4405399999996
+			xmax = 328.66610000000037
+			text = "exato comércio"
+		intervals [63]:
+			xmin = 328.66610000000037
+			xmax = 330.0570799999996
+			text = ""
+		intervals [64]:
+			xmin = 330.0570799999996
+			xmax = 332.9881999999998
+			text = "olha aí aí a coisa complica um pouco"
+		intervals [65]:
+			xmin = 332.9881999999998
+			xmax = 344.0356300000003
+			text = "porque a minha a minha visão do problema de comércio é um é uma visão assim que eu acho que não não é muito ortodoxa"
+		intervals [66]:
+			xmin = 344.0356300000003
+			xmax = 344.6424500000003
+			text = ""
+		intervals [67]:
+			xmin = 344.6424500000003
+			xmax = 347.35343999999986
+			text = "certo naturalmente aí o senhor pode ficar à vontade"
+		intervals [68]:
+			xmin = 347.35343999999986
+			xmax = 358.5507200000002
+			text = ""
+		intervals [69]:
+			xmin = 358.5507200000002
+			xmax = 362.46865999999955
+			text = "e a minha imprê a minha a minha visão do comércio é muito negativa"
+		intervals [70]:
+			xmin = 362.46865999999955
+			xmax = 363.64998000000014
+			text = ""
+		intervals [71]:
+			xmin = 363.64998000000014
+			xmax = 373.63292999999976
+			text = "eu acho que o comércio tem um papel terrível assim na na deformação do jô do jovem e na e mesmo da sociedade em geral né"
+		intervals [72]:
+			xmin = 373.63292999999976
+			xmax = 374.86896999999954
+			text = ""
+		intervals [73]:
+			xmin = 374.86896999999954
+			xmax = 387.6124499999996
+			text = "é re o comércio tem assim o poder de com o seu dinheiro e com e com a seu convite às compras entende a transformar realmente o a sociedade naquilo que nós costumamos chamar de sociedade de consumo né"
+		intervals [74]:
+			xmin = 387.6124499999996
+			xmax = 388.54975000000013
+			text = ""
+		intervals [75]:
+			xmin = 388.54975000000013
+			xmax = 397.74900999999954
+			text = "então eu vejo reservado ao comércio um papel dos mais negativos dentro da nossa sociedade"
+		intervals [76]:
+			xmin = 397.74900999999954
+			xmax = 398.71568000000025
+			text = ""
+		intervals [77]:
+			xmin = 398.71568000000025
+			xmax = 412.64815
+			text = "eu tenho a impressão que não fora entende o comércio desenfreado e assim o comércio com toda a liberdade que tem de fazer sua propaganda nós teríamos um outro tipo de sociedade"
+		intervals [78]:
+			xmin = 412.64815
+			xmax = 414.63192999999956
+			text = ""
+		intervals [79]:
+			xmin = 414.63192999999956
+			xmax = 433.0334299999995
+			text = "eu tenho impressão que em termos de futuro nós temos muito o que aprender com as sociedades que não têm o livre comércio e o homem então seria assim realmente mais voltado para o ser e menos para o ter"
+		intervals [80]:
+			xmin = 433.0334299999995
+			xmax = 433.72315999999955
+			text = ""
+		intervals [81]:
+			xmin = 433.72315999999955
+			xmax = 439.58902000000035
+			text = "quer dizer essa sociedade voltada para o ter é uma sociedade que esvazia o homem de um conteúdo real"
+		intervals [82]:
+			xmin = 439.58902000000035
+			xmax = 440.42597000000023
+			text = ""
+		intervals [83]:
+			xmin = 440.42597000000023
+			xmax = 451.3561099999997
+			text = "o homem num determinado momento ele acha que ele é aquele que tem uma geladeira tem uma televisão tem um automóvel tem uma casa e realmente ele não pode se imaginar sem estas coisas"
+		intervals [84]:
+			xmin = 451.3561099999997
+			xmax = 465.60553999999956
+			text = "quer dizer então o que há de mais essencial no próprio homem que é o seu ser o que o identifica com todos os demais seja lá um africano morrendo de fome entende algo que o identifica com os homens do mundo inteiro ele perde o sentido desse valor"
+		intervals [85]:
+			xmin = 465.60553999999956
+			xmax = 466.8319099999999
+			text = ""
+		intervals [86]:
+			xmin = 466.8319099999999
+			xmax = 479.9974400000001
+			text = "e mesmo a frustração toda que existe na sociedade de um modo geral essa corrida aos psicólogos entende nada mais é do que essa construção artificial que é dada exatamente pelo comércio"
+		intervals [87]:
+			xmin = 479.9974400000001
+			xmax = 480.71960000000036
+			text = ""
+		intervals [88]:
+			xmin = 480.71960000000036
+			xmax = 496.61239000000023
+			text = "quer dizer o homem se transforma num objeto de consumo e a livre concorrência busca sempre um novo consumidor e um novo produto e os jornais e as televisões acabam sendo instrumentos exatamente entende de"
+		intervals [89]:
+			xmin = 496.61239000000023
+			xmax = 496.9792699999998
+			text = ""
+		intervals [90]:
+			xmin = 496.9792699999998
+			xmax = 517.0503499999995
+			text = "haja vista o exemplo que eu dei né do sílvio santos que é um homem do comércio e que acabou se transformando até num dono de televisão praticamente então o que representa isso de violentação à personalidade do homem e do homem verdadeiro entende só os futuros historiadores é que vão poder aferir com precisão o que que aconteceu né"
+		intervals [91]:
+			xmin = 517.0503499999995
+			xmax = 517.7671
+			text = ""
+		intervals [92]:
+			xmin = 517.7671
+			xmax = 522.8124699999998
+			text = "eu tenho a impressão que nós estamos vivendo ainda o problema então torna-se um pouco difícil a sua análise"
+		intervals [93]:
+			xmin = 522.8124699999998
+			xmax = 524.7614400000002
+			text = "mas eu sinto isso agudamente sabe"
+		intervals [94]:
+			xmin = 524.7614400000002
+			xmax = 529.4954699999998
+			text = ""
+		intervals [95]:
+			xmin = 529.4954699999998
+			xmax = 546.9301999999998
+			text = "muitas vezes eh eu tenho sido procurado como diretor do colégio sion por alguns pais que estranham a circunstância de que esta escola seja uma escola religiosa e não tenha o ensino sistemático de religião entre as suas disciplinas curriculares"
+		intervals [96]:
+			xmin = 546.9301999999998
+			xmax = 547.8061299999999
+			text = ""
+		intervals [97]:
+			xmin = 547.8061299999999
+			xmax = 551.9552800000001
+			text = "então eu costumo dizer aos pais que religião é antes de tudo um estado de espírito"
+		intervals [98]:
+			xmin = 551.9552800000001
+			xmax = 552.4966599999998
+			text = ""
+		intervals [99]:
+			xmin = 552.4966599999998
+			xmax = 555.9242199999999
+			text = "uma forma de se viver em termos de um objetivo comum"
+		intervals [100]:
+			xmin = 555.9242199999999
+			xmax = 556.6756299999997
+			text = ""
+		intervals [101]:
+			xmin = 556.6756299999997
+			xmax = 569.7965199999999
+			text = "e realmente o que identifica os profissionais que conosco trabalham é este mesmo espírito comum esse mesmo ponto de vista igual sobre a forma de encarar os diferentes aspectos da vida entre os quais o próprio comércio"
+		intervals [102]:
+			xmin = 569.7965199999999
+			xmax = 570.2727199999999
+			text = ""
+		intervals [103]:
+			xmin = 570.2727199999999
+			xmax = 584.0531199999996
+			text = "de maneira que esse ponto de vista que o rui acabou de expor eh acaba sendo também o meu ponto de vista não por uma questão de coincidência mas porque eh este ponto de vista foi alcançado"
+		intervals [104]:
+			xmin = 584.0531199999996
+			xmax = 584.3689699999995
+			text = ""
+		intervals [105]:
+			xmin = 584.3689699999995
+			xmax = 592.49899
+			text = "através de reflexões comuns não apenas minha e dele mas minha dele dos alunos dos demais profissionais que conosco trabalham"
+		intervals [106]:
+			xmin = 592.49899
+			xmax = 592.99633
+			text = ""
+		intervals [107]:
+			xmin = 592.99633
+			xmax = 600.2727999999997
+			text = "de maneira que não poderia realmente ser diferente esta posição nossa ao encarar os diferentes aspectos da vida social"
+		intervals [108]:
+			xmin = 600.2727999999997
+			xmax = 600.6261199999999
+			text = ""
+		intervals [109]:
+			xmin = 600.6261199999999
+			xmax = 605.9589999999998
+			text = "pode diferir a forma de se definir com palavras este ou aquele objetivo"
+		intervals [110]:
+			xmin = 605.9589999999998
+			xmax = 606.3510299999998
+			text = ""
+		intervals [111]:
+			xmin = 606.3510299999998
+			xmax = 608.9040599999998
+			text = "mas os objetivos são realmente comum"
+		intervals [112]:
+			xmin = 608.9040599999998
+			xmax = 609.2028300000002
+			text = ""
+		intervals [113]:
+			xmin = 609.2028300000002
+			xmax = 611.56297
+			text = "existe muita identidade nesta forma de procurar"
+		intervals [114]:
+			xmin = 611.56297
+			xmax = 612.0311099999999
+			text = ""
+		intervals [115]:
+			xmin = 612.0311099999999
+			xmax = 628.4732699999995
+			text = "então esta forma de pensamento acaba sendo comum a todos os homens que têm ah obrigação de desempenhar um papel junto à juventude um papel de formação um papel junto à escola e um papel assim muito responsável perante a sociedade"
+		intervals [116]:
+			xmin = 628.4732699999995
+			xmax = 629.0685100000001
+			text = ""
+		intervals [117]:
+			xmin = 629.0685100000001
+			xmax = 633.8697400000001
+			text = "de maneira que eu poderia me limitar a dizer que o meu ponto de vista coincidia com o do rui"
+		intervals [118]:
+			xmin = 633.8697400000001
+			xmax = 634.43246
+			text = ""
+		intervals [119]:
+			xmin = 634.43246
+			xmax = 640.2523599999995
+			text = "mas eu não creio que talvez a palavra coincidência tivesse sido inteiramente válida sem esta explicação"
+		intervals [120]:
+			xmin = 640.2523599999995
+			xmax = 640.5884100000003
+			text = ""
+		intervals [121]:
+			xmin = 640.5884100000003
+			xmax = 650.4401099999995
+			text = "de que a coincidência se deve a evidentemente a uma procura comum a uma identidade que se buscou e que se tem buscado em muitos anos em que trabalhamos com o mesmo ideal com o mesmo objetivo"
+		intervals [122]:
+			xmin = 650.4401099999995
+			xmax = 650.7405399999998
+			text = ""
+		intervals [123]:
+			xmin = 650.7405399999998
+			xmax = 653.4069399999998
+			text = "por isso que não é diferente o nosso ponto de vista também"
+		intervals [124]:
+			xmin = 653.4069399999998
+			xmax = 654.2558799999997
+			text = ""
+		intervals [125]:
+			xmin = 654.2558799999997
+			xmax = 685.1850999999997
+			text = "é aliás aliás diga-se de passagem que eu já trabalho aqui na escola já há sete anos e sempre recebi na na porque a o a minha cadeira propicia muito o debate com os alunos coisas desse tipo né e realmente sempre recebi todo o apoio e toda a a assim todas as propostas que eu fiz aqui de trazer pessoas de fazer seminários de resolver sempre encontraram apoio da direção sem nenhuma restrição pelo contrário até ajudando estimulando essa coisa toda"
+		intervals [126]:
+			xmin = 685.1850999999997
+			xmax = 686.0492100000001
+			text = "isso é verdade mesmo"
+		intervals [127]:
+			xmin = 686.0492100000001
+			xmax = 688.06387
+			text = ""
+		intervals [128]:
+			xmin = 688.06387
+			xmax = 694.8616300000003
+			text = "a localização da escola no centro da cidade né os alunos ah moram aqui perto ou não"
+		intervals [129]:
+			xmin = 694.8616300000003
+			xmax = 697.3132999999998
+			text = ""
+		intervals [130]:
+			xmin = 697.3132999999998
+			xmax = 703.4273199999998
+			text = "a maior parte dos alunos moram assim num raio de dois a cinco quilômetros da escola né"
+		intervals [131]:
+			xmin = 703.4273199999998
+			xmax = 703.9798700000001
+			text = ""
+		intervals [132]:
+			xmin = 703.9798700000001
+			xmax = 708.6572500000002
+			text = "de maneira que para a maior parte dos alunos a a resposta é inteiramente afirmativa"
+		intervals [133]:
+			xmin = 708.6572500000002
+			xmax = 709.3303500000002
+			text = ""
+		intervals [134]:
+			xmin = 709.3303500000002
+			xmax = 715.8238300000003
+			text = "agora há aqueles e em quantidade bastante grande que nos procuram em função daquilo que a escola representa"
+		intervals [135]:
+			xmin = 715.8238300000003
+			xmax = 716.2101400000001
+			text = ""
+		intervals [136]:
+			xmin = 716.2101400000001
+			xmax = 722.71875
+			text = "e há alunos que vêm dos pontos os mais distantes mas não chegam a constituir uma maioria"
+		intervals [137]:
+			xmin = 722.71875
+			xmax = 723.2919899999997
+			text = ""
+		intervals [138]:
+			xmin = 723.2919899999997
+			xmax = 733.2781400000003
+			text = "eh eu acredito que eh este estímulo à proximidade geográfica seja válido assim em termos de sessenta e cinco a setenta por cento dos alunos"
+		intervals [139]:
+			xmin = 733.2781400000003
+			xmax = 733.6984599999996
+			text = ""
+		intervals [140]:
+			xmin = 733.6984599999996
+			xmax = 738.7579699999997
+			text = "mas há trinta por cento de alunos que dispõem de boas escolas próximas a suas casas"
+		intervals [141]:
+			xmin = 738.7579699999997
+			xmax = 739.1570899999997
+			text = ""
+		intervals [142]:
+			xmin = 739.1570899999997
+			xmax = 750.03017
+			text = "mas talvez assim por uma questão de linha de pensamento forma de divulgar a mensagem a própria o próprio nível do colégio que é um nível realmente muito bom acaba se constituindo também em fatores de atração"
+		intervals [143]:
+			xmin = 750.03017
+			xmax = 752.9095699999998
+			text = ""
+		intervals [144]:
+			xmin = 752.9095699999998
+			xmax = 765.5279099999998
+			text = "professor celso professor rui poderiam nos mencionar vamos dizer na escala de não sei se seria certo valores os problemas de uma cidade uma cidade comum"
+		intervals [145]:
+			xmin = 765.5279099999998
+			xmax = 767.3060800000003
+			text = ""
+		intervals [146]:
+			xmin = 767.3060800000003
+			xmax = 792.3801800000001
+			text = "bom eu acredito que a circunstância da cidade de são paulo ter tido um crescimento anormal e eu considero anormal porque num país onde o crescimento populacional é de dois vírgula nove por cento ao ano uma cidade que cresce num ritmo de oito e meio a nove por cento ao ano está crescendo além dos limites do próprio país o que equivale a dizer que está se tornando responsável pelo esvaziamento de outros setores"
+		intervals [147]:
+			xmin = 792.3801800000001
+			xmax = 792.76422
+			text = ""
+		intervals [148]:
+			xmin = 792.76422
+			xmax = 802.38868
+			text = "então este crescimento acaba naturalmente criando para o indivíduo que vive na cidade ah condições assim de profundas e de extremas frustrações"
+		intervals [149]:
+			xmin = 802.38868
+			xmax = 802.9288999999999
+			text = ""
+		intervals [150]:
+			xmin = 802.9288999999999
+			xmax = 814.2724200000002
+			text = "o homem que vem à cidade de são paulo é quase sempre um indivíduo que vem em busca de uma realização e esta realização quando é alcançada é eventualmente alcançada apenas no plano financeiro"
+		intervals [151]:
+			xmin = 814.2724200000002
+			xmax = 814.7543699999997
+			text = ""
+		intervals [152]:
+			xmin = 814.7543699999997
+			xmax = 818.2387099999996
+			text = "ou naturalmente no plano cultural que é um dos meios de alcançar o plano financeiro"
+		intervals [153]:
+			xmin = 818.2387099999996
+			xmax = 818.7004799999995
+			text = ""
+		intervals [154]:
+			xmin = 818.7004799999995
+			xmax = 823.2512500000003
+			text = "mas cultura como forma de obtenção de diploma não cultura como forma de reflexão como forma de viver"
+		intervals [155]:
+			xmin = 823.2512500000003
+			xmax = 823.8091699999995
+			text = ""
+		intervals [156]:
+			xmin = 823.8091699999995
+			xmax = 836.2892000000002
+			text = "então eh para estabelecer uma escala hierárquica de valores a uma cidade como são paulo eh eu colocaria como primeiro valor realmente um culto ao humanismo que a cidade não oferece"
+		intervals [157]:
+			xmin = 836.2892000000002
+			xmax = 836.6575199999997
+			text = ""
+		intervals [158]:
+			xmin = 836.6575199999997
+			xmax = 848.7431900000001
+			text = "nós aqui na cidade nos eh sentimos muito impelidos a ser muito pouco humanos a viver realmente muito pouco em acordo com aquilo que seria a forma desejável de se viver"
+		intervals [159]:
+			xmin = 848.7431900000001
+			xmax = 849.2810499999996
+			text = ""
+		intervals [160]:
+			xmin = 849.2810499999996
+			xmax = 865.8795099999998
+			text = "o que o rui já havia dito esta preocupação em competir em esmagar os outros em pisar sobre os demais em ter e não ser acaba criando em todas as faixas de idade uma margem ampla para frustrações as mais diversas possíveis"
+		intervals [161]:
+			xmin = 865.8795099999998
+			xmax = 866.4032699999998
+			text = ""
+		intervals [162]:
+			xmin = 866.4032699999998
+			xmax = 880.9580999999998
+			text = "então é claro que esta busca pelo humanismo esta possibilidade de doar-se esta tentativa de se encontrar na cidade como aquele ambiente que foi criado para nele se viver eh está muito distante de ser alcançado"
+		intervals [163]:
+			xmin = 880.9580999999998
+			xmax = 887.6743100000003
+			text = "daí porque esta tendência a englobar no humanismo tudo quanto seriam os valores mais carentes"
+		intervals [164]:
+			xmin = 887.6743100000003
+			xmax = 888.4875099999999
+			text = ""
+		intervals [165]:
+			xmin = 888.4875099999999
+			xmax = 898.4626399999997
+			text = "é evidente que a partir do alcance desta prioridade nós poderíamos pretender alcançar outras que estariam diretamente subordinadas a essa"
+		intervals [166]:
+			xmin = 898.4626399999997
+			xmax = 898.89437
+			text = ""
+		intervals [167]:
+			xmin = 898.89437
+			xmax = 919.6921999999995
+			text = "então na hora em que fosse possível se viver em são paulo como se vivem nas pequenas comunidades interioranas sentindo em nossa vida o drama da vida de cada um que nos cercam realmente nós estaríamos nos abrindo para realizar outros valores que dentro de uma escala poderiam se alinhar às escalas urbanas"
+		intervals [168]:
+			xmin = 919.6921999999995
+			xmax = 922.00522
+			text = "mas este seria me parece o primeiro dos problemas"
+		intervals [169]:
+			xmin = 922.00522
+			xmax = 923.1367399999999
+			text = "o mais sério dos problemas"
+		intervals [170]:
+			xmin = 923.1367399999999
+			xmax = 923.6807600000002
+			text = ""
+		intervals [171]:
+			xmin = 923.6807600000002
+			xmax = 929.3771500000003
+			text = "eh sou um indivíduo que eh tenho por são paulo aquela admiração natural daquele que aqui nasceu"
+		intervals [172]:
+			xmin = 929.3771500000003
+			xmax = 929.9168399999999
+			text = ""
+		intervals [173]:
+			xmin = 929.9168399999999
+			xmax = 942.2426999999998
+			text = "mas não posso deixar de reconhecer que a cidade neurotiza que a cidade irrita que a cidade é desumana que a cidade realmente eh procura nos roubar aqueles que seriam os valores assim de uma certa espiritualidade"
+		intervals [174]:
+			xmin = 942.2426999999998
+			xmax = 942.6706999999997
+			text = ""
+		intervals [175]:
+			xmin = 942.6706999999997
+			xmax = 961.22775
+			text = "talvez eu não tivesse neste sítio que aludi em perguntas anteriores um motivo de busca tão grande se eu não sentisse na competição urbana as limitações àquelas qualidades que através de um ambiente mais simples mais rude mais grotesco a gente pode realmente alcançar"
+		intervals [176]:
+			xmin = 961.22775
+			xmax = 961.9576200000001
+			text = ""
+		intervals [177]:
+			xmin = 961.9576200000001
+			xmax = 969.6097600000003
+			text = "suponho que aí reside talvez assim um um valor mais importante a ser alcançado na prioridade de uma cidade como são paulo"
+		intervals [178]:
+			xmin = 969.6097600000003
+			xmax = 970.8639000000003
+			text = ""
+		intervals [179]:
+			xmin = 970.8639000000003
+			xmax = 972.47894
+			text = "é eu não teria muito o que acrescentar"
+		intervals [180]:
+			xmin = 972.47894
+			xmax = 974.77956
+			text = "o celso de certa forma colocou muito bem o problema"
+		intervals [181]:
+			xmin = 974.77956
+			xmax = 988.7675200000003
+			text = "eu poderia só complementar me referindo por exemplo a alguns aspectos como poluição que hoje em são paulo se torna insuportável né e a poluição é reflexo exatamente dessa atitude individualista né do homem"
+		intervals [182]:
+			xmin = 988.7675200000003
+			xmax = 988.9646999999995
+			text = ""
+		intervals [183]:
+			xmin = 988.9646999999995
+			xmax = 989.8538699999999
+			text = "de um modo geral"
+		intervals [184]:
+			xmin = 989.8538699999999
+			xmax = 990.6586500000003
+			text = ""
+		intervals [185]:
+			xmin = 990.6586500000003
+			xmax = 993.50126
+			text = "eh com os seus condicionamentos a atuais né"
+		intervals [186]:
+			xmin = 993.50126
+			xmax = 994.1483799999996
+			text = ""
+		intervals [187]:
+			xmin = 994.1483799999996
+			xmax = 998.3977199999999
+			text = "eu até costumo dar o exemplo né o sujeito monta uma fábrica na beira de um rio né"
+		intervals [188]:
+			xmin = 998.3977199999999
+			xmax = 999.0790399999996
+			text = ""
+		intervals [189]:
+			xmin = 999.0790399999996
+			xmax = 1005.1391000000003
+			text = "então ele não está muito preocupado em saber se o resíduo da fábrica despejado no rio vai matar os peixes que estão dentro daquele rio"
+		intervals [190]:
+			xmin = 1005.1391000000003
+			xmax = 1005.5243499999997
+			text = ""
+		intervals [191]:
+			xmin = 1005.5243499999997
+			xmax = 1009.5852100000002
+			text = "ele está preocupado que a fábrica produza e dê o lucro que ele precisa daquele lucro et cetera"
+		intervals [192]:
+			xmin = 1009.5852100000002
+			xmax = 1009.9427699999997
+			text = ""
+		intervals [193]:
+			xmin = 1009.9427699999997
+			xmax = 1016.8593099999998
+			text = "quer dizer então em primeiro lugar entende vem as suas preocupações pessoais o seu lucro eh entende"
+		intervals [194]:
+			xmin = 1016.8593099999998
+			xmax = 1017.0523800000001
+			text = ""
+		intervals [195]:
+			xmin = 1017.0523800000001
+			xmax = 1018.2792399999998
+			text = "depois a comunidade"
+		intervals [196]:
+			xmin = 1018.2792399999998
+			xmax = 1028.8852699999998
+			text = "quer dizer se aquele resíduo da fábrica vai matar os peixes e depois então cha as populações mais pobres não vão se a poder se alimentar daquele peixe nem entra na na cogitação dele"
+		intervals [197]:
+			xmin = 1028.8852699999998
+			xmax = 1029.54014
+			text = ""
+		intervals [198]:
+			xmin = 1029.54014
+			xmax = 1045.3386600000003
+			text = "aí o papel preponderante então da entende da da da comunidade maior tomar consciência disso e através do próprio estado né de de ir educando a população e transformando a tô a população de uma visão individualista para uma visão comunitária"
+		intervals [199]:
+			xmin = 1045.3386600000003
+			xmax = 1045.6804499999998
+			text = ""
+		intervals [200]:
+			xmin = 1045.6804499999998
+			xmax = 1053.14048
+			text = "quer dizer mostrando qualquer ato qualquer por mais simples gesto que a pessoa tenha ele tenha a ver com o conjunto"
+		intervals [201]:
+			xmin = 1053.14048
+			xmax = 1058.4649600000002
+			text = "quer dizer o fato do sujeito montar uma fábrica e acioná-la está ligado ao bem-estar de toda a população"
+		intervals [202]:
+			xmin = 1058.4649600000002
+			xmax = 1059.2771899999998
+			text = ""
+		intervals [203]:
+			xmin = 1059.2771899999998
+			xmax = 1067.1522699999996
+			text = "até mesmo no uso do automóvel se eu realmente acelero mais o automóvel ou menos eu estou poluindo mais ou menos a cidade entende"
+		intervals [204]:
+			xmin = 1067.1522699999996
+			xmax = 1077.2903500000002
+			text = "se eu posso em vez de de me utilizar entende de um um determinado veículo individual numa determinada hora puder usar um veículo coletivo entende"
+		intervals [205]:
+			xmin = 1077.2903500000002
+			xmax = 1084.1423999999997
+			text = "e desde que não seja naquelas condições que o celso descreveu entende também eu estaria contribuindo para poluir menos a cidade"
+		intervals [206]:
+			xmin = 1084.1423999999997
+			xmax = 1099.8754200000003
+			text = "quer dizer então são comportamentos assim voltados para o bem comum e que aqui em são paulo mas não é só em são paulo eu acho que mesmo na cidade pequena acontece isso quer dizer às vezes a cidade é pequena o sujeito conhece o problema do outro mas também vive na dele como se diz na gíria né"
+		intervals [207]:
+			xmin = 1099.8754200000003
+			xmax = 1100.44495
+			text = ""
+		intervals [208]:
+			xmin = 1100.44495
+			xmax = 1110.30105
+			text = "eu costumo dizer ao meus alunos que ah o homem diferentemente da abelha né ele não se viu biologicamente forçado a viver junto"
+		intervals [209]:
+			xmin = 1110.30105
+			xmax = 1115.1322600000003
+			text = "porque a abelha biologicamente vive numa colmeia como a formiga num formigueiro"
+		intervals [210]:
+			xmin = 1115.1322600000003
+			xmax = 1115.4470199999996
+			text = ""
+		intervals [211]:
+			xmin = 1115.4470199999996
+			xmax = 1117.51649
+			text = "então você não tem os marginalizados"
+		intervals [212]:
+			xmin = 1117.51649
+			xmax = 1118.0476799999997
+			text = ""
+		intervals [213]:
+			xmin = 1118.0476799999997
+			xmax = 1124.1568500000003
+			text = "na comunidade dos homens você tem os marginalizados como agora mesmo aconteceu aqui em são paulo com esses menores levados aí a camanducaia"
+		intervals [214]:
+			xmin = 1124.1568500000003
+			xmax = 1125.1892200000002
+			text = ""
+		intervals [215]:
+			xmin = 1125.1892200000002
+			xmax = 1125.6383399999995
+			text = "por quê"
+		intervals [216]:
+			xmin = 1125.6383399999995
+			xmax = 1126.32823
+			text = ""
+		intervals [217]:
+			xmin = 1126.32823
+			xmax = 1130.3761299999996
+			text = "porque a comunidade dos homens ela não é biologicamente levada a viver junto"
+		intervals [218]:
+			xmin = 1130.3761299999996
+			xmax = 1131.7277599999998
+			text = "mas é uma opção"
+		intervals [219]:
+			xmin = 1131.7277599999998
+			xmax = 1132.5609999999997
+			text = "é uma escolha"
+		intervals [220]:
+			xmin = 1132.5609999999997
+			xmax = 1133.20514
+			text = ""
+		intervals [221]:
+			xmin = 1133.20514
+			xmax = 1142.7325499999997
+			text = "quer dizer então o homem tem que tomar consciência da importância da comunidade e fazer esta escolha entende para que ocorra então realmente uma comunidade de homens"
+		intervals [222]:
+			xmin = 1142.7325499999997
+			xmax = 1143.0440600000002
+			text = ""
+		intervals [223]:
+			xmin = 1143.0440600000002
+			xmax = 1146.70716
+			text = "senão o que nós temos é realmente um cemitério de homens né um caos"
+		intervals [224]:
+			xmin = 1146.70716
+			xmax = 1147.1745199999996
+			text = ""
+		intervals [225]:
+			xmin = 1147.1745199999996
+			xmax = 1152.7703099999999
+			text = "que é o que está nos mostrando a sociedade contemporânea com essas guerras com essas lutas como uma cidade como são paulo"
+		intervals [226]:
+			xmin = 1152.7703099999999
+			xmax = 1153.6754199999996
+			text = ""
+		intervals [227]:
+			xmin = 1153.6754199999996
+			xmax = 1171.5197399999997
+			text = "agora se todos os canais de de de de educação de formação entende não realmente levarem o homem a perceber o valor da vida comunitária o valor do bem comum entende nós nunca conseguiremos eh fazer com que o homem perceba esse valor e queira isso"
+		intervals [228]:
+			xmin = 1171.5197399999997
+			xmax = 1174.9510199999995
+			text = "quer dizer ele não chega nem a lé a a ao nível da opção"
+		intervals [229]:
+			xmin = 1174.9510199999995
+			xmax = 1175.19052
+			text = ""
+		intervals [230]:
+			xmin = 1175.19052
+			xmax = 1179.9679399999995
+			text = "quer dizer ele simplesmente fica no individualismo sem perceber os valores da da comunidade né"
+		intervals [231]:
+			xmin = 1179.9679399999995
+			xmax = 1180.8632699999998
+			text = ""
+		intervals [232]:
+			xmin = 1180.8632699999998
+			xmax = 1185.5573699999995
+			text = "aí eu situaria então a sede dos problemas da grande são paulo"
+		intervals [233]:
+			xmin = 1185.5573699999995
+			xmax = 1187.7251699999997
+			text = ""
+		intervals [234]:
+			xmin = 1187.7251699999997
+			xmax = 1188.7284
+			text = "alguma pergunta iran"
+		intervals [235]:
+			xmin = 1188.7284
+			xmax = 1189.8910399999995
+			text = ""
+		intervals [236]:
+			xmin = 1189.8910399999995
+			xmax = 1191.00634
+			text = "acho que já deu o tempo né"
+		intervals [237]:
+			xmin = 1191.00634
+			xmax = 1194.53417
+			text = ""
