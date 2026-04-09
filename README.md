@@ -2,9 +2,9 @@
 
 This repository is the result of a Master's Project investigating prosodic segmentation for Brazilian Portuguese.
 
-Inside folder "baseline approach", there is the adaptation of the method described in [Biron,2021] (https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0250969) for automatic  prosodic segmentation of spontaneous speech in Brazilian Portuguese (BP). It is a method based on heuristics that uses the duration of pauses and the difference in speech rate to determine the location of prosodic boundaries.
+Inside folder "ProsSegue-Baseline", there is the baseline approach of the research: the adaptation of the method described in [Biron,2021] (https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0250969) for automatic  prosodic segmentation of spontaneous speech in Brazilian Portuguese (BP). It is a method based on heuristics that uses the duration of pauses and the difference in speech rate to determine the location of prosodic boundaries.
 
-Inside folder "machine learning approach", lies an approach inspired by the work described in [Ananthakrishnan, 2008] (https://ieeexplore.ieee.org/abstract/document/4358088). It relies on nine acoustic features, extracted at a syllable-level, that use information about energy, fundamental frequency, duration of pauses and of nucleus vowels, to train a Random Forest classifier that determines whether there is or there is not a prosodic boundary after each syllable.  
+Inside folder "ProsSegue-ML", lies an approach inspired by the work described in [Ananthakrishnan, 2008] (https://ieeexplore.ieee.org/abstract/document/4358088). It relies on nine acoustic features, extracted at a syllable-level, that use information about energy, fundamental frequency, duration of pauses and of nucleus vowels, to train a Random Forest classifier that determines whether there is or there is not a prosodic boundary after each syllable. Inside 2025 version, there are codes related to the first experiments conducted with this research, reported at article "Machine Learning Classifiers with Acoustic Features for Prosodic Segmentation in Brazilian Portuguese: A Comprehensive Evaluation". Inside 2026 version, there are further experiments and models considering alterations made to the ProsSegue-ML 2025 versions, including the update of the forced aligner and the removal of one of the features, as well as models trained also with data from the Minimum Corpus. Those were reported at "Robustness and Diversity Evaluation on ProsSegue-ML: a Free Prosodic Segmentation Tool for Brazilian Portuguese". The files outside 2025 and 2026 version folders, were used in both versions with small or no changes to the code.
 
 ## Acknowledgments
 
@@ -12,17 +12,20 @@ First of all, we would like to thank the annotators of the TaRSila project who w
 
 ## Para citar este trabalho
 
-### Baseline approach
+### ProsSegue-Baseline (Baseline approach)
 
 > Giovana Meloni Craveiro, Vinicius Gonçalves Santos, Gabriel Jose Pellisser Dalalana, Flaviane R. Fernandes Svartman, and Sandra Maria Aluísio. 2024. Simple and Fast Automatic Prosodic Segmentation of Brazilian Portuguese Spontaneous Speech. In Proceedings of the 16th International Conference on Computational Processing of Portuguese - Vol. 1, pages 32–44, Santiago de Compostela, Galicia/Spain. Association for Computational Lingustics.
 
 > https://aclanthology.org/2024.propor-1.4/
 
-### Machine learning approach
+### ProsSegue-ML (machine learning approach )
 
-> CRAVEIRO, Giovana M.; ALVES, Caroline A.; SVARTMAN, Flaviane; ALUÍSIO, Sandra M.. Machine Learning Classifiers with Acoustic Features for Prosodic Segmentation in Brazilian Portuguese: A Comprehensive Evaluation. In: SIMPÓSIO BRASILEIRO DE TECNOLOGIA DA INFORMAÇÃO E DA LINGUAGEM HUMANA (STIL), 16. , 2025, Fortaleza/CE. Anais [...]. Porto Alegre: Sociedade Brasileira de Computação, 2025 . p. 113-124. DOI: https://doi.org/10.5753/stil.2025.37818. 
+> CRAVEIRO, Giovana M.; ALVES, Caroline A.; SVARTMAN, Flaviane; ALUÍSIO, Sandra M. Machine Learning Classifiers with Acoustic Features for Prosodic Segmentation in Brazilian Portuguese: A Comprehensive Evaluation. In: SIMPÓSIO BRASILEIRO DE TECNOLOGIA DA INFORMAÇÃO E DA LINGUAGEM HUMANA (STIL), 16. , 2025, Fortaleza/CE. Anais [...]. Porto Alegre: Sociedade Brasileira de Computação, 2025 . p. 113-124. DOI: https://doi.org/10.5753/stil.2025.37818. 
 
 > https://sol.sbc.org.br/index.php/stil/article/view/37818
+>
+> CRAVEIRO, Giovana M.; ALUÍSIO, Sandra M. Robustness and Diversity Evaluation on ProsSegue-ML: a Free Prosodic
+Segmentation Tool for Brazilian Portuguese. In: Student Research Workshop of Proceedings of the 17th International Conference on Computational Processing of Portuguese (PROPOR 2026). 2026. Association for Computational Lingustics. To appear.
 
 <img width="547" height="502" alt="image" src="https://github.com/user-attachments/assets/f247816a-e49e-4190-9ed7-d1dffb70104f" />
 
