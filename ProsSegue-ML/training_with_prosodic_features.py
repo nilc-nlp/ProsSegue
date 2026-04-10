@@ -44,8 +44,6 @@ def join_inquiries_in_single_dataset():
             print("Processing",audio_id)
             # Reading csv file with prosodic features  extracted from each syllable of the original audio
             try:
-                #df_prosodic = pd.read_csv('ExtractedProsodicFeatures/articleversion_newufpalignversion_filtered/'+audio_id+'_prosodic_features__newufpalignversion_articleversion_filtered_speakers.csv') # DELETE AFTER ALL TESTS
-                
                 # CHOOSE ONE AND COMMENT THE OTHERS
 
                 # 8 or 9 FEATURES ORIGINAL FEATURE 
@@ -90,13 +88,13 @@ def join_inquiries_in_single_dataset():
     #mupe_diversidades.to_csv('MuPe-Diversidades_newufpalign_8features_only-trainset.csv', index=False)
 
     # 8 features - new ufpalign - all mupe diversidades (can be used only for trainset too) - non filtered
-    #mupe_diversidades.to_csv('MuPe-Diversidades_newufpalign_8features_non-filtered.csv', index=False)
+    mupe_diversidades.to_csv('MuPe-Diversidades_newufpalign_8features_non-filtered.csv', index=False)
 
     # 9 features - new ufpalign - trainset - new feature
     #mupe_diversidades.to_csv('MuPe-Diversidades_newufpalign_9features_newfeature_trainset.csv', index=False) 
 
     # 9 features - new ufpalign - trainset - new feature
-    mupe_diversidades.to_csv('MuPe-Diversidades_newufpalign_9features_newfeature_trainset_nonfiltered.csv', index=False) 
+    #mupe_diversidades.to_csv('MuPe-Diversidades_newufpalign_9features_newfeature_trainset_nonfiltered.csv', index=False) 
 
     # Original version - 9 features
     #mupe_diversidades.to_csv('MuPe-Diversidades_original_9features.csv', index=False) 
@@ -167,6 +165,7 @@ X = scaler.fit_transform(X) # While some classifiers need this step, gradient bo
 seed = 42
 
 # CHECKING IF STRATIFICATION WORKED
+
 #X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, train_size=0.8, random_state=seed, shuffle=True, stratify=all_stratifications_ids) # stratify=y 
 # checking stratification # CAREFUL, here all_stratification_ids column is attributed to y so we can see what is inside
 #X_train, X_test, y_train, y_test = train_test_split(X, all_stratifications_ids, test_size=0.2, train_size=0.8, random_state=seed, shuffle=True, stratify=all_stratifications_ids) # stratify=y 
